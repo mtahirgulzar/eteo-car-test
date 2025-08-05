@@ -3690,6 +3690,10 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 200px;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .max-w-none {
   max-width: none;
 }
@@ -6372,6 +6376,12 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {

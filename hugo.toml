@@ -1,14 +1,14 @@
 # Basic Configuration
 baseURL = "/"
 languageCode = "en-us"
-title = "Your Site Title"
+title = "Eteo"
 theme = "hugo-saasify-theme"
 
 # Required Features
 pygmentsCodeFences = true  # Enable syntax highlighting
 pygmentsUseClasses = true
 enableEmoji = true        # Enable emoji support
-enableGitInfo = true      # Enable Git info for lastmod
+enableGitInfo = false     # Disable Git info for now
 
 # Required Module Configuration
 [module]
@@ -75,6 +75,12 @@ enableGitInfo = true      # Enable Git info for lastmod
       text = "Book Demo"
       url = "/demo"
 
+  # Footer Configuration
+  [params.footer]
+    column_1_title = "Info"
+    column_2_title = "Better Integration"
+    column_3_title = "Contact"
+
   # Social Media Links (optional)
   [params.social]
     linkedin = "https://linkedin.com/in/yourusername"
@@ -84,19 +90,65 @@ enableGitInfo = true      # Enable Git info for lastmod
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Features"
+    name = "Free Theory"
+    url = "/theory"
     weight = 1
-    [menu.main.params]
-      has_submenu = true
-      submenu = [
-        { name = "Feature 1", url = "/features/feature-1/" },
-        { name = "Feature 2", url = "/features/feature-2/" }
-      ]
   [[menu.main]]
-    name = "Pricing"
-    url = "/pricing"
+    name = "Contact Us"
+    url = "/contact"
     weight = 2
   [[menu.main]]
-    name = "Blog"
-    url = "/blog"
+    name = "Theory tests"
+    url = "/tests"
     weight = 3
+  [[menu.main]]
+    name = "Theory books"
+    url = "/books"
+    weight = 4
+
+# Footer Menus
+  # Footer Column 1 - Info
+  [[menu.footer_column_1]]
+    name = "Free Theory"
+    url = "/theory"
+    weight = 1
+  [[menu.footer_column_1]]
+    name = "Contact Us"
+    url = "/contact"
+    weight = 2
+  [[menu.footer_column_1]]
+    name = "Theory tests"
+    url = "/tests"
+    weight = 3
+  [[menu.footer_column_1]]
+    name = "Theory books"
+    url = "/books"
+    weight = 4
+  [[menu.footer_column_1]]
+    name = "About us"
+    url = "/about"
+    weight = 5
+
+  # Footer Column 2 - Better Integration
+  [[menu.footer_column_2]]
+    name = "South Kullerød 8"
+    url = "#"
+    weight = 1
+  [[menu.footer_column_2]]
+    name = "3241 Sandefjord"
+    url = "#"
+    weight = 2
+  [[menu.footer_column_2]]
+    name = "post@eteo.no"
+    url = "mailto:post@eteo.no"
+    weight = 3
+  [[menu.footer_column_2]]
+    name = "org. no.: 935733944"
+    url = "#"
+    weight = 4
+
+  # Footer Column 3 - Contact
+  [[menu.footer_column_3]]
+    name = "Privacy Policy"
+    url = "/privacy"
+    weight = 1
