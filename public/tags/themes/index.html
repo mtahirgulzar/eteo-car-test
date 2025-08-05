@@ -112,6 +112,7 @@
             
             <div class="hidden md:flex items-center space-x-8">
                 <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
                 <a href="/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
                 <a href="/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
                 <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
@@ -131,6 +132,7 @@
     <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
         <div class="px-4 py-4 space-y-3">
             <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
             <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
             <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
             <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
@@ -149,7 +151,7 @@
 </script>
 
     
-    <main>
+    <main class="overflow-x-hidden">
         
 <div class="bg-gradient-to-b from-gray-50 to-white py-16">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -157,31 +159,31 @@
             <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Themes</h1>
             
             <div class="flex flex-wrap justify-center gap-3">
-                }
+                
                     <a href="/categories/content/" 
                        class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
                               bg-white text-primary-600 border border-primary-100 hover:bg-primary-50">
                         Content
                     </a>
-                }
+                
                     <a href="/categories/deployment/" 
                        class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
                               bg-white text-primary-600 border border-primary-100 hover:bg-primary-50">
                         Deployment
                     </a>
-                }
+                
                     <a href="/categories/development/" 
                        class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
                               bg-white text-primary-600 border border-primary-100 hover:bg-primary-50">
                         Development
                     </a>
-                }
+                
                     <a href="/categories/performance/" 
                        class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
                               bg-white text-primary-600 border border-primary-100 hover:bg-primary-50">
                         Performance
                     </a>
-                }
+                
                     <a href="/categories/tutorials/" 
                        class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
                               bg-white text-primary-600 border border-primary-100 hover:bg-primary-50">
@@ -263,134 +265,41 @@
     </main>
     
     
-<footer class="bg-gray-900 text-white pt-16 pb-8">
+<footer class="bg-gray-900 text-white py-8">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-3 gap-8 mb-8">
-            
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
             <div>
-                <div class="flex items-center mb-4">
-                    <a href="//localhost:1313/" class="flex items-center">
-                        
-                            <img src="/images/logo.svg" alt="Eteo" class="h-10 w-auto">
-                        
-                    </a>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
                 </div>
-                <p class="text-gray-400 text-sm mb-6">
-                    Your site description
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
                 </p>
-                <div class="flex space-x-4">
-                    
-                    
-                    <a href="https://twitter.com/yourusername" class="text-gray-400 hover:text-white transition-colors duration-200">
-                        <span class="sr-only">Twitter</span>
-                        <i class="bi bi-twitter-x text-xl"></i>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
                     </a>
-                    
-                    
-                    
-                    <a href="https://linkedin.com/in/yourusername" class="text-gray-400 hover:text-white transition-colors duration-200">
-                        <span class="sr-only">LinkedIn</span>
-                        <i class="bi bi-linkedin text-xl"></i>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
                     </a>
-                    
                 </div>
-            </div>
-
-            
-            <div>
-                <h3 class="text-sm font-semibold text-white uppercase tracking-wider mb-4">Hurtiglenker</h3>
-                <ul class="space-y-3">
-                    
-                        <li>
-                            <a href="/theory" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                                Free Theory
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="/contact" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                                Contact Us
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="/tests" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                                Theory tests
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="/books" class="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                                Theory books
-                            </a>
-                        </li>
-                    
-                </ul>
-            </div>
-
-            
-            <div>
-                <h3 class="text-sm font-semibold text-white uppercase tracking-wider mb-4">Kontakt oss</h3>
-                <ul class="space-y-3">
-                    
-                    
-                    
-                </ul>
-            </div>
-
-            
-            <div class="flex-1">
-                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-900 mb-4">Better Integration</h3>
-                <ul class="space-y-2">
-                    
-                        <li>
-                            
-                                <span class="text-gray-600 text-sm">South Kullerød 8</span>
-                            
-                        </li>
-                    
-                        <li>
-                            
-                                <span class="text-gray-600 text-sm">3241 Sandefjord</span>
-                            
-                        </li>
-                    
-                        <li>
-                            
-                                <a href="mailto:post@eteo.no" class="text-gray-600 hover:text-primary-600 text-sm">post@eteo.no</a>
-                            
-                        </li>
-                    
-                        <li>
-                            
-                                <span class="text-gray-600 text-sm">org. no.: 935733944</span>
-                            
-                        </li>
-                    
-                </ul>
-            </div>
-
-            
-            <div class="flex-1">
-                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-900 mb-4">Contact</h3>
-                <ul class="space-y-2">
-                    
-                        <li><a href="/privacy" class="text-gray-600 hover:text-primary-600 text-sm">Privacy Policy</a></li>
-                    
-                </ul>
             </div>
         </div>
 
-        
-        <div class="border-t border-gray-800 pt-8 mt-8">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-500 text-sm text-center md:text-left mb-4 md:mb-0">
-                    &copy; 2025 Eteo. Alle rettigheter reservert.
-                </p>
-                <div class="flex flex-wrap justify-center space-x-6">
-                    
-                </div>
-            </div>
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
         </div>
     </div>
 </footer>
