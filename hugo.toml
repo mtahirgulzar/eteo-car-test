@@ -19,19 +19,21 @@ enableGitInfo = false     # Disable Git info for now
 # Required Build Configuration
 [build]
   writeStats = true      # Required for TailwindCSS
-
-# Required Markup Configuration
+  
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     noClasses = false
     lineNos = true
     codeFences = true
-  [markup.goldmark.renderer]
-    unsafe = true       # Allow HTML in markdown
   [markup.tableOfContents]
     endLevel = 3
     ordered = false
     startLevel = 2
+
+
 
 # Theme Parameters
 [params]
