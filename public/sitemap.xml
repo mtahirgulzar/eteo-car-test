@@ -106,13 +106,19 @@
   </url><url>
     <loc>//localhost:1313/company/</loc>
   </url><url>
+    <loc>//localhost:1313/android-app/</loc>
+  </url><url>
     <loc>//localhost:1313/features/design-system/</loc>
   </url><url>
     <loc>//localhost:1313/features/developer-experience/</loc>
   </url><url>
     <loc>//localhost:1313/features/</loc>
   </url><url>
+    <loc>//localhost:1313/iphone-app/</loc>
+  </url><url>
     <loc>//localhost:1313/careers/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
   </url><url>
     <loc>//localhost:1313/license/</loc>
   </url><url>

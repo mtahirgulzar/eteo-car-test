@@ -1,0 +1,54 @@
+{{ $site := .Site }}
+<!-- Navbar -->
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="{{ $site.BaseURL }}" class="flex items-center space-x-2">
+                    {{ with $site.Params.header.logo }}
+                        <img src="{{ .src | relURL }}" alt="{{ $site.Title }}" class="{{ with .class }}{{ . }}{{ else }}h-8{{ end }}">
+                    {{ else }}
+                        <i class="bi bi-mortarboard-fill text-3xl text-blue-600"></i>
+                    {{ end }}
+                    <!-- Site title removed -->
+                </a>
+            </div>
+
+            <!-- Desktop menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>

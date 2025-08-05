@@ -1,0 +1,228 @@
+{{ define "main" }}
+<div class="bg-gradient-to-br from-blue-50 via-white to-purple-50 min-h-screen">
+    <!-- Hero Section -->
+    <section class="relative pt-24 pb-16 overflow-hidden">
+        <!-- Animated background shapes -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+            <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Content -->
+                <div class="animate-fade-in">
+                    <div class="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full text-blue-800 text-sm font-medium mb-6">
+                        <i class="bi bi-phone mr-2"></i>
+                        {{ if eq .Title "iPhone App - Øv til teoriprøven" }}
+                            iOS App
+                        {{ else }}
+                            Android App
+                        {{ end }}
+                    </div>
+                    
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        {{ .Title | markdownify }}
+                    </h1>
+                    
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        {{ .Description }}
+                    </p>
+
+                    <!-- Download Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        {{ if eq .Title "iPhone App - Øv til teoriprøven" }}
+                        <a href="#" class="inline-flex items-center justify-center px-8 py-4 bg-black text-white rounded-xl font-semibold hover:bg-gray-800 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg">
+                            <i class="bi bi-apple mr-3 text-2xl"></i>
+                            <div class="text-left">
+                                <div class="text-xs">Last ned på</div>
+                                <div class="text-lg font-bold">App Store</div>
+                            </div>
+                        </a>
+                        {{ else }}
+                        <a href="#" class="inline-flex items-center justify-center px-8 py-4 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg">
+                            <i class="bi bi-google-play mr-3 text-2xl"></i>
+                            <div class="text-left">
+                                <div class="text-xs">Få det på</div>
+                                <div class="text-lg font-bold">Google Play</div>
+                            </div>
+                        </a>
+                        {{ end }}
+                        
+                        <button class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
+                            <i class="bi bi-play-circle mr-2"></i>
+                            Se demo
+                        </button>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600">50K+</div>
+                            <div class="text-sm text-gray-600">Nedlastninger</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600">4.8★</div>
+                            <div class="text-sm text-gray-600">Vurdering</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600">95%</div>
+                            <div class="text-sm text-gray-600">Bestått</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Mockup -->
+                <div class="relative animate-fade-in" style="animation-delay: 0.3s;">
+                    <div class="relative mx-auto w-80 h-96 bg-gray-900 rounded-3xl p-2 shadow-2xl">
+                        <div class="w-full h-full bg-white rounded-2xl overflow-hidden">
+                            <div class="bg-gradient-to-br from-blue-500 to-purple-600 h-full flex items-center justify-center">
+                                <div class="text-center text-white">
+                                    <i class="bi bi-mortarboard-fill text-6xl mb-4"></i>
+                                    <div class="text-2xl font-bold">Eteo</div>
+                                    <div class="text-sm opacity-80">Teoriprøve App</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Floating elements -->
+                    <div class="absolute -top-4 -right-4 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                        <i class="bi bi-star-fill text-white text-xl"></i>
+                    </div>
+                    <div class="absolute -bottom-4 -left-4 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                        <i class="bi bi-check text-white text-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="prose prose-lg max-w-none">
+                {{ .Content }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Kraftige funksjoner for optimal læring
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Vår app er designet for å gi deg den beste opplevelsen og høyest mulig sannsynlighet for å bestå på første forsøk.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-clipboard-check text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Realistiske tester</h3>
+                    <p class="text-gray-600 text-sm">Øv på tester som er identiske med den offisielle prøven</p>
+                </div>
+
+                <div class="text-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-graph-up text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Fremgangssporing</h3>
+                    <p class="text-gray-600 text-sm">Se din utvikling og identifiser områder for forbedring</p>
+                </div>
+
+                <div class="text-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-book text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Komplett teori</h3>
+                    <p class="text-gray-600 text-sm">Alt du trenger å vite for å bestå teoriprøven</p>
+                </div>
+
+                <div class="text-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-wifi-off text-2xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Offline tilgang</h3>
+                    <p class="text-gray-600 text-sm">Øv hvor som helst, når som helst, uten internett</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                Klar til å starte?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8">
+                Last ned appen i dag og begynn din reise mot å bestå teoriprøven!
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                {{ if eq .Title "iPhone App - Øv til teoriprøven" }}
+                <a href="#" class="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg">
+                    <i class="bi bi-apple mr-3 text-2xl"></i>
+                    <div class="text-left">
+                        <div class="text-xs">Last ned på</div>
+                        <div class="text-lg font-bold">App Store</div>
+                    </div>
+                </a>
+                {{ else }}
+                <a href="#" class="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg">
+                    <i class="bi bi-google-play mr-3 text-2xl"></i>
+                    <div class="text-left">
+                        <div class="text-xs">Få det på</div>
+                        <div class="text-lg font-bold">Google Play</div>
+                    </div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+</div>
+
+<style>
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .animate-fade-in {
+        animation: fadeIn 0.8s ease-out forwards;
+    }
+    
+    .prose table {
+        width: 100%;
+        margin: 2rem 0;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .prose th {
+        background: #f8fafc;
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+        color: #374151;
+        border-bottom: 1px solid #e5e7eb;
+    }
+    
+    .prose td {
+        padding: 1rem;
+        border-bottom: 1px solid #f3f4f6;
+    }
+    
+    .prose tr:last-child td {
+        border-bottom: none;
+    }
+</style>
+{{ end }}

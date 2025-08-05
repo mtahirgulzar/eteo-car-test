@@ -1,21 +1,23 @@
 ---
-title: Home
-description: "Gratis teoriprøver for bil. Øv til teorien med samme prøver som statens vegvesen. Her lærer du alt du trenger å kunne for å bestå teoriprøven for klasse B og hvordan du skal forberede deg til å ta lappen."
-image: "/images/eteo_social_image.svg"
-robots: "index, follow"
-testimonials:
-  - name: "Emma Johnson"
-    title: "Passed on First Try"
-    avatar: "/images/testimonial-1.svg"
-    quote: "I passed my theory test on the first attempt thanks to this platform. The questions were exactly like the real exam!"
-  - name: "Marcus Anderson"
-    title: "Driving Instructor"
-    avatar: "/images/testimonial-1.svg"
-    quote: "I recommend this to all my students. The explanations are clear and the statistics help track progress perfectly."
-  - name: "Lisa Chen"
-    title: "New Driver"
-    avatar: "/images/testimonial-1.svg"
-    quote: "The app made it so convenient to practice anywhere. I could study during my commute and lunch breaks."
+title: "Bestå teoriprøven for bil med Eteo"
+description: "Over 1000 spørsmål for klasse B. Vi garanterer at du består - eller pengene tilbake!"
+keywords: ["teoriprøve", "bil", "klasse B", "førerkort", "Norge", "Eteo"]
+canonical: "https://eteo.no/"
+
+# Open Graph / Facebook
+og_title: "Bestå teoriprøven for bil med Eteo"
+og_description: "Over 1000 spørsmål for klasse B. Vi garanterer at du består - eller pengene tilbake!"
+og_image: "/images/eteo-og-image.jpg"
+og_url: "https://eteo.no/"
+og_type: "website"
+
+# Twitter Card
+twitter_card: "summary_large_image"
+twitter_title: "Bestå teoriprøven for bil med Eteo"
+twitter_description: "Over 1000 spørsmål for klasse B. Vi garanterer at du består - eller pengene tilbake!"
+twitter_image: "/images/eteo-twitter-image.jpg"
+
+layout: "modern-homepage"
 ---
 
 {{< hero 

@@ -20,6 +20,10 @@ enableGitInfo = false     # Disable Git info for now
 [build]
   writeStats = true      # Required for TailwindCSS
   
+# Disable PostCSS processing
+[params.assets]
+  disablePostCSS = true
+  
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
