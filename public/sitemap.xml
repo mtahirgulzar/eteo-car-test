@@ -106,7 +106,7 @@
   </url><url>
     <loc>//localhost:1313/company/</loc>
   </url><url>
-    <loc>//localhost:1313/android-app/</loc>
+    <loc>//localhost:1313/pages/android-app/</loc>
   </url><url>
     <loc>//localhost:1313/features/design-system/</loc>
   </url><url>
@@ -114,7 +114,7 @@
   </url><url>
     <loc>//localhost:1313/features/</loc>
   </url><url>
-    <loc>//localhost:1313/iphone-app/</loc>
+    <loc>//localhost:1313/pages/iphone-app/</loc>
   </url><url>
     <loc>//localhost:1313/careers/</loc>
   </url><url>
@@ -123,6 +123,8 @@
     <loc>//localhost:1313/license/</loc>
   </url><url>
     <loc>//localhost:1313/features/performance/</loc>
+  </url><url>
+    <loc>//localhost:1313/pages/</loc>
   </url><url>
     <loc>//localhost:1313/pricing/</loc>
   </url><url>

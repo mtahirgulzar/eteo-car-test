@@ -15,8 +15,7 @@ Vi svarer gjerne på alle henvendelser og hjelper deg med å komme i gang med ø
 
 ### Kontaktinformasjon
 
-- **E-post:** support@eteo.no
-- **Telefon:** +47 123 45 678
+- **E-post:** post@eteo.no 
 - **Adresse:** Testveien 123, 0123 Oslo
 
 ### Åpningstider
@@ -43,6 +42,4 @@ Ja, når du har lastet ned innholdet kan du øve uten internettforbindelse.
 
 Ja, vi oppdaterer kontinuerlig våre spørsmål og teorimateriale i tråd med Statens vegvesen sine krav.
 
-## Send oss en melding
 
-Fyll ut skjemaet under så tar vi kontakt med deg så snart som mulig.
