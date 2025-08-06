@@ -1,0 +1,143 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50">
+    Aktivt sikkerhetsutstyr - Forebygger ulykker
+  </text>
+  
+  <!-- Car top view -->
+  <g transform="translate(150, 80)">
+    <!-- Car body -->
+    <rect x="150" y="100" width="200" height="300" fill="#ecf0f1" stroke="#34495e" stroke-width="3" rx="30"/>
+    <!-- Windshield -->
+    <rect x="170" y="100" width="160" height="20" fill="#d5dbdb" stroke="#34495e" stroke-width="2" rx="10"/>
+    <!-- Rear window -->
+    <rect x="170" y="380" width="160" height="20" fill="#d5dbdb" stroke="#34495e" stroke-width="2" rx="10"/>
+    
+    <!-- Wheels -->
+    <rect x="130" y="130" width="20" height="40" fill="#2c3e50" rx="10"/>
+    <rect x="350" y="130" width="20" height="40" fill="#2c3e50" rx="10"/>
+    <rect x="130" y="330" width="20" height="40" fill="#2c3e50" rx="10"/>
+    <rect x="350" y="330" width="20" height="40" fill="#2c3e50" rx="10"/>
+  </g>
+  
+  <!-- Sensors and systems -->
+  <g>
+    <!-- Front radar -->
+    <circle cx="400" cy="170" r="12" fill="#e74c3c"/>
+    <text x="400" y="175" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">R</text>
+    <path d="M400 158 Q385 140 370 122 Q400 135 430 122 Q415 140 400 158" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    <text x="400" y="110" text-anchor="middle" font-family="Arial" font-size="10" fill="#e74c3c">Radar/Lidar</text>
+    <text x="400" y="125" text-anchor="middle" font-family="Arial" font-size="9" fill="#e74c3c">ACC &amp; Autobrems</text>
+    
+    <!-- Camera -->
+    <rect x="395" y="175" width="10" height="8" fill="#3498db" rx="2"/>
+    <circle cx="400" cy="179" r="2" fill="#fff"/>
+    <text x="430" y="185" font-family="Arial" font-size="10" fill="#3498db">Kamera</text>
+    <text x="430" y="198" font-family="Arial" font-size="9" fill="#3498db">Fildeteksjon</text>
+    
+    <!-- Side sensors -->
+    <circle cx="310" cy="230" r="8" fill="#f39c12"/>
+    <text x="310" y="235" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="white">S</text>
+    <circle cx="490" cy="230" r="8" fill="#f39c12"/>
+    <text x="490" y="235" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="white">S</text>
+    <text x="280" y="220" font-family="Arial" font-size="9" fill="#f39c12">Blindsone</text>
+    <text x="460" y="220" font-family="Arial" font-size="9" fill="#f39c12">Blindsone</text>
+    
+    <!-- Wheel sensors -->
+    <circle cx="300" cy="310" r="6" fill="#9b59b6"/>
+    <circle cx="500" cy="310" r="6" fill="#9b59b6"/>
+    <circle cx="300" cy="410" r="6" fill="#9b59b6"/>
+    <circle cx="500" cy="410" r="6" fill="#9b59b6"/>
+    <text x="400" y="445" text-anchor="middle" font-family="Arial" font-size="10" fill="#9b59b6">ABS/ESC sensorer</text>
+    
+    <!-- Rear sensors -->
+    <circle cx="380" cy="490" r="8" fill="#1abc9c"/>
+    <circle cx="400" cy="490" r="8" fill="#1abc9c"/>
+    <circle cx="420" cy="490" r="8" fill="#1abc9c"/>
+    <text x="400" y="510" text-anchor="middle" font-family="Arial" font-size="10" fill="#1abc9c">Parkeringsensorer</text>
+  </g>
+  
+  <!-- Detection zones -->
+  <g opacity="0.3">
+    <!-- Front detection zone -->
+    <path d="M400 180 L350 50 L450 50 Z" fill="#e74c3c"/>
+    
+    <!-- Side detection zones -->
+    <ellipse cx="290" cy="230" rx="40" ry="20" fill="#f39c12"/>
+    <ellipse cx="510" cy="230" rx="40" ry="20" fill="#f39c12"/>
+    
+    <!-- Rear detection zone -->
+    <path d="M380 490 L360 520 L440 520 L420 490 Z" fill="#1abc9c"/>
+  </g>
+  
+  <!-- System labels and functions -->
+  <g transform="translate(50, 300)">
+    <rect x="0" y="0" width="700" height="280" fill="#fff" stroke="#bdc3c7" stroke-width="1" rx="10"/>
+    <text x="350" y="25" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#2c3e50">
+      Aktive sikkerhetssystemer og deres funksjoner
+    </text>
+    
+    <!-- System descriptions -->
+    <g transform="translate(20, 40)">
+      <!-- ABS/ESC -->
+      <circle cx="15" cy="15" r="10" fill="#9b59b6"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">ABS</text>
+      <text x="35" y="20" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">ABS/ESC System</text>
+      <text x="35" y="35" font-family="Arial" font-size="10" fill="#2c3e50">• Forhindrer hjullåsning under bremsing</text>
+      <text x="35" y="48" font-family="Arial" font-size="10" fill="#2c3e50">• Stabilitetskontroll mot skli og understyring</text>
+      <text x="35" y="61" font-family="Arial" font-size="10" fill="#2c3e50">• Bremser individuelle hjul ved behov</text>
+      
+      <!-- Collision avoidance -->
+      <circle cx="365" cy="15" r="10" fill="#e74c3c"/>
+      <text x="365" y="20" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">CA</text>
+      <text x="385" y="20" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">Kollisjonsvarsling</text>
+      <text x="385" y="35" font-family="Arial" font-size="10" fill="#2c3e50">• Radar/lidar måler avstand til objekter</text>
+      <text x="385" y="48" font-family="Arial" font-size="10" fill="#2c3e50">• Varsler føreren om kollisjonsfare</text>
+      <text x="385" y="61" font-family="Arial" font-size="10" fill="#2c3e50">• Automatisk nødbremsing hvis nødvendig</text>
+      
+      <!-- Lane assistance -->
+      <rect x="10" y="85" width="20" height="10" fill="#3498db" rx="2"/>
+      <line x1="15" y1="90" x2="25" y2="90" stroke="#fff" stroke-width="2"/>
+      <text x="40" y="95" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">Filassistanse</text>
+      <text x="40" y="110" font-family="Arial" font-size="10" fill="#2c3e50">• Kamera registrerer kjørebanemarkeringer</text>
+      <text x="40" y="123" font-family="Arial" font-size="10" fill="#2c3e50">• Varsler ved utilsiktet filskifte</text>
+      <text x="40" y="136" font-family="Arial" font-size="10" fill="#2c3e50">• Kan aktivt holde bilen i kjørefeltet</text>
+      
+      <!-- Blind spot -->
+      <circle cx="375" cy="90" r="10" fill="#f39c12"/>
+      <text x="375" y="95" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">BS</text>
+      <text x="395" y="95" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">Blindsonevarsling</text>
+      <text x="395" y="110" font-family="Arial" font-size="10" fill="#2c3e50">• Radarsensorer i bilens sider</text>
+      <text x="395" y="123" font-family="Arial" font-size="10" fill="#2c3e50">• Detekterer kjøretøy i blindsonen</text>
+      <text x="395" y="136" font-family="Arial" font-size="10" fill="#2c3e50">• Varsellys i sidespeil</text>
+      
+      <!-- Parking assistance -->
+      <circle cx="15" cy="165" r="10" fill="#1abc9c"/>
+      <text x="15" y="170" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">P</text>
+      <text x="35" y="170" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">Parkeringsassistanse</text>
+      <text x="35" y="185" font-family="Arial" font-size="10" fill="#2c3e50">• Ultralydsensorer måler avstander</text>
+      <text x="35" y="198" font-family="Arial" font-size="10" fill="#2c3e50">• Ryggekamera gir visuell støtte</text>
+      <text x="35" y="211" font-family="Arial" font-size="10" fill="#2c3e50">• Automatisk parkering i enkelte biler</text>
+      
+      <!-- Adaptive cruise control -->
+      <rect x="365" y="160" width="20" height="10" fill="#27ae60" rx="2"/>
+      <text x="375" y="168" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="white">ACC</text>
+      <text x="395" y="170" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">Adaptiv Cruisekontroll</text>
+      <text x="395" y="185" font-family="Arial" font-size="10" fill="#2c3e50">• Holder automatisk sikker avstand</text>
+      <text x="395" y="198" font-family="Arial" font-size="10" fill="#2c3e50">• Tilpasser hastighet til trafikken</text>
+      <text x="395" y="211" font-family="Arial" font-size="10" fill="#2c3e50">• Stop &amp; Go funksjon i kø</text>
+    </g>
+    
+    <!-- Summary -->
+    <text x="350" y="250" text-anchor="middle" font-family="Arial" font-size="12" font-style="italic" fill="#7f8c8d">
+      Aktive systemer overvåker kontinuerlig og griper inn for å forhindre ulykker
+    </text>
+    
+    <text x="350" y="268" text-anchor="middle" font-family="Arial" font-size="11" fill="#7f8c8d">
+      Disse systemene krever at føreren forblir oppmerksom og klar til å overta kontrollen
+    </text>
+  </g>
+</svg>

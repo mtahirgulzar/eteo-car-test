@@ -1,0 +1,109 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#f8f9fa"/>
+  
+  <!-- Road surface -->
+  <rect x="0" y="120" width="800" height="80" fill="#4a5568"/>
+  
+  <!-- Road edges -->
+  <rect x="0" y="110" width="800" height="4" fill="#ffd700"/>
+  <rect x="0" y="200" width="800" height="4" fill="#ffd700"/>
+  
+  <!-- Dashed center line (overtaking allowed) -->
+  <g stroke="#ffd700" stroke-width="3" fill="#ffd700">
+    <rect x="40" y="158" width="20" height="3"/>
+    <rect x="80" y="158" width="20" height="3"/>
+    <rect x="120" y="158" width="20" height="3"/>
+    <rect x="160" y="158" width="20" height="3"/>
+    <rect x="200" y="158" width="20" height="3"/>
+    <rect x="240" y="158" width="20" height="3"/>
+    <rect x="280" y="158" width="20" height="3"/>
+    <rect x="320" y="158" width="20" height="3"/>
+    <rect x="360" y="158" width="20" height="3"/>
+    <rect x="400" y="158" width="20" height="3"/>
+    <rect x="440" y="158" width="20" height="3"/>
+    <rect x="480" y="158" width="20" height="3"/>
+    <rect x="520" y="158" width="20" height="3"/>
+    <rect x="560" y="158" width="20" height="3"/>
+    <rect x="600" y="158" width="20" height="3"/>
+    <rect x="640" y="158" width="20" height="3"/>
+    <rect x="680" y="158" width="20" height="3"/>
+    <rect x="720" y="158" width="20" height="3"/>
+  </g>
+  
+  <!-- Car performing legal overtaking -->
+  <g id="overtaking-car">
+    <rect x="320" y="130" width="50" height="20" rx="4" fill="#e53e3e"/>
+    <rect x="324" y="134" width="42" height="12" rx="2" fill="#bee3f8"/>
+    <circle cx="330" cy="156" r="4" fill="#2d3748"/>
+    <circle cx="360" cy="156" r="4" fill="#2d3748"/>
+    <!-- Turn signal -->
+    <polygon points="370,138 378,142 370,146" fill="#ffd700"/>
+  </g>
+  
+  <!-- Slower car being overtaken -->
+  <g id="slower-car">
+    <rect x="200" y="165" width="50" height="20" rx="4" fill="#4299e1"/>
+    <rect x="204" y="169" width="42" height="12" rx="2" fill="#bee3f8"/>
+    <circle cx="210" cy="191" r="4" fill="#2d3748"/>
+    <circle cx="240" cy="191" r="4" fill="#2d3748"/>
+  </g>
+  
+  <!-- Oncoming car at safe distance -->
+  <g id="oncoming-car">
+    <rect x="600" y="130" width="45" height="18" rx="3" fill="#38a169"/>
+    <rect x="603" y="133" width="39" height="12" rx="2" fill="#bee3f8"/>
+    <circle cx="610" cy="153" r="4" fill="#2d3748"/>
+    <circle cx="635" cy="153" r="4" fill="#2d3748"/>
+  </g>
+  
+  <!-- Distance measurement -->
+  <g stroke="#2b6cb0" stroke-width="2" fill="#2b6cb0">
+    <path d="M 380 110 L 590 110" stroke-dasharray="3,3"/>
+    <polygon points="590,107 600,110 590,113" fill="#2b6cb0"/>
+    <polygon points="390,107 380,110 390,113" fill="#2b6cb0"/>
+    <text x="485" y="105" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">≥ 400m fri sikt</text>
+  </g>
+  
+  <!-- Motion arrows -->
+  <g stroke="#e53e3e" stroke-width="2" opacity="0.7">
+    <path d="M 280 140 Q 300 135 320 140" fill="none"/>
+    <polygon points="320,137 330,140 320,143" fill="#e53e3e"/>
+  </g>
+  
+  <!-- Speed indicators -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+    <text x="345" y="125" text-anchor="middle" font-weight="bold">80 km/t</text>
+    <text x="225" y="215" text-anchor="middle" font-weight="bold">60 km/t</text>
+    <text x="623" y="125" text-anchor="middle" font-weight="bold">80 km/t</text>
+  </g>
+  
+  <!-- Checkmarks for legal conditions -->
+  <g fill="#38a169" font-family="Arial, sans-serif" font-size="12">
+    <circle cx="100" cy="50" r="15" fill="#38a169"/>
+    <path d="M 93 50 L 97 54 L 107 44" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <text x="125" y="55" fill="#2d3748">Brutt midtlinje - forbikjøring tillatt</text>
+    
+    <circle cx="100" cy="80" r="15" fill="#38a169"/>
+    <path d="M 93 80 L 97 84 L 107 74" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <text x="125" y="85" fill="#2d3748">Tilstrekkelig fri sikt fremover</text>
+    
+    <circle cx="450" cy="50" r="15" fill="#38a169"/>
+    <path d="M 443 50 L 447 54 L 457 44" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <text x="475" y="55" fill="#2d3748">Ingen møtende trafikk</text>
+    
+    <circle cx="450" cy="80" r="15" fill="#38a169"/>
+    <path d="M 443 80 L 447 84 L 457 74" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <text x="475" y="85" fill="#2d3748">Betydelig hastighetsforskjell</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2d3748">
+    Tillatte forbikjøringssituasjoner
+  </text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    Forbikjøring er kun tillatt når alle sikkerhetsbetingelser er oppfylt
+  </text>
+</svg>

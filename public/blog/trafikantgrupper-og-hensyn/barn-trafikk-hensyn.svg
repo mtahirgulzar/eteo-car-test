@@ -1,0 +1,155 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fffbeb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef3c7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#d97706">
+    Barn i trafikken - Særlige hensyn
+  </text>
+  
+  <!-- Road with school zone -->
+  <rect x="100" y="400" width="600" height="120" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  <rect x="100" y="455" width="600" height="5" fill="#fbbf24"/>
+  
+  <!-- School zone sign -->
+  <rect x="120" y="350" width="80" height="60" rx="5" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+  <text x="160" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    SKOLE
+  </text>
+  <text x="160" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    30
+  </text>
+  <text x="160" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    km/t
+  </text>
+  
+  <!-- Car -->
+  <rect x="300" y="430" width="80" height="40" rx="5" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="320" cy="480" r="8" fill="#374151"/>
+  <circle cx="360" cy="480" r="8" fill="#374151"/>
+  <rect x="310" y="435" width="60" height="25" rx="3" fill="#bfdbfe"/>
+  
+  <!-- Child with ball -->
+  <circle cx="550" cy="380" r="10" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="545" y="390" width="10" height="20" rx="5" fill="#f59e0b"/>
+  <line x1="540" y1="395" x2="560" y2="395" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="548" y1="410" x2="545" y2="425" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="552" y1="410" x2="555" y2="425" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Ball -->
+  <circle cx="580" cy="370" r="8" fill="#ef4444" stroke="#dc2626" stroke-width="1"/>
+  
+  <!-- Danger arrow -->
+  <polygon points="520,360 500,350 500,370" fill="#ef4444"/>
+  <text x="480" y="365" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ef4444">
+    FARE!
+  </text>
+  
+  <!-- Key risk factors -->
+  <rect x="50" y="80" width="170" height="120" rx="8" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+  <text x="135" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    IMPULSIV ATFERD
+  </text>
+  <text x="135" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Kan plutselig springe
+  </text>
+  <text x="135" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    ut i veien etter
+  </text>
+  <text x="135" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    ball eller leker
+  </text>
+  <text x="135" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Ingen risikoforståelse
+  </text>
+  
+  <rect x="240" y="80" width="170" height="120" rx="8" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+  <text x="325" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    BEGRENSET SIKT
+  </text>
+  <text x="325" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Lavere kroppshøyde
+  </text>
+  <text x="325" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    gir dårligere oversikt
+  </text>
+  <text x="325" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Ser ikke over parkerte
+  </text>
+  <text x="325" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    biler
+  </text>
+  
+  <rect x="430" y="80" width="170" height="120" rx="8" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+  <text x="515" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    KONSENTRASJON
+  </text>
+  <text x="515" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Lett distrahert av
+  </text>
+  <text x="515" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    lek og andre
+  </text>
+  <text x="515" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    aktiviteter
+  </text>
+  <text x="515" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Glemmer trafikkregler
+  </text>
+  
+  <rect x="620" y="80" width="170" height="120" rx="8" fill="#10b981" stroke="#059669" stroke-width="2"/>
+  <text x="705" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    RISIKOFORSTÅELSE
+  </text>
+  <text x="705" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Forstår ikke hastighet
+  </text>
+  <text x="705" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    og bremselengde
+  </text>
+  <text x="705" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Tror biler kan stoppe
+  </text>
+  <text x="705" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    umiddelbart
+  </text>
+  
+  <!-- Time-based risk -->
+  <rect x="200" y="230" width="400" height="100" rx="8" fill="#fecaca" stroke="#f87171" stroke-width="2"/>
+  <text x="400" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7f1d1d">
+    Høyrisiko tidspunkter
+  </text>
+  <text x="280" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">
+    Morgen (07:30-09:00):
+  </text>
+  <text x="280" y="290" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    • På vei til skole
+  </text>
+  <text x="280" y="305" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    • Kan være sent ute
+  </text>
+  
+  <text x="480" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">
+    Ettermiddag (13:00-16:00):
+  </text>
+  <text x="480" y="290" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    • På vei hjem fra skole
+  </text>
+  <text x="480" y="305" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    • Lek og fritidsaktiviteter
+  </text>
+  
+  <!-- Legal requirements -->
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">
+    Juridiske krav: Vegtrafikkloven §43 - Maksimalt 30 km/t i skoleveier
+  </text>
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">
+    Økt politikontroll og fartshumper i skoleområder
+  </text>
+</svg>

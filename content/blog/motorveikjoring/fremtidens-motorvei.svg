@@ -1,0 +1,115 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #1a1a2e; }
+    .road {
+      fill: #333;
+      stroke: #555;
+      stroke-width: 2;
+    }
+    .line {
+      stroke: #00ffff;
+      stroke-width: 2;
+      stroke-dasharray: 25 15;
+      opacity: 0.7;
+    }
+    .autonomous-lane-bg {
+        fill: rgba(0, 255, 255, 0.1);
+    }
+    .car-body {
+      fill: #f0f0f0;
+      stroke: #00ffff;
+      stroke-width: 1;
+    }
+    .car-window {
+      fill: #1a1a2e;
+    }
+    .text {
+      font-family: 'Orbitron', sans-serif;
+      fill: #e0e0e0;
+      text-anchor: middle;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      fill: #00ffff;
+    }
+    .label {
+      font-size: 14px;
+    }
+    .icon {
+        font-family: sans-serif;
+        font-size: 12px;
+        fill: #00ffff;
+        text-anchor: middle;
+    }
+    .connection-line {
+        stroke: #ffc107;
+        stroke-width: 2;
+        stroke-dasharray: 5 5;
+        opacity: 0.8;
+    }
+  </style>
+    <defs>
+        <linearGradient id="roadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#4a4a6a;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#2a2a4a;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+  <rect class="bg" width="800" height="600" />
+
+  <!-- Title -->
+  <text x="400" y="60" class="text title">FREMTIDENS MOTORVEI</text>
+
+  <!-- Road -->
+  <path class="road" d="M 0 200 L 800 150 V 550 L 0 500 Z" fill="url(#roadGradient)"/>
+  <line class="line" x1="0" y1="350" x2="800" y2="325"/>
+  
+  <!-- Autonomous Lane -->
+  <path class="autonomous-lane-bg" d="M 0 500 L 800 475 V 550 L 0 500 Z"/>
+  <text x="400" y="520" class="text label" fill="#00ffff">AUTONOME KJØREFELTER</text>
+
+  <!-- Cars -->
+  <!-- Car 1 (V2V) -->
+  <g transform="translate(100, 250)">
+    <rect class="car-body" width="100" height="40" rx="15"/>
+    <rect class="car-window" x="10" y="5" width="80" height="30" rx="10"/>
+    <text class="icon" x="50" y="-10">V2V</text>
+  </g>
+
+  <!-- Car 2 (V2V) -->
+  <g transform="translate(350, 230)">
+    <rect class="car-body" width="100" height="40" rx="15"/>
+    <rect class="car-window" x="10" y="5" width="80" height="30" rx="10"/>
+    <text class="icon" x="50" y="-10">V2V</text>
+  </g>
+  
+  <!-- V2V Connection -->
+  <line class="connection-line" x1="150" y1="250" x2="400" y2="230"/>
+
+  <!-- Car 3 (ACC & LCA) -->
+  <g transform="translate(550, 360)">
+    <rect class="car-body" width="100" height="40" rx="15"/>
+    <rect class="car-window" x="10" y="5" width="80" height="30" rx="10"/>
+    <text class="icon" x="30" y="-10">ACC</text>
+    <text class="icon" x="70" y="-10">LCA</text>
+  </g>
+  
+  <!-- Car 4 (Autonomous) -->
+  <g transform="translate(200, 480)">
+    <rect class="car-body" width="100" height="40" rx="15" style="stroke: #ffc107;"/>
+    <rect class="car-window" x="10" y="5" width="80" height="30" rx="10"/>
+    <text class="icon" x="50" y="-10" fill="#ffc107">AUTONOM</text>
+  </g>
+
+  <!-- Labels -->
+  <text x="150" y="150" class="text label">Adaptiv Fartsregulering (ACC)</text>
+  <path d="M 150 160 L 580 350" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="650" y="180" class="text label">Filskifte-assistanse (LCA)</text>
+  <path d="M 650 190 L 620 350" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="250" y="200" class="text label">Bil-til-Bil Kommunikasjon (V2V)</text>
+  <path d="M 250 210 L 250 240" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="3 3"/>
+
+</svg>

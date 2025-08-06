@@ -1,0 +1,162 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    ISOFIX Montering - Trygg og enkel festing
+  </text>
+  
+  <!-- Car seat cross-section -->
+  <g transform="translate(50, 80)">
+    <!-- Car seat base -->
+    <rect x="0" y="100" width="700" height="180" fill="#6c757d"/>
+    <rect x="10" y="110" width="680" height="160" fill="#495057"/>
+    
+    <!-- Seat cushion -->
+    <ellipse cx="350" cy="190" rx="340" ry="40" fill="#adb5bd"/>
+    <ellipse cx="350" cy="185" rx="340" ry="35" fill="#ced4da"/>
+    
+    <!-- ISOFIX anchor points -->
+    <circle cx="200" cy="250" r="15" fill="#dc3545" stroke="#c82333" stroke-width="3"/>
+    <circle cx="500" cy="250" r="15" fill="#dc3545" stroke="#c82333" stroke-width="3"/>
+    
+    <!-- ISOFIX connectors -->
+    <rect x="180" y="240" width="40" height="20" rx="10" fill="#28a745"/>
+    <rect x="480" y="240" width="40" height="20" rx="10" fill="#28a745"/>
+    
+    <!-- Car seat -->
+    <rect x="150" y="120" width="400" height="120" rx="20" fill="#007bff"/>
+    <rect x="160" y="130" width="380" height="100" rx="15" fill="#0056b3"/>
+    
+    <!-- Child figure -->
+    <circle cx="350" cy="170" r="25" fill="#f4d1ae"/>
+    <ellipse cx="350" cy="210" rx="30" ry="40" fill="#f4d1ae"/>
+    
+    <!-- 5-point harness -->
+    <circle cx="350" cy="200" r="5" fill="#2c3e50"/>
+    <line x1="350" y1="190" x2="340" y2="220" stroke="#2c3e50" stroke-width="3"/>
+    <line x1="350" y1="190" x2="360" y2="220" stroke="#2c3e50" stroke-width="3"/>
+    <line x1="320" y1="200" x2="350" y2="200" stroke="#2c3e50" stroke-width="3"/>
+    <line x1="380" y1="200" x2="350" y2="200" stroke="#2c3e50" stroke-width="3"/>
+    
+    <!-- Labels -->
+    <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc3545">
+      ISOFIX
+    </text>
+    <text x="200" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc3545">
+      Ankerpunkt
+    </text>
+    
+    <text x="500" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc3545">
+      ISOFIX
+    </text>
+    <text x="500" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc3545">
+      Ankerpunkt
+    </text>
+    
+    <text x="350" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">
+      ISOFIX-konnektorer klikker fast i ankerpunkter
+    </text>
+  </g>
+  
+  <!-- Top tether -->
+  <g transform="translate(400, 330)">
+    <!-- Headrest -->
+    <rect x="0" y="0" width="100" height="60" rx="10" fill="#6c757d"/>
+    <rect x="5" y="5" width="90" height="50" rx="8" fill="#495057"/>
+    
+    <!-- Tether strap -->
+    <line x1="50" y1="60" x2="50" y2="120" stroke="#ffc107" stroke-width="6"/>
+    
+    <!-- Tether hook -->
+    <circle cx="50" cy="120" r="8" fill="#fd7e14"/>
+    
+    <!-- Anchor point -->
+    <rect x="45" y="10" width="10" height="15" fill="#dc3545"/>
+    
+    <text x="120" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+      Topptau
+    </text>
+    <text x="120" y="50" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+      (Top Tether)
+    </text>
+  </g>
+  
+  <!-- Support leg -->
+  <g transform="translate(150, 330)">
+    <rect x="0" y="0" width="20" height="100" fill="#6c757d"/>
+    <rect x="5" y="5" width="10" height="90" fill="#495057"/>
+    
+    <!-- Adjustable foot -->
+    <ellipse cx="10" cy="110" rx="15" ry="8" fill="#2c3e50"/>
+    
+    <text x="40" y="55" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+      Støtteben
+    </text>
+    <text x="40" y="70" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+      (Support Leg)
+    </text>
+  </g>
+  
+  <!-- Benefits box -->
+  <rect x="50" y="460" width="700" height="120" rx="10" fill="#d1ecf1" stroke="#bee5eb" stroke-width="2"/>
+  <text x="400" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0c5460">
+    Fordeler med ISOFIX
+  </text>
+  
+  <g transform="translate(80, 500)">
+    <circle cx="0" cy="0" r="8" fill="#28a745"/>
+    <text x="-3" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">✓</text>
+    <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#0c5460">
+      70% færre monteringsfeil sammenlignet med setebelte
+    </text>
+  </g>
+  
+  <g transform="translate(420, 500)">
+    <circle cx="0" cy="0" r="8" fill="#28a745"/>
+    <text x="-3" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">✓</text>
+    <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#0c5460">
+      Raskere og enklere montering
+    </text>
+  </g>
+  
+  <g transform="translate(80, 525)">
+    <circle cx="0" cy="0" r="8" fill="#28a745"/>
+    <text x="-3" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">✓</text>
+    <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#0c5460">
+      Sterkere og sikrere festing ved kollisjon
+    </text>
+  </g>
+  
+  <g transform="translate(420, 525)">
+    <circle cx="0" cy="0" r="8" fill="#28a745"/>
+    <text x="-3" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">✓</text>
+    <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#0c5460">
+      Standardiserte festepunkter i alle nye biler
+    </text>
+  </g>
+  
+  <g transform="translate(80, 550)">
+    <circle cx="0" cy="0" r="8" fill="#28a745"/>
+    <text x="-3" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">✓</text>
+    <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#0c5460">
+      Påkrevd i i-Size standarder (UN R129)
+    </text>
+  </g>
+  
+  <g transform="translate(420, 550)">
+    <circle cx="0" cy="0" r="8" fill="#28a745"/>
+    <text x="-3" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">✓</text>
+    <text x="20" y="5" font-family="Arial, sans-serif" font-size="14" fill="#0c5460">
+      Kan kombineres med støtteben eller topptau
+    </text>
+  </g>
+</svg>

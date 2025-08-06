@@ -1,0 +1,114 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Teknologi og Defensiv Kjøring</text>
+  
+  <!-- Car silhouette in center -->
+  <rect x="350" y="180" width="100" height="50" fill="#34495e" rx="10"/>
+  <rect x="360" y="170" width="80" height="15" fill="#3498db" rx="3"/>
+  <circle cx="365" cy="230" r="12" fill="#2c3e50"/>
+  <circle cx="435" cy="230" r="12" fill="#2c3e50"/>
+  
+  <!-- Safety systems around the car -->
+  
+  <!-- ABS System -->
+  <rect x="150" y="120" width="120" height="60" fill="#e74c3c" opacity="0.8" rx="8"/>
+  <text x="210" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">ABS</text>
+  <text x="210" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Anti-lock Braking</text>
+  <text x="210" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Forhindrer hjullåsing</text>
+  
+  <!-- ESC System -->
+  <rect x="530" y="120" width="120" height="60" fill="#f39c12" opacity="0.8" rx="8"/>
+  <text x="590" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">ESC</text>
+  <text x="590" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Stability Control</text>
+  <text x="590" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Forhindrer skrens</text>
+  
+  <!-- Lane Departure Warning -->
+  <rect x="150" y="320" width="120" height="60" fill="#9b59b6" opacity="0.8" rx="8"/>
+  <text x="210" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">LDW</text>
+  <text x="210" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Lane Departure</text>
+  <text x="210" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Varsler filskifte</text>
+  
+  <!-- Collision Warning -->
+  <rect x="530" y="320" width="120" height="60" fill="#27ae60" opacity="0.8" rx="8"/>
+  <text x="590" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FCW</text>
+  <text x="590" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Collision Warning</text>
+  <text x="590" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Varsler kollisjon</text>
+  
+  <!-- Adaptive Cruise Control -->
+  <rect x="340" y="80" width="120" height="60" fill="#3498db" opacity="0.8" rx="8"/>
+  <text x="400" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">ACC</text>
+  <text x="400" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Adaptive Cruise</text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Automatisk avstand</text>
+  
+  <!-- Connection lines from systems to car -->
+  <line x1="270" y1="150" x2="350" y2="180" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="530" y1="150" x2="450" y2="180" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="270" y1="350" x2="350" y2="220" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="530" y1="350" x2="450" y2="220" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="400" y1="140" x2="400" y2="180" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Benefits and limitations -->
+  <rect x="50" y="420" width="350" height="150" fill="#d5dbdb" stroke="#95a5a6" stroke-width="1" rx="8"/>
+  <text x="70" y="445" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">Fordeler:</text>
+  <text x="70" y="465" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">✓ Reduserer menneskelige feil</text>
+  <text x="70" y="480" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">✓ Raskere reaksjonstid enn mennesker</text>
+  <text x="70" y="495" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">✓ Kontinuerlig overvåking</text>
+  <text x="70" y="510" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">✓ Fungerer under stress</text>
+  <text x="70" y="525" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">✓ Kan kompensere for trøtthet</text>
+  <text x="70" y="540" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">✓ Statistisk bevist effekt</text>
+  <text x="70" y="555" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">✓ Støtter defensive teknikker</text>
+  
+  <rect x="420" y="420" width="330" height="150" fill="#d5dbdb" stroke="#95a5a6" stroke-width="1" rx="8"/>
+  <text x="440" y="445" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">Begrensninger og Farer:</text>
+  <text x="440" y="465" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">⚠ Kan feile i kritiske øyeblikk</text>
+  <text x="440" y="480" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">⚠ Fungerer dårlig i ekstreme forhold</text>
+  <text x="440" y="495" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">⚠ Skaper falsk sikkerhetsfølelse</text>
+  <text x="440" y="510" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">⚠ Kan redusere sjåføroppmerksomhet</text>
+  <text x="440" y="525" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">⚠ Ikke alle situasjoner dekkes</text>
+  <text x="440" y="540" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">⚠ Kan ha "blinde flekker"</text>
+  <text x="440" y="555" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">⚠ Krever forståelse av funksjon</text>
+  
+  <!-- Bottom section: Distractions -->
+  <rect x="50" y="260" width="280" height="140" fill="#e74c3c" opacity="0.1" stroke="#c0392b" stroke-width="2" rx="8"/>
+  <text x="70" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">Teknologiske Distraksjoner:</text>
+  
+  <!-- Phone icon -->
+  <rect x="80" y="290" width="20" height="35" fill="#2c3e50" rx="5"/>
+  <rect x="82" y="295" width="16" height="25" fill="#3498db"/>
+  <text x="105" y="305" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Mobiltelefon</text>
+  <text x="105" y="320" font-family="Arial, sans-serif" font-size="9" fill="#c0392b">Øker risiko 400%</text>
+  
+  <!-- GPS icon -->
+  <rect x="180" y="290" width="25" height="20" fill="#2c3e50" rx="3"/>
+  <circle cx="192" cy="300" r="3" fill="#e74c3c"/>
+  <text x="210" y="305" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">GPS/Navigasjon</text>
+  <text x="210" y="320" font-family="Arial, sans-serif" font-size="9" fill="#c0392b">Visuell distraksjon</text>
+  
+  <!-- Entertainment system -->
+  <rect x="80" y="330" width="30" height="20" fill="#2c3e50" rx="3"/>
+  <circle cx="85" cy="340" r="2" fill="#f39c12"/>
+  <circle cx="90" cy="340" r="2" fill="#f39c12"/>
+  <circle cx="95" cy="340" r="2" fill="#f39c12"/>
+  <text x="115" y="340" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Infotainment</text>
+  <text x="115" y="355" font-family="Arial, sans-serif" font-size="9" fill="#c0392b">Kompleks betjening</text>
+  
+  <!-- Safe tech use recommendations -->
+  <rect x="470" y="260" width="280" height="140" fill="#27ae60" opacity="0.1" stroke="#229954" stroke-width="2" rx="8"/>
+  <text x="490" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#229954">Trygg Teknologibruk:</text>
+  
+  <text x="490" y="300" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Sett opp GPS før avreise</text>
+  <text x="490" y="315" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Bruk hands-free, begrens samtaler</text>
+  <text x="490" y="330" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• La passasjerer betjene systemer</text>
+  <text x="490" y="345" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Forstå sikkerhetssystemenes grenser</text>
+  <text x="490" y="360" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Oppretthold oppmerksomhet tross automatikk</text>
+  <text x="490" y="375" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Test systemene under trygge forhold</text>
+  <text x="490" y="390" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Aldri stol 100% på teknologi</text>
+  
+  <!-- Central message -->
+  <ellipse cx="400" cy="255" rx="80" ry="25" fill="#f1c40f" opacity="0.9" stroke="#f39c12" stroke-width="3"/>
+  <text x="400" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">TEKNOLOGI</text>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">STØTTER - ERSTATTER IKKE</text>
+</svg>

@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaksjonstid og bremselengde | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær alt om reaksjonstid og bremselengde i trafikken. Formler, tabeller og faktorer som påvirker stoppelengde for førerkortteori.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/reaksjonstid-og-bremselengde/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/reaksjonstid-og-bremselengde/article/">
+    <meta property="og:title" content="Reaksjonstid og bremselengde | Eteo">
+    <meta property="og:description" content="Lær alt om reaksjonstid og bremselengde i trafikken. Formler, tabeller og faktorer som påvirker stoppelengde for førerkortteori.">
+    <meta property="og:image" content="//localhost:1313/images/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reaksjonstid og bremselengde | Eteo">
+    <meta name="twitter:description" content="Lær alt om reaksjonstid og bremselengde i trafikken. Formler, tabeller og faktorer som påvirker stoppelengde for førerkortteori.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Reaksjonstid og bremselengde</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                14 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg" 
+                    alt="Reaksjonstid og bremselengde" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg" alt="Reaksjonstid og bremselengde" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-reaksjonstid">Hva er reaksjonstid?</a>
+      <ul>
+        <li><a href="#reaksjonstidskomponenter">Reaksjonstidskomponenter</a></li>
+        <li><a href="#beregning-av-reaksjonsavstand">Beregning av reaksjonsavstand</a></li>
+        <li><a href="#faktorer-som-pãvirker-reaksjonstid">Faktorer som pÃ¥virker reaksjonstid</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-bremselengde">Hva er bremselengde?</a>
+      <ul>
+        <li><a href="#fysiske-prinsipper-bak-bremsing">Fysiske prinsipper bak bremsing</a></li>
+        <li><a href="#beregning-av-bremselengde">Beregning av bremselengde</a></li>
+        <li><a href="#faktorer-som-pãvirker-bremselengde">Faktorer som pÃ¥virker bremselengde</a></li>
+      </ul>
+    </li>
+    <li><a href="#stoppeavstand---den-totale-distansen">Stoppeavstand - Den totale distansen</a>
+      <ul>
+        <li><a href="#stoppeavstand-ved-ulike-hastigheter">Stoppeavstand ved ulike hastigheter</a></li>
+        <li><a href="#stoppeavstand-pã-vãt-vei">Stoppeavstand pÃ¥ vÃ¥t vei</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktiske-fãlger-av-reaksjonstid-og-bremselengde">Praktiske fÃ¸lger av reaksjonstid og bremselengde</a>
+      <ul>
+        <li><a href="#fãlgeavstand">FÃ¸lgeavstand</a></li>
+        <li><a href="#forbikjãring">ForbikjÃ¸ring</a></li>
+        <li><a href="#hastighetstilpasning">Hastighetstilpasning</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-teknologi-og-bremsesystemer">Moderne teknologi og bremsesystemer</a>
+      <ul>
+        <li><a href="#abs-anti-lock-braking-system">ABS (Anti-lock Braking System)</a></li>
+        <li><a href="#elektronisk-bremsekraftfordeling-ebd">Elektronisk bremsekraftfordeling (EBD)</a></li>
+        <li><a href="#nãdbremseassistent-emergency-brake-assist">NÃ¸dbremseassistent (Emergency Brake Assist)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#bremsing-pã-motorvei">Bremsing pÃ¥ motorvei</a></li>
+        <li><a href="#bremsing-med-tilhenger">Bremsing med tilhenger</a></li>
+        <li><a href="#nãdbremsing">NÃ¸dbremsing</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#ansvar-ved-pãkjãrsel-bakfra">Ansvar ved pÃ¥kjÃ¸rsel bakfra</a></li>
+        <li><a href="#lovkrav-til-bremsesystem">Lovkrav til bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#rãd-for-trygg-kjãring">RÃ¥d for trygg kjÃ¸ring</a>
+      <ul>
+        <li><a href="#planlegging-og-forebygging">Planlegging og forebygging</a></li>
+        <li><a href="#vedlikehold-av-bremsesystem">Vedlikehold av bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a>
+      <ul>
+        <li><a href="#viktige-punkter-ã-huske">Viktige punkter Ã¥ huske:</a></li>
+        <li><a href="#for-teoriprãven">For teoriprÃ¸ven:</a></li>
+      </ul>
+    </li>
+    <li><a href="#relaterte-emner">Relaterte emner</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-reaksjonstid">Hva er reaksjonstid?</a>
+      <ul>
+        <li><a href="#reaksjonstidskomponenter">Reaksjonstidskomponenter</a></li>
+        <li><a href="#beregning-av-reaksjonsavstand">Beregning av reaksjonsavstand</a></li>
+        <li><a href="#faktorer-som-pãvirker-reaksjonstid">Faktorer som pÃ¥virker reaksjonstid</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-bremselengde">Hva er bremselengde?</a>
+      <ul>
+        <li><a href="#fysiske-prinsipper-bak-bremsing">Fysiske prinsipper bak bremsing</a></li>
+        <li><a href="#beregning-av-bremselengde">Beregning av bremselengde</a></li>
+        <li><a href="#faktorer-som-pãvirker-bremselengde">Faktorer som pÃ¥virker bremselengde</a></li>
+      </ul>
+    </li>
+    <li><a href="#stoppeavstand---den-totale-distansen">Stoppeavstand - Den totale distansen</a>
+      <ul>
+        <li><a href="#stoppeavstand-ved-ulike-hastigheter">Stoppeavstand ved ulike hastigheter</a></li>
+        <li><a href="#stoppeavstand-pã-vãt-vei">Stoppeavstand pÃ¥ vÃ¥t vei</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktiske-fãlger-av-reaksjonstid-og-bremselengde">Praktiske fÃ¸lger av reaksjonstid og bremselengde</a>
+      <ul>
+        <li><a href="#fãlgeavstand">FÃ¸lgeavstand</a></li>
+        <li><a href="#forbikjãring">ForbikjÃ¸ring</a></li>
+        <li><a href="#hastighetstilpasning">Hastighetstilpasning</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-teknologi-og-bremsesystemer">Moderne teknologi og bremsesystemer</a>
+      <ul>
+        <li><a href="#abs-anti-lock-braking-system">ABS (Anti-lock Braking System)</a></li>
+        <li><a href="#elektronisk-bremsekraftfordeling-ebd">Elektronisk bremsekraftfordeling (EBD)</a></li>
+        <li><a href="#nãdbremseassistent-emergency-brake-assist">NÃ¸dbremseassistent (Emergency Brake Assist)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#bremsing-pã-motorvei">Bremsing pÃ¥ motorvei</a></li>
+        <li><a href="#bremsing-med-tilhenger">Bremsing med tilhenger</a></li>
+        <li><a href="#nãdbremsing">NÃ¸dbremsing</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#ansvar-ved-pãkjãrsel-bakfra">Ansvar ved pÃ¥kjÃ¸rsel bakfra</a></li>
+        <li><a href="#lovkrav-til-bremsesystem">Lovkrav til bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#rãd-for-trygg-kjãring">RÃ¥d for trygg kjÃ¸ring</a>
+      <ul>
+        <li><a href="#planlegging-og-forebygging">Planlegging og forebygging</a></li>
+        <li><a href="#vedlikehold-av-bremsesystem">Vedlikehold av bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a>
+      <ul>
+        <li><a href="#viktige-punkter-ã-huske">Viktige punkter Ã¥ huske:</a></li>
+        <li><a href="#for-teoriprãven">For teoriprÃ¸ven:</a></li>
+      </ul>
+    </li>
+    <li><a href="#relaterte-emner">Relaterte emner</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-reaksjonstid">Hva er reaksjonstid?</a>
+      <ul>
+        <li><a href="#reaksjonstidskomponenter">Reaksjonstidskomponenter</a></li>
+        <li><a href="#beregning-av-reaksjonsavstand">Beregning av reaksjonsavstand</a></li>
+        <li><a href="#faktorer-som-pãvirker-reaksjonstid">Faktorer som pÃ¥virker reaksjonstid</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-bremselengde">Hva er bremselengde?</a>
+      <ul>
+        <li><a href="#fysiske-prinsipper-bak-bremsing">Fysiske prinsipper bak bremsing</a></li>
+        <li><a href="#beregning-av-bremselengde">Beregning av bremselengde</a></li>
+        <li><a href="#faktorer-som-pãvirker-bremselengde">Faktorer som pÃ¥virker bremselengde</a></li>
+      </ul>
+    </li>
+    <li><a href="#stoppeavstand---den-totale-distansen">Stoppeavstand - Den totale distansen</a>
+      <ul>
+        <li><a href="#stoppeavstand-ved-ulike-hastigheter">Stoppeavstand ved ulike hastigheter</a></li>
+        <li><a href="#stoppeavstand-pã-vãt-vei">Stoppeavstand pÃ¥ vÃ¥t vei</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktiske-fãlger-av-reaksjonstid-og-bremselengde">Praktiske fÃ¸lger av reaksjonstid og bremselengde</a>
+      <ul>
+        <li><a href="#fãlgeavstand">FÃ¸lgeavstand</a></li>
+        <li><a href="#forbikjãring">ForbikjÃ¸ring</a></li>
+        <li><a href="#hastighetstilpasning">Hastighetstilpasning</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-teknologi-og-bremsesystemer">Moderne teknologi og bremsesystemer</a>
+      <ul>
+        <li><a href="#abs-anti-lock-braking-system">ABS (Anti-lock Braking System)</a></li>
+        <li><a href="#elektronisk-bremsekraftfordeling-ebd">Elektronisk bremsekraftfordeling (EBD)</a></li>
+        <li><a href="#nãdbremseassistent-emergency-brake-assist">NÃ¸dbremseassistent (Emergency Brake Assist)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#bremsing-pã-motorvei">Bremsing pÃ¥ motorvei</a></li>
+        <li><a href="#bremsing-med-tilhenger">Bremsing med tilhenger</a></li>
+        <li><a href="#nãdbremsing">NÃ¸dbremsing</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#ansvar-ved-pãkjãrsel-bakfra">Ansvar ved pÃ¥kjÃ¸rsel bakfra</a></li>
+        <li><a href="#lovkrav-til-bremsesystem">Lovkrav til bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#rãd-for-trygg-kjãring">RÃ¥d for trygg kjÃ¸ring</a>
+      <ul>
+        <li><a href="#planlegging-og-forebygging">Planlegging og forebygging</a></li>
+        <li><a href="#vedlikehold-av-bremsesystem">Vedlikehold av bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a>
+      <ul>
+        <li><a href="#viktige-punkter-ã-huske">Viktige punkter Ã¥ huske:</a></li>
+        <li><a href="#for-teoriprãven">For teoriprÃ¸ven:</a></li>
+      </ul>
+    </li>
+    <li><a href="#relaterte-emner">Relaterte emner</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-reaksjonstid">Hva er reaksjonstid?</a>
+      <ul>
+        <li><a href="#reaksjonstidskomponenter">Reaksjonstidskomponenter</a></li>
+        <li><a href="#beregning-av-reaksjonsavstand">Beregning av reaksjonsavstand</a></li>
+        <li><a href="#faktorer-som-pãvirker-reaksjonstid">Faktorer som pÃ¥virker reaksjonstid</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-bremselengde">Hva er bremselengde?</a>
+      <ul>
+        <li><a href="#fysiske-prinsipper-bak-bremsing">Fysiske prinsipper bak bremsing</a></li>
+        <li><a href="#beregning-av-bremselengde">Beregning av bremselengde</a></li>
+        <li><a href="#faktorer-som-pãvirker-bremselengde">Faktorer som pÃ¥virker bremselengde</a></li>
+      </ul>
+    </li>
+    <li><a href="#stoppeavstand---den-totale-distansen">Stoppeavstand - Den totale distansen</a>
+      <ul>
+        <li><a href="#stoppeavstand-ved-ulike-hastigheter">Stoppeavstand ved ulike hastigheter</a></li>
+        <li><a href="#stoppeavstand-pã-vãt-vei">Stoppeavstand pÃ¥ vÃ¥t vei</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktiske-fãlger-av-reaksjonstid-og-bremselengde">Praktiske fÃ¸lger av reaksjonstid og bremselengde</a>
+      <ul>
+        <li><a href="#fãlgeavstand">FÃ¸lgeavstand</a></li>
+        <li><a href="#forbikjãring">ForbikjÃ¸ring</a></li>
+        <li><a href="#hastighetstilpasning">Hastighetstilpasning</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-teknologi-og-bremsesystemer">Moderne teknologi og bremsesystemer</a>
+      <ul>
+        <li><a href="#abs-anti-lock-braking-system">ABS (Anti-lock Braking System)</a></li>
+        <li><a href="#elektronisk-bremsekraftfordeling-ebd">Elektronisk bremsekraftfordeling (EBD)</a></li>
+        <li><a href="#nãdbremseassistent-emergency-brake-assist">NÃ¸dbremseassistent (Emergency Brake Assist)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#bremsing-pã-motorvei">Bremsing pÃ¥ motorvei</a></li>
+        <li><a href="#bremsing-med-tilhenger">Bremsing med tilhenger</a></li>
+        <li><a href="#nãdbremsing">NÃ¸dbremsing</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#ansvar-ved-pãkjãrsel-bakfra">Ansvar ved pÃ¥kjÃ¸rsel bakfra</a></li>
+        <li><a href="#lovkrav-til-bremsesystem">Lovkrav til bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#rãd-for-trygg-kjãring">RÃ¥d for trygg kjÃ¸ring</a>
+      <ul>
+        <li><a href="#planlegging-og-forebygging">Planlegging og forebygging</a></li>
+        <li><a href="#vedlikehold-av-bremsesystem">Vedlikehold av bremsesystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a>
+      <ul>
+        <li><a href="#viktige-punkter-ã-huske">Viktige punkter Ã¥ huske:</a></li>
+        <li><a href="#for-teoriprãven">For teoriprÃ¸ven:</a></li>
+      </ul>
+    </li>
+    <li><a href="#relaterte-emner">Relaterte emner</a></li>
+  </ul>
+</nav>
+</div>
+}}
+**Reaksjonstid og bremselengde** er fundamentale konsepter innen trafikksikkerhet som avgjÃ¸r hvor lang tid og avstand det tar Ã¥ stoppe et kjÃ¸retÃ¸y i en nÃ¸dsituasjon. Disse faktorene er kritiske for alle bilfÃ¸rere og utgjÃ¸r grunnlaget for mange viktige trafikkprinsipper som **fÃ¸lgeavstand**, **hastighetstilpasning** og **risikovurdering**.
+<p><em>For en helhetlig forstÃ¥else av kjÃ¸reprosessen fra sanseinntrykk til handling, se <a href="/blogs/teori/trafikksituasjon-og-kjoreprosessen" title="Trafikksituasjon og kjÃ¸reprosessen - Sansing til handling, reaksjonstid m.m">Trafikksituasjon og kjÃ¸reprosessen</a>.</em></p>
+<p><em>For mer om hvordan dette pÃ¥virker forebygging av frontkollisjoner, se <a href="/blogs/teori/moteulykker-og-forebygging" title="MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken">MÃ¸teulykker og forebygging</a>.</em></p>
+<p><em>For mer om oppmerksomhetstid og total tid i kjÃ¸reprosessen, se <a href="/blogs/teori/reaksjonstid-oppmerksomhetstid-totaltid" title="Reaksjonstid, oppmerksomhetstid og total tid - Tidskomponenter i kjÃ¸reprosessen">Reaksjonstid, oppmerksomhetstid og total tid</a>.</em></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="hva-er-reaksjonstid">Hva er reaksjonstid?</h2>
+<blockquote>
+<p><strong>Reaksjonstid</strong> er tiden fra du oppdager en fare til du begynner Ã¥ bremse. For en vÃ¥ken, oppmerksom sjÃ¥fÃ¸r under normale forhold er reaksjonstiden typisk <strong>1â€“1,5 sekunder</strong>, men kan variere betydelig avhengig av flere faktorer.</p></blockquote>
+<h3 id="reaksjonstidskomponenter">Reaksjonstidskomponenter</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Reaksjonstiden bestÃ¥r av fire hovedfaser:</p>
+<ol>
+<li><strong>Oppfattelsestid</strong> (0,1-0,5 sek) - Tiden det tar Ã¥ registrere faren</li>
+<li><strong>Identifikasjonsstid</strong> (0,1-0,3 sek) - Tiden det tar Ã¥ forstÃ¥ hva som skjer</li>
+<li><strong>Beslutningstid</strong> (0,1-0,3 sek) - Tiden det tar Ã¥ bestemme seg for handling</li>
+<li><strong>Handlingstid</strong> (0,1-0,3 sek) - Tiden det tar Ã¥ flytte foten til bremsepedalen</li>
+</ol>
+<h3 id="beregning-av-reaksjonsavstand">Beregning av reaksjonsavstand</h3>
+<p>Reaksjonsavstanden er distansen bilen tilbakelegger i lÃ¸pet av reaksjonstiden:</p>
+<p><strong>Reaksjonsavstand = (Hastighet Ã· 10) Ã— 3</strong></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Hastighet</th>
+          <th>Reaksjonsavstand</th>
+          <th>Praktisk sammenligning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>30 km/t</strong></td>
+          <td>9 meter</td>
+          <td>Omtrent 2 biler i kÃ¸</td>
+      </tr>
+      <tr>
+          <td><strong>50 km/t</strong></td>
+          <td>15 meter</td>
+          <td>Halv fotballbane</td>
+      </tr>
+      <tr>
+          <td><strong>70 km/t</strong></td>
+          <td>21 meter</td>
+          <td>Over 5 biler pÃ¥ rekke</td>
+      </tr>
+      <tr>
+          <td><strong>80 km/t</strong></td>
+          <td>24 meter</td>
+          <td>Ca. 6 biler pÃ¥ rekke</td>
+      </tr>
+      <tr>
+          <td><strong>90 km/t</strong></td>
+          <td>27 meter</td>
+          <td>Nesten 7 biler pÃ¥ rekke</td>
+      </tr>
+      <tr>
+          <td><strong>110 km/t</strong></td>
+          <td>33 meter</td>
+          <td>Over 8 biler pÃ¥ rekke</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="faktorer-som-pãvirker-reaksjonstid">Faktorer som pÃ¥virker reaksjonstid</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h4 id="fysiologiske-faktorer">Fysiologiske faktorer:</h4>
+<ul>
+<li><strong>Alder</strong> - Eldre fÃ¸rere har ofte lengre reaksjonstid (1,5-2,5 sek)</li>
+<li><strong>Helse</strong> - Sykdom, medisiner og fysiske begrensninger</li>
+<li><strong>Alkohol og rusmidler</strong> - Kan Ã¸ke reaksjonstiden til 2-4 sekunder</li>
+<li><strong>Tretthet</strong> - SÃ¸vnmangel kan doble reaksjonstiden</li>
+</ul>
+<h4 id="psykologiske-faktorer">Psykologiske faktorer:</h4>
+<ul>
+<li><strong>Oppmerksomhet</strong> - Distraksjoner Ã¸ker reaksjonstiden betydelig</li>
+<li><strong>Erfaring</strong> - Erfarne sjÃ¥fÃ¸rer reagerer ofte raskere</li>
+<li><strong>Forventning</strong> - Uventede situasjoner gir lengre reaksjonstid</li>
+<li><strong>Stress</strong> - Kan bÃ¥de forkorte og forlenge reaksjonstiden</li>
+</ul>
+<h4 id="miljãfaktorer">MiljÃ¸faktorer:</h4>
+<ul>
+<li><strong>Sikt</strong> - DÃ¥rlig sikt Ã¸ker oppfattelsestiden</li>
+<li><strong>Kompleksitet</strong> - Komplekse situasjoner krever lengre beslutningstid</li>
+<li><strong>KjÃ¸reforholdene</strong> - Vanskelige forhold krever mer oppmerksomhet</li>
+</ul>
+<p>For mer om menneskelige faktorer, se <a href="/blogs/teori/mennesket-i-trafikken" title="Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring">Mennesket i trafikken</a>.</p>
+<h2 id="hva-er-bremselengde">Hva er bremselengde?</h2>
+<p>For mer om bremsesystemets oppbygning, hydrauliske kretser og vÃ¦ske, se <a href="/blogs/teori/bremsesystemet" title="Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)">Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)</a>.</p>
+<blockquote>
+<p><strong>Bremselengde</strong> er distansen bilen tilbakelegger fra bremsene aktiveres til kjÃ¸retÃ¸yet kommer til fullstendig stopp. Bremselengden Ã¸ker <strong>kvadratisk</strong> med hastigheten - dobler du hastigheten, blir bremselengden fire ganger sÃ¥ lang.</p></blockquote>
+<h3 id="fysiske-prinsipper-bak-bremsing">Fysiske prinsipper bak bremsing</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Bremselengden bestemmes av flere fysiske faktorer:</p>
+<ul>
+<li><strong>Kinetisk energi</strong> - Ã˜ker med kvadratet av hastigheten (E = Â½mvÂ²)</li>
+<li><strong>Friksjon</strong> - Mellom dekk og veioverflate</li>
+<li><strong>Vekt</strong> - Tyngre kjÃ¸retÃ¸y krever mer energi for Ã¥ stoppe</li>
+<li><strong>Bremsekraft</strong> - Bilens bremsekapasitet</li>
+</ul>
+<h3 id="beregning-av-bremselengde">Beregning av bremselengde</h3>
+<p>PÃ¥ <strong>tÃ¸rr asfalt</strong> med gode dekk kan bremselengden estimeres ved:</p>
+<p><strong>Bremselengde â‰ˆ (Hastighet Ã· 10)Â²</strong></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Hastighet</th>
+          <th>TÃ¸rr asfalt</th>
+          <th>VÃ¥t asfalt</th>
+          <th>Is/snÃ¸</th>
+          <th>Grus</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>30 km/t</strong></td>
+          <td>9 m</td>
+          <td>18 m</td>
+          <td>27 m</td>
+          <td>13 m</td>
+      </tr>
+      <tr>
+          <td><strong>50 km/t</strong></td>
+          <td>25 m</td>
+          <td>50 m</td>
+          <td>75 m</td>
+          <td>36 m</td>
+      </tr>
+      <tr>
+          <td><strong>70 km/t</strong></td>
+          <td>49 m</td>
+          <td>98 m</td>
+          <td>147 m</td>
+          <td>70 m</td>
+      </tr>
+      <tr>
+          <td><strong>80 km/t</strong></td>
+          <td>64 m</td>
+          <td>128 m</td>
+          <td>192 m</td>
+          <td>92 m</td>
+      </tr>
+      <tr>
+          <td><strong>90 km/t</strong></td>
+          <td>81 m</td>
+          <td>162 m</td>
+          <td>243 m</td>
+          <td>116 m</td>
+      </tr>
+      <tr>
+          <td><strong>110 km/t</strong></td>
+          <td>121 m</td>
+          <td>242 m</td>
+          <td>363 m</td>
+          <td>173 m</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="faktorer-som-pãvirker-bremselengde">Faktorer som pÃ¥virker bremselengde</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h4 id="vei--og-vãrforhold">Vei- og vÃ¦rforhold:</h4>
+<ul>
+<li><strong>TÃ¸rt asfalt</strong> - Beste bremsegrep (friksjon â‰ˆ 0,8)</li>
+<li><strong>VÃ¥t asfalt</strong> - Halvert bremsegrep (friksjon â‰ˆ 0,4)</li>
+<li><strong>Is og snÃ¸</strong> - Dramatisk redusert grep (friksjon â‰ˆ 0,1-0,3)</li>
+<li><strong>Grus</strong> - Varierende grep avhengig av kornstÃ¸rrelse</li>
+<li><strong>Olje/diesel</strong> - Ekstremt farlig, nÃ¦rmest ingen friksjon</li>
+</ul>
+<h4 id="kjãretãyfaktorer">KjÃ¸retÃ¸yfaktorer:</h4>
+<ul>
+<li><strong>Dekkstand</strong> - Slitte dekk reduserer bremseevnen betydelig</li>
+<li><strong>Dekktrykk</strong> - Feil trykk pÃ¥virker kontaktflate med veien</li>
+<li><strong>Bremsesystem</strong> - Slitte bremseklosser/skiver</li>
+<li><strong>ABS</strong> - Forhindrer lÃ¥sing, men Ã¸ker ikke nÃ¸dvendigvis bremseevnen</li>
+<li><strong>Vekt og last</strong> - Tyngre kjÃ¸retÃ¸y krever lengre bremselengde</li>
+</ul>
+<h4 id="bremseteknikk">Bremseteknikk:</h4>
+<ul>
+<li><strong>Panikk-bremsing</strong> - Kan fÃ¸re til hjullÃ¥sing uten ABS</li>
+<li><strong>Progresiv bremsing</strong> - Gradvis Ã¸kning av bremsekraft</li>
+<li><strong>Pumpe-bremsing</strong> - PÃ¥ glatt underlag uten ABS</li>
+</ul>
+<p>For mer om kjÃ¸ring under vanskelige forhold, se <a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold">KjÃ¸ring under vanskelige forhold</a>.</p>
+<h2 id="stoppeavstand---den-totale-distansen">Stoppeavstand - Den totale distansen</h2>
+<blockquote>
+<p><strong>Stoppeavstand</strong> er summen av reaksjonsavstand og bremselengde, og representerer den totale distansen fra du oppdager faren til bilen stÃ¥r stille.</p></blockquote>
+<p><strong>Stoppeavstand = Reaksjonsavstand + Bremselengde</strong></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="stoppeavstand-ved-ulike-hastigheter">Stoppeavstand ved ulike hastigheter</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Hastighet</th>
+          <th>Reaksjonsavstand</th>
+          <th>Bremselengde (tÃ¸rt)</th>
+          <th><strong>Total stoppeavstand</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>30 km/t</strong></td>
+          <td>9 m</td>
+          <td>9 m</td>
+          <td><strong>18 meter</strong></td>
+      </tr>
+      <tr>
+          <td><strong>50 km/t</strong></td>
+          <td>15 m</td>
+          <td>25 m</td>
+          <td><strong>40 meter</strong></td>
+      </tr>
+      <tr>
+          <td><strong>70 km/t</strong></td>
+          <td>21 m</td>
+          <td>49 m</td>
+          <td><strong>70 meter</strong></td>
+      </tr>
+      <tr>
+          <td><strong>80 km/t</strong></td>
+          <td>24 m</td>
+          <td>64 m</td>
+          <td><strong>88 meter</strong></td>
+      </tr>
+      <tr>
+          <td><strong>90 km/t</strong></td>
+          <td>27 m</td>
+          <td>81 m</td>
+          <td><strong>108 meter</strong></td>
+      </tr>
+      <tr>
+          <td><strong>110 km/t</strong></td>
+          <td>33 m</td>
+          <td>121 m</td>
+          <td><strong>154 meter</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="stoppeavstand-pã-vãt-vei">Stoppeavstand pÃ¥ vÃ¥t vei</h3>
+<p>PÃ¥ vÃ¥t asfalt dobles bremselengden, noe som dramatisk Ã¸ker den totale stoppeavstanden:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Hastighet</th>
+          <th>Reaksjonsavstand</th>
+          <th>Bremselengde (vÃ¥t)</th>
+          <th><strong>Total stoppeavstand</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>50 km/t</strong></td>
+          <td>15 m</td>
+          <td>50 m</td>
+          <td><strong>65 meter</strong></td>
+      </tr>
+      <tr>
+          <td><strong>80 km/t</strong></td>
+          <td>24 m</td>
+          <td>128 m</td>
+          <td><strong>152 meter</strong></td>
+      </tr>
+      <tr>
+          <td><strong>110 km/t</strong></td>
+          <td>33 m</td>
+          <td>242 m</td>
+          <td><strong>275 meter</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="praktiske-fãlger-av-reaksjonstid-og-bremselengde">Praktiske fÃ¸lger av reaksjonstid og bremselengde</h2>
+<h3 id="fãlgeavstand">FÃ¸lgeavstand</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>3-sekunders regelen</strong> er basert pÃ¥ reaksjonstid og bremselengde:</p>
+<ul>
+<li>Ved <strong>50 km/t</strong>: 3 sekunder = 42 meter (tilnÃ¦rmet lik stoppeavstanden pÃ¥ 40 m)</li>
+<li>Ved <strong>80 km/t</strong>: 3 sekunder = 67 meter (noe mindre enn stoppeavstanden pÃ¥ 88 m)</li>
+<li>Ved <strong>110 km/t</strong>: 3 sekunder = 92 meter (betydelig mindre enn stoppeavstanden pÃ¥ 154 m)</li>
+</ul>
+<p><strong>Konklusjon</strong>: 3-sekunders regelen gir tilstrekkelig sikkerhet ved lavere hastigheter, men pÃ¥ motorvei bÃ¸r fÃ¸lgeavstanden Ã¸kes.</p>
+<p>For mer om fÃ¸lgeavstand, se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Guide til hastighet og bremseavstand">Fart og avstand</a>.</p>
+<h3 id="forbikjãring">ForbikjÃ¸ring</h3>
+<p>Ved forbikjÃ¸ring mÃ¥ du regne med at <strong>bÃ¥de du og motgÃ¥ende trafikk</strong> kan ha behov for nÃ¸dbremsing:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<ul>
+<li><strong>Innhentingsavstand</strong> - Distanse for Ã¥ komme opp pÃ¥ siden av kjÃ¸retÃ¸yet foran</li>
+<li><strong>ForbikjÃ¸ringsavstand</strong> - Distanse for Ã¥ passere helt</li>
+<li><strong>Sikkerhetsmargin</strong> - Ekstra avstand for uforutsette hendelser</li>
+</ul>
+<p>For mer om forbikjÃ¸ring, se <a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte - Teknikker og sikkerhet">ForbikjÃ¸ring og feltskifte</a>.</p>
+<h3 id="hastighetstilpasning">Hastighetstilpasning</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Hastigheten mÃ¥ tilpasses sÃ¥ stoppeavstanden aldri overstiger:</p>
+<ul>
+<li><strong>Sikten</strong> - Du mÃ¥ kunne stoppe innenfor den avstanden du kan se</li>
+<li><strong>Veiens beskaffenhet</strong> - Svinger, bakketopper, kryss</li>
+<li><strong>Trafikksituasjonen</strong> - Tett trafikk krever lavere hastighet</li>
+<li><strong>VÃ¦rforholdene</strong> - Regn, snÃ¸ og is krever betydelig hastighetstilpasning</li>
+</ul>
+<h2 id="moderne-teknologi-og-bremsesystemer">Moderne teknologi og bremsesystemer</h2>
+<h3 id="abs-anti-lock-braking-system">ABS (Anti-lock Braking System)</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>ABS forhindrer hjullÃ¥sing</strong> ved kraftig bremsing:</p>
+<p><strong>Fordeler:</strong></p>
+<ul>
+<li>Beholder styrekontroll under bremsing</li>
+<li>Forhindrer sklidding og sladding</li>
+<li>Optimaliserer bremsekraft pÃ¥ ulike underlag</li>
+</ul>
+<p><strong>Begrensninger:</strong></p>
+<ul>
+<li>Reduserer ikke nÃ¸dvendigvis bremselengden pÃ¥ tÃ¸rt underlag</li>
+<li>Kan Ã¸ke bremselengden pÃ¥ lÃ¸s grus eller snÃ¸</li>
+<li>Krever riktig bremseteknikk (fast, kontinuerlig trykk)</li>
+</ul>
+<h3 id="elektronisk-bremsekraftfordeling-ebd">Elektronisk bremsekraftfordeling (EBD)</h3>
+<p>EBD optimaliserer bremsekraften mellom for- og bakhjul basert pÃ¥:</p>
+<ul>
+<li>Lastenfordeling</li>
+<li>Veigrep</li>
+<li>Bremsesituasjon</li>
+</ul>
+<p>For en mer detaljert gjennomgang av <strong>fordeling av bremsekraft</strong> og <strong>skjevtrekk</strong>, se <a href="/blogs/teori/fordeling-av-bremsekraft-og-skjevtrekk" title="Fordeling av bremsekraft og skjevtrekk">Fordeling av bremsekraft og skjevtrekk</a>.</p>
+<h3 id="nãdbremseassistent-emergency-brake-assist">NÃ¸dbremseassistent (Emergency Brake Assist)</h3>
+<p>Moderne systemer kan:</p>
+<ul>
+<li><strong>Detektere</strong> hindringer med radar/kamera</li>
+<li><strong>Varsle</strong> fÃ¸reren om fare</li>
+<li><strong>Bremse automatisk</strong> hvis fÃ¸reren ikke reagerer</li>
+</ul>
+<p>For mer om sikkerhetsutstyr, se <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr">KjÃ¸retÃ¸yets sikkerhetsutstyr</a>.</p>
+<h2 id="spesielle-situasjoner">Spesielle situasjoner</h2>
+<h3 id="bremsing-pã-motorvei">Bremsing pÃ¥ motorvei</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>PÃ¥ motorvei er det spesielle hensyn:</p>
+<ul>
+<li><strong>HÃ¸y hastighet</strong> gir ekstremt lange stoppeavstander</li>
+<li><strong>Bakenforliggende trafikk</strong> kan ikke stoppe i tide</li>
+<li><strong>NÃ¸dstopp</strong> skal kun gjÃ¸res ved akutt fare</li>
+<li><strong>Gradvis retardasjon</strong> er ofte tryggere enn kraftig bremsing</li>
+</ul>
+<p>For mer om motorveikjÃ¸ring, se <a href="/blogs/teori/motorveikjoring" title="MotorveikjÃ¸ring - Teknikker og sikkerhet">MotorveikjÃ¸ring</a>.</p>
+<h3 id="bremsing-med-tilhenger">Bremsing med tilhenger</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Tilhenger pÃ¥virker bremsegenskaper betydelig:</p>
+<ul>
+<li><strong>Ã˜kt vekt</strong> gir lengre bremselengde</li>
+<li><strong>Vektfordeling</strong> pÃ¥virker stabilitet</li>
+<li><strong>Tilhengerbremser</strong> mÃ¥ vÃ¦re kalibrert riktig</li>
+<li><strong>Sladdefare</strong> Ã¸ker ved kraftig bremsing</li>
+</ul>
+<p>For mer om tilhengerkjÃ¸ring, se <a href="/blogs/teori/kjoring-med-tilhenger" title="KjÃ¸ring med tilhenger">KjÃ¸ring med tilhenger</a>.</p>
+<p>For mer om konsekvenser av tung last i bil eller tilhenger, se <a href="/blogs/teori/tung-last-konsekvenser" title="Tung last - konsekvenser for kjÃ¸reegenskaper, bremselengde og blendingsfare">Tung last - konsekvenser</a>.</p>
+<h3 id="nãdbremsing">NÃ¸dbremsing</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Riktig nÃ¸dbremseteknikk:</strong></p>
+<ol>
+<li><strong>Press bremsepedalen kraftig og kontinuerlig</strong> (ikke pump hvis du har ABS)</li>
+<li><strong>Hold rattet fast</strong> med begge hender</li>
+<li><strong>Forbered deg pÃ¥ kraftig retardasjon</strong></li>
+<li><strong>Se etter fluktvei</strong> hvis bremsing ikke er nok</li>
+</ol>
+<p><strong>Uten ABS:</strong></p>
+<ul>
+<li>Brems sÃ¥ kraftig som mulig uten hjullÃ¥sing</li>
+<li>Hvis hjulene lÃ¥ser seg, slipp opp litt pÃ¥ bremsepedalen</li>
+<li>Pumpe-bremsing kan vÃ¦re nÃ¸dvendig pÃ¥ glatt underlag</li>
+</ul>
+<p>NÃ¸dbremsing er ofte fÃ¸rste steg i hÃ¥ndtering av kritiske situasjoner. For komplett oversikt over hvordan du hÃ¥ndterer situasjoner der nÃ¸dbremsing ikke er tilstrekkelig, se <a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - Komplett guide til nÃ¸dhÃ¥ndtering i trafikken">HÃ¥ndtering av nÃ¸dsituasjoner</a>.</p>
+<h2 id="juridiske-aspekter">Juridiske aspekter</h2>
+<h3 id="ansvar-ved-pãkjãrsel-bakfra">Ansvar ved pÃ¥kjÃ¸rsel bakfra</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Hovedregel:</strong> Den som kjÃ¸rer pÃ¥ bakfra har alltid ansvar, fordi:</p>
+<ul>
+<li>Du skal <strong>holde tilstrekkelig avstand</strong> til kjÃ¸retÃ¸yet foran</li>
+<li>Du skal <strong>kunne stoppe</strong> innenfor den avstanden du kan se er fri</li>
+<li><strong>Bakenforliggende trafikk</strong> er ikke en unnskyldning for utilstrekkelig avstand</li>
+</ul>
+<p><strong>Unntak finnes</strong> ved:</p>
+<ul>
+<li>Ulovlig/plutselig avbremsing fra forankjÃ¸rende</li>
+<li>Teknisk svikt pÃ¥ forankjÃ¸rende kjÃ¸retÃ¸y</li>
+<li>PÃ¥kjÃ¸rsel fra tredje part</li>
+</ul>
+<h3 id="lovkrav-til-bremsesystem">Lovkrav til bremsesystem</h3>
+<p>Vegtrafikkloven krever at kjÃ¸retÃ¸y skal ha:</p>
+<ul>
+<li><strong>Hovedbremsesystem</strong> som kan stoppe kjÃ¸retÃ¸yet effektivt</li>
+<li><strong>Parkbremse</strong> som kan holde kjÃ¸retÃ¸yet i stillstand</li>
+<li><strong>Periodisk kontroll</strong> av bremsesystemet ved EU-kontroll</li>
+</ul>
+<p>For mer om lover og forskrifter, se <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter i trafikken">Lover og forskrifter</a>.</p>
+<h2 id="rãd-for-trygg-kjãring">RÃ¥d for trygg kjÃ¸ring</h2>
+<h3 id="planlegging-og-forebygging">Planlegging og forebygging</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>FÃ¸r kjÃ¸ring:</strong></p>
+<ul>
+<li>Kontroller at bremsene fungerer normalt</li>
+<li>Sjekk dekkstand og dekktrykk</li>
+<li>Vurder vÃ¦r- og kjÃ¸reforhold</li>
+</ul>
+<p><strong>Under kjÃ¸ring:</strong></p>
+<ul>
+<li>Tilpass hastigheten til forholdene</li>
+<li>Hold tilstrekkelig fÃ¸lgeavstand</li>
+<li>VÃ¦r ekstra forsiktig ved dÃ¥rlig sikt</li>
+<li>UnngÃ¥ plutselige manÃ¸vrer</li>
+</ul>
+<p>For en helhetlig tilnÃ¦rming til forebyggende kjÃ¸ring, se <a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring - Prinsipper og teknikker for trygg kjÃ¸ring">defensiv kjÃ¸ring</a>.</p>
+<h3 id="vedlikehold-av-bremsesystem">Vedlikehold av bremsesystem</h3>
+<p><strong>Regelmessig kontroll:</strong></p>
+<ul>
+<li>BremsevÃ¦skenivÃ¥ og -kvalitet</li>
+<li>Bremseklosser/bakker</li>
+<li>Bremseskiver/trommer</li>
+<li>BremserÃ¸r og -slanger</li>
+</ul>
+<p><strong>Varselsignaler:</strong></p>
+<ul>
+<li>Skrikende lyder ved bremsing</li>
+<li>Vibrering i bremsepedal eller ratt</li>
+<li>Lang pedalslagvei</li>
+<li>Bil som trekker til siden ved bremsing</li>
+</ul>
+<p>For mer om vedlikehold, se <a href="/blogs/teori/vedlikehold-av-bilen" title="Vedlikehold av bilen">Vedlikehold av bilen</a>.</p>
+<h2 id="oppsummering">Oppsummering</h2>
+<p><strong>Reaksjonstid og bremselengde</strong> er grunnleggende konsepter som pÃ¥virker alle aspekter av trygg kjÃ¸ring:</p>
+<h3 id="viktige-punkter-ã-huske">Viktige punkter Ã¥ huske:</h3>
+<ul>
+<li><strong>Normal reaksjonstid</strong> er 1-1,5 sekunder, men kan Ã¸kes av mange faktorer</li>
+<li><strong>Bremselengden Ã¸ker kvadratisk</strong> med hastigheten</li>
+<li><strong>Stoppeavstanden</strong> er summen av reaksjons- og bremselengde</li>
+<li><strong>VÃ¦rforhold</strong> pÃ¥virker bremselengden dramatisk</li>
+<li><strong>FÃ¸lgeavstand</strong> mÃ¥ tilpasses hastighet og forhold</li>
+<li><strong>Moderne teknologi</strong> hjelper, men kan ikke erstatte god dÃ¸mmekraft</li>
+</ul>
+<h3 id="for-teoriprãven">For teoriprÃ¸ven:</h3>
+<ul>
+<li>LÃ¦r formlene for reaksjons- og bremselengde</li>
+<li>ForstÃ¥ hvordan ulike faktorer pÃ¥virker begge komponentene</li>
+<li>Kunne beregne stoppeavstand ved ulike hastigheter</li>
+<li>ForstÃ¥ sammenhengen med fÃ¸lgeavstand og hastighetstilpasning</li>
+</ul>
+<p><strong>Ã… mestre disse konseptene er essensielt for Ã¥ bli en trygg og kompetent bilfÃ¸rer.</strong></p>
+<h2 id="relaterte-emner">Relaterte emner</h2>
+<ul>
+<li><a href="/blogs/teori/mennesket-i-trafikken" title="Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring">Mennesket i trafikken</a></li>
+<li><a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Guide til hastighet og bremseavstand">Fart og avstand</a></li>
+<li><a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold">KjÃ¸ring under vanskelige forhold</a></li>
+<li><a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr">KjÃ¸retÃ¸yets sikkerhetsutstyr</a></li>
+<li><a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte - Teknikker og sikkerhet">ForbikjÃ¸ring og feltskifte</a></li>
+<li><a href="/blogs/teori/motorveikjoring" title="MotorveikjÃ¸ring - Teknikker og sikkerhet">MotorveikjÃ¸ring</a></li>
+<li><a href="/blogs/teori/kjoring-med-tilhenger" title="KjÃ¸ring med tilhenger">KjÃ¸ring med tilhenger</a></li>
+<li><a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring - Prinsipper og teknikker">Defensiv kjÃ¸ring</a></li>
+<li><a href="/blogs/teori/vedlikehold-av-bilen" title="Vedlikehold av bilen">Vedlikehold av bilen</a></li>
+<li><a href="/blogs/teori/psykologiske-feller-i-trafikken" title="Psykologiske feller i trafikken">Psykologiske feller i trafikken</a>\n  </div>\n</div></li>
+</ul>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Reaksjonstid og bremselengde" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Reaksjonstid og bremselengde" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Reaksjonstid og bremselengde" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

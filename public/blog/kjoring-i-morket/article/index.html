@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kjøring i mørket | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Alt du må vite om sikker kjøring i mørket: lysbruk, sikt, tretthet, dyrefare og blending – komplett guide for førerkort klasse B.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/kjoring-i-morket/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/kjoring-i-morket/article/">
+    <meta property="og:title" content="Kjøring i mørket | Eteo">
+    <meta property="og:description" content="Alt du må vite om sikker kjøring i mørket: lysbruk, sikt, tretthet, dyrefare og blending – komplett guide for førerkort klasse B.">
+    <meta property="og:image" content="//localhost:1313/images/blog/kjoring-i-morket/kjoring-i-morket-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kjøring i mørket | Eteo">
+    <meta name="twitter:description" content="Alt du må vite om sikker kjøring i mørket: lysbruk, sikt, tretthet, dyrefare og blending – komplett guide for førerkort klasse B.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/kjoring-i-morket/kjoring-i-morket-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Kjøring i mørket</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                15 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/kjoring-i-morket/kjoring-i-morket-image.svg" 
+                    alt="Kjøring i mørket" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/kjoring-i-morket/kjoring-i-morket-image.svg" alt="Kjøring i mørket" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lysbruk-og-lysmodi">Lysbruk og lysmodi</a>
+      <ul>
+        <li><a href="#nãr-du-skal-skifte-mellom-lys">NÃ¥r du skal skifte mellom lys</a></li>
+      </ul>
+    </li>
+    <li><a href="#mãrkesyn-og-fysiologi">MÃ¸rkesyn og fysiologi</a>
+      <ul>
+        <li><a href="#faktorer-som-reduserer-mãrkesynet">Faktorer som reduserer mÃ¸rkesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikt-farts--og-avstandstilpasning">Sikt, farts- og avstandstilpasning</a>
+      <ul>
+        <li><a href="#grunnleggende-prinsipper">Grunnleggende prinsipper</a></li>
+        <li><a href="#konkrete-hastighetstilpasninger">Konkrete hastighetstilpasninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-utfordringer-ved-nattkjãring">Psykologiske utfordringer ved nattkjÃ¸ring</a>
+      <ul>
+        <li><a href="#vanlige-psykologiske-fallgruver">Vanlige psykologiske fallgruver</a></li>
+        <li><a href="#mentale-strategier">Mentale strategier</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-hvilepauser">Tretthet og hvilepauser</a>
+      <ul>
+        <li><a href="#anbefalte-pausestrategier">Anbefalte pausestrategier</a></li>
+        <li><a href="#tegn-pã-kritisk-tretthet">Tegn pÃ¥ kritisk tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#dyrefare-og-usynlige-hindringer">Dyrefare og usynlige hindringer</a>
+      <ul>
+        <li><a href="#hãyrisiko-omrãder-og--tider">HÃ¸yrisiko-omrÃ¥der og -tider</a></li>
+        <li><a href="#dyrearter-og-atferd">Dyrearter og atferd</a></li>
+        <li><a href="#forebyggende-tiltak">Forebyggende tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#blending-og-motgãende-trafikk">Blending og motgÃ¥ende trafikk</a>
+      <ul>
+        <li><a href="#typer-blending">Typer blending</a></li>
+        <li><a href="#hãndtering-av-blending">HÃ¥ndtering av blending</a></li>
+        <li><a href="#nãr-andre-blender-deg">NÃ¥r andre blender deg</a></li>
+      </ul>
+    </li>
+    <li><a href="#vintermãrke-og-polarnatten">VintermÃ¸rke og polarnatten</a>
+      <ul>
+        <li><a href="#spesielle-utfordringer-om-vinteren">Spesielle utfordringer om vinteren</a></li>
+        <li><a href="#tiltak-for-vintermãrke">Tiltak for vintermÃ¸rke</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#avanserte-lyssystemer">Avanserte lyssystemer</a></li>
+        <li><a href="#sikkerhetsteknologi">Sikkerhetsteknologi</a></li>
+        <li><a href="#navigasjon-og-kommunikasjon">Navigasjon og kommunikasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#utstyr-rutinekontroller-og-planlegging">Utstyr, rutinekontroller og planlegging</a>
+      <ul>
+        <li><a href="#lys-og-synlighet">Lys og synlighet</a></li>
+        <li><a href="#dekk-og-grep">Dekk og grep</a></li>
+        <li><a href="#sikkerhet-og-nãdutstyr">Sikkerhet og nÃ¸dutstyr</a></li>
+        <li><a href="#ruteplanlegging">Ruteplanlegging</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-med-andre-trafikanter-i-mãrket">Kommunikasjon med andre trafikanter i mÃ¸rket</a>
+      <ul>
+        <li><a href="#lysbruk-som-kommunikasjon">Lysbruk som kommunikasjon</a></li>
+        <li><a href="#posisjonering-og-synlighet">Posisjonering og synlighet</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-i-mãrket">NÃ¸dsituasjoner i mÃ¸rket</a>
+      <ul>
+        <li><a href="#vanlige-nãdsituasjoner">Vanlige nÃ¸dsituasjoner</a></li>
+        <li><a href="#akuttiltak">Akuttiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-utvidet-sjekkliste-for-trygg-nattkjãring">Oppsummering: Utvidet sjekkliste for trygg nattkjÃ¸ring</a></li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lysbruk-og-lysmodi">Lysbruk og lysmodi</a>
+      <ul>
+        <li><a href="#nãr-du-skal-skifte-mellom-lys">NÃ¥r du skal skifte mellom lys</a></li>
+      </ul>
+    </li>
+    <li><a href="#mãrkesyn-og-fysiologi">MÃ¸rkesyn og fysiologi</a>
+      <ul>
+        <li><a href="#faktorer-som-reduserer-mãrkesynet">Faktorer som reduserer mÃ¸rkesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikt-farts--og-avstandstilpasning">Sikt, farts- og avstandstilpasning</a>
+      <ul>
+        <li><a href="#grunnleggende-prinsipper">Grunnleggende prinsipper</a></li>
+        <li><a href="#konkrete-hastighetstilpasninger">Konkrete hastighetstilpasninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-utfordringer-ved-nattkjãring">Psykologiske utfordringer ved nattkjÃ¸ring</a>
+      <ul>
+        <li><a href="#vanlige-psykologiske-fallgruver">Vanlige psykologiske fallgruver</a></li>
+        <li><a href="#mentale-strategier">Mentale strategier</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-hvilepauser">Tretthet og hvilepauser</a>
+      <ul>
+        <li><a href="#anbefalte-pausestrategier">Anbefalte pausestrategier</a></li>
+        <li><a href="#tegn-pã-kritisk-tretthet">Tegn pÃ¥ kritisk tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#dyrefare-og-usynlige-hindringer">Dyrefare og usynlige hindringer</a>
+      <ul>
+        <li><a href="#hãyrisiko-omrãder-og--tider">HÃ¸yrisiko-omrÃ¥der og -tider</a></li>
+        <li><a href="#dyrearter-og-atferd">Dyrearter og atferd</a></li>
+        <li><a href="#forebyggende-tiltak">Forebyggende tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#blending-og-motgãende-trafikk">Blending og motgÃ¥ende trafikk</a>
+      <ul>
+        <li><a href="#typer-blending">Typer blending</a></li>
+        <li><a href="#hãndtering-av-blending">HÃ¥ndtering av blending</a></li>
+        <li><a href="#nãr-andre-blender-deg">NÃ¥r andre blender deg</a></li>
+      </ul>
+    </li>
+    <li><a href="#vintermãrke-og-polarnatten">VintermÃ¸rke og polarnatten</a>
+      <ul>
+        <li><a href="#spesielle-utfordringer-om-vinteren">Spesielle utfordringer om vinteren</a></li>
+        <li><a href="#tiltak-for-vintermãrke">Tiltak for vintermÃ¸rke</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#avanserte-lyssystemer">Avanserte lyssystemer</a></li>
+        <li><a href="#sikkerhetsteknologi">Sikkerhetsteknologi</a></li>
+        <li><a href="#navigasjon-og-kommunikasjon">Navigasjon og kommunikasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#utstyr-rutinekontroller-og-planlegging">Utstyr, rutinekontroller og planlegging</a>
+      <ul>
+        <li><a href="#lys-og-synlighet">Lys og synlighet</a></li>
+        <li><a href="#dekk-og-grep">Dekk og grep</a></li>
+        <li><a href="#sikkerhet-og-nãdutstyr">Sikkerhet og nÃ¸dutstyr</a></li>
+        <li><a href="#ruteplanlegging">Ruteplanlegging</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-med-andre-trafikanter-i-mãrket">Kommunikasjon med andre trafikanter i mÃ¸rket</a>
+      <ul>
+        <li><a href="#lysbruk-som-kommunikasjon">Lysbruk som kommunikasjon</a></li>
+        <li><a href="#posisjonering-og-synlighet">Posisjonering og synlighet</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-i-mãrket">NÃ¸dsituasjoner i mÃ¸rket</a>
+      <ul>
+        <li><a href="#vanlige-nãdsituasjoner">Vanlige nÃ¸dsituasjoner</a></li>
+        <li><a href="#akuttiltak">Akuttiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-utvidet-sjekkliste-for-trygg-nattkjãring">Oppsummering: Utvidet sjekkliste for trygg nattkjÃ¸ring</a></li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lysbruk-og-lysmodi">Lysbruk og lysmodi</a>
+      <ul>
+        <li><a href="#nãr-du-skal-skifte-mellom-lys">NÃ¥r du skal skifte mellom lys</a></li>
+      </ul>
+    </li>
+    <li><a href="#mãrkesyn-og-fysiologi">MÃ¸rkesyn og fysiologi</a>
+      <ul>
+        <li><a href="#faktorer-som-reduserer-mãrkesynet">Faktorer som reduserer mÃ¸rkesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikt-farts--og-avstandstilpasning">Sikt, farts- og avstandstilpasning</a>
+      <ul>
+        <li><a href="#grunnleggende-prinsipper">Grunnleggende prinsipper</a></li>
+        <li><a href="#konkrete-hastighetstilpasninger">Konkrete hastighetstilpasninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-utfordringer-ved-nattkjãring">Psykologiske utfordringer ved nattkjÃ¸ring</a>
+      <ul>
+        <li><a href="#vanlige-psykologiske-fallgruver">Vanlige psykologiske fallgruver</a></li>
+        <li><a href="#mentale-strategier">Mentale strategier</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-hvilepauser">Tretthet og hvilepauser</a>
+      <ul>
+        <li><a href="#anbefalte-pausestrategier">Anbefalte pausestrategier</a></li>
+        <li><a href="#tegn-pã-kritisk-tretthet">Tegn pÃ¥ kritisk tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#dyrefare-og-usynlige-hindringer">Dyrefare og usynlige hindringer</a>
+      <ul>
+        <li><a href="#hãyrisiko-omrãder-og--tider">HÃ¸yrisiko-omrÃ¥der og -tider</a></li>
+        <li><a href="#dyrearter-og-atferd">Dyrearter og atferd</a></li>
+        <li><a href="#forebyggende-tiltak">Forebyggende tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#blending-og-motgãende-trafikk">Blending og motgÃ¥ende trafikk</a>
+      <ul>
+        <li><a href="#typer-blending">Typer blending</a></li>
+        <li><a href="#hãndtering-av-blending">HÃ¥ndtering av blending</a></li>
+        <li><a href="#nãr-andre-blender-deg">NÃ¥r andre blender deg</a></li>
+      </ul>
+    </li>
+    <li><a href="#vintermãrke-og-polarnatten">VintermÃ¸rke og polarnatten</a>
+      <ul>
+        <li><a href="#spesielle-utfordringer-om-vinteren">Spesielle utfordringer om vinteren</a></li>
+        <li><a href="#tiltak-for-vintermãrke">Tiltak for vintermÃ¸rke</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#avanserte-lyssystemer">Avanserte lyssystemer</a></li>
+        <li><a href="#sikkerhetsteknologi">Sikkerhetsteknologi</a></li>
+        <li><a href="#navigasjon-og-kommunikasjon">Navigasjon og kommunikasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#utstyr-rutinekontroller-og-planlegging">Utstyr, rutinekontroller og planlegging</a>
+      <ul>
+        <li><a href="#lys-og-synlighet">Lys og synlighet</a></li>
+        <li><a href="#dekk-og-grep">Dekk og grep</a></li>
+        <li><a href="#sikkerhet-og-nãdutstyr">Sikkerhet og nÃ¸dutstyr</a></li>
+        <li><a href="#ruteplanlegging">Ruteplanlegging</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-med-andre-trafikanter-i-mãrket">Kommunikasjon med andre trafikanter i mÃ¸rket</a>
+      <ul>
+        <li><a href="#lysbruk-som-kommunikasjon">Lysbruk som kommunikasjon</a></li>
+        <li><a href="#posisjonering-og-synlighet">Posisjonering og synlighet</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-i-mãrket">NÃ¸dsituasjoner i mÃ¸rket</a>
+      <ul>
+        <li><a href="#vanlige-nãdsituasjoner">Vanlige nÃ¸dsituasjoner</a></li>
+        <li><a href="#akuttiltak">Akuttiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-utvidet-sjekkliste-for-trygg-nattkjãring">Oppsummering: Utvidet sjekkliste for trygg nattkjÃ¸ring</a></li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lysbruk-og-lysmodi">Lysbruk og lysmodi</a>
+      <ul>
+        <li><a href="#nãr-du-skal-skifte-mellom-lys">NÃ¥r du skal skifte mellom lys</a></li>
+      </ul>
+    </li>
+    <li><a href="#mãrkesyn-og-fysiologi">MÃ¸rkesyn og fysiologi</a>
+      <ul>
+        <li><a href="#faktorer-som-reduserer-mãrkesynet">Faktorer som reduserer mÃ¸rkesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikt-farts--og-avstandstilpasning">Sikt, farts- og avstandstilpasning</a>
+      <ul>
+        <li><a href="#grunnleggende-prinsipper">Grunnleggende prinsipper</a></li>
+        <li><a href="#konkrete-hastighetstilpasninger">Konkrete hastighetstilpasninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-utfordringer-ved-nattkjãring">Psykologiske utfordringer ved nattkjÃ¸ring</a>
+      <ul>
+        <li><a href="#vanlige-psykologiske-fallgruver">Vanlige psykologiske fallgruver</a></li>
+        <li><a href="#mentale-strategier">Mentale strategier</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-hvilepauser">Tretthet og hvilepauser</a>
+      <ul>
+        <li><a href="#anbefalte-pausestrategier">Anbefalte pausestrategier</a></li>
+        <li><a href="#tegn-pã-kritisk-tretthet">Tegn pÃ¥ kritisk tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#dyrefare-og-usynlige-hindringer">Dyrefare og usynlige hindringer</a>
+      <ul>
+        <li><a href="#hãyrisiko-omrãder-og--tider">HÃ¸yrisiko-omrÃ¥der og -tider</a></li>
+        <li><a href="#dyrearter-og-atferd">Dyrearter og atferd</a></li>
+        <li><a href="#forebyggende-tiltak">Forebyggende tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#blending-og-motgãende-trafikk">Blending og motgÃ¥ende trafikk</a>
+      <ul>
+        <li><a href="#typer-blending">Typer blending</a></li>
+        <li><a href="#hãndtering-av-blending">HÃ¥ndtering av blending</a></li>
+        <li><a href="#nãr-andre-blender-deg">NÃ¥r andre blender deg</a></li>
+      </ul>
+    </li>
+    <li><a href="#vintermãrke-og-polarnatten">VintermÃ¸rke og polarnatten</a>
+      <ul>
+        <li><a href="#spesielle-utfordringer-om-vinteren">Spesielle utfordringer om vinteren</a></li>
+        <li><a href="#tiltak-for-vintermãrke">Tiltak for vintermÃ¸rke</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#avanserte-lyssystemer">Avanserte lyssystemer</a></li>
+        <li><a href="#sikkerhetsteknologi">Sikkerhetsteknologi</a></li>
+        <li><a href="#navigasjon-og-kommunikasjon">Navigasjon og kommunikasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#utstyr-rutinekontroller-og-planlegging">Utstyr, rutinekontroller og planlegging</a>
+      <ul>
+        <li><a href="#lys-og-synlighet">Lys og synlighet</a></li>
+        <li><a href="#dekk-og-grep">Dekk og grep</a></li>
+        <li><a href="#sikkerhet-og-nãdutstyr">Sikkerhet og nÃ¸dutstyr</a></li>
+        <li><a href="#ruteplanlegging">Ruteplanlegging</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-med-andre-trafikanter-i-mãrket">Kommunikasjon med andre trafikanter i mÃ¸rket</a>
+      <ul>
+        <li><a href="#lysbruk-som-kommunikasjon">Lysbruk som kommunikasjon</a></li>
+        <li><a href="#posisjonering-og-synlighet">Posisjonering og synlighet</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-i-mãrket">NÃ¸dsituasjoner i mÃ¸rket</a>
+      <ul>
+        <li><a href="#vanlige-nãdsituasjoner">Vanlige nÃ¸dsituasjoner</a></li>
+        <li><a href="#akuttiltak">Akuttiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-utvidet-sjekkliste-for-trygg-nattkjãring">Oppsummering: Utvidet sjekkliste for trygg nattkjÃ¸ring</a></li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>KjÃ¸ring i mÃ¸rket</strong> krever skarp oppmerksomhet om <strong>lysbruk</strong>, <strong>sikt</strong>, <strong>fysiologi</strong> og <strong>risikovurdering</strong>. NattkjÃ¸ring utgjÃ¸r kun 25% av all bilkjÃ¸ring, men stÃ¥r for over <strong>50% av alle dÃ¸dsulykker</strong> pÃ¥ norske veier. Dette gjÃ¸r det sÃ¦rlig viktig Ã¥ mestre teknikker for trygg kjÃ¸ring i mÃ¸rke.</p>
+<p><em>For kjÃ¸ring pÃ¥ norske landeveier i mÃ¸rket, se <a href="/blogs/teori/landeveiskjoring" title="LandeveiskjÃ¸ring - Guide til sikker kjÃ¸ring pÃ¥ norske landeveier">LandeveiskjÃ¸ring</a>.</em></p>
+<p><em>For forebygging av frontkollisjoner og mÃ¸teulykker, se <a href="/blogs/teori/moteulykker-og-forebygging" title="MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken">MÃ¸teulykker og forebygging</a>.</em></p>
+<p>For generelle prinsipper om fokus og samhandling i trafikken, se <a href="/blogs/teori/oppmerksomhet-og-samhandling" title="Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken">Oppmerksomhet og samhandling</a>. For mer om hvordan <strong>menneskelige faktorer</strong> pÃ¥virker kjÃ¸ringen, se <a href="/blogs/teori/mennesket-i-trafikken" title="Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring">Mennesket i trafikken</a>.</p>
+<p><em>For omfattende planlegging av lange turer, se <a href="/blogs/teori/forberedelser-for-en-lang-kjoretur" title="Forberedelser fÃ¸r en lang kjÃ¸retur - Slik planlegger du trygg langtur">Forberedelser fÃ¸r en lang kjÃ¸retur</a>.</em></p>
+<p>For en oversikt over gjeldende lover og forskrifter, se <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Oversikt over norske trafikklover og forskrifter">Lover og forskrifter</a>.</p>
+<p><em>For en mer inngÃ¥ende gjennomgang av <strong>reaksjonstid</strong> og <strong>bremselengde</strong>, se <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Guide til reaksjonstid og bremseavstand">Reaksjonstid og bremselengde</a>.</em></p>
+<p>I denne omfattende guiden fÃ¥r du:</p>
+<ul>
+<li>Et dypdykk i optimale <strong>lysmodi</strong> og lysinnstillinger</li>
+<li>Hvordan <strong>mÃ¸rkesyn</strong> og menneskelige faktorer pÃ¥virker kjÃ¸ringen</li>
+<li>Praktiske tips for <strong>hastighetstilpasning</strong>, <strong>hvilepauser</strong> og <strong>utstyrsjekk</strong></li>
+<li>Veiledning om <strong>dyrefare</strong>, <strong>blending</strong> og andre skjulte utfordringer</li>
+<li>Spesifikke teknikker for <strong>vintermÃ¸rke</strong> og <strong>polarnatten</strong></li>
+<li><strong>Psykologiske aspekter</strong> ved nattkjÃ¸ring</li>
+</ul>
+<p><em>For grunnleggende prinsipper for plassering og kjÃ¸remÃ¥te i alle situasjoner, se <a href="/blogs/teori/plassering-og-kjorematte" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a>. For mer om lysbruk generelt, se <a href="/blogs/teori/bruk-av-lys-og-signaler" title="Bruk av lys og signaler - Komplett guide til bilens lys">Bruk av lys og signaler</a>.</em></p>
+<h2 id="lysbruk-og-lysmodi">Lysbruk og lysmodi</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Riktig bruk av bilens lys forbedrer bÃ¥de <strong>egen sikt</strong> og andres mulighet til Ã¥ se deg. Her er en detaljert oversikt:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Lysmodus</th>
+          <th>BruksomrÃ¥de</th>
+          <th>Rekkevidde</th>
+          <th>Viktige regler</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>NÃ¦rlys</strong></td>
+          <td>MÃ¸te- og bakovervisning</td>
+          <td>30â€“50 m</td>
+          <td>LovpÃ¥lagt i mÃ¸rket eller ved dÃ¥rlig sikt</td>
+      </tr>
+      <tr>
+          <td><strong>Fjernlys</strong></td>
+          <td>MÃ¸rke veier uten trafikk</td>
+          <td>100â€“200 m</td>
+          <td>SlÃ¥ av ved mÃ¸te eller bakoverkjÃ¸ring</td>
+      </tr>
+      <tr>
+          <td><strong>TÃ¥kelys</strong></td>
+          <td>Tett tÃ¥ke, snÃ¸ eller stÃ¸v</td>
+          <td>20â€“50 m</td>
+          <td>Kun ved anbefalt sikt &lt; 50 m</td>
+      </tr>
+      <tr>
+          <td><strong>KjÃ¸relys</strong></td>
+          <td>DagkjÃ¸ring som Ã¸ker synlighet</td>
+          <td>â€“</td>
+          <td>Obligatorisk pÃ¥ nyere biler, sÃ¦rlig ved skumring og regnvÃ¦r</td>
+      </tr>
+      <tr>
+          <td><strong>Parkeringslys</strong></td>
+          <td>Parkert kjÃ¸retÃ¸y</td>
+          <td>â€“</td>
+          <td>Skal ikke erstatte kjÃ¸relys</td>
+      </tr>
+      <tr>
+          <td><strong>Baklys</strong></td>
+          <td>Synlighet bakfra</td>
+          <td>â€“</td>
+          <td>Automatisk med frontlys, Ã¸kt styrke ved bremsing</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="nãr-du-skal-skifte-mellom-lys">NÃ¥r du skal skifte mellom lys</h3>
+<ul>
+<li><strong>Skumring</strong>: Bytt til nÃ¦rlys nÃ¥r du ikke lenger kan se tydelig 50-100 meter fremover</li>
+<li><strong>Fjernlys</strong>: Bruk nÃ¥r det ikke er mÃ¸tende eller forankjÃ¸rende trafikk innen 150 meter</li>
+<li><strong>MÃ¸te</strong>: Dimm til nÃ¦rlys nÃ¥r mÃ¸tende kjÃ¸retÃ¸y er 150-200 meter unna</li>
+<li><strong>BakoverkjÃ¸ring</strong>: Dimm nÃ¥r du er 50-100 meter bak forankjÃ¸rende</li>
+</ul>
+<h2 id="mãrkesyn-og-fysiologi">MÃ¸rkesyn og fysiologi</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>MÃ¸rkesynet vÃ¥rt pÃ¥virkes av <strong>pupillutvidelse</strong>, <strong>fotopigment</strong> og andre biologiske faktorer:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Faktor</th>
+          <th>Effekt</th>
+          <th>Tilpasningstid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Pupillutvidelse</strong></td>
+          <td>StÃ¸rre lysinntak, men redusert dybdesyn</td>
+          <td>5-10 sekunder</td>
+      </tr>
+      <tr>
+          <td><strong>Stavceller</strong></td>
+          <td>HÃ¸ysensitivitet i svakt lys, begrenset fargesyn</td>
+          <td>20-30 minutter</td>
+      </tr>
+      <tr>
+          <td><strong>Ã˜yets tilvenningstid</strong></td>
+          <td>Fullt mÃ¸rkesyn oppnÃ¥s gradvis</td>
+          <td>20â€“30 min for maksimal effekt</td>
+      </tr>
+      <tr>
+          <td><strong>Rhodopsin (Ã¸yepigment)</strong></td>
+          <td>Kjemisk forbindelse som gjÃ¸r mÃ¸rketilpasning mulig</td>
+          <td>Regenereres langsomt</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="faktorer-som-reduserer-mãrkesynet">Faktorer som reduserer mÃ¸rkesynet</h3>
+<ul>
+<li><strong>Alder</strong>: Fra 40-Ã¥rsalderen reduseres mÃ¸rkesynet betydelig</li>
+<li><strong>RÃ¸yking</strong>: Reduserer oksygentilfÃ¸rselen til Ã¸ynene</li>
+<li><strong>Alkohol</strong>: Selv smÃ¥ mengder pÃ¥virker nattsynet negativt</li>
+<li><strong>Medikamenter</strong>: Mange reseptbelagte medikamenter pÃ¥virker synet</li>
+<li><strong>Tretthet</strong>: Reduserer bÃ¥de konsentrasjon og synsskarphet</li>
+</ul>
+<p>For mer om menneskelige begrensninger, se <a href="/blogs/teori/mennesket-i-trafikken" title="Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring">Mennesket i trafikken</a>.</p>
+<h2 id="sikt-farts--og-avstandstilpasning">Sikt, farts- og avstandstilpasning</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Endret sikt krever nÃ¸ye kontroll over hastighet og bremselengde:</p>
+<h3 id="grunnleggende-prinsipper">Grunnleggende prinsipper</h3>
+<ul>
+<li><strong>Siktavstand</strong>: Du mÃ¥ kunne stoppe innenfor den avstanden du kan se</li>
+<li><strong>Dobbel marginsregel</strong>: I mÃ¸rket bÃ¸r du kunne stoppe pÃ¥ <strong>halve siktavstanden</strong> (se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">Fart og avstand</a> for detaljerte stoppeavstand-beregninger)</li>
+<li><strong>Ã˜kt <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde">reaksjonstid</a></strong>: Regn med 20-30% lengre reaksjonstid i mÃ¸rket</li>
+<li><strong>VintermÃ¸rke</strong>: Kombinasjonen mÃ¸rke + glatt fÃ¸re krever ekstra forsiktighet</li>
+</ul>
+<h3 id="konkrete-hastighetstilpasninger">Konkrete hastighetstilpasninger</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Siktforhold</th>
+          <th>Anbefalt maksimalhastighet</th>
+          <th>Begrunnelse</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>NÃ¦rlys (40m sikt)</strong></td>
+          <td>50-60 km/t</td>
+          <td>Stopper trygt innen siktavstand</td>
+      </tr>
+      <tr>
+          <td><strong>Fjernlys (100m sikt)</strong></td>
+          <td>70-80 km/t</td>
+          <td>God sikt tillater hÃ¸yere hastighet</td>
+      </tr>
+      <tr>
+          <td><strong>TÃ¥ke/snÃ¸ (20m sikt)</strong></td>
+          <td>30-40 km/t</td>
+          <td>Meget begrenset sikt</td>
+      </tr>
+      <tr>
+          <td><strong>Skumring (variabel)</strong></td>
+          <td>Tilpass kontinuerlig</td>
+          <td>Siktforholdene endrer seg raskt</td>
+      </tr>
+  </tbody>
+</table>
+<p>Vurder maksimal stoppavstand basert pÃ¥ sikt; se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">Fart og avstand</a> for detaljerte beregninger.</p>
+<ul>
+<li>Ã˜k avstanden til kjÃ¸retÃ¸y foran med minst <strong>50% i mÃ¸rkett</strong></li>
+<li>VÃ¦r ekstra varsom ved skogholt, bakker og svinger</li>
+<li>Bruk <strong>tresekundersregelen</strong> som minimum, <strong>firesekundersregelen</strong> i vintermÃ¸rke</li>
+</ul>
+<h2 id="psykologiske-utfordringer-ved-nattkjãring">Psykologiske utfordringer ved nattkjÃ¸ring</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="vanlige-psykologiske-fallgruver">Vanlige psykologiske fallgruver</h3>
+<ul>
+<li><strong>Overestimering av egen sikt</strong>: Mange tror de ser bedre enn de faktisk gjÃ¸r</li>
+<li><strong>Hastighetsillusjon</strong>: FÃ¸ler at man kjÃ¸rer saktere enn man faktisk gjÃ¸r</li>
+<li><strong>Falsk trygghetsfÃ¸lelse</strong>: Moderne biler og veier gir fÃ¸lelse av kontroll</li>
+<li><strong>Tretthetsfornektelse</strong>: Mange undervurderer egen tretthet</li>
+</ul>
+<h3 id="mentale-strategier">Mentale strategier</h3>
+<ul>
+<li><strong>Aktiv konsentrasjon</strong>: Bevisst fokus pÃ¥ kjÃ¸reoppgaven</li>
+<li><strong>Regelmessig selvkontroll</strong>: SpÃ¸r deg selv: &ldquo;Hvordan har jeg det nÃ¥?&rdquo;</li>
+<li><strong>Realitetsorientering</strong>: Test sikt ved Ã¥ observere objekter langs veien</li>
+<li><strong>Pausestrategi</strong>: Planlegg pauser hver 1,5-2 timer</li>
+</ul>
+<h2 id="tretthet-og-hvilepauser">Tretthet og hvilepauser</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Lang nattkjÃ¸ring Ã¸ker risikoen for <strong>tretthet</strong> og <strong>mikro-sÃ¸vn</strong>. Din <strong>dÃ¸gnrytme</strong> gjÃ¸r deg naturlig mindre vÃ¥ken mellom kl. 02-06 og 14-16.</p>
+<h3 id="anbefalte-pausestrategier">Anbefalte pausestrategier</h3>
+<table>
+  <thead>
+      <tr>
+          <th>KjÃ¸retid</th>
+          <th>Pausetype</th>
+          <th>Varighet</th>
+          <th>Aktivitet</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Hver 1,5-2t</strong></td>
+          <td>Aktiv pause</td>
+          <td>15-20 min</td>
+          <td>GÃ¥, strekk ut, frisk luft</td>
+      </tr>
+      <tr>
+          <td><strong>Ved tretthet</strong></td>
+          <td>Powernap</td>
+          <td>15-20 min</td>
+          <td>Kort sÃ¸vn, ikke lenger</td>
+      </tr>
+      <tr>
+          <td><strong>Lange turer</strong></td>
+          <td>MÃ¥ltidspause</td>
+          <td>30-45 min</td>
+          <td>Lett mÃ¥ltid, unngÃ¥ store porsjoner</td>
+      </tr>
+      <tr>
+          <td><strong>Kritisk tretthet</strong></td>
+          <td>Lengre hvile</td>
+          <td>2-4 timer</td>
+          <td>Ordentlig sÃ¸vn fÃ¸r videre kjÃ¸ring</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="tegn-pã-kritisk-tretthet">Tegn pÃ¥ kritisk tretthet</h3>
+<ul>
+<li><strong>Mikro-sÃ¸vn</strong>: Korte Ã¸yeblikk der du sovner</li>
+<li><strong>Ã˜yeproblemer</strong>: TÃ¸rre Ã¸yne, hyppig blunking</li>
+<li><strong>Konsentrasjonsproblemer</strong>: Mister fokus pÃ¥ veibanen</li>
+<li><strong>Fysiske tegn</strong>: Gjesping, tunge Ã¸yelokk, nakkesmerter</li>
+</ul>
+<p>Del kjÃ¸ringen med andre om mulig, eller <strong>stopp og hvil</strong> nÃ¥r du merker disse tegnene.</p>
+<h2 id="dyrefare-og-usynlige-hindringer">Dyrefare og usynlige hindringer</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>I mÃ¸rket kan bÃ¥de smÃ¥ og store dyr plutselig krysse veien. <strong>Dyrekollisjoner</strong> Ã¸ker dramatisk i mÃ¸rke perioder, sÃ¦rlig i <strong>skumringen</strong> og tidlig pÃ¥ morgenen.</p>
+<h3 id="hãyrisiko-omrãder-og--tider">HÃ¸yrisiko-omrÃ¥der og -tider</h3>
+<ul>
+<li><strong>SkogomrÃ¥der</strong>: Spesielt der det er dyreskilt</li>
+<li><strong>Ã…pne marker</strong>: Der dyr beiter eller sÃ¸ker fÃ¸de</li>
+<li><strong>Tidspunkt</strong>: Skumring (16-20), tidlig morgen (05-08)</li>
+<li><strong>Ã…rstider</strong>: Spesielt hÃ¸st (brunst) og vinter (fÃ´remangel)</li>
+</ul>
+<h3 id="dyrearter-og-atferd">Dyrearter og atferd</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Dyreart</th>
+          <th>Atferd</th>
+          <th>Risikofaktorer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Elg</strong></td>
+          <td>Ofte alene, stopper gjerne i lys</td>
+          <td>Stor og tung, kan vÃ¦re dÃ¸delig</td>
+      </tr>
+      <tr>
+          <td><strong>RÃ¥dyr</strong></td>
+          <td>Ofte i grupper, springer tilfeldig</td>
+          <td>Uforutsigbar bevegelse</td>
+      </tr>
+      <tr>
+          <td><strong>Hjort</strong></td>
+          <td>Gruppevis, fÃ¸lger leder</td>
+          <td>Flere dyr kan fÃ¸lge etter det fÃ¸rste</td>
+      </tr>
+      <tr>
+          <td><strong>Hare</strong></td>
+          <td>Rask retningsendring</td>
+          <td>Vanskelig Ã¥ oppdage</td>
+      </tr>
+      <tr>
+          <td><strong>Rype</strong></td>
+          <td>LÃ¥g flukt, kan skremmes av lys</td>
+          <td>Plutselig bevegelse</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="forebyggende-tiltak">Forebyggende tiltak</h3>
+<ul>
+<li>Senk hastigheten ved <strong>dyreskilt</strong> og i <strong>skogomrÃ¥der</strong></li>
+<li>Bruk <strong>fjernlys</strong> nÃ¥r mulig for bedre sikt</li>
+<li><strong>Skann</strong> kontinuerlig langs veikantene</li>
+<li>VÃ¦r forberedt pÃ¥ at <strong>flere dyr</strong> kan fÃ¸lge det fÃ¸rste</li>
+<li><strong>Ikke</strong> sving unna dyr - <strong>brems rett frem</strong> og tut</li>
+</ul>
+<h2 id="blending-og-motgãende-trafikk">Blending og motgÃ¥ende trafikk</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Blending fra mÃ¸tende lys kan vÃ¦re desorienterende og farlig. <strong>Blending</strong> reduserer din sikt i opptil <strong>10 sekunder</strong> etter mÃ¸tet.</p>
+<h3 id="typer-blending">Typer blending</h3>
+<ul>
+<li><strong>Direkte blending</strong>: Rett fra mÃ¸tende kjÃ¸retÃ¸ys frontlykter</li>
+<li><strong>Refleksblending</strong>: Fra vÃ¥t asfalt, skilt eller snÃ¸</li>
+<li><strong>Egen blending</strong>: Fra feil innstilte egne lykter</li>
+</ul>
+<h3 id="hãndtering-av-blending">HÃ¥ndtering av blending</h3>
+<ul>
+<li>Bruk <strong>pilsing</strong> ved behov for Ã¥ se veikanten (korte blink med fjernlys)</li>
+<li>Se ned mot <strong>hÃ¸yre veikant</strong> ved mÃ¸te, unngÃ¥ Ã¥ se rett inn i lysene</li>
+<li>FÃ¸lg <strong>veimerking</strong> og <strong>reflekser</strong> langs veikanten</li>
+<li>Etter mÃ¸te, trekk blikket <strong>gradvis</strong> tilbake til kjÃ¸rebanens midtlinje</li>
+<li><strong>Senk hastigheten</strong> ved sterkt blendende mÃ¸ter</li>
+<li>Bruk <strong>solbriller</strong> med gult glass ved behov (spesiell nattkjÃ¸ringsbriller)</li>
+</ul>
+<h3 id="nãr-andre-blender-deg">NÃ¥r andre blender deg</h3>
+<ul>
+<li><strong>Signal</strong> med kortvarig fjernlys-pilsing (ikke aggressivt)</li>
+<li><strong>Ikke</strong> blende tilbake - det Ã¸ker risikoen for ulykke</li>
+<li><strong>Rapporter</strong> biler med feil innstilte lykter hvis mulig</li>
+<li>Vurder Ã¥ <strong>stoppe trygt</strong> hvis blendingen er alvorlig</li>
+</ul>
+<h2 id="vintermãrke-og-polarnatten">VintermÃ¸rke og polarnatten</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>I Nord-Norge kan <strong>polarnatt</strong> vare i flere mÃ¥neder, mens resten av landet opplever <strong>vintermÃ¸rke</strong> med korte dag-perioder.</p>
+<h3 id="spesielle-utfordringer-om-vinteren">Spesielle utfordringer om vinteren</h3>
+<ul>
+<li><strong>Kombinert risiko</strong>: MÃ¸rke + glatte veier + kald luft</li>
+<li><strong>Kondens</strong>: Fuktighet pÃ¥ vinduer reduserer sikt ytterligere</li>
+<li><strong>SnÃ¸blending</strong>: SnÃ¸ reflekterer og forsterker lys</li>
+<li><strong>Korte dager</strong>: Hyppigere kjÃ¸ring i mÃ¸rke, ogsÃ¥ pÃ¥ dagtid</li>
+</ul>
+<h3 id="tiltak-for-vintermãrke">Tiltak for vintermÃ¸rke</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Utfordring</th>
+          <th>Tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Kondens pÃ¥ ruter</strong></td>
+          <td>Bruk klimaanlegg og varmeapparat</td>
+      </tr>
+      <tr>
+          <td><strong>SnÃ¸ pÃ¥ lykter</strong></td>
+          <td>Kontroller og rengjÃ¸r lykter hyppig</td>
+      </tr>
+      <tr>
+          <td><strong>Glatt veibane</strong></td>
+          <td>Senk hastighet drastisk, myk kjÃ¸reteknikk</td>
+      </tr>
+      <tr>
+          <td><strong>Begrenset dagslys</strong></td>
+          <td>Planlegg kjÃ¸ring til lyse perioder</td>
+      </tr>
+      <tr>
+          <td><strong>D-vitamin mangel</strong></td>
+          <td>PÃ¥virker konsentrasjon og reaksjonsevne</td>
+      </tr>
+  </tbody>
+</table>
+<p>For detaljer om vinterkjÃ¸ring, se <a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold - guide til trygge kjÃ¸reforhold">KjÃ¸ring under vanskelige forhold</a>.</p>
+<h2 id="teknologi-og-hjelpemidler">Teknologi og hjelpemidler</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Moderne biler har flere teknologier som kan hjelpe ved nattkjÃ¸ring:</p>
+<h3 id="avanserte-lyssystemer">Avanserte lyssystemer</h3>
+<ul>
+<li><strong>Adaptive fjernlys</strong>: Dimmer automatisk ved mÃ¸tende trafikk</li>
+<li><strong>LED/Xenon-lys</strong>: Bedre og hvitere lysutbytte enn halogenlys</li>
+<li><strong>Svingbare lykter</strong>: FÃ¸lger ratutslag i svinger</li>
+<li><strong>Automatisk lyssensor</strong>: SlÃ¥r pÃ¥ lys ved behov</li>
+</ul>
+<h3 id="sikkerhetsteknologi">Sikkerhetsteknologi</h3>
+<p>Moderne <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr - Komplett guide til aktivt og passivt sikkerhetsutstyr">sikkerhetsutstyr</a> gir ekstra stÃ¸tte ved nattkjÃ¸ring:</p>
+<ul>
+<li><strong>Nattsyn-kamera</strong>: InfrarÃ¥d kamera som viser varme objekter</li>
+<li><strong>Automatisk nÃ¸dbrems</strong>: Kan oppdage hindringer i mÃ¸rket</li>
+<li><strong>Kollisjonsvarsling</strong>: Advarer om hindringer foran</li>
+<li><strong>Blindsone-overvÃ¥king</strong>: Ekstra viktig ved redusert sikt</li>
+</ul>
+<h3 id="navigasjon-og-kommunikasjon">Navigasjon og kommunikasjon</h3>
+<ul>
+<li><strong>GPS med nattsyn</strong>: Redusert lysstyrke for Ã¥ ikke blende fÃ¸reren</li>
+<li><strong>Handsfree</strong>: UnngÃ¥ distraksjoner med mobil</li>
+<li><strong>NÃ¸drufssystem</strong>: Automatisk varsling ved ulykke</li>
+</ul>
+<h2 id="utstyr-rutinekontroller-og-planlegging">Utstyr, rutinekontroller og planlegging</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>FÃ¸r du legger ut pÃ¥ nattkjÃ¸ring, bÃ¸r fÃ¸lgende sjekkes grundig:</p>
+<h3 id="lys-og-synlighet">Lys og synlighet</h3>
+<ul>
+<li><strong>Lys og lykteglass</strong>: Rene og uten sprekkdannelser eller dugg</li>
+<li><strong>LyktehÃ¸yde</strong>: Riktig innstilt (sjekk hos verksted ved behov)</li>
+<li><strong>ReservepÃ¦rer</strong>: Ha med ekstra pÃ¦rer og verktÃ¸y</li>
+<li><strong>Speilinnstilling</strong>: Optimal posisjon for Ã¥ redusere blending</li>
+</ul>
+<h3 id="dekk-og-grep">Dekk og grep</h3>
+<ul>
+<li><strong>Dekk</strong>: Riktig mÃ¸nsterdybde (minimum 3mm om vinteren) og korrekt lufttrykk (se <a href="/blogs/teori/regler-for-dekk-og-kjetting" title="Regler for dekk og kjetting - Krav til mÃ¸nsterdybde og sesongdekk">Regler for dekk og kjetting</a>)</li>
+<li><strong>Reservehjul</strong>: Kontroller at det er i orden og har riktig trykk</li>
+<li><strong>Kjettinger</strong>: Ha med vinterstid, tren pÃ¥ montering</li>
+</ul>
+<h3 id="sikkerhet-og-nãdutstyr">Sikkerhet og nÃ¸dutstyr</h3>
+<ul>
+<li><strong>Reflekser og nÃ¸dutstyr</strong>: Ha refleksvest, varseltrekant og <a href="/blogs/teori/forstehjelp-og-opptreden-ved-ulykker" title="FÃ¸rstehjelp og opptreden ved ulykker">fÃ¸rstehjelp tilgjengelig</a>.</li>
+<li><strong>Mobillader</strong>: Ekstra strÃ¸m for nÃ¸dkommunikasjon</li>
+<li><strong>Lommelykt</strong>: Kraftig LED-lommelykt med ekstra batterier</li>
+<li><strong>Varme klÃ¦r</strong>: Vinterjakke og varme sko i bilen</li>
+<li><strong>Mat og drikke</strong>: Noe enkelt hvis du blir stÃ¥ende</li>
+</ul>
+<h3 id="ruteplanlegging">Ruteplanlegging</h3>
+<ul>
+<li><strong>Kjente ruter</strong>: KjÃ¸r helst ruter du kjenner godt i mÃ¸rket</li>
+<li><strong>Pauseplasser</strong>: Planlegg hvor du kan ta pauser med god belysning</li>
+<li><strong>VÃ¦rvarsel</strong>: Sjekk vÃ¦rmelding og veiforhold</li>
+<li><strong>Mobildekning</strong>: Vurder omrÃ¥der med dÃ¥rlig dekning</li>
+<li><strong>Alternativ rute</strong>: Ha en plan B hvis hovedruten blir stengt</li>
+</ul>
+<h2 id="kommunikasjon-med-andre-trafikanter-i-mãrket">Kommunikasjon med andre trafikanter i mÃ¸rket</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>I mÃ¸rket blir <strong>kommunikasjon</strong> med andre trafikanter enda viktigere, siden synligheten er redusert.</p>
+<h3 id="lysbruk-som-kommunikasjon">Lysbruk som kommunikasjon</h3>
+<ul>
+<li><strong>Pilsing med fjernlys</strong>: Kort blink for Ã¥ varsle eller takke</li>
+<li><strong>Blinklys</strong>: Bruk i god tid fÃ¸r svinger og filskifter</li>
+<li><strong>NÃ¸dblinklys</strong>: Ved stopp eller problemer</li>
+<li><strong>Baklysvariasjoner</strong>: Moderne biler har adaptive baklys</li>
+</ul>
+<h3 id="posisjonering-og-synlighet">Posisjonering og synlighet</h3>
+<ul>
+<li><strong>Forutsigbarhet</strong>: Hold jevn kurs og hastighet</li>
+<li><strong>Tidlig signalering</strong>: Signal tidligere enn om dagen</li>
+<li><strong>Ekstra avstand</strong>: Hold stÃ¸rre sikkerhetsavstand</li>
+<li><strong>Reflekterende elementer</strong>: Bruk reflekser pÃ¥ klÃ¦r ved stopp</li>
+</ul>
+<p>For mer om generell kommunikasjon i trafikken, se <a href="/blogs/teori/kommunikasjon-med-andre-trafikanter" title="Kommunikasjon med andre trafikanter - Sikker interaksjon i trafikken">Kommunikasjon med andre trafikanter</a>.</p>
+<h2 id="nãdsituasjoner-i-mãrket">NÃ¸dsituasjoner i mÃ¸rket</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>NÃ¸dsituasjoner blir mer kompliserte i mÃ¸rket pÃ¥ grunn av redusert synlighet og fÃ¦rre trafikanter som kan hjelpe.</p>
+<h3 id="vanlige-nãdsituasjoner">Vanlige nÃ¸dsituasjoner</h3>
+<ul>
+<li><strong>Motorstopp</strong>: Kan vÃ¦re vanskeligere Ã¥ fÃ¥ hjelp i mÃ¸rket</li>
+<li><strong>Punktering</strong>: Farligere Ã¥ reparere langs veien</li>
+<li><strong>Ulykker</strong>: Redusert synlighet Ã¸ker risikoen for pÃ¥kjÃ¸rsel</li>
+<li><strong>Sykdom/tretthet</strong>: Kan oppstÃ¥ plutselig ved langkjÃ¸ring</li>
+</ul>
+<h3 id="akuttiltak">Akuttiltak</h3>
+<ol>
+<li><strong>Sikre omrÃ¥det</strong>: Bruk varseltrekant og nÃ¸dblink</li>
+<li><strong>GjÃ¸r deg synlig</strong>: Bruk refleksvest og lommelykt</li>
+<li><strong>Ring hjelp</strong>: Ring 112 (nÃ¸dnummer) eller 113 (legevakt)</li>
+<li><strong>Plasser varsling</strong>: Sett varseltrekant 100-200m bak kjÃ¸retÃ¸yet</li>
+<li><strong>UnngÃ¥ veibanen</strong>: Opphold deg utenfor kjÃ¸rebanen</li>
+</ol>
+<p>For mer detaljert informasjon, se <a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - Trygg respons pÃ¥ akutte situasjoner">HÃ¥ndtering av nÃ¸dsituasjoner</a>.</p>
+<h2 id="oppsummering-utvidet-sjekkliste-for-trygg-nattkjãring">Oppsummering: Utvidet sjekkliste for trygg nattkjÃ¸ring</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Kategori</th>
+          <th>Sjekkliste</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>FÃ¸r avreise</strong></td>
+          <td>Sjekk lys, dekk, drivstoff, nÃ¸dutstyr, vÃ¦rvarseld</td>
+      </tr>
+      <tr>
+          <td><strong>Lysbruk</strong></td>
+          <td>Velg riktig modus, unngÃ¥ blending, dim ved mÃ¸te</td>
+      </tr>
+      <tr>
+          <td><strong>Hastighet</strong></td>
+          <td>Tilpass til sikt, hold Ã¸kt avstand, bruk marginprinsippet</td>
+      </tr>
+      <tr>
+          <td><strong>Fysiologi</strong></td>
+          <td>VÃ¦r klar over mÃ¸rkesynsbegrensninger, unngÃ¥ alkohol</td>
+      </tr>
+      <tr>
+          <td><strong>Tretthet</strong></td>
+          <td>Ta regelmessige pauser, vurder powernap, del kjÃ¸ringen</td>
+      </tr>
+      <tr>
+          <td><strong>Dyrefare</strong></td>
+          <td>Senk farten ved skilt, bruk fjernlys, skann veikanter</td>
+      </tr>
+      <tr>
+          <td><strong>VÃ¦rforhold</strong></td>
+          <td>Tilpass til vintermÃ¸rke, vÃ¦r forsiktig med kondens</td>
+      </tr>
+      <tr>
+          <td><strong>Teknologi</strong></td>
+          <td>Bruk moderne hjelpemidler, men stol ikke kun pÃ¥ dem</td>
+      </tr>
+      <tr>
+          <td><strong>NÃ¸dsituasjoner</strong></td>
+          <td>Ha utstyr klart, know prosedyrer, gjÃ¸r deg synlig</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="konklusjon">Konklusjon</h2>
+<p><strong>KjÃ¸ring i mÃ¸rket</strong> krever en kombinasjon av teknisk kunnskap, riktig utstyr og mental forberedelse. De hÃ¸ye ulykkestallene for nattkjÃ¸ring gjÃ¸r det kritisk at alle bilfÃ¸rere mestrer disse ferdighetene.</p>
+<p><strong>Viktigste takeaways:</strong></p>
+<ul>
+<li><strong>Statistikken</strong>: 50% av dÃ¸dsulykker skjer om natten til tross for kun 25% kjÃ¸ring</li>
+<li><strong>Fysiologi</strong>: Din kropp er naturlig mindre vÃ¥ken om natten</li>
+<li><strong>Sikt</strong>: Hastigheten mÃ¥ alltid tilpasses siktforholdene</li>
+<li><strong>Tretthet</strong>: Ta pauser fÃ¸r du blir farlig trett</li>
+<li><strong>Utstyr</strong>: Riktig utstyr og vedlikehold kan redde liv</li>
+</ul>
+<p>For krevende fÃ¸reforhold som regn, snÃ¸ eller tÃ¥ke kombinert med mÃ¸rke, se <a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold - guide til trygge kjÃ¸reforhold">KjÃ¸ring under vanskelige forhold</a>.</p>
+<p>For mer om trafikksikkerhet generelt, se <a href="/blogs/teori/risikovurdering-i-praksis" title="Risikovurdering i praksis - Praktiske sikkerhetsvurderinger">Risikovurdering i praksis</a> og <a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring - Proaktive kjÃ¸reteknikker for Ã¸kt sikkerhet">Defensiv kjÃ¸ring</a>.\n  </div>\n</div></p>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Kjøring i mørket" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Kjøring i mørket" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Kjøring i mørket" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

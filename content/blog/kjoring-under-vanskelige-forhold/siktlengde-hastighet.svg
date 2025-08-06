@@ -1,0 +1,64 @@
+<svg width="700" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e5e5e5" />
+
+  <text x="350" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">Siktlengde vs. Hastighet i Tåke</text>
+
+  <!-- Akser -->
+  <line x1="50" y1="450" x2="650" y2="450" stroke="#333" stroke-width="2" />
+  <line x1="50" y1="450" x2="50" y2="80" stroke="#333" stroke-width="2" />
+
+  <text x="350" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Siktlengde (meter)</text>
+  <text x="20" y="265" font-family="Arial, sans-serif" font-size="16" transform="rotate(-90 20 265)" text-anchor="middle">Maks Trygg Hastighet (km/t)</text>
+
+  <!-- Data-punkter og områder -->
+  <!-- Sone 1: > 200m -->
+  <g>
+    <rect x="500" y="100" width="150" height="350" fill="rgba(0, 255, 0, 0.2)" />
+    <text x="575" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">&gt; 200m</text>
+    <text x="575" y="150" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">Normal</text>
+    <text x="575" y="170" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">hastighet</text>
+    <line x1="500" y1="180" x2="650" y2="180" stroke="#009900" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Sone 2: 50-200m -->
+  <g>
+    <rect x="300" y="200" width="200" height="250" fill="rgba(255, 255, 0, 0.3)" />
+    <text x="400" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">50-200m</text>
+    <text x="400" y="230" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">50-60 km/t</text>
+    <line x1="300" y1="240" x2="500" y2="240" stroke="#cccc00" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Sone 3: 20-50m -->
+  <g>
+    <rect x="150" y="300" width="150" height="150" fill="rgba(255, 165, 0, 0.4)" />
+    <text x="225" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">20-50m</text>
+    <text x="225" y="330" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">30-40 km/t</text>
+    <line x1="150" y1="340" x2="300" y2="340" stroke="#ff9900" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Sone 4: < 20m -->
+  <g>
+    <rect x="50" y="380" width="100" height="70" fill="rgba(255, 0, 0, 0.5)" />
+    <text x="100" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">&lt; 20m</text>
+    <text x="100" y="395" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">&lt; 20 km/t</text>
+    <line x1="50" y1="405" x2="150" y2="405" stroke="#cc0000" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Y-akse-verdier -->
+  <text y="455" x="45" font-family="Arial, sans-serif" font-size="12" text-anchor="end">0</text>
+  <text y="410" x="45" font-family="Arial, sans-serif" font-size="12" text-anchor="end">20</text>
+  <text y="345" x="45" font-family="Arial, sans-serif" font-size="12" text-anchor="end">40</text>
+  <text y="245" x="45" font-family="Arial, sans-serif" font-size="12" text-anchor="end">60</text>
+  <text y="185" x="45" font-family="Arial, sans-serif" font-size="12" text-anchor="end">80</text>
+
+  <!-- Bil-ikon for kontekst -->
+  <g transform="translate(60, 120)">
+    <rect x="10" y="20" width="60" height="30" fill="#6699cc" stroke="#333" stroke-width="2" rx="5" />
+    <circle cx="25" cy="50" r="8" fill="#333" />
+    <circle cx="55" cy="50" r="8" fill="#333" />
+    <path d="M 75 35 L 150 35 L 200 15" stroke="rgba(255,255,255,0.7)" stroke-width="15" fill="none" />
+    <path d="M 75 35 L 150 35 L 200 55" stroke="rgba(255,255,255,0.7)" stroke-width="15" fill="none" />
+    <text x="140" y="10" font-family="Arial, sans-serif" font-size="14" fill="#555">Tåke</text>
+  </g>
+
+</svg>

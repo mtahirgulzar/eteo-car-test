@@ -1,0 +1,70 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 32px Arial; fill: #2c5282; text-anchor: middle; }
+      .subtitle { font: 20px Arial; fill: #4a5568; text-anchor: middle; }
+      .icon-text { font: 16px Arial; fill: #2d3748; text-anchor: middle; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="300" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" class="title">Landeveiskjøring</text>
+  <text x="400" y="80" class="subtitle">Trygg kjøring på norske landeveier</text>
+  
+  <!-- Road illustration -->
+  <g transform="translate(50, 120)">
+    <!-- Main road -->
+    <rect x="0" y="60" width="700" height="80" fill="#4a5568"/>
+    <!-- Center line -->
+    <rect x="0" y="98" width="700" height="4" fill="#fff"/>
+    <!-- Road markings -->
+    <rect x="50" y="100" width="30" height="2" fill="transparent"/>
+    <rect x="100" y="100" width="30" height="2" fill="#fff"/>
+    <rect x="170" y="100" width="30" height="2" fill="#fff"/>
+    <rect x="240" y="100" width="30" height="2" fill="#fff"/>
+    <rect x="310" y="100" width="30" height="2" fill="#fff"/>
+    <rect x="380" y="100" width="30" height="2" fill="#fff"/>
+    <rect x="450" y="100" width="30" height="2" fill="#fff"/>
+    <rect x="520" y="100" width="30" height="2" fill="#fff"/>
+    <rect x="590" y="100" width="30" height="2" fill="#fff"/>
+  </g>
+  
+  <!-- Key elements -->
+  <g transform="translate(100, 200)">
+    <!-- Car -->
+    <rect x="0" y="0" width="40" height="20" fill="#e53e3e" rx="5"/>
+    <circle cx="10" cy="25" r="6" fill="#2d3748"/>
+    <circle cx="30" cy="25" r="6" fill="#2d3748"/>
+    <text x="20" y="45" class="icon-text">Sikker</text>
+    <text x="20" y="60" class="icon-text">Kjøring</text>
+  </g>
+  
+  <g transform="translate(250, 200)">
+    <!-- Speed sign -->
+    <circle cx="20" cy="10" r="15" fill="#fff" stroke="#e53e3e" stroke-width="3"/>
+    <text x="20" y="16" style="font: bold 14px Arial; fill: #e53e3e; text-anchor: middle;">80</text>
+    <text x="20" y="45" class="icon-text">Hastighets-</text>
+    <text x="20" y="60" class="icon-text">tilpasning</text>
+  </g>
+  
+  <g transform="translate(400, 200)">
+    <!-- Overtaking -->
+    <rect x="0" y="0" width="25" height="15" fill="#3182ce" rx="3"/>
+    <rect x="30" y="5" width="25" height="15" fill="#38a169" rx="3"/>
+    <path d="M25 7 L30 12 L25 17" fill="none" stroke="#2d3748" stroke-width="2"/>
+    <text x="27" y="45" class="icon-text">Forbikjøring</text>
+  </g>
+  
+  <g transform="translate(550, 200)">
+    <!-- Weather -->
+    <circle cx="20" cy="5" r="12" fill="#fed7d7"/>
+    <path d="M8 15 Q20 25 32 15" fill="none" stroke="#4299e1" stroke-width="2"/>
+    <circle cx="15" cy="20" r="2" fill="#4299e1"/>
+    <circle cx="25" cy="25" r="2" fill="#4299e1"/>
+    <text x="20" y="45" class="icon-text">Vær &amp;</text>
+    <text x="20" y="60" class="icon-text">Føreforhold</text>
+  </g>
+</svg>

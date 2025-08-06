@@ -1,0 +1,149 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">
+    Håndtering av motorhavari
+  </text>
+  
+  <!-- Car with engine problems -->
+  <rect x="100" y="60" width="80" height="40" fill="#e74c3c" rx="5"/>
+  <circle cx="120" cy="110" r="10" fill="#2c3e50"/>
+  <circle cx="160" cy="110" r="10" fill="#2c3e50"/>
+  
+  <!-- Steam/smoke from engine -->
+  <path d="M 140 60 Q 145 45 150 60 Q 155 45 160 60" stroke="#95a5a6" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 135 60 Q 140 45 145 60 Q 150 45 155 60" stroke="#95a5a6" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Immediate actions section -->
+  <rect x="50" y="140" width="700" height="120" fill="#ecf0f1" rx="10"/>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Umiddelbare tiltak ved motorhavari
+  </text>
+  
+  <!-- Step 1 -->
+  <rect x="70" y="180" width="150" height="70" fill="#e74c3c" rx="5" opacity="0.1"/>
+  <text x="145" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">
+    1. VARSLING
+  </text>
+  <text x="145" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Aktiver nødblink
+  </text>
+  <text x="145" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Styr mot veikanten
+  </text>
+  <text x="145" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Varsle andre trafikanter
+  </text>
+  
+  <!-- Step 2 -->
+  <rect x="240" y="180" width="150" height="70" fill="#f39c12" rx="5" opacity="0.1"/>
+  <text x="315" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">
+    2. STOPP MOTOR
+  </text>
+  <text x="315" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Ikke forsøk å starte
+  </text>
+  <text x="315" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    gjentatte ganger
+  </text>
+  <text x="315" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Skru av tenningen
+  </text>
+  
+  <!-- Step 3 -->
+  <rect x="410" y="180" width="150" height="70" fill="#27ae60" rx="5" opacity="0.1"/>
+  <text x="485" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">
+    3. NØYTRAL
+  </text>
+  <text x="485" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Sett i nøytral
+  </text>
+  <text x="485" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Bruk dreiemoment
+  </text>
+  <text x="485" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    for å komme av veien
+  </text>
+  
+  <!-- Step 4 -->
+  <rect x="580" y="180" width="150" height="70" fill="#3498db" rx="5" opacity="0.1"/>
+  <text x="655" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db">
+    4. SIKRE OMRÅDET
+  </text>
+  <text x="655" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Sett opp trekant
+  </text>
+  <text x="655" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Ring etter hjelp
+  </text>
+  <text x="655" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • Hold deg trygt
+  </text>
+  
+  <!-- Common causes section -->
+  <text x="400" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Vanlige årsaker til motorhavari
+  </text>
+  
+  <!-- Fuel gauge empty -->
+  <circle cx="150" cy="340" r="30" fill="#e74c3c" opacity="0.1"/>
+  <circle cx="150" cy="340" r="25" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <text x="150" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    E
+  </text>
+  <text x="150" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    F
+  </text>
+  <line x1="150" y1="340" x2="135" y2="350" stroke="#e74c3c" stroke-width="3"/>
+  <text x="150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+    Tomt for drivstoff
+  </text>
+  
+  <!-- Battery problems -->
+  <rect x="275" y="320" width="50" height="30" fill="#f39c12" rx="3"/>
+  <rect x="290" y="315" width="20" height="5" fill="#f39c12"/>
+  <text x="300" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">
+    12V
+  </text>
+  <line x1="285" y1="330" x2="275" y2="330" stroke="#e74c3c" stroke-width="3"/>
+  <line x1="315" y1="330" x2="325" y2="330" stroke="#27ae60" stroke-width="3"/>
+  <text x="300" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+    Batteriproblemer
+  </text>
+  
+  <!-- Engine overheating -->
+  <rect x="425" y="320" width="50" height="30" fill="#e74c3c" rx="5"/>
+  <path d="M 440 320 Q 445 305 450 320 Q 455 305 460 320" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  <circle cx="450" cy="335" r="8" fill="#fff"/>
+  <text x="450" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e74c3c">
+    H
+  </text>
+  <text x="450" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+    Overoppheting
+  </text>
+  
+  <!-- Electrical problems -->
+  <circle cx="600" cy="335" r="20" fill="#3498db" opacity="0.1"/>
+  <path d="M 590 335 L 595 330 L 600 340 L 605 330 L 610 335" stroke="#3498db" stroke-width="3" fill="none"/>
+  <text x="600" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+    Elektriske feil
+  </text>
+  
+  <!-- Safety warnings -->
+  <rect x="50" y="410" width="700" height="80" fill="#fdf2e9" rx="10" stroke="#f39c12"/>
+  <text x="400" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f39c12">
+    ⚠️ VIKTIGE SIKKERHETSREGLER
+  </text>
+  
+  <text x="80" y="455" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • Ikke åpne motorpanseret hvis det ryker kraftig - kan være brannfare
+  </text>
+  <text x="80" y="470" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • Ikke forsøk å starte motoren gjentatte ganger - kan forverre skaden
+  </text>
+  <text x="80" y="485" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • Hvis motoren overopheter: La den kjøle seg ned før du sjekker kjølevæskenivå
+  </text>
+</svg>

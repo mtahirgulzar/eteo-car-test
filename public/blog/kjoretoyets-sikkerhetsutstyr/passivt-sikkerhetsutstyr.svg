@@ -1,0 +1,115 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50">
+    Passivt sikkerhetsutstyr
+  </text>
+  
+  <!-- Car outline -->
+  <g transform="translate(50, 80)">
+    <!-- Car body -->
+    <rect x="100" y="150" width="500" height="200" fill="#ecf0f1" stroke="#34495e" stroke-width="3" rx="20"/>
+    <!-- Windshield -->
+    <polygon points="200,150 500,150 480,100 220,100" fill="#d5dbdb" stroke="#34495e" stroke-width="2"/>
+    <!-- Wheels -->
+    <circle cx="180" cy="380" r="30" fill="#2c3e50"/>
+    <circle cx="520" cy="380" r="30" fill="#2c3e50"/>
+    <circle cx="180" cy="380" r="20" fill="#95a5a6"/>
+    <circle cx="520" cy="380" r="20" fill="#95a5a6"/>
+  </g>
+  
+  <!-- Safety elements with labels -->
+  <g>
+    <!-- Airbag - Front -->
+    <circle cx="300" cy="250" r="25" fill="#e74c3c" opacity="0.8"/>
+    <text x="300" y="255" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">AB</text>
+    <line x1="300" y1="225" x2="250" y2="180" stroke="#e74c3c" stroke-width="2"/>
+    <rect x="180" y="160" width="120" height="25" fill="#fff" stroke="#e74c3c" stroke-width="1" rx="5"/>
+    <text x="240" y="175" text-anchor="middle" font-family="Arial" font-size="11" fill="#e74c3c">Frontal airbag</text>
+    
+    <!-- Side airbag -->
+    <circle cx="200" cy="280" r="20" fill="#f39c12" opacity="0.8"/>
+    <text x="200" y="285" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="white">S</text>
+    <line x1="180" y1="280" x2="120" y2="250" stroke="#f39c12" stroke-width="2"/>
+    <rect x="50" y="235" width="100" height="25" fill="#fff" stroke="#f39c12" stroke-width="1" rx="5"/>
+    <text x="100" y="250" text-anchor="middle" font-family="Arial" font-size="11" fill="#f39c12">Side airbag</text>
+    
+    <!-- Head airbag -->
+    <ellipse cx="350" cy="200" rx="60" ry="15" fill="#9b59b6" opacity="0.6"/>
+    <line x1="350" y1="185" x2="400" y2="140" stroke="#9b59b6" stroke-width="2"/>
+    <rect x="380" y="120" width="120" height="25" fill="#fff" stroke="#9b59b6" stroke-width="1" rx="5"/>
+    <text x="440" y="135" text-anchor="middle" font-family="Arial" font-size="11" fill="#9b59b6">Hode-airbag (gardin)</text>
+    
+    <!-- Seatbelt -->
+    <path d="M250 200 L280 250 L270 320" stroke="#27ae60" stroke-width="4" fill="none"/>
+    <path d="M300 200 L280 250" stroke="#27ae60" stroke-width="4" fill="none"/>
+    <line x1="270" y1="320" x2="320" y2="380" stroke="#27ae60" stroke-width="2"/>
+    <rect x="280" y="365" width="100" height="25" fill="#fff" stroke="#27ae60" stroke-width="1" rx="5"/>
+    <text x="330" y="380" text-anchor="middle" font-family="Arial" font-size="11" fill="#27ae60">Sikkerhetsbelte</text>
+    
+    <!-- Headrest -->
+    <rect x="240" y="170" width="40" height="25" fill="#34495e" rx="5"/>
+    <line x1="260" y1="170" x2="260" y2="130" stroke="#34495e" stroke-width="2"/>
+    <rect x="200" y="110" width="80" height="25" fill="#fff" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="240" y="125" text-anchor="middle" font-family="Arial" font-size="11" fill="#34495e">Hodestøtte</text>
+    
+    <!-- Knee airbag -->
+    <ellipse cx="280" cy="320" rx="20" ry="15" fill="#1abc9c" opacity="0.8"/>
+    <text x="280" y="325" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="white">K</text>
+    <line x1="260" y1="320" x2="200" y2="350" stroke="#1abc9c" stroke-width="2"/>
+    <rect x="120" y="340" width="100" height="25" fill="#fff" stroke="#1abc9c" stroke-width="1" rx="5"/>
+    <text x="170" y="355" text-anchor="middle" font-family="Arial" font-size="11" fill="#1abc9c">Kne-airbag</text>
+  </g>
+  
+  <!-- Collision zones -->
+  <g>
+    <!-- Front crumple zone -->
+    <rect x="50" y="230" width="100" height="120" fill="#e74c3c" opacity="0.3" rx="10"/>
+    <text x="100" y="420" text-anchor="middle" font-family="Arial" font-size="10" fill="#e74c3c">Front-</text>
+    <text x="100" y="432" text-anchor="middle" font-family="Arial" font-size="10" fill="#e74c3c">kollisjon</text>
+    
+    <!-- Safety cell -->
+    <rect x="150" y="230" width="400" height="120" fill="#27ae60" opacity="0.3" rx="10"/>
+    <text x="350" y="420" text-anchor="middle" font-family="Arial" font-size="10" fill="#27ae60">Sikker passasjercelle</text>
+    
+    <!-- Rear crumple zone -->
+    <rect x="550" y="230" width="100" height="120" fill="#f39c12" opacity="0.3" rx="10"/>
+    <text x="600" y="420" text-anchor="middle" font-family="Arial" font-size="10" fill="#f39c12">Bak-</text>
+    <text x="600" y="432" text-anchor="middle" font-family="Arial" font-size="10" fill="#f39c12">kollisjon</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 460)">
+    <rect x="0" y="0" width="700" height="120" fill="#fff" stroke="#bdc3c7" stroke-width="1" rx="10"/>
+    <text x="350" y="20" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2c3e50">
+      Passivt sikkerhetsutstyr - Beskyttelse under kollisjon
+    </text>
+    
+    <!-- Legend items -->
+    <g transform="translate(20, 30)">
+      <circle cx="10" cy="10" r="8" fill="#e74c3c"/>
+      <text x="25" y="15" font-family="Arial" font-size="12" fill="#2c3e50">Frontal airbag</text>
+      
+      <circle cx="120" cy="10" r="8" fill="#f39c12"/>
+      <text x="135" y="15" font-family="Arial" font-size="12" fill="#2c3e50">Side airbag</text>
+      
+      <circle cx="220" cy="10" r="8" fill="#9b59b6"/>
+      <text x="235" y="15" font-family="Arial" font-size="12" fill="#2c3e50">Hode-airbag</text>
+      
+      <circle cx="330" cy="10" r="8" fill="#1abc9c"/>
+      <text x="345" y="15" font-family="Arial" font-size="12" fill="#2c3e50">Kne-airbag</text>
+      
+      <line x1="5" y1="30" x2="15" y2="30" stroke="#27ae60" stroke-width="4"/>
+      <text x="25" y="35" font-family="Arial" font-size="12" fill="#2c3e50">Sikkerhetsbelte</text>
+      
+      <rect x="5" y="45" width="10" height="8" fill="#34495e"/>
+      <text x="25" y="53" font-family="Arial" font-size="12" fill="#2c3e50">Hodestøtte</text>
+    </g>
+    
+    <text x="350" y="85" text-anchor="middle" font-family="Arial" font-size="11" fill="#7f8c8d">
+      Passivt utstyr aktiveres automatisk ved kollisjon for å minimere personskader
+    </text>
+  </g>
+</svg>

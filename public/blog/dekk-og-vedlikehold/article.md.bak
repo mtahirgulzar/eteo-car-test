@@ -1,0 +1,103 @@
+![Dekk og vedlikehold](dekk-og-vedlikehold.svg)
+
+**Dekk og vedlikehold** er avgjørende for **sikkerhet**, **kjøreegenskaper** og **økonomi** i bilhold. Denne guiden dekker alt fra **slitasje og skader** til **dekkdimensjoner**, **dekkmerking**, **sjekk av lufttrykk**, **mønsterdybde** og bruk av **piggdekk** under norske forhold.
+
+*For mer om prinsippene for **veigrep** og friksjon på veien, se [Veigrep](/blogs/teori/veigrep "Veigrep - bremselengde, bevegelsesenergi, friksjon, gripeevne, fart, vannplaning og styring").*
+
+## Slitasje og skader
+
+![Slitasje og skader](slitasje-skader.svg)
+
+Å regelmessig undersøke dekkene for **slitasje og skader** er essensielt for kjøresikkerhet. Ujevn slitasje kan tyde på feil i **forstilling**, **balansering** eller **dekktrykk**. Se etter:
+
+* **Rifter**, **bobler** eller **sprekker** i sideveggen
+* Fremmedlegemer som **spiker** eller **stein**
+* Ujevn slitasje i **skulder** eller **midtparti**
+* **Sidevegssplitting** eller deformasjoner
+
+Ved tegn til alvorlig slitasje eller skader må dekket skiftes umiddelbart.
+
+## Forstilling
+
+![Forstilling](forstilling.svg)
+
+**Forstilling** (hjuloppheng og styring) påvirker slitasje, styrerespons og dekkets kontakt med veien. Feil forstilling kan føre til:
+
+* **Skjevslitasje** på dekk
+* Redusert **styrerespons**
+* Dårligere **kjøreegenskaper**
+
+Vanlige justeringer inkluderer *camber*, *toe-in/toe-out* og *caster*. Disse bør utføres hos verksted, men det er nyttig å forstå prinsippene:
+
+| Justering               | Beskrivelse                        | Effekt                           |
+|-------------------------|------------------------------------|----------------------------------|
+| **Camber**             | Vinkling av hjul i loddrett plan   | Påvirker innvendig/utvendig slitasje |
+| **Toe-in/Toe-out**      | Lengdeaksens retning               | Påvirker stabilitet og rulling   |
+| **Caster**              | Vinkling i lengderetning           | Gir retningstabilitet            |
+
+Les mer om [Styresystem](/blogs/teori/styresystem "Styresystem - Komponenter og funksjon i bilen") for sammenheng mellom hjuloppheng og styring.
+
+## Dekkdimensjoner og merking
+
+![Dekkdimensjoner og merking](dekkdimensjoner-merking.svg)
+
+Dekketekst som for eksempel **205/55 R16 91V** forteller deg:
+
+| Del           | Betydning                          |
+|---------------|------------------------------------|
+| **205**       | Bredde i millimeter                |
+| **55**        | Høydeforhold (profil i prosent)    |
+| **R16**       | Felgdiameter i tommer              |
+| **91**        | Belastningsindeks                  |
+| **V**         | Hastighetskode                     |
+
+Dekkmerking som **M+S** og **Alpine-symbol** (fjell med snøflak) indikerer vinteregenskaper. For detaljerte krav og perioder, se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mønsterdybde, piggdekk og kjetting").
+
+## Sjekke riktig lufttrykk
+
+![Sjekke lufttrykk](lufttrykk-check.svg)
+
+Feil lufttrykk påvirker **slitasje**, **drivstofforbruk** og **kjørekomfort**. Sjekk lufttrykket minst én gang i måneden:
+
+1. Finn anbefalt trykk i bilens handbok eller på dørstolpen
+2. Mål når dekkene er kalde
+3. Juster med luftkompressor
+4. Kontroller at ventilhetten er på plass
+
+| Belastning  | Forside (bar) | Bakside (bar) |
+|-------------|---------------|---------------|
+| Normal last | 2,2           | 2,0           |
+| Full last   | 2,5           | 2,5           |
+| Hengerlast  | 2,8           | 2,8           |
+
+## Mønster og mønsterdybde
+
+![Mønsterdybde](monsterdypde.svg)
+
+Riktig **mønsterdybde** er avgjørende for grep på vått og snødekt underlag. Minimumskrav i Norge er:
+
+| Dekktype     | Minimum dybde |
+|--------------|---------------|
+| Sommerdekk   | 1,6 mm        |
+| Vinterdekk   | 3,0 mm        |
+
+Mål med dybdemåler, myntmetode eller innebygde indikatorer. Se også [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Mønsterdybdekrav").
+
+## Piggdekk
+
+![Piggdekk](piggdekk.svg)
+
+**Piggdekk** gir overlegent grep på bar is, men kan kun brukes i tidsrommet **1. november** til **første søndag etter andre påskedag**. For nøyaktige datoer og lokale unntak, se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Piggdekkperioder").
+
+## Oppsummering
+
+En grundig dekkvedlikeholdsrutine inkluderer:
+
+* Kontroll av **slitasje og skader**
+* Sjekk av **forstilling** og hjulinnstillinger
+* Korrekt bruk og forståelse av **dekkdimensjoner** og **merking**
+* Jevnlig kontroll av **lufttrykk**
+* Måling av **mønsterdybde**
+* Bruk av **piggdekk** i tillatte perioder
+
+For ytterligere lesning, se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon") og [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mønsterdybde og piggdekk").

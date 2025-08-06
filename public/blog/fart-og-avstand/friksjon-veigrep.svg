@@ -1,0 +1,169 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    Friksjon og veigrep under forskjellige forhold
+  </text>
+  
+  <!-- Dry asphalt -->
+  <g transform="translate(0, 80)">
+    <rect x="50" y="0" width="150" height="100" fill="#34495e" rx="5"/>
+    <text x="125" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Tørr asfalt</text>
+    
+    <!-- Car on dry road -->
+    <g transform="translate(100, 30)">
+      <rect x="0" y="0" width="50" height="25" fill="#3498db" rx="3"/>
+      <circle cx="10" cy="30" r="6" fill="#2c3e50"/>
+      <circle cx="40" cy="30" r="6" fill="#2c3e50"/>
+      <!-- Traction lines -->
+      <line x1="5" y1="40" x2="15" y2="40" stroke="#27ae60" stroke-width="3"/>
+      <line x1="15" y1="42" x2="25" y2="42" stroke="#27ae60" stroke-width="3"/>
+      <line x1="25" y1="40" x2="35" y2="40" stroke="#27ae60" stroke-width="3"/>
+      <line x1="35" y1="42" x2="45" y2="42" stroke="#27ae60" stroke-width="3"/>
+    </g>
+    
+    <text x="125" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">
+      μ = 0,7-0,9 (Best grip)
+    </text>
+  </g>
+  
+  <!-- Wet asphalt -->
+  <g transform="translate(200, 80)">
+    <rect x="50" y="0" width="150" height="100" fill="#34495e" rx="5"/>
+    <!-- Water effect -->
+    <rect x="50" y="0" width="150" height="100" fill="#3498db" opacity="0.3" rx="5"/>
+    <circle cx="80" cy="20" r="3" fill="#3498db" opacity="0.6"/>
+    <circle cx="120" cy="30" r="2" fill="#3498db" opacity="0.6"/>
+    <circle cx="160" cy="25" r="3" fill="#3498db" opacity="0.6"/>
+    <circle cx="180" cy="40" r="2" fill="#3498db" opacity="0.6"/>
+    
+    <text x="125" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Våt asfalt</text>
+    
+    <!-- Car on wet road -->
+    <g transform="translate(100, 30)">
+      <rect x="0" y="0" width="50" height="25" fill="#f39c12" rx="3"/>
+      <circle cx="10" cy="30" r="6" fill="#2c3e50"/>
+      <circle cx="40" cy="30" r="6" fill="#2c3e50"/>
+      <!-- Reduced traction lines -->
+      <line x1="5" y1="40" x2="12" y2="40" stroke="#f39c12" stroke-width="2"/>
+      <line x1="18" y1="42" x2="25" y2="42" stroke="#f39c12" stroke-width="2"/>
+      <line x1="31" y1="40" x2="38" y2="40" stroke="#f39c12" stroke-width="2"/>
+    </g>
+    
+    <text x="125" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">
+      μ = 0,4-0,7 (Redusert grip)
+    </text>
+  </g>
+  
+  <!-- Snow -->
+  <g transform="translate(400, 80)">
+    <rect x="50" y="0" width="150" height="100" fill="#ecf0f1" rx="5"/>
+    <!-- Snow effect -->
+    <circle cx="70" cy="15" r="2" fill="white"/>
+    <circle cx="90" cy="25" r="1.5" fill="white"/>
+    <circle cx="110" cy="10" r="2" fill="white"/>
+    <circle cx="130" cy="20" r="1" fill="white"/>
+    <circle cx="150" cy="15" r="1.5" fill="white"/>
+    <circle cx="170" cy="25" r="2" fill="white"/>
+    <circle cx="180" cy="12" r="1" fill="white"/>
+    
+    <text x="125" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Snø</text>
+    
+    <!-- Car on snow -->
+    <g transform="translate(100, 30)">
+      <rect x="0" y="0" width="50" height="25" fill="#e74c3c" rx="3"/>
+      <circle cx="10" cy="30" r="6" fill="#2c3e50"/>
+      <circle cx="40" cy="30" r="6" fill="#2c3e50"/>
+      <!-- Very reduced traction lines -->
+      <line x1="8" y1="40" x2="12" y2="40" stroke="#e74c3c" stroke-width="1"/>
+      <line x1="23" y1="42" x2="27" y2="42" stroke="#e74c3c" stroke-width="1"/>
+      <line x1="38" y1="40" x2="42" y2="40" stroke="#e74c3c" stroke-width="1"/>
+    </g>
+    
+    <text x="125" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">
+      μ = 0,2-0,4 (Dårlig grip)
+    </text>
+  </g>
+  
+  <!-- Ice -->
+  <g transform="translate(600, 80)">
+    <rect x="0" y="0" width="150" height="100" fill="#d5dbdb" rx="5"/>
+    <!-- Ice crystal effect -->
+    <path d="M 70 20 L 75 15 L 80 20 L 75 25 Z" fill="#85c1e9" opacity="0.7"/>
+    <path d="M 120 30 L 125 25 L 130 30 L 125 35 Z" fill="#85c1e9" opacity="0.7"/>
+    <path d="M 90 40 L 95 35 L 100 40 L 95 45 Z" fill="#85c1e9" opacity="0.7"/>
+    
+    <text x="75" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Is</text>
+    
+    <!-- Car on ice -->
+    <g transform="translate(50, 30)">
+      <rect x="0" y="0" width="50" height="25" fill="#9b59b6" rx="3"/>
+      <circle cx="10" cy="30" r="6" fill="#2c3e50"/>
+      <circle cx="40" cy="30" r="6" fill="#2c3e50"/>
+      <!-- Minimal traction lines -->
+      <line x1="10" y1="40" x2="11" y2="40" stroke="#9b59b6" stroke-width="1"/>
+      <line x1="25" y1="42" x2="26" y2="42" stroke="#9b59b6" stroke-width="1"/>
+      <line x1="39" y1="40" x2="40" y2="40" stroke="#9b59b6" stroke-width="1"/>
+    </g>
+    
+    <text x="75" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9b59b6">
+      μ = 0,1-0,2 (Meget dårlig)
+    </text>
+  </g>
+  
+  <!-- Braking distance comparison -->
+  <text x="400" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Sammenligning av bremseavstand ved 50 km/t
+  </text>
+  
+  <!-- Braking bars -->
+  <!-- Dry -->
+  <rect x="100" y="270" width="80" height="30" fill="#27ae60"/>
+  <text x="140" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">25m</text>
+  <text x="140" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Tørr asfalt</text>
+  
+  <!-- Wet -->
+  <rect x="200" y="270" width="120" height="30" fill="#f39c12"/>
+  <text x="260" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">40m</text>
+  <text x="260" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Våt asfalt</text>
+  
+  <!-- Snow -->
+  <rect x="340" y="270" width="160" height="30" fill="#e74c3c"/>
+  <text x="420" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">65m</text>
+  <text x="420" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Snø</text>
+  
+  <!-- Ice -->
+  <rect x="520" y="270" width="200" height="30" fill="#9b59b6"/>
+  <text x="620" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">125m</text>
+  <text x="620" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Is</text>
+  
+  <!-- Key points -->
+  <rect x="50" y="350" width="700" height="200" fill="#e8f4fd" stroke="#3498db" stroke-width="2" rx="8"/>
+  <text x="400" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+    Viktige punkter om friksjon og veigrep
+  </text>
+  
+  <text x="70" y="405" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • <tspan font-weight="bold">Friksjonskoeffisient (μ)</tspan> beskriver hvor godt dekk og vei griper i hverandre
+  </text>
+  <text x="70" y="425" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • Høyere μ-verdi = bedre grep = kortere bremseavstand
+  </text>
+  <text x="70" y="445" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • <tspan font-weight="bold">Våte forhold</tspan> kan øke bremseavstanden med 50-100%
+  </text>
+  <text x="70" y="465" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • <tspan font-weight="bold">Snø og is</tspan> kan øke bremseavstanden med 3-5 ganger
+  </text>
+  <text x="70" y="485" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • Alltid tilpass hastigheten til veigrepsforholdene
+  </text>
+  <text x="70" y="505" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • <tspan font-weight="bold">Dekkenes tilstand</tspan> påvirker friksjon betydelig
+  </text>
+  <text x="70" y="525" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    • Test bremsing forsiktig når du er usikker på veigrepsforholdene
+  </text>
+</svg>

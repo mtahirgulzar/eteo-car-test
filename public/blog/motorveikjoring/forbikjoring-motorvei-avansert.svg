@@ -1,0 +1,72 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .road { fill: #666; }
+    .lines { stroke: white; stroke-width: 4; stroke-dasharray: 20 20; }
+    .car-body { fill: #007bff; }
+    .car-window { fill: #add8e6; }
+    .arrow { fill: #ffc107; }
+    .text-bg { fill: rgba(0,0,0,0.5); }
+    .text { font-family: Arial, sans-serif; font-size: 14px; fill: white; text-anchor: middle; }
+    .step-text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; text-anchor: middle; }
+  </style>
+
+  <!-- Road -->
+  <rect class="road" width="800" height="400" />
+  <line class="lines" x1="0" y1="200" x2="800" y2="200" />
+
+  <!-- Car to be overtaken -->
+  <g id="slow-car">
+    <rect class="car-body" x="450" y="220" width="80" height="40" rx="10" style="fill: #dc3545;"/>
+    <rect class="car-window" x="460" y="225" width="60" height="30" rx="5"/>
+  </g>
+
+  <!-- Overtaking Car Path -->
+  <path id="overtaking-path" d="M 50 240 C 150 240, 200 160, 350 160 S 550 160, 650 160 S 700 240, 750 240" stroke="#ffc107" stroke-width="4" stroke-dasharray="10 5" fill="none" />
+
+  <!-- Overtaking Car at different stages -->
+  <!-- Step 1: Vurder -->
+  <g id="car-1">
+    <rect class="car-body" x="50" y="220" width="80" height="40" rx="10"/>
+    <rect class="car-window" x="60" y="225" width="60" height="30" rx="5"/>
+  </g>
+  <text x="90" y="300" class="step-text">1. Vurder</text>
+
+  <!-- Step 2-4: Speil, Blinklys, Dødvinkel -->
+  <g id="car-2">
+    <rect class="car-body" x="200" y="200" width="80" height="40" rx="10"/>
+    <rect class="car-window" x="210" y="205" width="60" height="30" rx="5"/>
+  </g>
+  <text x="240" y="140" class="step-text">2. Speil &amp; Dødvinkel</text>
+  <path d="M 200 220 L 180 210 L 200 200 Z" fill="#ffc107" transform="rotate(-20, 200, 220)"/>
+
+  <!-- Step 5: Akseler -->
+  <g id="car-3">
+    <rect class="car-body" x="450" y="140" width="80" height="40" rx="10"/>
+    <rect class="car-window" x="460" y="145" width="60" height="30" rx="5"/>
+  </g>
+  <text x="490" y="120" class="step-text">3. Akseler &amp; Forbikjør</text>
+
+  <!-- Step 6: Retur -->
+  <g id="car-4">
+    <rect class="car-body" x="680" y="220" width="80" height="40" rx="10"/>
+    <rect class="car-window" x="690" y="225" width="60" height="30" rx="5"/>
+  </g>
+  <text x="720" y="300" class="step-text">4. Retur til høyre felt</text>
+  <path d="M 680 220 L 660 230 L 680 240 Z" fill="#ffc107" transform="rotate(20, 680, 220)"/>
+
+
+  <!-- Title -->
+  <rect class="text-bg" x="200" y="10" width="400" height="30" rx="5"/>
+  <text x="400" y="30" class="text">Avansert Forbikjøring på Motorvei</text>
+
+  <!-- Forbikjøringssekvens (6 steg) -->
+  <g transform="translate(600, 60)" font-family="Arial, sans-serif" font-size="12">
+    <text x="0" y="0" fill="#fff" font-weight="bold">Forbikjøringssekvens:</text>
+    <text x="0" y="20" fill="#fff">1. Vurder – Er forbikjøring nødvendig og trygt?</text>
+    <text x="0" y="40" fill="#fff">2. Speilkontroll – Bakspeil og sidespeil</text>
+    <text x="0" y="60" fill="#fff">3. Blinklys – Signal intensjon tidlig</text>
+    <text x="0" y="80" fill="#fff">4. Dødvinkelsjekk – Rask skuldersjekk</text>
+    <text x="0" y="100" fill="#fff">5. Akseler – Beslutt deg og gjennomfør</text>
+    <text x="0" y="120" fill="#fff">6. Retur – Tilbake til høyre når trygt gap</text>
+  </g>
+</svg>

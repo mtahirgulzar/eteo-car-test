@@ -1,0 +1,194 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="practicalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="exerciseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#2c3e50"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Praktiske øvelser og tips</text>
+  
+  <!-- Theory exercises section -->
+  <rect x="50" y="70" width="300" height="200" fill="url(#exerciseGradient)" stroke="#2471a3" stroke-width="2" rx="10"/>
+  <text x="200" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">TEORETISKE ØVELSER</text>
+  
+  <!-- Theory book -->
+  <rect x="80" y="110" width="60" height="80" fill="#34495e" stroke="#ecf0f1" stroke-width="2" rx="3"/>
+  <rect x="85" y="115" width="50" height="70" fill="#ecf0f1"/>
+  <text x="110" y="130" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10" font-weight="bold">TEORI</text>
+  <text x="110" y="145" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="8">Lysbruk</text>
+  <text x="110" y="160" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="8">og</text>
+  <text x="110" y="175" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="8">signaler</text>
+  
+  <!-- Question mark -->
+  <circle cx="170" cy="150" r="20" fill="#f39c12"/>
+  <text x="170" y="140" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">?</text>
+  <text x="170" y="165" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">Spørsmål</text>
+  
+  <!-- Study points -->
+  <text x="220" y="125" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Timing av lysbruk</text>
+  <text x="220" y="140" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Sanksjoner og bøter</text>
+  <text x="220" y="155" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Adaptiv teknologi</text>
+  <text x="220" y="170" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Internasjonale regler</text>
+  <text x="220" y="185" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Regelverksendringer</text>
+  
+  <!-- Test scenarios -->
+  <rect x="60" y="200" width="270" height="55" fill="#34495e" stroke="#3498db" stroke-width="1" rx="5"/>
+  <text x="195" y="220" text-anchor="middle" fill="#3498db" font-family="Arial, sans-serif" font-size="12" font-weight="bold">TYPISKE TEORISPØRSMÅL</text>
+  <text x="70" y="235" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">"Når skal du bruke tåkelys bak?"</text>
+  <text x="70" y="250" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">"Hvor lang tid før sving skal du blinkse?"</text>
+  
+  <!-- Practical exercises section -->
+  <rect x="450" y="70" width="300" height="200" fill="url(#practicalGradient)" stroke="#229954" stroke-width="2" rx="10"/>
+  <text x="600" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">PRAKTISKE ØVELSER</text>
+  
+  <!-- Car with instructor -->
+  <rect x="500" y="120" width="40" height="20" rx="5" fill="#e74c3c"/>
+  <circle cx="510" cy="145" r="5" fill="#2c3e50"/>
+  <circle cx="530" cy="145" r="5" fill="#2c3e50"/>
+  
+  <!-- Instructor figure -->
+  <circle cx="520" cy="110" r="8" fill="#f4d03f"/>
+  <rect x="515" y="118" width="10" height="15" fill="#3498db"/>
+  
+  <!-- Student figure -->
+  <circle cx="505" cy="110" r="6" fill="#f4d03f"/>
+  <rect x="502" y="116" width="6" height="10" fill="#e74c3c"/>
+  
+  <!-- Turn signal practice -->
+  <circle cx="545" cy="125" r="3" fill="#ff9800"/>
+  <path d="M 550 127 L 565 127 L 560 122 M 565 127 L 560 132" stroke="#ff9800" stroke-width="2" fill="none"/>
+  
+  <!-- Practice points -->
+  <text x="570" y="125" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Blinklys-timing</text>
+  <text x="570" y="140" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Dimming av fjernlys</text>
+  <text x="570" y="155" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Nødblink-bruk</text>
+  <text x="570" y="170" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Vedlikeholdskontroll</text>
+  <text x="570" y="185" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Værforhold-tilpasning</text>
+  
+  <!-- Skills practice -->
+  <rect x="460" y="200" width="270" height="55" fill="#34495e" stroke="#27ae60" stroke-width="1" rx="5"/>
+  <text x="595" y="220" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="12" font-weight="bold">OPPKJØRINGSSCENARIER</text>
+  <text x="470" y="235" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Rundkjøring med korrekt blinkefølge</text>
+  <text x="470" y="250" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Motorvei-påkjøring med tidlig varsling</text>
+  
+  <!-- Maintenance checklist section -->
+  <rect x="50" y="290" width="700" height="180" fill="#34495e" stroke="#f39c12" stroke-width="3" rx="10"/>
+  <text x="400" y="315" text-anchor="middle" fill="#f39c12" font-family="Arial, sans-serif" font-size="18" font-weight="bold">VEDLIKEHOLDS-SJEKKLISTER</text>
+  
+  <!-- Daily checklist -->
+  <rect x="70" y="330" width="200" height="120" fill="#2c3e50" stroke="#27ae60" stroke-width="2" rx="5"/>
+  <text x="170" y="350" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="14" font-weight="bold">DAGLIG SJEKK</text>
+  
+  <!-- Checklist items with checkboxes -->
+  <rect x="85" y="365" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 88 371 L 92 375 L 96 367" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <text x="105" y="375" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Alle lys fungerer</text>
+  
+  <rect x="85" y="380" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 88 386 L 92 390 L 96 382" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <text x="105" y="390" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Linser er rene</text>
+  
+  <rect x="85" y="395" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 88 401 L 92 405 L 96 397" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <text x="105" y="405" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Dagkjørelys aktiveres</text>
+  
+  <rect x="85" y="410" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 88 416 L 92 420 L 96 412" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <text x="105" y="420" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Blinklys normalt</text>
+  
+  <rect x="85" y="425" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 88 431 L 92 435 L 96 427" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <text x="105" y="435" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Ingen feilmeldinger</text>
+  
+  <!-- Weekly checklist -->
+  <rect x="300" y="330" width="200" height="120" fill="#2c3e50" stroke="#f39c12" stroke-width="2" rx="5"/>
+  <text x="400" y="350" text-anchor="middle" fill="#f39c12" font-family="Arial, sans-serif" font-size="14" font-weight="bold">UKENTLIG SJEKK</text>
+  
+  <rect x="315" y="365" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 318 371 L 322 375 L 326 367" stroke="#f39c12" stroke-width="2" fill="none"/>
+  <text x="335" y="375" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Test fjernlys og nærlys</text>
+  
+  <rect x="315" y="380" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 318 386 L 322 390 L 326 382" stroke="#f39c12" stroke-width="2" fill="none"/>
+  <text x="335" y="390" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Kontroller tåkelys</text>
+  
+  <rect x="315" y="395" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 318 401 L 322 405 L 326 397" stroke="#f39c12" stroke-width="2" fill="none"/>
+  <text x="335" y="405" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Sjekk nødblink</text>
+  
+  <rect x="315" y="410" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 318 416 L 322 420 L 326 412" stroke="#f39c12" stroke-width="2" fill="none"/>
+  <text x="335" y="420" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Observer lysfordeling</text>
+  
+  <rect x="315" y="425" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 318 431 L 322 435 L 326 427" stroke="#f39c12" stroke-width="2" fill="none"/>
+  <text x="335" y="435" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Lyshøyde kontroll</text>
+  
+  <!-- Travel checklist -->
+  <rect x="530" y="330" width="200" height="120" fill="#2c3e50" stroke="#9b59b6" stroke-width="2" rx="5"/>
+  <text x="630" y="350" text-anchor="middle" fill="#9b59b6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">FØR LANGE TURER</text>
+  
+  <rect x="545" y="365" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 548 371 L 552 375 L 556 367" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <text x="565" y="375" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Reservepærer med</text>
+  
+  <rect x="545" y="380" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 548 386 L 552 390 L 556 382" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <text x="565" y="390" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Sjekk alle funksjoner</text>
+  
+  <rect x="545" y="395" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 548 401 L 552 405 L 556 397" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <text x="565" y="405" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Rengjør grundig</text>
+  
+  <rect x="545" y="410" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 548 416 L 552 420 L 556 412" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <text x="565" y="420" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Sjekk utenlandsregler</text>
+  
+  <rect x="545" y="425" width="12" height="12" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 548 431 L 552 435 L 556 427" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <text x="565" y="435" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Test alle lystyper</text>
+  
+  <!-- Memory technique section -->
+  <rect x="50" y="490" width="300" height="90" fill="#8e44ad" stroke="#9b59b6" stroke-width="2" rx="8"/>
+  <text x="200" y="515" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">MINNEREGELEN</text>
+  
+  <!-- STRÅLE mnemonic in circular format -->
+  <circle cx="120" cy="545" r="25" fill="#3498db"/>
+  <text x="120" y="552" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">STRÅLE</text>
+  
+  <text x="160" y="535" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">S - Synlighet</text>
+  <text x="160" y="548" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">T - Timing</text>
+  <text x="160" y="561" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">R - Regler</text>
+  
+  <text x="240" y="535" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Å - Årvåkenhet</text>
+  <text x="240" y="548" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">L - Lys rene</text>
+  <text x="240" y="561" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">E - Etterprøving</text>
+  
+  <!-- Emergency procedures -->
+  <rect x="450" y="490" width="300" height="90" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="8"/>
+  <text x="600" y="515" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">NØDPROSEDYRER</text>
+  
+  <!-- Emergency triangle -->
+  <polygon points="480,535 495,555 465,555" fill="#f39c12"/>
+  <text x="480" y="550" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">!</text>
+  
+  <text x="510" y="540" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">1. Nødblink på</text>
+  <text x="510" y="555" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">2. Varseltrekant ut</text>
+  <text x="510" y="570" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">3. Ring 113 ved behov</text>
+  
+  <text x="620" y="540" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">4. Kom deg i sikkerhet</text>
+  <text x="620" y="555" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">5. Refleksvest på</text>
+  <text x="620" y="570" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">6. Vent på hjelp</text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="595" text-anchor="middle" fill="#f39c12" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Øvelse gjør mester - praktiser lysbruk til det blir automatisk!</text>
+</svg>

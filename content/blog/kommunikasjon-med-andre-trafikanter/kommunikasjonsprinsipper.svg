@@ -1,0 +1,123 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5984;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7ED321;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5BA817;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5A623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D68910;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2C3E50">
+    Kommunikasjonsprinsipper i trafikken
+  </text>
+  
+  <!-- Central circle -->
+  <circle cx="400" cy="250" r="80" fill="url(#blueGrad)" stroke="#2E5984" stroke-width="3"/>
+  <text x="400" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    EFFEKTIV
+  </text>
+  <text x="400" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    TRAFIKK-
+  </text>
+  <text x="400" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    KOMMUNIKASJON
+  </text>
+  
+  <!-- Forutsigbarhet -->
+  <circle cx="200" cy="150" r="60" fill="url(#greenGrad)" stroke="#5BA817" stroke-width="2"/>
+  <text x="200" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    FORUTSI-
+  </text>
+  <text x="200" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    BARHET
+  </text>
+  
+  <!-- Connection line -->
+  <line x1="260" y1="180" x2="340" y2="220" stroke="#34495E" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Description box for Forutsigbarhet -->
+  <rect x="50" y="80" width="180" height="50" rx="5" fill="white" stroke="#BDC3C7" stroke-width="1"/>
+  <text x="60" y="100" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    Andre skal kunne forstå
+  </text>
+  <text x="60" y="115" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    hva du planlegger å gjøre
+  </text>
+  
+  <!-- Rettidighet -->
+  <circle cx="400" cy="120" r="60" fill="url(#orangeGrad)" stroke="#D68910" stroke-width="2"/>
+  <text x="400" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    RETTIDI-
+  </text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    GHET
+  </text>
+  
+  <!-- Connection line -->
+  <line x1="400" y1="180" x2="400" y2="170" stroke="#34495E" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Description box for Rettidighet -->
+  <rect x="320" y="50" width="160" height="50" rx="5" fill="white" stroke="#BDC3C7" stroke-width="1"/>
+  <text x="330" y="70" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    Signaler må gis i tide,
+  </text>
+  <text x="330" y="85" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    men ikke for tidlig
+  </text>
+  
+  <!-- Klarhet -->
+  <circle cx="600" cy="150" r="60" fill="url(#greenGrad)" stroke="#5BA817" stroke-width="2"/>
+  <text x="600" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    KLARHET
+  </text>
+  
+  <!-- Connection line -->
+  <line x1="540" y1="180" x2="460" y2="220" stroke="#34495E" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Description box for Klarhet -->
+  <rect x="550" y="80" width="160" height="50" rx="5" fill="white" stroke="#BDC3C7" stroke-width="1"/>
+  <text x="560" y="100" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    Signalene må være
+  </text>
+  <text x="560" y="115" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    entydige og lett tolkbare
+  </text>
+  
+  <!-- Cars illustration -->
+  <!-- Car 1 -->
+  <rect x="150" y="320" width="60" height="30" rx="5" fill="#E74C3C" stroke="#C0392B" stroke-width="1"/>
+  <circle cx="165" cy="360" r="8" fill="#2C3E50"/>
+  <circle cx="195" cy="360" r="8" fill="#2C3E50"/>
+  <!-- Turn signal -->
+  <polygon points="210,330 225,335 210,340" fill="#F39C12"/>
+  
+  <!-- Car 2 -->
+  <rect x="300" y="380" width="60" height="30" rx="5" fill="#3498DB" stroke="#2980B9" stroke-width="1"/>
+  <circle cx="315" cy="420" r="8" fill="#2C3E50"/>
+  <circle cx="345" cy="420" r="8" fill="#2C3E50"/>
+  
+  <!-- Car 3 -->
+  <rect x="500" y="320" width="60" height="30" rx="5" fill="#27AE60" stroke="#229954" stroke-width="1"/>
+  <circle cx="515" cy="360" r="8" fill="#2C3E50"/>
+  <circle cx="545" cy="360" r="8" fill="#2C3E50"/>
+  
+  <!-- Communication lines between cars -->
+  <path d="M 210 335 Q 250 360 300 395" stroke="#F39C12" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 360 395 Q 430 360 500 335" stroke="#3498DB" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Bottom text -->
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7F8C8D">
+    God kommunikasjon skaper tryggere og mer effektiv trafikk
+  </text>
+</svg>

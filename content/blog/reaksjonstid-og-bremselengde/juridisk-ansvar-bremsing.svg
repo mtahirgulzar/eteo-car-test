@@ -1,0 +1,25 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="300" fill="#f8f9fa"/>
+  <text x="400" y="30" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">Ansvar ved påkjørsel bakfra</text>
+  <!-- Road -->
+  <rect x="50" y="180" width="700" height="60" fill="#4a4a4a"/>
+  <rect x="50" y="205" width="700" height="10" fill="#ffeb3b" opacity="0.8"/>
+  <!-- Front car -->
+  <rect x="350" y="200" width="40" height="20" fill="#388e3c" rx="3"/>
+  <circle cx="360" cy="225" r="5" fill="#333"/>
+  <circle cx="380" cy="225" r="5" fill="#333"/>
+  <!-- Rear car -->
+  <rect x="300" y="200" width="40" height="20" fill="#d32f2f" rx="3"/>
+  <circle cx="310" cy="225" r="5" fill="#333"/>
+  <circle cx="330" cy="225" r="5" fill="#333"/>
+  <!-- Collision icon -->
+  <polygon points="340,200 350,180 360,200 380,200 370,220 360,200 350,220" fill="#ff5722"/>
+  <!-- Arrow -->
+  <defs>
+    <marker id="arrowhead-c" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <line x1="340" y1="210" x2="360" y2="210" stroke="#333" stroke-width="3" marker-end="url(#arrowhead-c)"/>
+  <text x="350" y="240" fill="#333" font-size="12" text-anchor="middle">Påkjørsel bakfra</text>
+</svg>

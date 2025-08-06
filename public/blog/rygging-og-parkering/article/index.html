@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rygging og parkering | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær alt om rygging og parkering for førerkort klasse B i Norge. Guide til teknikker, regelverk, sikkerhet og vanlige feil.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/rygging-og-parkering/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/rygging-og-parkering/article/">
+    <meta property="og:title" content="Rygging og parkering | Eteo">
+    <meta property="og:description" content="Lær alt om rygging og parkering for førerkort klasse B i Norge. Guide til teknikker, regelverk, sikkerhet og vanlige feil.">
+    <meta property="og:image" content="//localhost:1313/images/blog/rygging-og-parkering/rygging-og-parkering-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rygging og parkering | Eteo">
+    <meta name="twitter:description" content="Lær alt om rygging og parkering for førerkort klasse B i Norge. Guide til teknikker, regelverk, sikkerhet og vanlige feil.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/rygging-og-parkering/rygging-og-parkering-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Rygging og parkering</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                16 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/rygging-og-parkering/rygging-og-parkering-image.svg" 
+                    alt="Rygging og parkering" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/rygging-og-parkering/rygging-og-parkering-image.svg" alt="Rygging og parkering" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#grunnleggende-prinsipper-for-rygging">Grunnleggende prinsipper for rygging</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-rygging">Forberedelse fÃ¸r rygging</a></li>
+        <li><a href="#grunnleggende-teknikk">Grunnleggende teknikk</a></li>
+        <li><a href="#kroppsposisjon-under-rygging">Kroppsposisjon under rygging</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknikker-og-ãvelser">Teknikker og Ã¸velser</a>
+      <ul>
+        <li><a href="#grunnleggende-ãvelser">Grunnleggende Ã¸velser</a></li>
+        <li><a href="#avanserte-ãvelser">Avanserte Ã¸velser</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikker-parkering">Sikker parkering</a>
+      <ul>
+        <li><a href="#parkeringstyper-i-detalj">Parkeringstyper i detalj</a></li>
+        <li><a href="#fordeler-med-ulike-parkeringsmetoder">Fordeler med ulike parkeringsmetoder</a></li>
+        <li><a href="#detaljert-guide-til-parallelparkering">Detaljert guide til parallelparkering</a></li>
+        <li><a href="#sikkerhetsavstander-og-regelverk">Sikkerhetsavstander og regelverk</a></li>
+        <li><a href="#parkering-i-bakke-og-pã-skrã-underlag">Parkering i bakke og pÃ¥ skrÃ¥ underlag</a></li>
+      </ul>
+    </li>
+    <li><a href="#regelverk-og-skilting">Regelverk og skilting</a>
+      <ul>
+        <li><a href="#vanlige-parkeringsskilt">Vanlige parkeringsskilt</a></li>
+        <li><a href="#kommunale-parkeringsordninger">Kommunale parkeringsordninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-unngã-dem">Vanlige feil og hvordan unngÃ¥ dem</a>
+      <ul>
+        <li><a href="#kritiske-feil-ved-rygging">Kritiske feil ved rygging</a></li>
+        <li><a href="#parkeringsfeil-som-koster-dyrt">Parkeringsfeil som koster dyrt</a></li>
+        <li><a href="#praktiske-tips-for-suksess">Praktiske tips for suksess</a></li>
+      </ul>
+    </li>
+    <li><a href="#samhandling-med-andre-trafikanter">Samhandling med andre trafikanter</a>
+      <ul>
+        <li><a href="#signalgivning-og-kommunikasjon">Signalgivning og kommunikasjon</a></li>
+        <li><a href="#spesiell-oppmerksomhet-til-sãrbare-trafikanter">Spesiell oppmerksomhet til sÃ¥rbare trafikanter</a></li>
+        <li><a href="#samarbeid-med-andre-bilister">Samarbeid med andre bilister</a></li>
+        <li><a href="#ãvingsmiljãer-og-progresjon">Ã˜vingsmiljÃ¸er og progresjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologiske-hjelpemidler">Teknologiske hjelpemidler</a>
+      <ul>
+        <li><a href="#parkeringsassistanse-systemer">Parkeringsassistanse-systemer</a></li>
+        <li><a href="#viktige-prinsipper-for-teknologibruk">Viktige prinsipper for teknologibruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#parkering-om-vinteren">Parkering om vinteren</a></li>
+        <li><a href="#parkering-med-elektrisk-bil">Parkering med elektrisk bil</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-konsekvenser-og-ansvar">Juridiske konsekvenser og ansvar</a>
+      <ul>
+        <li><a href="#erstatningsansvar">Erstatningsansvar</a></li>
+        <li><a href="#parkeringsbot-og-berging">Parkeringsbot og berging</a></li>
+      </ul>
+    </li>
+    <li><a href="#sammendrag-og-nãkkelpunkter">Sammendrag og nÃ¸kkelpunkter</a></li>
+    <li><a href="#videre-lesning-og-ressurser">Videre lesning og ressurser</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#grunnleggende-prinsipper-for-rygging">Grunnleggende prinsipper for rygging</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-rygging">Forberedelse fÃ¸r rygging</a></li>
+        <li><a href="#grunnleggende-teknikk">Grunnleggende teknikk</a></li>
+        <li><a href="#kroppsposisjon-under-rygging">Kroppsposisjon under rygging</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknikker-og-ãvelser">Teknikker og Ã¸velser</a>
+      <ul>
+        <li><a href="#grunnleggende-ãvelser">Grunnleggende Ã¸velser</a></li>
+        <li><a href="#avanserte-ãvelser">Avanserte Ã¸velser</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikker-parkering">Sikker parkering</a>
+      <ul>
+        <li><a href="#parkeringstyper-i-detalj">Parkeringstyper i detalj</a></li>
+        <li><a href="#fordeler-med-ulike-parkeringsmetoder">Fordeler med ulike parkeringsmetoder</a></li>
+        <li><a href="#detaljert-guide-til-parallelparkering">Detaljert guide til parallelparkering</a></li>
+        <li><a href="#sikkerhetsavstander-og-regelverk">Sikkerhetsavstander og regelverk</a></li>
+        <li><a href="#parkering-i-bakke-og-pã-skrã-underlag">Parkering i bakke og pÃ¥ skrÃ¥ underlag</a></li>
+      </ul>
+    </li>
+    <li><a href="#regelverk-og-skilting">Regelverk og skilting</a>
+      <ul>
+        <li><a href="#vanlige-parkeringsskilt">Vanlige parkeringsskilt</a></li>
+        <li><a href="#kommunale-parkeringsordninger">Kommunale parkeringsordninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-unngã-dem">Vanlige feil og hvordan unngÃ¥ dem</a>
+      <ul>
+        <li><a href="#kritiske-feil-ved-rygging">Kritiske feil ved rygging</a></li>
+        <li><a href="#parkeringsfeil-som-koster-dyrt">Parkeringsfeil som koster dyrt</a></li>
+        <li><a href="#praktiske-tips-for-suksess">Praktiske tips for suksess</a></li>
+      </ul>
+    </li>
+    <li><a href="#samhandling-med-andre-trafikanter">Samhandling med andre trafikanter</a>
+      <ul>
+        <li><a href="#signalgivning-og-kommunikasjon">Signalgivning og kommunikasjon</a></li>
+        <li><a href="#spesiell-oppmerksomhet-til-sãrbare-trafikanter">Spesiell oppmerksomhet til sÃ¥rbare trafikanter</a></li>
+        <li><a href="#samarbeid-med-andre-bilister">Samarbeid med andre bilister</a></li>
+        <li><a href="#ãvingsmiljãer-og-progresjon">Ã˜vingsmiljÃ¸er og progresjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologiske-hjelpemidler">Teknologiske hjelpemidler</a>
+      <ul>
+        <li><a href="#parkeringsassistanse-systemer">Parkeringsassistanse-systemer</a></li>
+        <li><a href="#viktige-prinsipper-for-teknologibruk">Viktige prinsipper for teknologibruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#parkering-om-vinteren">Parkering om vinteren</a></li>
+        <li><a href="#parkering-med-elektrisk-bil">Parkering med elektrisk bil</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-konsekvenser-og-ansvar">Juridiske konsekvenser og ansvar</a>
+      <ul>
+        <li><a href="#erstatningsansvar">Erstatningsansvar</a></li>
+        <li><a href="#parkeringsbot-og-berging">Parkeringsbot og berging</a></li>
+      </ul>
+    </li>
+    <li><a href="#sammendrag-og-nãkkelpunkter">Sammendrag og nÃ¸kkelpunkter</a></li>
+    <li><a href="#videre-lesning-og-ressurser">Videre lesning og ressurser</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#grunnleggende-prinsipper-for-rygging">Grunnleggende prinsipper for rygging</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-rygging">Forberedelse fÃ¸r rygging</a></li>
+        <li><a href="#grunnleggende-teknikk">Grunnleggende teknikk</a></li>
+        <li><a href="#kroppsposisjon-under-rygging">Kroppsposisjon under rygging</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknikker-og-ãvelser">Teknikker og Ã¸velser</a>
+      <ul>
+        <li><a href="#grunnleggende-ãvelser">Grunnleggende Ã¸velser</a></li>
+        <li><a href="#avanserte-ãvelser">Avanserte Ã¸velser</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikker-parkering">Sikker parkering</a>
+      <ul>
+        <li><a href="#parkeringstyper-i-detalj">Parkeringstyper i detalj</a></li>
+        <li><a href="#fordeler-med-ulike-parkeringsmetoder">Fordeler med ulike parkeringsmetoder</a></li>
+        <li><a href="#detaljert-guide-til-parallelparkering">Detaljert guide til parallelparkering</a></li>
+        <li><a href="#sikkerhetsavstander-og-regelverk">Sikkerhetsavstander og regelverk</a></li>
+        <li><a href="#parkering-i-bakke-og-pã-skrã-underlag">Parkering i bakke og pÃ¥ skrÃ¥ underlag</a></li>
+      </ul>
+    </li>
+    <li><a href="#regelverk-og-skilting">Regelverk og skilting</a>
+      <ul>
+        <li><a href="#vanlige-parkeringsskilt">Vanlige parkeringsskilt</a></li>
+        <li><a href="#kommunale-parkeringsordninger">Kommunale parkeringsordninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-unngã-dem">Vanlige feil og hvordan unngÃ¥ dem</a>
+      <ul>
+        <li><a href="#kritiske-feil-ved-rygging">Kritiske feil ved rygging</a></li>
+        <li><a href="#parkeringsfeil-som-koster-dyrt">Parkeringsfeil som koster dyrt</a></li>
+        <li><a href="#praktiske-tips-for-suksess">Praktiske tips for suksess</a></li>
+      </ul>
+    </li>
+    <li><a href="#samhandling-med-andre-trafikanter">Samhandling med andre trafikanter</a>
+      <ul>
+        <li><a href="#signalgivning-og-kommunikasjon">Signalgivning og kommunikasjon</a></li>
+        <li><a href="#spesiell-oppmerksomhet-til-sãrbare-trafikanter">Spesiell oppmerksomhet til sÃ¥rbare trafikanter</a></li>
+        <li><a href="#samarbeid-med-andre-bilister">Samarbeid med andre bilister</a></li>
+        <li><a href="#ãvingsmiljãer-og-progresjon">Ã˜vingsmiljÃ¸er og progresjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologiske-hjelpemidler">Teknologiske hjelpemidler</a>
+      <ul>
+        <li><a href="#parkeringsassistanse-systemer">Parkeringsassistanse-systemer</a></li>
+        <li><a href="#viktige-prinsipper-for-teknologibruk">Viktige prinsipper for teknologibruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#parkering-om-vinteren">Parkering om vinteren</a></li>
+        <li><a href="#parkering-med-elektrisk-bil">Parkering med elektrisk bil</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-konsekvenser-og-ansvar">Juridiske konsekvenser og ansvar</a>
+      <ul>
+        <li><a href="#erstatningsansvar">Erstatningsansvar</a></li>
+        <li><a href="#parkeringsbot-og-berging">Parkeringsbot og berging</a></li>
+      </ul>
+    </li>
+    <li><a href="#sammendrag-og-nãkkelpunkter">Sammendrag og nÃ¸kkelpunkter</a></li>
+    <li><a href="#videre-lesning-og-ressurser">Videre lesning og ressurser</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#grunnleggende-prinsipper-for-rygging">Grunnleggende prinsipper for rygging</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-rygging">Forberedelse fÃ¸r rygging</a></li>
+        <li><a href="#grunnleggende-teknikk">Grunnleggende teknikk</a></li>
+        <li><a href="#kroppsposisjon-under-rygging">Kroppsposisjon under rygging</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknikker-og-ãvelser">Teknikker og Ã¸velser</a>
+      <ul>
+        <li><a href="#grunnleggende-ãvelser">Grunnleggende Ã¸velser</a></li>
+        <li><a href="#avanserte-ãvelser">Avanserte Ã¸velser</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikker-parkering">Sikker parkering</a>
+      <ul>
+        <li><a href="#parkeringstyper-i-detalj">Parkeringstyper i detalj</a></li>
+        <li><a href="#fordeler-med-ulike-parkeringsmetoder">Fordeler med ulike parkeringsmetoder</a></li>
+        <li><a href="#detaljert-guide-til-parallelparkering">Detaljert guide til parallelparkering</a></li>
+        <li><a href="#sikkerhetsavstander-og-regelverk">Sikkerhetsavstander og regelverk</a></li>
+        <li><a href="#parkering-i-bakke-og-pã-skrã-underlag">Parkering i bakke og pÃ¥ skrÃ¥ underlag</a></li>
+      </ul>
+    </li>
+    <li><a href="#regelverk-og-skilting">Regelverk og skilting</a>
+      <ul>
+        <li><a href="#vanlige-parkeringsskilt">Vanlige parkeringsskilt</a></li>
+        <li><a href="#kommunale-parkeringsordninger">Kommunale parkeringsordninger</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-unngã-dem">Vanlige feil og hvordan unngÃ¥ dem</a>
+      <ul>
+        <li><a href="#kritiske-feil-ved-rygging">Kritiske feil ved rygging</a></li>
+        <li><a href="#parkeringsfeil-som-koster-dyrt">Parkeringsfeil som koster dyrt</a></li>
+        <li><a href="#praktiske-tips-for-suksess">Praktiske tips for suksess</a></li>
+      </ul>
+    </li>
+    <li><a href="#samhandling-med-andre-trafikanter">Samhandling med andre trafikanter</a>
+      <ul>
+        <li><a href="#signalgivning-og-kommunikasjon">Signalgivning og kommunikasjon</a></li>
+        <li><a href="#spesiell-oppmerksomhet-til-sãrbare-trafikanter">Spesiell oppmerksomhet til sÃ¥rbare trafikanter</a></li>
+        <li><a href="#samarbeid-med-andre-bilister">Samarbeid med andre bilister</a></li>
+        <li><a href="#ãvingsmiljãer-og-progresjon">Ã˜vingsmiljÃ¸er og progresjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologiske-hjelpemidler">Teknologiske hjelpemidler</a>
+      <ul>
+        <li><a href="#parkeringsassistanse-systemer">Parkeringsassistanse-systemer</a></li>
+        <li><a href="#viktige-prinsipper-for-teknologibruk">Viktige prinsipper for teknologibruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#parkering-om-vinteren">Parkering om vinteren</a></li>
+        <li><a href="#parkering-med-elektrisk-bil">Parkering med elektrisk bil</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-konsekvenser-og-ansvar">Juridiske konsekvenser og ansvar</a>
+      <ul>
+        <li><a href="#erstatningsansvar">Erstatningsansvar</a></li>
+        <li><a href="#parkeringsbot-og-berging">Parkeringsbot og berging</a></li>
+      </ul>
+    </li>
+    <li><a href="#sammendrag-og-nãkkelpunkter">Sammendrag og nÃ¸kkelpunkter</a></li>
+    <li><a href="#videre-lesning-og-ressurser">Videre lesning og ressurser</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Rygging og parkering</strong> er grunnleggende og kritiske ferdigheter for alle bilfÃ¸rere i Norge. Disse manÃ¸vrene krever <strong>presisjon</strong>, <strong>oppmerksomhet</strong> og god forstÃ¥else av kjÃ¸retÃ¸yets dimensjoner og bevegelser. Korrekt utfÃ¸relse av rygging og parkering bidrar ikke bare til <strong>trafikksikkerhet</strong>, men ogsÃ¥ til effektiv bruk av veirom og forhindrer skader pÃ¥ kjÃ¸retÃ¸y og eiendom.</p>
+<p><em>For avanserte parkeringsteknikker, se <a href="/blogs/teori/parkering-for-viderekomne" title="Parkering for viderekomne - Avanserte teknikker og situasjoner">Parkering for viderekomne</a>.</em></p>
+<p><em>For regler om <strong>stans og parkering</strong> i byomrÃ¥der, se <a href="/blogs/teori/kjoring-i-byen-stans-og-parkering" title="Stans og parkering i byen - Regler og anbefalinger">KjÃ¸ring i byen: Stans og parkering</a>.</em>
+<em>For generelle trafikkregler om parkering, se <a href="/blogs/teori/trafikkregler-om-parkering" title="Trafikkregler om parkering - regler, unntak og skilt">Trafikkregler om parkering</a>.</em></p>
+<p><em>Kombinert med god plassering pÃ¥ veien, er rygging og parkering essensielt for trygg kjÃ¸ring. Les mer om <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Trygg posisjonering pÃ¥ veien">Plassering og kjÃ¸remÃ¥te</a>.</em>
+<em>For generelle visuelle sjekker og blindsoner fÃ¸r manÃ¸vrer, se <a href="/blogs/teori/de-5-se-reglene" title="De 5 se-reglene">De 5 se-reglene</a>.</em></p>
+<p><em>For informasjon om avanserte fÃ¸rerstÃ¸ttesystemer som filholder og parkeringsassistent, se <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr - Moderne fÃ¸rerstÃ¸ttesystemer (ADAS)">KjÃ¸retÃ¸yets sikkerhetsutstyr</a>.</em></p>
+<h2 id="grunnleggende-prinsipper-for-rygging">Grunnleggende prinsipper for rygging</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Rygging</strong> er en av de mest krevende manÃ¸vrene i bilkjÃ¸ring og krever spesiell oppmerksomhet til <strong>sikkerhet</strong> og <strong>presisjon</strong>. NÃ¥r du rygger, er mÃ¥let Ã¥ beholde full kontroll og oversikt over hele kjÃ¸retÃ¸yet og omgivelsene.</p>
+<h3 id="forberedelse-fãr-rygging">Forberedelse fÃ¸r rygging</h3>
+<ul>
+<li><strong>Speilkontroll</strong>: Juster alle speil (innvendig, venstre og hÃ¸yre sidespeil) for optimal sikt</li>
+<li><strong>Seteposisjon</strong>: SÃ¸rg for at du sitter komfortabelt og kan se godt i alle retninger</li>
+<li><strong>Omgivelseskontroll</strong>: GÃ¥ rundt bilen hvis nÃ¸dvendig for Ã¥ sjekke hindringer</li>
+<li><strong>Planlegging</strong>: Bestem ruten og manÃ¸veren fÃ¸r du starter</li>
+</ul>
+<h3 id="grunnleggende-teknikk">Grunnleggende teknikk</h3>
+<ul>
+<li><strong>Speilbruk</strong>: Sjekk kontinuerlig alle speil under hele manÃ¸veren</li>
+<li><strong>Hodevendinger</strong>: Se aktivt bakover over hÃ¸yre og venstre skulder for Ã¥ eliminere blindsoner</li>
+<li><strong>Hastighet</strong>: Rygge sakte og kontrollert â€“ hold foten lett pÃ¥ bremsepedalen</li>
+<li><strong>Rattbevegelser</strong>: Bruk smÃ¥, presise rattbevegelser med hendene i &ldquo;9 og 3&rdquo;-posisjon</li>
+<li><strong>Stopp ved behov</strong>: Ikke nÃ¸l med Ã¥ stoppe og revurdere situasjonen</li>
+</ul>
+<h3 id="kroppsposisjon-under-rygging">Kroppsposisjon under rygging</h3>
+<p>For <strong>rett rygging</strong> (mest vanlig):</p>
+<ul>
+<li>Vri kroppen mot hÃ¸yre og se bakover over hÃ¸yre skulder</li>
+<li>Bruk hÃ¸yre hÃ¥nd pÃ¥ rattet for mindre, mer presise justeringer</li>
+<li>Sjekk venstre speil regelmessig for Ã¥ holde rett kurs</li>
+</ul>
+<p>For <strong>rygging til venstre</strong>:</p>
+<ul>
+<li>Se hovedsakelig i venstre speil og over venstre skulder</li>
+<li>Bruk begge hender pÃ¥ rattet for kontrollerte bevegelser</li>
+</ul>
+<h2 id="teknikker-og-ãvelser">Teknikker og Ã¸velser</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Systematisk Ã¸ving</strong> er nÃ¸kkelen til Ã¥ mestre rygging. Start alltid i et trygt, kontrollert miljÃ¸ som en tom parkeringsplass.</p>
+<h3 id="grunnleggende-ãvelser">Grunnleggende Ã¸velser</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Ã˜velse</th>
+          <th>Beskrivelse</th>
+          <th>NÃ¸kkelfokus</th>
+          <th>Varighet</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Rygging i rett linje</td>
+          <td>Rygg rett bakover 20-30 meter med blikk over hÃ¸yre skulder</td>
+          <td>Speil- og hodebruk</td>
+          <td>10-15 min</td>
+      </tr>
+      <tr>
+          <td>Rygging rundt hjÃ¸rne</td>
+          <td>Kombiner rattutslag med bevegelse bakover rundt 90Â° hjÃ¸rne</td>
+          <td>Rattkontroll</td>
+          <td>15-20 min</td>
+      </tr>
+      <tr>
+          <td>Rygging mellom kjegler</td>
+          <td>Rygge i slalom mellom oppstilte hindringer</td>
+          <td>Presisjonskontroll</td>
+          <td>20-25 min</td>
+      </tr>
+      <tr>
+          <td>Parallelparkering (del 1)</td>
+          <td>Plasser bilen ved siden av &ldquo;referansebil&rdquo;</td>
+          <td>Avstand til kantstein</td>
+          <td>10-15 min</td>
+      </tr>
+      <tr>
+          <td>Parallelparkering (del 2)</td>
+          <td>Rygge bakover inn i lomme med korrekt rattutslag</td>
+          <td>Timing og vinkler</td>
+          <td>20-30 min</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="avanserte-ãvelser">Avanserte Ã¸velser</h3>
+<ul>
+<li><strong>Rygging inn i garasje</strong>: Ã˜v pÃ¥ presisjon i smale rom</li>
+<li><strong>Rygging med tilhenger</strong>: Spesiell teknikk kreves (se <a href="/blogs/teori/kjoring-med-tilhenger" title="KjÃ¸ring med tilhenger - Sikker transport med tilhenger">KjÃ¸ring med tilhenger</a>)</li>
+<li><strong>Rygging i bakke</strong>: Kombinasjon av rygging og bakkekjÃ¸ring</li>
+<li><strong>Rygging ved hindringer</strong>: ManÃ¸vrering rundt parkerte biler og andre hindringer</li>
+</ul>
+<h2 id="sikker-parkering">Sikker parkering</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Parkering</strong> er mer enn bare Ã¥ stoppe bilen - det krever forstÃ¥else av regelverk, situasjonsforstÃ¥else og respekt for andre trafikanter. NÃ¥r du parkerer, mÃ¥ du alltid vurdere bÃ¥de <strong>juridiske krav</strong> og <strong>praktiske forhold</strong>. For detaljert informasjon om parkeringsskilt og andre forbudsskilt, se <a href="/blogs/teori/trafikkskilt-og-veimerking" title="Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking">Trafikkskilt og veimerking</a>.</p>
+<h3 id="parkeringstyper-i-detalj">Parkeringstyper i detalj</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Type</th>
+          <th>Beskrivelse</th>
+          <th>Vanlige steder</th>
+          <th>Vanskelighetsgrad</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Parallelparkering</strong></td>
+          <td>Parker langs veikanten i kjÃ¸reretning</td>
+          <td>Bygater, sentrumsomrÃ¥der</td>
+          <td>HÃ¸y</td>
+      </tr>
+      <tr>
+          <td><strong>Lommeparkering</strong></td>
+          <td>Parker inn i opphÃ¸yd lomme eller innkjÃ¸ring</td>
+          <td>BoligomrÃ¥der, mindre veier</td>
+          <td>Middels</td>
+      </tr>
+      <tr>
+          <td><strong>Parkeringsplass</strong></td>
+          <td>Bruk markerte felt pÃ¥ parkeringsomrÃ¥der</td>
+          <td>KjÃ¸pesentre, arbeidsplasser</td>
+          <td>Lav</td>
+      </tr>
+      <tr>
+          <td><strong>Vinkelparkering</strong></td>
+          <td>Parker i felt merket med skrÃ¥ linjer (45Â°-90Â°)</td>
+          <td>Parkeringsanlegg, brede gater</td>
+          <td>Middels</td>
+      </tr>
+      <tr>
+          <td><strong>Bakparkering</strong></td>
+          <td>Rygge inn i parkeringsplass</td>
+          <td>Alle typer parkeringsplasser</td>
+          <td>Middels-hÃ¸y</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="fordeler-med-ulike-parkeringsmetoder">Fordeler med ulike parkeringsmetoder</h3>
+<p><strong>Frontparkering</strong> (kjÃ¸re forlengs inn):</p>
+<ul>
+<li>Enklere Ã¥ utfÃ¸re</li>
+<li>Raskere Ã¥ parkere</li>
+<li>Mindre presisjonskrav</li>
+</ul>
+<p><strong>Bakparkering</strong> (rygge inn):</p>
+<ul>
+<li>
+<p>Sikrere Ã¥ kjÃ¸re ut fra parkeringsplassen</p>
+</li>
+<li>
+<p>Bedre oversikt nÃ¥r du forlater plassen</p>
+</li>
+<li>
+<p>Mindre risiko for pÃ¥kjÃ¸rsel av fotgjengere</p>
+</li>
+<li>
+<p>Anbefales spesielt i travle omrÃ¥der</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h3 id="detaljert-guide-til-parallelparkering">Detaljert guide til parallelparkering</h3>
+<p><strong>Parallelparkering</strong> regnes som den mest krevende parkeringsteknikken og er ofte en del av den praktiske fÃ¸rerkorprÃ¸ven. Her er en detaljert, trinn-for-trinn guide:</p>
+<h4 id="forberedelse">Forberedelse</h4>
+<ul>
+<li>Finn en parkeringsplass som er minst 1,5 ganger bilens lengde</li>
+<li>Aktiver blinklys for Ã¥ signalisere intensjon</li>
+<li>Sjekk at det er trygt Ã¥ utfÃ¸re manÃ¸veren</li>
+</ul>
+<h4 id="trinn-for-trinn-utfãrelse">Trinn-for-trinn utfÃ¸relse</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Trinn</th>
+          <th>Beskrivelse</th>
+          <th>Viktige punkter</th>
+          <th>Vanlige feil</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Still deg parallelt med forankjÃ¸rende bil, ca. 60-80 cm avstand</td>
+          <td>Bakhjulene skal vÃ¦re pÃ¥ linje</td>
+          <td>For stor eller liten avstand</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Sett bilen i revers, sving rattet fullt mot kantsteinen</td>
+          <td>Sjekk speil kontinuerlig</td>
+          <td>Glemmer Ã¥ sjekke blindsoner</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Rygge til bilen er i ca. 45Â° vinkel mot kantsteinen</td>
+          <td>HÃ¸yre bakhjÃ¸rne bÃ¸r vÃ¦re ca. 30 cm fra kantstein</td>
+          <td>Feil vinkel, for brÃ¥ manÃ¸ver</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Rett ut rattet og rygge rett bakover</td>
+          <td>Bilen skal gli inn i lomma</td>
+          <td>Retter ikke ut rattet i tide</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Sving rattet fullt motsatt vei nÃ¥r bakdelen er fri</td>
+          <td>Kontroller avstand til bil bak</td>
+          <td>Svinger for tidlig eller sent</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Rett opp og sentrer bilen i lomma</td>
+          <td>Jevn avstand til begge biler</td>
+          <td>DÃ¥rlig sentrering</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="referansepunkter-for-parallelparkering">Referansepunkter for parallelparkering</h4>
+<ul>
+<li><strong>Start-posisjon</strong>: Ditt hÃ¸yre speil pÃ¥ linje med den andre bilens hÃ¸yre speil</li>
+<li><strong>FÃ¸rste rattutslag</strong>: NÃ¥r bilens bakhjul passerer den andre bilens bakhjul</li>
+<li><strong>Retting av ratt</strong>: NÃ¥r hÃ¸yre bakhjÃ¸rne er 30 cm fra kantstein</li>
+<li><strong>Andre rattutslag</strong>: NÃ¥r bilens front har passert den andre bilens bak</li>
+</ul>
+<h3 id="sikkerhetsavstander-og-regelverk">Sikkerhetsavstander og regelverk</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Trafikkreglene</strong> setter klare minimumskrav til parkeringsavstander for Ã¥ sikre trygg ferdsel og tilgjengelighet.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Situasjon</th>
+          <th>Minimumsavstand</th>
+          <th>Begrunnelse</th>
+          <th>Lovgrunnlag</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Fra fortauskant</td>
+          <td>30 cm</td>
+          <td>UnngÃ¥ skade pÃ¥ dekk/felg, tilgjengelighet</td>
+          <td>Trafikkreglene Â§12</td>
+      </tr>
+      <tr>
+          <td>Fra annen parkert bil (front/bak)</td>
+          <td>1 meter</td>
+          <td>Mulighet for utkjÃ¸ring</td>
+          <td>Trafikkreglene Â§12</td>
+      </tr>
+      <tr>
+          <td>Fra veikryss</td>
+          <td>5 meter</td>
+          <td>Sikkerhet, sikt i kryss</td>
+          <td>Trafikkreglene Â§12</td>
+      </tr>
+      <tr>
+          <td>Fra fotgjengerfelt</td>
+          <td>5 meter</td>
+          <td>Sikt for fotgjengere</td>
+          <td>Trafikkreglene Â§12</td>
+      </tr>
+      <tr>
+          <td>Fra bussholdeplass</td>
+          <td>20 meter</td>
+          <td>Kollektivtrafikk prioritet</td>
+          <td>Trafikkreglene Â§12</td>
+      </tr>
+      <tr>
+          <td>Fra branngater/nÃ¸dutganger</td>
+          <td>5 meter</td>
+          <td>NÃ¸dtjenester tilgang</td>
+          <td>Lokale forskrifter</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="parkeringsforbud">Parkeringsforbud</h4>
+<p><strong>Det er forbudt Ã¥ parkere:</strong></p>
+<ul>
+<li>PÃ¥ eller ved fotgjengerfelt og sykkelfelt</li>
+<li><a href="/blogs/teori/parkering-pa-uoversiktlig-kurve" title="Parkering pÃ¥ uoversiktlig kurve - regler og sikkerhet">Parkering pÃ¥ uoversiktlig kurve</a> â€“ forbudt i kurver og pÃ¥ toppen av bakker hvor sikten er begrenset</li>
+<li>PÃ¥ motorvei og motortrafikkvei</li>
+<li>I kollektivfelt og pÃ¥ bussholdeplasser</li>
+<li>Ved brannhydranter og inne i branngate</li>
+<li>Der parkering hindrer ren- og strÃ¸ing av vei</li>
+</ul>
+<p>For mer detaljert informasjon om parkeringsregler, se <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Komplett oversikt over trafikklover">Lover og forskrifter</a>.</p>
+<h3 id="parkering-i-bakke-og-pã-skrã-underlag">Parkering i bakke og pÃ¥ skrÃ¥ underlag</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Parkering i hellende terreng</strong> krever ekstra sikkerhetsforhold for Ã¥ forhindre at kjÃ¸retÃ¸yet ruller ukontrollert. Dette er spesielt viktig i Norge hvor mange veier har betydelig hellingsgrad.</p>
+<h4 id="hjulstilling-ved-parkering-i-bakke">Hjulstilling ved parkering i bakke</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Hellingsretning</th>
+          <th>Hjulretning</th>
+          <th>Forklaring</th>
+          <th>Ekstra sikkerhet</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Oppover med fortau</strong></td>
+          <td>Hjul vendt fra fortauet</td>
+          <td>Hvis bilen ruller, stopper hjulene mot fortauet</td>
+          <td>StÃ¥ i fÃ¸rste gir</td>
+      </tr>
+      <tr>
+          <td><strong>Nedover med fortau</strong></td>
+          <td>Hjul vendt mot fortauet</td>
+          <td>Fortauet stopper bilen fra Ã¥ rulle inn i trafikken</td>
+          <td>StÃ¥ i revers</td>
+      </tr>
+      <tr>
+          <td><strong>Oppover uten fortau</strong></td>
+          <td>Hjul vendt mot veikanten</td>
+          <td>Bilen ruller ut av veibanen hvis den beveger seg</td>
+          <td>StÃ¥ i fÃ¸rste gir</td>
+      </tr>
+      <tr>
+          <td><strong>Nedover uten fortau</strong></td>
+          <td>Hjul vendt mot veikanten</td>
+          <td>Samme som over, men viktigere pga. tyngdekraften</td>
+          <td>StÃ¥ i revers</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="sikkerhetsrutine-for-bakkeparkering">Sikkerhetsrutine for bakkeparkering</h4>
+<ol>
+<li><strong>Stopp bilen</strong> pÃ¥ Ã¸nsket sted med hjulene rett frem</li>
+<li><strong>Trekk hÃ¥ndbrekket</strong> fÃ¸r du slipper fotbreksen</li>
+<li><strong>Sett bilen i riktig gir</strong> (fÃ¸rste gir oppover, revers nedover)</li>
+<li><strong>Drei hjulene</strong> i riktig retning</li>
+<li><strong>Slipp fotbreksen forsiktig</strong> for Ã¥ teste at bilen stÃ¥r stÃ¸dig</li>
+<li><strong>Skru av motoren</strong> og ta ut nÃ¸klene</li>
+</ol>
+<h4 id="spesielle-forhold">Spesielle forhold</h4>
+<p><strong>Is og glatte forhold:</strong></p>
+<ul>
+<li>Bruk ekstra sikkerhetstiltak som hjulstokkere</li>
+<li>Vurder alternativ parkeringsplass pÃ¥ flatere underlag</li>
+<li>Sjekk at hÃ¥ndbrekket fungerer optimalt</li>
+</ul>
+<p><strong>Automatgir:</strong></p>
+<ul>
+<li>Sett girspaken i &ldquo;P&rdquo; (Park) posisjon</li>
+<li>Trekk hÃ¥ndbrekket i tillegg til &ldquo;P&rdquo; i bratte bakker</li>
+<li>Vurder Ã¥ dreie hjulene selv med automatgir</li>
+</ul>
+<h2 id="regelverk-og-skilting">Regelverk og skilting</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Parkeringsbegrensninger</strong> og <strong>parkeringstillatelser</strong> er regulert gjennom trafikkreglene og kommunale forskrifter. Korrekt forstÃ¥else av skilting er avgjÃ¸rende for Ã¥ unngÃ¥ bÃ¸ter og bidra til god trafikkflyt.</p>
+<h3 id="vanlige-parkeringsskilt">Vanlige parkeringsskilt</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Skilt</th>
+          <th>Betydning</th>
+          <th>Tidsrom</th>
+          <th>Straff ved brudd</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>P</strong> med tidsangivelse</td>
+          <td>Begrenset parkeringstid</td>
+          <td>Som angitt pÃ¥ skilt</td>
+          <td>Parkeringsbot</td>
+      </tr>
+      <tr>
+          <td><strong>P</strong> med klokkeslett</td>
+          <td>Parkeringsforbud i angitt periode</td>
+          <td>F.eks. 16-08</td>
+          <td>Parkeringsbot + flytting</td>
+      </tr>
+      <tr>
+          <td><strong>Parkeringsforbud</strong> (rÃ¸d sirkel)</td>
+          <td>Absolutt parkeringsforbud</td>
+          <td>DÃ¸gnet rundt</td>
+          <td>Bot + berging</td>
+      </tr>
+      <tr>
+          <td><strong>Stoppforbud</strong> (rÃ¸d x)</td>
+          <td>Verken stopp eller parkering</td>
+          <td>DÃ¸gnet rundt</td>
+          <td>Bot + berging</td>
+      </tr>
+      <tr>
+          <td><strong>Betalingsparkering</strong></td>
+          <td>Betaling kreves</td>
+          <td>Angitt pÃ¥ skilt</td>
+          <td>Parkeringsbot</td>
+      </tr>
+      <tr>
+          <td><strong>Reservert parkering</strong></td>
+          <td>Kun for angitt formÃ¥l</td>
+          <td>Som spesifisert</td>
+          <td>Bot + mulig berging</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="kommunale-parkeringsordninger">Kommunale parkeringsordninger</h3>
+<p><strong>Beboerparkering:</strong></p>
+<ul>
+<li>Krever spesiell tillatelse fra kommunen</li>
+<li>Gjelder vanligvis i tettbebygde omrÃ¥der</li>
+<li>Tidsavgrensning varierer mellom kommuner</li>
+</ul>
+<p><strong>Korttidsparkering:</strong></p>
+<ul>
+<li>Maksimal varighet spesifisert pÃ¥ skilt</li>
+<li>Krever ofte parkeringsskive</li>
+<li>Vanlig i handelsomrÃ¥der</li>
+</ul>
+<p><strong>Betalingsparkering:</strong></p>
+<ul>
+<li>Betaling via app, automat eller SMS</li>
+<li>Varierende priser avhengig av omrÃ¥de og tidspunkt</li>
+<li>Kontroll via parkeringsvakter eller kameraovervÃ¥king</li>
+</ul>
+<p>For detaljert informasjon om trafikkskilt, se <a href="/blogs/teori/trafikkskilt-og-veimerking" title="Trafikkskilt og veimerking - Komplett guide til norske trafikkskilt">Trafikkskilt og veimerking</a>.</p>
+<h2 id="vanlige-feil-og-hvordan-unngã-dem">Vanlige feil og hvordan unngÃ¥ dem</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Ã… lÃ¦re av andres feil er like viktig som Ã¥ mestre de riktige teknikkene. Her er de mest <strong>vanlige feilene</strong> ved rygging og parkering:</p>
+<h3 id="kritiske-feil-ved-rygging">Kritiske feil ved rygging</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Feil</th>
+          <th>Konsekvens</th>
+          <th>LÃ¸sning</th>
+          <th>Forebyggende tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>For rask rygging</strong></td>
+          <td>Redusert reaksjonstid, tap av kontroll</td>
+          <td>Bruk alltid lav hastighet</td>
+          <td>Ã˜v pÃ¥ hastighetskontroll</td>
+      </tr>
+      <tr>
+          <td><strong>DÃ¥rlig speilbruk</strong></td>
+          <td>Ã˜kt blindsonerisiko, kollisjoner</td>
+          <td>Sjekk alle speil kontinuerlig</td>
+          <td>Juster speil fÃ¸r rygging</td>
+      </tr>
+      <tr>
+          <td><strong>Manglende hodekontroll</strong></td>
+          <td>Misser fotgjengere og hindringer</td>
+          <td>Se aktivt over skuldrene</td>
+          <td>GjÃ¸r hodekontroll til vane</td>
+      </tr>
+      <tr>
+          <td><strong>Feiltolking av ratteffekt</strong></td>
+          <td>Bilen beveger seg feil retning</td>
+          <td>Husk: rattet virker &ldquo;omvendt&rdquo;</td>
+          <td>Ã˜v i trygt miljÃ¸</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="parkeringsfeil-som-koster-dyrt">Parkeringsfeil som koster dyrt</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Feil</th>
+          <th>Ã˜konomisk konsekvens</th>
+          <th>Sikkerhetsrisiko</th>
+          <th>Hvordan unngÃ¥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Feil avstand til kantstein</strong></td>
+          <td>Skade pÃ¥ felg/dekk (2000-5000 kr)</td>
+          <td>Lav</td>
+          <td>Bruk 30 cm som standard</td>
+      </tr>
+      <tr>
+          <td><strong>Parkering i handikapplass</strong></td>
+          <td>Bot 970 kr + mulig berging</td>
+          <td>Tilgjengelighet</td>
+          <td>Les skilting nÃ¸ye</td>
+      </tr>
+      <tr>
+          <td><strong>Glemmer hÃ¥ndbrekk i bakke</strong></td>
+          <td>Potensiell totalskade</td>
+          <td>HÃ¸y</td>
+          <td>Sjekkliste for bakkeparkering</td>
+      </tr>
+      <tr>
+          <td><strong>Blokkerer andre</strong></td>
+          <td>Bot + berging (1500-3000 kr)</td>
+          <td>Trafikkflyt</td>
+          <td>Sjekk avstand til andre biler</td>
+      </tr>
+      <tr>
+          <td><strong>Overskridelse parkeringstid</strong></td>
+          <td>Parkeringsbot (200-600 kr)</td>
+          <td>Lav</td>
+          <td>Bruk alarm eller app-varsel</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="praktiske-tips-for-suksess">Praktiske tips for suksess</h3>
+<p><strong>Forberedelse:</strong></p>
+<ul>
+<li>Ã˜v regelmessig i ulike miljÃ¸er og situasjoner</li>
+<li>LÃ¦r bilens dimensjoner og &ldquo;fÃ¸lelse&rdquo;</li>
+<li>Bruk teknologiske hjelpemidler som parkeringsensorer, men ikke som erstatning for grunnleggende ferdigheter</li>
+</ul>
+<p><strong>UtfÃ¸relse:</strong></p>
+<ul>
+<li>Ta deg god tid - stress fÃ¸rer til feil</li>
+<li>Stopp og revurder hvis du er usikker</li>
+<li>Be om hjelp fra passasjer som kan guide deg</li>
+</ul>
+<p><strong>Mental forberedelse:</strong></p>
+<ul>
+<li>Aksepter at parkering kan vÃ¦re utfordrende</li>
+<li>Bygg selvtillit gjennom gradvis Ã¸velse</li>
+<li>LÃ¦r av hver feil uten Ã¥ bli frustrert</li>
+</ul>
+<h2 id="samhandling-med-andre-trafikanter">Samhandling med andre trafikanter</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Effektiv kommunikasjon</strong> med andre trafikanter er essensielt for sikker rygging og parkering. God <strong>trafikantsamhandling</strong> reduserer misforstÃ¥elser og konflikter.</p>
+<h3 id="signalgivning-og-kommunikasjon">Signalgivning og kommunikasjon</h3>
+<p><strong>Obligatoriske signaler:</strong></p>
+<ul>
+<li><strong>Blinklys</strong> for Ã¥ indikere parkeringsintensjon</li>
+<li><strong>Ryggingslys</strong> aktiveres automatisk ved rygging</li>
+<li><strong>Varselblinkingsanlegg</strong> ved nÃ¸dstopp eller hindring</li>
+</ul>
+<p><strong>Anbefalt kommunikasjon:</strong></p>
+<ul>
+<li><strong>Ã˜yekontakt</strong> med fotgjengere og syklister</li>
+<li><strong>HÃ¥ndsignaler</strong> nÃ¥r elektroniske signaler ikke fungerer</li>
+<li><strong>Kort lydsignal</strong> ved behov for oppmerksomhet</li>
+</ul>
+<h3 id="spesiell-oppmerksomhet-til-sãrbare-trafikanter">Spesiell oppmerksomhet til sÃ¥rbare trafikanter</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Trafikantgruppe</th>
+          <th>Risikofaktorer</th>
+          <th>Forebyggende tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Fotgjengere</strong></td>
+          <td>Lav synlighet, uforutsigbar bevegelse</td>
+          <td>Ekstra hodekontroll, lav hastighet</td>
+      </tr>
+      <tr>
+          <td><a href="/blogs/teori/rygging-barn" title="Rygging: Barn - sikkerhet ved rygging med barn i nÃ¦rheten"><strong>Barn</strong></a></td>
+          <td>Impulsiv adferd, lav kroppshÃ¸yde</td>
+          <td>Stopp helt ved mistanke om barn i nÃ¦rheten</td>
+      </tr>
+      <tr>
+          <td><strong>Syklister</strong></td>
+          <td>HÃ¸y hastighet, stille bevegelse</td>
+          <td>Sjekk sykkelfelt og blindsoner nÃ¸ye</td>
+      </tr>
+      <tr>
+          <td><strong>Eldre</strong></td>
+          <td>Redusert hÃ¸rsel/syn, langsommere reaksjon</td>
+          <td>Gi ekstra tid og rom</td>
+      </tr>
+      <tr>
+          <td><strong>Rullestolbrukere</strong></td>
+          <td>Begrenset mobilitet</td>
+          <td>Ikke blokker ramper og bredere adkomster</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="samarbeid-med-andre-bilister">Samarbeid med andre bilister</h3>
+<p><strong>Ved parallelparkering:</strong></p>
+<ul>
+<li>Aktiver blinklys i god tid fÃ¸r manÃ¸veren</li>
+<li>VÃ¦r oppmerksom pÃ¥ bilister som vil passere</li>
+<li>Ikke blokÃ©r trafikken unÃ¸dvendig lenge</li>
+</ul>
+<p><strong>I parkeringshus og smÃ¥ omrÃ¥der:</strong></p>
+<ul>
+<li>FÃ¸lg &ldquo;fÃ¸rst til mÃ¸lla&rdquo;-prinsippet</li>
+<li>Vis tÃ¥lmodighet med andre som manÃ¸vrerer</li>
+<li>Hjelpe andre ved Ã¥ vise hvor ledige plasser er</li>
+</ul>
+<h3 id="ãvingsmiljãer-og-progresjon">Ã˜vingsmiljÃ¸er og progresjon</h3>
+<p><strong>Anbefalt progresjonsplan:</strong></p>
+<ol>
+<li><strong>Fase 1</strong>: Tom parkeringsplass uten hindringer (2-3 timer Ã¸ving)</li>
+<li><strong>Fase 2</strong>: Parkeringsplass med fÃ¥ biler og lav trafikk (3-5 timer)</li>
+<li><strong>Fase 3</strong>: Moderate parkeringsutfordringer i rolige omrÃ¥der (5-10 timer)</li>
+<li><strong>Fase 4</strong>: Bysentrum og utfordrende parkeringsituasjoner (10+ timer)</li>
+</ol>
+<p><strong>Ã˜vingspartnere:</strong></p>
+<ul>
+<li>Erfaren sjÃ¥fÃ¸r som kan guide og gi tilbakemelding</li>
+<li>Bruk av kjÃ¸reinstruktÃ¸r for spesialisert opplÃ¦ring</li>
+<li>Venner og familie som kan observere blindsoner</li>
+</ul>
+<p>For mer om samhandling i trafikken generelt, se <a href="/blogs/teori/kommunikasjon-med-andre-trafikanter" title="Kommunikasjon med andre trafikanter - Effektiv samhandling i trafikken">Kommunikasjon med andre trafikanter</a>.</p>
+<h2 id="teknologiske-hjelpemidler">Teknologiske hjelpemidler</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Moderne biler er utstyrt med <strong>teknologiske lÃ¸sninger</strong> som kan assistere ved parkering, men det er viktig Ã¥ forstÃ¥ bÃ¥de mulighetene og begrensningene.</p>
+<h3 id="parkeringsassistanse-systemer">Parkeringsassistanse-systemer</h3>
+<table>
+  <thead>
+      <tr>
+          <th>System</th>
+          <th>Funksjon</th>
+          <th>Fordeler</th>
+          <th>Begrensninger</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Parkeringsensorer</strong></td>
+          <td>Ultralydsignaler varsler om hindringer</td>
+          <td>Oppdager objekter, akustisk varsling</td>
+          <td>Ser ikke gjennomsiktige/tynne objekter</td>
+      </tr>
+      <tr>
+          <td><strong>Ryggekamera</strong></td>
+          <td>Visuell fremstilling av omrÃ¥det bak bilen</td>
+          <td>God oversikt, realtidsvisning</td>
+          <td>Kan vÃ¦re skitne, begrenset synsvinkel</td>
+      </tr>
+      <tr>
+          <td><strong>360Â° kamera</strong></td>
+          <td>Fugleperspektiv av hele bilen</td>
+          <td>Komplett oversikt</td>
+          <td>HÃ¸y kostnad, kompleks tolkning</td>
+      </tr>
+      <tr>
+          <td><strong>Automatisk parkering</strong></td>
+          <td>Systemet styrer rattet automatisk</td>
+          <td>Presis manÃ¸vrering</td>
+          <td>Fungerer ikke i alle situasjoner</td>
+      </tr>
+      <tr>
+          <td><strong>Park assist</strong></td>
+          <td>Hjelper med Ã¥ finne parkeringsplasser</td>
+          <td>Tidsbesparing</td>
+          <td>Avhengig av sensorer og programvare</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="viktige-prinsipper-for-teknologibruk">Viktige prinsipper for teknologibruk</h3>
+<p><strong>Teknologi som supplement, ikke erstatning:</strong></p>
+<ul>
+<li>Behold grunnleggende ferdigheter uten teknologisk hjelp</li>
+<li>ForstÃ¥ systemenes begrensninger</li>
+<li>Ha backup-plan nÃ¥r teknologien svikter</li>
+</ul>
+<p><strong>Ansvar og sikkerhet:</strong></p>
+<ul>
+<li>FÃ¸reren har alltid det endelige ansvaret</li>
+<li>Teknologi reduserer ikke behovet for oppmerksomhet</li>
+<li>Regelmessig kalibrering og vedlikehold kreves</li>
+</ul>
+<h2 id="spesielle-situasjoner">Spesielle situasjoner</h2>
+<h3 id="parkering-om-vinteren">Parkering om vinteren</h3>
+<p><strong>Utfordringer:</strong></p>
+<ul>
+<li>SnÃ¸ og is pÃ¥virker grep og manÃ¸vrering</li>
+<li>Redusert sikt fra snÃ¸ pÃ¥ kamera og sensorer</li>
+<li>Kaldere temperaturer pÃ¥virker bilens respons</li>
+</ul>
+<p><strong>Tilpassninger:</strong></p>
+<ul>
+<li>RengjÃ¸r sensorer og kamera fÃ¸r bruk</li>
+<li>Bruk vinterdekk og kjetting ved behov (se <a href="/blogs/teori/regler-for-dekk-og-kjetting" title="Regler for dekk og kjetting - Forskrifter og sikkerhet">Regler for dekk og kjetting</a>)</li>
+<li>Planlegg ekstra tid for manÃ¸vrering</li>
+</ul>
+<h3 id="parkering-med-elektrisk-bil">Parkering med elektrisk bil</h3>
+<p><strong>Spesielle hensyn:</strong></p>
+<ul>
+<li>Ladestasjoner krever ofte spesifikk parkering</li>
+<li>Lengre opphold for lading</li>
+<li>Tilgang til ladekabler og kontakter</li>
+</ul>
+<p><strong>Etikk ved lading:</strong></p>
+<ul>
+<li>Ikke okkuper ladeplasser uten Ã¥ lade</li>
+<li>Flytt bilen nÃ¥r ladingen er ferdig</li>
+<li>Respekter kÃ¸-system ved populÃ¦re ladestasjoner</li>
+</ul>
+<h2 id="juridiske-konsekvenser-og-ansvar">Juridiske konsekvenser og ansvar</h2>
+<h3 id="erstatningsansvar">Erstatningsansvar</h3>
+<p><strong>Ved skade under parkering:</strong></p>
+<ul>
+<li>FÃ¸rer er ansvarlig for skader forÃ¥rsaket av egen bil</li>
+<li>Forsikring dekker normalt trafikkskader</li>
+<li>Dokumenter skader med bilder og rapporter</li>
+</ul>
+<p><strong>Bevisbyrde:</strong></p>
+<ul>
+<li>FÃ¸rer mÃ¥ bevise at ulykken ikke var deres skyld</li>
+<li>Vitner og overvÃ¥kingskamera kan vÃ¦re avgjÃ¸rende</li>
+<li>Politirapport anbefales ved alle skader</li>
+</ul>
+<h3 id="parkeringsbot-og-berging">Parkeringsbot og berging</h3>
+<p><strong>BÃ¸tenivÃ¥er (2024-satser):</strong></p>
+<ul>
+<li>Standard parkeringsbot: 370-970 kr</li>
+<li>Berging og oppbevaring: 1500-3000 kr</li>
+<li>Handikapplass: 970 kr + mulig berging</li>
+</ul>
+<p><strong>Klageadgang:</strong></p>
+<ul>
+<li>BÃ¸ter kan pÃ¥klages til utstedende myndighet</li>
+<li>Frist for klage er normalt 3 uker</li>
+<li>Dokumentasjon og bevis mÃ¥ fremlegges</li>
+</ul>
+<h2 id="sammendrag-og-nãkkelpunkter">Sammendrag og nÃ¸kkelpunkter</h2>
+<p><strong>Kritiske suksessfaktorer:</strong></p>
+<ol>
+<li><strong>Systematisk Ã¸ving</strong> i trygge omgivelser</li>
+<li><strong>ForstÃ¥else av kjÃ¸retÃ¸yets dimensjoner</strong> og egenskaper</li>
+<li><strong>Respekt for regelverk</strong> og andre trafikanter</li>
+<li><strong>Bruk av alle sanser</strong> - ikke bare syn</li>
+<li><strong>TÃ¥lmodighet og realistiske forventninger</strong> til egen utvikling</li>
+</ol>
+<p><strong>Huskeliste for hver parkering:</strong></p>
+<ul>
+<li><input disabled="" type="checkbox"> Signaler intensjon med blinklys</li>
+<li><input disabled="" type="checkbox"> Sjekk alle speil og blindsoner</li>
+<li><input disabled="" type="checkbox"> Planlegg manÃ¸veren fÃ¸r start</li>
+<li><input disabled="" type="checkbox"> Bruk lav hastighet og smÃ¥ rattutslag</li>
+<li><input disabled="" type="checkbox"> Stopp ved usikkerhet</li>
+<li><input disabled="" type="checkbox"> Trekk hÃ¥ndbrekk og riktig gir/park-posisjon</li>
+<li><input disabled="" type="checkbox"> Sjekk avstander fÃ¸r du forlater bilen</li>
+</ul>
+<h2 id="videre-lesning-og-ressurser">Videre lesning og ressurser</h2>
+<p><strong>Relaterte emner:</strong></p>
+<ul>
+<li><a href="/blogs/teori/parkering-for-viderekomne" title="Parkering for viderekomne - Avanserte teknikker og situasjoner">Parkering for viderekomne</a></li>
+<li><a href="/blogs/teori/bykjoring" title="BykjÃ¸ring - Navigering i urbane miljÃ¸er">BykjÃ¸ring</a></li>
+<li><a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Trygg posisjonering pÃ¥ veien">Plassering og kjÃ¸remÃ¥te</a></li>
+<li><a href="/blogs/teori/trafikkskilt-og-veimerking" title="Trafikkskilt og veimerking - Komplett guide til norske trafikkskilt">Trafikkskilt og veimerking</a></li>
+<li><a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Komplett oversikt over trafikklover">Lover og forskrifter</a></li>
+</ul>
+<p><strong>Praktiske ressurser:</strong></p>
+<ul>
+<li>Ã˜vingsplasser og kjÃ¸reskoler i ditt omrÃ¥de</li>
+<li>Kommunale parkeringsreglement</li>
+<li>Digitale parkeringsapper og betalingslÃ¸sninger\n  </div>\n</div></li>
+</ul>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Rygging og parkering" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Rygging og parkering" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Rygging og parkering" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

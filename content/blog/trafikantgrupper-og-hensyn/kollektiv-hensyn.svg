@@ -1,0 +1,169 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0c4a6e">
+    Kollektivtransport - Prioritet og hensyn
+  </text>
+  
+  <!-- Road with bus stop -->
+  <rect x="50" y="350" width="700" height="120" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  <rect x="50" y="405" width="700" height="5" fill="#fbbf24"/>
+  
+  <!-- Bus stop platform -->
+  <rect x="300" y="300" width="120" height="50" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+  <text x="360" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">
+    HOLDEPLASS
+  </text>
+  
+  <!-- Bus -->
+  <rect x="280" y="370" width="160" height="60" rx="8" fill="#dc2626" stroke="#b91c1c" stroke-width="3"/>
+  <circle cx="310" cy="440" r="12" fill="#374151"/>
+  <circle cx="410" cy="440" r="12" fill="#374151"/>
+  <rect x="290" y="380" width="140" height="40" rx="5" fill="#f3f4f6"/>
+  <rect x="430" y="385" width="8" height="30" fill="#fbbf24"/>
+  
+  <!-- Bus number -->
+  <text x="360" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#dc2626">
+    🚌 20
+  </text>
+  
+  <!-- Car behind bus -->
+  <rect x="500" y="385" width="80" height="40" rx="5" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="520" cy="435" r="8" fill="#374151"/>
+  <circle cx="560" cy="435" r="8" fill="#374151"/>
+  <rect x="510" y="390" width="60" height="25" rx="3" fill="#bfdbfe"/>
+  
+  <!-- Right of way arrow -->
+  <polygon points="460,395 480,385 480,405" fill="#10b981"/>
+  <text x="485" y="400" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10b981">
+    VIKEPLIKT
+  </text>
+  
+  <!-- Passengers -->
+  <circle cx="320" cy="280" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  <rect x="316" y="288" width="8" height="15" rx="4" fill="#f59e0b"/>
+  
+  <circle cx="340" cy="280" r="8" fill="#ef4444" stroke="#dc2626" stroke-width="1"/>
+  <rect x="336" y="288" width="8" height="15" rx="4" fill="#dc2626"/>
+  
+  <circle cx="380" cy="280" r="8" fill="#10b981" stroke="#059669" stroke-width="1"/>
+  <rect x="376" y="288" width="8" height="15" rx="4" fill="#059669"/>
+  
+  <!-- Rules table -->
+  <rect x="100" y="80" width="600" height="180" rx="10" fill="white" stroke="#d1d5db" stroke-width="2"/>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">
+    Regler for kollektivtransport
+  </text>
+  
+  <!-- Table headers -->
+  <rect x="120" y="120" width="120" height="30" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="180" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">
+    Kjøretøy
+  </text>
+  
+  <rect x="240" y="120" width="180" height="30" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="330" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">
+    Vikeplikt-regler
+  </text>
+  
+  <rect x="420" y="120" width="180" height="30" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="510" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">
+    Spesielle hensyn
+  </text>
+  
+  <rect x="600" y="120" width="80" height="30" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="640" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">
+    Symbol
+  </text>
+  
+  <!-- Bus row -->
+  <rect x="120" y="150" width="120" height="40" stroke="#d1d5db" stroke-width="1" fill="#fef2f2"/>
+  <text x="180" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626">
+    BUSS
+  </text>
+  
+  <rect x="240" y="150" width="180" height="40" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="330" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Vikeplikt når de forlater
+  </text>
+  <text x="330" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    holdeplass
+  </text>
+  
+  <rect x="420" y="150" width="180" height="40" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="510" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Ikke forbikjør på høyre
+  </text>
+  <text x="510" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    side ved holdeplass
+  </text>
+  
+  <rect x="600" y="150" width="80" height="40" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="640" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#dc2626">
+    🚌
+  </text>
+  
+  <!-- Tram row -->
+  <rect x="120" y="190" width="120" height="35" stroke="#d1d5db" stroke-width="1" fill="#fef3c7"/>
+  <text x="180" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#d97706">
+    TRIKK
+  </text>
+  
+  <rect x="240" y="190" width="180" height="35" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="330" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Alltid vikeplikt
+  </text>
+  
+  <rect x="420" y="190" width="180" height="35" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="510" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Stopp ved på-/avstigning
+  </text>
+  
+  <rect x="600" y="190" width="80" height="35" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="640" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#d97706">
+    🚋
+  </text>
+  
+  <!-- Train row -->
+  <rect x="120" y="225" width="120" height="35" stroke="#d1d5db" stroke-width="1" fill="#f0fdf4"/>
+  <text x="180" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#15803d">
+    TOG
+  </text>
+  
+  <rect x="240" y="225" width="180" height="35" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="330" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Absolutt vikeplikt
+  </text>
+  
+  <rect x="420" y="225" width="180" height="35" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="510" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Respekter bommer og skilt
+  </text>
+  
+  <rect x="600" y="225" width="80" height="35" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="640" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#15803d">
+    🚂
+  </text>
+  
+  <!-- Priority message -->
+  <rect x="200" y="490" width="400" height="60" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">
+    Kollektivtransport har høy prioritet i norsk transportpolitikk
+  </text>
+  <text x="400" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">
+    Miljøvennlig transport for mange personer samtidig
+  </text>
+  
+  <!-- Legal reference -->
+  <text x="400" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0c4a6e">
+    Juridisk grunnlag: Trafikkreglene §12 - Kollektivtransportens rettigheter
+  </text>
+</svg>

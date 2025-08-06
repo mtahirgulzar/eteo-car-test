@@ -1,0 +1,99 @@
+<svg width="550" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="450" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="275" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Kjørefelt i store rundkjøringer
+  </text>
+  
+  <!-- Large roundabout with multiple lanes -->
+  <g transform="translate(275, 220)">
+    <!-- Outer circle (outer lane) -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#666" stroke-width="12"/>
+    
+    <!-- Middle circle (lane divider) -->
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Inner circle (inner lane) -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#666" stroke-width="12"/>
+    
+    <!-- Center island -->
+    <circle cx="0" cy="0" r="50" fill="#90EE90"/>
+    
+    <!-- Entry/exit roads with lane markings -->
+    <!-- North entry/exit -->
+    <rect x="-15" y="-160" width="12" height="60" fill="#666"/>
+    <rect x="-3" y="-160" width="12" height="60" fill="#666"/>
+    <rect x="9" y="-160" width="12" height="60" fill="#666"/>
+    <rect x="-3" y="-155" width="6" height="50" fill="#fff"/>
+    
+    <!-- East entry/exit -->
+    <rect x="100" y="-15" width="60" height="12" fill="#666"/>
+    <rect x="100" y="-3" width="60" height="12" fill="#666"/>
+    <rect x="100" y="9" width="60" height="12" fill="#666"/>
+    <rect x="105" y="-3" width="50" height="6" fill="#fff"/>
+    
+    <!-- South entry/exit -->
+    <rect x="-15" y="100" width="12" height="60" fill="#666"/>
+    <rect x="-3" y="100" width="12" height="60" fill="#666"/>
+    <rect x="9" y="100" width="12" height="60" fill="#666"/>
+    <rect x="-3" y="105" width="6" height="50" fill="#fff"/>
+    
+    <!-- West entry/exit -->
+    <rect x="-160" y="-15" width="60" height="12" fill="#666"/>
+    <rect x="-160" y="-3" width="60" height="12" fill="#666"/>
+    <rect x="-160" y="9" width="60" height="12" fill="#666"/>
+    <rect x="-155" y="-3" width="50" height="6" fill="#fff"/>
+    
+    <!-- Exit numbering -->
+    <text x="0" y="-125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">1</text>
+    <text x="125" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">2</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">3</text>
+    <text x="-125" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">4</text>
+    
+    <!-- Cars demonstrating lane usage -->
+    <!-- Outer lane car (right turn) -->
+    <rect x="-95" y="-75" width="15" height="10" fill="#e74c3c" rx="2" transform="rotate(-45, -95, -75)"/>
+    
+    <!-- Inner lane car (left turn) -->
+    <rect x="-72" y="-72" width="10" height="15" fill="#3498db" rx="2" transform="rotate(-45, -72, -72)"/>
+    
+    <!-- Lane arrows -->
+    <!-- Outer lane arrow (for exits 1&amp;2) -->
+    <path d="M-90 -30 Q-30 -30 -30 -90" stroke="#e74c3c" stroke-width="2" fill="none" marker-end="url(#arrowhead-red)"/>
+    
+    <!-- Inner lane arrow (for exits 3&amp;4) -->
+    <path d="M-30 30 Q30 30 30 -30 Q30 -90 -30 -90" stroke="#3498db" stroke-width="2" fill="none" marker-end="url(#arrowhead-blue)"/>
+  </g>
+  
+  <!-- Arrow marker definitions -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3498db"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend table -->
+  <g transform="translate(50, 380)">
+    <rect x="0" y="0" width="450" height="65" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Kjørefeltenes bruk i store rundkjøringer:
+    </text>
+    
+    <!-- Outer lane -->
+    <rect x="15" y="28" width="12" height="8" fill="#e74c3c"/>
+    <text x="35" y="35" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      Høyre kjørefelt: Høyre avkjøring og rett frem (avkjøring 1-2)
+    </text>
+    
+    <!-- Inner lane -->
+    <rect x="15" y="43" width="12" height="8" fill="#3498db"/>
+    <text x="35" y="50" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      Venstre kjørefelt: Venstre svinging og U-sving (avkjøring 3-4)
+    </text>
+  </g>
+</svg>

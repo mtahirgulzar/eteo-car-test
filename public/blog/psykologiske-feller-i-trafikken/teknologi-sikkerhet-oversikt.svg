@@ -1,0 +1,211 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6610f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6f42c1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#techGradient)"/>
+  <text x="400" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Teknologi som Hjelp Mot Psykologiske Feller
+  </text>
+
+  <!-- Car outline -->
+  <g transform="translate(300, 200)">
+    <!-- Car body -->
+    <ellipse cx="100" cy="50" rx="80" ry="30" fill="#ddd" stroke="#333" stroke-width="2"/>
+    <!-- Windshield -->
+    <path d="M 40 30 Q 100 15 160 30 L 150 50 L 50 50 Z" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <!-- Wheels -->
+    <circle cx="50" cy="70" r="12" fill="#333"/>
+    <circle cx="150" cy="70" r="12" fill="#333"/>
+    <!-- Side windows -->
+    <ellipse cx="70" cy="40" rx="15" ry="8" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+    <ellipse cx="130" cy="40" rx="15" ry="8" fill="#87ceeb" stroke="#333" stroke-width="1"/>
+  </g>
+
+  <!-- Technology systems around the car -->
+  
+  <!-- 1. Blind Spot Monitoring -->
+  <g transform="translate(150, 120)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#28a745" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+      BLINDSONE-VARSLING
+    </text>
+    <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      Kompenserer for
+    </text>
+    <text x="60" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      oppmerksomhetsblindhet
+    </text>
+    
+    <!-- Warning zones -->
+    <ellipse cx="480" cy="250" rx="30" ry="60" fill="#28a745" opacity="0.3"/>
+    <ellipse cx="320" cy="250" rx="30" ry="60" fill="#28a745" opacity="0.3"/>
+    
+    <!-- Connection line -->
+    <path d="M 120 150 Q 200 180 300 220" stroke="#28a745" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- 2. Adaptive Cruise Control -->
+  <g transform="translate(530, 120)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#17a2b8" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+      ADAPTIV CRUISE
+    </text>
+    <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      Motvirker normalisering
+    </text>
+    <text x="60" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      av kort følgeavstand
+    </text>
+    
+    <!-- Distance indicators -->
+    <rect x="230" y="240" width="40" height="20" fill="#999" rx="3" opacity="0.5"/>
+    <text x="250" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">3 sek</text>
+    
+    <!-- Connection line -->
+    <path d="M 530 150 Q 450 180 380 220" stroke="#17a2b8" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- 3. Forward Collision Warning -->
+  <g transform="translate(340, 350)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#dc3545" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+      KOLLISJONS-VARSLING
+    </text>
+    <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      Kompenserer for
+    </text>
+    <text x="60" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      selvovervurdering
+    </text>
+    
+    <!-- Detection zone -->
+    <path d="M 400 190 L 380 140 L 420 140 Z" fill="#dc3545" opacity="0.3"/>
+    
+    <!-- Connection line -->
+    <path d="M 400 350 L 400 290" stroke="#dc3545" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- 4. Lane Departure Warning -->
+  <g transform="translate(50, 250)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#fd7e14" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+      FILSKIFTE-VARSLING
+    </text>
+    <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      Motvirker
+    </text>
+    <text x="60" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      distraksjoner
+    </text>
+    
+    <!-- Lane markings -->
+    <rect x="290" y="290" width="220" height="4" fill="#fff" stroke="#333" stroke-width="1"/>
+    <rect x="286" y="280" width="8" height="4" fill="#fd7e14" opacity="0.7"/>
+    <rect x="306" y="280" width="8" height="4" fill="#fd7e14" opacity="0.7"/>
+    <rect x="326" y="280" width="8" height="4" fill="#fd7e14" opacity="0.7"/>
+    
+    <!-- Connection line -->
+    <path d="M 170 280 L 280 270" stroke="#fd7e14" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- 5. Speed Limit Recognition -->
+  <g transform="translate(630, 250)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#6f42c1" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+      HASTIGHETSVARSLING
+    </text>
+    <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      Motvirker optimismebias
+    </text>
+    <text x="60" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      ved fartsgrenser
+    </text>
+    
+    <!-- Speed limit sign -->
+    <rect x="550" y="200" width="30" height="25" fill="#fff" stroke="#dc3545" stroke-width="2" rx="3"/>
+    <text x="565" y="217" text-anchor="middle" fill="#dc3545" font-family="Arial, sans-serif" font-size="14" font-weight="bold">80</text>
+    
+    <!-- Connection line -->
+    <path d="M 630 280 L 580 220" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- 6. Pedestrian Detection -->
+  <g transform="translate(150, 380)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#20c997" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+      FOTGJENGER-VARSLING
+    </text>
+    <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      Oppdager sårbare
+    </text>
+    <text x="60" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">
+      trafikanter
+    </text>
+    
+    <!-- Pedestrian -->
+    <circle cx="350" cy="300" r="4" fill="#e74c3c"/>
+    <rect x="347" y="304" width="6" height="8" fill="#e74c3c"/>
+    
+    <!-- Detection zone -->
+    <ellipse cx="360" cy="280" rx="40" ry="20" fill="#20c997" opacity="0.2"/>
+    
+    <!-- Connection line -->
+    <path d="M 210 380 Q 280 340 320 310" stroke="#20c997" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Warning message -->
+  <g transform="translate(50, 480)">
+    <rect x="0" y="0" width="700" height="100" rx="10" fill="#fff3cd" stroke="#856404" stroke-width="2"/>
+    <text x="350" y="25" text-anchor="middle" fill="#856404" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      ⚠️ VIKTIG: Teknologi er en støtte, ikke en erstatning
+    </text>
+    
+    <text x="20" y="50" fill="#856404" font-family="Arial, sans-serif" font-size="12">
+      • Sikkerhetssystemer kan svikte eller ha begrensninger
+    </text>
+    <text x="20" y="68" fill="#856404" font-family="Arial, sans-serif" font-size="12">
+      • Du må fortsatt være en aktiv og oppmerksom fører
+    </text>
+    <text x="20" y="86" fill="#856404" font-family="Arial, sans-serif" font-size="12">
+      • Ikke la teknologi gjøre deg lat eller mindre observant
+    </text>
+    
+    <text x="420" y="50" fill="#856404" font-family="Arial, sans-serif" font-size="12">
+      • Lær hvordan systemene fungerer og deres begrensninger
+    </text>
+    <text x="420" y="68" fill="#856404" font-family="Arial, sans-serif" font-size="12">
+      • Bruk teknologi for å forsterke, ikke erstatte, god kjørepraksis
+    </text>
+    <text x="420" y="86" fill="#856404" font-family="Arial, sans-serif" font-size="12">
+      • Utvikle bevissthet om psykologiske feller parallelt med teknologibruk
+    </text>
+  </g>
+
+  <!-- Effectiveness indicators -->
+  <g transform="translate(560, 400)">
+    <rect x="0" y="0" width="180" height="70" rx="8" fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+    <text x="90" y="18" text-anchor="middle" fill="#0c5460" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      EFFEKTIVITET
+    </text>
+    <text x="10" y="35" fill="#0c5460" font-family="Arial, sans-serif" font-size="10">
+      • 30% reduksjon i blindsone-ulykker
+    </text>
+    <text x="10" y="48" fill="#0c5460" font-family="Arial, sans-serif" font-size="10">
+      • 25% færre påkjøringer bakfra
+    </text>
+    <text x="10" y="61" fill="#0c5460" font-family="Arial, sans-serif" font-size="10">
+      • 40% reduksjon i fotgjenger-ulykker
+    </text>
+  </g>
+</svg>

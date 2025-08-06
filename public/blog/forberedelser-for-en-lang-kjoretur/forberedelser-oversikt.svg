@@ -1,0 +1,90 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5282;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#68D391;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38A169;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F7FAFC"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="url(#blueGradient)"/>
+  <text x="400" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Forberedelser til Lang Kjøretur</text>
+  
+  <!-- Main car illustration -->
+  <g transform="translate(300, 120)">
+    <!-- Car body -->
+    <rect x="0" y="40" width="200" height="60" fill="#2C5282" rx="5"/>
+    <!-- Car windows -->
+    <rect x="10" y="30" width="180" height="20" fill="#87CEEB" rx="3"/>
+    <!-- Car wheels -->
+    <circle cx="30" cy="120" r="20" fill="#2D3748"/>
+    <circle cx="170" cy="120" r="20" fill="#2D3748"/>
+    <circle cx="30" cy="120" r="12" fill="#718096"/>
+    <circle cx="170" cy="120" r="12" fill="#718096"/>
+  </g>
+  
+  <!-- Checklist items around the car -->
+  <!-- Technical check -->
+  <g transform="translate(50, 200)">
+    <rect x="0" y="0" width="150" height="80" fill="url(#greenGradient)" rx="8"/>
+    <text x="75" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Teknisk Sjekk</text>
+    <text x="10" y="45" fill="white" font-family="Arial, sans-serif" font-size="11">• Motorolje</text>
+    <text x="10" y="60" fill="white" font-family="Arial, sans-serif" font-size="11">• Dekk &amp; trykk</text>
+    <text x="10" y="75" fill="white" font-family="Arial, sans-serif" font-size="11">• Lys &amp; signaler</text>
+  </g>
+  
+  <!-- Documentation -->
+  <g transform="translate(600, 200)">
+    <rect x="0" y="0" width="150" height="80" fill="url(#greenGradient)" rx="8"/>
+    <text x="75" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Dokumenter</text>
+    <text x="10" y="45" fill="white" font-family="Arial, sans-serif" font-size="11">• Førerkort</text>
+    <text x="10" y="60" fill="white" font-family="Arial, sans-serif" font-size="11">• Vognkort</text>
+    <text x="10" y="75" fill="white" font-family="Arial, sans-serif" font-size="11">• Forsikring</text>
+  </g>
+  
+  <!-- Route planning -->
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="150" height="80" fill="url(#greenGradient)" rx="8"/>
+    <text x="75" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Ruteplan</text>
+    <text x="10" y="45" fill="white" font-family="Arial, sans-serif" font-size="11">• GPS navigasjon</text>
+    <text x="10" y="60" fill="white" font-family="Arial, sans-serif" font-size="11">• Pauseplasser</text>
+    <text x="10" y="75" fill="white" font-family="Arial, sans-serif" font-size="11">• Værvarsel</text>
+  </g>
+  
+  <!-- Safety equipment -->
+  <g transform="translate(600, 350)">
+    <rect x="0" y="0" width="150" height="80" fill="url(#greenGradient)" rx="8"/>
+    <text x="75" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Sikkerhet</text>
+    <text x="10" y="45" fill="white" font-family="Arial, sans-serif" font-size="11">• Førstehjelpsutstyr</text>
+    <text x="10" y="60" fill="white" font-family="Arial, sans-serif" font-size="11">• Varseltrekant</text>
+    <text x="10" y="75" fill="white" font-family="Arial, sans-serif" font-size="11">• Varme tepper</text>
+  </g>
+  
+  <!-- Connection arrows -->
+  <path d="M 200 240 Q 300 200 350 180" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 600 240 Q 500 200 450 180" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 200 390 Q 300 350 350 280" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 600 390 Q 500 350 450 280" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4A90E2"/>
+    </marker>
+  </defs>
+  
+  <!-- Statistics box -->
+  <g transform="translate(275, 300)">
+    <rect x="0" y="0" width="250" height="60" fill="#FFF5F5" stroke="#E53E3E" stroke-width="2" rx="5"/>
+    <text x="125" y="20" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">65% av bilpanner</text>
+    <text x="125" y="35" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="11">kunne vært unngått med</text>
+    <text x="125" y="50" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="11">bedre forberedelser</text>
+  </g>
+</svg>

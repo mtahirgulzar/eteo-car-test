@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="130">
+  <rect width="100%" height="100%" fill="#f9f9f9"/>
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 14px; fill: #333; }
+    .title { font-size: 16px; font-weight: bold; }
+  </style>
+  <text x="10" y="30" class="title">Stadier av situasjonsforståelse</text>
+  <text x="10" y="55">• Persepsjon: Oppfattelse av relevante elementer i trafikksituasjonen</text>
+  <text x="10" y="80">• Forståelse: Tolkning av betydning og sammenhenger</text>
+  <text x="10" y="105">• Projeksjon: Forutse fremtidige hendelser basert på forståelse</text>
+</svg>

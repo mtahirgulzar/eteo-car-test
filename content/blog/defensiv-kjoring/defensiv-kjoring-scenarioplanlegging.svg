@@ -1,0 +1,119 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Scenarioplanlegging og "Hva-hvis" Tenkning</text>
+  
+  <!-- Main scenario illustration -->
+  <rect x="50" y="60" width="700" height="200" fill="white" stroke="#bdc3c7" stroke-width="2" rx="10"/>
+  
+  <!-- Road scene -->
+  <rect x="80" y="180" width="640" height="60" fill="#34495e"/>
+  <line x1="80" y1="210" x2="720" y2="210" stroke="#f1c40f" stroke-width="3" stroke-dasharray="15,10"/>
+  
+  <!-- Your car -->
+  <rect x="200" y="195" width="50" height="25" fill="#3498db" rx="5"/>
+  <text x="225" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">DU</text>
+  <circle cx="210" cy="220" r="6" fill="#2c3e50"/>
+  <circle cx="240" cy="220" r="6" fill="#2c3e50"/>
+  
+  <!-- Other vehicles and hazards -->
+  <!-- Parked car -->
+  <rect x="400" y="195" width="45" height="25" fill="#95a5a6" rx="5"/>
+  <text x="422" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Parkert bil</text>
+  
+  <!-- Child between cars -->
+  <circle cx="470" cy="207" r="8" fill="#e74c3c"/>
+  <text x="470" y="211" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">BARN</text>
+  
+  <!-- Oncoming car -->
+  <rect x="600" y="195" width="50" height="25" fill="#e67e22" rx="5"/>
+  <text x="625" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Møtende</text>
+  <line x1="590" y1="207" x2="580" y2="207" stroke="#e67e22" stroke-width="3" marker-end="url(#orangearrow)"/>
+  
+  <!-- Scenario thinking bubbles -->
+  <!-- Scenario 1 -->
+  <ellipse cx="150" cy="100" rx="60" ry="30" fill="#f39c12" opacity="0.8" stroke="#e67e22" stroke-width="2"/>
+  <text x="150" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">HVA HVIS</text>
+  <text x="150" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">barnet løper ut?</text>
+  
+  <!-- Scenario 2 -->
+  <ellipse cx="350" cy="100" rx="60" ry="30" fill="#9b59b6" opacity="0.8" stroke="#8e44ad" stroke-width="2"/>
+  <text x="350" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">HVA HVIS</text>
+  <text x="350" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">døren åpnes?</text>
+  
+  <!-- Scenario 3 -->
+  <ellipse cx="550" cy="100" rx="60" ry="30" fill="#27ae60" opacity="0.8" stroke="#229954" stroke-width="2"/>
+  <text x="550" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">HVA HVIS</text>
+  <text x="550" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">må bremse brått?</text>
+  
+  <!-- Connection lines -->
+  <line x1="150" y1="130" x2="225" y2="175" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="350" y1="130" x2="422" y2="175" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="550" y1="130" x2="625" y2="175" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Action planning section -->
+  <rect x="50" y="280" width="700" height="280" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="10"/>
+  <text x="70" y="305" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Defensive Handlingsplaner:</text>
+  
+  <!-- Plan 1 -->
+  <rect x="70" y="320" width="200" height="120" fill="#f39c12" opacity="0.2" rx="5"/>
+  <text x="80" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e67e22">Scenario 1: Løpende barn</text>
+  <text x="80" y="355" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Umiddelbare tiltak:</text>
+  <text x="80" y="370" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Reduser hastighet til 30 km/t</text>
+  <text x="80" y="385" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Høyre hånd til horn</text>
+  <text x="80" y="400" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Vurder stopp</text>
+  <text x="80" y="415" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Sjekk ryggspeil for fluktrom</text>
+  <text x="80" y="430" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Forberedt på full bremsing</text>
+  
+  <!-- Plan 2 -->
+  <rect x="300" y="320" width="200" height="120" fill="#9b59b6" opacity="0.2" rx="5"/>
+  <text x="310" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8e44ad">Scenario 2: Bilkjør åpner</text>
+  <text x="310" y="355" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Umiddelbare tiltak:</text>
+  <text x="310" y="370" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Flytt til venstre i felt</text>
+  <text x="310" y="385" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Sjekk blindsone først</text>
+  <text x="310" y="400" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Øk sideavstand</text>
+  <text x="310" y="415" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Forberedt på unnamanøver</text>
+  <text x="310" y="430" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Blinkmerking</text>
+  
+  <!-- Plan 3 -->
+  <rect x="530" y="320" width="200" height="120" fill="#27ae60" opacity="0.2" rx="5"/>
+  <text x="540" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#229954">Scenario 3: Møtende nødbremser</text>
+  <text x="540" y="355" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Umiddelbare tiltak:</text>
+  <text x="540" y="370" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Kontroller egen hastighet</text>
+  <text x="540" y="385" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Øk følgeavstand</text>
+  <text x="540" y="400" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Identifiser fluktveier</text>
+  <text x="540" y="415" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Varsle bak (blinkmerking)</text>
+  <text x="540" y="430" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Vurder alternativ rute</text>
+  
+  <!-- Mental process -->
+  <rect x="70" y="460" width="660" height="80" fill="#d5dbdb" stroke="#95a5a6" stroke-width="1" rx="5"/>
+  <text x="80" y="480" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Mental Prosess for Scenarioplanlegging:</text>
+  
+  <!-- Process steps -->
+  <circle cx="100" cy="500" r="12" fill="#3498db"/>
+  <text x="100" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">1</text>
+  <text x="120" y="505" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Identifiser potensielle farer</text>
+  
+  <circle cx="280" cy="500" r="12" fill="#3498db"/>
+  <text x="280" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">2</text>
+  <text x="300" y="505" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Vurder sannsynlighet</text>
+  
+  <circle cx="450" cy="500" r="12" fill="#3498db"/>
+  <text x="450" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">3</text>
+  <text x="470" y="505" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Planlegg respons</text>
+  
+  <circle cx="600" cy="500" r="12" fill="#3498db"/>
+  <text x="600" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">4</text>
+  <text x="620" y="505" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Forbered mentalt</text>
+  
+  <text x="80" y="525" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Kontinuerlig prosess: Oppdater planer basert på endringer i trafikkbildet</text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="orangearrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e67e22"/>
+    </marker>
+  </defs>
+</svg>

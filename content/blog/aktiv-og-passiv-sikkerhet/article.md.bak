@@ -1,0 +1,49 @@
+![Aktiv og passiv sikkerhet](aktiv-og-passiv-sikkerhet-image.svg)
+
+**Aktiv sikkerhet** og **passiv sikkerhet** er to komplementære tilnærminger for å beskytte fører og passasjerer i bil. Mens aktiv sikkerhet handler om å forhindre ulykker gjennom elektroniske og mekaniske systemer, har passiv sikkerhet som mål å redusere skadeomfanget når en ulykke inntreffer.
+
+For en mer omfattende oversikt over bilens sikkerhetsutstyr, se [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr - Oversikt over aktivt og passivt sikkerhetsutstyr").
+
+## Hva er aktiv sikkerhet?
+
+**Aktiv sikkerhet** omfatter systemer og funksjoner som hjelper føreren med å opprettholde kontroll og unngå farlige situasjoner. Ved å overvåke kjøretøyets tilstand og veiforhold kan disse systemene gripe inn før ulykken skjer.
+
+### Eksempel: ESP (Elektronisk stabilitetsprogram)
+
+**ESP (Electronic Stability Program)** er et ledende aktivt sikkerhetssystem i moderne biler. Systemet måler kontinuerlig hjulhastighet, rattvinkel og sideakselerasjon, og kan bremse individuelle hjul for å korrigere understyring eller overstyring.
+
+* Overvåker hjul, ratt og bevegelse i sanntid
+* Griper inn automatisk ved ustabil kjøring
+* Reduserer risiko for utforkjøring og sladding
+
+Les mer i [Styresystem](/blogs/teori/styresystem "Styresystem (servostyring, retningsstabilitet, dødgang, forstilling, lufttrykk, ESP m.m.)").
+
+## Hva er passiv sikkerhet?
+
+**Passiv sikkerhet** består av strukturer og innretninger som beskytter personer ved en kollisjon. Disse systemene aktiveres først i møte med en uønsket belastning for å dempe støtet.
+
+### Eksempel: Airbags
+
+**Airbags (kollisjonsputer)** fylles med gass i løpet av millisekunder ved en kollisjon, og fungerer som et polstret skjold mellom fører/passasjer og bilens harde overflater.
+
+* **Frontal airbag**: Beskytter ved frontalkollisjon
+* **Side-airbag**: Demper kraft mot torso ved sidepåkjørsel
+* **Hode-airbag (gardin)**: Beskytter hode ved sidekollisjon
+* **Kne-airbag**: Beskytter legger og knær
+
+Les mer i [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr - Oversikt over passivt sikkerhetsutstyr").
+
+## Sammenligning av aktiv og passiv sikkerhet
+
+| Type sikkerhet      | Formål                    | Eksempler                                   |
+|---------------------|---------------------------|---------------------------------------------|
+| **Aktiv sikkerhet** | Forhindre ulykker         | ESP, ABS, adaptive cruisekontroll           |
+| **Passiv sikkerhet**| Beskytte ved kollisjon     | Airbags, sikkerhetsbelter, kollisjonssoner  |
+
+## Relaterte artikler
+
+* [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr - Oversikt over aktivt og passivt sikkerhetsutstyr")
+* [ABS (Antiblokkeringssystem)](/blogs/teori/abs-antiblokkeringssystem "ABS (Antiblokkeringssystem) - Prinsipper og fordeler")
+* [Styresystem](/blogs/teori/styresystem "Styresystem (servostyring, retningsstabilitet, dødgang, forstilling, lufttrykk, ESP m.m.)")
+* [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring")
+* [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold - Tilpasning til vær- og føreforhold")

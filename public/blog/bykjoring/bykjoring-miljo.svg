@@ -1,0 +1,204 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#81C784;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="electricGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E676;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00C853;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pollutionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7043;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D84315;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2C3E50">
+    Miljøvennlig bykjøring
+  </text>
+  
+  <!-- Eco-driving techniques section -->
+  <rect x="50" y="70" width="340" height="200" rx="10" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2"/>
+  <text x="220" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4CAF50">
+    Eco-driving teknikker
+  </text>
+  
+  <!-- Speed gauge -->
+  <path d="M100 140 A 30 30 0 0 1 160 140" stroke="#4CAF50" stroke-width="6" fill="none"/>
+  <path d="M100 140 A 30 30 0 0 1 130 115" stroke="#FF9800" stroke-width="3" fill="none"/>
+  <circle cx="130" cy="140" r="5" fill="#4CAF50"/>
+  <text x="130" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50">Jevn fart</text>
+  
+  <!-- Engine illustration -->
+  <rect x="200" y="115" width="40" height="30" rx="5" fill="#607D8B" stroke="#455A64" stroke-width="1"/>
+  <circle cx="220" cy="130" r="8" fill="#4CAF50"/>
+  <text x="220" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#FFF">ECO</text>
+  <text x="220" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">Motor av</text>
+  
+  <!-- Traffic light with idling -->
+  <rect x="280" y="110" width="15" height="40" rx="3" fill="#333"/>
+  <circle cx="287" cy="120" r="4" fill="#FF5722"/>
+  <circle cx="287" cy="130" r="4" fill="#424242"/>
+  <circle cx="287" cy="140" r="4" fill="#424242"/>
+  <text x="287" y="165 text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">Stopp &gt; 30s</text>
+  
+  <text x="70" y="185" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Jevn akselerasjon og konstant hastighet
+  </text>
+  <text x="70" y="205" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Slå av motoren ved stopp over 30 sekunder  
+  </text>
+  <text x="70" y="225" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Utnytt motorbremsing ned bakker
+  </text>
+  <text x="70" y="245" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Unngå unødvendig tomgang
+  </text>
+  
+  <!-- Environmental zones section -->
+  <rect x="410" y="70" width="340" height="200" rx="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+  <text x="580" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2196F3">
+    Miljøsoner og reguleringer
+  </text>
+  
+  <!-- Environmental zone sign -->
+  <circle cx="460" cy="130" r="25" fill="#4CAF50" stroke="#2E7D32" stroke-width="3"/>
+  <path d="M445 125 Q460 110 475 125 Q460 140 445 125" fill="url(#leafGradient)"/>
+  <text x="460" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50">Miljøsone</text>
+  
+  <!-- Electric car in zone -->
+  <rect x="520" y="120" width="40" height="20" rx="3" fill="url(#electricGradient)" stroke="#00C853" stroke-width="1"/>
+  <circle cx="540" cy="115" r="4" fill="#FFF"/>
+  <text x="540" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#00C853">⚡</text>
+  <text x="540" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#00C853">Lov</text>
+  
+  <!-- Restricted diesel car -->
+  <rect x="600" y="120" width="40" height="20" rx="3" fill="#757575" stroke="#424242" stroke-width="1"/>
+  <path d="M600 120 L640 140 M600 140 L640 120" stroke="#F44336" stroke-width="3"/>
+  <text x="620" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#F44336">Forbudt</text>
+  
+  <text x="430" y="185" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Lavutslippssoner - kun elbiler/EURO 6
+  </text>
+  <text x="430" y="205" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Dieselforbud i enkelte bysoner
+  </text>
+  <text x="430" y="225" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Elektriske biler får prioritering
+  </text>
+  <text x="430" y="245" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Gratis parkering for elbiler
+  </text>
+  
+  <!-- Emission comparison section -->
+  <rect x="50" y="290" width="700" height="180" rx="10" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+  <text x="400" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FF9800">
+    Utslippssammenligning i bykjøring
+  </text>
+  
+  <!-- Traditional car emissions -->
+  <rect x="80" y="340" width="40" height="20" rx="3" fill="#607D8B" stroke="#455A64" stroke-width="1"/>
+  <circle cx="85" cy="340" r="3" fill="#FF5722"/>
+  <circle cx="88" cy="337" r="4" fill="#FF7043" opacity="0.7"/>
+  <circle cx="92" cy="335" r="5" fill="#FF8A65" opacity="0.5"/>
+  <circle cx="97" cy="332" r="6" fill="#FFAB91" opacity="0.3"/>
+  <text x="100" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Bensin/Diesel</text>
+  <text x="100" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FF5722">150-200g CO₂/km</text>
+  
+  <!-- Hybrid car emissions -->
+  <rect x="200" y="340" width="40" height="20" rx="3" fill="#4CAF50" stroke="#388E3C" stroke-width="1"/>
+  <circle cx="205" cy="340" r="2" fill="#FF9800"/>
+  <circle cx="208" cy="338" r="3" fill="#FFC107" opacity="0.6"/>
+  <text x="220" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Hybrid</text>
+  <text x="220" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FF9800">80-120g CO₂/km</text>
+  
+  <!-- Electric car -->
+  <rect x="320" y="340" width="40" height="20" rx="3" fill="url(#electricGradient)" stroke="#00C853" stroke-width="1"/>
+  <circle cx="340" cy="335" r="4" fill="#FFF"/>
+  <text x="340" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#00C853">⚡</text>
+  <text x="340" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Elektrisk</text>
+  <text x="340" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00C853">0g CO₂/km*</text>
+  
+  <!-- Public transport -->
+  <rect x="440" y="340" width="50" height="25" rx="5" fill="#2196F3" stroke="#1565C0" stroke-width="1"/>
+  <text x="465" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFF">BUSS</text>
+  <circle cx="435" cy="340" r="1" fill="#81C784"/>
+  <text x="465" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Kollektivt</text>
+  <text x="465" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2196F3">20-50g CO₂/km</text>
+  
+  <!-- Bicycle -->
+  <circle cx="580" cy="350" r="12" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="580" cy="350" r="8" fill="none" stroke="#FFF" stroke-width="2"/>
+  <text x="580" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Sykkel</text>
+  <text x="580" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50">0g CO₂/km</text>
+  
+  <!-- Additional benefits -->
+  <rect x="600" y="340" width="80" height="50" rx="5" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="640" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#3F51B5">
+    Bonusfordeler
+  </text>
+  <text x="640" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    • Mindre støy
+  </text>
+  <text x="640" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    • Bedre luftkvalitet
+  </text>
+  
+  <!-- Practical tips -->
+  <text x="80" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FF9800">
+    Praktiske miljøtips for bykjøring:
+  </text>
+  <text x="80" y="440" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Kombiner flere ærender i samme tur for å redusere totale kjørelengde
+  </text>
+  <text x="80" y="455" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Vurder sykkel eller kollektivtrafikk for turer under 5 km
+  </text>
+  
+  <!-- Environmental impact section -->
+  <rect x="50" y="490" width="700" height="80" rx="10" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+  <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F44336">
+    Miljøpåvirkning av bykjøring
+  </text>
+  
+  <!-- City air quality -->
+  <ellipse cx="150" cy="540" rx="40" ry="20" fill="#FFCDD2" stroke="#F44336" stroke-width="1" opacity="0.7"/>
+  <text x="150" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#C62828">Luftforurensning</text>
+  
+  <!-- Noise pollution -->
+  <path d="M250 530 Q270 520 290 530 Q270 540 250 530" fill="#FFAB91" stroke="#FF5722" stroke-width="1"/>
+  <text x="270" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#D84315">Støyforurensning</text>
+  
+  <!-- Traffic congestion -->
+  <rect x="350" y="530" width="15" height="10" rx="2" fill="#FF7043"/>
+  <rect x="370" y="530" width="15" height="10" rx="2" fill="#FF7043"/>
+  <rect x="390" y="530" width="15" height="10" rx="2" fill="#FF7043"/>
+  <rect x="410" y="530" width="15" height="10" rx="2" fill="#FF7043"/>
+  <text x="380" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#D84315">Trafikkork</text>
+  
+  <!-- Solution arrow -->
+  <path d="M480 540 L520 540" stroke="#4CAF50" stroke-width="4" fill="none" marker-end="url(#greenArrow)"/>
+  <text x="500" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50">Løsning</text>
+  
+  <!-- Green solutions -->
+  <circle cx="580" cy="540" r="15" fill="url(#leafGradient)" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M570 535 Q580 525 590 535 Q580 545 570 535" fill="#FFF"/>
+  <text x="580" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#4CAF50">Grønn mobilitet</text>
+  
+  <!-- Green arrow marker -->
+  <defs>
+    <marker id="greenArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom note -->
+  <text x="80" y="565" font-family="Arial, sans-serif" font-size="10" fill="#666">
+    *Elektriske biler har null lokale utslipp, men utslipp ved strømproduksjon varierer
+  </text>
+</svg>

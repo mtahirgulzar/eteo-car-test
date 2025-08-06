@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  <!-- Fortau -->
+  <rect x="10" y="80" width="100" height="50" fill="#bbbbbb"/>
+  <text x="60" y="75" text-anchor="middle" font-size="12" fill="#333">Fortau</text>
+  <!-- Gang- og sykkelvei -->
+  <rect x="120" y="80" width="100" height="50" fill="#aaffaa"/>
+  <text x="170" y="75" text-anchor="middle" font-size="12" fill="#333">Gang- og sykkelvei</text>
+  <!-- Veiskulder -->
+  <rect x="230" y="80" width="50" height="50" fill="#dddddd"/>
+  <text x="255" y="75" text-anchor="middle" font-size="12" fill="#333">Veiskulder</text>
+  <!-- Kjørefelt -->
+  <rect x="285" y="80" width="100" height="50" fill="#eeeeee"/>
+  <text x="335" y="75" text-anchor="middle" font-size="12" fill="#333">Kjørefelt</text>
+  <!-- Midtdeler -->
+  <rect x="385" y="80" width="30" height="50" fill="#ffff99"/>
+  <text x="400" y="75" text-anchor="middle" font-size="12" fill="#333">Midtdeler</text>
+  <!-- Kjørefelt motsatt kjøreretning -->
+  <rect x="415" y="80" width="100" height="50" fill="#eeeeee"/>
+  <text x="465" y="75" text-anchor="middle" font-size="12" fill="#333">Kjørefelt</text>
+  <!-- Veiskulder -->
+  <rect x="515" y="80" width="50" height="50" fill="#dddddd"/>
+  <text x="540" y="75" text-anchor="middle" font-size="12" fill="#333">Veiskulder</text>
+  <!-- Gang- og sykkelvei -->
+  <rect x="565" y="80" width="100" height="50" fill="#aaffaa"/>
+  <text x="615" y="75" text-anchor="middle" font-size="12" fill="#333">Gang- og sykkelvei</text>
+  <!-- Fortau -->
+  <rect x="675" y="80" width="100" height="50" fill="#bbbbbb"/>
+  <text x="725" y="75" text-anchor="middle" font-size="12" fill="#333">Fortau</text>
+</svg>

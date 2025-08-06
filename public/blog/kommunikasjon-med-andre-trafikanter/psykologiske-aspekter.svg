@@ -1,0 +1,195 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9B59B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8E44AD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stressGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#C0392B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="calmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2980B9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#8E44AD">
+    Psykologiske aspekter ved trafikkommunikasjon
+  </text>
+  
+  <!-- Central brain illustration -->
+  <ellipse cx="400" cy="120" rx="60" ry="40" fill="url(#brainGrad)" stroke="#6C3483" stroke-width="2"/>
+  <path d="M 360 110 Q 380 90 400 110 Q 420 90 440 110" stroke="#F8C471" stroke-width="2" fill="none"/>
+  <path d="M 365 125 Q 385 140 405 125 Q 425 140 435 125" stroke="#F8C471" stroke-width="2" fill="none"/>
+  <text x="400" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">
+    KOMMUNIKASJON
+  </text>
+  
+  <!-- Stress response section -->
+  <text x="50" y="190" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E74C3C">
+    Stress og tidsnød påvirker kommunikasjon
+  </text>
+  
+  <!-- Stressed driver -->
+  <rect x="80" y="210" width="200" height="120" rx="5" fill="#FADBD8" stroke="#E74C3C" stroke-width="2"/>
+  <text x="90" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C0392B">
+    STRESSET SJÅFØR:
+  </text>
+  
+  <!-- Stressed face -->
+  <circle cx="130" cy="260" r="20" fill="#F4D03F" stroke="#F1C40F" stroke-width="2"/>
+  <line x1="125" y1="255" x2="135" y2="265" stroke="#E74C3C" stroke-width="2"/>
+  <line x1="135" y1="255" x2="125" y2="265" stroke="#E74C3C" stroke-width="2"/>
+  <path d="M 120 270 Q 130 275 140 270" stroke="#E74C3C" stroke-width="2" fill="none"/>
+  
+  <!-- Stress effects -->
+  <text x="160" y="245" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Redusert oppmerksomhet
+  </text>
+  <text x="160" y="260" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Flere signalfeil
+  </text>
+  <text x="160" y="275" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Aggressiv kjøring
+  </text>
+  <text x="160" y="290" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Misforståelser
+  </text>
+  
+  <!-- Stress indicators around brain -->
+  <path d="M 340 100 Q 330 90 340 80" stroke="#E74C3C" stroke-width="3" fill="none"/>
+  <path d="M 460 100 Q 470 90 460 80" stroke="#E74C3C" stroke-width="3" fill="none"/>
+  <path d="M 380 80 Q 370 70 380 60" stroke="#E74C3C" stroke-width="3" fill="none"/>
+  <path d="M 420 80 Q 430 70 420 60" stroke="#E74C3C" stroke-width="3" fill="none"/>
+  
+  <!-- Calm driver -->
+  <rect x="320" y="210" width="200" height="120" rx="5" fill="#D6EAF8" stroke="#3498DB" stroke-width="2"/>
+  <text x="330" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2980B9">
+    ROLIG SJÅFØR:
+  </text>
+  
+  <!-- Calm face -->
+  <circle cx="370" cy="260" r="20" fill="#F4D03F" stroke="#F1C40F" stroke-width="2"/>
+  <circle cx="365" cy="255" r="2" fill="#2C3E50"/>
+  <circle cx="375" cy="255" r="2" fill="#2C3E50"/>
+  <path d="M 360 265 Q 370 270 380 265" stroke="#27AE60" stroke-width="2" fill="none"/>
+  
+  <!-- Calm effects -->
+  <text x="400" y="245" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • God oppmerksomhet
+  </text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Tydelige signaler
+  </text>
+  <text x="400" y="275" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Defensiv kjøring
+  </text>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Gjensidig forståelse
+  </text>
+  
+  <!-- Cultural differences section -->
+  <rect x="550" y="210" width="200" height="120" rx="5" fill="#FEF9E7" stroke="#F39C12" stroke-width="2"/>
+  <text x="560" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#D68910">
+    KULTURELLE FORSKJELLER:
+  </text>
+  
+  <!-- Cultural symbols -->
+  <circle cx="590" cy="260" r="15" fill="#E8F8F5" stroke="#27AE60" stroke-width="2"/>
+  <text x="590" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#27AE60">
+    A
+  </text>
+  <circle cx="620" cy="260" r="15" fill="#FEF2F2" stroke="#E74C3C" stroke-width="2"/>
+  <text x="620" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#E74C3C">
+    B
+  </text>
+  <circle cx="650" cy="260" r="15" fill="#EBF5FB" stroke="#3498DB" stroke-width="2"/>
+  <text x="650" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#3498DB">
+    C
+  </text>
+  
+  <text x="560" y="285" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Ulike tolkninger
+  </text>
+  <text x="560" y="300" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Forskjellig høflighet
+  </text>
+  <text x="560" y="315" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Varierende reaktionstid
+  </text>
+  
+  <!-- Empathy section -->
+  <line x1="50" y1="350" x2="750" y2="350" stroke="#BDC3C7" stroke-width="1"/>
+  <text x="50" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27AE60">
+    Empati og forståelse forbedrer kommunikasjon
+  </text>
+  
+  <!-- Empathy illustration -->
+  <circle cx="150" cy="420" r="25" fill="#D5EDDA" stroke="#27AE60" stroke-width="2"/>
+  <!-- Heart -->
+  <path d="M 145 415 Q 140 410 135 415 Q 140 420 145 425 Q 150 420 155 415 Q 160 410 155 415 Q 150 420 145 425" fill="#E74C3C"/>
+  
+  <!-- Different road users -->
+  <rect x="200" y="405" width="30" height="20" rx="3" fill="#3498DB"/>
+  <text x="215" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">
+    Bil
+  </text>
+  
+  <circle cx="260" cy="415" r="10" fill="#F4D03F"/>
+  <rect x="255" y="420" width="10" height="15" fill="#E74C3C"/>
+  <text x="260" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">
+    Fotgjenger
+  </text>
+  
+  <ellipse cx="310" cy="415" rx="15" ry="8" fill="#27AE60"/>
+  <circle cx="305" cy="420" r="3" fill="#2C3E50"/>
+  <circle cx="315" cy="420" r="3" fill="#2C3E50"/>
+  <text x="310" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">
+    Syklist
+  </text>
+  
+  <!-- Empathy benefits -->
+  <rect x="370" y="390" width="200" height="80" rx="5" fill="#E8F5E8" stroke="#27AE60" stroke-width="1"/>
+  <text x="380" y="410" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27AE60">
+    Empati gir:
+  </text>
+  <text x="380" y="425" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Bedre forståelse for andre
+  </text>
+  <text x="380" y="440" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Tålmodighet med nye førere
+  </text>
+  <text x="380" y="455" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Respekt for sårbare trafikanter
+  </text>
+  
+  <!-- Tips box -->
+  <rect x="600" y="390" width="150" height="80" rx="5" fill="#FDF2E9" stroke="#E67E22" stroke-width="1"/>
+  <text x="610" y="410" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#D35400">
+    Praktiske tips:
+  </text>
+  <text x="610" y="425" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Ta pauser ved stress
+  </text>
+  <text x="610" y="440" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Øv på empati daglig
+  </text>
+  <text x="610" y="455" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Vær tålmodig
+  </text>
+  
+  <!-- Connection lines -->
+  <path d="M 330 120 Q 250 160 180 210" stroke="#9B59B6" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 400 160 Q 400 180 400 210" stroke="#9B59B6" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  <path d="M 470 120 Q 550 160 620 210" stroke="#9B59B6" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Bottom message -->
+  <text x="400" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8E44AD">
+    Forstå mennesket bak rattet - bedre kommunikasjon starter med empati
+  </text>
+</svg>

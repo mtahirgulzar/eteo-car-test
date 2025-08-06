@@ -1,0 +1,8 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="300" y="0" width="200" height="300" fill="#ddd"/>
+  <polygon points="200,140 260,150 200,160" fill="#333"/>
+  <polygon points="600,160 540,150 600,140" fill="#333"/>
+  <text x="230" y="135" font-family="Arial, sans-serif" font-size="16" fill="#000">Kjøretøy A</text>
+  <text x="560" y="175" font-family="Arial, sans-serif" font-size="16" fill="#000">Kjøretøy B</text>
+  <text x="400" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#000">Møteulykke-scenario</text>
+</svg>

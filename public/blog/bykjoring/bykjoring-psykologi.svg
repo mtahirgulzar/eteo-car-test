@@ -1,0 +1,122 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B68EE;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8E53;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2C3E50">
+    Psykologiske utfordringer i bykjøring
+  </text>
+  
+  <!-- Brain illustration -->
+  <ellipse cx="200" cy="150" rx="80" ry="60" fill="url(#brainGradient)" stroke="#2C3E50" stroke-width="2"/>
+  <path d="M160 130 Q180 110 200 130 Q220 110 240 130" stroke="#FFF" stroke-width="3" fill="none"/>
+  <path d="M170 160 Q190 140 210 160 Q230 140 250 160" stroke="#FFF" stroke-width="3" fill="none"/>
+  
+  <!-- Stress indicators around brain -->
+  <circle cx="120" cy="120" r="8" fill="url(#stressGradient)"/>
+  <circle cx="280" cy="120" r="8" fill="url(#stressGradient)"/>
+  <circle cx="120" cy="180" r="8" fill="url(#stressGradient)"/>
+  <circle cx="280" cy="180" r="8" fill="url(#stressGradient)"/>
+  
+  <!-- Information overload section -->
+  <rect x="50" y="250" width="300" height="120" rx="10" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="200" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1976D2">
+    Informasjonsoverbelastning
+  </text>
+  <text x="60" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Trafikklys, skilt, fotgjengere
+  </text>
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Syklister, biler, kollektivtrafikk
+  </text>
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • GPS, telefon, passasjerer
+  </text>
+  <text x="60" y="360" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Prioriter viktig informasjon
+  </text>
+  
+  <!-- Decision fatigue section -->
+  <rect x="400" y="250" width="300" height="120" rx="10" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+  <text x="550" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F57C00">
+    Beslutningsutmattelse
+  </text>
+  <text x="410" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Hundrevis av små beslutninger
+  </text>
+  <text x="410" y="320" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Mental energi reduseres
+  </text>
+  <text x="410" y="340" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Ta pauser ved lange turer
+  </text>
+  <text x="410" y="360" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Planlegg rute på forhånd
+  </text>
+  
+  <!-- Stress management section -->
+  <rect x="50" y="400" width="300" height="120" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="200" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7B1FA2">
+    Stressmestring
+  </text>
+  <text x="60" y="450" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Dype pustetek nikker
+  </text>
+  <text x="60" y="470" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Positiv selvtalk
+  </text>
+  <text x="60" y="490" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Aksepter at andre gjør feil
+  </text>
+  <text x="60" y="510" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Fokuser på egen kjøring
+  </text>
+  
+  <!-- Concentration section -->
+  <rect x="400" y="400" width="300" height="120" rx="10" fill="#E8F5E8" stroke="#388E3C" stroke-width="2"/>
+  <text x="550" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#388E3C">
+    Konsentrasjon
+  </text>
+  <text x="410" y="450" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Unngå mobilbruk helt
+  </text>
+  <text x="410" y="470" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Begrens samtaler
+  </text>
+  <text x="410" y="490" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • 360-graders oppmerksomhet
+  </text>
+  <text x="410" y="510" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Kontinuerlig scanning
+  </text>
+  
+  <!-- Connecting arrows -->
+  <path d="M200 210 L200 240" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M350 310 L400 310" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M200 370 L200 390" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M350 460 L400 460" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom tip -->
+  <rect x="150" y="550" width="500" height="40" rx="5" fill="#FFE0B2" stroke="#FF9800" stroke-width="1"/>
+  <text x="400" y="572" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E65100">
+    Mentale ferdigheter er like viktige som fysiske kjøreteknikker
+  </text>
+</svg>

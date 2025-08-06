@@ -1,0 +1,138 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Økonomiske og Praktiske Fordeler ved Defensiv Kjøring</text>
+  
+  <!-- Cost savings section -->
+  <rect x="50" y="60" width="700" height="200" fill="white" stroke="#27ae60" stroke-width="2" rx="10"/>
+  <text x="70" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">Årlige Kostnadsbesparelser</text>
+  
+  <!-- Fuel savings -->
+  <rect x="80" y="100" width="150" height="120" fill="#3498db" opacity="0.2" rx="8"/>
+  <text x="155" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">DRIVSTOFF</text>
+  
+  <!-- Fuel pump icon -->
+  <rect x="145" y="130" width="8" height="25" fill="#2c3e50"/>
+  <rect x="140" y="140" width="18" height="8" fill="#e74c3c"/>
+  <circle cx="149" cy="155" r="3" fill="#f1c40f"/>
+  
+  <text x="155" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Besparelse:</text>
+  <text x="155" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">15-25%</text>
+  <text x="155" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">3000-5000 kr/år</text>
+  
+  <!-- Maintenance savings -->
+  <rect x="250" y="100" width="150" height="120" fill="#f39c12" opacity="0.2" rx="8"/>
+  <text x="325" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">VEDLIKEHOLD</text>
+  
+  <!-- Wrench icon -->
+  <rect x="320" y="135" width="3" height="20" fill="#2c3e50" transform="rotate(45 321.5 145)"/>
+  <circle cx="318" cy="140" r="4" fill="#95a5a6"/>
+  <circle cx="328" cy="150" r="4" fill="#95a5a6"/>
+  
+  <text x="325" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Mindre slitasje:</text>
+  <text x="325" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">2000-4000 kr</text>
+  <text x="325" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Dekk, bremser, clutch</text>
+  
+  <!-- Insurance savings -->
+  <rect x="420" y="100" width="150" height="120" fill="#9b59b6" opacity="0.2" rx="8"/>
+  <text x="495" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">FORSIKRING</text>
+  
+  <!-- Shield icon -->
+  <path d="M 495 130 L 485 140 L 485 155 Q 485 160 495 160 Q 505 160 505 155 L 505 140 Z" fill="#2c3e50"/>
+  <text x="495" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">✓</text>
+  
+  <text x="495" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Rabatt:</text>
+  <text x="495" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">10-30%</text>
+  <text x="495" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Skadefri kjøring</text>
+  
+  <!-- Fines avoidance -->
+  <rect x="590" y="100" width="150" height="120" fill="#e74c3c" opacity="0.2" rx="8"/>
+  <text x="665" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">BØTER</text>
+  
+  <!-- Warning sign -->
+  <polygon points="665,135 655,150 675,150" fill="#e74c3c"/>
+  <text x="665" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">!</text>
+  
+  <text x="665" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Unngås:</text>
+  <text x="665" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">1000-8000 kr</text>
+  <text x="665" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Fart, mobile, parkering</text>
+  
+  <!-- Total savings -->
+  <rect x="220" y="230" width="360" height="40" fill="#27ae60" opacity="0.8" rx="8"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">TOTAL ÅRLIG BESPARELSE:</text>
+  <text x="400" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">6000 - 17000 KRONER</text>
+  
+  <!-- Time efficiency paradox -->
+  <rect x="50" y="280" width="350" height="200" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2" rx="10"/>
+  <text x="70" y="305" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Tidseffektivitet - Paradokset</text>
+  
+  <!-- Speed vs time graph -->
+  <rect x="80" y="320" width="300" height="120" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <!-- Axes -->
+  <line x1="100" y1="420" x2="360" y2="420" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="100" y1="420" x2="100" y2="340" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="230" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Kjørestil</text>
+  <text x="60" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" transform="rotate(-90, 60, 380)">Faktisk reisetid</text>
+  
+  <!-- Bars -->
+  <rect x="130" y="380" width="40" height="40" fill="#e74c3c" opacity="0.7"/>
+  <text x="150" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Aggressiv</text>
+  <text x="150" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">52 min</text>
+  
+  <rect x="200" y="370" width="40" height="50" fill="#27ae60" opacity="0.7"/>
+  <text x="220" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Defensiv</text>
+  <text x="220" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60">50 min</text>
+  
+  <rect x="270" y="390" width="40" height="30" fill="#3498db" opacity="0.7"/>
+  <text x="290" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Ekstremt</text>
+  <text x="290" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">defensiv</text>
+  <text x="290" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#3498db">55 min</text>
+  
+  <!-- Explanation -->
+  <text x="70" y="465" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Faktorer som påvirker reisetid:</text>
+  <text x="70" y="480" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Trafikklys og køer (størsti påvirkning) • Ulykker og forsinkelser • Bøter og politikontroller</text>
+  
+  <!-- Societal benefits -->
+  <rect x="420" y="280" width="330" height="200" fill="#d5dbdb" stroke="#95a5a6" stroke-width="2" rx="10"/>
+  <text x="440" y="305" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Samfunnsmessige Fordeler</text>
+  
+  <!-- Reduced accidents -->
+  <rect x="440" y="320" width="130" height="70" fill="#e74c3c" opacity="0.2" rx="8"/>
+  <text x="505" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">FÆRRE ULYKKER</text>
+  <text x="450" y="355" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Reduserte helsekostnader</text>
+  <text x="450" y="370" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Mindre produktivitetstap</text>
+  <text x="450" y="385" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Lavere forsikringspremier</text>
+  
+  <!-- Environmental benefits -->
+  <rect x="590" y="320" width="130" height="70" fill="#27ae60" opacity="0.2" rx="8"/>
+  <text x="655" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">MILJØGEVINST</text>
+  <text x="600" y="355" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Lavere CO2-utslipp</text>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Redusert drivstofforbruk</text>
+  <text x="600" y="385" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Mindre støy og partikler</text>
+  
+  <!-- Traffic flow improvement -->
+  <rect x="440" y="400" width="280" height="60" fill="#3498db" opacity="0.2" rx="8"/>
+  <text x="580" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">BEDRE TRAFIKKFLYT</text>
+  <text x="450" y="435" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Mindre køer og forsinkelser • Økt kapasitet på eksisterende veinett</text>
+  <text x="450" y="450" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Tryggere miljø for sårbare trafikanter • Redusert behov for veiutbygging</text>
+  
+  <!-- Bottom ROI calculation -->
+  <rect x="50" y="500" width="700" height="80" fill="#f39c12" opacity="0.1" stroke="#e67e22" stroke-width="2" rx="8"/>
+  <text x="70" y="525" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e67e22">Investeringsutregning (ROI)</text>
+  
+  <!-- Cost vs benefit -->
+  <text x="80" y="545" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Kostnad defensiv kjøring:</text>
+  <text x="240" y="545" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">Litt lengre reisetid (+5-10%)</text>
+  
+  <text x="80" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Gevinst:</text>
+  <text x="130" y="565" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">6000-17000 kr/år + økt sikkerhet + mindre stress + miljøgevinst</text>
+  
+  <!-- ROI conclusion -->
+  <rect x="500" y="540" width="220" height="30" fill="#27ae60" opacity="0.8" rx="5"/>
+  <text x="610" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">ROI: 500-1500% per år</text>
+</svg>

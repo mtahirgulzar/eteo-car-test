@@ -1,0 +1,209 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc3545;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c82333;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#stressGradient)"/>
+  <text x="400" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Miljøfaktorer som Forsterker Psykologiske Feller
+  </text>
+
+  <!-- Factor 1: Time Pressure -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="220" height="140" rx="10" fill="#fff" stroke="#dc3545" stroke-width="3" filter="url(#shadow)"/>
+    <text x="110" y="25" text-anchor="middle" fill="#dc3545" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      TIDSPRESS
+    </text>
+    
+    <!-- Clock illustration -->
+    <circle cx="110" cy="70" r="25" fill="#fff" stroke="#dc3545" stroke-width="2"/>
+    <line x1="110" y1="70" x2="110" y2="50" stroke="#dc3545" stroke-width="2"/>
+    <line x1="110" y1="70" x2="125" y2="70" stroke="#dc3545" stroke-width="2"/>
+    <text x="130" y="55" fill="#dc3545" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SEN!</text>
+    
+    <!-- Effects -->
+    <text x="15" y="110" fill="#333" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Konsekvenser:</text>
+    <text x="15" y="125" fill="#666" font-family="Arial, sans-serif" font-size="10">• Økt hastighet og risikoadferd</text>
+  </g>
+
+  <!-- Factor 2: Fatigue -->
+  <g transform="translate(290, 100)">
+    <rect x="0" y="0" width="220" height="140" rx="10" fill="#fff" stroke="#ffc107" stroke-width="3" filter="url(#shadow)"/>
+    <text x="110" y="25" text-anchor="middle" fill="#f57c00" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      TRETTHET
+    </text>
+    
+    <!-- Tired driver illustration -->
+    <circle cx="110" cy="65" r="15" fill="#ffcc5c" stroke="#333" stroke-width="1"/>
+    <circle cx="105" cy="62" r="1" fill="#333"/>
+    <circle cx="115" cy="62" r="1" fill="#333"/>
+    <path d="M 102 70 Q 110 73 118 70" stroke="#333" stroke-width="1" fill="none"/>
+    <!-- Droopy eyes -->
+    <path d="M 102 58 Q 108 60 110 58" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M 110 58 Q 112 60 118 58" stroke="#333" stroke-width="2" fill="none"/>
+    
+    <!-- Zzz -->
+    <text x="130" y="55" fill="#f57c00" font-family="Arial, sans-serif" font-size="14">Zzz</text>
+    
+    <!-- Effects -->
+    <text x="15" y="110" fill="#333" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Konsekvenser:</text>
+    <text x="15" y="125" fill="#666" font-family="Arial, sans-serif" font-size="10">• Redusert dømmekraft og oppmerksomhet</text>
+  </g>
+
+  <!-- Factor 3: Emotional States -->
+  <g transform="translate(530, 100)">
+    <rect x="0" y="0" width="220" height="140" rx="10" fill="#fff" stroke="#e74c3c" stroke-width="3" filter="url(#shadow)"/>
+    <text x="110" y="25" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      EMOSJONELLE TILSTANDER
+    </text>
+    
+    <!-- Emotional faces -->
+    <!-- Angry -->
+    <circle cx="80" cy="60" r="12" fill="#ffcc5c" stroke="#333" stroke-width="1"/>
+    <circle cx="76" cy="57" r="1" fill="#333"/>
+    <circle cx="84" cy="57" r="1" fill="#333"/>
+    <path d="M 74 65 Q 80 62 86 65" stroke="#333" stroke-width="1" fill="none"/>
+    <path d="M 73 54 L 77 56" stroke="#e74c3c" stroke-width="2"/>
+    <path d="M 83 56 L 87 54" stroke="#e74c3c" stroke-width="2"/>
+    <text x="80" y="80" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">Sinne</text>
+    
+    <!-- Anxious -->
+    <circle cx="140" cy="60" r="12" fill="#ffcc5c" stroke="#333" stroke-width="1"/>
+    <circle cx="136" cy="57" r="1" fill="#333"/>
+    <circle cx="144" cy="57" r="1" fill="#333"/>
+    <path d="M 134 65 Q 140 68 146 65" stroke="#333" stroke-width="1" fill="none"/>
+    <text x="140" y="80" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="8">Angst</text>
+    
+    <!-- Effects -->
+    <text x="15" y="110" fill="#333" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Konsekvenser:</text>
+    <text x="15" y="125" fill="#666" font-family="Arial, sans-serif" font-size="10">• Irrasjonelle beslutninger og aggressivitet</text>
+  </g>
+
+  <!-- Interaction diagram -->
+  <g transform="translate(50, 270)">
+    <rect x="0" y="0" width="700" height="200" rx="10" fill="#e9ecef" stroke="#6c757d" stroke-width="2" filter="url(#shadow)"/>
+    <text x="350" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Hvordan Miljøfaktorer Forsterker Psykologiske Feller
+    </text>
+    
+    <!-- Central brain -->
+    <circle cx="350" cy="100" r="30" fill="#6c757d" opacity="0.7"/>
+    <text x="350" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      HJERNEN
+    </text>
+    
+    <!-- Environmental factors around brain -->
+    <!-- Time pressure -->
+    <rect x="80" y="60" width="80" height="30" rx="5" fill="#dc3545" opacity="0.8"/>
+    <text x="120" y="78" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      TIDSPRESS
+    </text>
+    <path d="M 160 75 Q 250 75 320 85" stroke="#dc3545" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Fatigue -->
+    <rect x="80" y="110" width="80" height="30" rx="5" fill="#ffc107" opacity="0.8"/>
+    <text x="120" y="128" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      TRETTHET
+    </text>
+    <path d="M 160 125 Q 200 115 320 105" stroke="#ffc107" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Stress -->
+    <rect x="540" y="60" width="80" height="30" rx="5" fill="#e74c3c" opacity="0.8"/>
+    <text x="580" y="78" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      STRESS
+    </text>
+    <path d="M 540 75 Q 450 75 380 85" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Distractions -->
+    <rect x="540" y="110" width="80" height="30" rx="5" fill="#6f42c1" opacity="0.8"/>
+    <text x="580" y="128" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      DISTRAKSJONER
+    </text>
+    <path d="M 540 125 Q 500 115 380 105" stroke="#6f42c1" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Results -->
+    <text x="350" y="160" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+      RESULTATER:
+    </text>
+    <text x="150" y="180" text-anchor="middle" fill="#dc3545" font-family="Arial, sans-serif" font-size="11">
+      • Mer impulsive beslutninger
+    </text>
+    <text x="350" y="180" text-anchor="middle" fill="#dc3545" font-family="Arial, sans-serif" font-size="11">
+      • Økt følsomhet for gruppepress
+    </text>
+    <text x="550" y="180" text-anchor="middle" fill="#dc3545" font-family="Arial, sans-serif" font-size="11">
+      • Redusert risikovurdering
+    </text>
+  </g>
+
+  <!-- Solutions section -->
+  <g transform="translate(50, 490)">
+    <rect x="0" y="0" width="700" height="100" rx="10" fill="#d4edda" stroke="#155724" stroke-width="2"/>
+    <text x="350" y="25" text-anchor="middle" fill="#155724" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      🛡️ Strategier for å Håndtere Miljøfaktorer
+    </text>
+    
+    <!-- Solutions in columns -->
+    <g transform="translate(20, 35)">
+      <text x="0" y="15" fill="#155724" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+        TIDSPRESS:
+      </text>
+      <text x="0" y="30" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Planlegg ekstra tid for reisen
+      </text>
+      <text x="0" y="43" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Start tidligere, ikke kjør fortere
+      </text>
+      <text x="0" y="56" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Aksepter at du kan komme for sent
+      </text>
+    </g>
+    
+    <g transform="translate(250, 35)">
+      <text x="0" y="15" fill="#155724" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+        TRETTHET:
+      </text>
+      <text x="0" y="30" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Ta pauser hver 2. time
+      </text>
+      <text x="0" y="43" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Power nap (15-20 min)
+      </text>
+      <text x="0" y="56" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Vurder alternativ transport
+      </text>
+    </g>
+    
+    <g transform="translate(450, 35)">
+      <text x="0" y="15" fill="#155724" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+        EMOSJONELLE TILSTANDER:
+      </text>
+      <text x="0" y="30" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Pustøvelser før kjøring
+      </text>
+      <text x="0" y="43" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Vent til du er roligere
+      </text>
+      <text x="0" y="56" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        • Bevisst på egne reaksjoner
+      </text>
+    </g>
+  </g>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>

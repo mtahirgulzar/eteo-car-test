@@ -1,0 +1,181 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">Kjetting - Regler og Monteringsprosess</text>
+  
+  <!-- When required section -->
+  <g id="whenRequired">
+    <rect x="50" y="60" width="300" height="120" fill="#E74C3C" opacity="0.1" rx="10"/>
+    <text x="200" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E74C3C">Når er kjetting påkrevd?</text>
+    
+    <!-- Traffic sign -->
+    <rect x="80" y="90" width="60" height="40" fill="#E74C3C" rx="5"/>
+    <text x="110" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">KJETTING</text>
+    <text x="110" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">PÅKREVD</text>
+    <text x="110" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">1 NOV-30 APR</text>
+    
+    <!-- Conditions list -->
+    <text x="160" y="100" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Veimerking krever det</text>
+    <text x="160" y="115" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Politi/trafikkregulator</text>
+    <text x="160" y="130" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Umulig fremkommelighet</text>
+    <text x="160" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Spesielle strekninger</text>
+    
+    <!-- Speed limit -->
+    <circle cx="290" cy="140" r="25" fill="#3498DB"/>
+    <circle cx="290" cy="140" r="20" fill="white"/>
+    <text x="290" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50" font-weight="bold">50</text>
+    <text x="290" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">km/t</text>
+    <text x="290" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Maks hastighet</text>
+  </g>
+  
+  <!-- Chain types section -->
+  <g id="chainTypes">
+    <rect x="400" y="60" width="350" height="120" fill="#27AE60" opacity="0.1" rx="10"/>
+    <text x="575" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27AE60">Kjettingtyper</text>
+    
+    <!-- Traditional chains -->
+    <g transform="translate(430, 100)">
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#34495E" stroke-width="2"/>
+      <circle cx="-5" cy="-5" r="2" fill="#34495E"/>
+      <circle cx="5" cy="-5" r="2" fill="#34495E"/>
+      <circle cx="5" cy="5" r="2" fill="#34495E"/>
+      <circle cx="-5" cy="5" r="2" fill="#34495E"/>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50" font-weight="bold">Stål</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#7F8C8D">Maksimal grip</text>
+    </g>
+    
+    <!-- Textile chains -->
+    <g transform="translate(500, 100)">
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#9B59B6" stroke-width="2"/>
+      <rect x="-8" y="-2" width="16" height="4" fill="#9B59B6" rx="2"/>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50" font-weight="bold">Tekstil</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#7F8C8D">Stille, lett</text>
+    </g>
+    
+    <!-- Plastic chains -->
+    <g transform="translate(570, 100)">
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#F39C12" stroke-width="2"/>
+      <rect x="-6" y="-3" width="12" height="6" fill="#F39C12" rx="3"/>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50" font-weight="bold">Plast</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#7F8C8D">Rask montering</text>
+    </g>
+    
+    <!-- Automatic chains -->
+    <g transform="translate(640, 100)">
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#E74C3C" stroke-width="2"/>
+      <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="#E74C3C" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3" fill="#E74C3C"/>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50" font-weight="bold">Auto</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#7F8C8D">Kommersiell</text>
+    </g>
+  </g>
+  
+  <!-- Mounting process -->
+  <g id="mountingProcess">
+    <text x="400" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Monteringsprosess - Steg for steg</text>
+    
+    <!-- Step 1 -->
+    <g transform="translate(100, 250)">
+      <circle cx="0" cy="0" r="20" fill="#3498DB"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">1</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" font-weight="bold">Forberedelse</text>
+      
+      <!-- Safety triangle -->
+      <polygon points="0,50 -15,80 15,80" fill="#E74C3C"/>
+      <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">!</text>
+      
+      <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Trygt sted</text>
+      <text x="0" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Varselblinking</text>
+      <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Advarselstrekant</text>
+    </g>
+    
+    <!-- Step 2 -->
+    <g transform="translate(250, 250)">
+      <circle cx="0" cy="0" r="20" fill="#3498DB"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">2</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" font-weight="bold">Posisjonering</text>
+      
+      <!-- Tire with chain -->
+      <circle cx="0" cy="65" r="25" fill="#2C3E50"/>
+      <circle cx="0" cy="65" r="20" fill="#34495E"/>
+      <circle cx="0" cy="65" r="15" fill="#7F8C8D"/>
+      <circle cx="-8" cy="60" r="2" fill="#FFD700"/>
+      <circle cx="8" cy="60" r="2" fill="#FFD700"/>
+      <circle cx="8" cy="70" r="2" fill="#FFD700"/>
+      <circle cx="-8" cy="70" r="2" fill="#FFD700"/>
+      
+      <text x="0" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Legg kjetting</text>
+      <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">over dekket</text>
+    </g>
+    
+    <!-- Step 3 -->
+    <g transform="translate(400, 250)">
+      <circle cx="0" cy="0" r="20" fill="#3498DB"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">3</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" font-weight="bold">Festing</text>
+      
+      <!-- Fastening mechanism -->
+      <rect x="-15" y="50" width="30" height="30" fill="#34495E" rx="5"/>
+      <circle cx="0" cy="65" r="8" fill="#E74C3C"/>
+      <rect x="-2" y="55" width="4" height="20" fill="#E74C3C"/>
+      
+      <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Fest kjetting</text>
+      <text x="0" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">på innsiden</text>
+      <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">av dekket</text>
+    </g>
+    
+    <!-- Step 4 -->
+    <g transform="translate(550, 250)">
+      <circle cx="0" cy="0" r="20" fill="#3498DB"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">4</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" font-weight="bold">Kjør frem</text>
+      
+      <!-- Car moving -->
+      <rect x="-20" y="55" width="40" height="15" fill="#95A5A6" rx="5"/>
+      <circle cx="-10" cy="75" r="5" fill="#2C3E50"/>
+      <circle cx="10" cy="75" r="5" fill="#2C3E50"/>
+      
+      <!-- Arrow -->
+      <line x1="30" y1="65" x2="50" y2="65" stroke="#27AE60" stroke-width="2" marker-end="url(#greenArrow)"/>
+      
+      <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Kjør 50-100m</text>
+      <text x="0" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">for å sentrere</text>
+      <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">kjettingen</text>
+    </g>
+    
+    <!-- Step 5 -->
+    <g transform="translate(700, 250)">
+      <circle cx="0" cy="0" r="20" fill="#3498DB"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">5</text>
+      <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" font-weight="bold">Stramming</text>
+      
+      <!-- Tightening tool -->
+      <rect x="-5" y="50" width="10" height="30" fill="#F39C12"/>
+      <circle cx="0" cy="40" r="5" fill="#E67E22"/>
+      
+      <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Stram kjetting</text>
+      <text x="0" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">etter kort</text>
+      <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">kjørestrekk</text>
+    </g>
+  </g>
+  
+  <!-- Important notes -->
+  <rect x="50" y="380" width="700" height="90" fill="#F39C12" opacity="0.2" rx="10"/>
+  <text x="400" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#D68910">Viktige sikkerhetstips</text>
+  
+  <g font-family="Arial, sans-serif" font-size="10" fill="#8B6914">
+    <text x="70" y="420">• Øv på montering hjemme i trygge omgivelser før du trenger det</text>
+    <text x="70" y="435">• Ha alltid hansker og lommelykt tilgjengelig i bilen</text>
+    <text x="70" y="450">• Kjettinger monteres på drivhjulene (forhjul på forhjulsdrift)</text>
+    <text x="70" y="465">• Fjern kjetting så snort som mulig når forholdene tillater det</text>
+  </g>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="greenArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27AE60"/>
+    </marker>
+  </defs>
+</svg>

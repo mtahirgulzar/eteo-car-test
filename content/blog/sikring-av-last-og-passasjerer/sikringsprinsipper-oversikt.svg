@@ -1,0 +1,80 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Grunnleggende sikringsprinsipper
+  </text>
+  
+  <!-- Principle 1: Weight Distribution -->
+  <g transform="translate(100, 80)">
+    <rect x="0" y="0" width="150" height="100" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">1. Vektfordeling</text>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Tunge gjenstander</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">nederst og bak</text>
+    
+    <!-- Heavy box at bottom -->
+    <rect x="20" y="70" width="30" height="20" fill="#e74c3c"/>
+    <text x="35" y="83" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Tungt</text>
+    
+    <!-- Light box at top -->
+    <rect x="100" y="45" width="25" height="15" fill="#f39c12"/>
+    <text x="113" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Lett</text>
+  </g>
+  
+  <!-- Principle 2: Fastening Methods -->
+  <g transform="translate(350, 80)">
+    <rect x="0" y="0" width="150" height="100" fill="#27ae60" stroke="#229954" stroke-width="2"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">2. Festemetoder</text>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Stropper, nett</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">og sikringsponkter</text>
+    
+    <!-- Strap illustration -->
+    <path d="M20 70 Q75 60 130 70" stroke="#f1c40f" stroke-width="3" fill="none"/>
+    <circle cx="20" cy="70" r="3" fill="#e74c3c"/>
+    <circle cx="130" cy="70" r="3" fill="#e74c3c"/>
+  </g>
+  
+  <!-- Principle 3: Force Distribution -->
+  <g transform="translate(100, 220)">
+    <rect x="0" y="0" width="150" height="100" fill="#8e44ad" stroke="#7d3c98" stroke-width="2"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3. Kraftveier</text>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Jevn fordeling</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">av krefter</text>
+    
+    <!-- Force arrows -->
+    <path d="M75 65 L55 75" stroke="#f1c40f" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M75 65 L95 75" stroke="#f1c40f" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M75 65 L75 85" stroke="#f1c40f" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Principle 4: Control -->
+  <g transform="translate(350, 220)">
+    <rect x="0" y="0" width="150" height="100" fill="#e67e22" stroke="#d68910" stroke-width="2"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">4. Kontroll</text>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Regelmessig</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">inspeksjon</text>
+    
+    <!-- Check mark -->
+    <path d="M60 75 L70 85 L90 65" stroke="#2ecc71" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Bottom explanation -->
+  <g transform="translate(50, 360)">
+    <text x="350" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Følg alle fire prinsipper for optimal sikring
+    </text>
+    <text x="350" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">
+      Korrekt implementering reduserer risiko for skader og følger norsk lovverk
+    </text>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f1c40f"/>
+    </marker>
+  </defs>
+</svg>

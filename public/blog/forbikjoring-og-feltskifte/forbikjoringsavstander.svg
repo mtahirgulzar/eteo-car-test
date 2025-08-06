@@ -1,0 +1,152 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2d3748">
+    Forbikjøringsavstander ved forskjellige hastigheter
+  </text>
+  
+  <!-- Road surface -->
+  <rect x="50" y="150" width="700" height="60" fill="#4a5568"/>
+  <rect x="50" y="145" width="700" height="3" fill="#ffd700"/>
+  <rect x="50" y="213" width="700" height="3" fill="#ffd700"/>
+  
+  <!-- Center line (dashed) -->
+  <g fill="#ffd700">
+    <rect x="70" y="177" width="20" height="3"/>
+    <rect x="110" y="177" width="20" height="3"/>
+    <rect x="150" y="177" width="20" height="3"/>
+    <rect x="190" y="177" width="20" height="3"/>
+    <rect x="230" y="177" width="20" height="3"/>
+    <rect x="270" y="177" width="20" height="3"/>
+    <rect x="310" y="177" width="20" height="3"/>
+    <rect x="350" y="177" width="20" height="3"/>
+    <rect x="390" y="177" width="20" height="3"/>
+    <rect x="430" y="177" width="20" height="3"/>
+    <rect x="470" y="177" width="20" height="3"/>
+    <rect x="510" y="177" width="20" height="3"/>
+    <rect x="550" y="177" width="20" height="3"/>
+    <rect x="590" y="177" width="20" height="3"/>
+    <rect x="630" y="177" width="20" height="3"/>
+    <rect x="670" y="177" width="20" height="3"/>
+    <rect x="710" y="177" width="20" height="3"/>
+  </g>
+  
+  <!-- Scenario 1: 50→70 km/h -->
+  <g transform="translate(0, 0)">
+    <!-- Overtaking car -->
+    <rect x="80" y="158" width="35" height="15" rx="3" fill="#e53e3e"/>
+    <circle cx="87" cy="180" r="3" fill="#2d3748"/>
+    <circle cx="108" cy="180" r="3" fill="#2d3748"/>
+    
+    <!-- Slower car -->
+    <rect x="120" y="185" width="35" height="15" rx="3" fill="#4299e1"/>
+    <circle cx="127" cy="207" r="3" fill="#2d3748"/>
+    <circle cx="148" cy="207" r="3" fill="#2d3748"/>
+    
+    <!-- Oncoming car -->
+    <rect x="380" y="158" width="30" height="12" rx="2" fill="#38a169"/>
+    <circle cx="385" cy="175" r="3" fill="#2d3748"/>
+    <circle cx="405" cy="175" r="3" fill="#2d3748"/>
+    
+    <!-- Distance arrow -->
+    <g stroke="#2b6cb0" stroke-width="2" fill="#2b6cb0">
+      <path d="M 120 130 L 380 130" stroke-dasharray="3,3"/>
+      <polygon points="380,127 390,130 380,133" fill="#2b6cb0"/>
+      <polygon points="130,127 120,130 130,133" fill="#2b6cb0"/>
+      <text x="250" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">300 meter</text>
+    </g>
+    
+    <!-- Speed labels -->
+    <text x="97" y="240" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#e53e3e" font-weight="bold">70 km/t</text>
+    <text x="137" y="240" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#4299e1" font-weight="bold">50 km/t</text>
+    <text x="395" y="240" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#38a169" font-weight="bold">70 km/t</text>
+    
+    <!-- Scenario label -->
+    <text x="200" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2d3748" font-weight="bold">Forbikjøring av sykkel/traktor</text>
+  </g>
+  
+  <!-- Scenario 2: 70→90 km/h -->
+  <g transform="translate(450, 0)">
+    <!-- Overtaking car -->
+    <rect x="80" y="158" width="35" height="15" rx="3" fill="#e53e3e"/>
+    <circle cx="87" cy="180" r="3" fill="#2d3748"/>
+    <circle cx="108" cy="180" r="3" fill="#2d3748"/>
+    
+    <!-- Slower car -->
+    <rect x="120" y="185" width="40" height="15" rx="3" fill="#4299e1"/>
+    <circle cx="127" cy="207" r="3" fill="#2d3748"/>
+    <circle cx="153" cy="207" r="3" fill="#2d3748"/>
+    
+    <!-- Oncoming car -->
+    <rect x="280" y="158" width="30" height="12" rx="2" fill="#38a169"/>
+    <circle cx="285" cy="175" r="3" fill="#2d3748"/>
+    <circle cx="305" cy="175" r="3" fill="#2d3748"/>
+    
+    <!-- Distance arrow -->
+    <g stroke="#2b6cb0" stroke-width="2" fill="#2b6cb0">
+      <path d="M 120 130 L 280 130" stroke-dasharray="3,3"/>
+      <polygon points="280,127 290,130 280,133" fill="#2b6cb0"/>
+      <polygon points="130,127 120,130 130,133" fill="#2b6cb0"/>
+      <text x="200" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">500 meter</text>
+    </g>
+    
+    <!-- Speed labels -->
+    <text x="97" y="240" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#e53e3e" font-weight="bold">90 km/t</text>
+    <text x="140" y="240" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#4299e1" font-weight="bold">70 km/t</text>
+    <text x="295" y="240" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#38a169" font-weight="bold">90 km/t</text>
+    
+    <!-- Scenario label -->
+    <text x="200" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2d3748" font-weight="bold">Forbikjøring av lastebil</text>
+  </g>
+  
+  <!-- Distance calculation table -->
+  <g transform="translate(50, 300)">
+    <rect x="0" y="0" width="700" height="80" rx="5" fill="#ffffff" stroke="#2b6cb0" stroke-width="2"/>
+    
+    <text x="350" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2b6cb0">
+      Minimum sikker forbikjøringsavstand
+    </text>
+    
+    <!-- Table headers -->
+    <g font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2d3748">
+      <text x="100" y="40" text-anchor="middle">Situasjon</text>
+      <text x="250" y="40" text-anchor="middle">Hastigheter</text>
+      <text x="400" y="40" text-anchor="middle">Min. fristrekning</text>
+      <text x="550" y="40" text-anchor="middle">Eksempel</text>
+    </g>
+    
+    <!-- Table rows -->
+    <g font-family="Arial, sans-serif" font-size="10" fill="#2d3748">
+      <text x="100" y="55" text-anchor="middle">Sykkel/moped</text>
+      <text x="250" y="55" text-anchor="middle">50 → 70 km/t</text>
+      <text x="400" y="55" text-anchor="middle" fill="#38a169" font-weight="bold">300 meter</text>
+      <text x="550" y="55" text-anchor="middle">Byveier</text>
+      
+      <text x="100" y="68" text-anchor="middle">Personbil</text>
+      <text x="250" y="68" text-anchor="middle">60 → 80 km/t</text>
+      <text x="400" y="68" text-anchor="middle" fill="#dd6b20" font-weight="bold">400 meter</text>
+      <text x="550" y="68" text-anchor="middle">Landeveier</text>
+    </g>
+  </g>
+  
+  <!-- Factors affecting distance -->
+  <g transform="translate(450, 300)">
+    <rect x="0" y="0" width="300" height="80" rx="5" fill="#fef5e7" stroke="#dd6b20" stroke-width="2"/>
+    
+    <text x="150" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#dd6b20">
+      Faktorer som øker nødvendig avstand
+    </text>
+    
+    <g font-family="Arial, sans-serif" font-size="10" fill="#2d3748">
+      <text x="20" y="40">• Dårlig akselerasjon på egen bil</text>
+      <text x="20" y="52">• Tungt/langt kjøretøy som forbikjøres</text>
+      <text x="20" y="64">• Våte eller glatte veier</text>
+      
+      <text x="160" y="40">• Motvind eller slippstrøm</text>
+      <text x="160" y="52">• Flere kjøretøy å forbikjøre</text>
+      <text x="160" y="64">• Redusert sikt (tåke, regn)</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,167 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D3D3D3;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#C0C0C0;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#A9A9A9;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="lightGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background with fog -->
+  <rect width="800" height="400" fill="url(#fogGrad)"/>
+  
+  <!-- Fog clouds -->
+  <g opacity="0.6" fill="#E0E0E0">
+    <ellipse cx="100" cy="50" rx="60" ry="30"/>
+    <ellipse cx="200" cy="30" rx="80" ry="40"/>
+    <ellipse cx="350" cy="60" rx="70" ry="35"/>
+    <ellipse cx="500" cy="40" rx="90" ry="45"/>
+    <ellipse cx="650" cy="70" rx="65" ry="32"/>
+    <ellipse cx="750" cy="35" rx="55" ry="28"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2C3E50">Tåkekjøring - Sikt og Hastighetstilapasning</text>
+  
+  <!-- Visibility zones -->
+  <rect x="50" y="80" width="150" height="80" fill="rgba(255,255,255,0.95)" stroke="#28A745" stroke-width="2" rx="8"/>
+  <text x="125" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28A745">&gt; 200m SIKT</text>
+  <text x="125" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Normal hastighet</text>
+  <text x="125" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">med forsiktighet</text>
+  <text x="125" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#28A745">Nærlys</text>
+  
+  <rect x="225" y="80" width="150" height="80" fill="rgba(255,255,255,0.95)" stroke="#FFC107" stroke-width="2" rx="8"/>
+  <text x="300" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#F39C12">50-200m SIKT</text>
+  <text x="300" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">50-60 km/t</text>
+  <text x="300" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Øk avstand</text>
+  <text x="300" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#F39C12">Nærlys + Tåkelys</text>
+  
+  <rect x="400" y="80" width="150" height="80" fill="rgba(255,255,255,0.95)" stroke="#E74C3C" stroke-width="2" rx="8"/>
+  <text x="475" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E74C3C">20-50m SIKT</text>
+  <text x="475" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">30-40 km/t</text>
+  <text x="475" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Følg veikant</text>
+  <text x="475" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E74C3C">Kun Tåkelys</text>
+  
+  <rect x="575" y="80" width="150" height="80" fill="rgba(255,255,255,0.95)" stroke="#DC3545" stroke-width="2" rx="8"/>
+  <text x="650" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#DC3545">&lt; 20m SIKT</text>
+  <text x="650" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">&lt; 20 km/t</text>
+  <text x="650" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">eller STOPP</text>
+  <text x="650" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#DC3545">Tåkelys + Blinklys</text>
+  
+  <!-- Road with visibility demonstration -->
+  <rect x="0" y="180" width="800" height="120" fill="#4A4A4A"/>
+  
+  <!-- Lane markings with decreasing visibility -->
+  <rect x="0" y="235" width="800" height="4" fill="white"/>
+  
+  <!-- Visibility zones on road -->
+  <g opacity="0.8">
+    <!-- Clear zone -->
+    <rect x="0" y="180" width="200" height="120" fill="rgba(144,238,144,0.3)"/>
+    
+    <!-- Light fog zone -->
+    <rect x="200" y="180" width="150" height="120" fill="rgba(255,255,0,0.3)"/>
+    
+    <!-- Moderate fog zone -->
+    <rect x="350" y="180" width="150" height="120" fill="rgba(255,165,0,0.4)"/>
+    
+    <!-- Dense fog zone -->
+    <rect x="500" y="180" width="300" height="120" fill="rgba(255,0,0,0.5)"/>
+  </g>
+  
+  <!-- Cars in different visibility zones -->
+  <!-- Car in clear zone -->
+  <g transform="translate(80,220)">
+    <rect x="0" y="0" width="40" height="20" fill="#28A745" rx="3"/>
+    <rect x="5" y="4" width="8" height="6" fill="#87CEEB" opacity="0.8"/>
+    <rect x="14" y="4" width="8" height="6" fill="#87CEEB" opacity="0.8"/>
+    <rect x="23" y="4" width="8" height="6" fill="#87CEEB" opacity="0.8"/>
+    <circle cx="10" cy="25" r="4" fill="#2C2C2C"/>
+    <circle cx="30" cy="25" r="4" fill="#2C2C2C"/>
+    
+    <!-- Normal headlight beam -->
+    <ellipse cx="42" cy="10" rx="25" ry="8" fill="url(#lightGrad)"/>
+  </g>
+  
+  <!-- Car in light fog -->
+  <g transform="translate(250,220)">
+    <rect x="0" y="0" width="40" height="20" fill="#FFC107" rx="3"/>
+    <rect x="5" y="4" width="8" height="6" fill="#87CEEB" opacity="0.6"/>
+    <rect x="14" y="4" width="8" height="6" fill="#87CEEB" opacity="0.6"/>
+    <rect x="23" y="4" width="8" height="6" fill="#87CEEB" opacity="0.6"/>
+    <circle cx="10" cy="25" r="4" fill="#2C2C2C"/>
+    <circle cx="30" cy="25" r="4" fill="#2C2C2C"/>
+    
+    <!-- Reduced headlight beam -->
+    <ellipse cx="42" cy="10" rx="18" ry="6" fill="url(#lightGrad)" opacity="0.7"/>
+  </g>
+  
+  <!-- Car in dense fog -->
+  <g transform="translate(520,220)">
+    <rect x="0" y="0" width="40" height="20" fill="#E74C3C" rx="3"/>
+    <rect x="5" y="4" width="8" height="6" fill="#87CEEB" opacity="0.3"/>
+    <rect x="14" y="4" width="8" height="6" fill="#87CEEB" opacity="0.3"/>
+    <rect x="23" y="4" width="8" height="6" fill="#87CEEB" opacity="0.3"/>
+    <circle cx="10" cy="25" r="4" fill="#2C2C2C"/>
+    <circle cx="30" cy="25" r="4" fill="#2C2C2C"/>
+    
+    <!-- Very limited beam -->
+    <ellipse cx="42" cy="10" rx="8" ry="4" fill="url(#lightGrad)" opacity="0.4"/>
+    
+    <!-- Fog lights -->
+    <ellipse cx="42" cy="18" rx="12" ry="3" fill="#FFA500" opacity="0.6"/>
+  </g>
+  
+  <!-- Navigation techniques -->
+  <rect x="50" y="320" width="700" height="60" fill="rgba(255,255,255,0.95)" stroke="#17A2B8" stroke-width="2" rx="8"/>
+  <text x="400" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#17A2B8">NAVIGASJONSTEKNIKKER I TÅKE</text>
+  
+  <g transform="translate(80,350)">
+    <circle cx="0" cy="0" r="8" fill="#28A745"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">1</text>
+    <text x="15" y="4" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Følg høyre veikant</text>
+  </g>
+  
+  <g transform="translate(220,350)">
+    <circle cx="0" cy="0" r="8" fill="#FFC107"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">2</text>
+    <text x="15" y="4" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Bruk veistriping</text>
+  </g>
+  
+  <g transform="translate(360,350)">
+    <circle cx="0" cy="0" r="8" fill="#E74C3C"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">3</text>
+    <text x="15" y="4" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Se etter baklys</text>
+  </g>
+  
+  <g transform="translate(500,350)">
+    <circle cx="0" cy="0" r="8" fill="#17A2B8"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">4</text>
+    <text x="15" y="4" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Lytt etter trafikk</text>
+  </g>
+  
+  <!-- Road edge indicators -->
+  <g transform="translate(100,190)">
+    <rect x="0" y="0" width="2" height="20" fill="white"/>
+    <circle cx="1" cy="25" r="3" fill="#FFA500"/>
+    <text x="10" y="28" font-family="Arial, sans-serif" font-size="8" fill="white">Reflektor</text>
+  </g>
+  
+  <g transform="translate(300,190)">
+    <rect x="0" y="0" width="2" height="20" fill="white" opacity="0.6"/>
+    <circle cx="1" cy="25" r="3" fill="#FFA500" opacity="0.6"/>
+  </g>
+  
+  <g transform="translate(500,190)">
+    <rect x="0" y="0" width="2" height="20" fill="white" opacity="0.3"/>
+    <circle cx="1" cy="25" r="3" fill="#FFA500" opacity="0.3"/>
+  </g>
+  
+  <!-- Warning -->
+  <rect x="150" y="60" width="500" height="20" fill="#DC3545" rx="10"/>
+  <text x="400" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">ALDRI fjernlys i tåke - skaper blindende reflektor-effekt</text>
+</svg>

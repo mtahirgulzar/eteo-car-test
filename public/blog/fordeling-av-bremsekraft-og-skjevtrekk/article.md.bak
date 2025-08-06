@@ -1,0 +1,50 @@
+![Fordeling av bremsekraft og skjevtrekk](fordeling-av-bremsekraft-og-skjevtrekk-image.svg)
+
+## Introduksjon
+
+I denne artikkelen går vi i dybden på **fordeling av bremsekraft** og **skjevtrekk**, to viktige faktorer som påvirker kjøretøyets stabilitet og sikkerhet ved bremsing og akselerasjon. For grunnleggende prinsipper om bremsesystemet, se [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)"). For mer om stoppeavstand og reaksjonstid, sjekk [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Stoppeavstand og reaksjonstid").
+
+## Hva er fordeling av bremsekraft?
+
+**Fordeling av bremsekraft** handler om hvordan bremsesystemet fordeler den hydrauliske kraften mellom for- og bakhjul for å optimalisere bremseeffekten og unngå ustabilitet.
+
+![Fordeling av bremsekraft](fordeling-av-bremsekraft-og-skjevtrekk-distribution.svg)
+
+| Aksling    | Anbefalt bremskraft (%) |
+|------------|--------------------------|
+| **Forhjul**| 60–70 %                  |
+| **Bakhjul**| 30–40 %                  |
+
+Denne fordelingen sikrer at bilen beholder stabilitet under ulike kjøreforhold, spesielt ved vektforskyvning under kraftig bremsing.
+
+## Hva er skjevtrekk?
+
+**Skjevtrekk** (også kalt *torque steer*) er en effekt som gjør at bilen trekker til én side ved kraftig akselerasjon, typisk på front- eller firehjulsdrevne biler.
+
+![Skjevtrekk](fordeling-av-bremsekraft-og-skjevtrekk-skjevtrekk.svg)
+
+Årsaker til skjevtrekk kan være:
+* Ujevn kraftfordeling mellom drivhjul
+* Forskjeller i veigrep eller dekktrykk
+* Asymmetrisk drivlinje
+
+## Faktorer som påvirker fordeling og skjevtrekk
+
+Flere mekaniske og dynamiske forhold spiller inn:
+* **Vektfordeling** – påvirker hvor mye bremsekraft som kreves foran vs bak
+* **Dekkegenskaper** – forskjeller i veigrep kan forsterke skjevtrekk
+* **Hjuloppheng** – geometri og slitasje påvirker styrerespons
+* **Drivlinje** – ulik lengde på drivaksler i forhjulsdrift kan gi skjevtrekk
+
+## Konsekvenser for kjøring og sikkerhet
+
+Korrekt fordeling av bremsekraft og kontroll av skjevtrekk er avgjørende for:
+* **Retningsstabilitet** – unngå uønsket styringspåvirkning
+* **Bremseeffekt** – maksimere bremsekraft uten at hjul låser seg
+* **Komfort** – redusere rykk og ujevnheter ved pådrag
+
+## Videre lesning
+
+* [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)")
+* [Fotbrems og parkeringsbrems](/blogs/teori/fotbrems-og-parkeringsbrems "Fotbrems og parkeringsbrems - Servicebrems og parkeringsbrems")
+* [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Stoppeavstand og reaksjonstid")

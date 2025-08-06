@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Førerkort, vognkort og forsikring | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær alt om førerkort og kjøretøyets vognkort, samt hva slags forsikring du trenger for å kjøre lovlig i Norge.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/forerkort-vognkort-og-forsikring/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/forerkort-vognkort-og-forsikring/article/">
+    <meta property="og:title" content="Førerkort, vognkort og forsikring | Eteo">
+    <meta property="og:description" content="Lær alt om førerkort og kjøretøyets vognkort, samt hva slags forsikring du trenger for å kjøre lovlig i Norge.">
+    <meta property="og:image" content="//localhost:1313/images/blog/forerkort-vognkort-og-forsikring/forerkort-vognkort-og-forsikring-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Førerkort, vognkort og forsikring | Eteo">
+    <meta name="twitter:description" content="Lær alt om førerkort og kjøretøyets vognkort, samt hva slags forsikring du trenger for å kjøre lovlig i Norge.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/forerkort-vognkort-og-forsikring/forerkort-vognkort-og-forsikring-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Førerkort, vognkort og forsikring</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                8 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/forerkort-vognkort-og-forsikring/forerkort-vognkort-og-forsikring-image.svg" 
+                    alt="Førerkort, vognkort og forsikring" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/forerkort-vognkort-og-forsikring/forerkort-vognkort-og-forsikring-image.svg" alt="Førerkort, vognkort og forsikring" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#registrering-av-bilmotorvogn">Registrering av bil/<a href="/blogs/teori/motorvogn-definisjon" title="Motorvogn (definisjon)">motorvogn</a></a></li>
+    <li><a href="#oversikt-over-nãdvendige-dokumenter">Oversikt over nÃ¸dvendige dokumenter</a></li>
+    <li><a href="#hva-er-fãrerkort">Hva er fÃ¸rerkort?</a>
+      <ul>
+        <li><a href="#hvordan-skaffe-fãrerkort">Hvordan skaffe fÃ¸rerkort?</a></li>
+        <li><a href="#gyldighet-og-fornyelse-av-fãrerkort">Gyldighet og fornyelse av fÃ¸rerkort</a></li>
+        <li><a href="#midlertidig-kjãretillatelse">Midlertidig kjÃ¸retillatelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-vognkort">Hva er vognkort?</a>
+      <ul>
+        <li><a href="#nytt-vognkort-ved-fãrstegangsregistrering">Nytt vognkort ved fÃ¸rstegangsregistrering</a></li>
+        <li><a href="#del-1---tekniske-data">Del 1 - Tekniske data</a></li>
+        <li><a href="#del-2---eierinformasjon">Del 2 - Eierinformasjon</a></li>
+        <li><a href="#eierskifte-og-salgsmelding">Eierskifte og salgsmelding</a></li>
+        <li><a href="#tap-av-vognkort">Tap av vognkort</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-forsikring">Hva er forsikring?</a></li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#registrering-av-bilmotorvogn">Registrering av bil/<a href="/blogs/teori/motorvogn-definisjon" title="Motorvogn (definisjon)">motorvogn</a></a></li>
+    <li><a href="#oversikt-over-nãdvendige-dokumenter">Oversikt over nÃ¸dvendige dokumenter</a></li>
+    <li><a href="#hva-er-fãrerkort">Hva er fÃ¸rerkort?</a>
+      <ul>
+        <li><a href="#hvordan-skaffe-fãrerkort">Hvordan skaffe fÃ¸rerkort?</a></li>
+        <li><a href="#gyldighet-og-fornyelse-av-fãrerkort">Gyldighet og fornyelse av fÃ¸rerkort</a></li>
+        <li><a href="#midlertidig-kjãretillatelse">Midlertidig kjÃ¸retillatelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-vognkort">Hva er vognkort?</a>
+      <ul>
+        <li><a href="#nytt-vognkort-ved-fãrstegangsregistrering">Nytt vognkort ved fÃ¸rstegangsregistrering</a></li>
+        <li><a href="#del-1---tekniske-data">Del 1 - Tekniske data</a></li>
+        <li><a href="#del-2---eierinformasjon">Del 2 - Eierinformasjon</a></li>
+        <li><a href="#eierskifte-og-salgsmelding">Eierskifte og salgsmelding</a></li>
+        <li><a href="#tap-av-vognkort">Tap av vognkort</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-forsikring">Hva er forsikring?</a></li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#registrering-av-bilmotorvogn">Registrering av bil/<a href="/blogs/teori/motorvogn-definisjon" title="Motorvogn (definisjon)">motorvogn</a></a></li>
+    <li><a href="#oversikt-over-nãdvendige-dokumenter">Oversikt over nÃ¸dvendige dokumenter</a></li>
+    <li><a href="#hva-er-fãrerkort">Hva er fÃ¸rerkort?</a>
+      <ul>
+        <li><a href="#hvordan-skaffe-fãrerkort">Hvordan skaffe fÃ¸rerkort?</a></li>
+        <li><a href="#gyldighet-og-fornyelse-av-fãrerkort">Gyldighet og fornyelse av fÃ¸rerkort</a></li>
+        <li><a href="#midlertidig-kjãretillatelse">Midlertidig kjÃ¸retillatelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-vognkort">Hva er vognkort?</a>
+      <ul>
+        <li><a href="#nytt-vognkort-ved-fãrstegangsregistrering">Nytt vognkort ved fÃ¸rstegangsregistrering</a></li>
+        <li><a href="#del-1---tekniske-data">Del 1 - Tekniske data</a></li>
+        <li><a href="#del-2---eierinformasjon">Del 2 - Eierinformasjon</a></li>
+        <li><a href="#eierskifte-og-salgsmelding">Eierskifte og salgsmelding</a></li>
+        <li><a href="#tap-av-vognkort">Tap av vognkort</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-forsikring">Hva er forsikring?</a></li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#registrering-av-bilmotorvogn">Registrering av bil/<a href="/blogs/teori/motorvogn-definisjon" title="Motorvogn (definisjon)">motorvogn</a></a></li>
+    <li><a href="#oversikt-over-nãdvendige-dokumenter">Oversikt over nÃ¸dvendige dokumenter</a></li>
+    <li><a href="#hva-er-fãrerkort">Hva er fÃ¸rerkort?</a>
+      <ul>
+        <li><a href="#hvordan-skaffe-fãrerkort">Hvordan skaffe fÃ¸rerkort?</a></li>
+        <li><a href="#gyldighet-og-fornyelse-av-fãrerkort">Gyldighet og fornyelse av fÃ¸rerkort</a></li>
+        <li><a href="#midlertidig-kjãretillatelse">Midlertidig kjÃ¸retillatelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-vognkort">Hva er vognkort?</a>
+      <ul>
+        <li><a href="#nytt-vognkort-ved-fãrstegangsregistrering">Nytt vognkort ved fÃ¸rstegangsregistrering</a></li>
+        <li><a href="#del-1---tekniske-data">Del 1 - Tekniske data</a></li>
+        <li><a href="#del-2---eierinformasjon">Del 2 - Eierinformasjon</a></li>
+        <li><a href="#eierskifte-og-salgsmelding">Eierskifte og salgsmelding</a></li>
+        <li><a href="#tap-av-vognkort">Tap av vognkort</a></li>
+      </ul>
+    </li>
+    <li><a href="#hva-er-forsikring">Hva er forsikring?</a></li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+</div>
+}}
+Ã… kjÃ¸re bil krever mer enn Ã¥ **kunne trafikkreglene**. Du mÃ¥ ogsÃ¥ ha et gyldig **fÃ¸rerkort**, et registrert kjÃ¸retÃ¸y med **gyldig vognkort**, og tilstrekkelig **forsikring** fÃ¸r du kan ferdes lovlig pÃ¥ norske veier. Disse tre dokumentene utgjÃ¸r grunnlaget for lovlig kjÃ¸ring i Norge.
+<p><em>For informasjon om ansvar ved tauing av bil, se <a href="/blogs/teori/ansvar-ved-tauing-av-bil" title="Ansvar ved tauing av bil - Regler og ansvar ved tauing av bil">Ansvar ved tauing av bil</a>.</em></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="registrering-av-bilmotorvogn">Registrering av bil/<a href="/blogs/teori/motorvogn-definisjon" title="Motorvogn (definisjon)">motorvogn</a></h2>
+<p>Ã… <strong>registrere</strong> et kjÃ¸retÃ¸y (<a href="/blogs/teori/motorvogn-definisjon" title="Motorvogn (definisjon)">motorvogn</a>) hos Statens vegvesen er pÃ¥krevd for alle biler i Norge. Registreringen sikrer at kjÃ¸retÃ¸yet er lovlig registrert, og at avgifter er betalt. Her er en oversikt over prosessen:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Trinn</th>
+          <th>Beskrivelse</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>1. Dokumentasjon</strong></td>
+          <td>Innhent <em>salgsmelding</em> fra selger, vognkort (delÂ 2) og legitimasjon.</td>
+      </tr>
+      <tr>
+          <td><strong>2. Betaling</strong></td>
+          <td>Betal engangsavgift og registreringsgebyr til Motorvognregisteret.</td>
+      </tr>
+      <tr>
+          <td><strong>3. Kontroll</strong></td>
+          <td>KjÃ¸retÃ¸yet mÃ¥ vÃ¦re EUâ€‘kontrollert hvis krav, og eventuelle mangler utbedres.</td>
+      </tr>
+      <tr>
+          <td><strong>4. Utstedelse</strong></td>
+          <td>Mottak av nytt <strong>vognkort</strong> (delÂ 1 og delÂ 2) registrert pÃ¥ ny eier.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Se ogsÃ¥ <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - motorvognregistrering og avgifter">Lover og forskrifter</a> for juridisk rammeverk.</p>
+<h2 id="oversikt-over-nãdvendige-dokumenter">Oversikt over nÃ¸dvendige dokumenter</h2>
+<p>En kort sjekkliste over de viktigste papirene du alltid mÃ¥ ha med fÃ¸r du kjÃ¸rer:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Dokument</th>
+          <th>Beskrivelse</th>
+          <th>Hvorfor det er viktig</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>FÃ¸rerkort</strong></td>
+          <td>Bevis pÃ¥ fÃ¸rerrett, helse- og synskrav</td>
+          <td>Verifiserer at du har rett og evne til Ã¥ kjÃ¸re.</td>
+      </tr>
+      <tr>
+          <td><strong>Vognkort</strong></td>
+          <td>Tekniske data og eierforhold for kjÃ¸retÃ¸yet</td>
+          <td>Bekrefter at bilen er registrert pÃ¥ deg.</td>
+      </tr>
+      <tr>
+          <td><strong>Forsikring</strong></td>
+          <td>Ansvarsforsikring eller kasko-/delkasko</td>
+          <td>Sikrer Ã¸konomisk dekning ved skade.</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>For informasjon om kjÃ¸ring med tilhenger, koblingslast og vognkortkrav, se <a href="/blogs/teori/bil-og-tilhenger-vognkort-koblingslast" title="Bil og tilhenger (klasse B), vognkort, koblingslast">Bil og tilhenger, vognkort og koblingslast</a>.</em></p>
+<p><em>For en detaljert gjennomgang av <strong>vognkortets</strong> felter, se <a href="/blogs/teori/vognkort-oversikt-alle-felter" title="Vognkort, oversikt over alle felter">Vognkort, oversikt over alle felter</a>.</em></p>
+<blockquote>
+<p>Denne oversikten hjelper til Ã¥ sikre at du alltid er lovlig dokumentert pÃ¥ veien.</p></blockquote>
+<h2 id="hva-er-fãrerkort">Hva er fÃ¸rerkort?</h2>
+<p><strong>FÃ¸rerkort</strong> er det offisielle dokumentet som gir deg rett til Ã¥ framfÃ¸re motorvogn. Det fungerer som bÃ¥de identifikasjon og bevis pÃ¥ at du har bestÃ¥tt kravene for Ã¥ kjÃ¸re bil. For personbil (klasse B) mÃ¥ du:</p>
+<ul>
+<li>VÃ¦re minst <strong>18 Ã¥r gammel</strong> (17 Ã¥r med ledsagerordning)</li>
+<li>GjennomfÃ¸re <a href="/blogs/teori/trafikalt-grunnkurs" title="Trafikalt grunnkurs - Obligatorisk kurs for fÃ¸rerkort klasse B">trafikalt grunnkurs</a> og obligatorisk opplÃ¦ring</li>
+<li>BestÃ¥ bÃ¥de <strong>teoriprÃ¸ve</strong> og <a href="/blogs/teori/oppkjoring" title="OppkjÃ¸ring - Guide til praktisk kjÃ¸reprÃ¸ve for fÃ¸rerkort i bil"><strong>oppkjÃ¸ringsprÃ¸ve</strong></a></li>
+<li>Ha tilfredsstillende <strong>helse</strong> og <strong>syn</strong></li>
+<li>Ikke ha <strong>alvorlige straffereaksjoner</strong> som diskvalifiserer</li>
+</ul>
+<p>For en oversikt over alle fÃ¸rerkortklasser i Norge, se <a href="/blogs/teori/forerkortklasser-oversikt" title="FÃ¸rerkortklasser (oversikt): Oversikt over alle fÃ¸rerkortklasser i Norge">FÃ¸rerkortklasser (oversikt)</a>.</p>
+<h3 id="hvordan-skaffe-fãrerkort">Hvordan skaffe fÃ¸rerkort?</h3>
+<p>Prosessen for Ã¥ skaffe fÃ¸rerkort er strukturert og omfatter bÃ¥de teoretisk og praktisk opplÃ¦ring:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Trinn</th>
+          <th>Beskrivelse</th>
+          <th>Varighet</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td><a href="/blogs/teori/trafikalt-grunnkurs" title="Trafikalt grunnkurs - Obligatorisk kurs for fÃ¸rerkort klasse B"><strong>Trafikalt grunnkurs</strong></a>: Obligatorisk kurs for alle nye fÃ¸rere</td>
+          <td>4 timer</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td><strong>Obligatorisk opplÃ¦ring</strong>: Praktisk kjÃ¸retrening hos godkjent kjÃ¸reskole og privat Ã¸velseskjÃ¸ring (<a href="/blogs/teori/ovelseskjoring" title="Ã˜velseskjÃ¸ring (krav til ledsager, bilen m.m)">se Ã¸velseskjÃ¸ring</a>)</td>
+          <td>Min. 12 timer</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td><strong>TeoriprÃ¸ve</strong>: Digital prÃ¸ve som tester kunnskap om trafikkregler</td>
+          <td>45 min</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td><a href="/blogs/teori/oppkjoring" title="OppkjÃ¸ring - Guide til praktisk kjÃ¸reprÃ¸ve for fÃ¸rerkort i bil"><strong>OppkjÃ¸ring</strong></a>: Praktisk kjÃ¸reprÃ¸ve med sensor</td>
+          <td>60 min</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td><strong>Utstedelse av fÃ¸rerkort</strong>: Fysisk fÃ¸rerkort sendes i posten</td>
+          <td>7-10 dager</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>Se ogsÃ¥ <a href="/blogs/teori/introduksjon-til-teori-for-forerkort" title="Introduksjon til teori for fÃ¸rerkort">Introduksjon til teori for fÃ¸rerkort</a> for et overblikk over de viktigste temaene pÃ¥ teoriprÃ¸ven.</p></blockquote>
+<h3 id="gyldighet-og-fornyelse-av-fãrerkort">Gyldighet og fornyelse av fÃ¸rerkort</h3>
+<p><strong>FÃ¸rerkort klasse B</strong> har normalt <strong>15 Ã¥rs gyldighet</strong> fra utstedelsesdato. For personer over 70 Ã¥r reduseres gyldigheten til 5 Ã¥r. Ved fornyelse mÃ¥ du:</p>
+<ul>
+<li>
+<p>Levere ny <strong>helseerklÃ¦ring</strong></p>
+</li>
+<li>
+<p>GjennomfÃ¸re <strong>synsprÃ¸ve</strong></p>
+</li>
+<li>
+<p>Betale <strong>fornyelsesgebyr</strong></p>
+</li>
+<li>
+<p>Dokumentere eventuelle <strong>kursoppfriskninger</strong></p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h3 id="midlertidig-kjãretillatelse">Midlertidig kjÃ¸retillatelse</h3>
+<p>Mens du venter pÃ¥ det fysiske fÃ¸rerkortet, kan du fÃ¥ utstedt <strong>midlertidig kjÃ¸retillatelse</strong> som gjelder i 3 mÃ¥neder. Dette dokumentet mÃ¥ alltid medbringes sammen med gyldig legitimasjon.</p>
+<h2 id="hva-er-vognkort">Hva er vognkort?</h2>
+<p><strong>Vognkortet</strong> er dokumentet som viser bilens tekniske data og eierforhold. Det fungerer som bilens &ldquo;pass&rdquo; og mÃ¥ alltid medbringes under kjÃ¸ring. Vognkortet bestÃ¥r av <strong>to separate deler</strong>:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="nytt-vognkort-ved-fãrstegangsregistrering">Nytt vognkort ved fÃ¸rstegangsregistrering</h3>
+<p>Ved fÃ¸rstegangsregistrering mottar du <strong>vognkort</strong> som bestÃ¥r av delÂ 1 og delÂ 2. Avgift for utstedelse er inkludert i registreringsavgiften, og du fÃ¥r tilsendt dokumentene i posten.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Avgiftstype</th>
+          <th>BelÃ¸p</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Registreringsavgift</strong></td>
+          <td>Varierer etter vekt, alder og COâ‚‚â€‘utslipp</td>
+      </tr>
+      <tr>
+          <td><strong>Utstedelsesgebyr vognkort</strong></td>
+          <td>300Â kr per del</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="del-1---tekniske-data">Del 1 - Tekniske data</h3>
+<p><strong>Del 1</strong> inneholder alle tekniske opplysninger om kjÃ¸retÃ¸yet:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Informasjon</th>
+          <th>Beskrivelse</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Registreringsnummer</strong></td>
+          <td>Bilens offisielle kjennetegn</td>
+      </tr>
+      <tr>
+          <td><strong>Chassis-/serienummer</strong></td>
+          <td>Unik identifikasjon av bilen</td>
+      </tr>
+      <tr>
+          <td><strong>Merke og modell</strong></td>
+          <td>Bilens fabrikat og type</td>
+      </tr>
+      <tr>
+          <td><strong>Egenvekt</strong></td>
+          <td>Bilens vekt uten last og passasjerer</td>
+      </tr>
+      <tr>
+          <td><strong>Totalvekt</strong></td>
+          <td>Maksimal tillatt vekt inkludert last</td>
+      </tr>
+      <tr>
+          <td><strong>Antall sitteplasser</strong></td>
+          <td>Maks antall passasjerer bilen er godkjent for</td>
+      </tr>
+      <tr>
+          <td><strong>Lengde, bredde, hÃ¸yde</strong></td>
+          <td>Bilens dimensjoner</td>
+      </tr>
+      <tr>
+          <td><strong>MiljÃ¸klasse</strong></td>
+          <td>Utslippsstandarder (Euro 1-6)</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="del-2---eierinformasjon">Del 2 - Eierinformasjon</h3>
+<p><strong>Del 2</strong> inneholder informasjon om eierskap og mÃ¥ oppdateres ved eierskifte:</p>
+<ul>
+<li><strong>Eiers navn og adresse</strong></li>
+<li><strong>Dato for fÃ¸rste registrering</strong></li>
+<li><strong>Dato for siste eierskifte</strong></li>
+<li><strong>PantelÃ¥nere</strong> (hvis bilen er finansiert)</li>
+<li><strong>Forsikringsselskap</strong></li>
+</ul>
+<blockquote>
+<p><strong>Viktig:</strong> Del 2 mÃ¥ alltid vÃ¦re oppdatert. Ved kjÃ¸p/salg av bil mÃ¥ begge parter signere og sende inn eierskifteerklÃ¦ring til Statens vegvesen innen 3 dager.</p></blockquote>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="eierskifte-og-salgsmelding">Eierskifte og salgsmelding</h3>
+<p>NÃ¥r du kjÃ¸per eller selger et kjÃ¸retÃ¸y, mÃ¥ eierskifte og <em>salgsmelding</em> gjennomfÃ¸res og sendes til Motorvognregisteret innen <strong>3 dager</strong> etter overtakelse. Begge parter signerer dokumentet som bekrefter overdragelsen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Handling</th>
+          <th>Ansvar</th>
+          <th>Frist</th>
+          <th>Gebyr</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Signere salgsmelding</td>
+          <td>Selger og kjÃ¸per</td>
+          <td>Innen 3 dager</td>
+          <td>Ingen</td>
+      </tr>
+      <tr>
+          <td>Registrere eierskifte</td>
+          <td>Statens vegvesen</td>
+          <td>Umiddelbart etter mottak</td>
+          <td>300Â kr</td>
+      </tr>
+  </tbody>
+</table>
+<p>Etter registrert eierskifte oppdateres vognkortets delÂ 2 med ny eierinformasjon. For detaljer om <em>salgsmelding</em> og andre felt, se <a href="/blogs/teori/vognkort-oversikt-alle-felter" title="Vognkort, oversikt over alle felter - informasjon om salgsmelding og eierfelter">Vognkort, oversikt over alle felter</a>.</p>
+<h3 id="tap-av-vognkort">Tap av vognkort</h3>
+<p>Hvis du mister vognkortet, mÃ¥ du:</p>
+<ol>
+<li><strong>Anmelde tapet</strong> til politiet</li>
+<li><strong>Bestille duplikat</strong> hos Statens vegvesen</li>
+<li><strong>Betale gebyr</strong> (ca. 300 kr per del)</li>
+<li><strong>Vente 7-10 dager</strong> pÃ¥ nytt vognkort</li>
+</ol>
+<p>Midlertidig kjÃ¸reattest kan utstedes for presserende behov.</p>
+<h2 id="hva-er-forsikring">Hva er forsikring?</h2>
+<p>LovpÃ¥lagt ansvarsforsikring er minstekravet for alle kjÃ¸retÃ¸y i Norge. Utover det kan du velge kasko- eller delkaskoforsikring:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Forsikringstype</th>
+          <th>Dekningsomfang</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Ansvar</strong></td>
+          <td>Dekker skader du pÃ¥fÃ¸rer andre kjÃ¸retÃ¸y, personer eller eiendom (pÃ¥krevd).</td>
+      </tr>
+      <tr>
+          <td><strong>Delkasko</strong></td>
+          <td>Ansvar + brann, tyveri og glasskader.</td>
+      </tr>
+      <tr>
+          <td><strong>Full kasko</strong></td>
+          <td>Delkasko + kollisjonsskader pÃ¥ egen bil.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Viktig:</strong> KjÃ¸rer du uten gyldig ansvarsforsikring, kan det medfÃ¸re store bÃ¸ter, inndragning av fÃ¸rerkort og erstatningskrav i henhold til <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Juridiske konsekvenser ved regelbrudd">Lover og forskrifter</a>.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><em>For en mer utfyllende guide til bilforsikring og regress, se <a href="/blogs/teori/forsikring-trafikkforsikring-vognskadeforsikring-og-regress" title="Forsikring for bil - trafikkforsikring, vognskadeforsikring og regress">Forsikring for bil - trafikkforsikring, vognskadeforsikring og regress</a>.</em></p>
+<h2 id="oppsummering">Oppsummering</h2>
+<p>Ã… ha oversikt over <strong>fÃ¸rerkort</strong>, <strong>vognkort</strong> og <strong>forsikring</strong> er grunnleggende for Ã¥ vÃ¦re en lovlydig og trygg sjÃ¥fÃ¸r. Manglende dokumentasjon eller forsikring kan fÃ¥ alvorlige Ã¸konomiske og juridiske konsekvenser.</p>
+<blockquote>
+<p>Les mer om sikker last og passasjerer i vÃ¥r guide til <a href="/blogs/teori/sikring-av-last-og-passasjerer" title="Sikring av last og passasjerer - Guide til sikker last- og passasjersikring">Sikring av last og passasjerer</a>.</p></blockquote>
+<blockquote>
+<p>Les mer om <a href="/blogs/teori/valg-av-forste-bil" title="Valg av fÃ¸rste bil - Guide til Ã¥ velge din fÃ¸rste bil">Valg av fÃ¸rste bil</a> for rÃ¥d om hvordan du lander pÃ¥ riktig bil for dine behov og budsjett.\n  </div>\n</div></p></blockquote>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Førerkort, vognkort og forsikring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Førerkort, vognkort og forsikring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Førerkort, vognkort og forsikring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Profesjonelt sikringsutstyr
+  </text>
+  
+  <!-- Tension straps -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="140" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Spennstropper</text>
+    
+    <!-- Strap illustration -->
+    <rect x="15" y="30" width="110" height="8" fill="#e74c3c" rx="4"/>
+    <rect x="115" y="25" width="15" height="18" fill="#34495e" rx="2"/>
+    <circle cx="20" cy="50" r="5" fill="#f39c12"/>
+    <circle cx="120" cy="50" r="5" fill="#f39c12"/>
+    
+    <text x="70" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1000-2500 kg</text>
+    <text x="70" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Tung last</text>
+    <text x="70" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">CE-merket</text>
+  </g>
+  
+  <!-- Cargo net -->
+  <g transform="translate(220, 80)">
+    <rect x="0" y="0" width="140" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Bagasjenett</text>
+    
+    <!-- Net pattern -->
+    <g stroke="#27ae60" stroke-width="2" fill="none">
+      <line x1="20" y1="30" x2="120" y2="30"/>
+      <line x1="20" y1="45" x2="120" y2="45"/>
+      <line x1="20" y1="60" x2="120" y2="60"/>
+      <line x1="30" y1="25" x2="30" y2="65"/>
+      <line x1="50" y1="25" x2="50" y2="65"/>
+      <line x1="70" y1="25" x2="70" y2="65"/>
+      <line x1="90" y1="25" x2="90" y2="65"/>
+      <line x1="110" y1="25" x2="110" y2="65"/>
+    </g>
+    
+    <text x="70" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">75-150 kg</text>
+    <text x="70" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Småting, bagger</text>
+  </g>
+  
+  <!-- Load stoppers -->
+  <g transform="translate(390, 80)">
+    <rect x="0" y="0" width="140" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Lastestopper</text>
+    
+    <!-- Stopper illustration -->
+    <rect x="30" y="35" width="80" height="25" fill="#8e44ad" rx="3"/>
+    <rect x="35" y="30" width="10" height="35" fill="#9b59b6"/>
+    <rect x="95" y="30" width="10" height="35" fill="#9b59b6"/>
+    
+    <text x="70" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">200-500 kg</text>
+    <text x="70" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Hindrer skyving</text>
+  </g>
+  
+  <!-- Storage boxes -->
+  <g transform="translate(560, 80)">
+    <rect x="0" y="0" width="140" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Oppbevaringskasser</text>
+    
+    <!-- Box illustration -->
+    <rect x="30" y="35" width="80" height="25" fill="#2980b9" stroke="#34495e" stroke-width="1" rx="2"/>
+    <rect x="35" y="30" width="70" height="5" fill="#3498db"/>
+    <circle cx="95" cy="47" r="2" fill="#f1c40f"/>
+    
+    <text x="70" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">50-200 kg</text>
+    <text x="70" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Verktøy, utstyr</text>
+  </g>
+  
+  <!-- Important note about CE marking -->
+  <g transform="translate(50, 230)">
+    <rect x="0" y="0" width="700" height="60" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="5"/>
+    <text x="350" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#856404">
+      ⚠️ Viktig: Alt sikringsutstyr må være CE-merket og godkjent
+    </text>
+    <text x="350" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#856404">
+      Kontroller alltid maksimal belastning før bruk
+    </text>
+  </g>
+  
+  <!-- Comparison table header -->
+  <text x="400" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Sammenligning av sikringsutstyr
+  </text>
+  
+  <!-- Table -->
+  <g transform="translate(50, 360)">
+    <!-- Table headers -->
+    <rect x="0" y="0" width="175" height="30" fill="#34495e"/>
+    <text x="87" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Utstyr</text>
+    
+    <rect x="175" y="0" width="175" height="30" fill="#34495e"/>
+    <text x="262" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Kapasitet</text>
+    
+    <rect x="350" y="0" width="175" height="30" fill="#34495e"/>
+    <text x="437" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Beste bruk</text>
+    
+    <rect x="525" y="0" width="175" height="30" fill="#34495e"/>
+    <text x="612" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Festing</text>
+    
+    <!-- Table rows -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="175" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="87" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Spennstropper</text>
+      
+      <rect x="175" y="0" width="175" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="262" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">1000-2500 kg</text>
+      
+      <rect x="350" y="0" width="175" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="437" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Tung last, møbler</text>
+      
+      <rect x="525" y="0" width="175" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="612" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Festeøyer</text>
+    </g>
+    
+    <g transform="translate(0, 55)">
+      <rect x="0" y="0" width="175" height="25" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="87" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Bagasjenett</text>
+      
+      <rect x="175" y="0" width="175" height="25" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="262" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">75-150 kg</text>
+      
+      <rect x="350" y="0" width="175" height="25" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="437" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Småting, bagger</text>
+      
+      <rect x="525" y="0" width="175" height="25" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="612" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Kroker</text>
+    </g>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">
+    Velg riktig utstyr basert på lastens vekt og type for optimal sikkerhet
+  </text>
+</svg>

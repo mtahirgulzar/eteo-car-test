@@ -1,0 +1,173 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Teknologiske hjelpemidler ved parkering</text>
+  
+  <!-- Parking sensors -->
+  <g transform="translate(50, 80)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">Parkeringsensorer</text>
+    <!-- Car -->
+    <rect x="80" y="30" width="40" height="20" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+    <text x="100" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">BIL</text>
+    <!-- Sensors on bumper -->
+    <circle cx="85" cy="50" r="2" fill="#f39c12"/>
+    <circle cx="95" cy="50" r="2" fill="#f39c12"/>
+    <circle cx="105" cy="50" r="2" fill="#f39c12"/>
+    <circle cx="115" cy="50" r="2" fill="#f39c12"/>
+    <!-- Ultrasound waves -->
+    <g stroke="#f39c12" stroke-width="1" fill="none" opacity="0.6">
+      <path d="M 85 52 Q 85 60 85 68"/>
+      <path d="M 95 52 Q 95 60 95 68"/>
+      <path d="M 105 52 Q 105 60 105 68"/>
+      <path d="M 115 52 Q 115 60 115 68"/>
+    </g>
+    <!-- Obstacle -->
+    <rect x="90" y="70" width="20" height="15" fill="#e74c3c"/>
+    <text x="100" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">HINDR.</text>
+    <!-- Distance indicator -->
+    <text x="100" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">30 cm</text>
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Fordeler: Akustisk varsling, oppdager objekter</text>
+    <text x="0" y="125" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Begrensning: Ser ikke gjennomsiktige objekter</text>
+  </g>
+  
+  <!-- Reverse camera -->
+  <g transform="translate(400, 80)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">Ryggekamera</text>
+    <!-- Car -->
+    <rect x="60" y="30" width="40" height="20" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <text x="80" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">BIL</text>
+    <!-- Camera -->
+    <rect x="76" y="50" width="8" height="4" fill="#2c3e50"/>
+    <circle cx="80" cy="52" r="1" fill="#3498db"/>
+    <!-- Camera view -->
+    <path d="M 80 54 L 70 70 L 90 70 Z" stroke="#3498db" stroke-width="1" fill="#3498db" opacity="0.3"/>
+    <!-- Display screen -->
+    <rect x="120" y="20" width="50" height="35" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+    <rect x="125" y="25" width="40" height="25" fill="#27ae60"/>
+    <text x="145" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">KAMERA</text>
+    <text x="145" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">Bak område</text>
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Fordeler: God oversikt, realtidsvisning</text>
+    <text x="0" y="125" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Begrensning: Kan være skittent, begrenset synsvinkel</text>
+  </g>
+  
+  <!-- 360-degree camera -->
+  <g transform="translate(50, 220)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">360° kamerasystem</text>
+    <!-- Car from above -->
+    <rect x="80" y="40" width="40" height="60" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+    <text x="100" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">BIL</text>
+    <!-- Cameras on all sides -->
+    <circle cx="100" cy="35" r="2" fill="#f39c12"/> <!-- Front -->
+    <circle cx="100" cy="105" r="2" fill="#f39c12"/> <!-- Rear -->
+    <circle cx="75" cy="70" r="2" fill="#f39c12"/> <!-- Left -->
+    <circle cx="125" cy="70" r="2" fill="#f39c12"/> <!-- Right -->
+    <!-- 360-degree coverage -->
+    <circle cx="100" cy="70" r="35" stroke="#f39c12" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- Display -->
+    <rect x="140" y="35" width="60" height="45" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+    <rect x="145" y="40" width="50" height="35" fill="#3498db"/>
+    <rect x="165" y="52" width="10" height="15" fill="#9b59b6"/>
+    <text x="170" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">BIL</text>
+    <text x="170" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Fugleperspektiv</text>
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Fordeler: Komplett oversikt rundt bilen</text>
+    <text x="0" y="145" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Begrensning: Høy kostnad, kompleks tolkning</text>
+  </g>
+  
+  <!-- Automatic parking -->
+  <g transform="translate(400, 220)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">Automatisk parkering</text>
+    <!-- Car -->
+    <rect x="80" y="40" width="35" height="18" fill="#27ae60" stroke="#229954" stroke-width="1"/>
+    <text x="97" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white" font-weight="bold">AUTO</text>
+    <!-- Steering wheel turning automatically -->
+    <circle cx="90" cy="45" r="4" fill="#34495e"/>
+    <path d="M 90 41 L 90 49" stroke="#f39c12" stroke-width="2"/>
+    <path d="M 86 45 L 94 45" stroke="#f39c12" stroke-width="2"/>
+    <!-- Rotation indicator -->
+    <path d="M 85 40 Q 90 35 95 40" stroke="#f39c12" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+    <!-- Parking space -->
+    <rect x="20" y="35" width="40" height="28" fill="none" stroke="#27ae60" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#27ae60">MÅLET</text>
+    <!-- Control display -->
+    <rect x="130" y="30" width="40" height="25" fill="#2c3e50"/>
+    <rect x="135" y="35" width="30" height="15" fill="#27ae60"/>
+    <text x="150" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">AKTIV</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Fordeler: Presis manøvrering</text>
+    <text x="0" y="105" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Begrensning: Fungerer ikke i alle situasjoner</text>
+  </g>
+  
+  <!-- Park assist -->
+  <g transform="translate(50, 360)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">Park assist</text>
+    <!-- Car scanning for spaces -->
+    <rect x="100" y="40" width="35" height="18" fill="#e67e22" stroke="#d35400" stroke-width="1"/>
+    <text x="117" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white" font-weight="bold">SØKER</text>
+    <!-- Scanning waves -->
+    <g stroke="#e67e22" stroke-width="1" fill="none" opacity="0.6">
+      <path d="M 95 49 Q 85 45 85 49 Q 85 53 95 49"/>
+      <path d="M 90 49 Q 75 40 75 49 Q 75 58 90 49"/>
+    </g>
+    <!-- Available parking spaces -->
+    <rect x="20" y="35" width="30" height="28" fill="none" stroke="#2c3e50" stroke-width="1"/>
+    <text x="35" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">OPPTATT</text>
+    <rect x="55" y="35" width="35" height="28" fill="none" stroke="#27ae60" stroke-width="2"/>
+    <text x="72" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#27ae60">LEDIG</text>
+    <!-- Display showing available space -->
+    <rect x="150" y="30" width="50" height="30" fill="#2c3e50"/>
+    <rect x="155" y="35" width="40" height="20" fill="#27ae60"/>
+    <text x="175" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">FUNNET</text>
+    <text x="175" y="53" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">Passende plass</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Fordeler: Tidsbesparing, finner optimale plasser</text>
+    <text x="0" y="105" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Begrensning: Avhengig av sensorer og programvare</text>
+  </g>
+  
+  <!-- Smart parking apps -->
+  <g transform="translate(400, 360)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">Smart parkering apps</text>
+    <!-- Smartphone -->
+    <rect x="80" y="30" width="30" height="50" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+    <rect x="85" y="35" width="20" height="30" fill="#3498db"/>
+    <circle cx="95" cy="70" r="3" fill="#34495e"/>
+    <!-- App interface -->
+    <text x="95" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">PARK APP</text>
+    <rect x="87" y="45" width="16" height="8" fill="#27ae60"/>
+    <text x="95" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="4" fill="white">25 kr/t</text>
+    <rect x="87" y="55" width="16" height="6" fill="#e74c3c"/>
+    <text x="95" y="59" text-anchor="middle" font-family="Arial, sans-serif" font-size="4" fill="white">Betalt</text>
+    <!-- Payment confirmation -->
+    <rect x="130" y="40" width="40" height="20" fill="#27ae60"/>
+    <text x="150" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">BETALT</text>
+    <text x="150" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">2 timer igjen</text>
+    <text x="0" y="95" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Fordeler: Betaling, forlenging, ledig plass info</text>
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Begrensning: Krever internett, batterilevetid</text>
+  </g>
+  
+  <!-- Technology principles -->
+  <g transform="translate(50, 480)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Viktige prinsipper for teknologibruk</text>
+    
+    <!-- Supplement not replacement -->
+    <rect x="0" y="20" width="320" height="80" fill="#fff3cd" stroke="#ffc107" stroke-width="2"/>
+    <text x="10" y="35" font-family="Arial, sans-serif" font-size="12" fill="#856404" font-weight="bold">Teknologi som supplement</text>
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Behold grunnleggende ferdigheter</text>
+    <text x="10" y="65" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Forstå systemenes begrensninger</text>
+    <text x="10" y="80" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Ha backup-plan når teknologi svikter</text>
+    <text x="10" y="95" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Regelmessig kalibrering og vedlikehold</text>
+    
+    <!-- Driver responsibility -->
+    <rect x="340" y="20" width="320" height="80" fill="#f8d7da" stroke="#dc3545" stroke-width="2"/>
+    <text x="350" y="35" font-family="Arial, sans-serif" font-size="12" fill="#721c24" font-weight="bold">Føreren har ansvar</text>
+    <text x="350" y="50" font-family="Arial, sans-serif" font-size="10" fill="#721c24">• Alltid det endelige ansvaret</text>
+    <text x="350" y="65" font-family="Arial, sans-serif" font-size="10" fill="#721c24">• Teknologi reduserer ikke oppmerksomhet</text>
+    <text x="350" y="80" font-family="Arial, sans-serif" font-size="10" fill="#721c24">• Må kunne parkere uten hjelpemidler</text>
+    <text x="350" y="95" font-family="Arial, sans-serif" font-size="10" fill="#721c24">• Vær forberedt på systemfeil</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#f39c12"/>
+    </marker>
+  </defs>
+</svg>

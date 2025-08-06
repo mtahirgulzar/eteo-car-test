@@ -1,0 +1,12 @@
+<svg width="300" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="160" fill="#f8f9fa"/>
+  <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+    Trafikkskilt for rundkjøring
+  </text>
+  <g transform="translate(100,40)">
+    <circle cx="50" cy="50" r="40" fill="#3498db" stroke="#2c3e50" stroke-width="4"/>
+    <!-- Enkel pil rundt sirkel -->
+    <path d="M50,15 A35,35 0 1,1 49.9,15.1" stroke="white" stroke-width="6" fill="none"/>
+    <polygon points="54,15 50,5 46,15" fill="white"/>
+  </g>
+</svg>

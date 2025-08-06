@@ -1,0 +1,149 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="carGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66BB6A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#757575;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#424242;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2C3E50">
+    Avanserte teknikker for bykjøring
+  </text>
+  
+  <!-- Road illustration -->
+  <rect x="50" y="80" width="700" height="120" fill="url(#roadGradient)" rx="5"/>
+  
+  <!-- Lane markings -->
+  <line x1="50" y1="140" x2="750" y2="140" stroke="#FFF" stroke-width="3" stroke-dasharray="20,10"/>
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#FFF" stroke-width="2"/>
+  <line x1="50" y1="180" x2="750" y2="180" stroke="#FFF" stroke-width="2"/>
+  
+  <!-- Cars demonstrating smooth flow -->
+  <rect x="100" y="110" width="60" height="25" rx="5" fill="url(#carGradient)" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="200" y="110" width="60" height="25" rx="5" fill="url(#carGradient)" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="300" y="110" width="60" height="25" rx="5" fill="url(#carGradient)" stroke="#2E7D32" stroke-width="1"/>
+  
+  <!-- Distance indicators -->
+  <path d="M160 122 L200 122" stroke="#FF9800" stroke-width="3" fill="none"/>
+  <path d="M260 122 L300 122" stroke="#FF9800" stroke-width="3" fill="none"/>
+  <text x="180" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FF9800">3 sek</text>
+  <text x="280" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FF9800">3 sek</text>
+  
+  <!-- Traffic light reading section -->
+  <rect x="50" y="220" width="350" height="160" rx="10" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="225" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1976D2">
+    Trafikklyslesing
+  </text>
+  
+  <!-- Traffic light illustration -->
+  <rect x="80" y="260" width="30" height="80" rx="5" fill="#333" stroke="#000" stroke-width="1"/>
+  <circle cx="95" cy="275" r="8" fill="#4CAF50"/>
+  <circle cx="95" cy="300" r="8" fill="#FFC107"/>
+  <circle cx="95" cy="325" r="8" fill="#424242"/>
+  
+  <text x="130" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Observer lyssekvenser
+  </text>
+  <text x="130" y="290" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Tilpass hastighet til timing
+  </text>
+  <text x="130" y="310" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Unngå brå stopp ved gult
+  </text>
+  <text x="130" y="330" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Planlegg for grønne bølger
+  </text>
+  <text x="130" y="350" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Jevn hastighet = mindre stopp
+  </text>
+  
+  <!-- Lane selection section -->
+  <rect x="420" y="220" width="330" height="160" rx="10" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+  <text x="585" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F57C00">
+    Smart feltvalg
+  </text>
+  
+  <!-- Lane illustration -->
+  <rect x="450" y="260" width="270" height="80" fill="url(#roadGradient)" rx="3"/>
+  <line x1="450" y1="285" x2="720" y2="285" stroke="#FFF" stroke-width="2" stroke-dasharray="10,5"/>
+  <line x1="450" y1="315" x2="720" y2="315" stroke="#FFF" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- Cars in different lanes -->
+  <rect x="460" y="265" width="40" height="15" rx="3" fill="#FF5722" stroke="#D84315" stroke-width="1"/>
+  <rect x="460" y="295" width="40" height="15" rx="3" fill="url(#carGradient)" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="460" y="325" width="40" height="15" rx="3" fill="#2196F3" stroke="#1565C0" stroke-width="1"/>
+  
+  <text x="520" y="275" font-family="Arial, sans-serif" font-size="10" fill="#FF5722">Høyre: Sakte trafikk</text>
+  <text x="520" y="305" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50">Midten: Gjennomkjøring</text>
+  <text x="520" y="335" font-family="Arial, sans-serif" font-size="10" fill="#2196F3">Venstre: Forbikjøring</text>
+  
+  <text x="450" y="360" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Velg felt basert på destinasjon og trafikkflyt
+  </text>
+  
+  <!-- Defensive driving section -->
+  <rect x="50" y="400" width="350" height="150" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="225" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7B1FA2">
+    Defensiv bykjøring
+  </text>
+  
+  <!-- Visibility illustration -->
+  <circle cx="100" cy="460" r="30" fill="#E1F5FE" stroke="#0288D1" stroke-width="2"/>
+  <text x="100" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0288D1">360°</text>
+  
+  <text x="150" y="445" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Kontinuerlig scanning av omgivelsene
+  </text>
+  <text x="150" y="465" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Forutse andres handlinger
+  </text>
+  <text x="150" y="485" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Ha alltid en "escape route"
+  </text>
+  <text x="150" y="505" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Bruk lys for bedre synlighet
+  </text>
+  <text x="150" y="525" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Kommuniser med andre trafikanter
+  </text>
+  
+  <!-- Queue optimization section -->
+  <rect x="420" y="400" width="330" height="150" rx="10" fill="#E8F5E8" stroke="#388E3C" stroke-width="2"/>
+  <text x="585" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#388E3C">
+    Kø-optimalisering
+  </text>
+  
+  <!-- Queue illustration -->
+  <rect x="450" y="440" width="20" height="15" rx="2" fill="#FF5722"/>
+  <rect x="480" y="440" width="20" height="15" rx="2" fill="#FF5722"/>
+  <rect x="510" y="440" width="20" height="15" rx="2" fill="#FF5722"/>
+  <rect x="540" y="440" width="20" height="15" rx="2" fill="#FF5722"/>
+  <text x="550" y="435" font-family="Arial, sans-serif" font-size="10" fill="#FF5722">Stop-start kjøring</text>
+  
+  <rect x="450" y="470" width="20" height="15" rx="2" fill="#4CAF50"/>
+  <rect x="490" y="470" width="20" height="15" rx="2" fill="#4CAF50"/>
+  <rect x="530" y="470" width="20" height="15" rx="2" fill="#4CAF50"/>
+  <rect x="570" y="470" width="20" height="15" rx="2" fill="#4CAF50"/>
+  <text x="570" y="465" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50">Jevn hastighet</text>
+  
+  <text x="450" y="505" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Hold jevn lav hastighet i kø
+  </text>
+  <text x="450" y="525" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Reduserer drivstofforbruk og stress
+  </text>
+  
+  <!-- Bottom tip -->
+  <rect x="100" y="570" width="600" height="25" rx="5" fill="#FFE0B2" stroke="#FF9800" stroke-width="1"/>
+  <text x="400" y="586" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E65100">
+    Smidig kjøring = tryggere, mer effektiv og mindre stressende bykjøring
+  </text>
+</svg>

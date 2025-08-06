@@ -1,0 +1,139 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Parkeringstyper - Oversikt</text>
+  
+  <!-- Parallel parking -->
+  <g transform="translate(50, 80)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e">Parallelparkering</text>
+    <rect x="0" y="15" width="300" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <!-- Curb -->
+    <rect x="0" y="95" width="300" height="8" fill="#7f8c8d"/>
+    <!-- Parked cars -->
+    <rect x="20" y="25" width="50" height="25" fill="#34495e"/>
+    <rect x="220" y="25" width="50" height="25" fill="#34495e"/>
+    <!-- Parking space -->
+    <rect x="80" y="25" width="130" height="25" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="145" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">LEDIG PLASS</text>
+    <!-- Difficulty indicator -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c" font-weight="bold">Vanskelighetsgrad: HØY</text>
+  </g>
+  
+  <!-- Angle parking -->
+  <g transform="translate(420, 80)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e">Vinkelparkering</text>
+    <rect x="0" y="15" width="280" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <!-- Angled parking spaces -->
+    <g stroke="#95a5a6" stroke-width="1" fill="none">
+      <path d="M 20 95 L 50 25"/>
+      <path d="M 50 95 L 80 25"/>
+      <path d="M 80 95 L 110 25"/>
+      <path d="M 110 95 L 140 25"/>
+      <path d="M 140 95 L 170 25"/>
+      <path d="M 170 95 L 200 25"/>
+    </g>
+    <!-- Cars in spaces -->
+    <g transform="rotate(-55 40 60)">
+      <rect x="25" y="55" width="30" height="15" fill="#34495e"/>
+    </g>
+    <g transform="rotate(-55 100 60)">
+      <rect x="85" y="55" width="30" height="15" fill="#34495e"/>
+    </g>
+    <!-- Empty space -->
+    <g transform="rotate(-55 70 60)">
+      <rect x="55" y="55" width="30" height="15" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="3,3"/>
+    </g>
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="12" fill="#f39c12" font-weight="bold">Vanskelighetsgrad: MIDDELS</text>
+  </g>
+  
+  <!-- Perpendicular parking -->
+  <g transform="translate(50, 240)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e">Vinkelrett parkering</text>
+    <rect x="0" y="15" width="300" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <!-- Parking spaces -->
+    <g stroke="#95a5a6" stroke-width="1" fill="none">
+      <path d="M 50 15 L 50 115"/>
+      <path d="M 100 15 L 100 115"/>
+      <path d="M 150 15 L 150 115"/>
+      <path d="M 200 15 L 200 115"/>
+      <path d="M 250 15 L 250 115"/>
+    </g>
+    <!-- Cars -->
+    <rect x="20" y="35" width="25" height="40" fill="#34495e"/>
+    <rect x="170" y="35" width="25" height="40" fill="#34495e"/>
+    <!-- Empty space -->
+    <rect x="120" y="35" width="25" height="40" fill="none" stroke="#2ecc71" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="132" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2ecc71">LEDIG</text>
+    <text x="0" y="135" font-family="Arial, sans-serif" font-size="12" fill="#2ecc71" font-weight="bold">Vanskelighetsgrad: LAV</text>
+  </g>
+  
+  <!-- Reverse parking -->
+  <g transform="translate(420, 240)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e">Bakparkering</text>
+    <rect x="0" y="15" width="280" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <!-- Parking spaces -->
+    <g stroke="#95a5a6" stroke-width="1" fill="none">
+      <path d="M 40 15 L 40 115"/>
+      <path d="M 90 15 L 90 115"/>
+      <path d="M 140 15 L 140 115"/>
+      <path d="M 190 15 L 190 115"/>
+      <path d="M 240 15 L 240 115"/>
+    </g>
+    <!-- Cars (some reversed in) -->
+    <rect x="15" y="35" width="20" height="40" fill="#34495e"/>
+    <rect x="165" y="35" width="20" height="40" fill="#34495e"/>
+    <!-- Car reversing in -->
+    <rect x="110" y="75" width="20" height="25" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <!-- Arrow showing reverse direction -->
+    <path d="M 120 65 L 120 45" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="0" y="135" font-family="Arial, sans-serif" font-size="12" fill="#9b59b6" font-weight="bold">Vanskelighetsgrad: MIDDELS-HØY</text>
+  </g>
+  
+  <!-- Comparison table -->
+  <g transform="translate(50, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Sammenligning av parkeringsmetoder</text>
+    
+    <!-- Table headers -->
+    <rect x="0" y="20" width="700" height="30" fill="#34495e"/>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Type</text>
+    <text x="150" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Fordeler</text>
+    <text x="350" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Ulemper</text>
+    <text x="550" y="40" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Beste bruk</text>
+    
+    <!-- Row 1: Parallel -->
+    <rect x="0" y="50" width="700" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="10" y="67" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Parallelparkering</text>
+    <text x="150" y="67" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Effektiv plassbruk</text>
+    <text x="350" y="67" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Vanskelig å mestre</text>
+    <text x="550" y="67" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Bygater, sentrum</text>
+    
+    <!-- Row 2: Angle -->
+    <rect x="0" y="75" width="700" height="25" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="10" y="92" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Vinkelparkering</text>
+    <text x="150" y="92" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Lettere innkjøring</text>
+    <text x="350" y="92" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Vanskeligere utkjøring</text>
+    <text x="550" y="92" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Parkeringshus</text>
+    
+    <!-- Row 3: Perpendicular -->
+    <rect x="0" y="100" width="700" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="10" y="117" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Vinkelrett</text>
+    <text x="150" y="117" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Enkel å utføre</text>
+    <text x="350" y="117" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Krever mer plass</text>
+    <text x="550" y="117" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Kjøpesentre</text>
+    
+    <!-- Row 4: Reverse -->
+    <rect x="0" y="125" width="700" height="25" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="10" y="142" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Bakparkering</text>
+    <text x="150" y="142" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Sikrere utkjøring</text>
+    <text x="350" y="142" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Krever mer presisjon</text>
+    <text x="550" y="142" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Travle områder</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+</svg>

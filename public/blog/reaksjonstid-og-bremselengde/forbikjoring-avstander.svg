@@ -1,0 +1,33 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#f8f9fa"/>
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">Forbikjøringsavstander</text>
+  <!-- Road -->
+  <rect x="50" y="150" width="700" height="60" fill="#4a4a4a"/>
+  <rect x="50" y="180" width="700" height="10" fill="#ffeb3b" opacity="0.8"/>
+  <!-- Cars -->
+  <!-- Din bil -->
+  <rect x="180" y="165" width="40" height="20" fill="#1976d2" rx="3"/>
+  <circle cx="190" cy="190" r="5" fill="#333"/>
+  <circle cx="210" cy="190" r="5" fill="#333"/>
+  <!-- Kjøretøy foran -->
+  <rect x="270" y="165" width="40" height="20" fill="#388e3c" rx="3"/>
+  <circle cx="280" cy="190" r="5" fill="#333"/>
+  <circle cx="300" cy="190" r="5" fill="#333"/>
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <!-- Innhentingsavstand -->
+  <line x1="220" y1="140" x2="300" y2="140" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="260" y="130" fill="#1976d2" font-size="12" text-anchor="middle">Innhentingsavstand</text>
+  <!-- Forbikjøringsavstand -->
+  <line x1="310" y1="140" x2="370" y2="140" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="340" y="130" fill="#388e3c" font-size="12" text-anchor="middle">Forbikjøringsavstand</text>
+  <!-- Sikkerhetsmargin -->
+  <line x1="380" y1="140" x2="440" y2="140" stroke="#d32f2f" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="410" y="130" fill="#d32f2f" font-size="12" text-anchor="middle">Sikkerhetsmargin</text>
+</svg>

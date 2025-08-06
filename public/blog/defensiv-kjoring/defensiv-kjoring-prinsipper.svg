@@ -1,0 +1,72 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Grunnprinsipper for Defensiv Kjøring</text>
+  
+  <!-- Central circle -->
+  <circle cx="400" cy="250" r="80" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">DEFENSIV</text>
+  <text x="400" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">KJØRING</text>
+  
+  <!-- Principle 1: Observasjon -->
+  <circle cx="200" cy="150" r="60" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <text x="200" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">OBSERVASJON</text>
+  <text x="200" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Kontinuerlig skanning</text>
+  
+  <!-- Eye symbol -->
+  <ellipse cx="200" cy="125" rx="12" ry="8" fill="white"/>
+  <circle cx="200" cy="125" r="4" fill="#2c3e50"/>
+  
+  <!-- Connection line -->
+  <line x1="260" y1="170" x2="340" y2="210" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Principle 2: Risikovurdering -->
+  <circle cx="600" cy="150" r="60" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+  <text x="600" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">RISIKO-</text>
+  <text x="600" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">VURDERING</text>
+  
+  <!-- Warning triangle -->
+  <polygon points="600,110 590,125 610,125" fill="white"/>
+  <text x="600" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#f39c12">!</text>
+  
+  <!-- Connection line -->
+  <line x1="540" y1="170" x2="460" y2="210" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Principle 3: Sikkerhetsmarginer -->
+  <circle cx="200" cy="350" r="60" fill="#27ae60" stroke="#229954" stroke-width="2"/>
+  <text x="200" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">SIKKERHETS-</text>
+  <text x="200" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">MARGINER</text>
+  
+  <!-- Distance arrows -->
+  <line x1="185" y1="375" x2="215" y2="375" stroke="white" stroke-width="3" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+  
+  <!-- Connection line -->
+  <line x1="260" y1="330" x2="340" y2="290" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Principle 4: Forutseelse -->
+  <circle cx="600" cy="350" r="60" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+  <text x="600" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FORUTSEELSE</text>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Hva-hvis tenkning</text>
+  
+  <!-- Crystal ball symbol -->
+  <circle cx="600" cy="320" r="8" fill="white" opacity="0.7"/>
+  <circle cx="600" cy="320" r="5" fill="#9b59b6" opacity="0.5"/>
+  
+  <!-- Connection line -->
+  <line x1="540" y1="330" x2="460" y2="290" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Arrow markers definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white"/>
+    </marker>
+  </defs>
+  
+  <!-- Benefits box -->
+  <rect x="50" y="420" width="700" height="60" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="60" y="440" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Resultater:</text>
+  <text x="60" y="455" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Redusert ulykkerisiko • Økt kontroll • Bedre trafikkflyt • Mindre stress</text>
+  <text x="60" y="470" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Lavere kostnader • Tryggere reise for alle trafikanter</text>
+</svg>

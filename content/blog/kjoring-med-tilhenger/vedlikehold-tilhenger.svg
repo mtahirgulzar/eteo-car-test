@@ -1,0 +1,209 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c3e50; text-anchor: middle; }
+      .subtitle { font: bold 16px Arial; fill: #34495e; text-anchor: middle; }
+      .checklist { font: 12px Arial; fill: #2c3e50; }
+      .good { font: 12px Arial; fill: #27ae60; }
+      .warning { font: 12px Arial; fill: #e74c3c; }
+      .interval { font: bold 14px Arial; fill: #fff; text-anchor: middle; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" class="title">Vedlikehold og sikkerhetskontroller</text>
+  
+  <!-- Daily checks -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="200" height="160" fill="#e8f5e8" stroke="#27ae60" stroke-width="2" rx="10"/>
+    <rect x="20" y="10" width="60" height="25" fill="#27ae60" rx="5"/>
+    <text x="50" y="27" class="interval">DAGLIG</text>
+    
+    <!-- Trailer illustration -->
+    <g transform="translate(50, 50)">
+      <rect x="20" y="0" width="60" height="30" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2"/>
+      <circle cx="35" cy="40" r="8" fill="#34495e"/>
+      <circle cx="65" cy="40" r="8" fill="#34495e"/>
+      
+      <!-- Check points -->
+      <circle cx="35" cy="40" r="3" fill="#e74c3c"/>
+      <circle cx="65" cy="40" r="3" fill="#e74c3c"/>
+      <rect x="25" y="5" width="8" height="6" fill="#f39c12"/>
+      <rect x="67" y="5" width="8" height="6" fill="#f39c12"/>
+      <circle cx="10" cy="15" r="2" fill="#3498db"/>
+    </g>
+    
+    <g transform="translate(20, 100)">
+      <text x="0" y="0" class="good">✓ Dekk og lufttrykk</text>
+      <text x="0" y="15" class="good">✓ Lys og blinkers</text>
+      <text x="0" y="30" class="good">✓ Bremser</text>
+      <text x="0" y="45" class="good">✓ Kobling og wire</text>
+    </g>
+  </g>
+  
+  <!-- Weekly checks -->
+  <g transform="translate(300, 60)">
+    <rect x="0" y="0" width="200" height="160" fill="#fff4e6" stroke="#f39c12" stroke-width="2" rx="10"/>
+    <rect x="20" y="10" width="60" height="25" fill="#f39c12" rx="5"/>
+    <text x="50" y="27" class="interval">UKENTLIG</text>
+    
+    <!-- Detailed inspection points -->
+    <g transform="translate(50, 50)">
+      <rect x="20" y="0" width="60" height="30" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2"/>
+      <!-- Undercarriage details -->
+      <rect x="15" y="30" width="70" height="3" fill="#7f8c8d"/>
+      <!-- Brake system -->
+      <rect x="30" y="33" width="8" height="4" fill="#e74c3c"/>
+      <rect x="62" y="33" width="8" height="4" fill="#e74c3c"/>
+      <!-- Electrical -->
+      <line x1="10" y1="15" x2="20" y2="15" stroke="#f39c12" stroke-width="2"/>
+      <!-- Suspension -->
+      <line x1="35" y1="30" x2="35" y2="37" stroke="#8e44ad" stroke-width="2"/>
+      <line x1="65" y1="30" x2="65" y2="37" stroke="#8e44ad" stroke-width="2"/>
+    </g>
+    
+    <g transform="translate(20, 100)">
+      <text x="0" y="0" class="checklist">• Hjullagre</text>
+      <text x="0" y="15" class="checklist">• Bremsevæske</text>
+      <text x="0" y="30" class="checklist">• Elektrisk anlegg</text>
+      <text x="0" y="45" class="checklist">• Understell</text>
+    </g>
+  </g>
+  
+  <!-- Annual inspection -->
+  <g transform="translate(550, 60)">
+    <rect x="0" y="0" width="200" height="160" fill="#fdf2e9" stroke="#e67e22" stroke-width="2" rx="10"/>
+    <rect x="20" y="10" width="60" height="25" fill="#e67e22" rx="5"/>
+    <text x="50" y="27" class="interval">ÅRLIG</text>
+    
+    <!-- EU control stamp -->
+    <g transform="translate(50, 50)">
+      <circle cx="50" cy="30" r="25" fill="none" stroke="#e67e22" stroke-width="3"/>
+      <text x="50" y="25" font="10px Arial" fill="#e67e22" text-anchor="middle">EU</text>
+      <text x="50" y="37" font="8px Arial" fill="#e67e22" text-anchor="middle">KONTROLL</text>
+    </g>
+    
+    <g transform="translate(20, 100)">
+      <text x="0" y="0" class="checklist">• Bremsetest</text>
+      <text x="0" y="15" class="checklist">• Lys og reflekser</text>
+      <text x="0" y="30" class="checklist">• Strukturell kontroll</text>
+      <text x="0" y="45" class="checklist">• Miljøkrav</text>
+    </g>
+  </g>
+  
+  <!-- Detailed inspection areas -->
+  <g transform="translate(50, 250)">
+    <rect x="0" y="0" width="700" height="180" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="subtitle">Detaljerte kontrollpunkter</text>
+    
+    <!-- Brake system -->
+    <g transform="translate(50, 50)">
+      <rect x="0" y="0" width="150" height="100" fill="#ffebee" stroke="#e74c3c" stroke-width="1" rx="5"/>
+      <text x="75" y="20" font="12px Arial" fill="#e74c3c" text-anchor="middle">Bremsesystem</text>
+      
+      <!-- Brake disc -->
+      <circle cx="40" cy="50" r="15" fill="none" stroke="#34495e" stroke-width="3"/>
+      <circle cx="40" cy="50" r="8" fill="none" stroke="#34495e" stroke-width="1"/>
+      <!-- Brake pads -->
+      <rect x="32" y="35" width="5" height="8" fill="#e74c3c"/>
+      <rect x="48" y="35" width="5" height="8" fill="#e74c3c"/>
+      
+      <!-- Brake fluid reservoir -->
+      <rect x="80" y="35" width="20" height="15" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+      <rect x="82" y="37" width="16" height="8" fill="#2980b9"/>
+      
+      <text x="10" y="75" font="9px Arial" fill="#555">• Bremsekraft</text>
+      <text x="10" y="87" font="9px Arial" fill="#555">• Væskenivå</text>
+    </g>
+    
+    <!-- Electrical system -->
+    <g transform="translate(220, 50)">
+      <rect x="0" y="0" width="150" height="100" fill="#fff9e6" stroke="#f39c12" stroke-width="1" rx="5"/>
+      <text x="75" y="20" font="12px Arial" fill="#f39c12" text-anchor="middle">Elektrisk anlegg</text>
+      
+      <!-- Lights -->
+      <circle cx="30" cy="45" r="8" fill="#f39c12"/>
+      <circle cx="50" cy="45" r="8" fill="#e74c3c"/>
+      <circle cx="70" cy="45" r="8" fill="#f39c12"/>
+      <circle cx="90" cy="45" r="6" fill="#fff" stroke="#34495e"/>
+      
+      <!-- Connector -->
+      <rect x="110" y="40" width="15" height="10" fill="#34495e"/>
+      <circle cx="112" cy="42" r="1" fill="#f39c12"/>
+      <circle cx="116" cy="42" r="1" fill="#e74c3c"/>
+      <circle cx="120" cy="42" r="1" fill="#27ae60"/>
+      <circle cx="123" cy="42" r="1" fill="#3498db"/>
+      
+      <text x="10" y="75" font="9px Arial" fill="#555">• Posisjonslys</text>
+      <text x="10" y="87" font="9px Arial" fill="#555">• Stopp/blink</text>
+    </g>
+    
+    <!-- Suspension and wheels -->
+    <g transform="translate(390, 50)">
+      <rect x="0" y="0" width="150" height="100" fill="#f0f0ff" stroke="#8e44ad" stroke-width="1" rx="5"/>
+      <text x="75" y="20" font="12px Arial" fill="#8e44ad" text-anchor="middle">Hjul og fjæruing</text>
+      
+      <!-- Wheel and suspension -->
+      <circle cx="50" cy="55" r="18" fill="none" stroke="#34495e" stroke-width="3"/>
+      <circle cx="50" cy="55" r="12" fill="#7f8c8d"/>
+      <!-- Spring -->
+      <path d="M50 37 Q45 32 50 27 Q55 32 50 37" stroke="#8e44ad" stroke-width="2" fill="none"/>
+      <!-- Shock absorber -->
+      <rect x="48" y="25" width="4" height="12" fill="#8e44ad"/>
+      
+      <!-- Tire tread -->
+      <path d="M32 55 L68 55" stroke="#2c3e50" stroke-width="4"/>
+      <line x1="35" y1="52" x2="35" y2="58" stroke="#2c3e50" stroke-width="1"/>
+      <line x1="40" y1="52" x2="40" y2="58" stroke="#2c3e50" stroke-width="1"/>
+      <line x1="45" y1="52" x2="45" y2="58" stroke="#2c3e50" stroke-width="1"/>
+      <line x1="55" y1="52" x2="55" y2="58" stroke="#2c3e50" stroke-width="1"/>
+      <line x1="60" y1="52" x2="60" y2="58" stroke="#2c3e50" stroke-width="1"/>
+      <line x1="65" y1="52" x2="65" y2="58" stroke="#2c3e50" stroke-width="1"/>
+      
+      <text x="10" y="75" font="9px Arial" fill="#555">• Dekkslitasje</text>
+      <text x="10" y="87" font="9px Arial" fill="#555">• Hjullagre</text>
+    </g>
+    
+    <!-- Coupling system -->
+    <g transform="translate(560, 50)">
+      <rect x="0" y="0" width="120" height="100" fill="#f0fff0" stroke="#27ae60" stroke-width="1" rx="5"/>
+      <text x="60" y="20" font="12px Arial" fill="#27ae60" text-anchor="middle">Kobling</text>
+      
+      <!-- Ball coupling -->
+      <circle cx="40" cy="45" r="6" fill="#34495e"/>
+      <rect x="50" y="40" width="20" height="10" fill="#7f8c8d" stroke="#34495e" stroke-width="1"/>
+      <!-- Locking mechanism -->
+      <rect x="55" y="42" width="10" height="6" fill="#e74c3c"/>
+      <!-- Safety wire -->
+      <path d="M70 45 Q80 35 90 45" stroke="#8e44ad" stroke-width="2" fill="none"/>
+      
+      <text x="10" y="75" font="9px Arial" fill="#555">• Kulekrokning</text>
+      <text x="10" y="87" font="9px Arial" fill="#555">• Sikkerhetswire</text>
+    </g>
+  </g>
+  
+  <!-- Maintenance schedule -->
+  <g transform="translate(50, 450)">
+    <rect x="0" y="0" width="700" height="120" fill="#fff5f5" stroke="#e74c3c" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="subtitle">⚠ Vedlikeholdsplan og lovkrav</text>
+    
+    <g transform="translate(50, 40)">
+      <text x="0" y="0" font="12px Arial" fill="#e74c3c">Påkrevd vedlikehold:</text>
+      <text x="0" y="20" font="10px Arial" fill="#555">• Tilhengere over 750 kg må ha årlig EU-kontroll</text>
+      <text x="0" y="35" font="10px Arial" fill="#555">• Manglende kontroll gir bøter og kan påvirke forsikring</text>
+      <text x="0" y="50" font="10px Arial" fill="#555">• Dekk må ha minimum 1,6mm mønsterdybde</text>
+      <text x="0" y="65" font="10px Arial" fill="#555">• Bremsevæske må skiftes etter produsentens anbefalinger</text>
+    </g>
+    
+    <g transform="translate(400, 40)">
+      <text x="0" y="0" font="12px Arial" fill="#27ae60">Anbefalt ekstra vedlikehold:</text>
+      <text x="0" y="20" font="10px Arial" fill="#555">• Smør hjullagre og kobling regelmessig</text>
+      <text x="0" y="35" font="10px Arial" fill="#555">• Sjekk og stram skruer og bolter</text>
+      <text x="0" y="50" font="10px Arial" fill="#555">• Rengjør og behandle understell mot rust</text>
+      <text x="0" y="65" font="10px Arial" fill="#555">• Sjekk og reparer småskader umiddelbart</text>
+    </g>
+  </g>
+</svg>

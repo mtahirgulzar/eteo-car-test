@@ -1,0 +1,1910 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kjøring under vanskelige forhold | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær hvordan du tilpasser kjøringen i regn, snø, is, tåke og sterk vind for en trygg kjøring. Viktige tips for førerkort klasse B.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/kjoring-under-vanskelige-forhold/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/kjoring-under-vanskelige-forhold/article/">
+    <meta property="og:title" content="Kjøring under vanskelige forhold | Eteo">
+    <meta property="og:description" content="Lær hvordan du tilpasser kjøringen i regn, snø, is, tåke og sterk vind for en trygg kjøring. Viktige tips for førerkort klasse B.">
+    <meta property="og:image" content="//localhost:1313/images/blog/kjoring-under-vanskelige-forhold/kjoring-under-vanskelige-forhold-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kjøring under vanskelige forhold | Eteo">
+    <meta name="twitter:description" content="Lær hvordan du tilpasser kjøringen i regn, snø, is, tåke og sterk vind for en trygg kjøring. Viktige tips for førerkort klasse B.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/kjoring-under-vanskelige-forhold/kjoring-under-vanskelige-forhold-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Kjøring under vanskelige forhold</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                19 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/kjoring-under-vanskelige-forhold/kjoring-under-vanskelige-forhold-image.svg" 
+                    alt="Kjøring under vanskelige forhold" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/kjoring-under-vanskelige-forhold/kjoring-under-vanskelige-forhold-image.svg" alt="Kjøring under vanskelige forhold" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+    <li><a href="#oversikt-over-vanskelige-forhold">Oversikt over vanskelige forhold</a></li>
+    <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a>
+      <ul>
+        <li><a href="#vannplaning-aquaplaning">Vannplaning (Aquaplaning)</a></li>
+        <li><a href="#praktiske-tips-for-regnkjãring">Praktiske tips for regnkjÃ¸ring</a></li>
+        <li><a href="#teknisk-forklaring-dekk-og-veibane">Teknisk forklaring: Dekk og veibane</a></li>
+      </ul>
+    </li>
+    <li><a href="#snã-og-vinterkjãring">SnÃ¸ og vinterkjÃ¸ring</a>
+      <ul>
+        <li><a href="#snãtyper-og-deres-utfordringer">SnÃ¸typer og deres utfordringer</a></li>
+        <li><a href="#kjãreteknikk-i-snã">KjÃ¸reteknikk i snÃ¸</a></li>
+        <li><a href="#bremsing-i-snã">Bremsing i snÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#is-og-ekstreme-glatte-forhold">Is og ekstreme glatte forhold</a>
+      <ul>
+        <li><a href="#typer-glatte-forhold">Typer glatte forhold</a></li>
+        <li><a href="#kjãreteknikk-pã-is">KjÃ¸reteknikk pÃ¥ is</a></li>
+        <li><a href="#hãndtering-av-skrens-pã-is">HÃ¥ndtering av skrens pÃ¥ is</a></li>
+      </ul>
+    </li>
+    <li><a href="#tãke-og-redusert-sikt">TÃ¥ke og redusert sikt</a>
+      <ul>
+        <li><a href="#tãketyper-og-utfordringer">TÃ¥ketyper og utfordringer</a></li>
+        <li><a href="#siktlengde-og-hastighetstilpasning">Siktlengde og hastighetstilpasning</a></li>
+        <li><a href="#praktisk-tãkekjãring">Praktisk tÃ¥kekjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#sterk-vind-og-sidevind">Sterk vind og sidevind</a>
+      <ul>
+        <li><a href="#vindpãvirkning-pã-forskjellige-kjãretãy">VindpÃ¥virkning pÃ¥ forskjellige kjÃ¸retÃ¸y</a></li>
+        <li><a href="#vindkritiske-omrãder">Vindkritiske omrÃ¥der</a></li>
+        <li><a href="#kjãreteknikk-i-vind">KjÃ¸reteknikk i vind</a></li>
+      </ul>
+    </li>
+    <li><a href="#kombinerte-vanskelige-forhold">Kombinerte vanskelige forhold</a>
+      <ul>
+        <li><a href="#vanlige-kombinasjoner-og-tiltak">Vanlige kombinasjoner og tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-aspekter">Psykologiske aspekter</a>
+      <ul>
+        <li><a href="#stressmestring">Stressmestring</a></li>
+        <li><a href="#overselvsikkerhet">Overselvsikkerhet</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelser-og-planlegging">Forberedelser og planlegging</a>
+      <ul>
+        <li><a href="#pre-trip-sjekkliste">Pre-trip sjekkliste</a></li>
+        <li><a href="#vãranalyse-og-ruteplanlegging">VÃ¦ranalyse og ruteplanlegging</a></li>
+        <li><a href="#nãdutstyr-for-vanskelige-forhold">NÃ¸dutstyr for vanskelige forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#hãndtering-av-kritiske-situasjoner">HÃ¥ndtering av kritiske situasjoner</a>
+      <ul>
+        <li><a href="#akutte-situasjoner">Akutte situasjoner</a></li>
+        <li><a href="#kommunikasjon-med-nãdetater">Kommunikasjon med nÃ¸detater</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#elektroniske-kjãrehjelp-systemer">Elektroniske kjÃ¸rehjelp-systemer</a></li>
+        <li><a href="#varsling--og-informasjonssystemer">Varsling- og informasjonssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-kjãretãy-typer">Spesielle kjÃ¸retÃ¸y-typer</a>
+      <ul>
+        <li><a href="#kjãring-med-tilhenger">KjÃ¸ring med tilhenger</a></li>
+        <li><a href="#firehjulsdrift-4wd">Firehjulsdrift (4WD)</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#dekk-regelverkene">Dekk-regelverkene</a></li>
+        <li><a href="#ansvar-ved-uhell">Ansvar ved uhell</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãhensyn">MiljÃ¸hensyn</a>
+      <ul>
+        <li><a href="#redusere-miljãpãvirkning">Redusere miljÃ¸pÃ¥virkning</a></li>
+      </ul>
+    </li>
+    <li><a href="#ãvelse-og-ferdighetutvikling">Ã˜velse og ferdighetutvikling</a>
+      <ul>
+        <li><a href="#sikre-ãvingsomrãder">Sikre Ã¸vingsomrÃ¥der</a></li>
+        <li><a href="#ãvingsãkter">Ã˜vingsÃ¸kter</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-sjekkliste">Oppsummering og sjekkliste</a>
+      <ul>
+        <li><a href="#nãkkelprinsipper">NÃ¸kkelprinsipper</a></li>
+        <li><a href="#sjekkliste-fãr-kjãring-under-vanskelige-forhold">Sjekkliste fÃ¸r kjÃ¸ring under vanskelige forhold</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+    <li><a href="#oversikt-over-vanskelige-forhold">Oversikt over vanskelige forhold</a></li>
+    <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a>
+      <ul>
+        <li><a href="#vannplaning-aquaplaning">Vannplaning (Aquaplaning)</a></li>
+        <li><a href="#praktiske-tips-for-regnkjãring">Praktiske tips for regnkjÃ¸ring</a></li>
+        <li><a href="#teknisk-forklaring-dekk-og-veibane">Teknisk forklaring: Dekk og veibane</a></li>
+      </ul>
+    </li>
+    <li><a href="#snã-og-vinterkjãring">SnÃ¸ og vinterkjÃ¸ring</a>
+      <ul>
+        <li><a href="#snãtyper-og-deres-utfordringer">SnÃ¸typer og deres utfordringer</a></li>
+        <li><a href="#kjãreteknikk-i-snã">KjÃ¸reteknikk i snÃ¸</a></li>
+        <li><a href="#bremsing-i-snã">Bremsing i snÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#is-og-ekstreme-glatte-forhold">Is og ekstreme glatte forhold</a>
+      <ul>
+        <li><a href="#typer-glatte-forhold">Typer glatte forhold</a></li>
+        <li><a href="#kjãreteknikk-pã-is">KjÃ¸reteknikk pÃ¥ is</a></li>
+        <li><a href="#hãndtering-av-skrens-pã-is">HÃ¥ndtering av skrens pÃ¥ is</a></li>
+      </ul>
+    </li>
+    <li><a href="#tãke-og-redusert-sikt">TÃ¥ke og redusert sikt</a>
+      <ul>
+        <li><a href="#tãketyper-og-utfordringer">TÃ¥ketyper og utfordringer</a></li>
+        <li><a href="#siktlengde-og-hastighetstilpasning">Siktlengde og hastighetstilpasning</a></li>
+        <li><a href="#praktisk-tãkekjãring">Praktisk tÃ¥kekjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#sterk-vind-og-sidevind">Sterk vind og sidevind</a>
+      <ul>
+        <li><a href="#vindpãvirkning-pã-forskjellige-kjãretãy">VindpÃ¥virkning pÃ¥ forskjellige kjÃ¸retÃ¸y</a></li>
+        <li><a href="#vindkritiske-omrãder">Vindkritiske omrÃ¥der</a></li>
+        <li><a href="#kjãreteknikk-i-vind">KjÃ¸reteknikk i vind</a></li>
+      </ul>
+    </li>
+    <li><a href="#kombinerte-vanskelige-forhold">Kombinerte vanskelige forhold</a>
+      <ul>
+        <li><a href="#vanlige-kombinasjoner-og-tiltak">Vanlige kombinasjoner og tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-aspekter">Psykologiske aspekter</a>
+      <ul>
+        <li><a href="#stressmestring">Stressmestring</a></li>
+        <li><a href="#overselvsikkerhet">Overselvsikkerhet</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelser-og-planlegging">Forberedelser og planlegging</a>
+      <ul>
+        <li><a href="#pre-trip-sjekkliste">Pre-trip sjekkliste</a></li>
+        <li><a href="#vãranalyse-og-ruteplanlegging">VÃ¦ranalyse og ruteplanlegging</a></li>
+        <li><a href="#nãdutstyr-for-vanskelige-forhold">NÃ¸dutstyr for vanskelige forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#hãndtering-av-kritiske-situasjoner">HÃ¥ndtering av kritiske situasjoner</a>
+      <ul>
+        <li><a href="#akutte-situasjoner">Akutte situasjoner</a></li>
+        <li><a href="#kommunikasjon-med-nãdetater">Kommunikasjon med nÃ¸detater</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#elektroniske-kjãrehjelp-systemer">Elektroniske kjÃ¸rehjelp-systemer</a></li>
+        <li><a href="#varsling--og-informasjonssystemer">Varsling- og informasjonssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-kjãretãy-typer">Spesielle kjÃ¸retÃ¸y-typer</a>
+      <ul>
+        <li><a href="#kjãring-med-tilhenger">KjÃ¸ring med tilhenger</a></li>
+        <li><a href="#firehjulsdrift-4wd">Firehjulsdrift (4WD)</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#dekk-regelverkene">Dekk-regelverkene</a></li>
+        <li><a href="#ansvar-ved-uhell">Ansvar ved uhell</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãhensyn">MiljÃ¸hensyn</a>
+      <ul>
+        <li><a href="#redusere-miljãpãvirkning">Redusere miljÃ¸pÃ¥virkning</a></li>
+      </ul>
+    </li>
+    <li><a href="#ãvelse-og-ferdighetutvikling">Ã˜velse og ferdighetutvikling</a>
+      <ul>
+        <li><a href="#sikre-ãvingsomrãder">Sikre Ã¸vingsomrÃ¥der</a></li>
+        <li><a href="#ãvingsãkter">Ã˜vingsÃ¸kter</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-sjekkliste">Oppsummering og sjekkliste</a>
+      <ul>
+        <li><a href="#nãkkelprinsipper">NÃ¸kkelprinsipper</a></li>
+        <li><a href="#sjekkliste-fãr-kjãring-under-vanskelige-forhold">Sjekkliste fÃ¸r kjÃ¸ring under vanskelige forhold</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+    <li><a href="#oversikt-over-vanskelige-forhold">Oversikt over vanskelige forhold</a></li>
+    <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a>
+      <ul>
+        <li><a href="#vannplaning-aquaplaning">Vannplaning (Aquaplaning)</a></li>
+        <li><a href="#praktiske-tips-for-regnkjãring">Praktiske tips for regnkjÃ¸ring</a></li>
+        <li><a href="#teknisk-forklaring-dekk-og-veibane">Teknisk forklaring: Dekk og veibane</a></li>
+      </ul>
+    </li>
+    <li><a href="#snã-og-vinterkjãring">SnÃ¸ og vinterkjÃ¸ring</a>
+      <ul>
+        <li><a href="#snãtyper-og-deres-utfordringer">SnÃ¸typer og deres utfordringer</a></li>
+        <li><a href="#kjãreteknikk-i-snã">KjÃ¸reteknikk i snÃ¸</a></li>
+        <li><a href="#bremsing-i-snã">Bremsing i snÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#is-og-ekstreme-glatte-forhold">Is og ekstreme glatte forhold</a>
+      <ul>
+        <li><a href="#typer-glatte-forhold">Typer glatte forhold</a></li>
+        <li><a href="#kjãreteknikk-pã-is">KjÃ¸reteknikk pÃ¥ is</a></li>
+        <li><a href="#hãndtering-av-skrens-pã-is">HÃ¥ndtering av skrens pÃ¥ is</a></li>
+      </ul>
+    </li>
+    <li><a href="#tãke-og-redusert-sikt">TÃ¥ke og redusert sikt</a>
+      <ul>
+        <li><a href="#tãketyper-og-utfordringer">TÃ¥ketyper og utfordringer</a></li>
+        <li><a href="#siktlengde-og-hastighetstilpasning">Siktlengde og hastighetstilpasning</a></li>
+        <li><a href="#praktisk-tãkekjãring">Praktisk tÃ¥kekjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#sterk-vind-og-sidevind">Sterk vind og sidevind</a>
+      <ul>
+        <li><a href="#vindpãvirkning-pã-forskjellige-kjãretãy">VindpÃ¥virkning pÃ¥ forskjellige kjÃ¸retÃ¸y</a></li>
+        <li><a href="#vindkritiske-omrãder">Vindkritiske omrÃ¥der</a></li>
+        <li><a href="#kjãreteknikk-i-vind">KjÃ¸reteknikk i vind</a></li>
+      </ul>
+    </li>
+    <li><a href="#kombinerte-vanskelige-forhold">Kombinerte vanskelige forhold</a>
+      <ul>
+        <li><a href="#vanlige-kombinasjoner-og-tiltak">Vanlige kombinasjoner og tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-aspekter">Psykologiske aspekter</a>
+      <ul>
+        <li><a href="#stressmestring">Stressmestring</a></li>
+        <li><a href="#overselvsikkerhet">Overselvsikkerhet</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelser-og-planlegging">Forberedelser og planlegging</a>
+      <ul>
+        <li><a href="#pre-trip-sjekkliste">Pre-trip sjekkliste</a></li>
+        <li><a href="#vãranalyse-og-ruteplanlegging">VÃ¦ranalyse og ruteplanlegging</a></li>
+        <li><a href="#nãdutstyr-for-vanskelige-forhold">NÃ¸dutstyr for vanskelige forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#hãndtering-av-kritiske-situasjoner">HÃ¥ndtering av kritiske situasjoner</a>
+      <ul>
+        <li><a href="#akutte-situasjoner">Akutte situasjoner</a></li>
+        <li><a href="#kommunikasjon-med-nãdetater">Kommunikasjon med nÃ¸detater</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#elektroniske-kjãrehjelp-systemer">Elektroniske kjÃ¸rehjelp-systemer</a></li>
+        <li><a href="#varsling--og-informasjonssystemer">Varsling- og informasjonssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-kjãretãy-typer">Spesielle kjÃ¸retÃ¸y-typer</a>
+      <ul>
+        <li><a href="#kjãring-med-tilhenger">KjÃ¸ring med tilhenger</a></li>
+        <li><a href="#firehjulsdrift-4wd">Firehjulsdrift (4WD)</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#dekk-regelverkene">Dekk-regelverkene</a></li>
+        <li><a href="#ansvar-ved-uhell">Ansvar ved uhell</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãhensyn">MiljÃ¸hensyn</a>
+      <ul>
+        <li><a href="#redusere-miljãpãvirkning">Redusere miljÃ¸pÃ¥virkning</a></li>
+      </ul>
+    </li>
+    <li><a href="#ãvelse-og-ferdighetutvikling">Ã˜velse og ferdighetutvikling</a>
+      <ul>
+        <li><a href="#sikre-ãvingsomrãder">Sikre Ã¸vingsomrÃ¥der</a></li>
+        <li><a href="#ãvingsãkter">Ã˜vingsÃ¸kter</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-sjekkliste">Oppsummering og sjekkliste</a>
+      <ul>
+        <li><a href="#nãkkelprinsipper">NÃ¸kkelprinsipper</a></li>
+        <li><a href="#sjekkliste-fãr-kjãring-under-vanskelige-forhold">Sjekkliste fÃ¸r kjÃ¸ring under vanskelige forhold</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+    <li><a href="#oversikt-over-vanskelige-forhold">Oversikt over vanskelige forhold</a></li>
+    <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a>
+      <ul>
+        <li><a href="#vannplaning-aquaplaning">Vannplaning (Aquaplaning)</a></li>
+        <li><a href="#praktiske-tips-for-regnkjãring">Praktiske tips for regnkjÃ¸ring</a></li>
+        <li><a href="#teknisk-forklaring-dekk-og-veibane">Teknisk forklaring: Dekk og veibane</a></li>
+      </ul>
+    </li>
+    <li><a href="#snã-og-vinterkjãring">SnÃ¸ og vinterkjÃ¸ring</a>
+      <ul>
+        <li><a href="#snãtyper-og-deres-utfordringer">SnÃ¸typer og deres utfordringer</a></li>
+        <li><a href="#kjãreteknikk-i-snã">KjÃ¸reteknikk i snÃ¸</a></li>
+        <li><a href="#bremsing-i-snã">Bremsing i snÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#is-og-ekstreme-glatte-forhold">Is og ekstreme glatte forhold</a>
+      <ul>
+        <li><a href="#typer-glatte-forhold">Typer glatte forhold</a></li>
+        <li><a href="#kjãreteknikk-pã-is">KjÃ¸reteknikk pÃ¥ is</a></li>
+        <li><a href="#hãndtering-av-skrens-pã-is">HÃ¥ndtering av skrens pÃ¥ is</a></li>
+      </ul>
+    </li>
+    <li><a href="#tãke-og-redusert-sikt">TÃ¥ke og redusert sikt</a>
+      <ul>
+        <li><a href="#tãketyper-og-utfordringer">TÃ¥ketyper og utfordringer</a></li>
+        <li><a href="#siktlengde-og-hastighetstilpasning">Siktlengde og hastighetstilpasning</a></li>
+        <li><a href="#praktisk-tãkekjãring">Praktisk tÃ¥kekjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#sterk-vind-og-sidevind">Sterk vind og sidevind</a>
+      <ul>
+        <li><a href="#vindpãvirkning-pã-forskjellige-kjãretãy">VindpÃ¥virkning pÃ¥ forskjellige kjÃ¸retÃ¸y</a></li>
+        <li><a href="#vindkritiske-omrãder">Vindkritiske omrÃ¥der</a></li>
+        <li><a href="#kjãreteknikk-i-vind">KjÃ¸reteknikk i vind</a></li>
+      </ul>
+    </li>
+    <li><a href="#kombinerte-vanskelige-forhold">Kombinerte vanskelige forhold</a>
+      <ul>
+        <li><a href="#vanlige-kombinasjoner-og-tiltak">Vanlige kombinasjoner og tiltak</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologiske-aspekter">Psykologiske aspekter</a>
+      <ul>
+        <li><a href="#stressmestring">Stressmestring</a></li>
+        <li><a href="#overselvsikkerhet">Overselvsikkerhet</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelser-og-planlegging">Forberedelser og planlegging</a>
+      <ul>
+        <li><a href="#pre-trip-sjekkliste">Pre-trip sjekkliste</a></li>
+        <li><a href="#vãranalyse-og-ruteplanlegging">VÃ¦ranalyse og ruteplanlegging</a></li>
+        <li><a href="#nãdutstyr-for-vanskelige-forhold">NÃ¸dutstyr for vanskelige forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#hãndtering-av-kritiske-situasjoner">HÃ¥ndtering av kritiske situasjoner</a>
+      <ul>
+        <li><a href="#akutte-situasjoner">Akutte situasjoner</a></li>
+        <li><a href="#kommunikasjon-med-nãdetater">Kommunikasjon med nÃ¸detater</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-hjelpemidler">Teknologi og hjelpemidler</a>
+      <ul>
+        <li><a href="#elektroniske-kjãrehjelp-systemer">Elektroniske kjÃ¸rehjelp-systemer</a></li>
+        <li><a href="#varsling--og-informasjonssystemer">Varsling- og informasjonssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-kjãretãy-typer">Spesielle kjÃ¸retÃ¸y-typer</a>
+      <ul>
+        <li><a href="#kjãring-med-tilhenger">KjÃ¸ring med tilhenger</a></li>
+        <li><a href="#firehjulsdrift-4wd">Firehjulsdrift (4WD)</a></li>
+      </ul>
+    </li>
+    <li><a href="#juridiske-aspekter">Juridiske aspekter</a>
+      <ul>
+        <li><a href="#dekk-regelverkene">Dekk-regelverkene</a></li>
+        <li><a href="#ansvar-ved-uhell">Ansvar ved uhell</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãhensyn">MiljÃ¸hensyn</a>
+      <ul>
+        <li><a href="#redusere-miljãpãvirkning">Redusere miljÃ¸pÃ¥virkning</a></li>
+      </ul>
+    </li>
+    <li><a href="#ãvelse-og-ferdighetutvikling">Ã˜velse og ferdighetutvikling</a>
+      <ul>
+        <li><a href="#sikre-ãvingsomrãder">Sikre Ã¸vingsomrÃ¥der</a></li>
+        <li><a href="#ãvingsãkter">Ã˜vingsÃ¸kter</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-sjekkliste">Oppsummering og sjekkliste</a>
+      <ul>
+        <li><a href="#nãkkelprinsipper">NÃ¸kkelprinsipper</a></li>
+        <li><a href="#sjekkliste-fãr-kjãring-under-vanskelige-forhold">Sjekkliste fÃ¸r kjÃ¸ring under vanskelige forhold</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>KjÃ¸ring under vanskelige forhold</strong> omfatter alle situasjoner hvor <strong>vÃ¦r</strong>, <strong>fÃ¸re</strong> eller <strong>sikt</strong> pÃ¥virker kjÃ¸resikkerheten negativt. Dette inkluderer <strong>regn</strong>, <strong>snÃ¸</strong>, <strong>is</strong>, <strong>tÃ¥ke</strong>, <strong>sterk vind</strong>, <strong>slaps</strong> og andre forhold som reduserer <strong>grip</strong>, <strong>sikt</strong> og <strong>kjÃ¸retÃ¸yets kontroll</strong>. Mestring av disse situasjonene krever dybdeforstÃ¥else av <strong>fysikk</strong>, <strong>kjÃ¸retÃ¸yteknikk</strong> og <strong>mentale tilpasninger</strong>.</p>
+<p>For en oversikt over gjeldende lover og forskrifter, se <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Oversikt over norske trafikklover og forskrifter">Lover og forskrifter</a>.</p>
+<h2 id="relaterte-artikler">Relaterte artikler</h2>
+<p>For grunnleggende prinsipper, se <a href="/blogs/teori/introduksjon-til-teori-for-forerkort" title="Introduksjon til teori for fÃ¸rerkort">Introduksjon til teori for fÃ¸rerkort</a> og <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">Fart og avstand</a>.</p>
+<p>For menneskelige faktorer ved vanskelig kjÃ¸ring, se <a href="/blogs/teori/mennesket-i-trafikken" title="Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring">Mennesket i trafikken</a> og <a href="/blogs/teori/risikovurdering-i-praksis" title="Risikovurdering i praksis - Identifiser og hÃ¥ndter risiko">Risikovurdering i praksis</a>.</p>
+<p>For en helhetlig, proaktiv og risiko-minimerende kjÃ¸restrategi, se <a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring - Prinsipper og teknikker for trygg kjÃ¸ring">Defensiv kjÃ¸ring</a>.</p>
+<p>For nÃ¸dsituasjoner under vanskelige forhold, se <a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - Guide til hÃ¥ndtering av nÃ¸dsituasjoner">HÃ¥ndtering av nÃ¸dsituasjoner</a> og <a href="/blogs/teori/forstehjelp-og-opptreden-ved-ulykker" title="FÃ¸rstehjelp og opptreden ved ulykker - Livsviktige ferdigheter">FÃ¸rstehjelp og opptreden ved ulykker</a>.</p>
+<p>For spesifikke situasjoner, se <a href="/blogs/teori/kjoring-i-morket" title="KjÃ¸ring i mÃ¸rket - Komplett guide til trygg nattkjÃ¸ring">KjÃ¸ring i mÃ¸rket</a>, <a href="/blogs/teori/landeveiskjoring" title="LandeveiskjÃ¸ring - Guide til sikker kjÃ¸ring pÃ¥ norske landeveier">LandeveiskjÃ¸ring</a>, <a href="/blogs/teori/regler-for-dekk-og-kjetting" title="Regler for dekk og kjetting - Krav til mÃ¸nsterdybde og sesongdekk">Regler for dekk og kjetting</a> og <a href="/blogs/teori/motorveikjoring" title="MotorveikjÃ¸ring - Guide til kjÃ¸ring pÃ¥ norsk motorvei">MotorveikjÃ¸ring</a>.</p>
+<p>For optimal signalering og samhandling i krevende trafikksituasjoner, se <a href="/blogs/teori/kommunikasjon-med-andre-trafikanter" title="Kommunikasjon med andre trafikanter - Tydelige signaler og trygg trafikk">Kommunikasjon med andre trafikanter</a>.</p>
+<p>For mer om grunnleggende bruk av lys og signaler, se <a href="/blogs/teori/bruk-av-lys-og-signaler" title="Bruk av lys og signaler - Komplett guide til lysbruk og signalering">Bruk av lys og signaler</a>.</p>
+<p>For forebygging av frontkollisjoner og mÃ¸teulykker, se <a href="/blogs/teori/moteulykker-og-forebygging" title="MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken">MÃ¸teulykker og forebygging</a>.</p>
+<h2 id="oversikt-over-vanskelige-forhold">Oversikt over vanskelige forhold</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Forhold</th>
+          <th>Hovedrisiko</th>
+          <th>PrimÃ¦r tilpasning</th>
+          <th>Kritiske faktorer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Regn</strong></td>
+          <td>Vannplaning, redusert grip</td>
+          <td>Senk hastighet 20-30%</td>
+          <td>DekkmÃ¸nster, vanndybde, hastighet</td>
+      </tr>
+      <tr>
+          <td><strong>SnÃ¸</strong></td>
+          <td>DÃ¥rlig grip, hjulspinn</td>
+          <td>Myk kjÃ¸ring, hÃ¸y/lav gir</td>
+          <td>SnÃ¸type, temperatur, dekk</td>
+      </tr>
+      <tr>
+          <td><strong>Is / Glatt fÃ¸re</strong></td>
+          <td>Uforutsigbar friksjon, skrens</td>
+          <td>Ekstrem forsiktighet</td>
+          <td>Temperatur, underlag, skrensfare</td>
+      </tr>
+      <tr>
+          <td><strong>TÃ¥ke</strong></td>
+          <td>Drastisk redusert sikt</td>
+          <td>TÃ¥kelys, lav hastighet</td>
+          <td>Siktlengde, kondens, reflektor</td>
+      </tr>
+      <tr>
+          <td><strong>Sterk vind</strong></td>
+          <td>Ustabil kjÃ¸ring, sidevind</td>
+          <td>Fast grep, tilpasset hastighet</td>
+          <td>Vindstyrke, kjÃ¸retÃ¸ytype, eksponering</td>
+      </tr>
+      <tr>
+          <td><strong>Slaps</strong></td>
+          <td>Vannfilm, ujevn friksjon</td>
+          <td>Forsiktig akselerasjon</td>
+          <td>Underlag, temperatur, dekk</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Hastighetstilpasning under vanskelige forhold krever ogsÃ¥ forstÃ¥else av hvor du kan se fartsgrensene og advarselsskilt. Se <a href="/blogs/teori/trafikkskilt-og-veimerking" title="Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking">Trafikkskilt og veimerking</a> for informasjon om variable hastighetsskilt og vÃ¦rrelaterte advarsler.</em></p>
+<h2 id="regn-og-vãte-forhold">Regn og vÃ¥te forhold</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Regn</strong> skaper flere utfordringer samtidig: <strong>redusert grip</strong>, <strong>vannplaning</strong> og <strong>nedsatt sikt</strong>. VÃ¥t asfalt kan ha sÃ¥ lite som <strong>20-50%</strong> av normalt grip.</p>
+<h3 id="vannplaning-aquaplaning">Vannplaning (Aquaplaning)</h3>
+<p><strong>Vannplaning</strong> oppstÃ¥r nÃ¥r dekket mister kontakt med veibanen pÃ¥ grunn av vannlag:</p>
+<ul>
+<li><strong>Kritisk hastighet</strong>: Avhenger av dekkmÃ¸nster, trykk og vanndybde</li>
+<li><strong>Faresignaler</strong>: Lettratthet, motoromdreiningene Ã¸ker uten hastighetsÃ¸kning</li>
+<li><strong>HÃ¥ndtering</strong>: LÃ¸ft gassen gradvis, IKKE brems eller sving brÃ¥tt</li>
+</ul>
+<h3 id="praktiske-tips-for-regnkjãring">Praktiske tips for regnkjÃ¸ring</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<ul>
+<li><strong>Hastighet</strong>: Reduser med 20-30% avhengig av regnintenitet</li>
+<li><strong>Avstand</strong>: Dobbel eller tredobbel sikkerhetsavstand (se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">Fart og avstand</a> for beregninger av sikre avstander under ulike forhold)</li>
+<li><strong>KjÃ¸remÃ¸nster</strong>: FÃ¸lg eksisterende hjulspor hvor vannet er presset vekk</li>
+<li><strong>Bremsing</strong>: Tidligere og mildere enn normalt</li>
+<li><strong>Belysning</strong>: Bruk nÃ¦rlys selv om dagen for Ã¸kt synlighet</li>
+</ul>
+<h3 id="teknisk-forklaring-dekk-og-veibane">Teknisk forklaring: Dekk og veibane</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Faktor</th>
+          <th>PÃ¥virkning pÃ¥ grip</th>
+          <th>Tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>MÃ¸nsterdybde</strong></td>
+          <td>&lt; 3mm = stor vannplaningsrisiko</td>
+          <td>Kontroller dekk regelmessig</td>
+      </tr>
+      <tr>
+          <td><strong>Dekktrykk</strong></td>
+          <td>Lavt trykk Ã¸ker vannplaningsrisiko</td>
+          <td>Juster til anbefalt trykk + 0,2 bar</td>
+      </tr>
+      <tr>
+          <td><strong>Vanndybde</strong></td>
+          <td>&gt; 5mm skaper betydelig risiko</td>
+          <td>UnngÃ¥ store vannpytter</td>
+      </tr>
+      <tr>
+          <td><strong>Hastighet</strong></td>
+          <td>Jo hÃ¸yere, desto stÃ¸rre risiko</td>
+          <td>Tilpass til forholdene</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="snã-og-vinterkjãring">SnÃ¸ og vinterkjÃ¸ring</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>SnÃ¸kjÃ¸ring</strong> krever fundamental endring av kjÃ¸reteknikk. Grip kan vÃ¦re sÃ¥ lite som <strong>10-30%</strong> av normal asfalt.</p>
+<h3 id="snãtyper-og-deres-utfordringer">SnÃ¸typer og deres utfordringer</h3>
+<table>
+  <thead>
+      <tr>
+          <th>SnÃ¸type</th>
+          <th>Gripforhold</th>
+          <th>KjÃ¸reteknikk</th>
+          <th>Spesielle hensyn</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>NysnÃ¸</strong></td>
+          <td>Middels grip</td>
+          <td>Myk akkelerasjon, stabil hastighet</td>
+          <td>Kan skjule is under</td>
+      </tr>
+      <tr>
+          <td><strong>PulversnÃ¸</strong></td>
+          <td>Variabelt grip</td>
+          <td>FÃ¸lg hjulspor, unngÃ¥ dype omrÃ¥der</td>
+          <td>Virvles opp, reduserer sikt</td>
+      </tr>
+      <tr>
+          <td><strong>Kompakt snÃ¸</strong></td>
+          <td>Godt grip</td>
+          <td>Normal teknikk med Ã¸kt forsiktighet</td>
+          <td>Kan vÃ¦re glatt pÃ¥ toppen</td>
+      </tr>
+      <tr>
+          <td><strong>Slaps/VÃ¥t snÃ¸</strong></td>
+          <td>DÃ¥rlig grip</td>
+          <td>Ekstrem forsiktighet</td>
+          <td>Klebrig, kan stoppe hjul</td>
+      </tr>
+      <tr>
+          <td><strong>Is under snÃ¸</strong></td>
+          <td>Meget dÃ¥rlig grip</td>
+          <td>Som iskjÃ¸ring</td>
+          <td>Farlig - uforutsigbart</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="kjãreteknikk-i-snã">KjÃ¸reteknikk i snÃ¸</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Girteknikk</strong>:</p>
+<ul>
+<li><strong>HÃ¸y gir</strong>: Mindre hjulspinn ved akselerasjon fra stillestÃ¥ende</li>
+<li><strong>Lav gir</strong>: Bedre motorbrems og kontroll ved nedkjÃ¸ring</li>
+<li><strong>Konstant gir</strong>: UnngÃ¥ gir-skifte i kritiske situasjoner</li>
+</ul>
+<p><strong>Rattbevegelser</strong>:</p>
+<ul>
+<li><strong>Myke og forutsigbare</strong> bevegelser</li>
+<li><strong>Gradvis korrigering</strong> ved ustabilitet</li>
+<li><strong>Understyring</strong>: LÃ¸ft gassen, ikke sving mer</li>
+<li><strong>Overstyring</strong>: Sving med skrens, ikke mot</li>
+</ul>
+<h3 id="bremsing-i-snã">Bremsing i snÃ¸</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Teknikk</th>
+          <th>Anvendelse</th>
+          <th>Fordeler</th>
+          <th>Ulemper</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Motorbrems</strong></td>
+          <td>Gradvis retarding</td>
+          <td>HÃ¸y kontroll, ingen hjullÃ¥s</td>
+          <td>Langsom, krever planlegging</td>
+      </tr>
+      <tr>
+          <td><strong>Pulsbremsing</strong></td>
+          <td>NÃ¸dbremsing uten ABS</td>
+          <td>Bevarer styreevne</td>
+          <td>Krever Ã¸velse og teknikk</td>
+      </tr>
+      <tr>
+          <td><strong>ABS-bremsing</strong></td>
+          <td>NÃ¸dbremsing med ABS</td>
+          <td>Optimal bremsekraft</td>
+          <td>Kan gi lengre bremsevei i snÃ¸</td>
+      </tr>
+      <tr>
+          <td><strong>Kombinert</strong></td>
+          <td>Normal kjÃ¸ring</td>
+          <td>Balanserer kontroll og effektivitet</td>
+          <td>Krever erfaring</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="is-og-ekstreme-glatte-forhold">Is og ekstreme glatte forhold</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>IskjÃ¸ring</strong> representerer de mest utfordrende forhold. Grip kan vÃ¦re sÃ¥ lite som <strong>5-15%</strong> av normal asfalt.</p>
+<h3 id="typer-glatte-forhold">Typer glatte forhold</h3>
+<p><strong>Rimfrost</strong>: Tynt islag som ofte overrasker om morgenen
+<strong>UnderkjÃ¸lt regn</strong>: Regn som fryser ved kontakt - ekstremt farlig
+<strong>Svart is</strong>: Nesten usynlig istype pÃ¥ asfalt</p>
+<p><em>Slike ekstreme forhold Ã¸ker risikoen for alvorlige ulykker dramatisk. Les mer om <a href="/blogs/teori/moteulykker-og-forebygging" title="MÃ¸teulykker og forebygging - Hvordan vanskelige forhold Ã¸ker kollisjonrisikoen">MÃ¸teulykker og forebygging</a> for Ã¥ forstÃ¥ hvordan dÃ¥rlig veigrep bidrar til frontkollisjoner.</em>
+<strong>Kompakt is</strong>: Tykt islag med varierende friksjon</p>
+<h3 id="kjãreteknikk-pã-is">KjÃ¸reteknikk pÃ¥ is</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Grunnprinsipper</strong>:</p>
+<ul>
+<li><strong>Ekstrem forsiktighet</strong> - alle bevegelser mÃ¥ vÃ¦re minimale</li>
+<li><strong>Lav hastighet</strong> - ofte under 30 km/t</li>
+<li><strong>Maksimal avstand</strong> - minst 10x normal avstand</li>
+<li><strong>UnngÃ¥ plutselige manÃ¸vrer</strong> helt</li>
+</ul>
+<p><strong>Spesielle teknikker</strong>:</p>
+<ul>
+<li><strong>&ldquo;FÃ¸ling&rdquo; av grep</strong>: Test grip forsiktig ved lave hastigheter</li>
+<li><strong>Retningsstabilitet</strong>: Hold rattet lÃ¸st men fast</li>
+<li><strong>Bremsing</strong>: Kun motorbrems hvis mulig</li>
+<li><strong>Akselerasjon</strong>: Minimal gass, hÃ¸y gir</li>
+</ul>
+<h3 id="hãndtering-av-skrens-pã-is">HÃ¥ndtering av skrens pÃ¥ is</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Skrensetyp</th>
+          <th>Ã…rsak</th>
+          <th>Korrektiv handling</th>
+          <th>UnngÃ¥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Understyring</strong></td>
+          <td>Forhjul mister grip</td>
+          <td>LÃ¸ft gassen, mindre ratt</td>
+          <td>Mer gass eller mer ratt</td>
+      </tr>
+      <tr>
+          <td><strong>Overstyring</strong></td>
+          <td>Bakhjul mister grip</td>
+          <td>Sving med skrens, kontroller gass</td>
+          <td>Brems eller sving mot skrens</td>
+      </tr>
+      <tr>
+          <td><strong>Firefault-skrens</strong></td>
+          <td>Alle hjul mister grip</td>
+          <td>Rett ut rattet, vente</td>
+          <td>Alle typer input</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="tãke-og-redusert-sikt">TÃ¥ke og redusert sikt</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>TÃ¥ke</strong> kan redusere sikt fra flere kilometer til bare fÃ¥ meter pÃ¥ sekunder. Dette krever fundamental endring av kjÃ¸remÃ¸nster.</p>
+<h3 id="tãketyper-og-utfordringer">TÃ¥ketyper og utfordringer</h3>
+<p><strong>RadiasjonstÃ¥ke</strong>: OppstÃ¥r kalde, klare netter - tykkest ved daggry
+<strong>AdvelsjonstÃ¥ke</strong>: Varm luft over kald overflate - langvarig
+<strong>NedbÃ¸rstÃ¥ke</strong>: OppstÃ¥r ved regn over varm bakke
+<strong>SjÃ¸tÃ¥ke</strong>: Beveger seg inn fra kysten</p>
+<h3 id="siktlengde-og-hastighetstilpasning">Siktlengde og hastighetstilpasning</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Siktlengde</th>
+          <th>Maksimal trygg hastighet</th>
+          <th>Belysning</th>
+          <th>Spesielle hensyn</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>&gt; 200m</strong></td>
+          <td>Normal hastighet med forsiktighet</td>
+          <td>NÃ¦rlys</td>
+          <td>VÃ¦r forberedt pÃ¥ plutselig forverring</td>
+      </tr>
+      <tr>
+          <td><strong>50-200m</strong></td>
+          <td>50-60 km/t</td>
+          <td>NÃ¦rlys + tÃ¥kelys</td>
+          <td>Ã˜k avstand til forankjÃ¸rende</td>
+      </tr>
+      <tr>
+          <td><strong>20-50m</strong></td>
+          <td>30-40 km/t</td>
+          <td>TÃ¥kelys</td>
+          <td>FÃ¸lg veikant og veistriping</td>
+      </tr>
+      <tr>
+          <td><strong>&lt; 20m</strong></td>
+          <td>Under 20 km/t eller stopp</td>
+          <td>TÃ¥kelys + blinklys</td>
+          <td>SÃ¸k trygg parkeringsplass</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>For detaljert guide til avanserte parkeringsstrategier under vanskelige forhold, se <a href="/blogs/teori/parkering-for-viderekomne" title="Parkering for viderekomne - Avanserte teknikker og stressmestring">Parkering for viderekomne</a>.</em></p>
+<h3 id="praktisk-tãkekjãring">Praktisk tÃ¥kekjÃ¸ring</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Belysningsbruk</strong>:</p>
+<ul>
+<li><strong>ALDRI fjernlys</strong> - skaper blindende reflektor</li>
+<li><strong>TÃ¥kelys</strong>: NÃ¥r sikt &lt; 50m</li>
+<li><strong>NÃ¦rlys</strong>: Standard i lett tÃ¥ke</li>
+<li><strong>Blinklys</strong>: Ved stopp eller meget lav hastighet</li>
+</ul>
+<p><strong>Navigasjonsteknikker</strong>:</p>
+<ul>
+<li><strong>FÃ¸lg hÃ¸yre veikant</strong> ved hjelp av reflektorer</li>
+<li><strong>Bruk veimidtstriping</strong> som referanse</li>
+<li><strong>Se etter rÃ¸de baklys</strong> foran deg</li>
+<li><strong>Lytt</strong> etter andre kjÃ¸retÃ¸y</li>
+</ul>
+<h2 id="sterk-vind-og-sidevind">Sterk vind og sidevind</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Sterk vind</strong> pÃ¥virker kjÃ¸retÃ¸y forskjellig avhengig av form, vekt og hastighet. <strong>Sidevind</strong> er spesielt utfordrende.</p>
+<h3 id="vindpãvirkning-pã-forskjellige-kjãretãy">VindpÃ¥virkning pÃ¥ forskjellige kjÃ¸retÃ¸y</h3>
+<table>
+  <thead>
+      <tr>
+          <th>KjÃ¸retÃ¸ytype</th>
+          <th>Vindmottagelighet</th>
+          <th>Kritisk vindstyrke</th>
+          <th>Spesielle hensyn</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Personbil</strong></td>
+          <td>Moderat</td>
+          <td>&gt; 15 m/s (54 km/t)</td>
+          <td>Lett ved hÃ¸y hastighet</td>
+      </tr>
+      <tr>
+          <td><strong>HÃ¸y bil/SUV</strong></td>
+          <td>HÃ¸y</td>
+          <td>&gt; 12 m/s (43 km/t)</td>
+          <td>StÃ¸rre vindflate</td>
+      </tr>
+      <tr>
+          <td><strong>Tilhenger</strong></td>
+          <td>Meget hÃ¸y</td>
+          <td>&gt; 10 m/s (36 km/t)</td>
+          <td>Kan &ldquo;piske&rdquo; bil</td>
+      </tr>
+      <tr>
+          <td><strong>Lastebil/Buss</strong></td>
+          <td>Ekstrem</td>
+          <td>&gt; 8 m/s (29 km/t)</td>
+          <td>Stor vindflate, hÃ¸yt tyngdepunkt</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="vindkritiske-omrãder">Vindkritiske omrÃ¥der</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Broer og viadukter</strong>: Eksponer for full vindkraft
+<strong>Ã…pne omrÃ¥der</strong>: Sletter, hÃ¸ye fjell, kystomrÃ¥der
+<strong>Skogskanter</strong>: Plutselige vindkast ved utgang fra skog
+<strong>BygningsomrÃ¥der</strong>: Turbulens og vindkorridor-effekter</p>
+<h3 id="kjãreteknikk-i-vind">KjÃ¸reteknikk i vind</h3>
+<p><strong>FÃ¸rerberekenskap</strong>:</p>
+<ul>
+<li><strong>Fast grep</strong> om rattet - ikke krampaktig</li>
+<li><strong>Senket hastighet</strong> pÃ¥ utsatte strekninger</li>
+<li><strong>Ã˜kt avstand</strong> til andre kjÃ¸retÃ¸y</li>
+<li><strong>Forberedt pÃ¥ vindkast</strong> - antiser korrektiver</li>
+</ul>
+<p><strong>MÃ¸te med store kjÃ¸retÃ¸y</strong>:</p>
+<ul>
+<li><strong>Forvent turbulens</strong> etter lastebiler/busser</li>
+<li><strong>Korriger raskt</strong> men ikke overreager</li>
+<li><strong>Ekstra avstand</strong> ved forbikjÃ¸ring</li>
+<li>For mer om Ã¥ gi plass til store kjÃ¸retÃ¸y, se <a href="/blogs/teori/store-kjoretoy-gi-plass" title="Store kjÃ¸retÃ¸y i trafikken (Gi plass) - Gi plass til store kjÃ¸retÃ¸y">Store kjÃ¸retÃ¸y i trafikken (Gi plass)</a>.</li>
+</ul>
+<h2 id="kombinerte-vanskelige-forhold">Kombinerte vanskelige forhold</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Ofte opptrer flere vanskelige forhold samtidig, som <strong>regn + vind</strong>, <strong>snÃ¸ + tÃ¥ke</strong> eller <strong>is + mÃ¸rke</strong>. Dette multipliserer risikoen.</p>
+<h3 id="vanlige-kombinasjoner-og-tiltak">Vanlige kombinasjoner og tiltak</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kombinasjon</th>
+          <th>Hovedutfordring</th>
+          <th>Prioritert tiltak</th>
+          <th>Kritiske faktorer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Regn + Vind</strong></td>
+          <td>Ustabil kjÃ¸ring + vannplaning</td>
+          <td>Betydelig hastighetreduksjon</td>
+          <td>Sidevind + dÃ¥rlig grip</td>
+      </tr>
+      <tr>
+          <td><strong>SnÃ¸ + TÃ¥ke</strong></td>
+          <td>Grip + sikt</td>
+          <td>Ekstrem forsiktighet</td>
+          <td>Navigering + kjÃ¸rekontroll</td>
+      </tr>
+      <tr>
+          <td><strong>Is + MÃ¸rke</strong></td>
+          <td>Usynlig fare</td>
+          <td>Test grep, meget lav hastighet</td>
+          <td>TemperaturmÃ¥ling + tÃ¥kelys</td>
+      </tr>
+      <tr>
+          <td><strong>Vind + TÃ¥ke</strong></td>
+          <td>Navigering + stabilitet</td>
+          <td>SÃ¸k ly, vurder stopp</td>
+          <td>Vindretning + siktforhold</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="psykologiske-aspekter">Psykologiske aspekter</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Mentale utfordringer</strong> ved vanskelig kjÃ¸ring inkluderer <strong>stress</strong>, <strong>angst</strong>, <strong>overselvsikkerhet</strong> og <strong>fatigue</strong>.</p>
+<h3 id="stressmestring">Stressmestring</h3>
+<p><strong>Fysiologiske tegn pÃ¥ stress</strong>:</p>
+<ul>
+<li>Ã˜kt puls og muskel-spenning</li>
+<li>Tunnelsyn og redusert oppmerksomhet</li>
+<li>Hurtige, mindre gjennomtenkte beslutninger</li>
+</ul>
+<p><strong>StresshÃ¥ndtering</strong>:</p>
+<ul>
+<li><strong>PusteÃ¸velser</strong> under kjÃ¸ring</li>
+<li><strong>Mental forberedelse</strong> fÃ¸r avreise</li>
+<li><strong>Pause ved tegn</strong> pÃ¥ hÃ¸yt stressnivÃ¥</li>
+<li><strong>Aksepter lengre reisetid</strong></li>
+</ul>
+<h3 id="overselvsikkerhet">Overselvsikkerhet</h3>
+<p><strong>Faresignaler</strong>:</p>
+<ul>
+<li>&ldquo;Jeg kan kjÃ¸re normalt i disse forholdene&rdquo;</li>
+<li>Ignorering av vÃ¦ret og forholdene</li>
+<li>Kritisering av andre som kjÃ¸rer forsiktig</li>
+</ul>
+<p><strong>Motstrategi</strong>:</p>
+<ul>
+<li><strong>Regelmessig vurdering</strong> av egne ferdigheter</li>
+<li><strong>Respekt for forholdene</strong> uavhengig av erfaring</li>
+<li><strong>Lytte til advarsler</strong> fra passasjerer</li>
+</ul>
+<h2 id="forberedelser-og-planlegging">Forberedelser og planlegging</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Grundig planlegging</strong> er avgjÃ¸rende for trygg kjÃ¸ring under vanskelige forhold.</p>
+<h3 id="pre-trip-sjekkliste">Pre-trip sjekkliste</h3>
+<table>
+  <thead>
+      <tr>
+          <th>OmrÃ¥de</th>
+          <th>Kontrollpunkter</th>
+          <th>Akseptkriterier</th>
+          <th>Handlinger ved avvik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Dekk</strong></td>
+          <td>MÃ¸nsterdybde, trykk, type</td>
+          <td>&gt; 3mm, korrekt trykk, sesongdekk</td>
+          <td>Skifte dekk, justere trykk</td>
+      </tr>
+      <tr>
+          <td><strong>Belysning</strong></td>
+          <td>Funksjon, renhet</td>
+          <td>Alle lys virker, rene glass</td>
+          <td>Reparere, rengjÃ¸re</td>
+      </tr>
+      <tr>
+          <td><strong><a href="/blogs/teori/vindusviskere-vindusspylere" title="Vindusviskere og vindusspylere - Sikt, is og dugg">Viskere og vindusspylere</a></strong></td>
+          <td>Funksjon, tilstand</td>
+          <td>Jevn avvisking, ingen riper</td>
+          <td>Skifte viskere, fylle vÃ¦ske</td>
+      </tr>
+      <tr>
+          <td><strong>Bremser</strong></td>
+          <td>FÃ¸lelse, lyd</td>
+          <td>Fast pedal, ingen lyd</td>
+          <td>Service fÃ¸r avreise</td>
+      </tr>
+      <tr>
+          <td><strong>Oppvarming</strong></td>
+          <td>Defroster, klimaanlegg</td>
+          <td>Effektiv duggfjerning</td>
+          <td>Reparere, rengjÃ¸re luftfilter</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="vãranalyse-og-ruteplanlegging">VÃ¦ranalyse og ruteplanlegging</h3>
+<p><strong>VÃ¦rmelding</strong>: Ikke bare temperatur - fokus pÃ¥ <strong>nedbÃ¸r</strong>, <strong>vind</strong> og <strong>sikt</strong>
+<strong>FÃ¸remelding</strong>: Spesifikke forhold for din rute
+<strong>Rutevalg</strong>: Velg hovedveier frem for smÃ¥veier ved dÃ¥rlig vÃ¦r
+<strong>Alternativeplaner</strong>: Ha flere ruter tilgjengelig
+<strong>Tidsbuffer</strong>: Beregn minst 50% ekstra reisetid</p>
+<h3 id="nãdutstyr-for-vanskelige-forhold">NÃ¸dutstyr for vanskelige forhold</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Minimumsutstyr</strong>:</p>
+<ul>
+<li>SnÃ¸skuffe og ispigger</li>
+<li>Startkabler og verktÃ¸y</li>
+<li>Varme klÃ¦r og tepper</li>
+<li>Matlaging og drikke</li>
+<li>Lommelykt og telefon-lader</li>
+<li>Kjetting (hvis aktuelt)</li>
+</ul>
+<p><strong>Avansert utstyr</strong>:</p>
+<ul>
+<li>GPS med offline-kart</li>
+<li>Satellitt-kommunikasjon</li>
+<li>FÃ¸rste-hjelp utstyr</li>
+<li>Sand/salt for grip</li>
+<li>Reservedeler (sikringer, vÃ¦ske)</li>
+</ul>
+<h2 id="hãndtering-av-kritiske-situasjoner">HÃ¥ndtering av kritiske situasjoner</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>NÃ¥r ting gÃ¥r galt under vanskelige forhold, er <strong>systematisk hÃ¥ndtering</strong> avgjÃ¸rende.</p>
+<h3 id="akutte-situasjoner">Akutte situasjoner</h3>
+<p><strong>Plutselig skrens</strong>:</p>
+<ol>
+<li><strong>Ikke panikk</strong> - hold rattet fast</li>
+<li><strong>Korriger gradvis</strong> i retning du vil</li>
+<li><strong>Kontroller gassen</strong> - verken gas eller brems</li>
+<li><strong>Gjenvinn kontroll</strong> fÃ¸r nye manÃ¸vrer</li>
+</ol>
+<p><strong>Mister grip fullstendig</strong>:</p>
+<ol>
+<li><strong>LÃ¸ft gassen</strong> umiddelbart</li>
+<li><strong>Ikke brems</strong> - kan forverre situasjonen</li>
+<li><strong>Ret ut rattet</strong> og vent pÃ¥ grip</li>
+<li><strong>Vurder sidesone</strong> for kontrollert stopp</li>
+</ol>
+<p><strong>Null sikt i tÃ¥ke</strong>:</p>
+<ol>
+<li><strong>Ikke stopp pÃ¥ kjÃ¸rebanen</strong></li>
+<li><strong>SÃ¸k parkeringsplass</strong> eller bred skulder. For avanserte parkeringsstrategier ved vanskelige forhold, se <a href="/blogs/teori/parkering-for-viderekomne" title="Parkering for viderekomne - Avanserte teknikker og stressmestring">Parkering for viderekomne</a>.</li>
+<li><strong>Sett pÃ¥ varsellys</strong> og blinklys</li>
+<li><strong>Forlat kjÃ¸retÃ¸yet</strong> hvis trygt</li>
+</ol>
+<h3 id="kommunikasjon-med-nãdetater">Kommunikasjon med nÃ¸detater</h3>
+<p>For <strong>trafikkaksienter</strong> eller <strong>kjÃ¸retÃ¸yproblemer</strong> under vanskelige forhold, er det viktig Ã¥ fÃ¸lge etablerte prosedyrer. Se <a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - Komplett guide til nÃ¸dhÃ¥ndtering i trafikken">HÃ¥ndtering av nÃ¸dsituasjoner</a> for detaljert informasjon om kommunikasjon med nÃ¸detatene og sikring av ulykkesstedet under vanskelige vÃ¦rforhold.</p>
+<p><strong>Informasjon Ã¥ gi</strong>:</p>
+<ul>
+<li><strong>NÃ¸yaktig posisjon</strong> (GPS-koordinater hvis mulig)</li>
+<li><strong>VÃ¦rforhold</strong> og sikt</li>
+<li><strong>Skadeomfang</strong> og antall involverte</li>
+<li><strong>Tilgang for nÃ¸detater</strong> (veiforhold)</li>
+<li><strong>Akutt medisinsk behov</strong></li>
+</ul>
+<h2 id="teknologi-og-hjelpemidler">Teknologi og hjelpemidler</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Moderne kjÃ¸retÃ¸y</strong> har mange <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr - Komplett guide til aktivt og passivt sikkerhetsutstyr">sikkerhetssystemer</a> som hjelper under vanskelige forhold, men <strong>forstÃ¥else av begrensninger</strong> er kritisk.</p>
+<h3 id="elektroniske-kjãrehjelp-systemer">Elektroniske kjÃ¸rehjelp-systemer</h3>
+<table>
+  <thead>
+      <tr>
+          <th>System</th>
+          <th>Funksjon</th>
+          <th>Fordeler</th>
+          <th>Begrensninger</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>ABS</strong></td>
+          <td>Forhindrer hjullÃ¥s</td>
+          <td>Bevarer styreevne</td>
+          <td>Kan gi lengre bremsevei i snÃ¸</td>
+      </tr>
+      <tr>
+          <td><strong>ESP/ESC</strong></td>
+          <td>Stabilitetskontroll</td>
+          <td>Forhindrer skrens</td>
+          <td>Kan ikke oppheve fysikkens lover</td>
+      </tr>
+      <tr>
+          <td><strong>ASR/TCS</strong></td>
+          <td>Anti-spinn kontroll</td>
+          <td>Bedre akselerasjon pÃ¥ glatt fÃ¸re</td>
+          <td>Kan redusere fremdrift i dyp snÃ¸</td>
+      </tr>
+      <tr>
+          <td><strong>Diff-sperre</strong></td>
+          <td>Jevner ut hjulspinn</td>
+          <td>Bedre fremdrift</td>
+          <td>PÃ¥virker styreegenskaper</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="varsling--og-informasjonssystemer">Varsling- og informasjonssystemer</h3>
+<p><strong>VeivÃ¦r-apper</strong>: Sanntidsinformasjon om fÃ¸reforhold
+<strong>Trafikkinformasjon</strong>: Alternative ruter ved stenging
+<strong>KjÃ¸retÃ¸y-telemetri</strong>: OvervÃ¥kning av dekk-trykk, temperatur
+<strong>NÃ¸dalarm</strong>: Automatisk varsling ved kollisjon</p>
+<h2 id="spesielle-kjãretãy-typer">Spesielle kjÃ¸retÃ¸y-typer</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Forskjellige kjÃ¸retÃ¸y krever <strong>tilpassede teknikker</strong> under vanskelige forhold.</p>
+<h3 id="kjãring-med-tilhenger">KjÃ¸ring med tilhenger</h3>
+<p><strong>Ekstra utfordringer</strong>:</p>
+<ul>
+<li><strong>Lengre bremsevei</strong> og ustabil bremsing</li>
+<li><strong>Ã˜kt vindmottagelighet</strong></li>
+<li><strong>&ldquo;Pisk-effekt&rdquo;</strong> ved sidevind eller skrens</li>
+<li><strong>Bakkeproblemer</strong> ved dÃ¥rlig grep</li>
+</ul>
+<p><strong>Tilpasset teknikk</strong>:</p>
+<ul>
+<li><strong>Betydelig lavere hastighet</strong> enn normal bil</li>
+<li><strong>Gradvis akselerasjon</strong> og bremsing</li>
+<li><strong>StÃ¸rre avstand</strong> til andre kjÃ¸retÃ¸y</li>
+<li><strong>Test bremse-balanse</strong> ved trygg anledning</li>
+</ul>
+<p>For mer om tilhengerkjÃ¸ring, se <a href="/blogs/teori/kjoring-med-tilhenger" title="KjÃ¸ring med tilhenger - Komplett guide til sikker tilhengerkjÃ¸ring">KjÃ¸ring med tilhenger</a>.</p>
+<h3 id="firehjulsdrift-4wd">Firehjulsdrift (4WD)</h3>
+<p><strong>Fordeler</strong>:</p>
+<ul>
+<li><strong>Bedre akselerasjon</strong> pÃ¥ glatt underlag</li>
+<li><strong>Ã˜kt fremdrift</strong> i snÃ¸ og gjÃ¸rme</li>
+<li><strong>Stabilitet pÃ¥</strong> ujevnt underlag</li>
+</ul>
+<p><strong>Begrensninger</strong>:</p>
+<ul>
+<li><strong>Samme bremsevei</strong> som tohjulsdrift</li>
+<li><strong>Kan skape overselvsikkerhet</strong></li>
+<li><strong>Ã˜kt drivstofforbruk</strong></li>
+<li><strong>Ikke mirakel-lÃ¸sning</strong> for is</li>
+</ul>
+<h2 id="juridiske-aspekter">Juridiske aspekter</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>LovpÃ¥lagte krav</strong> og <strong>ansvarsforhold</strong> under vanskelige forhold.</p>
+<h3 id="dekk-regelverkene">Dekk-regelverkene</h3>
+<p>For detaljerte regler, se <a href="/blogs/teori/regler-for-dekk-og-kjetting" title="Regler for dekk og kjetting - Krav til mÃ¸nsterdybde og sesongdekk">Regler for dekk og kjetting</a>.</p>
+<p><strong>Vinterdekk-krav</strong>:</p>
+<ul>
+<li><strong>Periode</strong>: 1. november - fÃ¸rste mandag etter pÃ¥ske</li>
+<li><strong>MÃ¸nster</strong>: Minimum 3mm pÃ¥ vinterdekk</li>
+<li><strong>Piggdekk</strong>: Tillatt 1. oktober - fÃ¸rste mandag etter pÃ¥ske</li>
+</ul>
+<h3 id="ansvar-ved-uhell">Ansvar ved uhell</h3>
+<p><strong>Selv ved vanskelige forhold</strong> gjelder:</p>
+<ul>
+<li><strong>Tilpasset hastighet</strong> til forholdene</li>
+<li><strong>Forsvarlig kjÃ¸ring</strong> uavhengig av vÃ¦rforhold</li>
+<li><strong>Erstatningsansvar</strong> ved skade forÃ¥rsaket av uforsvarlig kjÃ¸ring</li>
+</ul>
+<h2 id="miljãhensyn">MiljÃ¸hensyn</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Vanskelige kjÃ¸reforhold</strong> pÃ¥virker ogsÃ¥ <strong>miljÃ¸et</strong> gjennom Ã¸kt drivstofforbruk og utslipp.</p>
+<h3 id="redusere-miljãpãvirkning">Redusere miljÃ¸pÃ¥virkning</h3>
+<p><strong>Planlegging</strong>:</p>
+<ul>
+<li><strong>Kombinere turer</strong> for Ã¥ redusere kjÃ¸rebehov</li>
+<li><strong>UnngÃ¥ unÃ¸dvendige turer</strong> ved dÃ¥rlig vÃ¦r</li>
+<li><strong>Velge kollektivtransport</strong> nÃ¥r mulig</li>
+</ul>
+<p><strong>KjÃ¸reteknikk</strong>:</p>
+<ul>
+<li><strong>Jevn hastighet</strong> reduserer forbruk</li>
+<li><strong>Forutseende kjÃ¸ring</strong> minimerer brems-gas-sykluser</li>
+<li><strong>Optimal gir-bruk</strong> for effektivitet</li>
+</ul>
+<p>For mer om miljÃ¸vennlig kjÃ¸ring, se <a href="/blogs/teori/miljovennlig-kjoring" title="MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring">MiljÃ¸vennlig kjÃ¸ring</a>.</p>
+<h2 id="ãvelse-og-ferdighetutvikling">Ã˜velse og ferdighetutvikling</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Teoretisk kunnskap</strong> mÃ¥ kompletteres med <strong>praktisk Ã¸velse</strong> under kontrollerte forhold.</p>
+<h3 id="sikre-ãvingsomrãder">Sikre Ã¸vingsomrÃ¥der</h3>
+<p><strong>Store parkeringsplasser</strong>: Uten trafikk, helst asfaltert
+<strong>KjÃ¸rebaner</strong>: Spesielt designet for Ã¸velse
+<strong>Sikkerhetskurs</strong>: Profesjonelt ledede kurs
+<strong>Simulatorer</strong>: Risikofri trening pÃ¥ realistiske scenarioer</p>
+<h3 id="ãvingsãkter">Ã˜vingsÃ¸kter</h3>
+<p><strong>BasisÃ¸velser</strong>:</p>
+<ul>
+<li><strong>Bremsing pÃ¥ glatt underlag</strong> - fÃ¸le ABS-virkning</li>
+<li><strong>Skrenskontroll</strong> - korrigere understyring/overstyring</li>
+<li><strong>NÃ¸dmanÃ¸vrer</strong> - unnamanÃ¸vrer med beholt kontroll</li>
+</ul>
+<p><strong>Avanserte Ã¸velser</strong>:</p>
+<ul>
+<li><strong>Kombinerte manÃ¸vrer</strong> - sving + brems</li>
+<li><strong>Hastighetstilpasning</strong> - finne grenser for grep</li>
+<li><strong>OppbakkekjÃ¸ring</strong> - stere uten hjulspinn</li>
+</ul>
+<h2 id="oppsummering-og-sjekkliste">Oppsummering og sjekkliste</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>KjÃ¸ring under vanskelige forhold</strong> krever <strong>forberedelse</strong>, <strong>tilpasning</strong> og <strong>respekt</strong> for naturrens krefter.</p>
+<h3 id="nãkkelprinsipper">NÃ¸kkelprinsipper</h3>
+<ol>
+<li><strong>Forberedelser</strong>: KjÃ¸retÃ¸y, utstyr og mental innstilling</li>
+<li><strong>Tilpasning</strong>: Hastighet, avstand og kjÃ¸reteknikk</li>
+<li><strong>Respekt</strong>: For forhold, andre trafikanter og egne begrensninger</li>
+<li><strong>Kommunikasjon</strong>: Med andre trafikanter og nÃ¸detater</li>
+<li><strong>Utvikling</strong>: Kontinuerlig lÃ¦ring og Ã¸velse</li>
+</ol>
+<h3 id="sjekkliste-fãr-kjãring-under-vanskelige-forhold">Sjekkliste fÃ¸r kjÃ¸ring under vanskelige forhold</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kategori</th>
+          <th>Sjekkliste</th>
+          <th>Aksjon ved avvik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>KjÃ¸retÃ¸y</strong></td>
+          <td>Dekk, lys, vÃ¦ske, oppvarming</td>
+          <td>Service/reparasjon fÃ¸r avreise</td>
+      </tr>
+      <tr>
+          <td><strong>Planlegging</strong></td>
+          <td>VÃ¦r, rute, tid, nÃ¸dutstyr</td>
+          <td>Utsette reise eller velge alternativ</td>
+      </tr>
+      <tr>
+          <td><strong>Kunnskap</strong></td>
+          <td>ForstÃ¥ forholdene og risikoen</td>
+          <td>Ã˜ke kompetanse gjennom kurs</td>
+      </tr>
+      <tr>
+          <td><strong>Mental</strong></td>
+          <td>Innstilt pÃ¥ forsiktig kjÃ¸ring</td>
+          <td>Vurder Ã¥ ikke kjÃ¸re</td>
+      </tr>
+      <tr>
+          <td><strong>Kommunikasjon</strong></td>
+          <td>Informer andre om planer</td>
+          <td>Ha kontaktplan</td>
+      </tr>
+  </tbody>
+</table>
+<p>Med <strong>riktig forberedelse</strong>, <strong>kunnskap</strong> og <strong>innstilling</strong> kan du mestre de fleste vanskelige kjÃ¸reforhold trygt. <strong>Respekt for naturens krefter</strong> og <strong>tilpasning av kjÃ¸ring</strong> er nÃ¸kkelen til sikker transport under alle forhold.</p>
+<p>For ytterligere informasjon om relaterte emner, se <a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring - Proaktive kjÃ¸reteknikker for Ã¸kt sikkerhet">Defensiv kjÃ¸ring</a>, <a href="/blogs/teori/oppmerksomhet-og-samhandling" title="Oppmerksomhet og samhandling - Viktige prinsipper">Oppmerksomhet og samhandling</a> og <a href="/blogs/teori/vedlikehold-av-bilen" title="Vedlikehold av bilen - SÃ¸rg for at bilen er i god stand">Vedlikehold av bilen</a>.\n  </div>\n</div></p>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Kjøring under vanskelige forhold" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Kjøring under vanskelige forhold" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Kjøring under vanskelige forhold" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

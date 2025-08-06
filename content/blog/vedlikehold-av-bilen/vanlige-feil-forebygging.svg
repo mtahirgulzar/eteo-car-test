@@ -1,0 +1,245 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2c3e50">
+    Vanlige feil og forebygging
+  </text>
+  
+  <!-- Battery problems -->
+  <g transform="translate(80, 80)">
+    <rect x="0" y="0" width="320" height="120" fill="#ffebee" stroke="#e74c3c" stroke-width="2" rx="15"/>
+    
+    <!-- Battery icon -->
+    <g transform="translate(30, 30)">
+      <rect x="0" y="10" width="30" height="20" fill="#34495e" rx="3"/>
+      <rect x="30" y="15" width="5" height="10" fill="#34495e"/>
+      <!-- X mark for problem -->
+      <g stroke="#e74c3c" stroke-width="3">
+        <line x1="10" y1="10" x2="25" y2="30"/>
+        <line x1="25" y1="10" x2="10" y2="30"/>
+      </g>
+    </g>
+    
+    <g transform="translate(80, 20)">
+      <text x="0" y="15" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">
+        BATTERIPROBLEMER
+      </text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Årsaker:</tspan> Kulde, alder, dårlig lading
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Symptomer:</tspan> Treg start, svake lys
+      </text>
+      
+      <!-- Prevention -->
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="6" fill="#27ae60"/>
+        <text x="8" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">✓</text>
+        <text x="20" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">
+          Forebygging:
+        </text>
+        <text x="20" y="18" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+          Bruk motorvarmer • Test kapasitet årlig
+        </text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Engine overheating -->
+  <g transform="translate(420, 80)">
+    <rect x="0" y="0" width="320" height="120" fill="#fff3cd" stroke="#f39c12" stroke-width="2" rx="15"/>
+    
+    <!-- Engine with heat -->
+    <g transform="translate(30, 30)">
+      <rect x="5" y="15" width="25" height="15" fill="#34495e" rx="3"/>
+      <!-- Heat waves -->
+      <g stroke="#e74c3c" stroke-width="2" fill="none">
+        <path d="M10 10 Q15 5 10 0"/>
+        <path d="M20 10 Q25 5 20 0"/>
+        <path d="M30 10 Q35 5 30 0"/>
+      </g>
+      <!-- Thermometer -->
+      <circle cx="40" cy="20" r="8" fill="#e74c3c"/>
+      <rect x="36" y="15" width="8" height="10" fill="#e74c3c"/>
+      <text x="40" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">🌡️</text>
+    </g>
+    
+    <g transform="translate(80, 20)">
+      <text x="0" y="15" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f39c12">
+        MOTOROVEROPPETING
+      </text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Årsaker:</tspan> Kjølevæskemangel, defekt termostat
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Symptomer:</tspan> Høy temperatur, damp
+      </text>
+      
+      <!-- Prevention -->
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="6" fill="#27ae60"/>
+        <text x="8" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">✓</text>
+        <text x="20" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">
+          Forebygging:
+        </text>
+        <text x="20" y="18" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+          Kontroller kjølevæske • Skift væske i tide
+        </text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Tire wear -->
+  <g transform="translate(80, 220)">
+    <rect x="0" y="0" width="320" height="120" fill="#f4f9fd" stroke="#3498db" stroke-width="2" rx="15"/>
+    
+    <!-- Worn tire -->
+    <g transform="translate(30, 30)">
+      <circle cx="20" cy="20" r="18" fill="#2c3e50"/>
+      <circle cx="20" cy="20" r="12" fill="#34495e"/>
+      <!-- Worn tread -->
+      <g stroke="#e74c3c" stroke-width="1">
+        <line x1="8" y1="15" x2="8" y2="25"/>
+        <line x1="32" y1="15" x2="32" y2="25"/>
+      </g>
+      <!-- Warning -->
+      <circle cx="35" cy="10" r="8" fill="#e74c3c"/>
+      <text x="35" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">!</text>
+    </g>
+    
+    <g transform="translate(80, 20)">
+      <text x="0" y="15" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">
+        DEKK UTSLITT
+      </text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Årsaker:</tspan> Feil lufttrykk, dårlig plassering
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Symptomer:</tspan> Ujevn slitasje, lav mønsterdybde
+      </text>
+      
+      <!-- Prevention -->
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="6" fill="#27ae60"/>
+        <text x="8" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">✓</text>
+        <text x="20" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">
+          Forebygging:
+        </text>
+        <text x="20" y="18" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+          Kontroller trykk månedlig • Roter dekk
+        </text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Brake problems -->
+  <g transform="translate(420, 220)">
+    <rect x="0" y="0" width="320" height="120" fill="#f0fff0" stroke="#27ae60" stroke-width="2" rx="15"/>
+    
+    <!-- Brake disc with wear -->
+    <g transform="translate(30, 30)">
+      <circle cx="20" cy="20" r="15" fill="#95a5a6"/>
+      <circle cx="20" cy="20" r="10" fill="#7f8c8d"/>
+      <!-- Wear marks -->
+      <g stroke="#e74c3c" stroke-width="2">
+        <line x1="10" y1="20" x2="30" y2="20"/>
+        <line x1="20" y1="10" x2="20" y2="30"/>
+      </g>
+      <!-- Brake pads -->
+      <rect x="5" y="15" width="5" height="10" fill="#f1c40f"/>
+      <rect x="30" y="15" width="5" height="10" fill="#f1c40f"/>
+    </g>
+    
+    <g transform="translate(80, 20)">
+      <text x="0" y="15" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">
+        BREMSEPROBLEMER
+      </text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Årsaker:</tspan> Naturlig slitasje, gammel væske
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        <tspan font-weight="bold">Symptomer:</tspan> Skraping, vibrasjoner
+      </text>
+      
+      <!-- Prevention -->
+      <g transform="translate(0, 65)">
+        <circle cx="8" cy="8" r="6" fill="#27ae60"/>
+        <text x="8" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">✓</text>
+        <text x="20" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">
+          Forebygging:
+        </text>
+        <text x="20" y="18" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+          Årlig inspeksjon • Skift væske i tide
+        </text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Warning signals section -->
+  <g transform="translate(80, 360)">
+    <rect x="0" y="0" width="640" height="140" fill="white" stroke="#2c3e50" stroke-width="2" rx="15"/>
+    <text x="320" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+      🚨 Varselsignaler å være oppmerksom på
+    </text>
+    
+    <!-- Sound warnings -->
+    <g transform="translate(40, 50)">
+      <circle cx="15" cy="15" r="12" fill="#e74c3c"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">🔊</text>
+      <text x="40" y="12" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">
+        UNORMALE LYDER
+      </text>
+      <text x="40" y="27" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        Skraping, piping, banking, knitring
+      </text>
+    </g>
+    
+    <!-- Vibration warnings -->
+    <g transform="translate(340, 50)">
+      <circle cx="15" cy="15" r="12" fill="#f39c12"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">🔄</text>
+      <text x="40" y="12" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">
+        VIBRASJONER
+      </text>
+      <text x="40" y="27" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        I ratt, pedaler eller hele bilen
+      </text>
+    </g>
+    
+    <!-- Dashboard warnings -->
+    <g transform="translate(40, 85)">
+      <circle cx="15" cy="15" r="12" fill="#9b59b6"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">⚠️</text>
+      <text x="40" y="12" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9b59b6">
+        VARSELLAMPER
+      </text>
+      <text x="40" y="27" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        På dashbord - ikke ignorer disse!
+      </text>
+    </g>
+    
+    <!-- Driving characteristics -->
+    <g transform="translate(340, 85)">
+      <circle cx="15" cy="15" r="12" fill="#1abc9c"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">🚗</text>
+      <text x="40" y="12" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1abc9c">
+        ENDRET KJØREEGENSKAPER
+      </text>
+      <text x="40" y="27" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        Dårligere bremsing, styring eller ytelse
+      </text>
+    </g>
+  </g>
+  
+  <!-- Bottom advice -->
+  <g transform="translate(80, 520)">
+    <rect x="0" y="0" width="640" height="60" fill="#e8f8f5" stroke="#27ae60" stroke-width="2" rx="15"/>
+    <text x="320" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">
+      💡 GYLDEN REGEL: Hør på bilen din!
+    </text>
+    <text x="320" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">
+      Endringer i lyd, følelse eller ytelse er tegn på at noe trenger oppmerksomhet
+    </text>
+  </g>
+</svg>

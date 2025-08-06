@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+  <rect width="800" height="200" fill="#ffffff" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-size="28" font-family="Arial, sans-serif" fill="#000000">Bil og tilhenger (klasse B), vognkort og koblingslast</text>
+</svg>

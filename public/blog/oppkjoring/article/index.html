@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppkjøring | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Alt du må vite om oppkjøring (praktisk kjøreprøve) for førerkort klasse B i Norge. Forberedelser, prøveelementer, vurderingskriterier og tips.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/oppkjoring/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/oppkjoring/article/">
+    <meta property="og:title" content="Oppkjøring | Eteo">
+    <meta property="og:description" content="Alt du må vite om oppkjøring (praktisk kjøreprøve) for førerkort klasse B i Norge. Forberedelser, prøveelementer, vurderingskriterier og tips.">
+    <meta property="og:image" content="//localhost:1313/images/blog/oppkjoring/oppkjoring-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Oppkjøring | Eteo">
+    <meta name="twitter:description" content="Alt du må vite om oppkjøring (praktisk kjøreprøve) for førerkort klasse B i Norge. Forberedelser, prøveelementer, vurderingskriterier og tips.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/oppkjoring/oppkjoring-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Oppkjøring</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                14 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/oppkjoring/oppkjoring-image.svg" 
+                    alt="Oppkjøring" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/oppkjoring/oppkjoring-image.svg" alt="Oppkjøring" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-oppkjãring">Hva er oppkjÃ¸ring?</a>
+      <ul>
+        <li><a href="#formãl-med-oppkjãringen">FormÃ¥l med oppkjÃ¸ringen</a></li>
+        <li><a href="#krav-for-ã-ta-oppkjãring">Krav for Ã¥ ta oppkjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppkjãringens-struktur-og-varighet">OppkjÃ¸ringens struktur og varighet</a>
+      <ul>
+        <li><a href="#detaljert-gjennomgang-av-prãveelementer">Detaljert gjennomgang av prÃ¸veelementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikkerhetskontroll---dypere-forstãelse">Sikkerhetskontroll - Dypere forstÃ¥else</a>
+      <ul>
+        <li><a href="#systematisk-gjennomfãring">Systematisk gjennomfÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#vurderingssystem-og-karakterkriterier">Vurderingssystem og karakterkriterier</a>
+      <ul>
+        <li><a href="#feilkategorier-og-konsekvenser">Feilkategorier og konsekvenser</a></li>
+        <li><a href="#detaljerte-vurderingskriterier">Detaljerte vurderingskriterier</a></li>
+      </ul>
+    </li>
+    <li><a href="#stasjonãre-ãvelser---mest-detaljert-guide">StasjonÃ¦re Ã¸velser - Mest detaljert guide</a>
+      <ul>
+        <li><a href="#1-rygging-rundt-hjãrne">1. Rygging rundt hjÃ¸rne</a></li>
+        <li><a href="#2-rygging-inn-i-parkeringsplass">2. Rygging inn i parkeringsplass</a></li>
+        <li><a href="#3-parallellparkering">3. Parallellparkering</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdbrems-og-teknikk">NÃ¸dbrems og teknikk</a>
+      <ul>
+        <li><a href="#korrekt-nãdbremsteknikk">Korrekt nÃ¸dbremsteknikk</a></li>
+      </ul>
+    </li>
+    <li><a href="#selvstendig-kjãring---hva-vurderes">Selvstendig kjÃ¸ring - Hva vurderes?</a>
+      <ul>
+        <li><a href="#typiske-kjãresituasjoner-du-vil-mãte">Typiske kjÃ¸resituasjoner du vil mÃ¸te</a></li>
+      </ul>
+    </li>
+    <li><a href="#omfattende-forberedelse---strategisk-tilnãrming">Omfattende forberedelse - Strategisk tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#praktisk-forberedelse">Praktisk forberedelse</a></li>
+        <li><a href="#mental-forberedelse">Mental forberedelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#dagen-for-oppkjãring---detaljert-sjekkliste">Dagen for oppkjÃ¸ring - Detaljert sjekkliste</a>
+      <ul>
+        <li><a href="#dagen-fãr">Dagen fÃ¸r</a></li>
+        <li><a href="#selve-dagen">Selve dagen</a></li>
+        <li><a href="#under-oppkjãringen">Under oppkjÃ¸ringen</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-du-unngãr-dem">Vanlige feil og hvordan du unngÃ¥r dem</a>
+      <ul>
+        <li><a href="#strategier-for-ã-minimere-feil">Strategier for Ã¥ minimere feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#hvis-du-ikke-bestãr---konstruktiv-tilnãrming">Hvis du ikke bestÃ¥r - Konstruktiv tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#etter-ikke-bestãtt-oppkjãring">Etter ikke-bestÃ¥tt oppkjÃ¸ring</a></li>
+        <li><a href="#mentalt-hãndter-skuffelse">Mentalt hÃ¥ndter skuffelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#etter-bestãtt-oppkjãring---livet-som-ny-fãrer">Etter bestÃ¥tt oppkjÃ¸ring - Livet som ny fÃ¸rer</a>
+      <ul>
+        <li><a href="#prãvetid-og-restriksjoner">PrÃ¸vetid og restriksjoner</a></li>
+        <li><a href="#fortsatt-utvikling-som-sjãfãr">Fortsatt utvikling som sjÃ¥fÃ¸r</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktisk-informasjon-og-ressurser">Praktisk informasjon og ressurser</a>
+      <ul>
+        <li><a href="#kontaktinformasjon-og-booking">Kontaktinformasjon og booking</a></li>
+        <li><a href="#digitale-ressurser">Digitale ressurser</a></li>
+        <li><a href="#juridiske-aspekter">Juridiske aspekter</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-oppkjãring">Hva er oppkjÃ¸ring?</a>
+      <ul>
+        <li><a href="#formãl-med-oppkjãringen">FormÃ¥l med oppkjÃ¸ringen</a></li>
+        <li><a href="#krav-for-ã-ta-oppkjãring">Krav for Ã¥ ta oppkjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppkjãringens-struktur-og-varighet">OppkjÃ¸ringens struktur og varighet</a>
+      <ul>
+        <li><a href="#detaljert-gjennomgang-av-prãveelementer">Detaljert gjennomgang av prÃ¸veelementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikkerhetskontroll---dypere-forstãelse">Sikkerhetskontroll - Dypere forstÃ¥else</a>
+      <ul>
+        <li><a href="#systematisk-gjennomfãring">Systematisk gjennomfÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#vurderingssystem-og-karakterkriterier">Vurderingssystem og karakterkriterier</a>
+      <ul>
+        <li><a href="#feilkategorier-og-konsekvenser">Feilkategorier og konsekvenser</a></li>
+        <li><a href="#detaljerte-vurderingskriterier">Detaljerte vurderingskriterier</a></li>
+      </ul>
+    </li>
+    <li><a href="#stasjonãre-ãvelser---mest-detaljert-guide">StasjonÃ¦re Ã¸velser - Mest detaljert guide</a>
+      <ul>
+        <li><a href="#1-rygging-rundt-hjãrne">1. Rygging rundt hjÃ¸rne</a></li>
+        <li><a href="#2-rygging-inn-i-parkeringsplass">2. Rygging inn i parkeringsplass</a></li>
+        <li><a href="#3-parallellparkering">3. Parallellparkering</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdbrems-og-teknikk">NÃ¸dbrems og teknikk</a>
+      <ul>
+        <li><a href="#korrekt-nãdbremsteknikk">Korrekt nÃ¸dbremsteknikk</a></li>
+      </ul>
+    </li>
+    <li><a href="#selvstendig-kjãring---hva-vurderes">Selvstendig kjÃ¸ring - Hva vurderes?</a>
+      <ul>
+        <li><a href="#typiske-kjãresituasjoner-du-vil-mãte">Typiske kjÃ¸resituasjoner du vil mÃ¸te</a></li>
+      </ul>
+    </li>
+    <li><a href="#omfattende-forberedelse---strategisk-tilnãrming">Omfattende forberedelse - Strategisk tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#praktisk-forberedelse">Praktisk forberedelse</a></li>
+        <li><a href="#mental-forberedelse">Mental forberedelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#dagen-for-oppkjãring---detaljert-sjekkliste">Dagen for oppkjÃ¸ring - Detaljert sjekkliste</a>
+      <ul>
+        <li><a href="#dagen-fãr">Dagen fÃ¸r</a></li>
+        <li><a href="#selve-dagen">Selve dagen</a></li>
+        <li><a href="#under-oppkjãringen">Under oppkjÃ¸ringen</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-du-unngãr-dem">Vanlige feil og hvordan du unngÃ¥r dem</a>
+      <ul>
+        <li><a href="#strategier-for-ã-minimere-feil">Strategier for Ã¥ minimere feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#hvis-du-ikke-bestãr---konstruktiv-tilnãrming">Hvis du ikke bestÃ¥r - Konstruktiv tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#etter-ikke-bestãtt-oppkjãring">Etter ikke-bestÃ¥tt oppkjÃ¸ring</a></li>
+        <li><a href="#mentalt-hãndter-skuffelse">Mentalt hÃ¥ndter skuffelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#etter-bestãtt-oppkjãring---livet-som-ny-fãrer">Etter bestÃ¥tt oppkjÃ¸ring - Livet som ny fÃ¸rer</a>
+      <ul>
+        <li><a href="#prãvetid-og-restriksjoner">PrÃ¸vetid og restriksjoner</a></li>
+        <li><a href="#fortsatt-utvikling-som-sjãfãr">Fortsatt utvikling som sjÃ¥fÃ¸r</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktisk-informasjon-og-ressurser">Praktisk informasjon og ressurser</a>
+      <ul>
+        <li><a href="#kontaktinformasjon-og-booking">Kontaktinformasjon og booking</a></li>
+        <li><a href="#digitale-ressurser">Digitale ressurser</a></li>
+        <li><a href="#juridiske-aspekter">Juridiske aspekter</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-oppkjãring">Hva er oppkjÃ¸ring?</a>
+      <ul>
+        <li><a href="#formãl-med-oppkjãringen">FormÃ¥l med oppkjÃ¸ringen</a></li>
+        <li><a href="#krav-for-ã-ta-oppkjãring">Krav for Ã¥ ta oppkjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppkjãringens-struktur-og-varighet">OppkjÃ¸ringens struktur og varighet</a>
+      <ul>
+        <li><a href="#detaljert-gjennomgang-av-prãveelementer">Detaljert gjennomgang av prÃ¸veelementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikkerhetskontroll---dypere-forstãelse">Sikkerhetskontroll - Dypere forstÃ¥else</a>
+      <ul>
+        <li><a href="#systematisk-gjennomfãring">Systematisk gjennomfÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#vurderingssystem-og-karakterkriterier">Vurderingssystem og karakterkriterier</a>
+      <ul>
+        <li><a href="#feilkategorier-og-konsekvenser">Feilkategorier og konsekvenser</a></li>
+        <li><a href="#detaljerte-vurderingskriterier">Detaljerte vurderingskriterier</a></li>
+      </ul>
+    </li>
+    <li><a href="#stasjonãre-ãvelser---mest-detaljert-guide">StasjonÃ¦re Ã¸velser - Mest detaljert guide</a>
+      <ul>
+        <li><a href="#1-rygging-rundt-hjãrne">1. Rygging rundt hjÃ¸rne</a></li>
+        <li><a href="#2-rygging-inn-i-parkeringsplass">2. Rygging inn i parkeringsplass</a></li>
+        <li><a href="#3-parallellparkering">3. Parallellparkering</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdbrems-og-teknikk">NÃ¸dbrems og teknikk</a>
+      <ul>
+        <li><a href="#korrekt-nãdbremsteknikk">Korrekt nÃ¸dbremsteknikk</a></li>
+      </ul>
+    </li>
+    <li><a href="#selvstendig-kjãring---hva-vurderes">Selvstendig kjÃ¸ring - Hva vurderes?</a>
+      <ul>
+        <li><a href="#typiske-kjãresituasjoner-du-vil-mãte">Typiske kjÃ¸resituasjoner du vil mÃ¸te</a></li>
+      </ul>
+    </li>
+    <li><a href="#omfattende-forberedelse---strategisk-tilnãrming">Omfattende forberedelse - Strategisk tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#praktisk-forberedelse">Praktisk forberedelse</a></li>
+        <li><a href="#mental-forberedelse">Mental forberedelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#dagen-for-oppkjãring---detaljert-sjekkliste">Dagen for oppkjÃ¸ring - Detaljert sjekkliste</a>
+      <ul>
+        <li><a href="#dagen-fãr">Dagen fÃ¸r</a></li>
+        <li><a href="#selve-dagen">Selve dagen</a></li>
+        <li><a href="#under-oppkjãringen">Under oppkjÃ¸ringen</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-du-unngãr-dem">Vanlige feil og hvordan du unngÃ¥r dem</a>
+      <ul>
+        <li><a href="#strategier-for-ã-minimere-feil">Strategier for Ã¥ minimere feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#hvis-du-ikke-bestãr---konstruktiv-tilnãrming">Hvis du ikke bestÃ¥r - Konstruktiv tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#etter-ikke-bestãtt-oppkjãring">Etter ikke-bestÃ¥tt oppkjÃ¸ring</a></li>
+        <li><a href="#mentalt-hãndter-skuffelse">Mentalt hÃ¥ndter skuffelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#etter-bestãtt-oppkjãring---livet-som-ny-fãrer">Etter bestÃ¥tt oppkjÃ¸ring - Livet som ny fÃ¸rer</a>
+      <ul>
+        <li><a href="#prãvetid-og-restriksjoner">PrÃ¸vetid og restriksjoner</a></li>
+        <li><a href="#fortsatt-utvikling-som-sjãfãr">Fortsatt utvikling som sjÃ¥fÃ¸r</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktisk-informasjon-og-ressurser">Praktisk informasjon og ressurser</a>
+      <ul>
+        <li><a href="#kontaktinformasjon-og-booking">Kontaktinformasjon og booking</a></li>
+        <li><a href="#digitale-ressurser">Digitale ressurser</a></li>
+        <li><a href="#juridiske-aspekter">Juridiske aspekter</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-oppkjãring">Hva er oppkjÃ¸ring?</a>
+      <ul>
+        <li><a href="#formãl-med-oppkjãringen">FormÃ¥l med oppkjÃ¸ringen</a></li>
+        <li><a href="#krav-for-ã-ta-oppkjãring">Krav for Ã¥ ta oppkjÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppkjãringens-struktur-og-varighet">OppkjÃ¸ringens struktur og varighet</a>
+      <ul>
+        <li><a href="#detaljert-gjennomgang-av-prãveelementer">Detaljert gjennomgang av prÃ¸veelementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#sikkerhetskontroll---dypere-forstãelse">Sikkerhetskontroll - Dypere forstÃ¥else</a>
+      <ul>
+        <li><a href="#systematisk-gjennomfãring">Systematisk gjennomfÃ¸ring</a></li>
+      </ul>
+    </li>
+    <li><a href="#vurderingssystem-og-karakterkriterier">Vurderingssystem og karakterkriterier</a>
+      <ul>
+        <li><a href="#feilkategorier-og-konsekvenser">Feilkategorier og konsekvenser</a></li>
+        <li><a href="#detaljerte-vurderingskriterier">Detaljerte vurderingskriterier</a></li>
+      </ul>
+    </li>
+    <li><a href="#stasjonãre-ãvelser---mest-detaljert-guide">StasjonÃ¦re Ã¸velser - Mest detaljert guide</a>
+      <ul>
+        <li><a href="#1-rygging-rundt-hjãrne">1. Rygging rundt hjÃ¸rne</a></li>
+        <li><a href="#2-rygging-inn-i-parkeringsplass">2. Rygging inn i parkeringsplass</a></li>
+        <li><a href="#3-parallellparkering">3. Parallellparkering</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdbrems-og-teknikk">NÃ¸dbrems og teknikk</a>
+      <ul>
+        <li><a href="#korrekt-nãdbremsteknikk">Korrekt nÃ¸dbremsteknikk</a></li>
+      </ul>
+    </li>
+    <li><a href="#selvstendig-kjãring---hva-vurderes">Selvstendig kjÃ¸ring - Hva vurderes?</a>
+      <ul>
+        <li><a href="#typiske-kjãresituasjoner-du-vil-mãte">Typiske kjÃ¸resituasjoner du vil mÃ¸te</a></li>
+      </ul>
+    </li>
+    <li><a href="#omfattende-forberedelse---strategisk-tilnãrming">Omfattende forberedelse - Strategisk tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#praktisk-forberedelse">Praktisk forberedelse</a></li>
+        <li><a href="#mental-forberedelse">Mental forberedelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#dagen-for-oppkjãring---detaljert-sjekkliste">Dagen for oppkjÃ¸ring - Detaljert sjekkliste</a>
+      <ul>
+        <li><a href="#dagen-fãr">Dagen fÃ¸r</a></li>
+        <li><a href="#selve-dagen">Selve dagen</a></li>
+        <li><a href="#under-oppkjãringen">Under oppkjÃ¸ringen</a></li>
+      </ul>
+    </li>
+    <li><a href="#vanlige-feil-og-hvordan-du-unngãr-dem">Vanlige feil og hvordan du unngÃ¥r dem</a>
+      <ul>
+        <li><a href="#strategier-for-ã-minimere-feil">Strategier for Ã¥ minimere feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#hvis-du-ikke-bestãr---konstruktiv-tilnãrming">Hvis du ikke bestÃ¥r - Konstruktiv tilnÃ¦rming</a>
+      <ul>
+        <li><a href="#etter-ikke-bestãtt-oppkjãring">Etter ikke-bestÃ¥tt oppkjÃ¸ring</a></li>
+        <li><a href="#mentalt-hãndter-skuffelse">Mentalt hÃ¥ndter skuffelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#etter-bestãtt-oppkjãring---livet-som-ny-fãrer">Etter bestÃ¥tt oppkjÃ¸ring - Livet som ny fÃ¸rer</a>
+      <ul>
+        <li><a href="#prãvetid-og-restriksjoner">PrÃ¸vetid og restriksjoner</a></li>
+        <li><a href="#fortsatt-utvikling-som-sjãfãr">Fortsatt utvikling som sjÃ¥fÃ¸r</a></li>
+      </ul>
+    </li>
+    <li><a href="#praktisk-informasjon-og-ressurser">Praktisk informasjon og ressurser</a>
+      <ul>
+        <li><a href="#kontaktinformasjon-og-booking">Kontaktinformasjon og booking</a></li>
+        <li><a href="#digitale-ressurser">Digitale ressurser</a></li>
+        <li><a href="#juridiske-aspekter">Juridiske aspekter</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+**OppkjÃ¸ring** er den praktiske kjÃ¸reprÃ¸ven som mÃ¥ bestÃ¥s for Ã¥ fÃ¥ fÃ¸rerkort klasse B i Norge. Dette er **den avgjÃ¸rende testen** som viser om du kan kjÃ¸re sikkert og selvstendig i norsk trafikk. Denne omfattende guiden gir deg alt du trenger Ã¥ vite om oppkjÃ¸ringen - fra forberedelser til vurderingskriterier.
+<p><em>For detaljert informasjon om formelle krav som fÃ¸rerkort, vognkort og forsikring, se <a href="/blogs/teori/forerkort-vognkort-og-forsikring" title="FÃ¸rerkort, vognkort og forsikring - alt om dokumenter, registrering og forsikring">FÃ¸rerkort, vognkort og forsikring</a>.</em></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="hva-er-oppkjãring">Hva er oppkjÃ¸ring?</h2>
+<p>OppkjÃ¸ring, ogsÃ¥ kalt den <strong>praktiske kjÃ¸reprÃ¸ven</strong>, er en individuell test der en godkjent sensor fra Statens vegvesen vurderer om du kan <strong>kjÃ¸re sikkert, selvstendig og i samsvar med trafikkreglene</strong>. PrÃ¸ven kombinerer teoretisk kunnskap med praktiske kjÃ¸referdigher og utfÃ¸res i vanlig trafikk.</p>
+<h3 id="formãl-med-oppkjãringen">FormÃ¥l med oppkjÃ¸ringen</h3>
+<p>OppkjÃ¸ringen har flere <strong>hovedformÃ¥l</strong>:</p>
+<ul>
+<li><strong>Sikkerhetsvurdering</strong>: Kontrollere at du ikke utgjÃ¸r en fare for deg selv eller andre trafikanter</li>
+<li><strong>Selvstendighet</strong>: Vise at du kan ta gode avgjÃ¸relser uten instruksjon fra instruktÃ¸r</li>
+<li><strong>RegelforstÃ¥else</strong>: Demonstrere kunnskap om <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - juridisk rammeverk for trafikk">trafikkregler</a> i praksis</li>
+<li><strong>Teknisk kompetanse</strong>: Beherske bilens funksjoner og sikkerhetssystemer</li>
+</ul>
+<h3 id="krav-for-ã-ta-oppkjãring">Krav for Ã¥ ta oppkjÃ¸ring</h3>
+<p>For Ã¥ kunne ta <strong>oppkjÃ¸ring</strong> mÃ¥ du oppfylle fÃ¸lgende krav:</p>
+<ul>
+<li>BestÃ¥tt <strong>teorikurs</strong> pÃ¥ trafikkskole</li>
+<li>GjennomfÃ¸rt minimum <strong>16 timer obligatorisk kjÃ¸reopplÃ¦ring</strong></li>
+<li>BestÃ¥tt den <strong>teoretiske prÃ¸ven</strong> (teoriprÃ¸ven)</li>
+<li>Ha gyldig <strong>Ã¸vingskjÃ¸relisens</strong></li>
+<li>VÃ¦re minimum <strong>18 Ã¥r</strong> (17 Ã¥r for B96-tilhenger)</li>
+</ul>
+<p><em>For mer informasjon om fÃ¸rerkortklasser, se <a href="/blogs/teori/forerkortklasser-oversikt" title="Oversikt over fÃ¸rerkortklassene i Norge">FÃ¸rerkortklasser (oversikt)</a>.</em></p>
+<h2 id="oppkjãringens-struktur-og-varighet">OppkjÃ¸ringens struktur og varighet</h2>
+<p>En typisk <strong>oppkjÃ¸ring</strong> varer mellom <strong>35-45 minutter</strong> og bestÃ¥r av fem hoveddeler som utfÃ¸res i bestemt rekkefÃ¸lge:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="detaljert-gjennomgang-av-prãveelementer">Detaljert gjennomgang av prÃ¸veelementer</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Element</th>
+          <th>Varighet</th>
+          <th>Beskrivelse</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Sikkerhetskontroll</strong></td>
+          <td>5-7 min</td>
+          <td>Grundig kontroll av sete, speil, lys og sikkerhetsutstyr fÃ¸r kjÃ¸ring.</td>
+      </tr>
+      <tr>
+          <td><strong>StasjonÃ¦re Ã¸velser</strong></td>
+          <td>10-15 min</td>
+          <td>Rygging rundt hjÃ¸rne og parkering, normalt gjÃ¸res to Ã¸velser. Se detaljert guide: <a href="/blogs/teori/rygging-og-parkering" title="Rygging og parkering - Komplett guide til trygg manÃ¸vrering">Rygging og parkering</a>.</td>
+      </tr>
+      <tr>
+          <td><strong>NÃ¸dbrems/NÃ¸dstopp</strong></td>
+          <td>2-3 min</td>
+          <td>Kontrollert nÃ¸dbrems som demonstrerer din <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - fysikk og teknikk">reaksjonstid og bremseteknikk</a>.</td>
+      </tr>
+      <tr>
+          <td><strong>Selvstendig kjÃ¸ring</strong></td>
+          <td>15-20 min</td>
+          <td>KjÃ¸ring i trafikk med <a href="/blogs/teori/vikeplikt-og-rundkjoringer" title="Vikeplikt og rundkjÃ¸ringer">vikeplikt</a>, forbikjÃ¸ringer og eventuelt <a href="/blogs/teori/motorveikjoring" title="MotorveikjÃ¸ring - trygg kjÃ¸ring pÃ¥ motorvei">motorvei</a>.</td>
+      </tr>
+      <tr>
+          <td><strong>Evaluering</strong></td>
+          <td>3-5 min</td>
+          <td>Oppsummering og tilbakemelding fra sensor etter fullfÃ¸rt kjÃ¸ring.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="sikkerhetskontroll---dypere-forstãelse">Sikkerhetskontroll - Dypere forstÃ¥else</h2>
+<p><strong>Sikkerhetskontroll</strong> er ikke bare en rutine, men en <strong>fundamental del</strong> av ansvarsfullt bilhold. Sensor vil vurdere bÃ¥de din <strong>systematiske tilnÃ¦rming</strong> og <strong>tekniske kunnskap</strong>.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="systematisk-gjennomfãring">Systematisk gjennomfÃ¸ring</h3>
+<p><strong>FÃ¸r du setter deg i bilen:</strong></p>
+<ul>
+<li>Sjekk at bilen stÃ¥r <strong>stabilt og sikkert</strong></li>
+<li>Kontroller at det ikke ligger gjenstander <strong>rundt hjulene</strong></li>
+<li>Observer <strong>bilens generelle tilstand</strong> utenfra</li>
+</ul>
+<p><strong>Inne i bilen - rekkefÃ¸lge er viktig:</strong></p>
+<ol>
+<li><strong>Setejustering fÃ¸rst</strong> - riktig posisjon til pedaler og ratt</li>
+<li><strong>HodestÃ¸tte</strong> - Ã¸verst pÃ¥ linje med toppen av hodet</li>
+<li><strong>Speil</strong> - startskjerm, venstre sidespeil, hÃ¸yre sidespeil</li>
+<li><strong>Sikkerhetsbelte</strong> - riktig plassering over brystkasse</li>
+<li><strong>Instrumentpanel</strong> - drivstoff, advarselslys, temperatur</li>
+<li><strong>Lys og signaler</strong> - test systematisk alle lystyper</li>
+</ol>
+<p><em>For detaljert informasjon om bilens sikkerhetssystemer, se <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr - moderne sikkerhetsteknologi">KjÃ¸retÃ¸yets sikkerhetsutstyr</a>.</em></p>
+<h2 id="vurderingssystem-og-karakterkriterier">Vurderingssystem og karakterkriterier</h2>
+<p>OppkjÃ¸ringen vurderes etter et <strong>detaljert poengsystem</strong> der sensor registrerer alle avvik fra ideell kjÃ¸ring. Systemet er designet for Ã¥ sikre <strong>objektiv og rettferdig</strong> bedÃ¸mmelse.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="feilkategorier-og-konsekvenser">Feilkategorier og konsekvenser</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Feiltype</th>
+          <th>Maks antall tillatt</th>
+          <th>Poengverdi</th>
+          <th>Eksempel feil</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Ikke-kritisk</strong></td>
+          <td>10</td>
+          <td>1-3 poeng</td>
+          <td>SmÃ¥ plassering- eller vikepliktfeil uten fare, usikker <a href="/blogs/teori/parkering-for-viderekomne" title="Parkering for viderekomne">parkering</a>.</td>
+      </tr>
+      <tr>
+          <td><strong>Kritisk</strong></td>
+          <td>0 (stryk ved 1 feil)</td>
+          <td>50+ poeng</td>
+          <td>Feil som utsetter trafiksikkerheten, f.eks. rÃ¸dt lys, kollisjon, farlig <a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte">forbikjÃ¸ring</a>.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="detaljerte-vurderingskriterier">Detaljerte vurderingskriterier</h3>
+<p><strong>Teknisk kjÃ¸ring</strong> vurderes pÃ¥ fÃ¸lgende omrÃ¥der:</p>
+<ul>
+<li><strong>Girkskifte</strong> - myke overganger og riktig girvalg</li>
+<li><strong>Kobling</strong> - progresjon og kontroll uten Ã¥ kvele motor</li>
+<li><strong>Styring</strong> - jevn kurs og kontrollerte bevegelser</li>
+<li><strong>Bremsing</strong> - graderte og kontrollerte nedbremsinger</li>
+<li><strong>Plassering</strong> - optimal posisjon i <a href="/blogs/teori/plassering-og-kjorematte" title="Plassering og kjÃ¸remÃ¥te">kjÃ¸rebanen</a></li>
+</ul>
+<p><strong>Trafikktilpasning</strong> omfatter:</p>
+<ul>
+<li><strong>Fartilpassning</strong> - tilpasset forhold og <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand">fartsgrenser</a></li>
+<li><strong>Avstandsholding</strong> - sikre <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand">fÃ¸lgeavstander</a></li>
+<li><strong>Vikeplikt</strong> - korrekt anvendelse av <a href="/blogs/teori/vikepliktsregler-i-detalj" title="Vikepliktsregler i detalj">vikepliktsregler</a></li>
+<li><strong>Kommunikasjon</strong> - tydelig <a href="/blogs/teori/kommunikasjon-med-andre-trafikanter" title="Kommunikasjon med andre trafikanter">signalisering</a></li>
+</ul>
+<h2 id="stasjonãre-ãvelser---mest-detaljert-guide">StasjonÃ¦re Ã¸velser - Mest detaljert guide</h2>
+<p><strong>StasjonÃ¦re Ã¸velser</strong> er ofte det som skaper mest nervÃ¸sitet. Her velger sensor vanligvis <strong>to av fÃ¸lgende Ã¸velser</strong>:</p>
+<h3 id="1-rygging-rundt-hjãrne">1. Rygging rundt hjÃ¸rne</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>FremgangsmÃ¥te steg for steg:</strong></p>
+<ol>
+<li><strong>Posisjonering</strong> - stopp nÃ¥r bakhjul er pÃ¥ linje med hjÃ¸rnet</li>
+<li><strong>Speilkontroll</strong> - konstant overvÃ¥king av hÃ¸yre speil</li>
+<li><strong>Retningskontroll</strong> - drei inn nÃ¥r hÃ¸yre bakhjul forsvinner fra speil</li>
+<li><strong>Korrigering</strong> - juster kontinuerlig basert pÃ¥ avstand til kantstein</li>
+<li><strong>FullfÃ¸ring</strong> - rak posisjon parallell med fortau</li>
+</ol>
+<p><strong>Vanlige feil Ã¥ unngÃ¥:</strong></p>
+<ul>
+<li>For tidlig eller sen inndreining</li>
+<li>Manglende speilbruk</li>
+<li>For hÃ¸y hastighet</li>
+<li>Kontakt med kantstein</li>
+</ul>
+<h3 id="2-rygging-inn-i-parkeringsplass">2. Rygging inn i parkeringsplass</h3>
+<p><strong>Mellom to biler</strong> (mest krevende):</p>
+<ul>
+<li><strong>Startposisjon</strong> - kjÃ¸r forbi plassen til bilen din er pÃ¥ linje med nabobilen</li>
+<li><strong>Speiljustering</strong> - juster hÃ¸yre speil sÃ¥ du ser hjÃ¸rnet av nabobilen</li>
+<li><strong>Ryggeteknikk</strong> - drei inn nÃ¥r nabobilens hjÃ¸rne forsvinner</li>
+<li><strong>Sentrering</strong> - juster til du er midt mellom bilene</li>
+</ul>
+<h3 id="3-parallellparkering">3. Parallellparkering</h3>
+<p>En <strong>sÃ¦rdeles teknisk Ã¸velse</strong> som krever presisjon:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Detaljert fremgangsmÃ¥te:</strong></p>
+<ol>
+<li><strong>Stopp parallelt</strong> med fremre bil, 50 cm avstand</li>
+<li><strong>Rygg til 45-graders vinkel</strong> med bakre bil synlig i hÃ¸yre speil</li>
+<li><strong>Drei fullt til venstre</strong> nÃ¥r hÃ¸yre bakhjul passerer hjÃ¸rnet av bakre bil</li>
+<li><strong>Ret opp bilen</strong> nÃ¥r fronten er fri av fremre bil</li>
+<li><strong>Korrigering</strong> - juster til jevn avstand pÃ¥ begge sider</li>
+</ol>
+<p><em>For utdypende detaljer om parkeringsteknikker, se <a href="/blogs/teori/rygging-og-parkering" title="Rygging og parkering - Komplett guide til trygg manÃ¸vrering">Rygging og parkering</a>.</em></p>
+<h2 id="nãdbrems-og-teknikk">NÃ¸dbrems og teknikk</h2>
+<p><strong>NÃ¸dbremsÃ¸velsen</strong> er en kritisk del av oppkjÃ¸ringen som tester din evne til Ã¥ reagere raskt og kontrollert i en farlig situasjon.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="korrekt-nãdbremsteknikk">Korrekt nÃ¸dbremsteknikk</h3>
+<p><strong>For biler uten ABS:</strong></p>
+<ol>
+<li><strong>TrÃ¥ hardt pÃ¥ bremsen</strong> - full kraft pÃ¥ bremsen</li>
+<li><strong>UnngÃ¥ lÃ¥sing</strong> - lette trykket hvis hjulene lÃ¥ser seg</li>
+<li><strong>Hold rattet fast</strong> - forhindre at bilen svinger ut</li>
+<li><strong>TrÃ¥ ned koblingen</strong> samtidig for Ã¥ unngÃ¥ motorstopp</li>
+</ol>
+<p><strong>For biler med ABS:</strong></p>
+<ol>
+<li><strong>TrÃ¥ hardt pÃ¥ bremsen</strong> og <strong>hold trykket</strong></li>
+<li><strong>La ABS-systemet</strong> arbeide (du vil fÃ¸le vibrasjoner)</li>
+<li><strong>Styr unna hindringer</strong> hvis mulig mens du bremser</li>
+<li><strong>Ikke pump bremsene</strong> - ABS gjÃ¸r dette automatisk</li>
+</ol>
+<p><em>Les mer om bremsefysikk og sikkerhetsmarginer i <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - fysikk og teknikk">Reaksjonstid og bremselengde</a>.</em></p>
+<h2 id="selvstendig-kjãring---hva-vurderes">Selvstendig kjÃ¸ring - Hva vurderes?</h2>
+<p>Under <strong>selvstendig kjÃ¸ring</strong> fÃ¸lger sensor deg gjennom vanlig trafikk og vurderer din <strong>totale kjÃ¸reutfÃ¸ring</strong>. Dette er den mest omfattende delen av prÃ¸ven.</p>
+<h3 id="typiske-kjãresituasjoner-du-vil-mãte">Typiske kjÃ¸resituasjoner du vil mÃ¸te</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>BykjÃ¸ring:</strong></p>
+<ul>
+<li><a href="/blogs/teori/vikeplikt-og-rundkjoringer" title="Vikeplikt og rundkjÃ¸ringer">RundkjÃ¸ringer</a> med korrekt innkjÃ¸ring</li>
+<li>Trafikkregulering og lyskryss</li>
+<li><a href="/blogs/teori/trafikantgrupper-og-hensyn" title="Trafikantgrupper og hensyn">Kommunikasjon med fotgjengere</a></li>
+<li><a href="/blogs/teori/parkering-for-viderekomne" title="Parkering for viderekomne">Parkering</a> og manÃ¸vrering</li>
+</ul>
+<p><strong>Landevei:</strong></p>
+<ul>
+<li>Tilpasning til <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand">fartsgrenser</a></li>
+<li><a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte">ForbikjÃ¸ringer</a> nÃ¥r sikkerhet tillater det</li>
+<li><a href="/blogs/teori/moteulykker-og-forebygging" title="MÃ¸teulykker og forebygging">MÃ¸tende trafikk</a> i smale veier</li>
+<li>Kurveteknikk og <a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring">defensiv kjÃ¸ring</a></li>
+</ul>
+<p><strong>Eventuell motorvei:</strong></p>
+<ul>
+<li><a href="/blogs/teori/motorveikjoring" title="MotorveikjÃ¸ring - trygg kjÃ¸ring pÃ¥ motorvei">PÃ¥kjÃ¸ring</a> med tilstrekkelig akselerasjon</li>
+<li>Feltbruk og <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand">avstandsholding</a></li>
+<li><a href="/blogs/teori/motorveikjoring" title="MotorveikjÃ¸ring - trygg kjÃ¸ring pÃ¥ motorvei">AvkjÃ¸ring</a> med korrekt signalisering</li>
+</ul>
+<h2 id="omfattende-forberedelse---strategisk-tilnãrming">Omfattende forberedelse - Strategisk tilnÃ¦rming</h2>
+<p><strong>MÃ¥neder fÃ¸r oppkjÃ¸ringen:</strong></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="praktisk-forberedelse">Praktisk forberedelse</h3>
+<p><strong>Tekniske ferdigheter:</strong></p>
+<ul>
+<li>Ã˜v pÃ¥ <strong>alle stasjonÃ¦re Ã¸velser</strong> til de blir automatiske</li>
+<li>Tren pÃ¥ <strong>nÃ¸dbrems</strong> under trygg kontrollert Ã¸ving</li>
+<li>Mester <strong>kobling og gir</strong> i ulike situasjoner</li>
+<li>Perfeksioner <strong>speilteknikk</strong> og skuldersjekk</li>
+</ul>
+<p><strong>Trafikksituasjoner:</strong></p>
+<ul>
+<li>KjÃ¸r i <strong>alle typer veinettverk</strong>: by, landevei, motorvei</li>
+<li>Ã˜v under <strong>vanskelige forhold</strong>: <a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold">regn</a>, <a href="/blogs/teori/kjoring-i-morket" title="KjÃ¸ring i mÃ¸rket">mÃ¸rke</a>, tett trafikk</li>
+<li>Tren pÃ¥ <strong>vikepliktsituasjoner</strong> og komplekse kryss</li>
+<li>Ã˜v pÃ¥ <strong>kommunikasjon</strong> med andre <a href="/blogs/teori/trafikantgrupper-og-hensyn" title="Trafikantgrupper og hensyn">trafikantgrupper</a></li>
+</ul>
+<h3 id="mental-forberedelse">Mental forberedelse</h3>
+<p><strong>Reduser prestasjonsnervÃ¸sitet:</strong></p>
+<ol>
+<li><strong>Visualiseringsteknikk</strong> - se for deg vellykket oppkjÃ¸ring</li>
+<li><strong>PusteÃ¸velser</strong> - beherskt respirasjon under stress</li>
+<li><strong>Positiv selvsnakk</strong> - fokuser pÃ¥ kompetanse, ikke feil</li>
+<li><strong>SÃ¸vn og kosthold</strong> - optimal fysiologisk tilstand</li>
+<li><strong>Realisme</strong> - forstÃ¥ at smÃ¥ feil er normale og aksepterte</li>
+</ol>
+<p><em>For dypere forstÃ¥else av mentale utfordringer, se <a href="/blogs/teori/psykologiske-feller-i-trafikken" title="Psykologiske feller i trafikken - unngÃ¥ beslutningsfeil">Psykologiske feller i trafikken</a>.</em></p>
+<h2 id="dagen-for-oppkjãring---detaljert-sjekkliste">Dagen for oppkjÃ¸ring - Detaljert sjekkliste</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="dagen-fãr">Dagen fÃ¸r</h3>
+<ul>
+<li><strong>Siste Ã¸velseskjÃ¸ring</strong> - fokuser pÃ¥ det du synes er vanskeligst</li>
+<li><strong>God nattsÃ¸vn</strong> - minimum 7-8 timer hvile</li>
+<li><strong>UnngÃ¥ alkohol</strong> - pÃ¥virker koordinasjon i mange timer</li>
+<li><strong>Forbered klÃ¦r</strong> - komfortable, ikke-distraherende antrekk</li>
+</ul>
+<h3 id="selve-dagen">Selve dagen</h3>
+<p><strong>2-3 timer fÃ¸r:</strong></p>
+<ul>
+<li><strong>Lett mÃ¥ltid</strong> - unngÃ¥ tung mat som gjÃ¸r deg trÃ¸tt</li>
+<li><strong>VÃ¦skinntak</strong> - rikelig med vann, unngÃ¥ mye kaffe</li>
+<li><strong>Ankomst</strong> - vÃ¦r pÃ¥ stedet 15-20 minutter fÃ¸r tid</li>
+</ul>
+<p><strong>Like fÃ¸r prÃ¸ven:</strong></p>
+<ul>
+<li><strong>Kort oppvarming</strong> med instruktÃ¸r hvis mulig</li>
+<li><strong>GjennomgÃ¥</strong> bilens kontroller mentalt</li>
+<li><strong>PustÃ¸velser</strong> for Ã¥ senke stressnivÃ¥</li>
+<li><strong>Positivt fokus</strong> - tenk pÃ¥ det du mestrer godt</li>
+</ul>
+<h3 id="under-oppkjãringen">Under oppkjÃ¸ringen</h3>
+<p><strong>Kommunikasjon med sensor:</strong></p>
+<ul>
+<li><strong>VÃ¦r hÃ¸flig og respektfull</strong> - first impression betyr mye</li>
+<li><strong>Still spÃ¸rsmÃ¥l</strong> hvis instruksjoner er uklare</li>
+<li><strong>KommentÃ©r</strong> om nÃ¸dvendig: &ldquo;Jeg ser fotgjengeren, venter med Ã¥ kjÃ¸re&rdquo;</li>
+<li><strong>Behold roen</strong> hvis du gjÃ¸r feil - ikke la det pÃ¥virke resten</li>
+</ul>
+<h2 id="vanlige-feil-og-hvordan-du-unngãr-dem">Vanlige feil og hvordan du unngÃ¥r dem</h2>
+<p><strong>Kritiske feil</strong> (automatisk stryk):</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Feiltype</th>
+          <th>Beskrivelse</th>
+          <th>Forebygging</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>RÃ¸dt lys</strong></td>
+          <td>KjÃ¸re pÃ¥ rÃ¸dt lys eller oransje nÃ¥r trygg stopp var mulig</td>
+          <td>Forbered deg pÃ¥ Ã¥ stoppe nÃ¥r lyset blir gult</td>
+      </tr>
+      <tr>
+          <td><strong>Kollisjon</strong></td>
+          <td>BerÃ¸ring av andre kjÃ¸retÃ¸y, fotgjengere eller faste gjenstander</td>
+          <td>Ã˜k sikkerhetsmarginer, ikke stress</td>
+      </tr>
+      <tr>
+          <td><strong>Farlig forbikjÃ¸ring</strong></td>
+          <td>ForbikjÃ¸ring med mÃ¸tende trafikk eller dÃ¥rlig sikt</td>
+          <td>VÃ¦r konservativ - ikke ta sjanser</td>
+      </tr>
+      <tr>
+          <td><strong>Vikepliktsbrudd</strong></td>
+          <td>Ikke gi vikeplikt nÃ¥r pÃ¥krevd</td>
+          <td>Studer <a href="/blogs/teori/vikepliktsregler-i-detalj" title="Vikepliktsregler i detalj">vikepliktsregler</a> grundig</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Ikke-kritiske feil</strong> (maksimalt 10 tillatt):</p>
+<ul>
+<li><strong>Ujamn kjÃ¸ring</strong> - rykkete kobling, dÃ¥rlig girskifte</li>
+<li><strong>Feilplassering</strong> - for nÃ¦rt kantstein eller midtlinje</li>
+<li><strong>Usikker parkering</strong> - for mange korrigeringer, dÃ¥rlig sluttresultat</li>
+<li><strong>Signaleringsfeil</strong> - glemme Ã¥ signalisere eller feil timing</li>
+</ul>
+<h3 id="strategier-for-ã-minimere-feil">Strategier for Ã¥ minimere feil</h3>
+<ol>
+<li><strong>Ã˜k sikkerhetsmarginer</strong> - vÃ¦r konservativ fremfor Ã¥ ta sjanser</li>
+<li><strong>Bruk tid</strong> - ikke stress, sensor forventer ikke perfekt timing</li>
+<li><strong>Kommuniker</strong> - si fra om du ser farer eller er usikker</li>
+<li><strong>VÃ¦r systematisk</strong> - fÃ¸lg samme prosedyre hver gang</li>
+<li><strong>Aksepter smÃ¥ feil</strong> - ikke la en feil Ã¸delegge resten av kjÃ¸ringen</li>
+</ol>
+<h2 id="hvis-du-ikke-bestãr---konstruktiv-tilnãrming">Hvis du ikke bestÃ¥r - Konstruktiv tilnÃ¦rming</h2>
+<p><strong>Statistikk viser</strong> at ca. 40% ikke bestÃ¥r oppkjÃ¸ringen pÃ¥ fÃ¸rste forsÃ¸k. Dette er <strong>helt normalt</strong> og ingen skam.</p>
+<h3 id="etter-ikke-bestãtt-oppkjãring">Etter ikke-bestÃ¥tt oppkjÃ¸ring</h3>
+<p><strong>Umiddelbart:</strong></p>
+<ul>
+<li><strong>Lytt til tilbakemelding</strong> fra sensor - noter spesifikke forbedringspunkter</li>
+<li><strong>Still oppfÃ¸lgingsspÃ¸rsmÃ¥l</strong> - fÃ¥ konkrete rÃ¥d for videre Ã¸ving</li>
+<li><strong>Aksepter resultatet</strong> - ikke diskuter eller argumenter med sensor</li>
+</ul>
+<p><strong>Planlegging av ny oppkjÃ¸ring:</strong></p>
+<ul>
+<li><strong>Ventetid</strong> - minimum 2 uker fÃ¸r ny oppkjÃ¸ring kan bookes</li>
+<li><strong>TilleggsÃ¸ving</strong> - fokuser pÃ¥ de spesifikke omrÃ¥dene sensor pÃ¥pekte</li>
+<li><strong>Ny strategi</strong> - juster treningsopplegg basert pÃ¥ erfaring</li>
+</ul>
+<h3 id="mentalt-hãndter-skuffelse">Mentalt hÃ¥ndter skuffelse</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Konstruktiv tilnÃ¦rming:</strong></p>
+<ul>
+<li><strong>Normaliser opplevelsen</strong> - dette skjer de fleste fÃ¸rerkortaspiranter</li>
+<li><strong>LÃ¦r av feilen</strong> - hver feil er verdifull lÃ¦ring for neste forsÃ¸k</li>
+<li><strong>Behold motivasjonen</strong> - mange bestÃ¥r pÃ¥ andre eller tredje forsÃ¸k</li>
+<li><strong>SÃ¸k stÃ¸tte</strong> - snakk med instruktÃ¸r, familie eller venner</li>
+</ul>
+<h2 id="etter-bestãtt-oppkjãring---livet-som-ny-fãrer">Etter bestÃ¥tt oppkjÃ¸ring - Livet som ny fÃ¸rer</h2>
+<p><strong>Gratulerer!</strong> Du har nÃ¥ <strong>fÃ¸rerkort klasse B</strong> og kan kjÃ¸re selvstendig. Men lÃ¦ringen stopper ikke her.</p>
+<h3 id="prãvetid-og-restriksjoner">PrÃ¸vetid og restriksjoner</h3>
+<p><strong>FÃ¸rste to Ã¥r</strong> med fÃ¸rerkort har sÃ¦rlige regler:</p>
+<ul>
+<li><strong>Null promille</strong> - absolutt forbud mot alkohol fÃ¸r kjÃ¸ring</li>
+<li><strong>FÃ¦rre poeng</strong> fÃ¸r inndragning av fÃ¸rerkort ved overtredelser</li>
+<li><strong>PrÃ¸vetidsavslutning</strong> - mÃ¸te pÃ¥ trafikkstasjon etter 2 Ã¥r</li>
+</ul>
+<h3 id="fortsatt-utvikling-som-sjãfãr">Fortsatt utvikling som sjÃ¥fÃ¸r</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Anbefalte tiltak:</strong></p>
+<ul>
+<li><strong>Fortsett Ã¥ lÃ¦re</strong> - <a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring">defensiv kjÃ¸ring</a>, <a href="/blogs/teori/miljovennlig-kjoring" title="MiljÃ¸vennlig kjÃ¸ring">Ã¸konomisk kjÃ¸ring</a></li>
+<li><strong>Ã˜v pÃ¥ utfordrende situasjoner</strong> - <a href="/blogs/teori/kjoring-med-tilhenger" title="KjÃ¸ring med tilhenger">kjÃ¸ring med tilhenger</a>, <a href="/blogs/teori/forberedelser-for-en-lang-kjoretur" title="Forberedelser for en lang kjÃ¸retur">lange kjÃ¸returer</a></li>
+<li><strong>Teknisk kunnskap</strong> - lÃ¦r mer om <a href="/blogs/teori/vedlikehold-av-bilen" title="Vedlikehold av bilen">bilvedlikehold</a></li>
+<li><strong>Oppdater deg</strong> - trafikkregelverk og sikkerhetssystemer utvikler seg</li>
+</ul>
+<p><em>Husk at fÃ¸rerkort er bare <strong>starten</strong> pÃ¥ livet som trafikant. Kontinuerlig lÃ¦ring og utvikling gjÃ¸r deg til en tryggere og mer ansvarlig sjÃ¥fÃ¸r.</em></p>
+<h2 id="praktisk-informasjon-og-ressurser">Praktisk informasjon og ressurser</h2>
+<h3 id="kontaktinformasjon-og-booking">Kontaktinformasjon og booking</h3>
+<ul>
+<li><strong>Statens vegvesen</strong> - offisiell oppkjÃ¸ring booking: vegvesen.no</li>
+<li><strong>Telefon</strong> - lokale trafikkstasjoner for spÃ¸rsmÃ¥l</li>
+<li><strong>Priser</strong> - oppdatert gebyroversikt pÃ¥ vegvesen.no</li>
+<li><strong>Ventetider</strong> - kan variere betydelig etter sesong og lokasjon</li>
+</ul>
+<h3 id="digitale-ressurser">Digitale ressurser</h3>
+<ul>
+<li><strong>Teoriappen</strong> - gjennomgÃ¥ teori fÃ¸r oppkjÃ¸ring</li>
+<li><strong>YouTube</strong> - visualiser stasjonÃ¦re Ã¸velser og teknikker</li>
+<li><strong>KjÃ¸reskole</strong> - mange tilbyr oppkjÃ¸ringsforberedelse</li>
+</ul>
+<h3 id="juridiske-aspekter">Juridiske aspekter</h3>
+<p>For <strong>fullstendig forstÃ¥else</strong> av juridisk rammeverk, se <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - juridisk rammeverk for trafikk">Lover og forskrifter</a>.</p>
+<hr>
+<p><em>OppkjÃ¸ringen er et <strong>viktig skritt</strong> i din utvikling som trafikant. Med grundig forberedelse, riktig mental innstilling og fokus pÃ¥ sikkerhet har du alle forutsetninger for Ã¥ lykkes. Lykke til!</em>\n  </div>\n</div></p>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Oppkjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Oppkjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Oppkjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="familyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+    <marker id="routeArrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#4CAF50"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#familyGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#E65100">
+    Case Studie: Familie med Barn
+  </text>
+  
+  <!-- Home in center -->
+  <rect x="380" y="280" width="40" height="40" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+  <polygon points="380,280 400,260 420,280" fill="#D84315"/>
+  <rect x="390" y="300" width="8" height="12" fill="#5D4037"/>
+  <rect x="402" y="295" width="6" height="6" fill="#2196F3"/>
+  <text x="400" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4037">
+    HJEM
+  </text>
+  
+  <!-- Family destinations -->
+  
+  <!-- School -->
+  <rect x="200" y="150" width="50" height="40" fill="#FF9800" stroke="#F57C00" stroke-width="2"/>
+  <polygon points="200,150 225,130 250,150" fill="#D84315"/>
+  <rect x="220" y="165" width="10" height="10" fill="#FFF"/>
+  <text x="225" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E65100">
+    SKOLE
+  </text>
+  <text x="225" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E65100">
+    2.5 km
+  </text>
+  
+  <!-- Activity center -->
+  <circle cx="600" cy="200" r="30" fill="#9C27B0" stroke="#7B1FA2" stroke-width="2"/>
+  <circle cx="600" cy="200" r="15" fill="#CE93D8"/>
+  <text x="600" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">⚽</text>
+  <text x="600" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#6A1B9A">
+    FOTBALL
+  </text>
+  <text x="600" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6A1B9A">
+    8 km
+  </text>
+  
+  <!-- Shop -->
+  <rect x="150" y="400" width="80" height="50" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <rect x="160" y="415" width="60" height="20" fill="#C8E6C9"/>
+  <text x="190" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1B5E20">BUTIKK</text>
+  <text x="190" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E7D32">
+    HANDEL
+  </text>
+  <text x="190" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32">
+    3 km
+  </text>
+  
+  <!-- Doctor -->
+  <rect x="550" y="400" width="60" height="40" fill="#2196F3" stroke="#1976D2" stroke-width="2"/>
+  <text x="580" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">+</text>
+  <text x="580" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1565C0">
+    LEGE
+  </text>
+  <text x="580" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1565C0">
+    5 km
+  </text>
+  
+  <!-- Before optimization - chaotic routes -->
+  <g id="beforeRoutes" opacity="0.6">
+    <!-- Multiple separate trips -->
+    <path d="M400 300 Q320 240 225 180" stroke="#F44336" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    <path d="M225 180 Q320 240 400 300" stroke="#F44336" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    
+    <path d="M400 300 Q520 260 600 200" stroke="#F44336" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    <path d="M600 200 Q520 260 400 300" stroke="#F44336" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    
+    <path d="M400 300 Q290 360 190 425" stroke="#F44336" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    <path d="M190 425 Q290 360 400 300" stroke="#F44336" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- After optimization - smart combined route -->
+  <path d="M400 300 Q320 240 225 180 Q400 150 600 200 Q580 300 580 420 Q400 450 190 425 Q300 380 400 300" 
+        stroke="#4CAF50" stroke-width="3" fill="none" marker-end="url(#routeArrow)"/>
+  
+  <!-- Problem indicators -->
+  <rect x="50" y="80" width="200" height="120" fill="white" stroke="#F44336" stroke-width="2" rx="8"/>
+  <text x="150" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F44336">
+    Problemer
+  </text>
+  <text x="70" y="125" font-family="Arial, sans-serif" font-size="11" fill="#D32F2F">
+    • Mange kaldstarter
+  </text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="11" fill="#D32F2F">
+    • Korte turer (motor kald)
+  </text>
+  <text x="70" y="155" font-family="Arial, sans-serif" font-size="11" fill="#D32F2F">
+    • Ineffektiv ruteplanlegging
+  </text>
+  <text x="70" y="170" font-family="Arial, sans-serif" font-size="11" fill="#D32F2F">
+    • 5-7 separate turer/dag
+  </text>
+  <text x="70" y="185" font-family="Arial, sans-serif" font-size="11" fill="#D32F2F">
+    • Høyt drivstofforbruk
+  </text>
+  
+  <!-- Solutions -->
+  <rect x="550" y="80" width="200" height="120" fill="white" stroke="#4CAF50" stroke-width="2" rx="8"/>
+  <text x="650" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4CAF50">
+    Løsninger
+  </text>
+  <text x="570" y="125" font-family="Arial, sans-serif" font-size="11" fill="#2E7D32">
+    • Kombiner turer
+  </text>
+  <text x="570" y="140" font-family="Arial, sans-serif" font-size="11" fill="#2E7D32">
+    • Sykle til nærmeste (&lt;3km)
+  </text>
+  <text x="570" y="155" font-family="Arial, sans-serif" font-size="11" fill="#2E7D32">
+    • Samkjør med andre foreldre
+  </text>
+  <text x="570" y="170" font-family="Arial, sans-serif" font-size="11" fill="#2E7D32">
+    • Planlegg handleturer
+  </text>
+  <text x="570" y="185" font-family="Arial, sans-serif" font-size="11" fill="#2E7D32">
+    • Ukentlig storhandel
+  </text>
+  
+  <!-- Results comparison -->
+  <rect x="250" y="480" width="300" height="100" fill="white" stroke="#FF9800" stroke-width="2" rx="8"/>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E65100">
+    Resultater
+  </text>
+  
+  <text x="280" y="525" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F44336">
+    Før optimalisering:
+  </text>
+  <text x="280" y="540" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    • 35 turer per uke
+  </text>
+  <text x="280" y="555" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    • 12 L/100km snitt
+  </text>
+  <text x="280" y="570" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    • 1800L drivstoff/år
+  </text>
+  
+  <text x="420" y="525" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4CAF50">
+    Etter optimalisering:
+  </text>
+  <text x="420" y="540" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    • 22 turer per uke
+  </text>
+  <text x="420" y="555" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    • 8.5 L/100km snitt
+  </text>
+  <text x="420" y="570" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    • 1150L drivstoff/år
+  </text>
+  
+  <!-- Savings highlight -->
+  <ellipse cx="400" cy="450" rx="100" ry="20" fill="#FFD600" opacity="0.8"/>
+  <text x="400" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E65100">
+    36% besparelse!
+  </text>
+  
+  <!-- Legend -->
+  <rect x="50" y="520" width="150" height="60" fill="white" stroke="#666" stroke-width="1" rx="5"/>
+  <text x="125" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">
+    Ruter
+  </text>
+  
+  <line x1="70" y1="550" x2="90" y2="550" stroke="#F44336" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="95" y="555" font-family="Arial, sans-serif" font-size="10" fill="#F44336">Separate turer</text>
+  
+  <line x1="70" y1="565" x2="90" y2="565" stroke="#4CAF50" stroke-width="3"/>
+  <text x="95" y="570" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50">Kombinert rute</text>
+  
+  <!-- Time indicators for optimal route -->
+  <circle cx="225" cy="160" r="12" fill="#FF9800" opacity="0.8"/>
+  <text x="225" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">08:00</text>
+  
+  <circle cx="600" cy="180" r="12" fill="#9C27B0" opacity="0.8"/>
+  <text x="600" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">08:30</text>
+  
+  <circle cx="580" cy="400" r="12" fill="#2196F3" opacity="0.8"/>
+  <text x="580" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">09:00</text>
+  
+  <circle cx="190" cy="405" r="12" fill="#4CAF50" opacity="0.8"/>
+  <text x="190" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">09:30</text>
+</svg>

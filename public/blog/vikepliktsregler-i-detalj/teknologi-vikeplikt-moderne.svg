@@ -1,0 +1,210 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    Moderne teknologi og vikepliktsregler
+  </text>
+  
+  <!-- Smart traffic light system -->
+  <g transform="translate(50, 60)">
+    <text x="150" y="20" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Adaptive trafikklys
+    </text>
+    
+    <!-- Traffic light pole -->
+    <rect x="145" y="40" width="10" height="100" fill="#34495e"/>
+    
+    <!-- Traffic light housing -->
+    <rect x="135" y="40" width="30" height="80" rx="15" fill="#2c3e50"/>
+    
+    <!-- Light signals -->
+    <circle cx="150" cy="55" r="6" fill="#27ae60" opacity="0.8"/>
+    <circle cx="150" cy="75" r="6" fill="#f39c12" opacity="0.3"/>
+    <circle cx="150" cy="95" r="6" fill="#e74c3c" opacity="0.3"/>
+    
+    <!-- Sensors -->
+    <rect x="100" y="130" width="15" height="8" rx="2" fill="#3498db"/>
+    <rect x="185" y="130" width="15" height="8" rx="2" fill="#3498db"/>
+    <text x="150" y="155" text-anchor="middle" fill="#3498db" font-family="Arial, sans-serif" font-size="10">
+      Trafikkdetektorer
+    </text>
+    
+    <!-- Cars approaching -->
+    <rect x="70" y="125" width="20" height="10" rx="2" fill="#e74c3c"/>
+    <rect x="210" y="125" width="20" height="10" rx="2" fill="#f39c12"/>
+    
+    <!-- Data flow -->
+    <path d="M 107 134 Q 130 120 135 90" stroke="#3498db" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+    <path d="M 193 134 Q 170 120 165 90" stroke="#3498db" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+    
+    <text x="150" y="180" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+      Tilpasser timing basert på trafikkmengde
+    </text>
+  </g>
+  
+  <!-- Digital variable signs -->
+  <g transform="translate(350, 60)">
+    <text x="150" y="20" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Digitale skilt
+    </text>
+    
+    <!-- Digital sign board -->
+    <rect x="50" y="40" width="200" height="80" rx="5" fill="#2c3e50" stroke="#34495e" stroke-width="3"/>
+    
+    <!-- LED matrix background -->
+    <rect x="60" y="50" width="180" height="60" fill="#1a1a1a"/>
+    
+    <!-- Dynamic content -->
+    <text x="150" y="70" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      HASTIGHET: 60
+    </text>
+    <text x="150" y="90" text-anchor="middle" fill="#f39c12" font-family="Arial, sans-serif" font-size="10">
+      KØ FREMOVER
+    </text>
+    
+    <!-- Control system -->
+    <rect x="120" y="130" width="60" height="30" rx="3" fill="#3498db"/>
+    <text x="150" y="148" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">
+      Trafikksentral
+    </text>
+    
+    <!-- Connection -->
+    <line x1="150" y1="120" x2="150" y2="130" stroke="#3498db" stroke-width="2"/>
+    
+    <text x="150" y="180" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+      Kan endre vikepliktsregler dynamisk
+    </text>
+  </g>
+  
+  <!-- Connected vehicles -->
+  <g transform="translate(600, 60)">
+    <text x="80" y="20" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Tilkoblede kjøretøy
+    </text>
+    
+    <!-- Smart car -->
+    <rect x="50" y="60" width="40" height="25" rx="5" fill="#3498db"/>
+    <rect x="55" y="65" width="30" height="15" rx="2" fill="#ecf0f1"/>
+    
+    <!-- Antennas -->
+    <line x1="60" y1="60" x2="60" y2="50" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="80" y1="60" x2="80" y2="50" stroke="#e74c3c" stroke-width="2"/>
+    
+    <!-- Signal waves -->
+    <path d="M 60 50 Q 50 40 40 30" stroke="#e74c3c" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M 60 50 Q 70 40 80 30" stroke="#e74c3c" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M 80 50 Q 90 40 100 30" stroke="#e74c3c" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M 80 50 Q 70 40 60 30" stroke="#e74c3c" stroke-width="1" fill="none" opacity="0.6"/>
+    
+    <!-- Infrastructure communication -->
+    <text x="70" y="110" text-anchor="middle" fill="#3498db" font-family="Arial, sans-serif" font-size="8">
+      V2I Communication
+    </text>
+    
+    <!-- Other vehicle -->
+    <rect x="100" y="100" width="25" height="15" rx="3" fill="#27ae60"/>
+    <line x1="125" y1="107" x2="135" y2="107" stroke="#e74c3c" stroke-width="1"/>
+    
+    <text x="80" y="140" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="9">
+      V2V Communication
+    </text>
+    
+    <text x="80" y="180" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+      Deler informasjon om vikeplikt
+    </text>
+  </g>
+  
+  <!-- Technology impact explanation -->
+  <rect x="50" y="250" width="700" height="220" rx="10" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+  <text x="400" y="280" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    Teknologiens påvirkning på vikepliktsregler
+  </text>
+  
+  <!-- Adaptive systems -->
+  <rect x="80" y="300" width="200" height="140" rx="5" fill="#ecf0f1"/>
+  <text x="180" y="320" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Adaptive systemer
+  </text>
+  
+  <text x="90" y="340" fill="#27ae60" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    Fordeler:
+  </text>
+  <text x="90" y="355" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Reduserer ventetid
+  </text>
+  <text x="90" y="368" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Prioriterer kollektivtrafikk
+  </text>
+  <text x="90" y="381" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Tilpasser seg trafikkmønster
+  </text>
+  
+  <text x="90" y="405" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    Utfordringer:
+  </text>
+  <text x="90" y="420" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Hierarkiet forblir det samme
+  </text>
+  <text x="90" y="433" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Krever oppmerksom sjåfør
+  </text>
+  
+  <!-- Digital signs -->
+  <rect x="300" y="300" width="200" height="140" rx="5" fill="#ecf0f1"/>
+  <text x="400" y="320" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Dynamiske skilt
+  </text>
+  
+  <text x="310" y="340" fill="#27ae60" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    Muligheter:
+  </text>
+  <text x="310" y="355" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Endrer regler ved behov
+  </text>
+  <text x="310" y="368" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Informerer om forhold
+  </text>
+  <text x="310" y="381" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Veileder trafikanter
+  </text>
+  
+  <text x="310" y="405" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    Krav til sjåfør:
+  </text>
+  <text x="310" y="420" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Følg med på endringer
+  </text>
+  <text x="310" y="433" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Forstå nye symboler
+  </text>
+  
+  <!-- Connected vehicles -->
+  <rect x="520" y="300" width="200" height="140" rx="5" fill="#ecf0f1"/>
+  <text x="620" y="320" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Tilkoblede kjøretøy
+  </text>
+  
+  <text x="530" y="340" fill="#27ae60" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    Fremtidige muligheter:
+  </text>
+  <text x="530" y="355" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Automatisk vikepliktshåndtering
+  </text>
+  <text x="530" y="368" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Kommunikasjon mellom biler
+  </text>
+  <text x="530" y="381" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Koordinert trafikk</text>
+  
+  <text x="530" y="405" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    Dagens realitet:
+  </text>
+  <text x="530" y="420" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Sjåfør har fortsatt ansvar
+  </text>
+  <text x="530" y="433" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Grunnreglene gjelder fortsatt
+  </text>
+</svg>

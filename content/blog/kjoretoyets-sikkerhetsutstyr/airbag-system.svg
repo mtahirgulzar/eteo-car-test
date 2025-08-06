@@ -1,0 +1,131 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50">
+    Airbag-systemets komponenter og funksjon
+  </text>
+  
+  <!-- Main diagram -->
+  <g transform="translate(100, 80)">
+    <!-- Car dashboard outline -->
+    <path d="M50 200 L550 200 L500 150 L100 150 Z" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Steering wheel -->
+    <circle cx="200" cy="180" r="40" fill="#2c3e50" stroke="#34495e" stroke-width="3"/>
+    <circle cx="200" cy="180" r="25" fill="#e74c3c" opacity="0.8"/>
+    <text x="200" y="185" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">AIRBAG</text>
+    
+    <!-- Passenger airbag location -->
+    <rect x="350" y="160" width="80" height="40" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5"/>
+    <circle cx="390" cy="180" r="20" fill="#f39c12" opacity="0.8"/>
+    <text x="390" y="185" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="white">AB</text>
+    
+    <!-- Seat with side airbag -->
+    <rect x="80" y="250" width="60" height="80" fill="#95a5a6" stroke="#34495e" stroke-width="2" rx="10"/>
+    <rect x="70" y="260" width="15" height="40" fill="#9b59b6" opacity="0.8" rx="5"/>
+    <text x="77" y="285" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">S</text>
+    
+    <!-- ECU (Control unit) -->
+    <rect x="450" y="280" width="80" height="40" fill="#34495e" rx="5"/>
+    <text x="490" y="295" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="white">ECU</text>
+    <text x="490" y="308" text-anchor="middle" font-family="Arial" font-size="8" fill="white">Styreenhet</text>
+  </g>
+  
+  <!-- Sensors -->
+  <g>
+    <!-- Front impact sensor -->
+    <circle cx="120" cy="320" r="8" fill="#e74c3c"/>
+    <text x="120" y="325" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="white">S</text>
+    <line x1="120" y1="312" x2="120" y2="290" stroke="#e74c3c" stroke-width="2"/>
+    <rect x="70" y="270" width="100" height="20" fill="#fff" stroke="#e74c3c" stroke-width="1" rx="3"/>
+    <text x="120" y="283" text-anchor="middle" font-family="Arial" font-size="9" fill="#e74c3c">Kollisjonssensor</text>
+    
+    <!-- Side impact sensor -->
+    <circle cx="80" cy="400" r="8" fill="#9b59b6"/>
+    <text x="80" y="405" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="white">S</text>
+    <line x1="72" y1="400" x2="40" y2="400" stroke="#9b59b6" stroke-width="2"/>
+    <rect x="10" y="390" width="70" height="20" fill="#fff" stroke="#9b59b6" stroke-width="1" rx="3"/>
+    <text x="45" y="403" text-anchor="middle" font-family="Arial" font-size="9" fill="#9b59b6">Sidesensor</text>
+    
+    <!-- Acceleration sensor -->
+    <rect x="540" y="390" width="12" height="12" fill="#1abc9c" rx="2"/>
+    <line x1="546" y1="390" x2="546" y2="370" stroke="#1abc9c" stroke-width="2"/>
+    <rect x="500" y="350" width="92" height="20" fill="#fff" stroke="#1abc9c" stroke-width="1" rx="3"/>
+    <text x="546" y="363" text-anchor="middle" font-family="Arial" font-size="9" fill="#1abc9c">G-kraftsensor</text>
+  </g>
+  
+  <!-- Wiring -->
+  <g stroke="#7f8c8d" stroke-width="2" fill="none">
+    <path d="M128 320 Q200 340 450 370"/>
+    <path d="M88 400 Q200 420 450 380"/>
+    <path d="M540 396 L530 380"/>
+    <path d="M300 180 Q375 220 450 280"/>
+    <path d="M240 180 Q345 220 450 280"/>
+  </g>
+  
+  <!-- Timing sequence -->
+  <g transform="translate(50, 450)">
+    <rect x="0" y="0" width="700" height="120" fill="#fff" stroke="#bdc3c7" stroke-width="1" rx="10"/>
+    <text x="350" y="20" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2c3e50">
+      Airbag utløsningssekvens
+    </text>
+    
+    <!-- Timeline -->
+    <line x1="50" y1="60" x2="650" y2="60" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Time markers -->
+    <g>
+      <!-- 0ms - Impact -->
+      <circle cx="100" cy="60" r="4" fill="#e74c3c"/>
+      <line x1="100" y1="60" x2="100" y2="40" stroke="#e74c3c" stroke-width="1"/>
+      <text x="100" y="35" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#e74c3c">0ms</text>
+      <text x="100" y="85" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Kollisjon</text>
+      <text x="100" y="95" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">registreres</text>
+      
+      <!-- 2-3ms - Signal -->
+      <circle cx="200" cy="60" r="4" fill="#f39c12"/>
+      <line x1="200" y1="60" x2="200" y2="40" stroke="#f39c12" stroke-width="1"/>
+      <text x="200" y="35" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#f39c12">2-3ms</text>
+      <text x="200" y="85" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">ECU sender</text>
+      <text x="200" y="95" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">utløsningssignal</text>
+      
+      <!-- 10ms - Inflation starts -->
+      <circle cx="350" cy="60" r="4" fill="#9b59b6"/>
+      <line x1="350" y1="60" x2="350" y2="40" stroke="#9b59b6" stroke-width="1"/>
+      <text x="350" y="35" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#9b59b6">10ms</text>
+      <text x="350" y="85" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Gass produseres</text>
+      <text x="350" y="95" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">oppblåsing starter</text>
+      
+      <!-- 30ms - Full inflation -->
+      <circle cx="500" cy="60" r="4" fill="#27ae60"/>
+      <line x1="500" y1="60" x2="500" y2="40" stroke="#27ae60" stroke-width="1"/>
+      <text x="500" y="35" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#27ae60">30ms</text>
+      <text x="500" y="85" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Full oppblåsing</text>
+      <text x="500" y="95" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">maksimal volum</text>
+      
+      <!-- 100ms - Deflation -->
+      <circle cx="600" cy="60" r="4" fill="#95a5a6"/>
+      <line x1="600" y1="60" x2="600" y2="40" stroke="#95a5a6" stroke-width="1"/>
+      <text x="600" y="35" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#95a5a6">100ms+</text>
+      <text x="600" y="85" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Kontrollert</text>
+      <text x="600" y="95" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">uttømming</text>
+    </g>
+  </g>
+  
+  <!-- Warning note -->
+  <rect x="500" y="80" width="250" height="80" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+  <text x="625" y="100" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#856404">
+    ⚠️ VIKTIG
+  </text>
+  <text x="625" y="120" text-anchor="middle" font-family="Arial" font-size="10" fill="#856404">
+    Airbags fungerer kun sammen
+  </text>
+  <text x="625" y="135" text-anchor="middle" font-family="Arial" font-size="10" fill="#856404">
+    med sikkerhetsbelte
+  </text>
+  <text x="625" y="150" text-anchor="middle" font-family="Arial" font-size="10" fill="#856404">
+    Bruk uten belte kan være farlig
+  </text>
+</svg>

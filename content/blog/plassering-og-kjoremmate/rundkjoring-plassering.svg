@@ -1,0 +1,86 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f0f8ff"/>
+  
+  <!-- Roundabout outer circle -->
+  <circle cx="200" cy="200" r="80" fill="#404040" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Roundabout center island -->
+  <circle cx="200" cy="200" r="35" fill="#90ee90"/>
+  
+  <!-- Lane divider in roundabout -->
+  <circle cx="200" cy="200" r="57.5" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Roads approaching roundabout -->
+  <!-- North road -->
+  <rect x="180" y="50" width="40" height="85" fill="#404040"/>
+  <line x1="200" y1="50" x2="200" y2="120" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- South road -->
+  <rect x="180" y="265" width="40" height="85" fill="#404040"/>
+  <line x1="200" y1="280" x2="200" y2="350" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- East road -->
+  <rect x="265" y="180" width="85" height="40" fill="#404040"/>
+  <line x1="280" y1="200" x2="350" y2="200" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- West road -->
+  <rect x="50" y="180" width="85" height="40" fill="#404040"/>
+  <line x1="50" y1="200" x2="120" y2="200" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Cars in roundabout showing correct positioning -->
+  <!-- Car in outer lane (going right) -->
+  <rect x="155" y="170" width="25" height="15" fill="#4169e1" rx="2" transform="rotate(-20 167.5 177.5)"/>
+  <circle cx="160" cy="180" r="2" fill="#2c2c2c" transform="rotate(-20 167.5 177.5)"/>
+  <circle cx="175" cy="180" r="2" fill="#2c2c2c" transform="rotate(-20 167.5 177.5)"/>
+  
+  <!-- Car in inner lane (going left/around) -->
+  <rect x="210" y="155" width="25" height="15" fill="#dc143c" rx="2" transform="rotate(45 222.5 162.5)"/>
+  <circle cx="215" cy="165" r="2" fill="#2c2c2c" transform="rotate(45 222.5 162.5)"/>
+  <circle cx="230" cy="165" r="2" fill="#2c2c2c" transform="rotate(45 222.5 162.5)"/>
+  
+  <!-- Yield signs at entrances -->
+  <polygon points="190,140 200,125 210,140" fill="#ffffff" stroke="#ff0000" stroke-width="2"/>
+  <polygon points="140,190 125,200 140,210" fill="#ffffff" stroke="#ff0000" stroke-width="2"/>
+  <polygon points="190,260 200,275 210,260" fill="#ffffff" stroke="#ff0000" stroke-width="2"/>
+  <polygon points="260,190 275,200 260,210" fill="#ffffff" stroke="#ff0000" stroke-width="2"/>
+  
+  <!-- Direction arrows showing traffic flow -->
+  <path d="M 140 190 Q 150 150 190 140" stroke="#00aa00" stroke-width="2" fill="none" marker-end="url(#greenArrow)"/>
+  <path d="M 210 140 Q 250 150 260 190" stroke="#00aa00" stroke-width="2" fill="none" marker-end="url(#greenArrow)"/>
+  <path d="M 260 210 Q 250 250 210 260" stroke="#00aa00" stroke-width="2" fill="none" marker-end="url(#greenArrow)"/>
+  <path d="M 190 260 Q 150 250 140 210" stroke="#00aa00" stroke-width="2" fill="none" marker-end="url(#greenArrow)"/>
+  
+  <!-- Labels for lanes -->
+  <text x="170" y="190" font-family="Arial" font-size="8" text-anchor="middle" fill="#ffffff" transform="rotate(-20 170 190)">Ytre</text>
+  <text x="225" y="175" font-family="Arial" font-size="8" text-anchor="middle" fill="#ffffff" transform="rotate(45 225 175)">Indre</text>
+  
+  <!-- Title -->
+  <text x="200" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">Rundkjøring - Riktig Plassering</text>
+  
+  <!-- Exit indicators -->
+  <text x="320" y="205" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">1. utgang</text>
+  <text x="205" y="320" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">2. utgang</text>
+  <text x="80" y="205" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">3. utgang</text>
+  <text x="205" y="80" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">4. utgang</text>
+  
+  <!-- Legend -->
+  <rect x="20" y="320" width="180" height="70" fill="#ffffff" stroke="#cccccc" stroke-width="1" rx="5"/>
+  <text x="30" y="335" font-family="Arial" font-size="11" font-weight="bold" fill="#2c3e50">Kjørefelt i rundkjøring:</text>
+  <text x="30" y="350" font-family="Arial" font-size="10" fill="#4169e1">• Ytre bane: Høyre og rett frem</text>
+  <text x="30" y="365" font-family="Arial" font-size="10" fill="#dc143c">• Indre bane: Venstre og U-sving</text>
+  <text x="30" y="380" font-family="Arial" font-size="10" fill="#00aa00">• Alltid vikeplikt ved innkjøring</text>
+  
+  <rect x="220" y="320" width="160" height="70" fill="#ffffff" stroke="#cccccc" stroke-width="1" rx="5"/>
+  <text x="230" y="335" font-family="Arial" font-size="11" font-weight="bold" fill="#2c3e50">Blinking:</text>
+  <text x="230" y="350" font-family="Arial" font-size="10" fill="#2c3e50">• Ikke blink ved innkjøring</text>
+  <text x="230" y="365" font-family="Arial" font-size="10" fill="#2c3e50">• Blink høyre før utgang</text>
+  <text x="230" y="380" font-family="Arial" font-size="10" fill="#2c3e50">• Venstre for siste del av runden</text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="greenArrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#00aa00"/>
+    </marker>
+  </defs>
+</svg>

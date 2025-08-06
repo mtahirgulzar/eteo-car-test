@@ -1,0 +1,272 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#95A5A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7F8C8D;stop-opacity:1" />
+    </linearGradient>
+    <!-- Arrow marker -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E74C3C" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2C3E50">
+    Rygging rundt hjørne - Steg for steg
+  </text>
+  
+  <!-- Road layout -->
+  <g transform="translate(100, 100)">
+    <!-- Main road -->
+    <rect x="0" y="200" width="400" height="100" fill="url(#roadGrad)"/>
+    <!-- Side road -->
+    <rect x="300" y="100" width="100" height="100" fill="url(#roadGrad)"/>
+    
+    <!-- Road markings -->
+    <!-- Center line main road -->
+    <line x1="0" y1="250" x2="400" y2="250" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="10,5"/>
+    
+    <!-- Curb/sidewalk -->
+    <rect x="0" y="180" width="400" height="20" fill="#E8E8E8"/>
+    <rect x="300" y="80" width="100" height="20" fill="#E8E8E8"/>
+    <rect x="0" y="300" width="400" height="20" fill="#E8E8E8"/>
+    <rect x="400" y="100" width="20" height="220" fill="#E8E8E8"/>
+    
+    <!-- Corner -->
+    <rect x="300" y="180" width="100" height="20" fill="#E8E8E8"/>
+    
+    <!-- Traffic cones or markers -->
+    <polygon points="350,190 355,170 345,170" fill="#F39C12"/>
+  </g>
+  
+  <!-- Car positions -->
+  <!-- Position 1: Starting position -->
+  <g transform="translate(150, 210)">
+    <rect x="0" y="0" width="60" height="30" rx="5" fill="url(#carGrad)" opacity="0.7"/>
+    <rect x="5" y="5" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="45" y="5" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="5" y="17" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="45" y="17" width="10" height="8" fill="#E8F4FD"/>
+    <circle cx="10" cy="35" r="5" fill="#34495E"/>
+    <circle cx="50" cy="35" r="5" fill="#34495E"/>
+    
+    <text x="30" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E74C3C">
+      Posisjon 1
+    </text>
+    <text x="30" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+      Start: Bakhjul på linje
+    </text>
+    <text x="30" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+      med hjørnet
+    </text>
+  </g>
+  
+  <!-- Position 2: Beginning reverse -->
+  <g transform="translate(280, 210)">
+    <rect x="0" y="0" width="60" height="30" rx="5" fill="url(#carGrad)" opacity="0.8"/>
+    <rect x="5" y="5" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="45" y="5" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="5" y="17" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="45" y="17" width="10" height="8" fill="#E8F4FD"/>
+    <circle cx="10" cy="35" r="5" fill="#34495E"/>
+    <circle cx="50" cy="35" r="5" fill="#34495E"/>
+    
+    <text x="30" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E74C3C">
+      Posisjon 2
+    </text>
+    <text x="30" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+      Begynn rygging
+    </text>
+    <text x="30" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+      Rett bakover
+    </text>
+  </g>
+  
+  <!-- Position 3: Turn in -->  
+  <g transform="translate(350, 180) rotate(45 30 15)">
+    <rect x="0" y="0" width="60" height="30" rx="5" fill="url(#carGrad)" opacity="0.9"/>
+    <rect x="5" y="5" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="45" y="5" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="5" y="17" width="10" height="8" fill="#E8F4FD"/>
+    <rect x="45" y="17" width="10" height="8" fill="#E8F4FD"/>
+    <circle cx="10" cy="35" r="5" fill="#34495E"/>
+    <circle cx="50" cy="35" r="5" fill="#34495E"/>
+    
+    <text x="30" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E74C3C">
+      Posisjon 3
+    </text>
+  </g>
+  
+  <!-- Position 4: Final position -->
+  <g transform="translate(380, 130)">
+    <rect x="0" y="0" width="30" height="60" rx="5" fill="url(#carGrad)"/>
+    <rect x="5" y="5" width="8" height="10" fill="#E8F4FD"/>
+    <rect x="17" y="5" width="8" height="10" fill="#E8F4FD"/>
+    <rect x="5" y="45" width="8" height="10" fill="#E8F4FD"/>
+    <rect x="17" y="45" width="8" height="10" fill="#E8F4FD"/>
+    <circle cx="-5" cy="10" r="5" fill="#34495E"/>
+    <circle cx="-5" cy="50" r="5" fill="#34495E"/>
+    
+    <text x="15" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27AE60">
+      Posisjon 4
+    </text>
+    <text x="15" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27AE60">
+      Ferdig: Parallell
+    </text>
+    <text x="15" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27AE60">
+      med fortauet
+    </text>
+  </g>
+  
+  <!-- Movement arrows -->
+  <path d="M 210 225 Q 250 225 290 225" stroke="#E74C3C" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 340 225 Q 370 210 385 180" stroke="#E74C3C" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 395 170 Q 395 160 395 150" stroke="#E74C3C" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Key points indicators -->
+  <g transform="translate(500, 100)">
+    <!-- Step-by-step guide -->
+    <rect x="0" y="0" width="280" height="350" rx="10" fill="#FFFFFF" stroke="#BDC3C7" stroke-width="2"/>
+    <text x="140" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">
+      Detaljert fremgangsmåte
+    </text>
+    
+    <!-- Step 1 -->
+    <g transform="translate(15, 40)">
+      <circle cx="10" cy="10" r="8" fill="#3498DB"/>
+      <text x="10" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">1</text>
+      <text x="25" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">
+        Posisjonering
+      </text>
+      <text x="25" y="20" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">
+        Kjør til bakhjul er på linje med hjørnet
+      </text>
+    </g>
+    
+    <!-- Step 2 -->
+    <g transform="translate(15, 75)">
+      <circle cx="10" cy="10" r="8" fill="#3498DB"/>
+      <text x="10" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">2</text>
+      <text x="25" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">
+        Start rygging
+      </text>
+      <text x="25" y="20" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">
+        Rygg sakte rett bakover 1-2 meter
+      </text>
+    </g>
+    
+    <!-- Step 3 -->
+    <g transform="translate(15, 110)">
+      <circle cx="10" cy="10" r="8" fill="#3498DB"/>
+      <text x="10" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">3</text>
+      <text x="25" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">
+        Overvåk høyre speil
+      </text>
+      <text x="25" y="20" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">
+        Se etter høyre bakhjul i speilet
+      </text>
+    </g>
+    
+    <!-- Step 4 -->
+    <g transform="translate(15, 145)">
+      <circle cx="10" cy="10" r="8" fill="#F39C12"/>
+      <text x="10" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">4</text>
+      <text x="25" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">
+        Drei inn
+      </text>
+      <text x="25" y="20" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">
+        Når høyre bakhjul forsvinner fra speil
+      </text>
+    </g>
+    
+    <!-- Step 5 -->
+    <g transform="translate(15, 180)">
+      <circle cx="10" cy="10" r="8" fill="#F39C12"/>
+      <text x="10" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">5</text>
+      <text x="25" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">
+        Juster kontinuerlig
+      </text>
+      <text x="25" y="20" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">
+        Hold jevn avstand til kantstein
+      </text>
+    </g>
+    
+    <!-- Step 6 -->
+    <g transform="translate(15, 215)">
+      <circle cx="10" cy="10" r="8" fill="#27AE60"/>
+      <text x="10" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">6</text>
+      <text x="25" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">
+        Ret opp
+      </text>
+      <text x="25" y="20" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">
+        Når bilen er parallell med fortauet
+      </text>
+    </g>
+    
+    <!-- Critical tips -->
+    <rect x="10" y="250" width="260" height="85" rx="5" fill="#FFF3CD" stroke="#856404" stroke-width="1"/>
+    <text x="15" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">
+      ⚠️ KRITISKE PUNKTER:
+    </text>
+    <text x="15" y="285" font-family="Arial, sans-serif" font-size="10" fill="#856404">
+      • Ikke for tidlig inndreining - vent til hjulet forsvinner
+    </text>
+    <text x="15" y="298" font-family="Arial, sans-serif" font-size="10" fill="#856404">
+      • Konstant speilkontroll under hele manøveret
+    </text>
+    <text x="15" y="311" font-family="Arial, sans-serif" font-size="10" fill="#856404">
+      • Lav hastighet - maksimum gangfart
+    </text>
+    <text x="15" y="324" font-family="Arial, sans-serif" font-size="10" fill="#856404">
+      • Unngå kontakt med kantstein for enhver pris
+    </text>
+  </g>
+  
+  <!-- Mirror reference -->
+  <g transform="translate(150, 400)">
+    <rect x="0" y="0" width="150" height="120" rx="5" fill="#34495E"/>
+    <rect x="5" y="5" width="140" height="110" rx="5" fill="#2C3E50"/>
+    <text x="75" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">
+      Høyre speil
+    </text>
+    
+    <!-- Mirror view simulation -->
+    <rect x="15" y="35" width="120" height="70" rx="3" fill="#7F8C8D"/>
+    <rect x="20" y="40" width="110" height="20" fill="#95A5A6"/>
+    <text x="75" y="53" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+      Kantstein synlig
+    </text>
+    
+    <!-- Wheel indicator -->
+    <circle cx="125" cy="80" r="8" fill="#34495E"/>
+    <text x="75" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF">
+      Høyre bakhjul synlig
+    </text>
+  </g>
+  
+  <!-- Success indicators -->
+  <g transform="translate(350, 450)">
+    <rect x="0" y="0" width="200" height="80" rx="5" fill="#D5DBDB"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">
+      Vellykket rygging når:
+    </text>
+    <text x="10" y="38" font-family="Arial, sans-serif" font-size="11" fill="#27AE60">
+      ✓ Bilen står parallell med fortauet
+    </text>
+    <text x="10" y="52" font-family="Arial, sans-serif" font-size="11" fill="#27AE60">
+      ✓ 20-30 cm avstand til kantstein
+    </text>
+    <text x="10" y="66" font-family="Arial, sans-serif" font-size="11" fill="#27AE60">
+      ✓ Ingen berøringer eller skader
+    </text>
+  </g>
+</svg>

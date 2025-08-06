@@ -1,0 +1,29 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .road { fill: #666; }
+    .cone { fill: #f39c12; stroke: #e67e22; stroke-width: 2; }
+    .sign { fill: #f1c40f; stroke: #333; stroke-width: 2; }
+    .worker { fill: #2c3e50; }
+    .text { font: 14px Arial, sans-serif; fill: #333; text-anchor: middle; }
+    .title { font: bold 18px Arial, sans-serif; fill: #333; text-anchor: middle; }
+  </style>
+  <text x="300" y="30" class="title">Vegarbeid og midlertidige endringer</text>
+  <!-- Vei -->
+  <rect x="50" y="150" width="500" height="80" class="road" />
+  <!-- Trafikkkjegler -->
+  <polygon points="150,150 140,210 160,210" class="cone" />
+  <polygon points="200,150 190,210 210,210" class="cone" />
+  <polygon points="250,150 240,210 260,210" class="cone" />
+  <!-- Arbeiderikon -->
+  <g transform="translate(400,160)">
+    <rect x="-15" y="0" width="30" height="40" class="worker" />
+    <circle cx="0" cy="-10" r="10" class="worker" />
+    <line x1="0" y1="0" x2="20" y2="-20" stroke="#333" stroke-width="4" />
+  </g>
+  <!-- Varselskilt -->
+  <g transform="translate(350,100)">
+    <polygon points="0,0 60,30 0,60" class="sign" />
+    <path d="M10,25 L50,25 M10,35 L50,35" stroke="#333" stroke-width="4" />
+  </g>
+  <text x="300" y="260" class="text">Følg skilting, senk hastighet og vis hensyn</text>
+</svg>

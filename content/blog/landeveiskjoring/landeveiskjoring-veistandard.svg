@@ -1,0 +1,140 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c5282; text-anchor: middle; }
+      .header { font: bold 16px Arial; fill: #2d3748; }
+      .text { font: 14px Arial; fill: #4a5568; }
+      .speed { font: bold 18px Arial; fill: #e53e3e; text-anchor: middle; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" class="title">Veistandard og Fartsgrenser</text>
+  
+  <!-- Speed limit signs and road types -->
+  
+  <!-- Kommunal vei -->
+  <g transform="translate(50, 70)">
+    <circle cx="50" cy="25" r="20" fill="#fff" stroke="#e53e3e" stroke-width="3"/>
+    <text x="50" y="32" class="speed">80</text>
+    <rect x="20" y="60" width="60" height="15" fill="#8b8680" rx="7"/>
+    <text x="10" y="95" class="header">Kommunal vei</text>
+    <text x="10" y="115" class="text">• 50-80 km/t</text>
+    <text x="10" y="130" class="text">• Varierende</text>
+    <text x="10" y="145" class="text">• Lokal tilknytning</text>
+  </g>
+  
+  <!-- Fylkesvei -->
+  <g transform="translate(170, 70)">
+    <circle cx="50" cy="25" r="20" fill="#fff" stroke="#e53e3e" stroke-width="3"/>
+    <text x="50" y="32" class="speed">80</text>
+    <rect x="20" y="60" width="60" height="18" fill="#718096" rx="9"/>
+    <text x="10" y="95" class="header">Fylkesvei</text>
+    <text x="10" y="115" class="text">• 60-80 km/t</text>
+    <text x="10" y="130" class="text">• Middels standard</text>
+    <text x="10" y="145" class="text">• Regional vei</text>
+  </g>
+  
+  <!-- Riksvei -->
+  <g transform="translate(290, 70)">
+    <circle cx="50" cy="25" r="20" fill="#fff" stroke="#e53e3e" stroke-width="3"/>
+    <text x="50" y="32" class="speed">80</text>
+    <rect x="20" y="60" width="60" height="20" fill="#4a5568" rx="10"/>
+    <text x="10" y="95" class="header">Riksvei</text>
+    <text x="10" y="115" class="text">• 80 km/t</text>
+    <text x="10" y="130" class="text">• Høy standard</text>
+    <text x="10" y="145" class="text">• Nasjonal vei</text>
+  </g>
+  
+  <!-- Stamvei -->
+  <g transform="translate(410, 70)">
+    <circle cx="50" cy="25" r="20" fill="#fff" stroke="#e53e3e" stroke-width="3"/>
+    <text x="50" y="32" class="speed">90</text>
+    <rect x="20" y="60" width="60" height="22" fill="#2d3748" rx="11"/>
+    <rect x="48" y="70" width="4" height="2" fill="#fed7d7"/>
+    <text x="10" y="95" class="header">Stamvei</text>
+    <text x="10" y="115" class="text">• 90 km/t</text>
+    <text x="10" y="130" class="text">• Meget høy std.</text>
+    <text x="10" y="145" class="text">• Få kryss</text>
+  </g>
+  
+  <!-- Motortrafikkvei -->
+  <g transform="translate(530, 70)">
+    <circle cx="50" cy="25" r="20" fill="#fff" stroke="#e53e3e" stroke-width="3"/>
+    <text x="50" y="32" class="speed">90</text>
+    <rect x="20" y="60" width="60" height="25" fill="#1a202c" rx="12"/>
+    <!-- Divided -->
+    <rect x="20" y="68" width="60" height="4" fill="#38a169"/>
+    <rect x="20" y="78" width="60" height="4" fill="#38a169"/>
+    <text x="10" y="95" class="header">Motortrafikkvei</text>
+    <text x="10" y="115" class="text">• 90 km/t</text>
+    <text x="10" y="130" class="text">• Adskilt bane</text>
+    <text x="10" y="145" class="text">• Ingen kryss</text>
+  </g>
+  
+  <!-- Motorvei -->
+  <g transform="translate(650, 70)">
+    <circle cx="50" cy="25" r="20" fill="#fff" stroke="#e53e3e" stroke-width="3"/>
+    <text x="50" y="28" style="font: bold 14px Arial; fill: #e53e3e; text-anchor: middle;">110</text>
+    <rect x="15" y="60" width="70" height="30" fill="#000" rx="15"/>
+    <!-- Multiple lanes -->
+    <rect x="15" y="68" width="70" height="3" fill="#4caf50"/>
+    <rect x="15" y="73" width="70" height="3" fill="#4caf50"/>
+    <rect x="15" y="80" width="70" height="3" fill="#4caf50"/>
+    <rect x="15" y="85" width="70" height="3" fill="#4caf50"/>
+    <text x="10" y="105" class="header">Motorvei</text>
+    <text x="10" y="125" class="text">• 100-110 km/t</text>
+    <text x="10" y="140" class="text">• Høyest standard</text>
+    <text x="10" y="155" class="text">• Flere felt</text>
+  </g>
+  
+  <!-- Factors affecting speed limits -->
+  <rect x="50" y="200" width="700" height="120" fill="#fef5e7" stroke="#f6ad55" stroke-width="2" rx="10"/>
+  <text x="70" y="225" style="font: bold 18px Arial; fill: #c53030;">Faktorer som påvirker fartsgrenser:</text>
+  
+  <!-- Factor boxes -->
+  <g transform="translate(70, 240)">
+    <rect x="0" y="0" width="150" height="60" fill="#fff" stroke="#e2e8f0" rx="5"/>
+    <text x="10" y="20" class="header">Veigeometri</text>
+    <text x="10" y="35" class="text">• Kurver</text>
+    <text x="10" y="48" class="text">• Stigning</text>
+  </g>
+  
+  <g transform="translate(240, 240)">
+    <rect x="0" y="0" width="150" height="60" fill="#fff" stroke="#e2e8f0" rx="5"/>
+    <text x="10" y="20" class="header">Sikkerhet</text>
+    <text x="10" y="35" class="text">• Ulykkesstatistikk</text>
+    <text x="10" y="48" class="text">• Risikofaktorer</text>
+  </g>
+  
+  <g transform="translate(410, 240)">
+    <rect x="0" y="0" width="150" height="60" fill="#fff" stroke="#e2e8f0" rx="5"/>
+    <text x="10" y="20" class="header">Omgivelser</text>
+    <text x="10" y="35" class="text">• Bebyggelse</text>
+    <text x="10" y="48" class="text">• Dyretråkk</text>
+  </g>
+  
+  <g transform="translate(580, 240)">
+    <rect x="0" y="0" width="150" height="60" fill="#fff" stroke="#e2e8f0" rx="5"/>
+    <text x="10" y="20" class="header">Sesong</text>
+    <text x="10" y="35" class="text">• Vinterdrift</text>
+    <text x="10" y="48" class="text">• Værforhold</text>
+  </g>
+  
+  <!-- Important note -->
+  <rect x="50" y="350" width="700" height="80" fill="#e6fffa" stroke="#38b2ac" stroke-width="2" rx="10"/>
+  <text x="70" y="375" style="font: bold 16px Arial; fill: #234e52;">Viktig å huske:</text>
+  <text x="70" y="395" class="text">Fartsgrensen er maksimalhastighet under optimale forhold.</text>
+  <text x="70" y="410" class="text">Du må alltid tilpasse hastigheten etter sikt, veiforhold og trafikksituasjon.</text>
+  
+  <!-- Weather conditions -->
+  <g transform="translate(650, 380)">
+    <circle cx="20" cy="10" r="8" fill="#fed7d7"/>
+    <path d="M12 18 Q20 25 28 18" fill="none" stroke="#4299e1" stroke-width="2"/>
+    <circle cx="16" cy="22" r="1" fill="#4299e1"/>
+    <circle cx="24" cy="25" r="1" fill="#4299e1"/>
+  </g>
+</svg>

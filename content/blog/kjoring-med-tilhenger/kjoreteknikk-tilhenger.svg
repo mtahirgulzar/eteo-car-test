@@ -1,0 +1,145 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c3e50; text-anchor: middle; }
+      .subtitle { font: bold 16px Arial; fill: #34495e; text-anchor: middle; }
+      .label { font: 12px Arial; fill: #2c3e50; }
+      .good { font: 12px Arial; fill: #27ae60; }
+      .bad { font: 12px Arial; fill: #e74c3c; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" class="title">Kjøreteknikk med tilhenger</text>
+  
+  <!-- Braking technique -->
+  <g transform="translate(50, 60)">
+    <text x="150" y="20" class="subtitle">Bremsing</text>
+    
+    <!-- Normal car -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="10" width="50" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <circle cx="15" cy="35" r="5" fill="#34495e"/>
+      <circle cx="35" cy="35" r="5" fill="#34495e"/>
+      <text x="25" y="55" font="10px Arial" fill="#2c3e50" text-anchor="middle">Vanlig bil</text>
+      
+      <!-- Braking distance -->
+      <line x1="50" y1="20" x2="120" y2="20" stroke="#27ae60" stroke-width="3"/>
+      <text x="85" y="15" font="8px Arial" fill="#27ae60" text-anchor="middle">30m</text>
+    </g>
+    
+    <!-- Car with trailer -->
+    <g transform="translate(0, 80)">
+      <rect x="0" y="10" width="50" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <rect x="55" y="15" width="35" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+      <circle cx="15" cy="35" r="5" fill="#34495e"/>
+      <circle cx="35" cy="35" r="5" fill="#34495e"/>
+      <circle cx="70" cy="35" r="4" fill="#34495e"/>
+      <text x="45" y="55" font="10px Arial" fill="#2c3e50" text-anchor="middle">Med tilhenger</text>
+      
+      <!-- Longer braking distance -->
+      <line x1="90" y1="22" x2="180" y2="22" stroke="#e74c3c" stroke-width="3"/>
+      <text x="135" y="17" font="8px Arial" fill="#e74c3c" text-anchor="middle">45m</text>
+    </g>
+    
+    <text x="25" y="140" class="good">✓ Start bremsing tidligere</text>
+    <text x="25" y="155" class="good">✓ Brems gradvis</text>
+    <text x="25" y="170" class="bad">✗ Unngå hard nødbremsing</text>
+  </g>
+  
+  <!-- Turning technique -->
+  <g transform="translate(350, 60)">
+    <text x="150" y="20" class="subtitle">Svinging</text>
+    
+    <!-- Wide turn illustration -->
+    <g transform="translate(50, 30)">
+      <!-- Road -->
+      <rect x="0" y="50" width="200" height="60" fill="#7f8c8d" stroke="#34495e" stroke-width="2"/>
+      <line x1="0" y1="80" x2="200" y2="80" stroke="#fff" stroke-width="2" stroke-dasharray="10,5"/>
+      
+      <!-- Car path -->
+      <path d="M20 70 Q100 30 180 70" stroke="#3498db" stroke-width="3" fill="none"/>
+      
+      <!-- Trailer path -->
+      <path d="M20 70 Q120 45 180 70" stroke="#e74c3c" stroke-width="3" fill="none"/>
+      
+      <text x="100" y="25" font="10px Arial" fill="#3498db" text-anchor="middle">Bil</text>
+      <text x="100" y="145" font="10px Arial" fill="#e74c3c" text-anchor="middle">Tilhenger kutter kurven</text>
+    </g>
+    
+    <text x="25" y="180" class="good">✓ Øk svingradius</text>
+    <text x="25" y="195" class="good">✓ Kjør smidig</text>
+    <text x="25" y="210" class="bad">✗ Unngå skarpe svinger</text>
+  </g>
+  
+  <!-- Speed and following distance -->
+  <g transform="translate(50, 300)">
+    <rect x="0" y="0" width="700" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="subtitle">Fart og følgeavstand</text>
+    
+    <!-- Normal following distance -->
+    <g transform="translate(50, 40)">
+      <rect x="0" y="10" width="30" height="15" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+      <rect x="80" y="10" width="30" height="15" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+      <line x1="30" y1="17" x2="80" y2="17" stroke="#27ae60" stroke-width="2"/>
+      <text x="55" y="10" font="8px Arial" fill="#27ae60" text-anchor="middle">3 sek</text>
+      <text x="55" y="40" font="10px Arial" fill="#2c3e50" text-anchor="middle">Vanlig bil</text>
+    </g>
+    
+    <!-- Extended following distance with trailer -->
+    <g transform="translate(250, 40)">
+      <rect x="0" y="10" width="30" height="15" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+      <rect x="35" y="13" width="20" height="12" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+      <rect x="120" y="10" width="30" height="15" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+      <line x1="55" y1="17" x2="120" y2="17" stroke="#e74c3c" stroke-width="2"/>
+      <text x="87" y="10" font="8px Arial" fill="#e74c3c" text-anchor="middle">4-5 sek</text>
+      <text x="87" y="40" font="10px Arial" fill="#2c3e50" text-anchor="middle">Med tilhenger</text>
+    </g>
+    
+    <text x="450" y="50" class="label">Økt følgeavstand kompenserer for:</text>
+    <text x="450" y="70" font="10px Arial" fill="#555">• Lengre bremselengde</text>
+    <text x="450" y="85" font="10px Arial" fill="#555">• Redusert manøvrerbarhet</text>
+  </g>
+  
+  <!-- Wind effects -->
+  <g transform="translate(50, 420)">
+    <rect x="0" y="0" width="700" height="120" fill="#fff5f5" stroke="#e74c3c" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="subtitle">Vindpåvirkning</text>
+    
+    <!-- Side wind illustration -->
+    <g transform="translate(100, 40)">
+      <rect x="50" y="15" width="50" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <rect x="105" y="20" width="35" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+      
+      <!-- Wind arrows -->
+      <g stroke="#f39c12" stroke-width="2" fill="#f39c12">
+        <line x1="10" y1="15" x2="45" y2="20" marker-end="url(#wind-arrow)"/>
+        <line x1="10" y1="25" x2="45" y2="30" marker-end="url(#wind-arrow)"/>
+        <line x1="10" y1="35" x2="45" y2="40" marker-end="url(#wind-arrow)"/>
+      </g>
+      
+      <!-- Deflection -->
+      <line x1="100" y1="25" x2="120" y2="35" stroke="#e74c3c" stroke-width="3"/>
+      <text x="75" y="60" font="10px Arial" fill="#f39c12" text-anchor="middle">Sidevind</text>
+      <text x="75" y="75" font="10px Arial" fill="#e74c3c" text-anchor="middle">Avdrift</text>
+    </g>
+    
+    <!-- Wind safety tips -->
+    <g transform="translate(350, 50)">
+      <text x="0" y="0" font="12px Arial" fill="#e74c3c">Kjøring i vind:</text>
+      <text x="0" y="20" font="10px Arial" fill="#2c3e50">• Reduser hastigheten</text>
+      <text x="0" y="35" font="10px Arial" fill="#2c3e50">• Hold fast i rattet</text>
+      <text x="0" y="50" font="10px Arial" fill="#2c3e50">• Vær forberedt på vindkast</text>
+    </g>
+  </g>
+  
+  <!-- Arrow marker for wind -->
+  <defs>
+    <marker id="wind-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f39c12"/>
+    </marker>
+  </defs>
+</svg>

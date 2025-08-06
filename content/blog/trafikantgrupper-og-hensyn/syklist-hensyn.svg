@@ -1,0 +1,146 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#15803d">
+    Hensyn til syklister
+  </text>
+  
+  <!-- Road with bicycle lane -->
+  <rect x="50" y="400" width="700" height="120" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  <rect x="50" y="455" width="700" height="5" fill="#fbbf24"/>
+  <rect x="50" y="400" width="120" height="120" fill="#10b981" stroke="#059669" stroke-width="2"/>
+  
+  <!-- Bicycle lane marking -->
+  <text x="110" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    SYKKEL
+  </text>
+  <text x="110" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    FELT
+  </text>
+  
+  <!-- Cyclist -->
+  <circle cx="130" cy="470" r="8" fill="#374151"/>
+  <circle cx="160" cy="470" r="8" fill="#374151"/>
+  <rect x="125" y="460" width="40" height="3" fill="#1f2937"/>
+  <rect x="140" y="450" width="8" height="10" fill="#1f2937"/>
+  <circle cx="145" cy="445" r="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  <rect x="142" y="450" width="6" height="15" rx="3" fill="#f59e0b"/>
+  
+  <!-- Car keeping distance -->
+  <rect x="300" y="430" width="80" height="40" rx="5" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="320" cy="480" r="8" fill="#374151"/>
+  <circle cx="360" cy="480" r="8" fill="#374151"/>
+  <rect x="310" y="435" width="60" height="25" rx="3" fill="#bfdbfe"/>
+  
+  <!-- Distance indicator -->
+  <line x1="180" y1="450" x2="290" y2="450" stroke="#ef4444" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="235" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ef4444">
+    Min. 1,5 m
+  </text>
+  
+  <!-- Key considerations -->
+  <rect x="50" y="80" width="160" height="120" rx="8" fill="#3b82f6" stroke="#1e40af" stroke-width="2"/>
+  <text x="130" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    SIDEAVSTAND
+  </text>
+  <text x="130" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Minimum 1,5 meter
+  </text>
+  <text x="130" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    ved forbikjøring
+  </text>
+  <text x="130" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Mer ved vind/regn
+  </text>
+  <text x="130" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Unngå blindsoner
+  </text>
+  
+  <rect x="230" y="80" width="160" height="120" rx="8" fill="#10b981" stroke="#059669" stroke-width="2"/>
+  <text x="310" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    HØYRESVING
+  </text>
+  <text x="310" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Ekstra forsiktighet
+  </text>
+  <text x="310" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Syklist kan komme
+  </text>
+  <text x="310" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    på høyre side
+  </text>
+  <text x="310" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Sjekk speil og skulder
+  </text>
+  
+  <rect x="410" y="80" width="160" height="120" rx="8" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+  <text x="490" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    VÆRHENSYN
+  </text>
+  <text x="490" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Syklister påvirkes
+  </text>
+  <text x="490" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    mer av vind og
+  </text>
+  <text x="490" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    glatte veier
+  </text>
+  <text x="490" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Økt sideavstand
+  </text>
+  
+  <rect x="590" y="80" width="160" height="120" rx="8" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+  <text x="670" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    DOORING
+  </text>
+  <text x="670" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    Risiko for at
+  </text>
+  <text x="670" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    bilpassasjerer
+  </text>
+  <text x="670" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    åpner dører uten
+  </text>
+  <text x="670" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    å se seg om
+  </text>
+  
+  <!-- Characteristics box -->
+  <rect x="200" y="240" width="400" height="100" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">
+    Syklistenes karakteristikker
+  </text>
+  <text x="250" y="285" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">
+    • Variabel hastighet: 15-40 km/t
+  </text>
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">
+    • Smal profil - lett å overse
+  </text>
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">
+    • Uforutsigbar bevegelse
+  </text>
+  <text x="450" y="285" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">
+    • Sesongvariasjon
+  </text>
+  <text x="450" y="300" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">
+    • Påvirkes av vind og hull
+  </text>
+  <text x="450" y="315" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">
+    • Miljøvennlig transport
+  </text>
+  
+  <!-- Legal reference -->
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#15803d">
+    Juridisk grunnlag: Trafikkreglene §5 - Minimum 1 meter sideavstand
+  </text>
+</svg>

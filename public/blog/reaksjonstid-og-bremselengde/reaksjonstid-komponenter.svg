@@ -1,0 +1,65 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">Reaksjonstidskomponenter</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#333" stroke-width="3"/>
+  
+  <!-- Phase 1: Oppfattelse -->
+  <rect x="100" y="180" width="120" height="40" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="160" y="200" text-anchor="middle" fill="#1976d2" font-size="12" font-weight="bold">Oppfattelse</text>
+  <text x="160" y="215" text-anchor="middle" fill="#1976d2" font-size="10">0,1-0,5 sek</text>
+  <text x="160" y="250" text-anchor="middle" fill="#333" font-size="11">Registrere faren</text>
+  
+  <!-- Phase 2: Identifikasjon -->
+  <rect x="240" y="180" width="120" height="40" fill="#e8f5e8" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="300" y="200" text-anchor="middle" fill="#388e3c" font-size="12" font-weight="bold">Identifikasjon</text>
+  <text x="300" y="215" text-anchor="middle" fill="#388e3c" font-size="10">0,1-0,3 sek</text>
+  <text x="300" y="250" text-anchor="middle" fill="#333" font-size="11">Forstå situasjonen</text>
+  
+  <!-- Phase 3: Beslutning -->
+  <rect x="380" y="180" width="120" height="40" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="440" y="200" text-anchor="middle" fill="#f57c00" font-size="12" font-weight="bold">Beslutning</text>
+  <text x="440" y="215" text-anchor="middle" fill="#f57c00" font-size="10">0,1-0,3 sek</text>
+  <text x="440" y="250" text-anchor="middle" fill="#333" font-size="11">Velge handling</text>
+  
+  <!-- Phase 4: Handling -->
+  <rect x="520" y="180" width="120" height="40" fill="#fce4ec" stroke="#c2185b" stroke-width="2" rx="5"/>
+  <text x="580" y="200" text-anchor="middle" fill="#c2185b" font-size="12" font-weight="bold">Handling</text>
+  <text x="580" y="215" text-anchor="middle" fill="#c2185b" font-size="10">0,1-0,3 sek</text>
+  <text x="580" y="250" text-anchor="middle" fill="#333" font-size="11">Bevege foten</text>
+  
+  <!-- Total time indicator -->
+  <path d="M 100 140 Q 400 100 700 140" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="400" y="120" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">Total reaksjonstid: 1-1,5 sekunder</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Eye icon for perception -->
+  <circle cx="160" cy="300" r="15" fill="#1976d2" opacity="0.2"/>
+  <path d="M 150 300 Q 160 295 170 300 Q 160 305 150 300" fill="#1976d2"/>
+  <circle cx="160" cy="300" r="3" fill="#1976d2"/>
+  
+  <!-- Brain icon for identification -->
+  <circle cx="300" cy="300" r="15" fill="#388e3c" opacity="0.2"/>
+  <path d="M 290 295 Q 295 290 300 295 Q 305 290 310 295 Q 305 305 300 300 Q 295 305 290 295" fill="#388e3c"/>
+  
+  <!-- Thought bubble for decision -->
+  <circle cx="440" cy="300" r="15" fill="#f57c00" opacity="0.2"/>
+  <circle cx="440" cy="300" r="8" fill="none" stroke="#f57c00" stroke-width="2"/>
+  <circle cx="435" cy="310" r="3" fill="#f57c00"/>
+  <circle cx="432" cy="315" r="2" fill="#f57c00"/>
+  
+  <!-- Foot/pedal icon for action -->
+  <circle cx="580" cy="300" r="15" fill="#c2185b" opacity="0.2"/>
+  <rect x="575" y="292" width="10" height="16" fill="#c2185b" rx="2"/>
+  <rect x="572" y="305" width="16" height="6" fill="#c2185b" rx="2"/>
+</svg>

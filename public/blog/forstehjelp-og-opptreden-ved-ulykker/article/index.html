@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Førstehjelp og opptreden ved ulykker | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær om grunnleggende førstehjelp og riktig opptreden ved trafikkulykker i Norge. Forstå dine plikter, nødprosedyrer og sikkerhetsrutiner.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/forstehjelp-og-opptreden-ved-ulykker/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/forstehjelp-og-opptreden-ved-ulykker/article/">
+    <meta property="og:title" content="Førstehjelp og opptreden ved ulykker | Eteo">
+    <meta property="og:description" content="Lær om grunnleggende førstehjelp og riktig opptreden ved trafikkulykker i Norge. Forstå dine plikter, nødprosedyrer og sikkerhetsrutiner.">
+    <meta property="og:image" content="//localhost:1313/images/blog/forstehjelp-og-opptreden-ved-ulykker/forstehjelp-og-opptreden-ved-ulykker-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Førstehjelp og opptreden ved ulykker | Eteo">
+    <meta name="twitter:description" content="Lær om grunnleggende førstehjelp og riktig opptreden ved trafikkulykker i Norge. Forstå dine plikter, nødprosedyrer og sikkerhetsrutiner.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/forstehjelp-og-opptreden-ved-ulykker/forstehjelp-og-opptreden-ved-ulykker-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Førstehjelp og opptreden ved ulykker</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                7 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/forstehjelp-og-opptreden-ved-ulykker/forstehjelp-og-opptreden-ved-ulykker-image.svg" 
+                    alt="Førstehjelp og opptreden ved ulykker" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/forstehjelp-og-opptreden-ved-ulykker/forstehjelp-og-opptreden-ved-ulykker-image.svg" alt="Førstehjelp og opptreden ved ulykker" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dine-plikter-ved-ulykkesstedet">Dine plikter ved ulykkesstedet</a></li>
+    <li><a href="#grunnleggende-fãrstehjelp">Grunnleggende fÃ¸rstehjelp</a></li>
+    <li><a href="#kontakt-med-nãdetater">Kontakt med nÃ¸detater</a></li>
+    <li><a href="#juridiske-plikter-og-ansvar">Juridiske plikter og ansvar</a></li>
+    <li><a href="#vanlige-skadetilfeller-og-tiltak">Vanlige skadetilfeller og tiltak</a></li>
+    <li><a href="#sikkerhet-og-samhandling">Sikkerhet og samhandling</a></li>
+    <li><a href="#sikring-av-ulykkessted-â-soner">Sikring av ulykkessted â€“ soner</a></li>
+    <li><a href="#anbefalt-fãrstehjelpsutstyr-i-bilen">Anbefalt fÃ¸rstehjelpsutstyr i bilen</a></li>
+    <li><a href="#utvidet-fãrstehjelp">Utvidet fÃ¸rstehjelp</a>
+      <ul>
+        <li><a href="#hjerte-lungeredning-hlr">Hjerte-lungeredning (HLR)</a></li>
+        <li><a href="#bruk-av-hjertestarter-aed">Bruk av hjertestarter (AED)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesifikke-skadetilfeller">Spesifikke skadetilfeller</a></li>
+    <li><a href="#abcde-vurdering">ABCDE-vurdering</a></li>
+    <li><a href="#sammendrag">Sammendrag</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dine-plikter-ved-ulykkesstedet">Dine plikter ved ulykkesstedet</a></li>
+    <li><a href="#grunnleggende-fãrstehjelp">Grunnleggende fÃ¸rstehjelp</a></li>
+    <li><a href="#kontakt-med-nãdetater">Kontakt med nÃ¸detater</a></li>
+    <li><a href="#juridiske-plikter-og-ansvar">Juridiske plikter og ansvar</a></li>
+    <li><a href="#vanlige-skadetilfeller-og-tiltak">Vanlige skadetilfeller og tiltak</a></li>
+    <li><a href="#sikkerhet-og-samhandling">Sikkerhet og samhandling</a></li>
+    <li><a href="#sikring-av-ulykkessted-â-soner">Sikring av ulykkessted â€“ soner</a></li>
+    <li><a href="#anbefalt-fãrstehjelpsutstyr-i-bilen">Anbefalt fÃ¸rstehjelpsutstyr i bilen</a></li>
+    <li><a href="#utvidet-fãrstehjelp">Utvidet fÃ¸rstehjelp</a>
+      <ul>
+        <li><a href="#hjerte-lungeredning-hlr">Hjerte-lungeredning (HLR)</a></li>
+        <li><a href="#bruk-av-hjertestarter-aed">Bruk av hjertestarter (AED)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesifikke-skadetilfeller">Spesifikke skadetilfeller</a></li>
+    <li><a href="#abcde-vurdering">ABCDE-vurdering</a></li>
+    <li><a href="#sammendrag">Sammendrag</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dine-plikter-ved-ulykkesstedet">Dine plikter ved ulykkesstedet</a></li>
+    <li><a href="#grunnleggende-fãrstehjelp">Grunnleggende fÃ¸rstehjelp</a></li>
+    <li><a href="#kontakt-med-nãdetater">Kontakt med nÃ¸detater</a></li>
+    <li><a href="#juridiske-plikter-og-ansvar">Juridiske plikter og ansvar</a></li>
+    <li><a href="#vanlige-skadetilfeller-og-tiltak">Vanlige skadetilfeller og tiltak</a></li>
+    <li><a href="#sikkerhet-og-samhandling">Sikkerhet og samhandling</a></li>
+    <li><a href="#sikring-av-ulykkessted-â-soner">Sikring av ulykkessted â€“ soner</a></li>
+    <li><a href="#anbefalt-fãrstehjelpsutstyr-i-bilen">Anbefalt fÃ¸rstehjelpsutstyr i bilen</a></li>
+    <li><a href="#utvidet-fãrstehjelp">Utvidet fÃ¸rstehjelp</a>
+      <ul>
+        <li><a href="#hjerte-lungeredning-hlr">Hjerte-lungeredning (HLR)</a></li>
+        <li><a href="#bruk-av-hjertestarter-aed">Bruk av hjertestarter (AED)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesifikke-skadetilfeller">Spesifikke skadetilfeller</a></li>
+    <li><a href="#abcde-vurdering">ABCDE-vurdering</a></li>
+    <li><a href="#sammendrag">Sammendrag</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dine-plikter-ved-ulykkesstedet">Dine plikter ved ulykkesstedet</a></li>
+    <li><a href="#grunnleggende-fãrstehjelp">Grunnleggende fÃ¸rstehjelp</a></li>
+    <li><a href="#kontakt-med-nãdetater">Kontakt med nÃ¸detater</a></li>
+    <li><a href="#juridiske-plikter-og-ansvar">Juridiske plikter og ansvar</a></li>
+    <li><a href="#vanlige-skadetilfeller-og-tiltak">Vanlige skadetilfeller og tiltak</a></li>
+    <li><a href="#sikkerhet-og-samhandling">Sikkerhet og samhandling</a></li>
+    <li><a href="#sikring-av-ulykkessted-â-soner">Sikring av ulykkessted â€“ soner</a></li>
+    <li><a href="#anbefalt-fãrstehjelpsutstyr-i-bilen">Anbefalt fÃ¸rstehjelpsutstyr i bilen</a></li>
+    <li><a href="#utvidet-fãrstehjelp">Utvidet fÃ¸rstehjelp</a>
+      <ul>
+        <li><a href="#hjerte-lungeredning-hlr">Hjerte-lungeredning (HLR)</a></li>
+        <li><a href="#bruk-av-hjertestarter-aed">Bruk av hjertestarter (AED)</a></li>
+      </ul>
+    </li>
+    <li><a href="#spesifikke-skadetilfeller">Spesifikke skadetilfeller</a></li>
+    <li><a href="#abcde-vurdering">ABCDE-vurdering</a></li>
+    <li><a href="#sammendrag">Sammendrag</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>FÃ¸rstehjelp og opptreden ved ulykker</strong> er en essensiell del av <strong>trafikksikkerhet</strong>. NÃ¥r ulykker skjer, kan rask og korrekt reaksjon redde liv og redusere omfanget av skader. Denne artikkelen gir en detaljert gjennomgang av:</p>
+<ul>
+<li>Dine plikter ved et ulykkessted</li>
+<li>Grunnleggende fÃ¸rstehjelpsteknikker</li>
+<li>Kontakt med nÃ¸detater og viktige telefonnumre</li>
+<li>Sikkerhetstiltak og samhandling pÃ¥ ulykkesstedet</li>
+</ul>
+<h2 id="dine-plikter-ved-ulykkesstedet">Dine plikter ved ulykkesstedet</h2>
+<p><em>For en komplett oversikt over lovpÃ¥lagte <strong>plikter ved trafikkuhell</strong>, se <a href="/blogs/teori/plikter-ved-trafikkuhell" title="Plikter ved trafikkuhell - Dine lovpÃ¥lagte plikter ved trafikkuhell">Plikter ved trafikkuhell</a>.</em></p>
+<p>Som fÃ¸rer har du flere lovpÃ¥lagte <strong>plikter</strong> nÃ¥r du ankommer et ulykkessted:</p>
+<ul>
+<li><strong>Varsle</strong> om ulykken ved Ã¥ bruke nÃ¸dblink (orange varsellys) og sette ut advarselsskilt.</li>
+<li><strong>Sikre omrÃ¥det</strong> ved Ã¥ lede trafikken bort og skape en trygg sone rundt skadestedet.</li>
+<li><strong>Hindre ytterligere ulykker</strong> ved Ã¥ sÃ¸rge for god sikt og minimalisere risiko for pÃ¥kjÃ¸rsler.</li>
+<li><strong>Dokumentere</strong> relevante opplysninger som kjÃ¸retÃ¸y, antall involverte og skadeomfang.</li>
+</ul>
+<p>Se ogsÃ¥ vÃ¥r guide til <a href="/blogs/teori/sikring-av-last-og-passasjerer" title="Sikring av last og passasjerer - Guide til sikker last- og passasjersikring">Sikring av last og passasjerer</a> for tips om Ã¥ opprette en trygg sone rundt kjÃ¸retÃ¸y.</p>
+<p><em>For tips om Ã¥ unngÃ¥ frontkollisjoner, se <a href="/blogs/teori/moteulykker-og-forebygging" title="MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken">MÃ¸teulykker og forebygging</a>.</em></p>
+<h2 id="grunnleggende-fãrstehjelp">Grunnleggende fÃ¸rstehjelp</h2>
+<p>Ved trafikkulykker er det ofte behov for <strong>fÃ¸rstehjelp</strong> pÃ¥ stedet. FÃ¸lg A-B-C-prinsippet for Ã¥ sikre livsviktige funksjoner:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Trinn</th>
+          <th>Tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td><strong>Airway (frie luftveier):</strong> SÃ¸rg for at luftveiene er frie. Rydd munn og svelg for eventuelle hindringer.</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td><strong>Breathing (pust):</strong> Kontroller om pasienten puster. Gi munntil-munn eller kunstig Ã¥ndedrett ved behov.</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td><strong>Circulation (sirkulasjon):</strong> Stans blÃ¸dninger ved bruk av sterile kompresser eller trykkbandasje.</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Viktig:</strong> UnngÃ¥ unÃ¸dvendige bevegelser som kan forverre rygg- eller nakkeskader.</p>
+<h2 id="kontakt-med-nãdetater">Kontakt med nÃ¸detater</h2>
+<p>NÃ¥r du har sikret skadde og omrÃ¥det, mÃ¥ du kontakte nÃ¸detatene. Ring 1-1-2 og oppgi:</p>
+<table>
+  <thead>
+      <tr>
+          <th>NÃ¸detat</th>
+          <th>Nummer</th>
+          <th>NÃ¥r du skal ringe</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Politi</strong></td>
+          <td>112</td>
+          <td>Ved fare for liv, alvorlige skader og trafikkuhell.</td>
+      </tr>
+      <tr>
+          <td><strong>Ambulanse (Helse)</strong></td>
+          <td>113</td>
+          <td>Ved alvorlige personskader og behov for medisinsk hjelp.</td>
+      </tr>
+      <tr>
+          <td><strong>Brannvesen</strong></td>
+          <td>110</td>
+          <td>Ved brann, fare for eksplosjon eller vÃ¦skesÃ¸l.</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="juridiske-plikter-og-ansvar">Juridiske plikter og ansvar</h2>
+<p>I henhold til norsk <strong>vegtrafikklov</strong> har fÃ¸rer og vitner ved trafikkulykker en plikt til Ã¥ bistÃ¥. Unnlatelse kan medfÃ¸re <strong>straffansvar</strong> og alminnelige strafferammer for unnlatelse av hjelpeplikt. Se ogsÃ¥ <a href="/blogs/teori/forerkort-vognkort-og-forsikring" title="FÃ¸rerkort, vognkort og forsikring - lover og regler for fÃ¸rer og kjÃ¸retÃ¸y">FÃ¸rerkort, vognkort og forsikring</a>.</p>
+<h2 id="vanlige-skadetilfeller-og-tiltak">Vanlige skadetilfeller og tiltak</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Skadetype</th>
+          <th>Tegn og symptomer</th>
+          <th>Tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>BlÃ¸dning</td>
+          <td>Synlig blod, pulsÃ¥rer</td>
+          <td>Trykkbandasje og elevasjon av lem</td>
+      </tr>
+      <tr>
+          <td>Brudd</td>
+          <td>Feilstilling, hevelse, smerte</td>
+          <td>StÃ¸tte med improvisert skinne</td>
+      </tr>
+      <tr>
+          <td>Hodeskade</td>
+          <td>Nedsatt bevissthet, kvalme</td>
+          <td>Stabiliser nakke, unngÃ¥ bevegelse</td>
+      </tr>
+      <tr>
+          <td>Sjokk (shock)</td>
+          <td>Kaldsvette, blek hud, rask puls</td>
+          <td>Legg pasienten i benheis, lÃ¸ft ben</td>
+      </tr>
+      <tr>
+          <td>Brannskade</td>
+          <td>RÃ¸dhet, blemmer, flassing</td>
+          <td>KjÃ¸l ned med rent vann, dekk til</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="sikkerhet-og-samhandling">Sikkerhet og samhandling</h2>
+<p>Trygg hÃ¥ndtering av et ulykkessted krever god <strong>samhandling</strong> med bÃ¥de skadde, vitner og nÃ¸detater:</p>
+<ul>
+<li><strong>Kommunikasjon:</strong> Gi klar informasjon til nÃ¸detatene nÃ¥r de ankommer.</li>
+<li><strong>Ansvarsfordeling:</strong> Del oppgaver med andre tilstedevÃ¦rende for effektiv innsats.</li>
+<li><strong>OpplÃ¦ring:</strong> Jevnlig trening i fÃ¸rstehjelp og ulykkesprosedyrer styrker sikkerheten.</li>
+</ul>
+<p>Les mer om samhandling i trafikken i <a href="/blogs/teori/oppmerksomhet-og-samhandling" title="Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken">Oppmerksomhet og samhandling</a>.</p>
+<h2 id="sikring-av-ulykkessted-â-soner">Sikring av ulykkessted â€“ soner</h2>
+<p>For Ã¥ skape en tydelig og trygg struktur ved ulykkesstedet kan man dele omrÃ¥det inn i tre soner:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Sone</th>
+          <th>Farge</th>
+          <th>Beskrivelse</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>RÃ¸d</strong> (FareomrÃ¥de)</td>
+          <td>ðŸ”´</td>
+          <td>Umiddelbart omrÃ¥de rundt skadestedet med risiko for kollisjon, brann eller eksplosjon.</td>
+      </tr>
+      <tr>
+          <td><strong>Gul</strong> (ArbeidsomrÃ¥de)</td>
+          <td>ðŸŸ¡</td>
+          <td>Sone der livreddende tiltak utfÃ¸res og pasienter behandles.</td>
+      </tr>
+      <tr>
+          <td><strong>GrÃ¸nn</strong> (Observasjonssone)</td>
+          <td>ðŸŸ¢</td>
+          <td>Trygg sone for pÃ¥rÃ¸rende, vitner og ekstra personell.</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Merk: Alle uvedkommende bÃ¸r oppholde seg utenfor den grÃ¸nne sonen.</em></p>
+<h2 id="anbefalt-fãrstehjelpsutstyr-i-bilen">Anbefalt fÃ¸rstehjelpsutstyr i bilen</h2>
+<p>Det er viktig Ã¥ ha riktig <strong>fÃ¸rstehjelpsutstyr</strong> tilgjengelig for Ã¥ kunne yte effektiv hjelp. Tabellen under viser anbefalt innhold:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Utstyr</th>
+          <th>FormÃ¥l</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>FÃ¸rstehjelpsskrin</strong></td>
+          <td>Inneholder sterile kompresser, bandasjer og tape.</td>
+      </tr>
+      <tr>
+          <td><strong>Engangshansker</strong></td>
+          <td>Beskyttelse mot smitte.</td>
+      </tr>
+      <tr>
+          <td><strong>Pustemaske</strong></td>
+          <td>Sikrer trygg gjenoppliving uten direkte kontakt.</td>
+      </tr>
+      <tr>
+          <td><strong>Refleksvest</strong></td>
+          <td>Ã˜ker synlighet og sikkerhet ved ulykkesstedet.</td>
+      </tr>
+      <tr>
+          <td><strong>Lommelykt</strong></td>
+          <td>Gir lys ved mÃ¸rke eller dÃ¥rlig sikt.</td>
+      </tr>
+      <tr>
+          <td><strong>Saks og pincer</strong></td>
+          <td>Fjerner klÃ¦r for tilgang til skader.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="utvidet-fãrstehjelp">Utvidet fÃ¸rstehjelp</h2>
+<h3 id="hjerte-lungeredning-hlr">Hjerte-lungeredning (HLR)</h3>
+<p>Ved hjertestans er <strong>rask HLR</strong> avgjÃ¸rende for Ã¥ opprettholde sirkulasjon til hjernen og vitale organer inntil profesjonell hjelp ankommer. FÃ¸lg trinnene under:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Trinn</th>
+          <th>Tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Kontroller bevissthet og tilkall nÃ¸dhjelp</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Start brystkompresjoner (5-6 cm dyp, 100-120/min)</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Gi to innblÃ¥sninger etter 30 kompresjoner</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Fortsett til profesjonell hjelp tar over</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="bruk-av-hjertestarter-aed">Bruk av hjertestarter (AED)</h3>
+<p>En automatisert ekstern defibrillator (<strong>AED</strong>) kan vende livstruende rytmer. UtfÃ¸r fÃ¸lgende:</p>
+<ol>
+<li>SlÃ¥ pÃ¥ AED og fest elektroder som indikert.</li>
+<li>StÃ¥ unna pasienten mens AED analyserer hjerterytmen.</li>
+<li>Gi stÃ¸t hvis anbefalt, og fortsett HLR umiddelbart.</li>
+</ol>
+<table>
+  <thead>
+      <tr>
+          <th>Steg</th>
+          <th>Handling</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Ã…pne enheten og fest elektroder</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Analyser hjerterytme</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Gi defibrillering ved behov</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Gjenta HLR i 2 minutter fÃ¸r ny rytmeanalyse</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="spesifikke-skadetilfeller">Spesifikke skadetilfeller</h2>
+<p>Behandling varierer med skadetype. Tabellen under viser vanlige tilfeller:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Skadetype</th>
+          <th>Tegn og symptomer</th>
+          <th>Tiltak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Allergisk reaksjon</strong></td>
+          <td>Hevelse, utslett, pustevansker</td>
+          <td>Adrenalin (EpiPen), ring 113</td>
+      </tr>
+      <tr>
+          <td><strong>Forgiftning</strong></td>
+          <td>Kvalme, brekninger, bevissthetspÃ¥virkning</td>
+          <td>Ring 113, gi ikke mat/drikke fÃ¸r instruksjon</td>
+      </tr>
+      <tr>
+          <td><strong>Brannskade</strong></td>
+          <td>RÃ¸dhet, blemmer, smerte</td>
+          <td>KjÃ¸l ned med rennende vann, dekk med steril bandasje</td>
+      </tr>
+      <tr>
+          <td><strong>Fraktur</strong></td>
+          <td>Feilstilling, hevelse</td>
+          <td>Stabiliser med skinne, unngÃ¥ belastning</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="abcde-vurdering">ABCDE-vurdering</h2>
+<p>ABCDE-metoden gir en systematisk vurdering av kritiske tilstander:</p>
+<ul>
+<li>
+<p><strong>A (Airway):</strong> Frie luftveier</p>
+</li>
+<li>
+<p><strong>B (Breathing):</strong> Pusting og ventilasjon</p>
+</li>
+<li>
+<p><strong>C (Circulation):</strong> Sirkulasjon og blÃ¸dning</p>
+</li>
+<li>
+<p><strong>D (Disability):</strong> Nevrologisk status (bevissthet, pupiller)</p>
+</li>
+<li>
+<p><strong>E (Exposure):</strong> UndersÃ¸kelse for skader/underliggende problemer</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="sammendrag">Sammendrag</h2>
+<p>Rask og korrekt opptreden ved trafikkulykker kan redde liv og forhindre ytterligere skade. Husk dine plikter ved ulykkesstedet, fÃ¸lg A-B-C-prinsippet for fÃ¸rstehjelp, og kontakt nÃ¸detatene uten forsinkelse. Ved godt samarbeid med andre involverte og profesjonelle, bidrar du til Ã¸kt <strong>trafikksikkerhet</strong> for alle.</p>
+<p>For en helhetlig oversikt over nÃ¸dsituasjoner i trafikken, se <a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - Guide til hÃ¥ndtering av nÃ¸dsituasjoner i trafikken">HÃ¥ndtering av nÃ¸dsituasjoner</a>.\n  </div>\n</div></p>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Førstehjelp og opptreden ved ulykker" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Førstehjelp og opptreden ved ulykker" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Førstehjelp og opptreden ved ulykker" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

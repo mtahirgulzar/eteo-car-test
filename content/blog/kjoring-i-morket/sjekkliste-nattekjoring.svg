@@ -1,0 +1,198 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="checklistBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#checklistBg)"/>
+  
+  <!-- Title -->
+  <text x="300" y="25" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">Komplett sjekkliste for trygg nattkjøring</text>
+  
+  <!-- Pre-departure checklist -->
+  <rect x="20" y="40" width="180" height="340" rx="10" fill="#2a2a4a" opacity="0.9"/>
+  <text x="30" y="60" fill="#ffffff" font-size="14" font-weight="bold">✅ FØR AVREISE</text>
+  
+  <g fill="#ffffff" font-size="10">
+    <!-- Vehicle inspection -->
+    <text x="30" y="80" fill="#88aaff" font-weight="bold">KJØRETØY:</text>
+    
+    <circle cx="35" cy="95" r="3" fill="#00ff00"/>
+    <text x="45" y="100">Sjekk alle lykter og blink</text>
+    
+    <circle cx="35" cy="110" r="3" fill="#00ff00"/>
+    <text x="45" y="115">Rengjør lykteglass og speil</text>
+    
+    <circle cx="35" cy="125" r="3" fill="#00ff00"/>
+    <text x="45" y="130">Kontroller dekktrykk og mønster</text>
+    
+    <circle cx="35" cy="140" r="3" fill="#00ff00"/>
+    <text x="45" y="145">Fyll drivstoff (+reserve)</text>
+    
+    <circle cx="35" cy="155" r="3" fill="#00ff00"/>
+    <text x="45" y="160">Sjekk vaskevannnivå</text>
+    
+    <!-- Equipment check -->
+    <text x="30" y="180" fill="#ffaaaa" font-weight="bold">UTSTYR:</text>
+    
+    <circle cx="35" cy="195" r="3" fill="#00ff00"/>
+    <text x="45" y="200">Refleksvest tilgjengelig</text>
+    
+    <circle cx="35" cy="210" r="3" fill="#00ff00"/>
+    <text x="45" y="215">Varseltrekant i bagasjerom</text>
+    
+    <circle cx="35" cy="225" r="3" fill="#00ff00"/>
+    <text x="45" y="230">Lommelykt + batterier</text>
+    
+    <circle cx="35" cy="240" r="3" fill="#00ff00"/>
+    <text x="45" y="245">Mobillader og nødmateriell</text>
+    
+    <circle cx="35" cy="255" r="3" fill="#00ff00"/>
+    <text x="45" y="260">Førstehjelpsutstyr</text>
+    
+    <!-- Planning -->
+    <text x="30" y="280" fill="#ffffaa" font-weight="bold">PLANLEGGING:</text>
+    
+    <circle cx="35" cy="295" r="3" fill="#00ff00"/>
+    <text x="45" y="300">Sjekk værvarsel og veiforhold</text>
+    
+    <circle cx="35" cy="310" r="3" fill="#00ff00"/>
+    <text x="45" y="315">Planlegg pauseplasser</text>
+    
+    <circle cx="35" cy="325" r="3" fill="#00ff00"/>
+    <text x="45" y="330">Informer andre om reiserute</text>
+    
+    <circle cx="35" cy="340" r="3" fill="#00ff00"/>
+    <text x="45" y="345">Ha alternativ rute klar</text>
+    
+    <circle cx="35" cy="355" r="3" fill="#00ff00"/>
+    <text x="45" y="360">Sørg for at du er uthvilt</text>
+  </g>
+  
+  <!-- During driving checklist -->
+  <rect x="210" y="40" width="180" height="340" rx="10" fill="#2a4a3a" opacity="0.9"/>
+  <text x="220" y="60" fill="#ffffff" font-size="14" font-weight="bold">🚗 UNDERVEIS</text>
+  
+  <g fill="#ffffff" font-size="10">
+    <!-- Light usage -->
+    <text x="220" y="80" fill="#ffff88" font-weight="bold">LYSBRUK:</text>
+    
+    <circle cx="225" cy="95" r="3" fill="#ffff00"/>
+    <text x="235" y="100">Velg riktig lysmodus for situasjon</text>
+    
+    <circle cx="225" cy="110" r="3" fill="#ffff00"/>
+    <text x="235" y="115">Dimm ved møte (150-200m)</text>
+    
+    <circle cx="225" cy="125" r="3" fill="#ffff00"/>
+    <text x="235" y="130">Unngå å blende andre</text>
+    
+    <circle cx="225" cy="140" r="3" fill="#ffff00"/>
+    <text x="235" y="145">Bruk tåkelys kun ved tåke</text>
+    
+    <!-- Speed and distance -->
+    <text x="220" y="165" fill="#88ff88" font-weight="bold">HASTIGHET:</text>
+    
+    <circle cx="225" cy="180" r="3" fill="#88ff88"/>
+    <text x="235" y="185">Tilpass hastighet til sikt</text>
+    
+    <circle cx="225" cy="195" r="3" fill="#88ff88"/>
+    <text x="235" y="200">Hold 50% økt avstand</text>
+    
+    <circle cx="225" cy="210" r="3" fill="#88ff88"/>
+    <text x="235" y="215">Bruk marginprinsippet</text>
+    
+    <circle cx="225" cy="225" r="3" fill="#88ff88"/>
+    <text x="235" y="230">Sjekk speedometer oftere</text>
+    
+    <!-- Awareness -->
+    <text x="220" y="250" fill="#ff88aa" font-weight="bold">OPPMERKSOMHET:</text>
+    
+    <circle cx="225" cy="265" r="3" fill="#ff88aa"/>
+    <text x="235" y="270">Skann kontinuerlig veikantene</text>
+    
+    <circle cx="225" cy="280" r="3" fill="#ff88aa"/>
+    <text x="235" y="285">Vær oppmerksom på dyrefare</text>
+    
+    <circle cx="225" cy="295" r="3" fill="#ff88aa"/>
+    <text x="235" y="300">Overvåk egen tretthet</text>
+    
+    <circle cx="225" cy="310" r="3" fill="#ff88aa"/>
+    <text x="235" y="315">Ta pause hver 1,5-2 timer</text>
+    
+    <circle cx="225" cy="325" r="3" fill="#ff88aa"/>
+    <text x="235" y="330">Kommuniser tydelig med andre</text>
+    
+    <circle cx="225" cy="340" r="3" fill="#ff88aa"/>
+    <text x="235" y="345">Vær ekstra forsiktig i dårlig vær</text>
+    
+    <circle cx="225" cy="355" r="3" fill="#ff88aa"/>
+    <text x="235" y="360">Stopp ved kritisk tretthet</text>
+  </g>
+  
+  <!-- Emergency/problem situations -->
+  <rect x="400" y="40" width="180" height="340" rx="10" fill="#4a2a2a" opacity="0.9"/>
+  <text x="410" y="60" fill="#ffffff" font-size="14" font-weight="bold">🚨 VED PROBLEMER</text>
+  
+  <g fill="#ffffff" font-size="10">
+    <!-- Immediate actions -->
+    <text x="410" y="80" fill="#ff8888" font-weight="bold">UMIDDELBARE TILTAK:</text>
+    
+    <circle cx="415" cy="95" r="3" fill="#ff4444"/>
+    <text x="425" y="100">Kjør til side, slå på nødblink</text>
+    
+    <circle cx="415" cy="110" r="3" fill="#ff4444"/>
+    <text x="425" y="115">Ta på refleksvest FØR du går ut</text>
+    
+    <circle cx="415" cy="125" r="3" fill="#ff4444"/>
+    <text x="425" y="130">Plasser varseltrekant (100-200m)</text>
+    
+    <circle cx="415" cy="140" r="3" fill="#ff4444"/>
+    <text x="425" y="145">Ring 112/113 hvis nødvendig</text>
+    
+    <circle cx="415" cy="155" r="3" fill="#ff4444"/>
+    <text x="425" y="160">Opphold deg trygt utenfor veibanen</text>
+    
+    <!-- Fatigue management -->
+    <text x="410" y="180" fill="#ffaa88" font-weight="bold">VED TRETTHET:</text>
+    
+    <circle cx="415" cy="195" r="3" fill="#ffaa00"/>
+    <text x="425" y="200">Stopp på trygg plass</text>
+    
+    <circle cx="415" cy="210" r="3" fill="#ffaa00"/>
+    <text x="425" y="215">Powernap 15-20 minutter</text>
+    
+    <circle cx="415" cy="225" r="3" fill="#ffaa00"/>
+    <text x="425" y="230">Drikk kaffe før du sover</text>
+    
+    <circle cx="415" cy="240" r="3" fill="#ffaa00"/>
+    <text x="425" y="245">Gå en runde etter hvile</text>
+    
+    <circle cx="415" cy="255" r="3" fill="#ffaa00"/>
+    <text x="425" y="260">Vurder å dele kjøringen</text>
+    
+    <!-- Weather problems -->
+    <text x="410" y="280" fill="#88aaff" font-weight="bold">DÅRLIG VÆR:</text>
+    
+    <circle cx="415" cy="295" r="3" fill="#6688ff"/>
+    <text x="425" y="300">Senk hastighet drastisk</text>
+    
+    <circle cx="415" cy="310" r="3" fill="#6688ff"/>
+    <text x="425" y="315">Øk avstand til 4-5 sekunder</text>
+    
+    <circle cx="415" cy="325" r="3" fill="#6688ff"/>
+    <text x="425" y="330">Bruk tåkelys ved behov</text>
+    
+    <circle cx="415" cy="340" r="3" fill="#6688ff"/>
+    <text x="425" y="345">Vurder å stoppe og vente</text>
+    
+    <circle cx="415" cy="355" r="3" fill="#6688ff"/>
+    <text x="425" y="360">Følg snøploger hvis mulig</text>
+  </g>
+  
+  <!-- Final safety reminder -->
+  <rect x="50" y="390" width="500" height="5" fill="#ff6666"/>
+  <text x="300" y="385" fill="#ff6666" font-size="12" font-weight="bold" text-anchor="middle">Husk: 50% av dødsulykker skjer om natten - ta det på alvor!</text>
+</svg>

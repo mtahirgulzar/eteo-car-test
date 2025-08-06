@@ -1,0 +1,108 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">Håndheving av trafikklovgivningen</text>
+  
+  <!-- Control authorities -->
+  <rect x="50" y="60" width="200" height="150" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="5"/>
+  <text x="150" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">STATENS VEGVESEN</text>
+  <text x="150" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Teknisk kontroll</text>
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Kjøretøygodkjenning</text>
+  <text x="150" y="135" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Førerkortutstedelse</text>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Veitrafikksentraler</text>
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Kontrollstasjoner</text>
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• EU-kontroll</text>
+  <text x="150" y="195" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Fotoboksoperatør</text>
+  
+  <rect x="270" y="60" width="200" height="150" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="370" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">POLITIET</text>
+  <text x="370" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Trafikkontroll</text>
+  <text x="370" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Fartskontroll</text>
+  <text x="370" y="135" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Promillekontroll</text>
+  <text x="370" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Ulykkesetterforskning</text>
+  <text x="370" y="165" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Forelegg og påtale</text>
+  <text x="370" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Trafikkdirigering</text>
+  <text x="370" y="195" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Førerkortbeslag</text>
+  
+  <rect x="490" y="60" width="200" height="150" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+  <text x="590" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">PÅTALEMYNDIGHET</text>
+  <text x="590" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Straffesaker</text>
+  <text x="590" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Rettsbehandling</text>
+  <text x="590" y="135" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Dommer og straff</text>
+  <text x="590" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Anke og klagebehandling</text>
+  <text x="590" y="165" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Erstatningskrav</text>
+  <text x="590" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Rettighetstap</text>
+  <text x="590" y="195" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">• Fengselstraff</text>
+  
+  <!-- Control methods -->
+  <rect x="50" y="240" width="700" height="100" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+  <text x="400" y="265" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Kontrollmetoder og teknologi</text>
+  
+  <!-- Method boxes -->
+  <rect x="70" y="280" width="120" height="50" fill="#2ecc71" stroke="#27ae60" stroke-width="1" rx="3"/>
+  <text x="130" y="300" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">LASER/RADAR</text>
+  <text x="130" y="315" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Fartsmåling</text>
+  <text x="130" y="325" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Mobil/stasjonær</text>
+  
+  <rect x="200" y="280" width="120" height="50" fill="#2ecc71" stroke="#27ae60" stroke-width="1" rx="3"/>
+  <text x="260" y="300" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">FOTOBOKS</text>
+  <text x="260" y="315" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Automatisk</text>
+  <text x="260" y="325" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">24/7 kontroll</text>
+  
+  <rect x="330" y="280" width="120" height="50" fill="#2ecc71" stroke="#27ae60" stroke-width="1" rx="3"/>
+  <text x="390" y="300" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">ALKOTEST</text>
+  <text x="390" y="315" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Utåndingsprøve</text>
+  <text x="390" y="325" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Ruskontroll</text>
+  
+  <rect x="460" y="280" width="120" height="50" fill="#2ecc71" stroke="#27ae60" stroke-width="1" rx="3"/>
+  <text x="520" y="300" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">ANPR</text>
+  <text x="520" y="315" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Skiltgjenkjenning</text>
+  <text x="520" y="325" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Automatisk</text>
+  
+  <rect x="590" y="280" width="120" height="50" fill="#2ecc71" stroke="#27ae60" stroke-width="1" rx="3"/>
+  <text x="650" y="300" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">VEKTSKALA</text>
+  <text x="650" y="315" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Lastekontroll</text>
+  <text x="650" y="325" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Tungbiler</text>
+  
+  <!-- Sanction pyramid -->
+  <rect x="100" y="360" width="600" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="400" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">Sanksjonspiramiden - Fra mildest til strengest</text>
+  
+  <!-- Level 1 -->
+  <rect x="120" y="400" width="100" height="25" fill="#f1c40f" stroke="#f39c12" stroke-width="1" rx="2"/>
+  <text x="170" y="415" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">Advarsel</text>
+  <text x="170" y="432" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">Mindre feil</text>
+  
+  <!-- Level 2 -->
+  <rect x="240" y="400" width="100" height="25" fill="#e67e22" stroke="#d35400" stroke-width="1" rx="2"/>
+  <text x="290" y="415" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Gebyr</text>
+  <text x="290" y="432" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">500-8000 kr</text>
+  
+  <!-- Level 3 -->
+  <rect x="360" y="400" width="100" height="25" fill="#e74c3c" stroke="#c0392b" stroke-width="1" rx="2"/>
+  <text x="410" y="415" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Prikker</text>
+  <text x="410" y="432" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">2-6 prikker</text>
+  
+  <!-- Level 4 -->
+  <rect x="480" y="400" width="100" height="25" fill="#9b59b6" stroke="#8e44ad" stroke-width="1" rx="2"/>
+  <text x="530" y="415" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Beslag</text>
+  <text x="530" y="432" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">Førerkort</text>
+  
+  <!-- Level 5 -->
+  <rect x="600" y="400" width="80" height="25" fill="#2c3e50" stroke="#34495e" stroke-width="1" rx="2"/>
+  <text x="640" y="415" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">Fengsel</text>
+  <text x="640" y="432" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">Bot/fengsling</text>
+  
+  <!-- Arrow indicating escalation -->
+  <path d="M 130 450 L 670 450" stroke="#e74c3c" stroke-width="3" marker-end="url(#redArrow)"/>
+  <text x="400" y="468" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#e74c3c">Økende alvorlighet og konsekvenser</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="redArrow" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#e74c3c"/>
+    </marker>
+  </defs>
+</svg>

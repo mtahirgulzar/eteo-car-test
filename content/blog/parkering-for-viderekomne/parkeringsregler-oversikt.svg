@@ -1,0 +1,179 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Parkeringsregler og Sanksjoner
+  </text>
+  
+  <!-- 5-meter rule illustration -->
+  <g transform="translate(50, 80)">
+    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">
+      5-metersregelen
+    </text>
+    
+    <!-- Road intersection -->
+    <rect x="0" y="30" width="200" height="20" fill="#7f8c8d"/>
+    <rect x="90" y="0" width="20" height="100" fill="#7f8c8d"/>
+    
+    <!-- Parking prohibition zone -->
+    <rect x="0" y="30" width="50" height="20" fill="#e74c3c" opacity="0.3"/>
+    <rect x="150" y="30" width="50" height="20" fill="#e74c3c" opacity="0.3"/>
+    <rect x="90" y="0" width="20" height="30" fill="#e74c3c" opacity="0.3"/>
+    <rect x="90" y="50" width="20" height="50" fill="#e74c3c" opacity="0.3"/>
+    
+    <!-- 5m markings -->
+    <text x="25" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">5m</text>
+    <text x="175" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">5m</text>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">5m</text>
+    <text x="100" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">5m</text>
+    
+    <!-- Legal parking area -->
+    <rect x="60" y="30" width="80" height="20" fill="#27ae60" opacity="0.5"/>
+    <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">Lovlig</text>
+  </g>
+  
+  <!-- Parking direction rule -->
+  <g transform="translate(350, 80)">
+    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">
+      Parkeringsretning
+    </text>
+    
+    <!-- Road with traffic direction -->
+    <rect x="0" y="30" width="300" height="40" fill="#7f8c8d"/>
+    <path d="M 250 35 L 280 50 L 250 65 Z" fill="#fff"/>
+    <text x="260" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Kjøreretning</text>
+    
+    <!-- Correct parking -->
+    <rect x="50" y="35" width="40" height="15" rx="3" fill="#27ae60"/>
+    <path d="M 75 42.5 L 85 42.5 M 80 37.5 L 85 42.5 L 80 47.5" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="70" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60" font-weight="bold">Riktig</text>
+    
+    <!-- Wrong parking -->
+    <rect x="120" y="35" width="40" height="15" rx="3" fill="#e74c3c"/>
+    <path d="M 145 42.5 L 135 42.5 M 140 37.5 L 135 42.5 L 140 47.5" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="140" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" font-weight="bold">Galt</text>
+  </g>
+  
+  <!-- Parking zones -->
+  <g transform="translate(50, 200)">
+    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+      Parkeringssoner og Regler
+    </text>
+    
+    <!-- Zone types table -->
+    <rect x="0" y="40" width="400" height="180" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="0" y="40" width="400" height="30" fill="#34495e"/>
+    <text x="50" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff" font-weight="bold">Sone</text>
+    <text x="150" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff" font-weight="bold">Tid</text>
+    <text x="250" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff" font-weight="bold">Betaling</text>
+    <text x="350" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff" font-weight="bold">Bot</text>
+    
+    <!-- Rows -->
+    <line x1="0" y1="100" x2="400" y2="100" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="0" y1="130" x2="400" y2="130" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="0" y1="160" x2="400" y2="160" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="0" y1="190" x2="400" y2="190" stroke="#bdc3c7" stroke-width="1"/>
+    
+    <!-- Vertical lines -->
+    <line x1="100" y1="40" x2="100" y2="220" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="200" y1="40" x2="200" y2="220" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="300" y1="40" x2="300" y2="220" stroke="#bdc3c7" stroke-width="1"/>
+    
+    <!-- Data -->
+    <text x="50" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Bysenter</text>
+    <text x="150" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">1-3t</text>
+    <text x="250" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Automat</text>
+    <text x="350" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">900-1500kr</text>
+    
+    <text x="50" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Bolig</text>
+    <text x="150" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">2-4t</text>
+    <text x="250" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Gratis/avg</text>
+    <text x="350" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">600-900kr</text>
+    
+    <text x="50" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Handel</text>
+    <text x="150" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">3-6t</text>
+    <text x="250" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Kunde</text>
+    <text x="350" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">400-800kr</text>
+    
+    <text x="50" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Langtid</text>
+    <text x="150" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Ubegrenset</text>
+    <text x="250" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Døgnpris</text>
+    <text x="350" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">300-600kr</text>
+    
+    <text x="50" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Handikap</text>
+    <text x="150" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Varierer</text>
+    <text x="250" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Tillatelse</text>
+    <text x="350" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c0392b">1500-2000kr</text>
+  </g>
+  
+  <!-- Special parking signs -->
+  <g transform="translate(500, 200)">
+    <text x="120" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Spesielle Parkeringsskilt
+    </text>
+    
+    <!-- Handicap sign -->
+    <g transform="translate(10, 40)">
+      <rect x="0" y="0" width="60" height="60" rx="8" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <circle cx="25" cy="20" r="3" fill="#fff"/>
+      <rect x="22" y="25" width="6" height="15" fill="#fff"/>
+      <rect x="18" y="32" width="14" height="8" fill="#fff"/>
+      <rect x="20" y="40" width="4" height="8" fill="#fff"/>
+      <rect x="28" y="40" width="4" height="8" fill="#fff"/>
+      <circle cx="22" cy="44" r="3" fill="none" stroke="#fff" stroke-width="2"/>
+      <circle cx="30" cy="44" r="3" fill="none" stroke="#fff" stroke-width="2"/>
+      <text x="30" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Handikap</text>
+    </g>
+    
+    <!-- EV charging sign -->
+    <g transform="translate(90, 40)">
+      <rect x="0" y="0" width="60" height="60" rx="8" fill="#27ae60" stroke="#229954" stroke-width="2"/>
+      <path d="M 20 15 L 35 25 L 25 25 L 30 35 L 15 25 L 25 25 Z" fill="#fff"/>
+      <rect x="18" y="35" width="24" height="20" rx="4" fill="#fff"/>
+      <rect x="20" y="37" width="20" height="16" rx="2" fill="#27ae60"/>
+      <text x="30" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Elbil</text>
+    </g>
+    
+    <!-- Time limit sign -->
+    <g transform="translate(170, 40)">
+      <rect x="0" y="0" width="60" height="60" rx="8" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+      <circle cx="30" cy="30" r="18" fill="#fff"/>
+      <circle cx="30" cy="30" r="2" fill="#f39c12"/>
+      <line x1="30" y1="30" x2="30" y2="18" stroke="#f39c12" stroke-width="2"/>
+      <line x1="30" y1="30" x2="38" y2="30" stroke="#f39c12" stroke-width="2"/>
+      <text x="30" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">2 timer</text>
+    </g>
+  </g>
+  
+  <!-- Consequences section -->
+  <g transform="translate(50, 420)">
+    <text x="350" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#c0392b">
+      Konsekvenser av Feilparkering
+    </text>
+    
+    <!-- Warning box -->
+    <rect x="0" y="40" width="700" height="120" rx="8" fill="#fadbd8" stroke="#e74c3c" stroke-width="2"/>
+    
+    <g transform="translate(50, 70)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">
+        Alvorlige overtredelser kan føre til:
+      </text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        • Tvangsfjernelse av kjøretøy (2000-5000 kr i tillegg til bot)
+      </text>
+      <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        • Blokkering av utrykningskjøretøy - meget høye bøter
+      </text>
+      <text x="0" y="65" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        • Gjentatte overtredelser kan påvirke forsikring og kjørerett
+      </text>
+      <text x="0" y="85" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+        • Sivilt ansvar for skader eller hindringer
+      </text>
+    </g>
+  </g>
+</svg>

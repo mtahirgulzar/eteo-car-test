@@ -1,0 +1,172 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388E3C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2C3E50">
+    Ruteplanlegging i byen
+  </text>
+  
+  <!-- Smartphone illustration -->
+  <rect x="100" y="80" width="120" height="200" rx="15" fill="url(#phoneGradient)" stroke="#1565C0" stroke-width="2"/>
+  <rect x="110" y="100" width="100" height="150" rx="5" fill="#FFF"/>
+  
+  <!-- GPS map on phone -->
+  <rect x="115" y="105" width="90" height="90" fill="url(#mapGradient)"/>
+  <path d="M120 110 L200 110 L190 130 L130 130 Z" fill="#81C784"/>
+  <path d="M130 140 L190 140 L180 160 L140 160 Z" fill="#66BB6A"/>
+  <circle cx="160" cy="135" r="3" fill="#FF5722"/>
+  <path d="M160 135 L170 150" stroke="#FF5722" stroke-width="2" fill="none"/>
+  
+  <!-- Route info on phone -->
+  <text x="160" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    15 min via E6
+  </text>
+  <text x="160" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    Moderat trafikk
+  </text>
+  <text x="160" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    2 alternative ruter
+  </text>
+  
+  <!-- GPS advantages -->
+  <rect x="250" y="80" width="270" height="120" rx="10" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+  <text x="385" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1976D2">
+    GPS-navigasjon fordeler
+  </text>
+  <text x="260" y="125" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Sanntids trafikkinfo og alternative ruter
+  </text>
+  <text x="260" y="145" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Automatisk omdirigering ved trafikkproblemer
+  </text>
+  <text x="260" y="165" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Oppdaterte veisperringer og byggeplasser
+  </text>
+  <text x="260" y="185" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ⚠ Kan lede til uegnede veier eller enveiskjøring
+  </text>
+  
+  <!-- Local knowledge section -->
+  <rect x="540" y="80" width="210" height="120" rx="10" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+  <text x="645" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F57C00">
+    Lokal kunnskap
+  </text>
+  <text x="550" y="125" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Kjente snarveier
+  </text>
+  <text x="550" y="145" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Unngå problemområder
+  </text>
+  <text x="550" y="165" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Lokale trafikkmønstre
+  </text>
+  <text x="550" y="185" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ⚠ Kan mangle oppdatert info
+  </text>
+  
+  <!-- Time planning illustration -->
+  <rect x="100" y="220" width="600" height="140" rx="10" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7B1FA2">
+    Tidsplanlegging og rushtrafikk
+  </text>
+  
+  <!-- Clock illustration -->
+  <circle cx="150" cy="300" r="30" fill="#FFF" stroke="#7B1FA2" stroke-width="2"/>
+  <line x1="150" y1="300" x2="150" y2="280" stroke="#7B1FA2" stroke-width="3"/>
+  <line x1="150" y1="300" x2="165" y2="300" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="150" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7B1FA2">Rush 07-09</text>
+  
+  <!-- Traffic bars -->
+  <rect x="220" y="270" width="40" height="60" fill="#FF5722"/>
+  <rect x="270" y="290" width="40" height="40" fill="#FF9800"/>
+  <rect x="320" y="300" width="40" height="30" fill="#4CAF50"/>
+  <rect x="370" y="290" width="40" height="40" fill="#FF9800"/>
+  <rect x="420" y="270" width="40" height="60" fill="#FF5722"/>
+  
+  <text x="240" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">07-09</text>
+  <text x="290" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">09-15</text>
+  <text x="340" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">15-16</text>
+  <text x="390" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">16-19</text>
+  <text x="440" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">19+</text>
+  
+  <!-- Time planning tips -->
+  <text x="500" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Planlegg 25-50% ekstra tid i rushtiden
+  </text>
+  <text x="500" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Kjør mellom 09:30-15:00 om mulig
+  </text>
+  <text x="500" y="320" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Vurder kollektivtrafikk i rush
+  </text>
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Ha alltid en B-plan klar
+  </text>
+  
+  <!-- Route alternatives section -->
+  <rect x="100" y="380" width="300" height="150" rx="10" fill="#E8F5E8" stroke="#388E3C" stroke-width="2"/>
+  <text x="250" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#388E3C">
+    Alternative transportmidler
+  </text>
+  
+  <!-- Transport icons -->
+  <rect x="120" y="420" width="40" height="20" rx="5" fill="#2196F3" stroke="#1565C0" stroke-width="1"/>
+  <text x="140" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFF">BUSS</text>
+  <text x="170" y="435" font-family="Arial, sans-serif" font-size="11" fill="#333">Kollektivtrafikk</text>
+  
+  <circle cx="140" cy="455" r="15" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="140" cy="455" r="8" fill="none" stroke="#FFF" stroke-width="2"/>
+  <text x="170" y="460" font-family="Arial, sans-serif" font-size="11" fill="#333">Sykkel + kollektivt</text>
+  
+  <rect x="120" y="475" width="15" height="10" rx="2" fill="#FF9800"/>
+  <rect x="145" y="475" width="15" height="10" rx="2" fill="#FF9800"/>
+  <text x="170" y="483" font-family="Arial, sans-serif" font-size="11" fill="#333">Gang for korte strekninger</text>
+  
+  <text x="120" y="505" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Park &amp; Ride:
+  </text>
+  <text x="120" y="520" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    • Parker utenfor sentrum
+  </text>
+  
+  <!-- Smart planning section -->
+  <rect x="420" y="380" width="280" height="150" rx="10" fill="#FFE0B2" stroke="#FF9800" stroke-width="2"/>
+  <text x="560" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F57C00">
+    Smart planlegging
+  </text>
+  
+  <!-- Checklist -->
+  <text x="440" y="430" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Sjekk trafikkinformasjon før avreise
+  </text>
+  <text x="440" y="450" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Velg hovedveier frem for småveier
+  </text>
+  <text x="440" y="470" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Kombiner flere ærender i samme tur
+  </text>
+  <text x="440" y="490" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Unngå byggeplasser og eventer
+  </text>
+  <text x="440" y="510" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ✓ Ha kontanter til bompenger/parkering
+  </text>
+  
+  <!-- Bottom tip -->
+  <rect x="150" y="550" width="500" height="35" rx="5" fill="#E1F5FE" stroke="#0288D1" stroke-width="1"/>
+  <text x="400" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0277BD">
+    God planlegging reduserer stress og gjør bykjøring mer effektiv
+  </text>
+</svg>

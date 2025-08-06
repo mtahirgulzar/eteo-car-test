@@ -1,0 +1,204 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="checkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48BB78;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38A169;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="timeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5282;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F7FAFC"/>
+  
+  <!-- Header -->
+  <text x="400" y="30" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="24" font-weight="bold">24-timers Sjekkliste</text>
+  
+  <!-- Timeline -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="700" height="40" fill="url(#timeGradient)" rx="20"/>
+    <text x="350" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">24 Timer før Avreise</text>
+  </g>
+  
+  <!-- Day before checklist -->
+  <g transform="translate(50, 120)">
+    <rect x="0" y="0" width="330" height="420" fill="#F0FFF4" stroke="#48BB78" stroke-width="2" rx="10"/>
+    <text x="165" y="25" text-anchor="middle" fill="#276749" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Dagen før</text>
+    
+    <!-- Clock icon -->
+    <g transform="translate(140, 40)">
+      <circle cx="25" cy="25" r="20" fill="url(#timeGradient)"/>
+      <circle cx="25" cy="25" r="15" fill="white"/>
+      <line x1="25" y1="15" x2="25" y2="25" stroke="#2C5282" stroke-width="2"/>
+      <line x1="25" y1="25" x2="35" y2="30" stroke="#2C5282" stroke-width="2"/>
+      <text x="25" y="55" text-anchor="middle" fill="#276749" font-family="Arial, sans-serif" font-size="10">20:00</text>
+    </g>
+    
+    <!-- Checklist items -->
+    <g transform="translate(20, 80)">
+      <!-- Technical check -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Teknisk kontroll</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Motorolje, dekk, lys, væsker</text>
+      </g>
+      
+      <!-- Weather check -->
+      <g transform="translate(0, 40)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Værvarsel</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Sjekk prognoser for hele ruten</text>
+      </g>
+      
+      <!-- Luggage packing -->
+      <g transform="translate(0, 80)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Bagasje</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Pakk og sikre all last</text>
+      </g>
+      
+      <!-- Documents check -->
+      <g transform="translate(0, 120)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Dokumenter</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Kontroller gyldighet og tilgjengelighet</text>
+      </g>
+      
+      <!-- Fuel planning -->
+      <g transform="translate(0, 160)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Drivstoff</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Fyll tanken og planlegg påfyll underveis</text>
+      </g>
+      
+      <!-- Route planning -->
+      <g transform="translate(0, 200)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Ruteplan</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Laste ned offline kart og alternative ruter</text>
+      </g>
+      
+      <!-- Sleep preparation -->
+      <g transform="translate(0, 240)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Søvnforberedelse</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Planlegg tidlig leggetid for 8 timers søvn</text>
+      </g>
+      
+      <!-- Emergency contacts -->
+      <g transform="translate(0, 280)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#276749" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="url(#checkGradient)" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#276749" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Nødkontakter</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Programmer inn veihjelp og familie</text>
+      </g>
+    </g>
+    
+    <!-- Completion rate -->
+    <g transform="translate(20, 380)">
+      <rect x="0" y="0" width="290" height="30" fill="#E6FFFA" stroke="#38B2AC" stroke-width="2" rx="5"/>
+      <text x="145" y="20" text-anchor="middle" fill="#2C7A7B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Fullført: 8/8 punkter ✓</text>
+    </g>
+  </g>
+  
+  <!-- Departure day checklist -->
+  <g transform="translate(420, 120)">
+    <rect x="0" y="0" width="330" height="420" fill="#FFF5F5" stroke="#F56565" stroke-width="2" rx="10"/>
+    <text x="165" y="25" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Avreisedagen</text>
+    
+    <!-- Sun icon for morning -->
+    <g transform="translate(140, 40)">
+      <circle cx="25" cy="25" r="15" fill="#F6AD55"/>
+      <path d="M 25 5 L 25 10 M 25 40 L 25 45 M 10 20 L 15 22 M 35 28 L 40 30 M 10 30 L 15 28 M 35 22 L 40 20 M 5 25 L 10 25 M 40 25 L 45 25" stroke="#F6AD55" stroke-width="2"/>
+      <text x="25" y="60" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="10">07:00</text>
+    </g>
+    
+    <!-- Morning checklist -->
+    <g transform="translate(20, 80)">
+      <!-- Good night's sleep -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">God natts søvn</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Minimum 7-8 timer søvn</text>
+      </g>
+      
+      <!-- Healthy meal -->
+      <g transform="translate(0, 40)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Sunt måltid</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Lett frokost uten tung mat</text>
+      </g>
+      
+      <!-- Final check -->
+      <g transform="translate(0, 80)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Siste sjekk</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Væsker, dekktrykk, lys</text>
+      </g>
+      
+      <!-- Communication -->
+      <g transform="translate(0, 120)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Kommunikasjon</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Informer andre om ruteplan og ankomsttid</text>
+      </g>
+      
+      <!-- Emergency preparedness -->
+      <g transform="translate(0, 160)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Nødberedskap</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Sørg for at telefonen er fulladet</text>
+      </g>
+      
+      <!-- Final load check -->
+      <g transform="translate(0, 200)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Lastkontroll</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Verifiser at all bagasje er sikret</text>
+      </g>
+      
+      <!-- Departure mindset -->
+      <g transform="translate(0, 240)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Mental forberedelse</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Rolig, tålmodig og oppmerksom innstilling</text>
+      </g>
+      
+      <!-- Weather recheck -->
+      <g transform="translate(0, 280)">
+        <rect x="0" y="0" width="18" height="18" fill="white" stroke="#C53030" stroke-width="2" rx="2"/>
+        <path d="M 3 9 L 8 14 L 15 4" stroke="#F56565" stroke-width="3" fill="none"/>
+        <text x="25" y="14" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Værsjekk</text>
+        <text x="25" y="28" fill="#4A5568" font-family="Arial, sans-serif" font-size="10">Siste værvarsel for avgang</text>
+      </g>
+    </g>
+    
+    <!-- Readiness indicator -->
+    <g transform="translate(20, 380)">
+      <rect x="0" y="0" width="290" height="30" fill="#FED7D7" stroke="#E53E3E" stroke-width="2" rx="5"/>
+      <text x="145" y="20" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Klar for avreise: 8/8 punkter ✓</text>
+    </g>
+  </g>
+  
+  <!-- Bottom success message -->
+  <g transform="translate(50, 560)">
+    <rect x="0" y="0" width="700" height="30" fill="#F0FFF4" stroke="#48BB78" stroke-width="2" rx="5"/>
+    <text x="350" y="20" text-anchor="middle" fill="#276749" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🎉 Gratulerer! Du er nå godt forberedt for en trygg og problemfri langkjøring</text>
+  </g>
+</svg>

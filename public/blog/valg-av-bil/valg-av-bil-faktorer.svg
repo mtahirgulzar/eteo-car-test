@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120">
+  <text x="10" y="20" font-size="16" font-weight="bold">Hovedtyper:</text>
+  <text x="10" y="45" font-size="14">• Fossil</text>
+  <text x="10" y="70" font-size="14">• Hybrid</text>
+  <text x="10" y="95" font-size="14">• Elektrisk</text>
+  <text x="320" y="20" font-size="16" font-weight="bold">Girkasse:</text>
+  <text x="320" y="45" font-size="14">• Manuell</text>
+  <text x="320" y="70" font-size="14">• Automatgir</text>
+</svg>

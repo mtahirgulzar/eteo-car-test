@@ -1,0 +1,88 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Sikkerhetsmarginer og Avstandsregler</text>
+  
+  <!-- Road representation -->
+  <rect x="50" y="100" width="700" height="120" fill="#34495e"/>
+  <rect x="50" y="150" width="700" height="4" fill="#f1c40f" stroke-dasharray="10,5"/>
+  <rect x="50" y="168" width="700" height="4" fill="#f1c40f" stroke-dasharray="10,5"/>
+  
+  <!-- Cars -->
+  <!-- Leading car -->
+  <rect x="500" y="125" width="60" height="30" fill="#e74c3c" rx="5"/>
+  <rect x="510" y="120" width="40" height="10" fill="#3498db" rx="2"/>
+  <circle cx="515" cy="155" r="8" fill="#2c3e50"/>
+  <circle cx="545" cy="155" r="8" fill="#2c3e50"/>
+  <text x="530" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Bil A</text>
+  
+  <!-- Following car -->
+  <rect x="300" y="175" width="60" height="30" fill="#27ae60" rx="5"/>
+  <rect x="310" y="170" width="40" height="10" fill="#3498db" rx="2"/>
+  <circle cx="315" cy="205" r="8" fill="#2c3e50"/>
+  <circle cx="345" cy="205" r="8" fill="#2c3e50"/>
+  <text x="330" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Bil B</text>
+  
+  <!-- Distance arrows and measurements -->
+  <line x1="360" y1="250" x2="500" y2="250" stroke="#e67e22" stroke-width="3" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+  <text x="430" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e67e22">Følgeavstand</text>
+  
+  <!-- Speed indication -->
+  <text x="430" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">80 km/t = ca. 67 meter (3 sek)</text>
+  
+  <!-- Reaction time breakdown -->
+  <rect x="100" y="300" width="600" height="150" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="110" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Følgeavstand Komponenter:</text>
+  
+  <!-- Reaction distance -->
+  <rect x="120" y="330" width="150" height="30" fill="#3498db" opacity="0.7"/>
+  <text x="195" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Reaksjonsavstand</text>
+  <text x="195" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1.5 sek = 33m @ 80km/t</text>
+  
+  <!-- Braking distance -->
+  <rect x="280" y="330" width="180" height="30" fill="#e74c3c" opacity="0.7"/>
+  <text x="370" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Bremse​avstand</text>
+  <text x="370" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Varierer med dekk/vei</text>
+  
+  <!-- Safety margin -->
+  <rect x="470" y="330" width="120" height="30" fill="#27ae60" opacity="0.7"/>
+  <text x="530" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Sikkerhetsmargin</text>
+  <text x="530" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Buffer for uforutsett</text>
+  
+  <!-- Condition-based adjustments -->
+  <rect x="120" y="390" width="470" height="50" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="130" y="410" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Tilpasning etter forhold:</text>
+  <text x="130" y="425" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Regn/snø: +50-100% • Tretthet: +25-50% • Dårlig sikt: +100%+ • Tilhenger: +50%</text>
+  
+  <!-- Side margins illustration -->
+  <rect x="50" y="470" width="700" height="80" fill="#34495e"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="470" x2="400" y2="550" stroke="#f1c40f" stroke-width="4"/>
+  
+  <!-- Vehicle with side margins -->
+  <rect x="350" y="495" width="100" height="30" fill="#9b59b6" rx="5"/>
+  <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Ditt kjøretøy</text>
+  
+  <!-- Side margin arrows -->
+  <line x1="330" y1="510" x2="350" y2="510" stroke="#f39c12" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="300" y="505" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Sidemargin</text>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">Min. 1.5m til sykler</text>
+  
+  <line x1="450" y1="510" x2="470" y2="510" stroke="#f39c12" stroke-width="3" marker-start="url(#arrowhead)"/>
+  <text x="480" y="505" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Sidemargin</text>
+  <text x="480" y="520" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">Øk i tunneler</text>
+  
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e67e22"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom note -->
+  <rect x="50" y="560" width="700" height="30" fill="#d5dbdb" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  <text x="60" y="580" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Husk: Sikkerhetsmarginer er ditt viktigste forsvar mot uforutsette situasjoner</text>
+</svg>

@@ -1,0 +1,174 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fae8ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#7c2d12">
+    To-hjuls kjøretøy: Moped og Motorsykkel
+  </text>
+  
+  <!-- Road -->
+  <rect x="50" y="400" width="700" height="120" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  <rect x="50" y="455" width="700" height="5" fill="#fbbf24"/>
+  
+  <!-- Moped -->
+  <circle cx="200" cy="470" r="10" fill="#374151"/>
+  <circle cx="230" cy="470" r="10" fill="#374151"/>
+  <rect x="195" y="460" width="40" height="4" fill="#1f2937"/>
+  <rect x="210" y="450" width="10" height="10" fill="#1f2937"/>
+  <circle cx="215" cy="445" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  <rect x="212" y="450" width="6" height="15" rx="3" fill="#f59e0b"/>
+  <text x="215" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7c2d12">
+    MOPED
+  </text>
+  <text x="215" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7c2d12">
+    45 km/t
+  </text>
+  
+  <!-- Motorcycle -->
+  <circle cx="500" cy="470" r="12" fill="#374151"/>
+  <circle cx="540" cy="470" r="12" fill="#374151"/>
+  <rect x="495" y="458" width="50" height="5" fill="#1f2937"/>
+  <rect x="515" y="448" width="12" height="12" fill="#1f2937"/>
+  <circle cx="521" cy="440" r="10" fill="#ef4444" stroke="#dc2626" stroke-width="1"/>
+  <rect x="518" y="448" width="6" height="18" rx="3" fill="#dc2626"/>
+  <text x="521" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7c2d12">
+    MOTORSYKKEL
+  </text>
+  <text x="521" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7c2d12">
+    Variabel hastighet
+  </text>
+  
+  <!-- Distance indicators -->
+  <line x1="250" y1="450" x2="340" y2="450" stroke="#f59e0b" stroke-width="2" stroke-dasharray="3,3"/>
+  <text x="295" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#f59e0b">
+    1,5 m
+  </text>
+  
+  <line x1="560" y1="450" x2="640" y2="450" stroke="#ef4444" stroke-width="2" stroke-dasharray="3,3"/>
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ef4444">
+    1,5 m+
+  </text>
+  
+  <!-- Comparison table -->
+  <rect x="100" y="80" width="600" height="180" rx="10" fill="white" stroke="#d1d5db" stroke-width="2"/>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">
+    Sammenligning: Moped vs Motorsykkel
+  </text>
+  
+  <!-- Table headers -->
+  <rect x="120" y="120" width="120" height="30" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+  <text x="180" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">
+    Kjøretøy
+  </text>
+  
+  <rect x="240" y="120" width="120" height="30" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+  <text x="300" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">
+    Maks hastighet
+  </text>
+  
+  <rect x="360" y="120" width="160" height="30" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+  <text x="440" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">
+    Utfordringer
+  </text>
+  
+  <rect x="520" y="120" width="160" height="30" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+  <text x="600" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">
+    Spesielle hensyn
+  </text>
+  
+  <!-- Moped row -->
+  <rect x="120" y="150" width="120" height="50" stroke="#d1d5db" stroke-width="1" fill="#fef3c7"/>
+  <text x="180" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400e">
+    MOPED
+  </text>
+  <text x="180" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#92400e">
+    45 km/t
+  </text>
+  
+  <rect x="240" y="150" width="120" height="50" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="300" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+    45 km/t
+  </text>
+  
+  <rect x="360" y="150" width="160" height="50" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="440" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Lavere hastighet
+  </text>
+  <text x="440" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Kan sinke trafikken
+  </text>
+  <text x="440" y="191" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Stabil kjørestil
+  </text>
+  
+  <rect x="520" y="150" width="160" height="50" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="600" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Tålmodighet ved
+  </text>
+  <text x="600" y="181" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    forbikjøring
+  </text>
+  
+  <!-- Motorcycle row -->
+  <rect x="120" y="200" width="120" height="50" stroke="#d1d5db" stroke-width="1" fill="#fecaca"/>
+  <text x="180" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7f1d1d">
+    MOTORSYKKEL
+  </text>
+  <text x="180" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f1d1d">
+    Variabel
+  </text>
+  
+  <rect x="240" y="200" width="120" height="50" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="300" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+    Variabel
+  </text>
+  
+  <rect x="360" y="200" width="160" height="50" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="440" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Høy hastighet
+  </text>
+  <text x="440" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Mindre synlig
+  </text>
+  <text x="440" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Rask akselerasjon
+  </text>
+  
+  <rect x="520" y="200" width="160" height="50" stroke="#d1d5db" stroke-width="1" fill="white"/>
+  <text x="600" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Ektra avstand
+  </text>
+  <text x="600" y="231" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">
+    Pass på akselerasjon
+  </text>
+  
+  <!-- Common considerations -->
+  <rect x="150" y="300" width="500" height="80" rx="8" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="400" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5b21b6">
+    Felles hensyn for to-hjuls kjøretøy:
+  </text>
+  <text x="200" y="345" font-family="Arial, sans-serif" font-size="11" fill="#5b21b6">
+    • Minimum 1,5 meter sideavstand ved forbikjøring
+  </text>
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="11" fill="#5b21b6">
+    • Ekstra sårbare ved regn og glatte veier
+  </text>
+  <text x="450" y="345" font-family="Arial, sans-serif" font-size="11" fill="#5b21b6">
+    • Kan gjøre raske bevegelser for å unngå hull
+  </text>
+  <text x="450" y="360" font-family="Arial, sans-serif" font-size="11" fill="#5b21b6">
+    • Bruker lys på dagtid, men fortsatt lett å overse
+  </text>
+  
+  <!-- Legal reference -->
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c2d12">
+    Begge kjøretøytyper følger samme trafikkregler som andre kjøretøy
+  </text>
+</svg>

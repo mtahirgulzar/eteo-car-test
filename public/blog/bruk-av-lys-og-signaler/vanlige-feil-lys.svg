@@ -1,0 +1,218 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="errorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="correctGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#229954;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Vanlige feil ved lysbruk</text>
+  
+  <!-- Error 1: Missing headlights -->
+  <rect x="50" y="70" width="170" height="120" fill="#2c3e50" stroke="#e74c3c" stroke-width="2" rx="8"/>
+  <text x="135" y="90" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MANGLENDE FRONTLYS</text>
+  
+  <!-- Dark road scene -->
+  <rect x="60" y="100" width="150" height="60" fill="#0d1117"/>
+  
+  <!-- Car without lights -->
+  <rect x="120" y="130" width="25" height="12" rx="2" fill="#34495e"/>
+  <circle cx="125" cy="147" r="2" fill="#2c3e50"/>
+  <circle cx="140" cy="147" r="2" fill="#2c3e50"/>
+  
+  <!-- No light beams -->
+  <text x="60" y="175" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Konsekvens: Redusert sikt</text>
+  <text x="60" y="188" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Bot: 1,350 kr</text>
+  
+  <!-- Error 2: Late signaling -->
+  <rect x="240" y="70" width="170" height="120" fill="#2c3e50" stroke="#e74c3c" stroke-width="2" rx="8"/>
+  <text x="325" y="90" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">FOR SENT BLINKLYS</text>
+  
+  <!-- Intersection scenario -->
+  <rect x="300" y="110" width="50" height="4" fill="#34495e"/>
+  <rect x="320" y="100" width="4" height="24" fill="#34495e"/>
+  
+  <!-- Car already turning -->
+  <rect x="315" y="105" width="15" height="8" rx="1" fill="#e74c3c"/>
+  <!-- Late blinker -->
+  <circle cx="328" cy="107" r="2" fill="#ff9800"/>
+  
+  <!-- Other car confused -->
+  <rect x="270" y="108" width="15" height="8" rx="1" fill="#95a5a6"/>
+  <text x="275" y="125" fill="#95a5a6" font-family="Arial, sans-serif" font-size="8">?</text>
+  
+  <text x="250" y="175" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Konsekvens: Forvirring</text>
+  <text x="250" y="188" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Kollisjonsfare</text>
+  
+  <!-- Error 3: High beam abuse -->
+  <rect x="430" y="70" width="170" height="120" fill="#2c3e50" stroke="#e74c3c" stroke-width="2" rx="8"/>
+  <text x="515" y="90" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">OVERDREVEN FJERNLYS</text>
+  
+  <!-- Blinding scenario -->
+  <rect x="440" y="100" width="150" height="60" fill="#1a1a2e"/>
+  
+  <!-- Car with high beam -->
+  <rect x="480" y="130" width="25" height="12" rx="2" fill="#3498db"/>
+  <circle cx="485" cy="147" r="2" fill="#2c3e50"/>
+  <circle cx="500" cy="147" r="2" fill="#2c3e50"/>
+  
+  <!-- Intense light beam -->
+  <path d="M 505 125 L 570 100 L 570 120 L 505 135 Z" fill="#ffffff" opacity="0.8"/>
+  <path d="M 505 135 L 570 160 L 570 140 L 505 145 Z" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Oncoming car blinded -->
+  <rect x="550" y="130" width="25" height="12" rx="2" fill="#e74c3c"/>
+  <text x="562" y="125" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">!</text>
+  
+  <text x="440" y="175" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Konsekvens: Blending</text>
+  <text x="440" y="188" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Bot: 1,900 kr</text>
+  
+  <!-- Error 4: Wrong hazard use -->
+  <rect x="620" y="70" width="130" height="120" fill="#2c3e50" stroke="#e74c3c" stroke-width="2" rx="8"/>
+  <text x="685" y="90" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">FEIL NØDBLINK</text>
+  
+  <!-- Lane change with hazards -->
+  <rect x="630" y="110" width="110" height="20" fill="#34495e"/>
+  <rect x="635" y="118" width="100" height="2" fill="#fff"/>
+  
+  <!-- Car using hazards for lane change -->
+  <rect x="660" y="115" width="20" height="10" rx="1" fill="#f39c12"/>
+  
+  <!-- All blinkers on -->
+  <circle cx="657" cy="118" r="2" fill="#ff9800"/>
+  <circle cx="657" cy="122" r="2" fill="#ff9800"/>
+  <circle cx="683" cy="118" r="2" fill="#ff9800"/>
+  <circle cx="683" cy="122" r="2" fill="#ff9800"/>
+  
+  <text x="630" y="145" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Kun ved nødstopp</text>
+  <text x="630" y="158" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">eller havari</text>
+  
+  <text x="630" y="175" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Konsekvens:</text>
+  <text x="630" y="188" fill="#e74c3c" font-family="Arial, sans-serif" font-size="9">Misforståelser</text>
+  
+  <!-- Correct practices section -->
+  <rect x="50" y="210" width="700" height="200" fill="#34495e" stroke="#27ae60" stroke-width="3" rx="10"/>
+  <text x="400" y="235" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="18" font-weight="bold">RIKTIG PRAKSIS</text>
+  
+  <!-- Correct 1: Proper headlight use -->
+  <rect x="70" y="250" width="150" height="80" fill="url(#correctGradient)" rx="5"/>
+  <text x="145" y="270" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✓ RIKTIG LYSBRUK</text>
+  
+  <!-- Car with proper lights -->
+  <rect x="120" y="285" width="25" height="12" rx="2" fill="#2c3e50"/>
+  <circle cx="125" cy="302" r="2" fill="#2c3e50"/>
+  <circle cx="140" cy="302" r="2" fill="#2c3e50"/>
+  
+  <!-- Proper light beams -->
+  <circle cx="148" cy="289" r="3" fill="#ffeb3b"/>
+  <circle cx="148" cy="295" r="3" fill="#ffeb3b"/>
+  <ellipse cx="165" cy="292" rx="12" ry="4" fill="#ffeb3b" opacity="0.4"/>
+  
+  <text x="80" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">Frontlys på i mørket</text>
+  
+  <!-- Correct 2: Early signaling -->
+  <rect x="240" y="250" width="150" height="80" fill="url(#correctGradient)" rx="5"/>
+  <text x="315" y="270" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✓ TIDLIG SIGNAL</text>
+  
+  <!-- Intersection with early signal -->
+  <rect x="300" y="285" width="50" height="4" fill="#2c3e50"/>
+  <rect x="320" y="275" width="4" height="24" fill="#2c3e50"/>
+  
+  <!-- Car signaling early -->
+  <rect x="270" y="283" width="15" height="8" rx="1" fill="#3498db"/>
+  <circle cx="283" cy="285" r="2" fill="#ff9800"/>
+  
+  <!-- Arrow showing intention -->
+  <path d="M 290 287 L 310 287 L 305 282 M 310 287 L 305 292" stroke="#27ae60" stroke-width="2" fill="none"/>
+  
+  <text x="250" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">Signal 3-5 sek før</text>
+  
+  <!-- Correct 3: Proper dimming -->
+  <rect x="410" y="250" width="150" height="80" fill="url(#correctGradient)" rx="5"/>
+  <text x="485" y="270" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✓ RIKTIG DIMMING</text>
+  
+  <!-- Two cars meeting properly -->
+  <rect x="440" y="285" width="20" height="10" rx="1" fill="#3498db"/>
+  <rect x="520" y="285" width="20" height="10" rx="1" fill="#e74c3c"/>
+  
+  <!-- Both cars dimmed -->
+  <circle cx="460" cy="287" r="2" fill="#f39c12"/>
+  <circle cx="460" cy="291" r="2" fill="#f39c12"/>
+  <circle cx="520" cy="287" r="2" fill="#f39c12"/>
+  <circle cx="520" cy="291" r="2" fill="#f39c12"/>
+  
+  <!-- Distance marker -->
+  <text x="480" y="305" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">150m</text>
+  <line x1="470" y1="297" x2="510" y2="297" stroke="#ffffff" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <text x="420" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">Dimme 150m før møte</text>
+  
+  <!-- Correct 4: Proper hazard use -->
+  <rect x="580" y="250" width="150" height="80" fill="url(#correctGradient)" rx="5"/>
+  <text x="655" y="270" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✓ RIKTIG NØDBLINK</text>
+  
+  <!-- Broken down car -->
+  <rect x="630" y="285" width="25" height="12" rx="2" fill="#95a5a6"/>
+  <circle cx="635" cy="302" r="2" fill="#2c3e50"/>
+  <circle cx="650" cy="302" r="2" fill="#2c3e50"/>
+  
+  <!-- Warning triangle -->
+  <polygon points="665,285 675,300 655,300" fill="#f39c12"/>
+  <text x="665" y="295" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="8">!</text>
+  
+  <!-- All hazard lights -->
+  <circle cx="625" cy="287" r="2" fill="#f39c12"/>
+  <circle cx="625" cy="292" r="2" fill="#f39c12"/>
+  <circle cx="660" cy="287" r="2" fill="#f39c12"/>
+  <circle cx="660" cy="292" r="2" fill="#f39c12"/>
+  
+  <text x="590" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">Kun ved nød/havari</text>
+  
+  <!-- Common scenarios section -->
+  <rect x="50" y="430" width="700" height="120" fill="#8e44ad" stroke="#9b59b6" stroke-width="2" rx="8"/>
+  <text x="400" y="455" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">VANLIGE FEILSITUASJONER</text>
+  
+  <!-- Roundabout error -->
+  <circle cx="150" cy="490" r="25" fill="none" stroke="#34495e" stroke-width="6"/>
+  <rect x="170" y="485" width="15" height="8" rx="1" fill="#e74c3c"/>
+  <circle cx="167" cy="487" r="2" fill="#f39c12"/>
+  <text x="150" y="525" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="10">❌ Venstre inn</text>
+  <text x="150" y="538" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="10">✓ Høyre ut</text>
+  
+  <!-- Motorway late signal -->
+  <rect x="250" y="475" width="100" height="20" fill="#34495e"/>
+  <rect x="255" y="483" width="90" height="2" fill="#fff"/>
+  <rect x="330" y="485" width="15" height="8" rx="1" fill="#e74c3c"/>
+  <circle cx="343" cy="487" r="2" fill="#f39c12"/>
+  <text x="300" y="525" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="10">❌ For sent på motorvei</text>
+  <text x="300" y="538" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="10">✓ 5+ sek før</text>
+  
+  <!-- Fog with high beam -->
+  <ellipse cx="450" cy="490" rx="30" ry="8" fill="#95a5a6" opacity="0.7"/>
+  <rect x="435" y="485" width="15" height="8" rx="1" fill="#e74c3c"/>
+  <path d="M 450 481 L 480 475" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  <text x="450" y="525" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="10">❌ Fjernlys i tåke</text>
+  <text x="450" y="538" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="10">✓ Nærlys + tåkelys</text>
+  
+  <!-- Parking with hazards -->
+  <rect x="580" y="475" width="80" height="20" fill="#34495e"/>
+  <rect x="610" y="485" width="15" height="8" rx="1" fill="#e74c3c"/>
+  <circle cx="607" cy="487" r="2" fill="#f39c12"/>
+  <circle cx="607" cy="491" r="2" fill="#f39c12"/>
+  <circle cx="628" cy="487" r="2" fill="#f39c12"/>
+  <circle cx="628" cy="491" r="2" fill="#f39c12"/>
+  <rect x="565" y="480" width="20" height="15" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="620" y="525" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="10">❌ Nødblink ved parkering</text>
+  <text x="620" y="538" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="10">✓ Kun retningslys</text>
+  
+  <!-- Bottom reminder -->
+  <text x="400" y="580" text-anchor="middle" fill="#f39c12" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Husk: Øv på riktig lysbruk - det kan redde liv!</text>
+</svg>

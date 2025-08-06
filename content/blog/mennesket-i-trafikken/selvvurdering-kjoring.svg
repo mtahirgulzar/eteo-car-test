@@ -1,0 +1,160 @@
+<svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="300" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="350" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+    Selvvurdering av kjøredyktighet
+  </text>
+  
+  <!-- Daily assessment checklist -->
+  <g transform="translate(50, 50)">
+    <text x="125" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Daglig sjekkliste
+    </text>
+    
+    <!-- Physical condition -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="18" height="18" fill="#3498db" stroke="#2c3e50" stroke-width="1"/>
+      <text x="9" y="12" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">✓</text>
+      <text x="25" y="14" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">Føler jeg meg fysisk frisk?</text>
+      <text x="25" y="26" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Ingen feber, smerter eller ubehag</text>
+    </g>
+    
+    <!-- Mental state -->
+    <g transform="translate(0, 60)">
+      <rect x="0" y="0" width="18" height="18" fill="#27ae60" stroke="#2c3e50" stroke-width="1"/>
+      <text x="9" y="12" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">✓</text>
+      <text x="25" y="14" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">Er jeg mentalt klar?</text>
+      <text x="25" y="26" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Konsentrert, ikke sterkt følelsesmessig påvirket</text>
+    </g>
+    
+    <!-- Fatigue -->
+    <g transform="translate(0, 90)">
+      <rect x="0" y="0" width="18" height="18" fill="#f39c12" stroke="#2c3e50" stroke-width="1"/>
+      <text x="9" y="12" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">✓</text>
+      <text x="25" y="14" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">Har jeg sovet nok?</text>
+      <text x="25" y="26" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Minimum 6-8 timer søvn siste natt</text>
+    </g>
+    
+    <!-- Substances -->
+    <g transform="translate(0, 120)">
+      <rect x="0" y="0" width="18" height="18" fill="#e74c3c" stroke="#2c3e50" stroke-width="1"/>
+      <text x="9" y="12" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">✓</text>
+      <text x="25" y="14" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">Er jeg påvirket av noe?</text>
+      <text x="25" y="26" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Alkohol, medikamenter, andre stoffer</text>
+    </g>
+  </g>
+  
+  <!-- Fitness scale -->
+  <g transform="translate(350, 50)">
+    <text x="150" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Vurder din kjøredyktighet
+    </text>
+    
+    <!-- Scale -->
+    <g transform="translate(50, 30)">
+      <!-- Excellent -->
+      <rect x="0" y="0" width="40" height="25" fill="#27ae60"/>
+      <text x="20" y="17" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">100%</text>
+      <text x="20" y="40" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Utmerket</text>
+      <text x="20" y="52" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Kan kjøre</text>
+      <text x="20" y="62" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">normalt</text>
+      
+      <!-- Good -->
+      <rect x="50" y="0" width="40" height="25" fill="#2ecc71"/>
+      <text x="70" y="17" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">80%</text>
+      <text x="70" y="40" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">God</text>
+      <text x="70" y="52" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Kan kjøre</text>
+      <text x="70" y="62" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">forsiktig</text>
+      
+      <!-- Fair -->
+      <rect x="100" y="0" width="40" height="25" fill="#f39c12"/>
+      <text x="120" y="17" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">60%</text>
+      <text x="120" y="40" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Redusert</text>
+      <text x="120" y="52" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Vurder å</text>
+      <text x="120" y="62" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">utsette</text>
+      
+      <!-- Poor -->
+      <rect x="150" y="0" width="40" height="25" fill="#e67e22"/>
+      <text x="170" y="17" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">40%</text>
+      <text x="170" y="40" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Dårlig</text>
+      <text x="170" y="52" font-family="Arial, sans-serif" font-size="8" fill="#e74c3c" text-anchor="middle">Ikke kjør!</text>
+      
+      <!-- Dangerous -->
+      <rect x="200" y="0" width="40" height="25" fill="#c0392b"/>
+      <text x="220" y="17" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">20%</text>
+      <text x="220" y="40" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Farlig</text>
+      <text x="220" y="52" font-family="Arial, sans-serif" font-size="8" fill="#c0392b" text-anchor="middle">IKKE KJØR!</text>
+    </g>
+  </g>
+  
+  <!-- Adaptation strategies -->
+  <g transform="translate(50, 180)">
+    <text x="300" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Tilpasningsstrategier ved redusert kapasitet
+    </text>
+    
+    <!-- Speed reduction -->
+    <g transform="translate(0, 30)">
+      <circle cx="15" cy="12" r="12" fill="#3498db"/>
+      <text x="15" y="16" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">🐌</text>
+      <text x="35" y="10" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">Reduser farten</text>
+      <text x="35" y="22" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Gir mer tid til å reagere</text>
+    </g>
+    
+    <!-- Increase distance -->
+    <g transform="translate(200, 30)">
+      <circle cx="15" cy="12" r="12" fill="#27ae60"/>
+      <text x="15" y="16" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">↔</text>
+      <text x="35" y="10" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">Øk avstanden</text>
+      <text x="35" y="22" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Kompenserer for tregere reaksjon</text>
+    </g>
+    
+    <!-- Avoid complex situations -->
+    <g transform="translate(400, 30)">
+      <circle cx="15" cy="12" r="12" fill="#f39c12"/>
+      <text x="15" y="16" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">🚫</text>
+      <text x="35" y="10" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold">Unngå komplekse situasjoner</text>
+      <text x="35" y="22" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Velg enklere ruter og tidspunkt</text>
+    </g>
+  </g>
+  
+  <!-- Warning signs -->
+  <g transform="translate(50, 230)">
+    <text x="300" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c" text-anchor="middle">
+      Faresignaler - STOPP KJØRINGEN UMIDDELBART
+    </text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Microsleep -->
+      <g transform="translate(0, 0)">
+        <polygon points="15,5 25,25 5,25" fill="#e74c3c"/>
+        <text x="15" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">!</text>
+        <text x="70" y="18" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Mikrosøvn eller nikking</text>
+      </g>
+      
+      <!-- Lane departure -->
+      <g transform="translate(200, 0)">
+        <polygon points="15,5 25,25 5,25" fill="#e74c3c"/>
+        <text x="15" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">!</text>
+        <text x="70" y="18" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Kjører ut av kjørefelt</text>
+      </g>
+      
+      <!-- Cannot remember -->
+      <g transform="translate(400, 0)">
+        <polygon points="15,5 25,25 5,25" fill="#e74c3c"/>
+        <text x="15" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">!</text>
+        <text x="70" y="18" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Husker ikke siste del av turen</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Action plan -->
+  <g transform="translate(50, 275)">
+    <rect x="0" y="0" width="600" height="20" fill="#27ae60" rx="5"/>
+    <text x="300" y="14" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">
+      Handlingsplan: Stopp trygt → Ta pause/hvil → Vurder alternativ transport → Kjør kun når 100% klar
+    </text>
+  </g>
+</svg>

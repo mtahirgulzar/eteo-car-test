@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mennesket i trafikken - Faktorer som påvirker kjøring | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær om menneskets rolle i trafikken: reaksjonstid, rusmidler, tretthet, stress, alder og andre faktorer som påvirker kjøresikkerheten. Viktig for teoriprøven.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/mennesket-i-trafikken/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/mennesket-i-trafikken/article/">
+    <meta property="og:title" content="Mennesket i trafikken - Faktorer som påvirker kjøring | Eteo">
+    <meta property="og:description" content="Lær om menneskets rolle i trafikken: reaksjonstid, rusmidler, tretthet, stress, alder og andre faktorer som påvirker kjøresikkerheten. Viktig for teoriprøven.">
+    <meta property="og:image" content="//localhost:1313/images/blog/mennesket-i-trafikken/mennesket-i-trafikken-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mennesket i trafikken - Faktorer som påvirker kjøring | Eteo">
+    <meta name="twitter:description" content="Lær om menneskets rolle i trafikken: reaksjonstid, rusmidler, tretthet, stress, alder og andre faktorer som påvirker kjøresikkerheten. Viktig for teoriprøven.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/mennesket-i-trafikken/mennesket-i-trafikken-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Mennesket i trafikken - Faktorer som påvirker kjøring</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                12 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/mennesket-i-trafikken/mennesket-i-trafikken-image.svg" 
+                    alt="Mennesket i trafikken - Faktorer som påvirker kjøring" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/mennesket-i-trafikken/mennesket-i-trafikken-image.svg" alt="Mennesket i trafikken - Faktorer som påvirker kjøring" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#menneskets-sanser-og-oppfatningsevne">Menneskets sanser og oppfatningsevne</a>
+      <ul>
+        <li><a href="#synets-begrensninger">Synets begrensninger</a></li>
+        <li><a href="#sentralsynet-skarpsynet-og-sidesynet">Sentralsynet, skarpsynet og sidesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#reaksjonstid-og-reaksjonsevne">Reaksjonstid og reaksjonsevne</a>
+      <ul>
+        <li><a href="#kompleks-vs-enkel-reaksjon">Kompleks vs. enkel reaksjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#rusmidler-og-medikamenter">Rusmidler og medikamenter</a>
+      <ul>
+        <li><a href="#alkohol">Alkohol</a></li>
+        <li><a href="#narkotika-og-andre-rusmidler">Narkotika og andre rusmidler</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-sãvnighet">Tretthet og sÃ¸vnighet</a>
+      <ul>
+        <li><a href="#faresignaler-for-tretthet">Faresignaler for tretthet</a></li>
+        <li><a href="#forebygging-av-tretthet">Forebygging av tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#stress-og-fãlelser">Stress og fÃ¸lelser</a>
+      <ul>
+        <li><a href="#positive-effekter-av-moderat-stress">Positive effekter av moderat stress</a></li>
+        <li><a href="#negative-effekter-av-hãyt-stress">Negative effekter av hÃ¸yt stress</a></li>
+      </ul>
+    </li>
+    <li><a href="#alder-og-erfaring">Alder og erfaring</a>
+      <ul>
+        <li><a href="#unge-fãrere-18-25-ãr">Unge fÃ¸rere (18-25 Ã¥r)</a></li>
+        <li><a href="#eldre-fãrere-65-ãr">Eldre fÃ¸rere (65+ Ã¥r)</a></li>
+      </ul>
+    </li>
+    <li><a href="#fysisk-og-mental-helse">Fysisk og mental helse</a>
+      <ul>
+        <li><a href="#sykdommer-som-pãvirker-kjãringen">Sykdommer som pÃ¥virker kjÃ¸ringen</a></li>
+        <li><a href="#mental-helse">Mental helse</a></li>
+      </ul>
+    </li>
+    <li><a href="#distraksjoner-i-moderne-trafikk">Distraksjoner i moderne trafikk</a>
+      <ul>
+        <li><a href="#mobiltelefon-og-teknologi">Mobiltelefon og teknologi</a></li>
+        <li><a href="#andre-distraksjoner">Andre distraksjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#risikooppfatning-og-beslutninger">Risikooppfatning og beslutninger</a>
+      <ul>
+        <li><a href="#forbedring-av-risikooppfatning">Forbedring av risikooppfatning</a></li>
+      </ul>
+    </li>
+    <li><a href="#mennesket-og-kjãretãysteknologi">Mennesket og kjÃ¸retÃ¸ysteknologi</a>
+      <ul>
+        <li><a href="#balanse-mellom-teknologi-og-menneskelig-kontroll">Balanse mellom teknologi og menneskelig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#tilpasning-til-egne-forutsetninger">Tilpasning til egne forutsetninger</a>
+      <ul>
+        <li><a href="#daglig-vurdering">Daglig vurdering</a></li>
+        <li><a href="#tilpasning-av-kjãremãte">Tilpasning av kjÃ¸remÃ¥te</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-i-trafikken">Kommunikasjon i trafikken</a>
+      <ul>
+        <li><a href="#aggresjon-og-konflikter">Aggresjon og konflikter</a></li>
+      </ul>
+    </li>
+    <li><a href="#kontinuerlig-lãring-og-utvikling">Kontinuerlig lÃ¦ring og utvikling</a>
+      <ul>
+        <li><a href="#livslang-lãring-i-trafikken">Livslang lÃ¦ring i trafikken</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#menneskets-sanser-og-oppfatningsevne">Menneskets sanser og oppfatningsevne</a>
+      <ul>
+        <li><a href="#synets-begrensninger">Synets begrensninger</a></li>
+        <li><a href="#sentralsynet-skarpsynet-og-sidesynet">Sentralsynet, skarpsynet og sidesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#reaksjonstid-og-reaksjonsevne">Reaksjonstid og reaksjonsevne</a>
+      <ul>
+        <li><a href="#kompleks-vs-enkel-reaksjon">Kompleks vs. enkel reaksjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#rusmidler-og-medikamenter">Rusmidler og medikamenter</a>
+      <ul>
+        <li><a href="#alkohol">Alkohol</a></li>
+        <li><a href="#narkotika-og-andre-rusmidler">Narkotika og andre rusmidler</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-sãvnighet">Tretthet og sÃ¸vnighet</a>
+      <ul>
+        <li><a href="#faresignaler-for-tretthet">Faresignaler for tretthet</a></li>
+        <li><a href="#forebygging-av-tretthet">Forebygging av tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#stress-og-fãlelser">Stress og fÃ¸lelser</a>
+      <ul>
+        <li><a href="#positive-effekter-av-moderat-stress">Positive effekter av moderat stress</a></li>
+        <li><a href="#negative-effekter-av-hãyt-stress">Negative effekter av hÃ¸yt stress</a></li>
+      </ul>
+    </li>
+    <li><a href="#alder-og-erfaring">Alder og erfaring</a>
+      <ul>
+        <li><a href="#unge-fãrere-18-25-ãr">Unge fÃ¸rere (18-25 Ã¥r)</a></li>
+        <li><a href="#eldre-fãrere-65-ãr">Eldre fÃ¸rere (65+ Ã¥r)</a></li>
+      </ul>
+    </li>
+    <li><a href="#fysisk-og-mental-helse">Fysisk og mental helse</a>
+      <ul>
+        <li><a href="#sykdommer-som-pãvirker-kjãringen">Sykdommer som pÃ¥virker kjÃ¸ringen</a></li>
+        <li><a href="#mental-helse">Mental helse</a></li>
+      </ul>
+    </li>
+    <li><a href="#distraksjoner-i-moderne-trafikk">Distraksjoner i moderne trafikk</a>
+      <ul>
+        <li><a href="#mobiltelefon-og-teknologi">Mobiltelefon og teknologi</a></li>
+        <li><a href="#andre-distraksjoner">Andre distraksjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#risikooppfatning-og-beslutninger">Risikooppfatning og beslutninger</a>
+      <ul>
+        <li><a href="#forbedring-av-risikooppfatning">Forbedring av risikooppfatning</a></li>
+      </ul>
+    </li>
+    <li><a href="#mennesket-og-kjãretãysteknologi">Mennesket og kjÃ¸retÃ¸ysteknologi</a>
+      <ul>
+        <li><a href="#balanse-mellom-teknologi-og-menneskelig-kontroll">Balanse mellom teknologi og menneskelig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#tilpasning-til-egne-forutsetninger">Tilpasning til egne forutsetninger</a>
+      <ul>
+        <li><a href="#daglig-vurdering">Daglig vurdering</a></li>
+        <li><a href="#tilpasning-av-kjãremãte">Tilpasning av kjÃ¸remÃ¥te</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-i-trafikken">Kommunikasjon i trafikken</a>
+      <ul>
+        <li><a href="#aggresjon-og-konflikter">Aggresjon og konflikter</a></li>
+      </ul>
+    </li>
+    <li><a href="#kontinuerlig-lãring-og-utvikling">Kontinuerlig lÃ¦ring og utvikling</a>
+      <ul>
+        <li><a href="#livslang-lãring-i-trafikken">Livslang lÃ¦ring i trafikken</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#menneskets-sanser-og-oppfatningsevne">Menneskets sanser og oppfatningsevne</a>
+      <ul>
+        <li><a href="#synets-begrensninger">Synets begrensninger</a></li>
+        <li><a href="#sentralsynet-skarpsynet-og-sidesynet">Sentralsynet, skarpsynet og sidesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#reaksjonstid-og-reaksjonsevne">Reaksjonstid og reaksjonsevne</a>
+      <ul>
+        <li><a href="#kompleks-vs-enkel-reaksjon">Kompleks vs. enkel reaksjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#rusmidler-og-medikamenter">Rusmidler og medikamenter</a>
+      <ul>
+        <li><a href="#alkohol">Alkohol</a></li>
+        <li><a href="#narkotika-og-andre-rusmidler">Narkotika og andre rusmidler</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-sãvnighet">Tretthet og sÃ¸vnighet</a>
+      <ul>
+        <li><a href="#faresignaler-for-tretthet">Faresignaler for tretthet</a></li>
+        <li><a href="#forebygging-av-tretthet">Forebygging av tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#stress-og-fãlelser">Stress og fÃ¸lelser</a>
+      <ul>
+        <li><a href="#positive-effekter-av-moderat-stress">Positive effekter av moderat stress</a></li>
+        <li><a href="#negative-effekter-av-hãyt-stress">Negative effekter av hÃ¸yt stress</a></li>
+      </ul>
+    </li>
+    <li><a href="#alder-og-erfaring">Alder og erfaring</a>
+      <ul>
+        <li><a href="#unge-fãrere-18-25-ãr">Unge fÃ¸rere (18-25 Ã¥r)</a></li>
+        <li><a href="#eldre-fãrere-65-ãr">Eldre fÃ¸rere (65+ Ã¥r)</a></li>
+      </ul>
+    </li>
+    <li><a href="#fysisk-og-mental-helse">Fysisk og mental helse</a>
+      <ul>
+        <li><a href="#sykdommer-som-pãvirker-kjãringen">Sykdommer som pÃ¥virker kjÃ¸ringen</a></li>
+        <li><a href="#mental-helse">Mental helse</a></li>
+      </ul>
+    </li>
+    <li><a href="#distraksjoner-i-moderne-trafikk">Distraksjoner i moderne trafikk</a>
+      <ul>
+        <li><a href="#mobiltelefon-og-teknologi">Mobiltelefon og teknologi</a></li>
+        <li><a href="#andre-distraksjoner">Andre distraksjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#risikooppfatning-og-beslutninger">Risikooppfatning og beslutninger</a>
+      <ul>
+        <li><a href="#forbedring-av-risikooppfatning">Forbedring av risikooppfatning</a></li>
+      </ul>
+    </li>
+    <li><a href="#mennesket-og-kjãretãysteknologi">Mennesket og kjÃ¸retÃ¸ysteknologi</a>
+      <ul>
+        <li><a href="#balanse-mellom-teknologi-og-menneskelig-kontroll">Balanse mellom teknologi og menneskelig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#tilpasning-til-egne-forutsetninger">Tilpasning til egne forutsetninger</a>
+      <ul>
+        <li><a href="#daglig-vurdering">Daglig vurdering</a></li>
+        <li><a href="#tilpasning-av-kjãremãte">Tilpasning av kjÃ¸remÃ¥te</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-i-trafikken">Kommunikasjon i trafikken</a>
+      <ul>
+        <li><a href="#aggresjon-og-konflikter">Aggresjon og konflikter</a></li>
+      </ul>
+    </li>
+    <li><a href="#kontinuerlig-lãring-og-utvikling">Kontinuerlig lÃ¦ring og utvikling</a>
+      <ul>
+        <li><a href="#livslang-lãring-i-trafikken">Livslang lÃ¦ring i trafikken</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#menneskets-sanser-og-oppfatningsevne">Menneskets sanser og oppfatningsevne</a>
+      <ul>
+        <li><a href="#synets-begrensninger">Synets begrensninger</a></li>
+        <li><a href="#sentralsynet-skarpsynet-og-sidesynet">Sentralsynet, skarpsynet og sidesynet</a></li>
+      </ul>
+    </li>
+    <li><a href="#reaksjonstid-og-reaksjonsevne">Reaksjonstid og reaksjonsevne</a>
+      <ul>
+        <li><a href="#kompleks-vs-enkel-reaksjon">Kompleks vs. enkel reaksjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#rusmidler-og-medikamenter">Rusmidler og medikamenter</a>
+      <ul>
+        <li><a href="#alkohol">Alkohol</a></li>
+        <li><a href="#narkotika-og-andre-rusmidler">Narkotika og andre rusmidler</a></li>
+      </ul>
+    </li>
+    <li><a href="#tretthet-og-sãvnighet">Tretthet og sÃ¸vnighet</a>
+      <ul>
+        <li><a href="#faresignaler-for-tretthet">Faresignaler for tretthet</a></li>
+        <li><a href="#forebygging-av-tretthet">Forebygging av tretthet</a></li>
+      </ul>
+    </li>
+    <li><a href="#stress-og-fãlelser">Stress og fÃ¸lelser</a>
+      <ul>
+        <li><a href="#positive-effekter-av-moderat-stress">Positive effekter av moderat stress</a></li>
+        <li><a href="#negative-effekter-av-hãyt-stress">Negative effekter av hÃ¸yt stress</a></li>
+      </ul>
+    </li>
+    <li><a href="#alder-og-erfaring">Alder og erfaring</a>
+      <ul>
+        <li><a href="#unge-fãrere-18-25-ãr">Unge fÃ¸rere (18-25 Ã¥r)</a></li>
+        <li><a href="#eldre-fãrere-65-ãr">Eldre fÃ¸rere (65+ Ã¥r)</a></li>
+      </ul>
+    </li>
+    <li><a href="#fysisk-og-mental-helse">Fysisk og mental helse</a>
+      <ul>
+        <li><a href="#sykdommer-som-pãvirker-kjãringen">Sykdommer som pÃ¥virker kjÃ¸ringen</a></li>
+        <li><a href="#mental-helse">Mental helse</a></li>
+      </ul>
+    </li>
+    <li><a href="#distraksjoner-i-moderne-trafikk">Distraksjoner i moderne trafikk</a>
+      <ul>
+        <li><a href="#mobiltelefon-og-teknologi">Mobiltelefon og teknologi</a></li>
+        <li><a href="#andre-distraksjoner">Andre distraksjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#risikooppfatning-og-beslutninger">Risikooppfatning og beslutninger</a>
+      <ul>
+        <li><a href="#forbedring-av-risikooppfatning">Forbedring av risikooppfatning</a></li>
+      </ul>
+    </li>
+    <li><a href="#mennesket-og-kjãretãysteknologi">Mennesket og kjÃ¸retÃ¸ysteknologi</a>
+      <ul>
+        <li><a href="#balanse-mellom-teknologi-og-menneskelig-kontroll">Balanse mellom teknologi og menneskelig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#tilpasning-til-egne-forutsetninger">Tilpasning til egne forutsetninger</a>
+      <ul>
+        <li><a href="#daglig-vurdering">Daglig vurdering</a></li>
+        <li><a href="#tilpasning-av-kjãremãte">Tilpasning av kjÃ¸remÃ¥te</a></li>
+      </ul>
+    </li>
+    <li><a href="#kommunikasjon-i-trafikken">Kommunikasjon i trafikken</a>
+      <ul>
+        <li><a href="#aggresjon-og-konflikter">Aggresjon og konflikter</a></li>
+      </ul>
+    </li>
+    <li><a href="#kontinuerlig-lãring-og-utvikling">Kontinuerlig lÃ¦ring og utvikling</a>
+      <ul>
+        <li><a href="#livslang-lãring-i-trafikken">Livslang lÃ¦ring i trafikken</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering">Oppsummering</a></li>
+  </ul>
+</nav>
+</div>
+}}
+Som **fÃ¸rer** er du den viktigste faktoren for trafikksikkerhet. Menneskets evner og begrensninger pÃ¥virker direkte hvordan vi opplever, tolker og reagerer pÃ¥ trafikksituasjoner. Ã… forstÃ¥ **mennesket i trafikken** er avgjÃ¸rende for Ã¥ bli en trygg og ansvarlig sjÃ¥fÃ¸r.
+<p><em>For en helhetlig forstÃ¥else av kjÃ¸reprosessen fra sanseinntrykk til handling, inkludert reaksjonstid, se <a href="/blogs/teori/trafikksituasjon-og-kjoreprosessen" title="Trafikksituasjon og kjÃ¸reprosessen - Sansing til handling, reaksjonstid m.m">Trafikksituasjon og kjÃ¸reprosessen</a>.</em></p>
+<p>For mer om <strong>oppmerksomhet</strong> og <strong>samhandling</strong> i trafikken, se <a href="/blogs/teori/oppmerksomhet-og-samhandling" title="Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken">Oppmerksomhet og samhandling</a>.</p>
+<p>For en introduksjon til <a href="/blogs/teori/trafikantgrupper-og-hensyn" title="Trafikantgrupper og hensyn - Oversikt over trafikantgrupper og viktige hensyn">trafikantgrupper og hensyn</a>, se guiden vÃ¥r om hvordan du som bilfÃ¸rer kan ivareta alle i trafikken.</p>
+<p>For mer om hvordan kognitive skjevheter og <strong>psykologiske feller</strong> kan pÃ¥virke fÃ¸rerens beslutninger, se <a href="/blogs/teori/psykologiske-feller-i-trafikken" title="Psykologiske feller i trafikken - UnngÃ¥ mentale feller bak rattet">Psykologiske feller i trafikken</a>.</p>
+<p>For en dypere forstÃ¥else av krav til fÃ¸rerens <strong>skikkethet</strong>, inkludert alkohol, stress, sykdom og sÃ¸vn, se <a href="/blogs/teori/skikkethet-til-a-kjore" title="Skikkethet til Ã¥ kjÃ¸re (alkohol, stress, sykdom, sÃ¸vn m.m) - Vegtrafikkloven Â§Â 21">Skikkethet til Ã¥ kjÃ¸re (alkohol, stress, sykdom, sÃ¸vn m.m) - Vegtrafikkloven Â§Â 21</a>.</p>
+<p>For praktisk risikovurdering i trafikken, se <a href="/blogs/teori/risikovurdering-i-praksis" title="Risikovurdering i praksis - Praktisk risikovurdering i trafikken">Risikovurdering i praksis</a>.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="menneskets-sanser-og-oppfatningsevne">Menneskets sanser og oppfatningsevne</h2>
+<p><strong>Syn</strong> er vÃ¥r viktigste sans i trafikken - over 90% av all informasjon vi mottar kommer gjennom Ã¸ynene. Synet har imidlertid begrensninger som pÃ¥virker kjÃ¸ringen:</p>
+<h3 id="synets-begrensninger">Synets begrensninger</h3>
+<ul>
+<li>
+<p><strong>Synsfeltet</strong> reduseres med Ã¸kende hastighet</p>
+</li>
+<li>
+<p><strong>MÃ¸rke</strong> reduserer synskarphet og dybdeoppfatning betydeligÂ â€“ for mer om trygg nattkjÃ¸ring, se <a href="/blogs/teori/kjoring-i-morket" title="KjÃ¸ring i mÃ¸rket - Tips og rÃ¥d for sikker nattkjÃ¸ring">KjÃ¸ring i mÃ¸rket</a>.</p>
+</li>
+<li>
+<p><strong>Blindsoner</strong> finnes naturlig i vÃ¥rt synsfelt</p>
+</li>
+<li>
+<p><strong>Tretthet</strong> pÃ¥virker fokusevnen og blinkfrekvensen</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h3 id="sentralsynet-skarpsynet-og-sidesynet">Sentralsynet, skarpsynet og sidesynet</h3>
+<p>For Ã¥ forstÃ¥ hvordan vi oppfatter detaljer og bevegelser i trafikken, er det viktig Ã¥ kjenne til <strong>sentralsynet</strong>, <strong>skarpsynet</strong> og <strong>sidesynet</strong>:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Synaspekt</th>
+          <th>OmrÃ¥de</th>
+          <th>Viktig for</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Sentralsynet</strong></td>
+          <td>Ca. 2Â° rundt blikkpunktet</td>
+          <td>Oversikt over omrÃ¥det i direkte fokus</td>
+      </tr>
+      <tr>
+          <td><strong>Skarpsynet</strong></td>
+          <td>Ca. 1Â° (fovea)</td>
+          <td>Gjenkjenning av detaljer som skilt</td>
+      </tr>
+      <tr>
+          <td><strong>Sidesynet</strong></td>
+          <td>Perifert syn utenom sentralsynet</td>
+          <td>Oppdage bevegelser og objekter utenfor fokus</td>
+      </tr>
+  </tbody>
+</table>
+<ul>
+<li><strong>Sentralsynet</strong> gir oversikt over omrÃ¥det du ser direkte pÃ¥.</li>
+<li><strong>Skarpsynet</strong> gir evne til Ã¥ lese og oppfatte detaljer, men dekker et svÃ¦rt begrenset omrÃ¥de.</li>
+<li><strong>Sidesynet</strong> (perifert syn) er viktig for Ã¥ oppdage bevegelse og objekter i utkanten av synsfeltet.</li>
+</ul>
+<p>For mer om hvordan synsfeltet pÃ¥virkes av hastighet og oppmerksomhet, se <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Stoppeavstand og reaksjonstid">Reaksjonstid og bremselengde</a>.</p>
+<p><strong>HÃ¸rsel</strong> gir viktig tilleggsinformasjon om:</p>
+<ul>
+<li>KjÃ¸retÃ¸y som nÃ¦rmer seg fra blindsoner</li>
+<li>NÃ¸dsignaler og varselslyd</li>
+<li>Motorlyd som indikerer kjÃ¸retÃ¸yets tilstand</li>
+</ul>
+<h2 id="reaksjonstid-og-reaksjonsevne">Reaksjonstid og reaksjonsevne</h2>
+<p><strong>Reaksjonstid</strong> er tiden fra du oppfatter en situasjon til du setter i gang en handling. Normal reaksjonstid er 0,5-1,5 sekunder, men kan pÃ¥virkes av mange faktorer (se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">Fart og avstand</a> for detaljerte beregninger av hvordan reaksjonstid pÃ¥virker stoppeavstand):</p>
+<table>
+  <thead>
+      <tr>
+          <th>Faktor</th>
+          <th>PÃ¥virkning pÃ¥ reaksjonstid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Alder</strong></td>
+          <td>Ã˜ker gradvis etter 40 Ã¥r</td>
+      </tr>
+      <tr>
+          <td><strong>Tretthet</strong></td>
+          <td>Kan doble eller tredoble tiden</td>
+      </tr>
+      <tr>
+          <td><strong>Alkohol</strong></td>
+          <td>Ã˜ker selv ved lave konsentrasjoner</td>
+      </tr>
+      <tr>
+          <td><strong>Medikamenter</strong></td>
+          <td>Varierer avhengig av type</td>
+      </tr>
+      <tr>
+          <td><strong>Sykdom</strong></td>
+          <td>Kan gi betydelig Ã¸kning</td>
+      </tr>
+      <tr>
+          <td><strong>Stress</strong></td>
+          <td>Kan bÃ¥de Ã¸ke og redusere</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="kompleks-vs-enkel-reaksjon">Kompleks vs. enkel reaksjon</h3>
+<ul>
+<li><strong>Enkel reaksjon</strong>: Kjent situasjon, Ã¸vet respons (0,5-1 sekund)</li>
+<li><strong>Kompleks reaksjon</strong>: Ukjent situasjon, mÃ¥ tenke og velge (1-3 sekunder)</li>
+</ul>
+<h2 id="rusmidler-og-medikamenter">Rusmidler og medikamenter</h2>
+<h3 id="alkohol">Alkohol</h3>
+<p><strong>Alkohol</strong> er den mest utbredte russubstansen i trafikken. Selv smÃ¥ mengder pÃ¥virker:</p>
+<ul>
+<li>
+<p><strong>Oppmerksomhet</strong> og konsentrasjon</p>
+</li>
+<li>
+<p><strong>Reaksjonstid</strong> og koordinasjon</p>
+</li>
+<li>
+<p><strong>Risikooppfatning</strong> og dÃ¸mmekraft</p>
+</li>
+<li>
+<p><strong>Synsevne</strong>, spesielt mÃ¸rkesynetÂ â€“ les mer om kjÃ¸ring i mÃ¸rket i vÃ¥r <a href="/blogs/teori/kjoring-i-morket" title="KjÃ¸ring i mÃ¸rket - Tips og rÃ¥d for sikker nattkjÃ¸ring">spesialguide til nattkjÃ¸ring</a>.</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Promille</th>
+          <th>PÃ¥virkning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>0,2â€°</strong></td>
+          <td>Redusert oppmerksomhet</td>
+      </tr>
+      <tr>
+          <td><strong>0,5â€°</strong></td>
+          <td>Lovens grense - merkbar pÃ¥virkning</td>
+      </tr>
+      <tr>
+          <td><strong>0,8â€°</strong></td>
+          <td>Betydelig redusert reaksjonsevne</td>
+      </tr>
+      <tr>
+          <td><strong>1,2â€°</strong></td>
+          <td>Alvorlig pÃ¥virkning av alle funksjoner</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="narkotika-og-andre-rusmidler">Narkotika og andre rusmidler</h3>
+<ul>
+<li>
+<p><strong>Cannabis</strong> pÃ¥virker tidsoppfatning og konsentrasjon</p>
+</li>
+<li>
+<p><strong>Amfetamin</strong> gir overselvsikkerhet og risikotaking</p>
+</li>
+<li>
+<p><strong>Medikamenter</strong> kan gi dÃ¸sighet eller svimmelhet</p>
+</li>
+<li>
+<p>For en detaljert guide til promillegrenser, grenseverdier for narkotika og konsekvenser ved kjÃ¸ring under pÃ¥virkning, se <a href="/blogs/teori/alkohol-promillegrense-og-narkotika" title="Alkohol, promillegrense og narkotika - regler og effekter">Alkohol, promillegrense og narkotika</a>.</p>
+</li>
+</ul>
+<h2 id="tretthet-og-sãvnighet">Tretthet og sÃ¸vnighet</h2>
+<p><strong>Tretthet</strong> er en av de stÃ¸rste Ã¥rsakene til alvorlige trafikkulykker. SÃ¸vnighet pÃ¥virker:</p>
+<ul>
+<li>
+<p><strong>Oppmerksomhet</strong> - micro-sleep kan oppstÃ¥</p>
+</li>
+<li>
+<p><strong>Reaksjonstid</strong> - kan dobles eller tredobles</p>
+</li>
+<li>
+<p><strong>DÃ¸mmekraft</strong> - overvurderer egen kapasitet</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h3 id="faresignaler-for-tretthet">Faresignaler for tretthet</h3>
+<ul>
+<li>Gjesping og tunge Ã¸yelokk</li>
+<li>Vanskeligheter med Ã¥ holde fokus</li>
+<li>Nicke med hodet</li>
+<li>KjÃ¸re over i andre felt</li>
+<li>Ikke huske siste del av kjÃ¸returen</li>
+</ul>
+<h3 id="forebygging-av-tretthet">Forebygging av tretthet</h3>
+<ul>
+<li><strong>Nok sÃ¸vn</strong> fÃ¸r lange kjÃ¸returer</li>
+<li><strong>Pause</strong> hver 2. time eller ved tegn pÃ¥ tretthet</li>
+<li><strong>Powernap</strong> pÃ¥ 15-20 minutter kan hjelpe midlertidig</li>
+<li><strong>Del kjÃ¸ringen</strong> med andre hvis mulig</li>
+</ul>
+<h2 id="stress-og-fãlelser">Stress og fÃ¸lelser</h2>
+<p><strong>Stress</strong> og sterke fÃ¸lelser pÃ¥virker kjÃ¸ringen pÃ¥ forskjellige mÃ¥ter:</p>
+<h3 id="positive-effekter-av-moderat-stress">Positive effekter av moderat stress</h3>
+<ul>
+<li>Ã˜kt oppmerksomhet og fokus</li>
+<li>Raskere reaksjoner i faresituasjoner</li>
+</ul>
+<h3 id="negative-effekter-av-hãyt-stress">Negative effekter av hÃ¸yt stress</h3>
+<ul>
+<li>
+<p><strong>Tunnelsyn</strong> - redusert perifert syn</p>
+</li>
+<li>
+<p><strong>Aggresjon</strong> og risikotaking</p>
+</li>
+<li>
+<p><strong>Redusert dÃ¸mmekraft</strong></p>
+</li>
+<li>
+<p><strong>Muskelspending</strong> som pÃ¥virker kontroll</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="alder-og-erfaring">Alder og erfaring</h2>
+<h3 id="unge-fãrere-18-25-ãr">Unge fÃ¸rere (18-25 Ã¥r)</h3>
+<p><strong>Fordeler:</strong></p>
+<ul>
+<li>Rask reaksjonstid</li>
+<li>God synsevne</li>
+<li>Fysisk kapasitet</li>
+</ul>
+<p><strong>Utfordringer:</strong></p>
+<ul>
+<li>Manglende erfaring</li>
+<li>Overvurderer egen dyktighet</li>
+<li>HÃ¸yere risikovillighet</li>
+<li>Lett pÃ¥virkelig av venner</li>
+</ul>
+<h3 id="eldre-fãrere-65-ãr">Eldre fÃ¸rere (65+ Ã¥r)</h3>
+<p><strong>Utfordringer:</strong></p>
+<ul>
+<li>Gradvis reduksjon i sanseevner</li>
+<li>Lengre reaksjonstid</li>
+<li>Redusert fleksibilitet</li>
+</ul>
+<p><strong>Fordeler:</strong></p>
+<ul>
+<li>
+<p>Lang erfaring</p>
+</li>
+<li>
+<p>Mer forsiktig kjÃ¸restil</p>
+</li>
+<li>
+<p>Bedre planlegging</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="fysisk-og-mental-helse">Fysisk og mental helse</h2>
+<h3 id="sykdommer-som-pãvirker-kjãringen">Sykdommer som pÃ¥virker kjÃ¸ringen</h3>
+<ul>
+<li><strong>Diabetes</strong> - risiko for lavt blodsukker</li>
+<li><strong>Epilepsi</strong> - risiko for anfall</li>
+<li><strong>Hjerte-kar-sykdom</strong> - plutselig svimmelhet</li>
+<li><strong>Synssykdommer</strong> - redusert synsevne</li>
+<li><strong>Bevegelseshemming</strong> - pÃ¥virker betjening</li>
+</ul>
+<h3 id="mental-helse">Mental helse</h3>
+<ul>
+<li><strong>Depresjon</strong> kan redusere konsentrasjon</li>
+<li><strong>Angst</strong> kan pÃ¥virke dÃ¸mmekraft</li>
+<li><strong>ADHD</strong> krever ofte spesiell oppmerksomhet</li>
+</ul>
+<h2 id="distraksjoner-i-moderne-trafikk">Distraksjoner i moderne trafikk</h2>
+<h3 id="mobiltelefon-og-teknologi">Mobiltelefon og teknologi</h3>
+<p><strong>Mobilbruk</strong> under kjÃ¸ring er sÃ¦rlig farlig fordi det pÃ¥virker:</p>
+<ul>
+<li>
+<p><strong>Visuell oppmerksomhet</strong> - blikket rettes bort fra veien</p>
+</li>
+<li>
+<p><strong>Kognitiv oppmerksomhet</strong> - tankene fokuserer pÃ¥ samtalen</p>
+</li>
+<li>
+<p><strong>Motorisk kontroll</strong> - hender opptatt med telefon</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h3 id="andre-distraksjoner">Andre distraksjoner</h3>
+<ul>
+<li><strong>Passasjerer</strong> - spesielt for unge fÃ¸rere</li>
+<li><strong>Radio/musikk</strong> pÃ¥ hÃ¸yt volum</li>
+<li><strong>Spising og drikking</strong> under kjÃ¸ring</li>
+<li><strong>Navigasjonssystemer</strong> - programmering under kjÃ¸ring</li>
+</ul>
+<h2 id="risikooppfatning-og-beslutninger">Risikooppfatning og beslutninger</h2>
+<p><strong>Risikooppfatning</strong> varierer mellom mennesker og pÃ¥virkes av:</p>
+<ul>
+<li><strong>Erfaring</strong> - kjente situasjoner vurderes som mindre risikofylte</li>
+<li><strong>Overselvsikkerhet</strong> - &ldquo;det skjer ikke meg&rdquo;-mentalitet</li>
+<li><strong>GruppepÃ¥virkning</strong> - andre passasjerers holdninger</li>
+<li><strong>Tidspresse</strong> - Ã¸ker villighet til Ã¥ ta risiko</li>
+</ul>
+<p>Disse faktorene er eksempler pÃ¥ <a href="/blogs/teori/psykologiske-feller-i-trafikken" title="Psykologiske feller i trafikken - Mentale snarveier som kan lede til farlige situasjoner">psykologiske feller i trafikken</a> som kan pÃ¥virke din dÃ¸mmekraft og beslutningstaking bak rattet.</p>
+<h3 id="forbedring-av-risikooppfatning">Forbedring av risikooppfatning</h3>
+<ul>
+<li>
+<p><strong>BevisstgjÃ¸ring</strong> av egne begrensninger</p>
+</li>
+<li>
+<p><strong>Kontinuerlig lÃ¦ring</strong> og oppdatering</p>
+</li>
+<li>
+<p><strong>Planlegging</strong> for Ã¥ unngÃ¥ tidspresse</p>
+</li>
+<li>
+<p><strong>Selvrefleksjon</strong> etter kjÃ¸returer</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="mennesket-og-kjãretãysteknologi">Mennesket og kjÃ¸retÃ¸ysteknologi</h2>
+<p>Moderne kjÃ¸retÃ¸y har mange <strong>sikkerhetssystemer</strong> som stÃ¸tter fÃ¸reren:</p>
+<ul>
+<li><strong>ABS-bremser</strong> - forhindrer hjullÃ¥sing</li>
+<li><strong>ESP/ESC</strong> - stabilitetskontroll</li>
+<li><strong>Kollisjonsvarsling</strong> - varsler om fare</li>
+<li><strong>Adaptiv cruisekontroll</strong> - justerer fart automatisk</li>
+<li><strong>Blindsonevarsling</strong> - oppdager kjÃ¸retÃ¸y i blindsoner</li>
+</ul>
+<h3 id="balanse-mellom-teknologi-og-menneskelig-kontroll">Balanse mellom teknologi og menneskelig kontroll</h3>
+<ul>
+<li>Teknologi skal <strong>stÃ¸tte</strong>, ikke erstatte oppmerksomhet</li>
+<li><strong>Overavhengighet</strong> av systemer kan redusere Ã¥rvÃ¥kenhet</li>
+<li>FÃ¸reren har alltid <strong>hovedansvaret</strong> for sikker kjÃ¸ring</li>
+</ul>
+<h2 id="tilpasning-til-egne-forutsetninger">Tilpasning til egne forutsetninger</h2>
+<p>Som fÃ¸rer mÃ¥ du kontinuerlig vurdere din egen <strong>kjÃ¸redyktighet</strong>:</p>
+<h3 id="daglig-vurdering">Daglig vurdering</h3>
+<ul>
+<li>Hvordan fÃ¸ler du deg i dag?</li>
+<li>Er du pÃ¥virket av medikamenter?</li>
+<li>Er du for trÃ¸tt til Ã¥ kjÃ¸re?</li>
+<li>Er du fÃ¸lelsesmessig pÃ¥virket?</li>
+</ul>
+<h3 id="tilpasning-av-kjãremãte">Tilpasning av kjÃ¸remÃ¥te</h3>
+<ul>
+<li>
+<p><strong>Reduser hastigheten</strong> ved redusert kapasitet</p>
+</li>
+<li>
+<p><strong>Ã˜k sikkerhetsavstanden</strong> nÃ¥r reaksjonstiden er pÃ¥virket</p>
+</li>
+<li>
+<p><strong>UnngÃ¥ komplekse situasjoner</strong> nÃ¥r du er pÃ¥virket</p>
+</li>
+<li>
+<p><strong>Ta pauser</strong> oftere ved lange kjÃ¸returer</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="kommunikasjon-i-trafikken">Kommunikasjon i trafikken</h2>
+<p>For mer om trafikkkommunikasjon og tydelige signaler, se <a href="/blogs/teori/kommunikasjon-med-andre-trafikanter" title="Kommunikasjon med andre trafikanter - Tydelige signaler og trygg trafikk">Kommunikasjon med andre trafikanter</a>.</p>
+<p><strong>Trafikken er et sosialt system</strong> hvor kommunikasjon skjer gjennom:</p>
+<ul>
+<li><strong>Blinking</strong> og andre signaler</li>
+<li><strong>Ã˜yekontakt</strong> med andre trafikanter</li>
+<li><strong>KjÃ¸remÃ¸nster</strong> som signaliserer intensjoner</li>
+<li><strong>TÃ¥lmodighet</strong> og hensynsfullhet</li>
+</ul>
+<h3 id="aggresjon-og-konflikter">Aggresjon og konflikter</h3>
+<ul>
+<li><strong>Veisinne</strong> kan eskalere farlige situasjoner</li>
+<li><strong>Anonymitet</strong> i bil kan redusere empati</li>
+<li><strong>Stress</strong> og tidspresse Ã¸ker aggressivitet</li>
+</ul>
+<h2 id="kontinuerlig-lãring-og-utvikling">Kontinuerlig lÃ¦ring og utvikling</h2>
+<p>Som trafikant mÃ¥ du hele tiden <strong>utvikle deg</strong>:</p>
+<ul>
+<li><strong>Oppdater kunnskaper</strong> om nye regler og teknologi</li>
+<li><strong>Ã˜v pÃ¥ vanskelige situasjoner</strong> i trygge omgivelser</li>
+<li><strong>Reflekter over egne erfaringer</strong> og lÃ¦r av feil</li>
+<li><strong>Ta ytterligere opplÃ¦ring</strong> ved behov</li>
+</ul>
+<h3 id="livslang-lãring-i-trafikken">Livslang lÃ¦ring i trafikken</h3>
+<p>Trafikken endrer seg kontinuerlig med:</p>
+<ul>
+<li>
+<p>Ny teknologi i kjÃ¸retÃ¸y</p>
+</li>
+<li>
+<p>Endrede trafikklÃ¸sninger</p>
+</li>
+<li>
+<p>Nye forskningsresultater om sikkerhet</p>
+</li>
+<li>
+<p>Endrede trafikkmÃ¸nstre</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="oppsummering">Oppsummering</h2>
+<p><strong>Mennesket i trafikken</strong> er et komplekst tema som viser hvor viktig det er Ã¥ forstÃ¥ vÃ¥re egne begrensninger og muligheter som fÃ¸rere. De viktigste punktene Ã¥ huske:</p>
+<ul>
+<li><strong>Kjenn dine begrensninger</strong> - syn, hÃ¸rsel, reaksjonstid. Les mer om <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Fundamentale konsepter for sikker kjÃ¸ring">reaksjonstid og bremselengde</a> for Ã¥ forstÃ¥ hvordan disse faktorene pÃ¥virker stoppeavstand.</li>
+<li><strong>VÃ¦r Ã¦rlig om pÃ¥virkning</strong> - alkohol, medikamenter, tretthet</li>
+<li><strong>Tilpass kjÃ¸ringen</strong> til din dagsform og forutsetninger</li>
+<li><strong>Hold deg oppdatert</strong> pÃ¥ ny kunnskap og teknologi</li>
+<li><strong>Kommuniser tydelig</strong> med andre trafikanter</li>
+<li><strong>Ta ansvar</strong> for egen og andres sikkerhet</li>
+</ul>
+<p>Ã… forstÃ¥ <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - En komplett guide til reaksjonstid og bremseavstand">fart og avstand</a> blir viktigere nÃ¥r du forstÃ¥r hvordan menneskets begrensninger pÃ¥virker reaksjonstiden. PÃ¥ samme mÃ¥te blir <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Trygg posisjonering pÃ¥ veien">riktig plassering og kjÃ¸remÃ¥te</a> avgjÃ¸rende nÃ¥r du mÃ¥ kompensere for redusert kapasitet.</p>
+<p><em>For detaljert beregning av <strong>reaksjonstid</strong> og <strong>bremselengde</strong>, se <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde">Reaksjonstid og bremselengde</a>.</em></p>
+<p>En grundig gjennomgang av de ulike trafikantgruppene og hvilke hensyn som mÃ¥ tas, finner du i <a href="/blogs/teori/trafikantgrupper-og-hensyn" title="Trafikantgrupper og hensyn - Oversikt over trafikantgrupper og viktige hensyn i trafikken">Trafikantgrupper og hensyn</a>.</p>
+<p><strong>Husk</strong>: Du er ikke bare ansvarlig for Ã¥ kjÃ¸re bil - du er ansvarlig for Ã¥ vÃ¦re en trygg og forutsigbar trafikant som tar hensyn til andre mennesker pÃ¥ veien.\n  </div>\n</div></p>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Mennesket i trafikken - Faktorer som påvirker kjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Mennesket i trafikken - Faktorer som påvirker kjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Mennesket i trafikken - Faktorer som påvirker kjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

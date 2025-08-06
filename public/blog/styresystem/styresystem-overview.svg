@@ -1,0 +1,13 @@
+<svg width="800" height="230" viewBox="0 0 800 230" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="230" fill="#f8f9fa"/>
+  <text x="400" y="30" text-anchor="middle" fill="#1a1a1a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    Oversikt over styresystemets hovedtemaer
+  </text>
+  <text x="50" y="60" fill="#333" font-family="Arial, sans-serif" font-size="14">• Servostyring</text>
+  <text x="50" y="85" fill="#333" font-family="Arial, sans-serif" font-size="14">• Retningsstabilitet og selvopprettende egenskaper</text>
+  <text x="50" y="110" fill="#333" font-family="Arial, sans-serif" font-size="14">• Dødgang i styringen</text>
+  <text x="50" y="135" fill="#333" font-family="Arial, sans-serif" font-size="14">• Forstilling (toe, camber, caster)</text>
+  <text x="50" y="160" fill="#333" font-family="Arial, sans-serif" font-size="14">• Dekktrykk og styrerespons</text>
+  <text x="50" y="185" fill="#333" font-family="Arial, sans-serif" font-size="14">• ESP og elektroniske systemer</text>
+  <text x="50" y="210" fill="#333" font-family="Arial, sans-serif" font-size="14">• Vedlikehold og kontroll</text>
+</svg>

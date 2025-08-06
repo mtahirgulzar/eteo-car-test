@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300">
+  <style>text { font-family: Arial, sans-serif; font-size: 12px; }</style>
+  <line x1="40" y1="20" x2="40" y2="250" stroke="black"/>
+  <line x1="40" y1="250" x2="460" y2="250" stroke="black"/>
+  <!-- Bars represent annual traffic fatalities -->
+  <rect x="60" y="50" width="50" height="200" fill="#4a90e2"/>
+  <rect x="140" y="59" width="50" height="191" fill="#4a90e2"/>
+  <rect x="220" y="81" width="50" height="169" fill="#4a90e2"/>
+  <rect x="300" y="70" width="50" height="180" fill="#4a90e2"/>
+  <rect x="380" y="65" width="50" height="185" fill="#4a90e2"/>
+  <text x="250" y="15" text-anchor="middle">Årlige trafikkdrepte i Norge (2018–2022)</text>
+  <text x="10" y="20">Drepte</text>
+  <text x="85" y="265" text-anchor="middle">2018</text>
+  <text x="165" y="265" text-anchor="middle">2019</text>
+  <text x="245" y="265" text-anchor="middle">2020</text>
+  <text x="325" y="265" text-anchor="middle">2021</text>
+  <text x="405" y="265" text-anchor="middle">2022</text>
+</svg>

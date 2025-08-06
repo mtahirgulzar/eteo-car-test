@@ -1,0 +1,6 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" fill="#f0f0f0"/>
+  <text x="20" y="50" font-family="Arial, sans-serif" font-size="36" fill="#333">✔ Førerkort</text>
+  <text x="20" y="100" font-family="Arial, sans-serif" font-size="36" fill="#333">✔ Vognkort</text>
+  <text x="20" y="150" font-family="Arial, sans-serif" font-size="36" fill="#333">✔ Forsikring</text>
+</svg>

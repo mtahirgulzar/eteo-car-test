@@ -1,0 +1,179 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">
+    Tungtransport - Respekt for størrelse og fysikk
+  </text>
+  
+  <!-- Road -->
+  <rect x="50" y="400" width="700" height="120" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  <rect x="50" y="455" width="700" height="5" fill="#fbbf24"/>
+  
+  <!-- Large truck -->
+  <rect x="200" y="380" width="200" height="60" rx="8" fill="#dc2626" stroke="#b91c1c" stroke-width="3"/>
+  <circle cx="230" cy="450" r="12" fill="#374151"/>
+  <circle cx="270" cy="450" r="12" fill="#374151"/>
+  <circle cx="340" cy="450" r="12" fill="#374151"/>
+  <circle cx="380" cy="450" r="12" fill="#374151"/>
+  
+  <!-- Truck cabin -->
+  <rect x="180" y="385" width="40" height="50" rx="5" fill="#dc2626" stroke="#b91c1c" stroke-width="2"/>
+  <rect x="185" y="395" width="30" height="25" rx="3" fill="#e5e7eb"/>
+  
+  <!-- Small car keeping distance -->
+  <rect x="500" y="420" width="60" height="30" rx="5" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
+  <circle cx="515" cy="460" r="6" fill="#374151"/>
+  <circle cx="545" cy="460" r="6" fill="#374151"/>
+  <rect x="508" y="425" width="44" height="18" rx="2" fill="#bfdbfe"/>
+  
+  <!-- Distance indicator -->
+  <line x1="410" y1="400" x2="490" y2="400" stroke="#ef4444" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="450" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ef4444">
+    3-4 sekunder avstand
+  </text>
+  
+  <!-- Blind spot areas -->
+  <polygon points="180,380 150,350 150,450 180,420" fill="#fecaca" fill-opacity="0.7" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="400,380 430,350 430,450 400,420" fill="#fecaca" fill-opacity="0.7" stroke="#ef4444" stroke-width="2"/>
+  <text x="130" y="375" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ef4444">
+    BLINDSONE
+  </text>
+  <text x="435" y="375" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ef4444">
+    BLINDSONE
+  </text>
+  
+  <!-- Key characteristics -->
+  <rect x="50" y="80" width="170" height="130" rx="8" fill="#fecaca" stroke="#f87171" stroke-width="2"/>
+  <text x="135" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7f1d1d">
+    BREMSELENGDE
+  </text>
+  <text x="135" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+    40-60 meter
+  </text>
+  <text x="135" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+    fra 80 km/t
+  </text>
+  <text x="135" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    Mye lengre enn personbil
+  </text>
+  <text x="135" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    (15-20 meter)
+  </text>
+  <text x="135" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7f1d1d">
+    HOLD AVSTAND!
+  </text>
+  
+  <rect x="240" y="80" width="170" height="130" rx="8" fill="#fed7aa" stroke="#fdba74" stroke-width="2"/>
+  <text x="325" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9a3412">
+    BLINDSONER
+  </text>
+  <text x="325" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9a3412">
+    Store områder rundt
+  </text>
+  <text x="325" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9a3412">
+    kjøretøyet som
+  </text>
+  <text x="325" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9a3412">
+    sjåføren ikke kan se
+  </text>
+  <text x="325" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9a3412">
+    Spesielt farlig ved
+  </text>
+  <text x="325" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9a3412">
+    høyresving
+  </text>
+  
+  <rect x="430" y="80" width="170" height="130" rx="8" fill="#dcfce7" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="515" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#15803d">
+    SVINGRADIUS
+  </text>
+  <text x="515" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#15803d">
+    Trenger mye plass
+  </text>
+  <text x="515" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#15803d">
+    for å svinge
+  </text>
+  <text x="515" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#15803d">
+    Kan svinge utover
+  </text>
+  <text x="515" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#15803d">
+    andre kjørefelt
+  </text>
+  <text x="515" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">
+    GI SVINGROM!
+  </text>
+  
+  <rect x="620" y="80" width="170" height="130" rx="8" fill="#ddd6fe" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="705" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5b21b6">
+    AKSELERASJON
+  </text>
+  <text x="705" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5b21b6">
+    Langsom oppkjøring
+  </text>
+  <text x="705" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5b21b6">
+    og tregere i bakker
+  </text>
+  <text x="705" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5b21b6">
+    Vanskelig å stoppe
+  </text>
+  <text x="705" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5b21b6">
+    og starte igjen
+  </text>
+  <text x="705" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5b21b6">
+    VIS TÅLMODIGHET!
+  </text>
+  
+  <!-- Behavior guidelines -->
+  <rect x="100" y="240" width="600" height="120" rx="10" fill="white" stroke="#64748b" stroke-width="2"/>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e293b">
+    Sikker samhandling med tungtransport
+  </text>
+  
+  <!-- Guidelines grid -->
+  <text x="150" y="290" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">
+    Følge bak:
+  </text>
+  <text x="150" y="305" font-family="Arial, sans-serif" font-size="10" fill="#475569">
+    • Hold minimum 3-4 sekunders avstand
+  </text>
+  <text x="150" y="318" font-family="Arial, sans-serif" font-size="10" fill="#475569">
+    • Gi deg selv tid til å reagere
+  </text>
+  
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10b981">
+    Forbikjøring:
+  </text>
+  <text x="400" y="305" font-family="Arial, sans-serif" font-size="10" fill="#475569">
+    • Rask, bestemt forbikjøring
+  </text>
+  <text x="400" y="318" font-family="Arial, sans-serif" font-size="10" fill="#475569">
+    • Unngå lang tid i blindsone
+  </text>
+  
+  <text x="150" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ef4444">
+    Høyresving:
+  </text>
+  <text x="150" y="355" font-family="Arial, sans-serif" font-size="10" fill="#475569">
+    • Hold deg unna høyre side
+  </text>
+  
+  <text x="400" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8b5cf6">
+    Kø-situasjoner:
+  </text>
+  <text x="400" y="355" font-family="Arial, sans-serif" font-size="10" fill="#475569">
+    • Gi plass til sammenfletning
+  </text>
+  
+  <!-- Legal reference -->
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">
+    Tungtransport har viktige samfunnsfunksjoner - vis respekt og hensyn
+  </text>
+</svg>

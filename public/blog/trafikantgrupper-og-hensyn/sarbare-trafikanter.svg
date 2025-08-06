@@ -1,0 +1,150 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef2f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fee2e2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#b91c1c">
+    Sårbare trafikanter - Oversikt
+  </text>
+  
+  <!-- Central protection shield -->
+  <polygon points="400,100 420,120 420,180 400,200 380,180 380,120" fill="#ef4444" stroke="#dc2626" stroke-width="3"/>
+  <text x="400" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    BESKYTTELSE
+  </text>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    PÅKREVD
+  </text>
+  
+  <!-- Primary vulnerable groups (around the shield) -->
+  
+  <!-- Pedestrians -->
+  <circle cx="280" cy="140" r="40" fill="#fbbf24" stroke="#f59e0b" stroke-width="3"/>
+  <circle cx="280" cy="130" r="8" fill="white"/>
+  <rect x="276" y="138" width="8" height="15" rx="4" fill="white"/>
+  <line x1="270" y1="145" x2="290" y2="145" stroke="white" stroke-width="2"/>
+  <line x1="278" y1="153" x2="275" y2="168" stroke="white" stroke-width="2"/>
+  <line x1="282" y1="153" x2="285" y2="168" stroke="white" stroke-width="2"/>
+  <text x="280" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">
+    FOTGJENGERE
+  </text>
+  
+  <!-- Cyclists -->
+  <circle cx="520" cy="140" r="40" fill="#10b981" stroke="#059669" stroke-width="3"/>
+  <circle cx="510" cy="140" r="6" fill="white"/>
+  <circle cx="530" cy="140" r="6" fill="white"/>
+  <rect x="505" y="134" width="30" height="2" fill="white"/>
+  <rect x="518" y="128" width="4" height="6" fill="white"/>
+  <circle cx="520" cy="125" r="4" fill="white"/>
+  <text x="520" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#065f46">
+    SYKLISTER
+  </text>
+  
+  <!-- Children -->
+  <circle cx="320" cy="250" r="40" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+  <circle cx="320" cy="240" r="6" fill="white"/>
+  <rect x="317" y="246" width="6" height="12" rx="3" fill="white"/>
+  <line x1="314" y1="250" x2="326" y2="250" stroke="white" stroke-width="2"/>
+  <line x1="319" y1="258" x2="317" y2="268" stroke="white" stroke-width="2"/>
+  <line x1="321" y1="258" x2="323" y2="268" stroke="white" stroke-width="2"/>
+  <text x="320" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">
+    BARN
+  </text>
+  
+  <!-- Elderly -->
+  <circle cx="480" cy="250" r="40" fill="#8b5cf6" stroke="#7c3aed" stroke-width="3"/>
+  <circle cx="480" cy="240" r="8" fill="white"/>
+  <rect x="476" y="248" width="8" height="15" rx="4" fill="white"/>
+  <line x1="470" y1="255" x2="490" y2="255" stroke="white" stroke-width="2"/>
+  <line x1="478" y1="263" x2="475" y2="278" stroke="white" stroke-width="2"/>
+  <line x1="482" y1="263" x2="485" y2="278" stroke="white" stroke-width="2"/>
+  <!-- Walking stick -->
+  <line x1="468" y1="275" x2="472" y2="245" stroke="white" stroke-width="2"/>
+  <text x="480" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5b21b6">
+    ELDRE
+  </text>
+  
+  <!-- Mopeds -->
+  <circle cx="400" cy="320" r="40" fill="#ef4444" stroke="#dc2626" stroke-width="3"/>
+  <circle cx="390" cy="325" r="5" fill="white"/>
+  <circle cx="410" cy="325" r="5" fill="white"/>
+  <rect x="388" y="320" width="24" height="2" fill="white"/>
+  <rect x="398" y="315" width="4" height="5" fill="white"/>
+  <circle cx="400" cy="312" r="3" fill="white"/>
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7f1d1d">
+    MOPEDISTER
+  </text>
+  
+  <!-- Connection lines to center -->
+  <line x1="320" y1="140" x2="380" y2="140" stroke="#64748b" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="480" y1="140" x2="420" y2="140" stroke="#64748b" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="340" y1="220" x2="385" y2="180" stroke="#64748b" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="460" y1="220" x2="415" y2="180" stroke="#64748b" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="400" y1="280" x2="400" y2="200" stroke="#64748b" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <!-- Definition box -->
+  <rect x="100" y="400" width="600" height="120" rx="10" fill="white" stroke="#ef4444" stroke-width="2"/>
+  <text x="400" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#b91c1c">
+    Definisjon: Sårbare trafikanter
+  </text>
+  
+  <text x="150" y="450" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">
+    Grupper som er spesielt utsatt for alvorlige skader ved trafikkulykker:
+  </text>
+  
+  <text x="150" y="470" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+    ✗ Mangler fysisk beskyttelse (crumple zones, airbags, sikkerhetsbelter)
+  </text>
+  <text x="150" y="485" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+    ✗ Har begrenset mulighet til å unngå kollisjon (lav hastighet, manøvreringsevne)  
+  </text>
+  <text x="150" y="500" font-family="Arial, sans-serif" font-size="11" fill="#7f1d1d">
+    ✗ Er spesielt utsatt for alvorlige skader (lav masse, eksponert kropp)
+  </text>
+  
+  <!-- Statistics box -->
+  <rect x="50" y="80" width="160" height="100" rx="8" fill="#fecaca" stroke="#f87171" stroke-width="2"/>
+  <text x="130" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7f1d1d">
+    STATISTIKK
+  </text>
+  <text x="130" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    ~60% av alle
+  </text>
+  <text x="130" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    trafikkulykker
+  </text>
+  <text x="130" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    involverer sårbare
+  </text>
+  <text x="130" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f1d1d">
+    trafikanter
+  </text>
+  
+  <rect x="590" y="80" width="160" height="100" rx="8" fill="#ddd6fe" stroke="#a78bfa" stroke-width="2"/>
+  <text x="670" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5b21b6">
+    NULLVISJON
+  </text>
+  <text x="670" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5b21b6">
+    Ingen skal dø eller
+  </text>
+  <text x="670" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5b21b6">
+    bli alvorlig skadet
+  </text>
+  <text x="670" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5b21b6">
+    i trafikken
+  </text>
+  <text x="670" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5b21b6">
+    Spesiell fokus på sårbare
+  </text>
+  
+  <!-- Legal reference -->
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#b91c1c">
+    Som bilfører har du SÆRSKILT ANSVAR for å beskytte sårbare trafikanter
+  </text>
+</svg>

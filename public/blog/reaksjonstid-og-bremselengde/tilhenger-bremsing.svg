@@ -1,0 +1,26 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="300" fill="#f8f9fa"/>
+  <text x="400" y="30" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">Bremsing med tilhenger</text>
+  <!-- Road -->
+  <rect x="50" y="180" width="700" height="60" fill="#4a4a4a"/>
+  <rect x="50" y="205" width="700" height="10" fill="#ffeb3b" opacity="0.8"/>
+  <!-- Car -->
+  <rect x="200" y="200" width="40" height="20" fill="#1976d2" rx="3"/>
+  <circle cx="210" cy="225" r="5" fill="#333"/>
+  <circle cx="230" cy="225" r="5" fill="#333"/>
+  <!-- Trailer -->
+  <rect x="250" y="210" width="60" height="30" fill="#666" rx="3"/>
+  <circle cx="270" cy="245" r="5" fill="#333"/>
+  <circle cx="290" cy="245" r="5" fill="#333"/>
+  <circle cx="310" cy="245" r="5" fill="#333"/>
+  <!-- Weight and skid arrows -->
+  <defs>
+    <marker id="arrowhead-w" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#1976d2"/>
+    </marker>
+  </defs>
+  <line x1="280" y1="260" x2="280" y2="290" stroke="#1976d2" stroke-width="4" marker-end="url(#arrowhead-w)"/>
+  <text x="280" y="285" fill="#1976d2" font-size="12" text-anchor="middle">Økt vekt</text>
+  <path d="M260,250 C270,240 290,260 300,250" stroke="#d32f2f" stroke-width="3" fill="none" marker-end="url(#arrowhead-w)"/>
+  <text x="290" y="235" fill="#d32f2f" font-size="12" text-anchor="middle">Sladdefare</text>
+</svg>

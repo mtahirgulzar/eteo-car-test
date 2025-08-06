@@ -1,0 +1,77 @@
+<svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">3-sekunders regelen</text>
+  
+  <!-- Road -->
+  <rect x="50" y="200" width="600" height="100" fill="#4a4a4a"/>
+  <rect x="50" y="245" width="600" height="10" fill="#ffdd00" opacity="0.8"/>
+  
+  <!-- Reference point (tree) -->
+  <g transform="translate(200, 150)">
+    <rect x="0" y="40" width="8" height="50" fill="#8b4513"/>
+    <circle cx="4" cy="40" r="20" fill="#27ae60"/>
+    <text x="4" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Fast punkt</text>
+  </g>
+  
+  <!-- Leading car -->
+  <g transform="translate(180, 210)">
+    <rect x="0" y="0" width="40" height="20" rx="3" fill="#95a5a6"/>
+    <circle cx="8" cy="25" r="5" fill="#2c3e50"/>
+    <circle cx="32" cy="25" r="5" fill="#2c3e50"/>
+    <text x="20" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#95a5a6">Bil foran</text>
+  </g>
+  
+  <!-- Following car -->
+  <g transform="translate(50, 210)">
+    <rect x="0" y="0" width="40" height="20" rx="3" fill="#3498db"/>
+    <circle cx="8" cy="25" r="5" fill="#2c3e50"/>
+    <circle cx="32" cy="25" r="5" fill="#2c3e50"/>
+    <text x="20" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3498db">Din bil</text>
+  </g>
+  
+  <!-- Distance arrow -->
+  <line x1="100" y1="180" x2="200" y2="180" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="150" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">3 sekunders avstand</text>
+  
+  <!-- Step-by-step instructions -->
+  <rect x="350" y="80" width="320" height="200" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="360" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Slik gjør du det:</text>
+  
+  <text x="360" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db">1. Velg et fast punkt</text>
+  <text x="370" y="145" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Tre, lyktestolpe, skilt</text>
+  <text x="370" y="160" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Som bilen foran passerer</text>
+  
+  <text x="360" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">2. Tell sekunder</text>
+  <text x="370" y="195" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• "En tusen, to tusen, tre tusen"</text>
+  <text x="370" y="210" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Eller "21, 22, 23"</text>
+  
+  <text x="360" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">3. Vurder avstanden</text>
+  <text x="370" y="245" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Passerer du punktet før tellingen</text>
+  <text x="370" y="260" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">  er ferdig? → For kort avstand!</text>
+  
+  <!-- Timer visualization -->
+  <g transform="translate(400, 320)">
+    <circle cx="0" cy="0" r="30" fill="white" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#e74c3c" stroke-width="3"/>
+    <line x1="0" y1="0" x2="15" y2="-15" stroke="#2c3e50" stroke-width="2"/>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">3 sekunder</text>
+  </g>
+  
+  <!-- Different conditions box -->
+  <rect x="50" y="320" width="280" height="70" fill="#fff3cd" stroke="#ffc107" stroke-width="1" rx="5"/>
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#856404">Tilpass til forholdene:</text>
+  <text x="60" y="355" font-family="Arial, sans-serif" font-size="12" fill="#856404">• Regn/snø: 4-5 sekunder</text>
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="12" fill="#856404">• Is/glatt: 6-8 sekunder</text>
+  <text x="60" y="385" font-family="Arial, sans-serif" font-size="12" fill="#856404">• Tåke: Tilpass til sikt</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+</svg>

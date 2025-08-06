@@ -1,0 +1,110 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Vanlige Misforståelser og Myter om Defensiv Kjøring</text>
+  
+  <!-- Myth 1: Slow drivers -->
+  <rect x="50" y="60" width="700" height="150" fill="white" stroke="#e74c3c" stroke-width="2" rx="10"/>
+  
+  <!-- Myth side -->
+  <rect x="70" y="80" width="300" height="110" fill="#e74c3c" opacity="0.1" rx="8"/>
+  <text x="220" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">MYTE 1</text>
+  <text x="220" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">"Defensive sjåfører er trege sjåfører"</text>
+  
+  <!-- Slow car illustration -->
+  <rect x="180" y="135" width="80" height="30" fill="#95a5a6" rx="5"/>
+  <text x="220" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">LANGSOM</text>
+  <line x1="270" y1="150" x2="290" y2="150" stroke="#95a5a6" stroke-width="2"/>
+  
+  <!-- Reality side -->
+  <rect x="390" y="80" width="300" height="110" fill="#27ae60" opacity="0.1" rx="8"/>
+  <text x="540" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">REALITET</text>
+  <text x="540" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Handler om timing og flyt, ikke lav fart</text>
+  
+  <!-- Efficient cars -->
+  <rect x="480" y="135" width="60" height="25" fill="#27ae60" rx="5"/>
+  <rect x="550" y="135" width="60" height="25" fill="#27ae60" rx="5"/>
+  <line x1="540" y1="147" x2="560" y2="147" stroke="#27ae60" stroke-width="3" marker-end="url(#greenarrow)"/>
+  <line x1="610" y1="147" x2="630" y2="147" stroke="#27ae60" stroke-width="3" marker-end="url(#greenarrow)"/>
+  
+  <text x="540" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Jevn flyt = høyere gjennomsnittsfart</text>
+  
+  <!-- Myth 2: Modern cars are safe -->
+  <rect x="50" y="230" width="700" height="150" fill="white" stroke="#e74c3c" stroke-width="2" rx="10"/>
+  
+  <!-- Myth side -->
+  <rect x="70" y="250" width="300" height="110" fill="#e74c3c" opacity="0.1" rx="8"/>
+  <text x="220" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">MYTE 2</text>
+  <text x="220" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">"Moderne biler er så sikre at</text>
+  <text x="220" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">defensiv kjøring er mindre viktig"</text>
+  
+  <!-- Modern car with airbag -->
+  <rect x="180" y="320" width="80" height="30" fill="#3498db" rx="5"/>
+  <circle cx="200" cy="335" r="8" fill="#f1c40f"/>
+  <text x="200" y="339" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">AIR</text>
+  <circle cx="240" cy="335" r="8" fill="#f1c40f"/>
+  <text x="240" y="339" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">BAG</text>
+  
+  <!-- Reality side -->
+  <rect x="390" y="250" width="300" height="110" fill="#27ae60" opacity="0.1" rx="8"/>
+  <text x="540" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">REALITET</text>
+  <text x="540" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Teknologi reduserer skadeomfang,</text>
+  <text x="540" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">ikke ulykkesannsynlighet</text>
+  
+  <!-- Physics equation -->
+  <text x="540" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">E = ½mv²</text>
+  <text x="540" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Fysikkens lover gjelder fortsatt</text>
+  
+  <!-- Myth 3: Hinders traffic flow -->
+  <rect x="50" y="400" width="700" height="150" fill="white" stroke="#e74c3c" stroke-width="2" rx="10"/>
+  
+  <!-- Myth side -->
+  <rect x="70" y="420" width="300" height="110" fill="#e74c3c" opacity="0.1" rx="8"/>
+  <text x="220" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">MYTE 3</text>
+  <text x="220" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">"Defensiv kjøring hindrer trafikkflyt"</text>
+  
+  <!-- Traffic congestion illustration -->
+  <rect x="160" y="480" width="25" height="15" fill="#e74c3c" rx="2"/>
+  <rect x="190" y="480" width="25" height="15" fill="#e74c3c" rx="2"/>
+  <rect x="220" y="480" width="25" height="15" fill="#e74c3c" rx="2"/>
+  <rect x="250" y="480" width="25" height="15" fill="#e74c3c" rx="2"/>
+  
+  <!-- Brake lights -->
+  <rect x="155" y="475" width="4" height="3" fill="#ff0000"/>
+  <rect x="185" y="475" width="4" height="3" fill="#ff0000"/>
+  <rect x="215" y="475" width="4" height="3" fill="#ff0000"/>
+  
+  <text x="220" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Stoppa-og-kjør, køer</text>
+  
+  <!-- Reality side -->
+  <rect x="390" y="420" width="300" height="110" fill="#27ae60" opacity="0.1" rx="8"/>
+  <text x="540" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">REALITET</text>
+  <text x="540" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Jevn og forutsigbar kjøring</text>
+  <text x="540" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">forbedrer flyt</text>
+  
+  <!-- Smooth traffic flow -->
+  <rect x="480" y="490" width="25" height="15" fill="#27ae60" rx="2"/>
+  <rect x="515" y="490" width="25" height="15" fill="#27ae60" rx="2"/>
+  <rect x="550" y="490" width="25" height="15" fill="#27ae60" rx="2"/>
+  <rect x="585" y="490" width="25" height="15" fill="#27ae60" rx="2"/>
+  
+  <!-- Flow arrows -->
+  <line x1="505" y1="497" x2="515" y2="497" stroke="#27ae60" stroke-width="2" marker-end="url(#greenarrow)"/>
+  <line x1="540" y1="497" x2="550" y2="497" stroke="#27ae60" stroke-width="2" marker-end="url(#greenarrow)"/>
+  <line x1="575" y1="497" x2="585" y2="497" stroke="#27ae60" stroke-width="2" marker-end="url(#greenarrow)"/>
+  
+  <text x="540" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">Smidig flyt, færre ulykker</text>
+  
+  <!-- Bottom truth section -->
+  <rect x="50" y="560" width="700" height="30" fill="#3498db" opacity="0.1" stroke="#2980b9" stroke-width="2" rx="5"/>
+  <text x="70" y="580" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2980b9">SANNHETEN: Defensiv kjøring optimaliserer sikkerhet OG effektivitet gjennom intelligente valg, ikke bare lav hastighet</text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="greenarrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#27ae60"/>
+    </marker>
+  </defs>
+</svg>

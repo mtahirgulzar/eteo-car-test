@@ -1,0 +1,145 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Dimensjonskrav for taklast
+  </text>
+  
+  <!-- Car side view -->
+  <g transform="translate(150, 100)">
+    <!-- Car body -->
+    <path d="M50 200 L50 150 Q50 140 60 140 L90 140 L110 120 L150 120 L170 100 L300 100 L320 120 L350 120 L370 140 L440 140 Q450 140 450 150 L450 200" 
+          fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    
+    <!-- Car roof -->
+    <rect x="110" y="100" width="240" height="20" fill="#2c3e50"/>
+    
+    <!-- Wheels -->
+    <circle cx="120" cy="200" r="15" fill="#34495e"/>
+    <circle cx="380" cy="200" r="15" fill="#34495e"/>
+    
+    <!-- Roof rack -->
+    <rect x="100" y="95" width="10" height="25" fill="#e74c3c"/>
+    <rect x="350" y="95" width="10" height="25" fill="#e74c3c"/>
+    
+    <!-- Cargo on roof -->
+    <rect x="130" y="60" width="200" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+    <text x="230" y="83" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">TAKLAST</text>
+    
+    <!-- Dimension arrows and measurements -->
+    
+    <!-- Length forward (3m) -->
+    <path d="M110 40 L50 40" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+    <text x="80" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">3m foran</text>
+    
+    <!-- Length backward (1m) -->
+    <path d="M350 40 L420 40" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+    <text x="385" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">1m bak</text>
+    
+    <!-- Total height (4m) -->
+    <path d="M480 60 L480 200" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+    <text x="490" y="130" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">4m total høyde</text>
+    
+    <!-- Ground level line -->
+    <path d="M0 200 L500 200" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="10" y="195" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Bakkenivå</text>
+  </g>
+  
+  <!-- Car rear view for width -->
+  <g transform="translate(150, 350)">
+    <!-- Car body rear view -->
+    <path d="M150 100 Q150 80 170 80 L330 80 Q350 80 350 100 L350 150 Q350 170 330 170 L170 170 Q150 170 150 150 Z" 
+          fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    
+    <!-- Car roof -->
+    <rect x="170" y="80" width="160" height="15" fill="#2c3e50"/>
+    
+    <!-- Roof rack -->
+    <rect x="160" y="75" width="10" height="20" fill="#e74c3c"/>
+    <rect x="330" y="75" width="10" height="20" fill="#e74c3c"/>
+    
+    <!-- Cargo on roof -->
+    <rect x="130" y="40" width="240" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+    
+    <!-- Width dimension arrows -->
+    <!-- Left side overhang -->
+    <path d="M150 20 L130 20" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+    <text x="140" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8e44ad">20cm</text>
+    
+    <!-- Right side overhang -->
+    <path d="M350 20 L370 20" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+    <text x="360" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8e44ad">20cm</text>
+    
+    <!-- Car width indicator -->
+    <path d="M150 200 L350 200" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+    <text x="250" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Bilens bredde</text>
+  </g>
+  
+  <!-- Rules table -->
+  <g transform="translate(450, 280)">
+    <rect x="0" y="0" width="300" height="200" fill="#ffffff" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Lovkrav for taklast
+    </text>
+    
+    <!-- Table rows -->
+    <g transform="translate(10, 40)">
+      <!-- Header -->
+      <rect x="0" y="0" width="280" height="25" fill="#34495e"/>
+      <text x="70" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Parameter</text>
+      <text x="150" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Grense</text>
+      <text x="220" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Merkeplikt</text>
+      
+      <!-- Row 1 -->
+      <rect x="0" y="25" width="280" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="70" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Lengde foran</text>
+      <text x="150" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">3 meter</text>
+      <text x="220" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">Ja</text>
+      
+      <!-- Row 2 -->
+      <rect x="0" y="45" width="280" height="20" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="70" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Lengde bak</text>
+      <text x="150" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">1 meter</text>
+      <text x="220" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">Ja</text>
+      
+      <!-- Row 3 -->
+      <rect x="0" y="65" width="280" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="70" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Bredde hver side</text>
+      <text x="150" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">20 cm</text>
+      <text x="220" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">Ja</text>
+      
+      <!-- Row 4 -->
+      <rect x="0" y="85" width="280" height="20" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="70" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Total høyde</text>
+      <text x="150" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">4 meter</text>
+      <text x="220" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">Veirestriksjoner</text>
+      
+      <!-- Row 5 -->
+      <rect x="0" y="105" width="280" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="70" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Maksimal vekt</text>
+      <text x="150" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Se vektskilt</text>
+      <text x="220" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">Ved overskridelse</text>
+    </g>
+  </g>
+  
+  <!-- Warning -->
+  <g transform="translate(50, 520)">
+    <rect x="0" y="0" width="700" height="40" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="5"/>
+    <text x="350" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#721c24">
+      ⚠️ Overskridelse av dimensjoner krever flagg, lys eller spesialtillatelse
+    </text>
+    <text x="350" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#721c24">
+      Kontroller alltid bilens maksimale takbelastning før lasting
+    </text>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" 
+     refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="currentColor"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,160 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5D6D7E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34495E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D6D7E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="crosswalkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ECF0F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#E8F6F3"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">
+    Kommunikasjon med fotgjengere
+  </text>
+  
+  <!-- Road -->
+  <rect x="0" y="250" width="800" height="150" fill="url(#roadGrad)"/>
+  
+  <!-- Road markings -->
+  <rect x="0" y="320" width="800" height="5" fill="#F1C40F"/>
+  <rect x="0" y="330" width="800" height="5" fill="#F1C40F"/>
+  
+  <!-- Crosswalk -->
+  <rect x="300" y="250" width="20" height="150" fill="url(#crosswalkGrad)"/>
+  <rect x="340" y="250" width="20" height="150" fill="url(#crosswalkGrad)"/>
+  <rect x="380" y="250" width="20" height="150" fill="url(#crosswalkGrad)"/>
+  <rect x="420" y="250" width="20" height="150" fill="url(#crosswalkGrad)"/>
+  <rect x="460" y="250" width="20" height="150" fill="url(#crosswalkGrad)"/>
+  
+  <!-- Approaching car -->
+  <rect x="100" y="310" width="80" height="40" rx="8" fill="#3498DB" stroke="#2980B9" stroke-width="2"/>
+  <rect x="110" y="320" width="60" height="20" rx="3" fill="#BDC3C7"/>
+  <circle cx="120" cy="360" r="10" fill="#2C3E50"/>
+  <circle cx="160" cy="360" r="10" fill="#2C3E50"/>
+  
+  <!-- Car's headlights -->
+  <ellipse cx="185" cy="325" rx="8" ry="5" fill="#F1C40F" opacity="0.7"/>
+  <ellipse cx="185" cy="335" rx="8" ry="5" fill="#F1C40F" opacity="0.7"/>
+  
+  <!-- Pedestrian waiting -->
+  <circle cx="280" cy="230" r="15" fill="#F4D03F" stroke="#F1C40F" stroke-width="2"/>
+  <rect x="275" y="245" width="10" height="25" rx="2" fill="#E74C3C"/>
+  <rect x="270" y="255" width="8" height="15" rx="2" fill="#2980B9"/>
+  <rect x="285" y="255" width="8" height="15" rx="2" fill="#2980B9"/>
+  <rect x="272" y="270" width="4" height="15" fill="#8B4513"/>
+  <rect x="282" y="270" width="4" height="15" fill="#8B4513"/>
+  
+  <!-- Eye contact line -->
+  <line x1="150" y1="330" x2="280" y2="235" stroke="#E74C3C" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="215" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E74C3C" transform="rotate(-20 215 280)">
+    Øyekontakt
+  </text>
+  
+  <!-- Pedestrian crossing -->
+  <circle cx="380" cy="230" r="15" fill="#F4D03F" stroke="#F1C40F" stroke-width="2"/>
+  <rect x="375" y="245" width="10" height="25" rx="2" fill="#E74C3C"/>
+  <rect x="370" y="255" width="8" height="15" rx="2" fill="#2980B9"/>
+  <rect x="385" y="255" width="8" height="15" rx="2" fill="#2980B9"/>
+  <rect x="372" y="270" width="4" height="15" fill="#8B4513"/>
+  <rect x="382" y="270" width="4" height="15" fill="#8B4513"/>
+  
+  <!-- Motion lines for walking pedestrian -->
+  <path d="M 365 275 Q 360 280 365 285" stroke="#95A5A6" stroke-width="2" fill="none"/>
+  <path d="M 395 275 Q 400 280 395 285" stroke="#95A5A6" stroke-width="2" fill="none"/>
+  
+  <!-- Stopped car at crosswalk -->
+  <rect x="520" y="310" width="80" height="40" rx="8" fill="#27AE60" stroke="#229954" stroke-width="2"/>
+  <rect x="530" y="320" width="60" height="20" rx="3" fill="#BDC3C7"/>
+  <circle cx="540" cy="360" r="10" fill="#2C3E50"/>
+  <circle cx="580" cy="360" r="10" fill="#2C3E50"/>
+  
+  <!-- Driver giving way gesture -->
+  <circle cx="550" cy="330" r="8" fill="#F4D03F"/>
+  <rect x="546" y="325" width="8" height="10" rx="2" fill="#E74C3C"/>
+  <!-- Hand gesture -->
+  <ellipse cx="565" cy="325" rx="4" ry="3" fill="#F4D03F"/>
+  
+  <!-- Communication steps -->
+  <rect x="50" y="80" width="200" height="120" rx="5" fill="white" stroke="#3498DB" stroke-width="2"/>
+  <text x="60" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498DB">
+    1. NÆRMINGSSEKVENS
+  </text>
+  <text x="60" y="120" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Reduser farten
+  </text>
+  <text x="60" y="135" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Vær klar til å stoppe
+  </text>
+  <text x="60" y="150" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Observer fotgjengere
+  </text>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Søk øyekontakt
+  </text>
+  <text x="60" y="180" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Signal intensjoner
+  </text>
+  
+  <rect x="300" y="80" width="200" height="120" rx="5" fill="white" stroke="#27AE60" stroke-width="2"/>
+  <text x="310" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27AE60">
+    2. KOMMUNIKASJON
+  </text>
+  <text x="310" y="120" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Øyekontakt etablert
+  </text>
+  <text x="310" y="135" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Fotgjenger ser bilen
+  </text>
+  <text x="310" y="150" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Gjensidig forståelse
+  </text>
+  <text x="310" y="165" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Vink/nikk som bekreftelse
+  </text>
+  <text x="310" y="180" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Tydelig stopp eller venting
+  </text>
+  
+  <rect x="550" y="80" width="200" height="120" rx="5" fill="white" stroke="#E74C3C" stroke-width="2"/>
+  <text x="560" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E74C3C">
+    3. GJENNOMFØRING
+  </text>
+  <text x="560" y="120" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Stopp helt ved overgang
+  </text>
+  <text x="560" y="135" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • La fotgjenger krysse
+  </text>
+  <text x="560" y="150" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Vær tålmodig
+  </text>
+  <text x="560" y="165" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Ikke presse på
+  </text>
+  <text x="560" y="180" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    • Kjør videre når trygt
+  </text>
+  
+  <!-- Priority reminder -->
+  <rect x="200" y="420" width="400" height="60" rx="10" fill="#FADBD8" stroke="#E74C3C" stroke-width="2"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#C0392B">
+    VIKTIG: Fotgjengere har ALLTID forkjørsrett på fotgjengeroverganger!
+  </text>
+  <text x="400" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    Du må stoppe hvis en fotgjenger er på vei ut i veibanen,
+  </text>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">
+    selv om vedkommende ikke har startet kryssingen ennå.
+  </text>
+  
+  <!-- Arrow showing sequence -->
+  <polygon points="250,140 270,130 270,135 290,135 290,145 270,145 270,150" fill="#95A5A6"/>
+  <polygon points="500,140 520,130 520,135 540,135 540,145 520,145 520,150" fill="#95A5A6"/>
+</svg>

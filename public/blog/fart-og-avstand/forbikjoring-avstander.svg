@@ -1,0 +1,105 @@
+<svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Sikre avstander ved forbikjøring</text>
+  
+  <!-- Road -->
+  <rect x="50" y="160" width="600" height="120" fill="#4a4a4a"/>
+  <rect x="50" y="215" width="600" height="10" fill="#ffdd00" opacity="0.8"/>
+  
+  <!-- Lane divider -->
+  <rect x="347" y="160" width="6" height="120" fill="white"/>
+  
+  <!-- Your car (starting position) -->
+  <g transform="translate(80, 180)">
+    <rect x="0" y="0" width="50" height="25" rx="3" fill="#3498db"/>
+    <circle cx="10" cy="30" r="6" fill="#2c3e50"/>
+    <circle cx="40" cy="30" r="6" fill="#2c3e50"/>
+    <text x="25" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Din bil</text>
+  </g>
+  
+  <!-- Car being overtaken -->
+  <g transform="translate(200, 180)">
+    <rect x="0" y="0" width="45" height="25" rx="3" fill="#95a5a6"/>
+    <circle cx="9" cy="30" r="6" fill="#2c3e50"/>
+    <circle cx="36" cy="30" r="6" fill="#2c3e50"/>
+    <text x="22" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">Forbikjøres</text>
+  </g>
+  
+  <!-- Your car (overtaking position) -->
+  <g transform="translate(300, 180)">
+    <rect x="0" y="0" width="50" height="25" rx="3" fill="#3498db" opacity="0.7"/>
+    <circle cx="10" cy="30" r="6" fill="#2c3e50" opacity="0.7"/>
+    <circle cx="40" cy="30" r="6" fill="#2c3e50" opacity="0.7"/>
+  </g>
+  
+  <!-- Oncoming car -->
+  <g transform="translate(500, 180)">
+    <rect x="0" y="0" width="50" height="25" rx="3" fill="#e74c3c"/>
+    <circle cx="10" cy="30" r="6" fill="#2c3e50"/>
+    <circle cx="40" cy="30" r="6" fill="#2c3e50"/>
+    <text x="25" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Møtende</text>
+  </g>
+  
+  <!-- Distance measurements -->
+  <!-- Safe following distance -->
+  <line x1="140" y1="140" x2="190" y2="140" stroke="#27ae60" stroke-width="3" marker-end="url(#arrowhead-green)"/>
+  <text x="165" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">Sikker avstand</text>
+  
+  <!-- Overtaking distance -->
+  <line x1="200" y1="120" x2="360" y2="120" stroke="#f39c12" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  <text x="280" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">Forbikjøringsstrekning</text>
+  
+  <!-- Safety margin to oncoming -->
+  <line x1="360" y1="100" x2="490" y2="100" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+  <text x="425" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">Sikkerhetsmargin</text>
+  
+  <!-- Total required distance -->
+  <line x1="140" y1="80" x2="540" y2="80" stroke="#2c3e50" stroke-width="4" marker-end="url(#arrowhead-dark)"/>
+  <text x="340" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Minimum 300-500m fri strekning</text>
+  
+  <!-- Information boxes -->
+  <rect x="50" y="300" width="200" height="90" fill="white" stroke="#27ae60" stroke-width="2" rx="5"/>
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">Før forbikjøring:</text>
+  <text x="60" y="335" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Kontroller fri strekning</text>
+  <text x="60" y="348" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Vurder hastighetsforskjell</text>
+  <text x="60" y="361" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Sjekk for andre forbikjørende</text>
+  <text x="60" y="374" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Signal intensjon med blinklys</text>
+  
+  <rect x="270" y="300" width="180" height="90" fill="white" stroke="#f39c12" stroke-width="2" rx="5"/>
+  <text x="280" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">Under forbikjøring:</text>
+  <text x="280" y="335" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Øk hastighet besluttsomt</text>
+  <text x="280" y="348" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Hold sikker sideavstand</text>
+  <text x="280" y="361" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Ikke tøv - vær effektiv</text>
+  <text x="280" y="374" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Se hele bilen i speilet før du kjører inn</text>
+  
+  <rect x="470" y="300" width="180" height="90" fill="white" stroke="#e74c3c" stroke-width="2" rx="5"/>
+  <text x="480" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">Kritiske faktorer:</text>
+  <text x="480" y="335" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Hastighet på møtende trafikk</text>
+  <text x="480" y="348" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Veiforhold og vær</text>
+  <text x="480" y="361" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Sikt fremover</text>
+  <text x="480" y="374" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Egen bils akselerasjon</text>
+  
+  <!-- Speed indicators -->
+  <text x="105" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498db">60 km/t</text>
+  <text x="222" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">50 km/t</text>
+  <text x="525" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">80 km/t</text>
+  
+  <!-- Arrow marker definitions -->
+  <defs>
+    <marker id="arrowhead-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#27ae60"/>
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f39c12"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrowhead-dark" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+</svg>

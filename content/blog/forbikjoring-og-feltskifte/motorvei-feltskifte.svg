@@ -1,0 +1,60 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .road { fill: #666; }
+        .lane-marker { fill: none; stroke: white; stroke-width: 2; stroke-dasharray: 20 20; }
+        .solid-line { fill: none; stroke: white; stroke-width: 2; }
+        .car { fill: #FFD700; stroke: #333; stroke-width: 1; }
+        .arrow { fill: #fff; }
+        .text { font-family: Arial, sans-serif; font-size: 14px; fill: white; }
+        .path { fill: none; stroke: #00FF00; stroke-width: 3; stroke-dasharray: 10 5; }
+    </style>
+
+    <!-- Road surface -->
+    <rect class="road" width="800" height="400" />
+
+    <!-- Main highway lanes -->
+    <path class="lane-marker" d="M 0 150 H 800" />
+    <path class="lane-marker" d="M 0 250 H 800" />
+
+    <!-- Acceleration Lane -->
+    <path class="solid-line" d="M 0 350 Q 150 350, 300 250" />
+    <path class="lane-marker" d="M 300 250 L 500 250" transform="translate(0, 1)"/>
+
+    <!-- Deceleration Lane -->
+    <path class="solid-line" d="M 500 150 Q 650 150, 800 50" />
+
+    <!-- Text labels -->
+    <text x="50" y="380" class="text">Akselerasjonsfelt</text>
+    <text x="650" y="30" class="text">Retardasjonsfelt</text>
+    <text x="350" y="120" class="text">Venstre felt (Forbikjøring)</text>
+    <text x="350" y="220" class="text">Høyre felt (Normalkjøring)</text>
+
+    <!-- Car path -->
+    <path class="path" d="M 50 340 Q 150 330, 300 280 L 450 280 C 480 280, 500 260, 520 200 L 600 200 C 630 200, 650 180, 670 130 L 750 70" />
+
+    <!-- Car at different stages -->
+    <!-- 1. Accelerating -->
+    <g transform="translate(50, 340) rotate(-15)">
+        <rect class="car" x="-20" y="-10" width="40" height="20" rx="5"/>
+    </g>
+    <text x="40" y="320" class="text">1. Akselerer</text>
+
+    <!-- 2. Merging -->
+    <g transform="translate(300, 280) rotate(-10)">
+        <rect class="car" x="-20" y="-10" width="40" height="20" rx="5"/>
+    </g>
+    <text x="290" y="310" class="text">2. Flett inn</text>
+
+    <!-- 3. Overtaking -->
+    <g transform="translate(560, 200)">
+        <rect class="car" x="-20" y="-10" width="40" height="20" rx="5"/>
+    </g>
+    <text x="550" y="230" class="text">3. Forbikjøring</text>
+
+    <!-- 4. Exiting -->
+    <g transform="translate(710, 100) rotate(-25)">
+        <rect class="car" x="-20" y="-10" width="40" height="20" rx="5"/>
+    </g>
+    <text x="700" y="130" class="text">4. Kjør av</text>
+
+</svg>

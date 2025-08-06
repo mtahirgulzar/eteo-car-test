@@ -1,0 +1,130 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Defensiv Kjøring under Ulike Værforhold</text>
+  
+  <!-- Weather condition sections -->
+  
+  <!-- Clear weather (baseline) -->
+  <rect x="50" y="60" width="150" height="120" fill="#3498db" opacity="0.2" rx="10"/>
+  <text x="125" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">NORMALT</text>
+  <circle cx="125" cy="100" r="15" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+  <text x="125" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">3 sek avstand</text>
+  <text x="125" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Normal hastighet</text>
+  <text x="125" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Standard teknikker</text>
+  <text x="125" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#27ae60">Grunnlag: 100%</text>
+  
+  <!-- Light rain -->
+  <rect x="220" y="60" width="150" height="120" fill="#3498db" opacity="0.4" rx="10"/>
+  <text x="295" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">LETT REGN</text>
+  <!-- Rain drops -->
+  <line x1="285" y1="90" x2="285" y2="100" stroke="#3498db" stroke-width="2"/>
+  <line x1="290" y1="85" x2="290" y2="95" stroke="#3498db" stroke-width="2"/>
+  <line x1="300" y1="90" x2="300" y2="100" stroke="#3498db" stroke-width="2"/>
+  <line x1="305" y1="85" x2="305" y2="95" stroke="#3498db" stroke-width="2"/>
+  
+  <text x="295" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">4-5 sek avstand</text>
+  <text x="295" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">-10 km/t hastighet</text>
+  <text x="295" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Økt oppmerksomhet</text>
+  <text x="295" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#f39c12">Tilpasning: +25%</text>
+  
+  <!-- Heavy rain -->
+  <rect x="390" y="60" width="150" height="120" fill="#3498db" opacity="0.6" rx="10"/>
+  <text x="465" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">KRAFTIG REGN</text>
+  <!-- Heavy rain -->
+  <line x1="450" y1="85" x2="450" y2="105" stroke="#2980b9" stroke-width="3"/>
+  <line x1="460" y1="85" x2="460" y2="105" stroke="#2980b9" stroke-width="3"/>
+  <line x1="470" y1="85" x2="470" y2="105" stroke="#2980b9" stroke-width="3"/>
+  <line x1="480" y1="85" x2="480" y2="105" stroke="#2980b9" stroke-width="3"/>
+  
+  <text x="465" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">6-8 sek avstand</text>
+  <text x="465" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">-20 km/t hastighet</text>
+  <text x="465" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Aquaplaning-fare</text>
+  <text x="465" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#e67e22">Tilpasning: +50%</text>
+  
+  <!-- Snow -->
+  <rect x="560" y="60" width="150" height="120" fill="#ecf0f1" opacity="0.8" rx="10"/>
+  <text x="635" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">SNØ/IS</text>
+  <!-- Snow flakes -->
+  <text x="620" y="100" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">❄</text>
+  <text x="635" y="95" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">❄</text>
+  <text x="650" y="100" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">❄</text>
+  
+  <text x="635" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">10+ sek avstand</text>
+  <text x="635" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">-30+ km/t hastighet</text>
+  <text x="635" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Vinterdekk/kjetting</text>
+  <text x="635" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#e74c3c">Tilpasning: +100%</text>
+  
+  <!-- Braking distance comparison -->
+  <rect x="50" y="200" width="700" height="150" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="70" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Bremseavstand Sammenligning (80 km/t):</text>
+  
+  <!-- Dry conditions -->
+  <rect x="70" y="240" width="60" height="15" fill="#27ae60" opacity="0.8"/>
+  <text x="100" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">40m</text>
+  <text x="140" y="252" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Tørt veibane</text>
+  
+  <!-- Wet conditions -->
+  <rect x="70" y="260" width="90" height="15" fill="#3498db" opacity="0.8"/>
+  <text x="115" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">60m</text>
+  <text x="170" y="272" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Våt veibane</text>
+  
+  <!-- Snow conditions -->
+  <rect x="70" y="280" width="120" height="15" fill="#95a5a6" opacity="0.8"/>
+  <text x="130" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">80m</text>
+  <text x="200" y="292" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Snø (vinterdekk)</text>
+  
+  <!-- Ice conditions -->
+  <rect x="70" y="300" width="200" height="15" fill="#e74c3c" opacity="0.8"/>
+  <text x="170" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">160m+</text>
+  <text x="280" y="312" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Is (ekstrem fare)</text>
+  
+  <!-- Visibility chart -->
+  <rect x="400" y="240" width="330" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="410" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Siktforhold og Hastighetstilpasning:</text>
+  
+  <text x="420" y="280" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• God sikt (&gt;200m): Normal fart</text>
+  <text x="420" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Redusert sikt (50-200m): -20% fart</text>
+  <text x="420" y="310" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Dårlig sikt (&lt;50m): -50% fart</text>
+  <text x="420" y="325" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Tåke (&lt;20m): Vurder stopp</text>
+  
+  <!-- Special techniques section -->
+  <rect x="50" y="370" width="700" height="180" fill="#d5dbdb" stroke="#95a5a6" stroke-width="1" rx="5"/>
+  <text x="70" y="395" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Spesielle Teknikker for Vanskelige Forhold:</text>
+  
+  <!-- Winter driving techniques -->
+  <rect x="70" y="410" width="200" height="120" fill="white" opacity="0.8" rx="5"/>
+  <text x="80" y="430" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Vinter/Is-kjøring:</text>
+  <text x="80" y="445" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Myk akselerasjon/bremsing</text>
+  <text x="80" y="460" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Unngå brå styrebevegelser</text>
+  <text x="80" y="475" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Test bremser forsiktig</text>
+  <text x="80" y="490" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Dobble sikkerhetsmarginer</text>
+  <text x="80" y="505" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Kjettinger når nødvendig</text>
+  <text x="80" y="520" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Varme bil før avreise</text>
+  
+  <!-- Rain driving techniques -->
+  <rect x="290" y="410" width="200" height="120" fill="white" opacity="0.8" rx="5"/>
+  <text x="300" y="430" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Regn-kjøring:</text>
+  <text x="300" y="445" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Sjekk dekkmønster regelmessig</text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Unngå brå styring i kurver</text>
+  <text x="300" y="475" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Vær obs på aquaplaning</text>
+  <text x="300" y="490" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Økt avstand til fotgjengere</text>
+  <text x="300" y="505" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Bruk vindusvisker/avdugger</text>
+  <text x="300" y="520" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Reduser hastighet i forkant</text>
+  
+  <!-- Fog driving techniques -->
+  <rect x="510" y="410" width="200" height="120" fill="white" opacity="0.8" rx="5"/>
+  <text x="520" y="430" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Tåke-kjøring:</text>
+  <text x="520" y="445" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Bruk tåkelys (ikke fjernlys)</text>
+  <text x="520" y="460" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Følg veimerking/rekkeverk</text>
+  <text x="520" y="475" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Drastisk hastighetreduksjon</text>
+  <text x="520" y="490" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Øk blinkfrekvens</text>
+  <text x="520" y="505" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Vurder å stoppe trygt</text>
+  <text x="520" y="520" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Aldri følg baklys blindt</text>
+  
+  <!-- Bottom warning -->
+  <rect x="50" y="560" width="700" height="30" fill="#e74c3c" opacity="0.1" stroke="#c0392b" stroke-width="1" rx="3"/>
+  <text x="70" y="580" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">VIKTIG: Ved ekstreme værforhold, vurder å utsette reisen eller velge alternativ transport</text>
+</svg>

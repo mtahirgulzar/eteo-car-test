@@ -1,0 +1,21 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect x="20" y="60" width="200" height="80" fill="#fff" stroke="#333" />
+  <text x="120" y="100" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">
+    Skadelidt
+  </text>
+  <path d="M220 100 H300" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="300" y="60" width="200" height="80" fill="#fff" stroke="#333" />
+  <text x="400" y="100" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">
+    Forsikringsselskap
+  </text>
+  <path d="M500 100 H580" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="580" y="60" width="200" height="80" fill="#fff" stroke="#333" />
+  <text x="680" y="100" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">
+    Fører
+  </text>
+</svg>

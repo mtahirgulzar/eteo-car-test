@@ -1,0 +1,75 @@
+![Bil og tilhenger (klasse B), vognkort og koblingslast](bil-og-tilhenger-vognkort-koblingslast-image.svg)
+
+**Bil og tilhenger (klasse B)** kombinerer praktisk kjøring med **vognkortets** krav og **koblingslast**-beregninger for å sikre trygg og lovlig transport. I denne omfattende guiden lærer du alt om hvordan du tolker vognkortet, beregner koblingslast og overholder tillatt totalvekt for førerkort klasse B.
+
+## Hva er vognkort?
+
+Vognkortet, også kalt registreringsbevis, inneholder viktig informasjon om kjøretøyets tekniske egenskaper og eierforhold. Det er delt i to deler:
+
+| Del    | Innhold                                               |
+|--------|-------------------------------------------------------|
+| Del 1  | Tekniske data for kjøretøyet (øvre del)               |
+| Del 2  | Eierinformasjon og endringer (nedre del)              |
+
+For mer om krav til dokumenter for førerkort og vognkort, se [Førerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "Førerkort, vognkort og forsikring").
+
+*For en full oversikt over alle feltene i vognkortet, se [Vognkort, oversikt over alle felter](/blogs/teori/vognkort-oversikt-alle-felter "Vognkort, oversikt over alle felter").*
+
+## Forstå koblingslast
+
+**Koblingslast** er den vertikale kraften som lasten på tilhengeren utøver på bilens kulehode. Riktig beregning er avgjørende for stabilitet og sikkerhet.
+
+| Begrep             | Forklaring                                                  |
+|--------------------|-------------------------------------------------------------|
+| Tillatt totalvekt  | Maksimal vekt for kjøretøy og tilhenger (inkl. last)        |
+| Egenvekt           | Vekten av bilen uten last, fører og passasjerer             |
+| Maks tilhengervekt | Maksimal vekt tilhengeren kan veie (angitt i vognkort)      |
+| Koblingslast       | Den vertikale lasten på hengerfestet (angitt i vognkort)    |
+
+### Hvordan beregne koblingslast
+
+Koblingslasten (K) beregnes som en prosentandel av tilhengerens vekt:
+
+```
+K = T * p / 100
+```
+
+der
+- `T` er **tillatt totalvekt** på tilhenger (kg)
+- `p` er **pålagt prosentandel** (vanligvis 4–10 %)
+
+For eksempel, for en tilhenger med tillatt totalvekt 2000 kg og p = 6 %:
+
+| Tillatt totalvekt (kg) | Prosentandel (%) | Koblingslast (kg) |
+|------------------------|------------------|-------------------|
+| 2000                   | 6                | 120               |
+
+## Førerkortklasser for tilhenger
+
+Kjøring med tilhenger under førerkort klasse B krever at du kjenner til:
+
+| Klasse | Beskrivelse                                   |
+|--------|-----------------------------------------------|
+| B      | Personbil uten eller med lett tilhenger (≤ 750 kg) |
+| B96    | Utvidet B: Tilhenger med totalvekt 3501–4250 kg   |
+| BE     | B + tilhenger over 750 kg                         |
+
+Se også [Førerkortklasser i Norge](/blogs/teori/forerkortklasser-oversikt "Førerkortklasser i Norge – oversikt og inndeling") for full oversikt over førerkortklasser.
+
+* For praktiske **krav til tilhenger** under klasse B, se [Krav til tilhenger (klasse B)](/blogs/teori/krav-til-tilhenger-klasse-b "Krav til tilhenger (klasse B) - Detaljert guide").
+
+## Sjekkliste før kjøring
+
+Før du kjører med tilhenger, kontroller:
+
+* _Vognkortet_ for både bil og tilhenger.
+* At koblingslasten er innenfor angitte grenser.
+* At totalvekten (bil + tilhenger + last) ikke overstiges.
+* At tilknytningspunktet er korrekt festet og sikret.
+* At last og utstyr er forsvarlig sikret.
+
+For mer om praktisk kjøreteknikk med henger, se [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Guide til trygg hengerkjøring i Norge").
+
+## Oppsummering
+
+Riktig bruk av **vognkort** og nøyaktig **beregning av koblingslast** er essensielt for sikker og lovlig kjøring med tilhenger under førerkort klasse B. Følg sjekklistene og hold deg innenfor vektgrensene for å unngå farlige situasjoner på veien.

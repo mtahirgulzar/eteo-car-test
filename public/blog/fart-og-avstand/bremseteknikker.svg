@@ -1,0 +1,156 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    Avanserte bremseteknikker
+  </text>
+  
+  <!-- Progressive braking section -->
+  <text x="150" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">
+    Progressiv bremsing
+  </text>
+  
+  <!-- Progressive braking graph -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="200" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <!-- Axes -->
+    <line x1="10" y1="90" x2="190" y2="90" stroke="#2c3e50" stroke-width="1"/>
+    <line x1="10" y1="90" x2="10" y2="10" stroke="#2c3e50" stroke-width="1"/>
+    
+    <!-- Progressive curve -->
+    <path d="M 10 90 Q 50 70 100 40 Q 150 20 190 10" stroke="#27ae60" stroke-width="3" fill="none"/>
+    
+    <text x="100" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#27ae60">Gradvis økning</text>
+    <text x="15" y="105" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Tid →</text>
+    <text x="5" y="50" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" transform="rotate(-90, 5, 50)">Kraft ↑</text>
+  </g>
+  
+  <!-- ABS vs Non-ABS comparison -->
+  <text x="400" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">
+    Med ABS vs Uten ABS
+  </text>
+  
+  <!-- Non-ABS technique -->
+  <g transform="translate(300, 80)">
+    <rect x="0" y="0" width="180" height="120" fill="#fadbd8" stroke="#e74c3c" stroke-width="2" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">
+      UTEN ABS
+    </text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      1. Trykk hardt på brems
+    </text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      2. Hvis hjul låser: SLIPP
+    </text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      3. Trykk igjen når hjul ruller
+    </text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      4. Repeter til stopp
+    </text>
+    <text x="90" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c" font-weight="bold">
+      Krever øvelse og konsentrasjon
+    </text>
+  </g>
+  
+  <!-- ABS technique -->
+  <g transform="translate(500, 80)">
+    <rect x="0" y="0" width="180" height="120" fill="#d5f4e6" stroke="#27ae60" stroke-width="2" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#239b56">
+      MED ABS
+    </text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      1. Trykk og HOLD hardt
+    </text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      2. Ikke slipp ved vibrasjoner
+    </text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      3. Styr unna hindringer
+    </text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      4. La systemet jobbe
+    </text>
+    <text x="90" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60" font-weight="bold">
+      Enklere og mer effektivt
+    </text>
+  </g>
+  
+  <!-- Braking distance comparison -->
+  <text x="400" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+    Sammenligning av bremseteknikker (80 km/t på tørr asfalt)
+  </text>
+  
+  <!-- Poor braking -->
+  <g transform="translate(50, 280)">
+    <text x="100" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Dårlig teknikk</text>
+    <rect x="0" y="10" width="200" height="20" fill="#e74c3c"/>
+    <text x="210" y="25" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">85 meter</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">• Panikk-bremsing med hjullåsing</text>
+  </g>
+  
+  <!-- Average braking -->
+  <g transform="translate(50, 330)">
+    <text x="100" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">Gjennomsnittlig</text>
+    <rect x="0" y="10" width="160" height="20" fill="#f39c12"/>
+    <text x="170" y="25" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">64 meter</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">• Normal bremsing uten spesialteknikk</text>
+  </g>
+  
+  <!-- Good braking -->
+  <g transform="translate(50, 380)">
+    <text x="100" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">God teknikk</text>
+    <rect x="0" y="10" width="140" height="20" fill="#27ae60"/>
+    <text x="150" y="25" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">56 meter</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">• Progressiv bremsing eller optimal ABS-bruk</text>
+  </g>
+  
+  <!-- Expert braking -->
+  <g transform="translate(50, 430)">
+    <text x="100" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9b59b6">Ekspert</text>
+    <rect x="0" y="10" width="120" height="20" fill="#9b59b6"/>
+    <text x="130" y="25" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">48 meter</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">• Kombinert motor- og fotbrems + optimal teknikk</text>
+  </g>
+  
+  <!-- Key tips box -->
+  <rect x="420" y="300" width="320" height="180" fill="#e8f4fd" stroke="#3498db" stroke-width="2" rx="8"/>
+  <text x="580" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+    Viktige bremsetips
+  </text>
+  
+  <text x="440" y="350" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Øv på nødbremsing</tspan> på trygg plass
+  </text>
+  <text x="440" y="365" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Kjenn din bil</tspan> - ABS eller ikke?
+  </text>
+  <text x="440" y="380" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Ikke pump bremsene</tspan> med ABS
+  </text>
+  <text x="440" y="395" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Bruk motorbremse</tspan> på lange nedoverbakker
+  </text>
+  <text x="440" y="410" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Behold styrekontroll</tspan> under bremsing
+  </text>
+  <text x="440" y="425" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Test bremser</tspan> etter kjøring i vann
+  </text>
+  <text x="440" y="440" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Varm ikke opp bremsene</tspan> unødig
+  </text>
+  <text x="440" y="455" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    • <tspan font-weight="bold">Sjekk bremser regelmessig</tspan>
+  </text>
+  
+  <!-- Distance difference illustration -->
+  <text x="250" y="520" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c" font-weight="bold">
+    37 meter forskjell mellom dårligst og best teknikk!
+  </text>
+  <text x="250" y="540" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">
+    Det tilsvarer lengden av 7-8 biler og kan utgjøre forskjellen mellom liv og død
+  </text>
+</svg>

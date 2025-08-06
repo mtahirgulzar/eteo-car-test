@@ -1,0 +1,145 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B0E0E6;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#87CEEB;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="dangerGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC3545;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Ice background -->
+  <rect width="800" height="400" fill="url(#iceGrad)"/>
+  
+  <!-- Ice crystal pattern -->
+  <g opacity="0.3" stroke="white" stroke-width="1" fill="none">
+    <path d="M100,50 L110,50 M105,45 L105,55 M102,47 L108,53 M108,47 L102,53"/>
+    <path d="M200,80 L210,80 M205,75 L205,85 M202,77 L208,83 M208,77 L202,83"/>
+    <path d="M300,40 L310,40 M305,35 L305,45 M302,37 L308,43 M308,37 L302,43"/>
+    <path d="M500,70 L510,70 M505,65 L505,75 M502,67 L508,73 M508,67 L502,73"/>
+    <path d="M650,45 L660,45 M655,40 L655,50 M652,42 L658,48 M658,42 L652,48"/>
+    <path d="M750,85 L760,85 M755,80 L755,90 M752,82 L758,88 M758,82 L752,88"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Iskjøring - Ekstreme Utfordringer</text>
+  
+  <!-- Warning section -->
+  <circle cx="400" cy="80" r="35" fill="url(#dangerGrad)"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">!</text>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">EKSTREM</text>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FORSIKTIG</text>
+  
+  <!-- Ice types -->
+  <rect x="50" y="130" width="150" height="100" fill="rgba(255,255,255,0.9)" stroke="#17A2B8" stroke-width="2" rx="8"/>
+  <text x="125" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#17A2B8">RIMFROST</text>
+  <text x="125" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Tynt islag</text>
+  <text x="125" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Overrasker om</text>
+  <text x="125" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">morgenen</text>
+  <text x="125" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E74C3C">5-15% grip</text>
+  
+  <rect x="225" y="130" width="150" height="100" fill="rgba(255,255,255,0.9)" stroke="#DC3545" stroke-width="2" rx="8"/>
+  <text x="300" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#DC3545">UNDERKJØLT</text>
+  <text x="300" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#DC3545">REGN</text>
+  <text x="300" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Fryser ved kontakt</text>
+  <text x="300" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#DC3545">EKSTREMT</text>
+  <text x="300" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#DC3545">FARLIG</text>
+  
+  <rect x="400" y="130" width="150" height="100" fill="rgba(255,255,255,0.9)" stroke="#6C757D" stroke-width="2" rx="8"/>
+  <text x="475" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#6C757D">SVART IS</text>
+  <text x="475" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Nesten usynlig</text>
+  <text x="475" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">På asfalt</text>
+  <text x="475" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Lurende fare</text>
+  <text x="475" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E74C3C">Uforutsigbart</text>
+  
+  <rect x="575" y="130" width="150" height="100" fill="rgba(255,255,255,0.9)" stroke="#20C997" stroke-width="2" rx="8"/>
+  <text x="650" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#20C997">KOMPAKT IS</text>
+  <text x="650" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Tykt islag</text>
+  <text x="650" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Varierende</text>
+  <text x="650" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">friksjon</text>
+  <text x="650" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFC107">Forutsigbar</text>
+  
+  <!-- Driving technique on ice -->
+  <rect x="50" y="250" width="700" height="120" fill="rgba(255,255,255,0.95)" stroke="#E74C3C" stroke-width="3" rx="10"/>
+  <text x="400" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E74C3C">KJØRETEKNIKK PÅ IS</text>
+  
+  <!-- Four principles -->
+  <g transform="translate(100,290)">
+    <circle cx="0" cy="0" r="15" fill="#E74C3C"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">1</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">EKSTREM</text>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">FORSIKTIG</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">Alle bevegelser</text>
+    <text x="0" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">minimale</text>
+  </g>
+  
+  <g transform="translate(250,290)">
+    <circle cx="0" cy="0" r="15" fill="#FFC107"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">2</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">LAV</text>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">HASTIGHET</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">Ofte under</text>
+    <text x="0" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">30 km/t</text>
+  </g>
+  
+  <g transform="translate(400,290)">
+    <circle cx="0" cy="0" r="15" fill="#28A745"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">3</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">MAKSIMAL</text>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">AVSTAND</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">Minst 10x</text>
+    <text x="0" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">normal avstand</text>
+  </g>
+  
+  <g transform="translate(550,290)">
+    <circle cx="0" cy="0" r="15" fill="#17A2B8"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">4</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">UNNGÅ</text>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">PLUTSELIGE</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">Alle manøvrer</text>
+    <text x="0" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">planlagt</text>
+  </g>
+  
+  <!-- Car on ice illustration -->
+  <g transform="translate(100,350)">
+    <!-- Car -->
+    <rect x="0" y="0" width="40" height="15" fill="#E74C3C" rx="2"/>
+    <rect x="5" y="3" width="8" height="5" fill="#87CEEB" opacity="0.8"/>
+    <rect x="15" y="3" width="8" height="5" fill="#87CEEB" opacity="0.8"/>
+    <rect x="27" y="3" width="8" height="5" fill="#87CEEB" opacity="0.8"/>
+    
+    <!-- Wheels sliding -->
+    <circle cx="8" cy="18" r="4" fill="#2C2C2C"/>
+    <circle cx="32" cy="18" r="4" fill="#2C2C2C"/>
+    
+    <!-- Slide marks -->
+    <path d="M5,25 Q15,30 25,25 Q35,20 45,25" stroke="#4682B4" stroke-width="2" fill="none" opacity="0.7"/>
+    
+    <text x="20" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E74C3C">USTABIL</text>
+  </g>
+  
+  <!-- Controlled car -->
+  <g transform="translate(500,350)">
+    <!-- Car -->
+    <rect x="0" y="0" width="40" height="15" fill="#28A745" rx="2"/>
+    <rect x="5" y="3" width="8" height="5" fill="#87CEEB" opacity="0.8"/>
+    <rect x="15" y="3" width="8" height="5" fill="#87CEEB" opacity="0.8"/>
+    <rect x="27" y="3" width="8" height="5" fill="#87CEEB" opacity="0.8"/>
+    
+    <!-- Wheels with minimal contact -->
+    <circle cx="8" cy="18" r="4" fill="#2C2C2C"/>
+    <circle cx="32" cy="18" r="4" fill="#2C2C2C"/>
+    
+    <!-- Controlled path -->
+    <line x1="5" y1="25" x2="45" y2="25" stroke="#28A745" stroke-width="2" opacity="0.7"/>
+    
+    <text x="20" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#28A745">KONTROLLERT</text>
+  </g>
+  
+  <!-- Temperature warning -->
+  <rect x="200" y="20" width="400" height="25" fill="#DC3545" rx="5"/>
+  <text x="400" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">KRITISK: Grip kan være så lite som 5-15% av normal asfalt</text>
+</svg>

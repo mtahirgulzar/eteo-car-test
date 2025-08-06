@@ -1,0 +1,90 @@
+<svg width="400" height="280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="280" fill="#f0f8ff"/>
+  
+  <!-- Road -->
+  <rect x="50" y="110" width="300" height="80" fill="#404040"/>
+  
+  <!-- Sidewalks -->
+  <rect x="50" y="90" width="300" height="20" fill="#d3d3d3"/>
+  <rect x="50" y="190" width="300" height="20" fill="#d3d3d3"/>
+  
+  <!-- Road edges -->
+  <line x1="50" y1="110" x2="350" y2="110" stroke="#ffffff" stroke-width="3"/>
+  <line x1="50" y1="190" x2="350" y2="190" stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- Center line (dotted, indicating lane guidance) -->
+  <line x1="200" y1="110" x2="200" y2="190" stroke="#ffffff" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Cars moving in one direction -->
+  <rect x="100" y="130" width="40" height="20" fill="#4169e1" rx="3"/>
+  <circle cx="108" cy="155" r="4" fill="#2c2c2c"/>
+  <circle cx="132" cy="155" r="4" fill="#2c2c2c"/>
+  
+  <rect x="180" y="135" width="40" height="20" fill="#32cd32" rx="3"/>
+  <circle cx="188" cy="160" r="4" fill="#2c2c2c"/>
+  <circle cx="212" cy="160" r="4" fill="#2c2c2c"/>
+  
+  <rect x="260" y="125" width="40" height="20" fill="#ff8c00" rx="3"/>
+  <circle cx="268" cy="150" r="4" fill="#2c2c2c"/>
+  <circle cx="292" cy="150" r="4" fill="#2c2c2c"/>
+  
+  <!-- Direction arrows on road -->
+  <path d="M 80 150 L 95 150" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrow1)"/>
+  <path d="M 160 150 L 175 150" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrow2)"/>
+  <path d="M 240 150 L 255 150" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrow3)"/>
+  <path d="M 320 150 L 335 150" stroke="#ffffff" stroke-width="3" fill="none" marker-end="url(#arrow4)"/>
+  
+  <!-- One-way street sign -->
+  <rect x="60" y="60" width="50" height="25" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <path d="M 70 72 L 85 72 L 80 68 M 85 72 L 80 76" stroke="#000000" stroke-width="2" fill="none"/>
+  <text x="85" y="80" font-family="Arial" font-size="8" text-anchor="middle" fill="#000000">Enveiskjørt</text>
+  
+  <!-- Parking on both sides -->
+  <rect x="55" y="195" width="30" height="15" fill="#8b4513" rx="2"/>
+  <circle cx="62" cy="215" r="2" fill="#2c2c2c"/>
+  <circle cx="78" cy="215" r="2" fill="#2c2c2c"/>
+  
+  <rect x="310" y="195" width="30" height="15" fill="#8b4513" rx="2"/>
+  <circle cx="317" cy="215" r="2" fill="#2c2c2c"/>
+  <circle cx="333" cy="215" r="2" fill="#2c2c2c"/>
+  
+  <rect x="55" y="75" width="30" height="15" fill="#8b4513" rx="2"/>
+  <circle cx="62" cy="70" r="2" fill="#2c2c2c"/>
+  <circle cx="78" cy="70" r="2" fill="#2c2c2c"/>
+  
+  <rect x="310" y="75" width="30" height="15" fill="#8b4513" rx="2"/>
+  <circle cx="317" cy="70" r="2" fill="#2c2c2c"/>
+  <circle cx="333" cy="70" r="2" fill="#2c2c2c"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">Enveiskjørt Gate</text>
+  
+  <!-- Labels -->
+  <text x="70" y="100" font-family="Arial" font-size="9" text-anchor="middle" fill="#8b4513">Parkering begge sider</text>
+  <text x="325" y="100" font-family="Arial" font-size="9" text-anchor="middle" fill="#8b4513">Parkering</text>
+  <text x="70" y="220" font-family="Arial" font-size="9" text-anchor="middle" fill="#8b4513">Parkering</text>
+  <text x="325" y="220" font-family="Arial" font-size="9" text-anchor="middle" fill="#8b4513">Parkering</text>
+  
+  <!-- Information box -->
+  <rect x="20" y="230" width="360" height="45" fill="#ffffff" stroke="#cccccc" stroke-width="1" rx="5"/>
+  <text x="30" y="245" font-family="Arial" font-size="11" font-weight="bold" fill="#2c3e50">Enveiskjørt gate - spesielle regler:</text>
+  <text x="30" y="260" font-family="Arial" font-size="10" fill="#2c3e50">• Parkering tillatt på begge sider • Fotgjengere kan krysse hvor som helst</text>
+  <text x="30" y="270" font-family="Arial" font-size="10" fill="#2c3e50">• Venstresving kan gjøres fra høyre felt (hvis skiltene tillater det)</text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+    <marker id="arrow4" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+  </defs>
+</svg>

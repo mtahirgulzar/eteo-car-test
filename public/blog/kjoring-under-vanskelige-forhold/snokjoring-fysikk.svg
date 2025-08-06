@@ -1,0 +1,51 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f8ff" />
+
+  <text x="300" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">Snøkjøring: Girbruk og Fysikk</text>
+
+  <!-- Bakketopp -->
+  <path d="M 0 350 Q 150 200 300 350 T 600 350" stroke="#d3d3d3" stroke-width="4" fill="none" />
+  <text x="150" y="380" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#555">Oppoverbakke</text>
+  <text x="450" y="380" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#555">Nedoverbakke</text>
+
+  <!-- Bil 1: Oppoverbakke -->
+  <g transform="translate(100, 280)">
+    <rect x="10" y="20" width="60" height="30" fill="#add8e6" stroke="#333" stroke-width="2" rx="5" />
+    <circle cx="25" cy="50" r="8" fill="#333" />
+    <circle cx="55" cy="50" r="8" fill="#333" />
+    <text x="40" y="15" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Bil 1</text>
+  </g>
+
+  <!-- Bil 2: Nedoverbakke -->
+  <g transform="translate(400, 280)">
+    <rect x="10" y="20" width="60" height="30" fill="#add8e6" stroke="#333" stroke-width="2" rx="5" />
+    <circle cx="25" cy="50" r="8" fill="#333" />
+    <circle cx="55" cy="50" r="8" fill="#333" />
+    <text x="40" y="15" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Bil 2</text>
+  </g>
+
+  <!-- Forklaringer -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="220" height="100" fill="#ffffff" stroke="#ccc" stroke-width="1" rx="10" />
+    <text x="110" y="25" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#005a9c" font-weight="bold">Oppover (Bil 1)</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="14" fill="#333">Bruk HØYT gir (f.eks. 2. gir)</text>
+    <text x="20" y="75" font-family="Arial, sans-serif" font-size="14" fill="#333">for å unngå hjulspinn.</text>
+  </g>
+
+  <g transform="translate(330, 100)">
+    <rect x="0" y="0" width="220" height="100" fill="#ffffff" stroke="#ccc" stroke-width="1" rx="10" />
+    <text x="110" y="25" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#d9534f" font-weight="bold">Nedover (Bil 2)</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="14" fill="#333">Bruk LAVT gir (f.eks. 1. gir)</text>
+    <text x="20" y="75" font-family="Arial, sans-serif" font-size="14" fill="#333">for effektiv motorbrems.</text>
+  </g>
+
+  <!-- Piler for bevegelse -->
+  <path d="M 120 270 C 150 240, 180 240, 210 270" stroke="#333" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+  <polygon points="205,270 215,275 215,265" fill="#333" />
+  <text x="165" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Akselerasjon</text>
+
+  <path d="M 420 340 C 450 370, 480 370, 510 340" stroke="#333" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+  <polygon points="505,340 515,345 515,335" fill="#333" transform="rotate(180 510 340)" />
+  <text x="465" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Bremsing</text>
+
+</svg>

@@ -1,0 +1,149 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Psykologiske Aspekter av Defensiv Kjøring</text>
+  
+  <!-- Central brain illustration -->
+  <ellipse cx="400" cy="150" rx="80" ry="60" fill="#e74c3c" opacity="0.8" stroke="#c0392b" stroke-width="3"/>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">SJÅFØR</text>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">PSYKOLOGI</text>
+  
+  <!-- Stress factors (left side) -->
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">Stressfaktorer:</text>
+  
+  <!-- Time pressure -->
+  <rect x="60" y="100" width="120" height="50" fill="#e74c3c" opacity="0.7" rx="8"/>
+  <text x="120" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">TIDSPRESS</text>
+  <text x="120" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Forsinkelser, møter</text>
+  <text x="120" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Øker risikovillighet</text>
+  
+  <!-- Traffic congestion -->
+  <rect x="60" y="160" width="120" height="50" fill="#e67e22" opacity="0.7" rx="8"/>
+  <text x="120" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">TRAFIKORK</text>
+  <text x="120" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Frustrasjon</text>
+  <text x="120" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Aggressiv kjøring</text>
+  
+  <!-- Personal problems -->
+  <rect x="60" y="220" width="120" height="50" fill="#8e44ad" opacity="0.7" rx="8"/>
+  <text x="120" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">PERSONLIGE</text>
+  <text x="120" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">PROBLEMER</text>
+  <text x="120" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Redusert fokus</text>
+  
+  <!-- Arrows from stress factors to brain -->
+  <line x1="180" y1="125" x2="330" y2="140" stroke="#e74c3c" stroke-width="3" marker-end="url(#redarrow)"/>
+  <line x1="180" y1="185" x2="330" y2="150" stroke="#e67e22" stroke-width="3" marker-end="url(#orangearrow)"/>
+  <line x1="180" y1="245" x2="330" y2="160" stroke="#8e44ad" stroke-width="3" marker-end="url(#purplearrow)"/>
+  
+  <!-- Positive factors (right side) -->
+  <text x="550" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">Positivt Mindset:</text>
+  
+  <!-- Patience -->
+  <rect x="620" y="100" width="120" height="50" fill="#27ae60" opacity="0.7" rx="8"/>
+  <text x="680" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">TÅLMODIGHET</text>
+  <text x="680" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Akseptere forsinkelser</text>
+  <text x="680" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Rolig kjøring</text>
+  
+  <!-- Responsibility -->
+  <rect x="620" y="160" width="120" height="50" fill="#3498db" opacity="0.7" rx="8"/>
+  <text x="680" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">ANSVAR</text>
+  <text x="680" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">For andre trafikanter</text>
+  <text x="680" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Etisk kjøring</text>
+  
+  <!-- Continuous learning -->
+  <rect x="620" y="220" width="120" height="50" fill="#f39c12" opacity="0.7" rx="8"/>
+  <text x="680" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">LÆRING</text>
+  <text x="680" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Kontinuerlig forbedring</text>
+  <text x="680" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Selvrefleksjon</text>
+  
+  <!-- Arrows from positive factors to brain -->
+  <line x1="620" y1="125" x2="470" y2="140" stroke="#27ae60" stroke-width="3" marker-end="url(#greenarrow)"/>
+  <line x1="620" y1="185" x2="470" y2="150" stroke="#3498db" stroke-width="3" marker-end="url(#bluearrow)"/>
+  <line x1="620" y1="245" x2="470" y2="160" stroke="#f39c12" stroke-width="3" marker-end="url(#yellowarrow)"/>
+  
+  <!-- Dunning-Kruger effect illustration -->
+  <rect x="50" y="300" width="350" height="250" fill="white" stroke="#bdc3c7" stroke-width="2" rx="10"/>
+  <text x="70" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Dunning-Kruger Effekt i Trafikken:</text>
+  
+  <!-- Confidence vs Experience curve -->
+  <line x1="80" y1="520" x2="380" y2="520" stroke="#2c3e50" stroke-width="2" marker-end="url(#blackarrow)"/>
+  <line x1="80" y1="520" x2="80" y2="340" stroke="#2c3e50" stroke-width="2" marker-end="url(#blackarrow)"/>
+  
+  <text x="230" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Erfaring</text>
+  <text x="40" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" transform="rotate(-90, 40, 430)">Selvtillit</text>
+  
+  <!-- Curve showing overconfidence -->
+  <path d="M 90 500 Q 120 350 150 380 Q 200 420 250 400 Q 300 390 360 410" stroke="#e74c3c" stroke-width="4" fill="none"/>
+  
+  <!-- Phase labels -->
+  <text x="120" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#e74c3c">Farlig</text>
+  <text x="120" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">Overselv​tillit</text>
+  
+  <text x="200" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#f39c12">Lærings-</text>
+  <text x="200" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#f39c12">dal</text>
+  
+  <text x="320" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#27ae60">Kompetent</text>
+  <text x="320" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60">Realistisk</text>
+  
+  <!-- Stress management techniques -->
+  <rect x="420" y="300" width="330" height="250" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2" rx="10"/>
+  <text x="440" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Stressmestring og Emosjonell Kontroll:</text>
+  
+  <!-- Breathing techniques -->
+  <rect x="440" y="340" width="130" height="80" fill="#3498db" opacity="0.2" rx="5"/>
+  <text x="505" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Pusteøvelser</text>
+  <text x="450" y="375" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• 4-7-8 teknikk</text>
+  <text x="450" y="390" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Dyp mageåndedrett</text>
+  <text x="450" y="405" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Fokus på nåtid</text>
+  
+  <!-- Planning -->
+  <rect x="590" y="340" width="130" height="80" fill="#27ae60" opacity="0.2" rx="5"/>
+  <text x="655" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Planlegging</text>
+  <text x="600" y="375" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Avreis i god tid</text>
+  <text x="600" y="390" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Alternative ruter</text>
+  <text x="600" y="405" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Realistiske mål</text>
+  
+  <!-- Mindfulness -->
+  <rect x="440" y="440" width="130" height="80" fill="#9b59b6" opacity="0.2" rx="5"/>
+  <text x="505" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Mindfulness</text>
+  <text x="450" y="475" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Oppmerksomhetstrening</text>
+  <text x="450" y="490" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Akseptere situasjoner</text>
+  <text x="450" y="505" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Ikke døm andre</text>
+  
+  <!-- Breaks -->
+  <rect x="590" y="440" width="130" height="80" fill="#f39c12" opacity="0.2" rx="5"/>
+  <text x="655" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Pauser</text>
+  <text x="600" y="475" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Hver 2. time</text>
+  <text x="600" y="490" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Ved frustrasjon</text>
+  <text x="600" y="505" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Korte turer ut</text>
+  
+  <!-- Bottom warning signs -->
+  <rect x="50" y="560" width="700" height="30" fill="#e74c3c" opacity="0.1" stroke="#c0392b" stroke-width="1" rx="5"/>
+  <text x="70" y="580" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">Faresignaler: Økt irritabilitet • Aggressiv kjøring • Redusert tålmodighet • "Undervisning" av andre • Økt risikovillighet</text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="redarrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+    <marker id="orangearrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e67e22"/>
+    </marker>
+    <marker id="purplearrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8e44ad"/>
+    </marker>
+    <marker id="greenarrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+    </marker>
+    <marker id="bluearrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+    </marker>
+    <marker id="yellowarrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f39c12"/>
+    </marker>
+    <marker id="blackarrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+</svg>

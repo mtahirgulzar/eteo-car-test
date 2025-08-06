@@ -1,0 +1,162 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c3e50; text-anchor: middle; }
+      .subtitle { font: bold 16px Arial; fill: #34495e; text-anchor: middle; }
+      .fine { font: bold 14px Arial; fill: #e74c3c; text-anchor: end; }
+      .violation { font: 12px Arial; fill: #2c3e50; }
+      .warning { font: 12px Arial; fill: #e74c3c; }
+      .points { font: bold 12px Arial; fill: #f39c12; text-anchor: middle; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" class="title">Juridiske konsekvenser ved regelbrudd</text>
+  
+  <!-- Fine table -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="700" height="220" fill="#fff" stroke="#dee2e6" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="subtitle">Bøtesatser og sanksjoner</text>
+    
+    <!-- Table header -->
+    <rect x="20" y="40" width="660" height="30" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+    <text x="40" y="58" font="12px Arial" fill="#495057">Overtredelse</text>
+    <text x="300" y="58" font="12px Arial" fill="#495057">Bøte</text>
+    <text x="400" y="58" font="12px Arial" fill="#495057">Prikker</text>
+    <text x="500" y="58" font="12px Arial" fill="#495057">Tiltak</text>
+    
+    <!-- Table rows -->
+    <g transform="translate(0, 70)">
+      <!-- Row 1: Minor overloading -->
+      <rect x="20" y="0" width="660" height="25" fill="#fff5f5" stroke="#dee2e6" stroke-width="1"/>
+      <text x="40" y="17" class="violation">Overlasting 10-20%</text>
+      <text x="320" y="17" class="fine">8.000 kr</text>
+      <text x="420" y="17" class="points">1</text>
+      <text x="520" y="17" font="10px Arial" fill="#555">Kan føre til kjøreforbud</text>
+      
+      <!-- Row 2: Major overloading -->
+      <rect x="20" y="25" width="660" height="25" fill="#fff0f0" stroke="#dee2e6" stroke-width="1"/>
+      <text x="40" y="42" class="violation">Overlasting over 20%</text>
+      <text x="320" y="42" class="fine">12.000 kr</text>
+      <text x="420" y="42" class="points">2</text>
+      <text x="520" y="42" font="10px Arial" fill="#e74c3c">Alltid kjøreforbud</text>
+      
+      <!-- Row 3: Improper securing -->
+      <rect x="20" y="50" width="660" height="25" fill="#fff5f5" stroke="#dee2e6" stroke-width="1"/>
+      <text x="40" y="67" class="violation">Manglende lastsikring</text>
+      <text x="320" y="67" class="fine">8.000 kr</text>
+      <text x="420" y="67" class="points">1</text>
+      <text x="520" y="67" font="10px Arial" fill="#555">Avhenger av risiko</text>
+      
+      <!-- Row 4: Wrong license -->
+      <rect x="20" y="75" width="660" height="25" fill="#fff5f5" stroke="#dee2e6" stroke-width="1"/>
+      <text x="40" y="92" class="violation">Feil førerkortkategori</text>
+      <text x="320" y="92" class="fine">7.000 kr</text>
+      <text x="420" y="92" class="points">1</text>
+      <text x="520" y="92" font="10px Arial" fill="#555">Påvirker forsikring</text>
+      
+      <!-- Row 5: Axle overload -->
+      <rect x="20" y="100" width="660" height="25" fill="#fff0f0" stroke="#dee2e6" stroke-width="1"/>
+      <text x="40" y="117" class="violation">Overlasting av aksler</text>
+      <text x="320" y="117" class="fine">12.000 kr</text>
+      <text x="420" y="117" class="points">2</text>
+      <text x="520" y="117" font="10px Arial" fill="#e74c3c">Skader veinettet</text>
+      
+      <!-- Row 6: Missing inspection -->
+      <rect x="20" y="125" width="660" height="25" fill="#fff5f5" stroke="#dee2e6" stroke-width="1"/>
+      <text x="40" y="142" class="violation">Manglende EU-kontroll</text>
+      <text x="320" y="142" class="fine">6.000 kr</text>
+      <text x="420" y="142" class="points">0</text>
+      <text x="520" y="142" font="10px Arial" fill="#555">Kjøreforbud til kontroll</text>
+    </g>
+  </g>
+  
+  <!-- Insurance consequences -->
+  <g transform="translate(50, 300)">
+    <rect x="0" y="0" width="340" height="140" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+    <text x="170" y="25" class="subtitle">Forsikringskonsekvenser</text>
+    
+    <!-- Insurance icon -->
+    <g transform="translate(50, 40)">
+      <rect x="0" y="0" width="30" height="20" fill="#ffc107" stroke="#f8b500" stroke-width="2" rx="3"/>
+      <text x="15" y="13" font="10px Arial" fill="#fff" text-anchor="middle">€</text>
+      <line x1="15" y1="20" x2="15" y2="30" stroke="#e74c3c" stroke-width="3"/>
+      <line x1="10" y1="25" x2="20" y2="25" stroke="#e74c3c" stroke-width="3"/>
+    </g>
+    
+    <g transform="translate(100, 45)">
+      <text x="0" y="0" class="warning">Risiko for utestendt dekning:</text>
+      <text x="0" y="20" font="10px Arial" fill="#555">• Overlasting kan føre til at forsikringen</text>
+      <text x="0" y="33" font="10px Arial" fill="#555">  ikke dekker skader</text>
+      <text x="0" y="50" font="10px Arial" fill="#555">• Feil førerkortkategori gjør</text>
+      <text x="0" y="63" font="10px Arial" fill="#555">  forsikringen ugyldig</text>
+      <text x="0" y="80" font="10px Arial" fill="#555">• Manglende EU-kontroll kan</text>
+      <text x="0" y="93" font="10px Arial" fill="#555">  påvirke dekningen</text>
+    </g>
+  </g>
+  
+  <!-- Criminal consequences -->
+  <g transform="translate(410, 300)">
+    <rect x="0" y="0" width="340" height="140" fill="#ffebee" stroke="#e74c3c" stroke-width="2" rx="10"/>
+    <text x="170" y="25" class="subtitle">Straffereaksjoner</text>
+    
+    <!-- Gavel icon -->
+    <g transform="translate(50, 40)">
+      <rect x="10" y="0" width="15" height="8" fill="#8d4e2a" rx="2"/>
+      <rect x="12" y="8" width="3" height="20" fill="#d4af37"/>
+      <ellipse cx="20" cy="25" rx="8" ry="3" fill="#8d4e2a"/>
+    </g>
+    
+    <g transform="translate(100, 45)">
+      <text x="0" y="0" class="warning">Alvorlige overtredelser kan gi:</text>
+      <text x="0" y="20" font="10px Arial" fill="#555">• Inndragning av førerkort ved</text>
+      <text x="0" y="33" font="10px Arial" fill="#555">  gjentatte overlastinger</text>
+      <text x="0" y="50" font="10px Arial" fill="#555">• Fengselsstraff ved grove brudd</text>
+      <text x="0" y="63" font="10px Arial" fill="#555">  som fører til ulykker</text>
+      <text x="0" y="80" font="10px Arial" fill="#555">• Konfiskasjon av kjøretøy ved</text>
+      <text x="0" y="93" font="10px Arial" fill="#555">  svært grove overtredelser</text>
+    </g>
+  </g>
+  
+  <!-- Prevention and compliance -->
+  <g transform="translate(50, 460)">
+    <rect x="0" y="0" width="700" height="120" fill="#d4edda" stroke="#c3e6cb" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="subtitle">Slik unngår du juridiske problemer</text>
+    
+    <!-- Prevention steps -->
+    <g transform="translate(50, 50)">
+      <!-- Step 1 -->
+      <circle cx="15" cy="15" r="12" fill="#28a745"/>
+      <text x="15" y="20" font="10px Arial" fill="#fff" text-anchor="middle">1</text>
+      <text x="35" y="12" font="11px Arial" fill="#155724">Kjenn dine grenser</text>
+      <text x="35" y="25" font="9px Arial" fill="#155724">Sjekk vognkort og beregn vekter</text>
+      
+      <!-- Step 2 -->
+      <circle cx="200" cy="15" r="12" fill="#28a745"/>
+      <text x="200" y="20" font="10px Arial" fill="#fff" text-anchor="middle">2</text>
+      <text x="220" y="12" font="11px Arial" fill="#155724">Korrekt lastsikring</text>
+      <text x="220" y="25" font="9px Arial" fill="#155724">Bruk riktige stropper og festeøyer</text>
+      
+      <!-- Step 3 -->
+      <circle cx="385" cy="15" r="12" fill="#28a745"/>
+      <text x="385" y="20" font="10px Arial" fill="#fff" text-anchor="middle">3</text>
+      <text x="405" y="12" font="11px Arial" fill="#155724">Gjennomfør kontroller</text>
+      <text x="405" y="25" font="9px Arial" fill="#155724">Hold EU-kontroll oppdatert</text>
+      
+      <!-- Step 4 -->
+      <circle cx="570" cy="15" r="12" fill="#28a745"/>
+      <text x="570" y="20" font="10px Arial" fill="#fff" text-anchor="middle">4</text>
+      <text x="590" y="12" font="11px Arial" fill="#155724">Riktig førerkort</text>
+      <text x="590" y="25" font="9px Arial" fill="#155724">Sørg for korrekt kategori</text>
+    </g>
+    
+    <!-- Bottom warning -->
+    <g transform="translate(50, 85)">
+      <rect x="0" y="0" width="600" height="25" fill="#f8d7da" stroke="#f5c6cb" stroke-width="1" rx="3"/>
+      <text x="300" y="17" font="12px Arial" fill="#721c24" text-anchor="middle">⚠ Husk: Uvitenhet om reglene fritar ikke for ansvar og straff</text>
+    </g>
+  </g>
+</svg>

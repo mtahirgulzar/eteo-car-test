@@ -1,0 +1,194 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with winter scene -->
+  <rect width="800" height="600" fill="#e8f4fd"/>
+  
+  <!-- Snow clouds -->
+  <g opacity="0.3">
+    <circle cx="100" cy="50" r="20" fill="#bdc3c7"/>
+    <circle cx="120" cy="45" r="25" fill="#bdc3c7"/>
+    <circle cx="140" cy="50" r="20" fill="#bdc3c7"/>
+    <circle cx="700" cy="60" r="18" fill="#bdc3c7"/>
+    <circle cx="680" cy="55" r="22" fill="#bdc3c7"/>
+    <circle cx="660" cy="60" r="18" fill="#bdc3c7"/>
+  </g>
+  
+  <!-- Falling snow -->
+  <g opacity="0.4">
+    <circle cx="150" cy="100" r="2" fill="#fff"/>
+    <circle cx="200" cy="120" r="1.5" fill="#fff"/>
+    <circle cx="250" cy="90" r="2" fill="#fff"/>
+    <circle cx="600" cy="110" r="1.5" fill="#fff"/>
+    <circle cx="650" cy="95" r="2" fill="#fff"/>
+    <circle cx="700" cy="125" r="1.5" fill="#fff"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50">
+    Vinterutstyr for sikker kjøring
+  </text>
+  
+  <!-- Car with winter equipment -->
+  <g transform="translate(200, 150)">
+    <!-- Car body -->
+    <rect x="50" y="80" width="300" height="120" fill="#34495e" stroke="#2c3e50" stroke-width="3" rx="15"/>
+    <!-- Windshield -->
+    <polygon points="120,80 280,80 260,40 140,40" fill="#d5dbdb" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- Heated windshield lines -->
+    <g opacity="0.7">
+      <line x1="150" y1="45" x2="250" y2="45" stroke="#e74c3c" stroke-width="1"/>
+      <line x1="155" y1="55" x2="245" y2="55" stroke="#e74c3c" stroke-width="1"/>
+      <line x1="160" y1="65" x2="240" y2="65" stroke="#e74c3c" stroke-width="1"/>
+    </g>
+    
+    <!-- Headlights -->
+    <ellipse cx="80" cy="120" rx="15" ry="20" fill="#f1c40f" opacity="0.8"/>
+    <ellipse cx="320" cy="120" rx="15" ry="20" fill="#f1c40f" opacity="0.8"/>
+    
+    <!-- Winter tires -->
+    <circle cx="120" cy="230" r="30" fill="#2c3e50"/>
+    <circle cx="280" cy="230" r="30" fill="#2c3e50"/>
+    <!-- Tire treads -->
+    <g transform="translate(120, 230)">
+      <path d="M-20 -10 L20 -10" stroke="#95a5a6" stroke-width="3"/>
+      <path d="M-20 0 L20 0" stroke="#95a5a6" stroke-width="3"/>
+      <path d="M-20 10 L20 10" stroke="#95a5a6" stroke-width="3"/>
+    </g>
+    <g transform="translate(280, 230)">
+      <path d="M-20 -10 L20 -10" stroke="#95a5a6" stroke-width="3"/>
+      <path d="M-20 0 L20 0" stroke="#95a5a6" stroke-width="3"/>
+      <path d="M-20 10 L20 10" stroke="#95a5a6" stroke-width="3"/>
+    </g>
+    
+    <!-- Engine heater cord -->
+    <path d="M350 140 Q380 120 400 140" stroke="#27ae60" stroke-width="4" fill="none"/>
+    <circle cx="400" cy="140" r="5" fill="#27ae60"/>
+    <text x="420" y="145" font-family="Arial" font-size="12" fill="#27ae60">Motorvarmer</text>
+    
+    <!-- Snow brush on roof -->
+    <rect x="180" y="60" width="40" height="8" fill="#e67e22" rx="4"/>
+    <text x="200" y="50" text-anchor="middle" font-family="Arial" font-size="10" fill="#e67e22">Snøbørste</text>
+    
+    <!-- Ice scraper -->
+    <rect x="90" y="30" width="20" height="4" fill="#3498db"/>
+    <rect x="95" y="26" width="10" height="8" fill="#3498db"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#3498db">Isskrape</text>
+  </g>
+  
+  <!-- Winter equipment details -->
+  <g transform="translate(50, 380)">
+    <rect x="0" y="0" width="700" height="200" fill="#fff" stroke="#bdc3c7" stroke-width="1" rx="10"/>
+    <text x="350" y="25" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#2c3e50">
+      Obligatorisk og anbefalt vinterutstyr
+    </text>
+    
+    <!-- Equipment grid -->
+    <g transform="translate(30, 40)">
+      <!-- Winter tires -->
+      <g>
+        <rect x="0" y="0" width="150" height="70" fill="#d1ecf1" stroke="#17a2b8" stroke-width="1" rx="5"/>
+        <circle cx="30" cy="35" r="20" fill="#2c3e50"/>
+        <path d="M20 25 L40 25 M20 35 L40 35 M20 45 L40 45" stroke="#95a5a6" stroke-width="2"/>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#0c5460">Vinterdekk/Pigger</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#0c5460">Obligatorisk fra 1. nov</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#0c5460">til første søndag etter påske</text>
+        <text x="60" y="64" font-family="Arial" font-size="9" fill="#0c5460">Minimum 3mm mønsterdybde</text>
+      </g>
+      
+      <!-- Snow chains -->
+      <g transform="translate(170, 0)">
+        <rect x="0" y="0" width="150" height="70" fill="#fff3cd" stroke="#ffc107" stroke-width="1" rx="5"/>
+        <circle cx="30" cy="35" r="15" fill="none" stroke="#856404" stroke-width="3"/>
+        <path d="M20 25 L40 45 M40 25 L20 45" stroke="#856404" stroke-width="2"/>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#856404">Snøkjettinger</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#856404">For ekstreme forhold</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#856404">Må passe til dekk og bil</text>
+        <text x="60" y="64" font-family="Arial" font-size="9" fill="#856404">Max hastighet 50 km/t</text>
+      </g>
+      
+      <!-- Engine heater -->
+      <g transform="translate(340, 0)">
+        <rect x="0" y="0" width="150" height="70" fill="#d4edda" stroke="#28a745" stroke-width="1" rx="5"/>
+        <rect x="20" y="25" width="20" height="20" fill="#155724" rx="3"/>
+        <path d="M40 35 Q50 30 60 35" stroke="#155724" stroke-width="3" fill="none"/>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#155724">Motorvarmer</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#155724">Enklere start i kulde</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#155724">Reduserer slitasje</text>
+        <text x="60" y="64" font-family="Arial" font-size="9" fill="#155724">Sett på 2-3 timer før</text>
+      </g>
+      
+      <!-- Clearing equipment -->
+      <g transform="translate(510, 0)">
+        <rect x="0" y="0" width="150" height="70" fill="#f8d7da" stroke="#dc3545" stroke-width="1" rx="5"/>
+        <rect x="20" y="25" width="15" height="3" fill="#721c24"/>
+        <rect x="23" y="22" width="9" height="6" fill="#721c24"/>
+        <rect x="45" y="30" width="20" height="8" fill="#d68910" rx="4"/>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#721c24">Rydeutstyr</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#721c24">Isskrape og snøbørste</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#721c24">For vinduer og lykter</text>
+        <text x="60" y="64" font-family="Arial" font-size="9" fill="#721c24">Alltid tilgjengelig i bilen</text>
+      </g>
+      
+      <!-- Additional equipment -->
+      <g transform="translate(0, 90)">
+        <rect x="0" y="0" width="150" height="60" fill="#e2e3e5" stroke="#6c757d" stroke-width="1" rx="5"/>
+        <rect x="20" y="20" width="30" height="20" fill="#495057" rx="3"/>
+        <circle cx="35" cy="30" r="3" fill="#ffc107"/>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#495057">Ekstrautstyr</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#495057">Lommelykt, varme klær</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#495057">Startkabler, sand/grus</text>
+      </g>
+      
+      <!-- Emergency kit -->
+      <g transform="translate(170, 90)">
+        <rect x="0" y="0" width="150" height="60" fill="#f1f3f4" stroke="#5f6368" stroke-width="1" rx="5"/>
+        <rect x="20" y="20" width="25" height="20" fill="#dc3545" rx="3"/>
+        <text x="30" y="32" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">+</text>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#5f6368">Nødsett</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#5f6368">Førstehjelp, varselstrekant</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#5f6368">Refleksvest, mobillader</text>
+      </g>
+      
+      <!-- Visibility equipment -->
+      <g transform="translate(340, 90)">
+        <rect x="0" y="0" width="150" height="60" fill="#fff8e1" stroke="#ff8f00" stroke-width="1" rx="5"/>
+        <ellipse cx="30" cy="30" rx="12" ry="8" fill="#ffc107"/>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#e65100">Lys og sikt</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#e65100">Ekstra lyspærer</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#e65100">Spylervæske for vinter</text>
+      </g>
+      
+      <!-- Tire pressure -->
+      <g transform="translate(510, 90)">
+        <rect x="0" y="0" width="150" height="60" fill="#e8f5e8" stroke="#4caf50" stroke-width="1" rx="5"/>
+        <circle cx="30" cy="30" r="12" fill="none" stroke="#2e7d32" stroke-width="2"/>
+        <text x="30" y="34" text-anchor="middle" font-family="Arial" font-size="8" fill="#2e7d32">PSI</text>
+        <text x="75" y="25" font-family="Arial" font-size="12" font-weight="bold" fill="#2e7d32">Dekktrykk</text>
+        <text x="60" y="40" font-family="Arial" font-size="9" fill="#2e7d32">Sjekk jevnlig i kulde</text>
+        <text x="60" y="52" font-family="Arial" font-size="9" fill="#2e7d32">Trykket synker ved lave temp.</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Road conditions indicator -->
+  <g transform="translate(580, 180)">
+    <rect x="0" y="0" width="160" height="80" fill="#ffffff" stroke="#dee2e6" stroke-width="1" rx="8"/>
+    <text x="80" y="18" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">
+      Vinterforhold
+    </text>
+    
+    <!-- Ice indicator -->
+    <rect x="10" y="25" width="30" height="15" fill="#17a2b8" opacity="0.6" rx="3"/>
+    <text x="25" y="35" text-anchor="middle" font-family="Arial" font-size="8" fill="white">IS</text>
+    <text x="50" y="35" font-family="Arial" font-size="9" fill="#2c3e50">Is og glatte veier</text>
+    
+    <!-- Snow indicator -->
+    <rect x="10" y="45" width="30" height="15" fill="#6c757d" opacity="0.8" rx="3"/>
+    <text x="25" y="55" text-anchor="middle" font-family="Arial" font-size="8" fill="white">SNØ</text>
+    <text x="50" y="55" font-family="Arial" font-size="9" fill="#2c3e50">Snø og sludd</text>
+    
+    <text x="80" y="75" text-anchor="middle" font-family="Arial" font-size="8" fill="#6c757d">
+      Tilpass kjøring til forhold
+    </text>
+  </g>
+</svg>

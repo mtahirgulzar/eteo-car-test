@@ -1,0 +1,80 @@
+<svg width="650" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f5f5" />
+
+  <text x="325" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">Risiko ved Kombinerte Forhold</text>
+
+  <!-- Grid -->
+  <defs>
+    <g id="condition-box">
+      <rect x="0" y="0" width="120" height="120" fill="#fff" stroke="#ccc" />
+    </g>
+    <style>
+      .label { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; font-weight: bold; }
+      .combo-text { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .risk-high { fill: #ffcccc; }
+      .risk-extreme { fill: #ff9999; }
+    </style>
+  </defs>
+
+  <!-- Labels -->
+  <text x="215" y="80" class="label">Regn</text>
+  <text x="335" y="80" class="label">Snø</text>
+  <text x="455" y="80" class="label">Is</text>
+  <text x="575" y="80" class="label">Tåke</text>
+
+  <text x="70" y="160" class="label" transform="rotate(-90 70 160)">Vind</text>
+  <text x="70" y="280" class="label" transform="rotate(-90 70 280)">Mørke</text>
+  <text x="70" y="400" class="label" transform="rotate(-90 70 400)">Vind+Mørke</text>
+
+  <!-- Matrix Content -->
+
+  <!-- Rad 1: Vind -->
+  <use href="#condition-box" x="155" y="100" class="risk-high"/>
+  <text x="215" y="140" class="combo-text">Vannplaning +</text>
+  <text x="215" y="155" class="combo-text">Ustabilitet</text>
+  <text x="215" y="180" class="combo-text" fill="#d9534f">Høy Risiko</text>
+
+  <use href="#condition-box" x="275" y="100" class="risk-high"/>
+  <text x="335" y="140" class="combo-text">Snøfokk +</text>
+  <text x="335" y="155" class="combo-text">Dårlig grep</text>
+  <text x="335" y="180" class="combo-text" fill="#d9534f">Høy Risiko</text>
+
+  <use href="#condition-box" x="395" y="100" class="risk-extreme"/>
+  <text x="455" y="140" class="combo-text">Skrensfare +</text>
+  <text x="455" y="155" class="combo-text">Vindkast</text>
+  <text x="455" y="180" class="combo-text" fill="#b30000">Ekstrem Risiko</text>
+
+  <use href="#condition-box" x="515" y="100" class="risk-extreme"/>
+  <text x="575" y="140" class="combo-text">Null sikt +</text>
+  <text x="575" y="155" class="combo-text">Ustabilitet</text>
+  <text x="575" y="180" class="combo-text" fill="#b30000">Ekstrem Risiko</text>
+
+  <!-- Rad 2: Mørke -->
+  <use href="#condition-box" x="155" y="220" class="risk-high"/>
+  <text x="215" y="260" class="combo-text">Redusert sikt +</text>
+  <text x="215" y="275" class="combo-text">Våt veibane</text>
+  <text x="215" y="300" class="combo-text" fill="#d9534f">Høy Risiko</text>
+
+  <use href="#condition-box" x="275" y="220" class="risk-high"/>
+  <text x="335" y="260" class="combo-text">Dårlig sikt +</text>
+  <text x="335" y="275" class="combo-text">Dårlig grep</text>
+  <text x="335" y="300" class="combo-text" fill="#d9534f">Høy Risiko</text>
+
+  <use href="#condition-box" x="395" y="220" class="risk-extreme"/>
+  <text x="455" y="260" class="combo-text">Usynlig is +</text>
+  <text x="455" y="275" class="combo-text">Mørke</text>
+  <text x="455" y="300" class="combo-text" fill="#b30000">Ekstrem Risiko</text>
+
+  <use href="#condition-box" x="515" y="220" class="risk-extreme"/>
+  <text x="575" y="260" class="combo-text">Desorientering</text>
+  <text x="575" y="275" class="combo-text">(Tåke + Mørke)</text>
+  <text x="575" y="300" class="combo-text" fill="#b30000">Ekstrem Risiko</text>
+
+  <!-- Rad 3: Vind + Mørke -->
+  <use href="#condition-box" x="155" y="340" class="risk-extreme"/>
+  <use href="#condition-box" x="275" y="340" class="risk-extreme"/>
+  <use href="#condition-box" x="395" y="340" class="risk-extreme"/>
+  <use href="#condition-box" x="515" y="340" class="risk-extreme"/>
+  <text x="395" y="400" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#b30000" font-weight="bold">VURDER Å IKKE KJØRE</text>
+
+</svg>

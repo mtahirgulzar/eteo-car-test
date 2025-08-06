@@ -1,0 +1,117 @@
+<svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="300" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="350" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+    Alder og kjøreferdigheter
+  </text>
+  
+  <!-- Age groups comparison -->
+  <!-- Young drivers (18-25) -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="180" height="100" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2" rx="10"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db" text-anchor="middle">
+      Unge førere (18-25 år)
+    </text>
+    
+    <!-- Advantages -->
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#27ae60" font-weight="bold">Fordeler:</text>
+    <text x="15" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ Rask reaksjonstid</text>
+    <text x="15" y="68" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ God synsevne</text>
+    <text x="15" y="81" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ Fysisk kapasitet</text>
+    
+    <!-- Challenges -->
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c" font-weight="bold">Utfordringer:</text>
+    <text x="105" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✗ Manglende erfaring</text>
+    <text x="105" y="68" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✗ Høyere risikovillighet</text>
+    <text x="105" y="81" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✗ Lett påvirkelig</text>
+  </g>
+  
+  <!-- Middle-aged drivers (25-65) -->
+  <g transform="translate(260, 50)">
+    <rect x="0" y="0" width="180" height="100" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2" rx="10"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60" text-anchor="middle">
+      Voksne førere (25-65 år)
+    </text>
+    
+    <!-- Balanced -->
+    <text x="90" y="40" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" font-weight="bold" text-anchor="middle">Optimal periode</text>
+    <text x="15" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Balanse mellom erfaring og evner</text>
+    <text x="15" y="68" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• God risikooppfatning</text>
+    <text x="15" y="81" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Stabil kjørestil</text>
+  </g>
+  
+  <!-- Elderly drivers (65+) -->
+  <g transform="translate(470, 50)">
+    <rect x="0" y="0" width="180" height="100" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="2" rx="10"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12" text-anchor="middle">
+      Eldre førere (65+ år)
+    </text>
+    
+    <!-- Advantages -->
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#27ae60" font-weight="bold">Fordeler:</text>
+    <text x="15" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ Lang erfaring</text>
+    <text x="15" y="68" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ Forsiktig kjørestil</text>
+    <text x="15" y="81" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ God planlegging</text>
+    
+    <!-- Challenges -->
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c" font-weight="bold">Utfordringer:</text>
+    <text x="105" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✗ Lengre reaksjonstid</text>
+    <text x="105" y="68" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✗ Reduserte sanser</text>
+    <text x="105" y="81" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✗ Mindre fleksibilitet</text>
+  </g>
+  
+  <!-- Age curve graph -->
+  <g transform="translate(50, 180)">
+    <text x="300" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Kjøreevne og alder
+    </text>
+    
+    <!-- Graph axes -->
+    <line x1="50" y1="80" x2="550" y2="80" stroke="#bdc3c7" stroke-width="2"/>
+    <line x1="50" y1="20" x2="50" y2="80" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- Age labels -->
+    <text x="100" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">18</text>
+    <text x="200" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">30</text>
+    <text x="300" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">50</text>
+    <text x="400" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">70</text>
+    <text x="500" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">85</text>
+    
+    <!-- Capability labels -->
+    <text x="40" y="25" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Høy</text>
+    <text x="40" y="50" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Evne</text>
+    <text x="40" y="75" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Lav</text>
+    
+    <!-- Experience curve (increasing) -->
+    <path d="M 100 70 Q 200 60 300 40 Q 400 30 500 25" fill="none" stroke="#27ae60" stroke-width="3"/>
+    <text x="480" y="20" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">Erfaring</text>
+    
+    <!-- Physical abilities curve (decreasing) -->
+    <path d="M 100 30 Q 200 35 300 45 Q 400 60 500 75" fill="none" stroke="#e74c3c" stroke-width="3"/>
+    <text x="480" y="70" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Fysiske evner</text>
+    
+    <!-- Overall driving ability -->
+    <path d="M 100 50 Q 200 45 300 40 Q 400 45 500 55" fill="none" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+    <text x="450" y="50" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Samlet kjøreevne</text>
+  </g>
+  
+  <!-- Risk factors by age -->
+  <g transform="translate(50, 275)">
+    <rect x="0" y="0" width="200" height="20" fill="#e74c3c" opacity="0.8" rx="5"/>
+    <text x="100" y="14" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">
+      Unge: Høyest ulykkesrisiko
+    </text>
+    
+    <rect x="220" y="0" width="160" height="20" fill="#27ae60" opacity="0.8" rx="5"/>
+    <text x="300" y="14" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">
+      Voksne: Lavest risiko
+    </text>
+    
+    <rect x="400" y="0" width="200" height="20" fill="#f39c12" opacity="0.8" rx="5"/>
+    <text x="500" y="14" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">
+      Eldre: Økende risiko etter 75
+    </text>
+  </g>
+</svg>

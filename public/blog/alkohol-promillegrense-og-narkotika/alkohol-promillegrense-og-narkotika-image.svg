@@ -1,0 +1,12 @@
+<svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="300" fill="#f8f9fa"/>
+
+  <!-- Title background -->
+  <rect x="50" y="40" width="600" height="60" fill="#2c3e50" rx="8"/>
+
+  <!-- Main title -->
+  <text x="350" y="75" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">
+    Alkohol, promillegrense og narkotika
+  </text>
+</svg>

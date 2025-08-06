@@ -1,0 +1,147 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">Dekkskifte - Sesongplanlegging og Optimal Timing</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#BDC3C7" stroke-width="3"/>
+  
+  <!-- Month markers -->
+  <g font-family="Arial, sans-serif" font-size="10" fill="#7F8C8D">
+    <text x="100" y="85" text-anchor="middle">Jan</text>
+    <text x="150" y="85" text-anchor="middle">Feb</text>
+    <text x="200" y="85" text-anchor="middle">Mar</text>
+    <text x="250" y="85" text-anchor="middle">Apr</text>
+    <text x="300" y="85" text-anchor="middle">Mai</text>
+    <text x="350" y="85" text-anchor="middle">Jun</text>
+    <text x="400" y="85" text-anchor="middle">Jul</text>
+    <text x="450" y="85" text-anchor="middle">Aug</text>
+    <text x="500" y="85" text-anchor="middle">Sep</text>
+    <text x="550" y="85" text-anchor="middle">Okt</text>
+    <text x="600" y="85" text-anchor="middle">Nov</text>
+    <text x="650" y="85" text-anchor="middle">Des</text>
+  </g>
+  
+  <!-- Temperature line -->
+  <path d="M 100 150 Q 200 180 300 165 Q 400 140 500 145 Q 600 155 700 180" 
+        fill="none" stroke="#E74C3C" stroke-width="2"/>
+  
+  <!-- 7°C threshold line -->
+  <line x1="100" y1="160" x2="700" y2="160" stroke="#F39C12" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="710" y="165" font-family="Arial, sans-serif" font-size="10" fill="#F39C12" font-weight="bold">7°C</text>
+  
+  <!-- Temperature scale -->
+  <g font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">
+    <text x="85" y="135">20°C</text>
+    <text x="85" y="150">10°C</text>
+    <text x="85" y="165">0°C</text>
+    <text x="85" y="180">-10°C</text>
+    <text x="85" y="195">-20°C</text>
+  </g>
+  
+  <!-- Tire change points -->
+  <g id="changePoints">
+    <!-- To winter tires -->
+    <circle cx="525" cy="100" r="8" fill="#3498DB"/>
+    <line x1="525" y1="92" x2="525" y2="120" stroke="#3498DB" stroke-width="2"/>
+    <text x="525" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498DB" font-weight="bold">Til vinterdekk</text>
+    <text x="525" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">September/Oktober</text>
+    
+    <!-- To summer tires -->
+    <circle cx="275" cy="100" r="8" fill="#E67E22"/>
+    <line x1="275" y1="92" x2="275" y2="120" stroke="#E67E22" stroke-width="2"/>
+    <text x="275" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E67E22" font-weight="bold">Til sommerdekk</text>
+    <text x="275" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">April/Mai</text>
+  </g>
+  
+  <!-- Tire period indicators -->
+  <rect x="100" y="200" width="175" height="15" fill="#3498DB" opacity="0.7" rx="7"/>
+  <text x="187" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white" font-weight="bold">Vinterdekk periode</text>
+  
+  <rect x="275" y="200" width="250" height="15" fill="#E67E22" opacity="0.7" rx="7"/>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white" font-weight="bold">Sommerdekk periode</text>
+  
+  <rect x="525" y="200" width="175" height="15" fill="#3498DB" opacity="0.7" rx="7"/>
+  <text x="612" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white" font-weight="bold">Vinterdekk periode</text>
+  
+  <!-- Planning checklist -->
+  <g id="planningChecklist" transform="translate(100, 250)">
+    <rect x="0" y="0" width="250" height="200" fill="#ECF0F1" rx="10" stroke="#BDC3C7" stroke-width="2"/>
+    <text x="125" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Før dekkskifte</text>
+    
+    <!-- Checklist items -->
+    <g font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+      <rect x="20" y="40" width="8" height="8" fill="#27AE60"/>
+      <text x="35" y="47">Sjekk værprognose</text>
+      
+      <rect x="20" y="60" width="8" height="8" fill="#27AE60"/>
+      <text x="35" y="67">Kontroller mønsterdybde</text>
+      
+      <rect x="20" y="80" width="8" height="8" fill="#27AE60"/>
+      <text x="35" y="87">Inspiser for skader</text>
+      
+      <rect x="20" y="100" width="8" height="8" fill="#27AE60"/>
+      <text x="35" y="107">Sjekk dekktrykk</text>
+      
+      <rect x="20" y="120" width="8" height="8" fill="#27AE60"/>
+      <text x="35" y="127">Rengjør felger</text>
+      
+      <rect x="20" y="140" width="8" height="8" fill="#27AE60"/>
+      <text x="35" y="147">Merk posisjon (VF, HB, etc.)</text>
+      
+      <rect x="20" y="160" width="8" height="8" fill="#27AE60"/>
+      <text x="35" y="167">Book time hos dekkhotell</text>
+    </g>
+  </g>
+  
+  <!-- Storage tips -->
+  <g id="storageTips" transform="translate(400, 250)">
+    <rect x="0" y="0" width="300" height="200" fill="#ECF0F1" rx="10" stroke="#BDC3C7" stroke-width="2"/>
+    <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Lagring av dekk</text>
+    
+    <!-- Storage illustrations -->
+    <g transform="translate(50, 50)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50" font-weight="bold">Med felg:</text>
+      <!-- Tires with rims stacked -->
+      <ellipse cx="0" cy="20" rx="15" ry="8" fill="#2C3E50"/>
+      <ellipse cx="0" cy="15" rx="15" ry="8" fill="#34495E"/>
+      <ellipse cx="0" cy="10" rx="15" ry="8" fill="#2C3E50"/>
+      <ellipse cx="0" cy="5" rx="15" ry="8" fill="#34495E"/>
+      <text x="25" y="15" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">Liggende, stablet</text>
+      <text x="25" y="27" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">Reduser trykk</text>
+    </g>
+    
+    <g transform="translate(50, 110)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50" font-weight="bold">Uten felg:</text>
+      <!-- Tires without rims standing -->
+      <ellipse cx="0" cy="20" rx="8" ry="15" fill="#2C3E50"/>
+      <ellipse cx="15" cy="20" rx="8" ry="15" fill="#34495E"/>
+      <ellipse cx="30" cy="20" rx="8" ry="15" fill="#2C3E50"/>
+      <ellipse cx="45" cy="20" rx="8" ry="15" fill="#34495E"/>
+      <text x="60" y="15" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">Stående</text>
+      <text x="60" y="27" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">Roter månedlig</text>
+    </g>
+    
+    <!-- Environmental factors -->
+    <g transform="translate(180, 60)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50" font-weight="bold">Miljø:</text>
+      <circle cx="10" cy="20" r="8" fill="#F39C12"/>
+      <line x1="2" y1="12" x2="18" y2="28" stroke="#E74C3C" stroke-width="2"/>
+      <text x="25" y="15" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">Unngå sol</text>
+      
+      <rect x="5" y="35" width="10" height="10" fill="#3498DB"/>
+      <line x1="0" y1="30" x2="20" y2="50" stroke="#E74C3C" stroke-width="2"/>
+      <text x="25" y="42" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">Unngå fuktighet</text>
+      
+      <circle cx="10" cy="65" r="8" fill="#95A5A6"/>
+      <text x="6" y="69" font-family="Arial, sans-serif" font-size="6" fill="white" font-weight="bold">15°C</text>
+      <text x="25" y="67" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">Stabil temperatur</text>
+    </g>
+  </g>
+  
+  <!-- Regional variations -->
+  <rect x="50" y="460" width="700" height="30" fill="#3498DB" opacity="0.2" rx="10"/>
+  <text x="400" y="477" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980B9">Regional variasjon: Nord-Norge skifter tidligere til vinterdekk (september), Sør-Norge kan vente til oktober</text>
+</svg>

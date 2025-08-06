@@ -1,0 +1,180 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Forebyggende Teknikker mot Møteulykker
+  </text>
+  
+  <!-- Road illustration -->
+  <rect x="0" y="350" width="900" height="120" fill="#6c757d"/>
+  <line x1="0" y1="410" x2="900" y2="410" stroke="#fff" stroke-width="4" stroke-dasharray="30,20"/>
+  
+  <!-- Technique 1: Hastighetstilpasning -->
+  <g id="speed-control">
+    <rect x="50" y="80" width="180" height="120" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="10"/>
+    <text x="140" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#155724">
+      Hastighetstilpasning
+    </text>
+    
+    <!-- Speed gauge -->
+    <circle cx="140" cy="140" r="25" fill="#fff" stroke="#28a745" stroke-width="3"/>
+    <path d="M140 115 L140 140 L155 150" stroke="#dc3545" stroke-width="3" fill="none"/>
+    <text x="140" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#155724">
+      Tilpass hastighet til:
+    </text>
+    <text x="140" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#155724">
+      • Sikt • Veiforhold • Trafikk
+    </text>
+    
+    <!-- Car with appropriate speed -->
+    <rect x="100" y="330" width="80" height="30" fill="#28a745" rx="5"/>
+    <circle cx="115" cy="365" r="8" fill="#343a40"/>
+    <circle cx="165" cy="365" r="8" fill="#343a40"/>
+    <text x="140" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#28a745">
+      Tilpasset hastighet
+    </text>
+  </g>
+  
+  <!-- Technique 2: Optimal plassering -->
+  <g id="positioning">
+    <rect x="250" y="80" width="180" height="120" fill="#cce5ff" stroke="#007bff" stroke-width="2" rx="10"/>
+    <text x="340" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#004085">
+      Optimal Plassering
+    </text>
+    
+    <!-- Lane positioning illustration -->
+    <rect x="300" y="120" width="80" height="60" fill="#fff" stroke="#007bff" stroke-width="2" rx="5"/>
+    <line x1="340" y1="130" x2="340" y2="170" stroke="#007bff" stroke-width="2" stroke-dasharray="5,5"/>
+    <rect x="320" y="140" width="40" height="15" fill="#007bff" rx="3"/>
+    <text x="340" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#004085">
+      Hold deg sentralt i eget felt
+    </text>
+    
+    <!-- Correctly positioned car -->
+    <rect x="300" y="330" width="80" height="30" fill="#007bff" rx="5"/>
+    <circle cx="315" cy="365" r="8" fill="#343a40"/>
+    <circle cx="365" cy="365" r="8" fill="#343a40"/>
+    <text x="340" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#007bff">
+      Korrekt plassering
+    </text>
+  </g>
+  
+  <!-- Technique 3: Risikovurdering -->
+  <g id="risk-assessment">
+    <rect x="450" y="80" width="180" height="120" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+    <text x="540" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#856404">
+      Risikovurdering
+    </text>
+    
+    <!-- Eye symbol for scanning -->
+    <ellipse cx="540" cy="140" rx="20" ry="15" fill="#fff" stroke="#ffc107" stroke-width="2"/>
+    <circle cx="540" cy="140" r="8" fill="#856404"/>
+    <text x="540" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#856404">
+      Kontinuerlig</text>
+    <text x="540" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#856404">
+      skanning</text>
+    <text x="540" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#856404">
+      • Frem • Bak • Til siden
+    </text>
+    
+    <!-- Alert car -->
+    <rect x="500" y="330" width="80" height="30" fill="#ffc107" rx="5"/>
+    <circle cx="515" cy="365" r="8" fill="#343a40"/>
+    <circle cx="565" cy="365" r="8" fill="#343a40"/>
+    <text x="540" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">
+      Oppmerksomhet
+    </text>
+  </g>
+  
+  <!-- Technique 4: Sikkerhetssystemer -->
+  <g id="safety-systems">
+    <rect x="650" y="80" width="180" height="120" fill="#e2e3f0" stroke="#6f42c1" stroke-width="2" rx="10"/>
+    <text x="740" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4c2c92">
+      Sikkerhetssystemer
+    </text>
+    
+    <!-- Tech symbols -->
+    <rect x="700" y="120" width="80" height="40" fill="#fff" stroke="#6f42c1" stroke-width="2" rx="5"/>
+    <text x="740" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#4c2c92">
+      ESP
+    </text>
+    <text x="740" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#4c2c92">
+      ABS
+    </text>
+    <text x="740" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4c2c92">
+      Kjørefeltassistent
+    </text>
+    <text x="740" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4c2c92">
+      Nødbremsing
+    </text>
+    
+    <!-- High-tech car -->
+    <rect x="700" y="330" width="80" height="30" fill="#6f42c1" rx="5"/>
+    <circle cx="715" cy="365" r="8" fill="#343a40"/>
+    <circle cx="765" cy="365" r="8" fill="#343a40"/>
+    <text x="740" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#6f42c1">
+      Moderne teknologi
+    </text>
+  </g>
+  
+  <!-- 3-second rule illustration -->
+  <g id="distance-rule">
+    <text x="450" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#495057">
+      3-Sekunders Regelen
+    </text>
+    
+    <!-- Leading car -->
+    <rect x="250" y="380" width="60" height="25" fill="#6c757d" rx="3"/>
+    <circle cx="265" cy="410" r="6" fill="#343a40"/>
+    <circle cx="295" cy="410" r="6" fill="#343a40"/>
+    
+    <!-- Following car -->
+    <rect x="400" y="380" width="60" height="25" fill="#28a745" rx="3"/>
+    <circle cx="415" cy="410" r="6" fill="#343a40"/>
+    <circle cx="445" cy="410" r="6" fill="#343a40"/>
+    
+    <!-- Distance arrows -->
+    <path d="M320 390 L390 390" stroke="#dc3545" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M390 390 L320 390" stroke="#dc3545" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#dc3545"/>
+      </marker>
+    </defs>
+    
+    <text x="355" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">
+      3 sek
+    </text>
+    
+    <!-- Time measurement -->
+    <text x="450" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#495057">
+      Tell: "1001, 1002, 1003" når forankjørende passerer et fast punkt
+    </text>
+    <text x="450" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">
+      Øk til 4-6 sekunder ved dårlige forhold
+    </text>
+  </g>
+  
+  <!-- Communication illustration -->
+  <g id="communication">
+    <rect x="600" y="380" width="60" height="25" fill="#fd7e14" rx="3"/>
+    <circle cx="615" cy="410" r="6" fill="#343a40"/>
+    <circle cx="645" cy="410" r="6" fill="#343a40"/>
+    
+    <!-- Blinker signals -->
+    <circle cx="665" cy="390" r="5" fill="#ffc107"/>
+    <circle cx="675" cy="385" r="4" fill="#ffc107" opacity="0.7"/>
+    <circle cx="685" cy="380" r="3" fill="#ffc107" opacity="0.4"/>
+    
+    <text x="750" y="385" font-family="Arial, sans-serif" font-size="12" fill="#fd7e14" font-weight="bold">
+      Kommunikasjon
+    </text>
+    <text x="680" y="405" font-family="Arial, sans-serif" font-size="10" fill="#6c757d">
+      Signal intensjoner tidlig
+    </text>
+  </g>
+</svg>

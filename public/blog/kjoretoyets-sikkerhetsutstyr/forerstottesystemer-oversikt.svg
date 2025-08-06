@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 24px sans-serif; }
+    .subtitle { font: italic 16px sans-serif; }
+  </style>
+  <text x="400" y="40" text-anchor="middle" class="title">Førerstøttesystemer og automatisk kjøring</text>
+  <text x="400" y="80" text-anchor="middle" class="subtitle">Waymo, ryggesystemer, parkeringsassistent, filholder m.m.</text>
+</svg>

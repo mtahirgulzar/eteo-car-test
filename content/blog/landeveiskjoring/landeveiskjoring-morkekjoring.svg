@@ -1,0 +1,9 @@
+<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c5282; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="800" height="150" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="400" y="80" class="title">Mørkekjøring</text>
+</svg>

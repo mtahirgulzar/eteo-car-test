@@ -1,0 +1,219 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c3e50; text-anchor: middle; }
+      .subtitle { font: bold 16px Arial; fill: #34495e; text-anchor: middle; }
+      .step { font: bold 14px Arial; fill: #fff; text-anchor: middle; }
+      .label { font: 12px Arial; fill: #2c3e50; }
+      .tip { font: 11px Arial; fill: #e74c3c; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" class="title">Rygging med tilhenger</text>
+  
+  <!-- Step 1: Straight backing -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="15" height="15" fill="#3498db"/>
+    <text x="7" y="11" class="step">1</text>
+    <text x="25" y="12" font="14px Arial" fill="#2c3e50">Rett rygging</text>
+    
+    <!-- Illustration -->
+    <g transform="translate(0, 25)">
+      <!-- Desired path -->
+      <rect x="50" y="20" width="150" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+      
+      <!-- Car and trailer -->
+      <rect x="40" y="25" width="40" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <rect x="85" y="30" width="30" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+      <circle cx="55" cy="50" r="4" fill="#34495e"/>
+      <circle cx="70" cy="50" r="4" fill="#34495e"/>
+      <circle cx="100" cy="50" r="3" fill="#34495e"/>
+      
+      <!-- Direction arrow -->
+      <line x1="20" y1="35" x2="35" y2="35" stroke="#27ae60" stroke-width="3" marker-end="url(#arrow)"/>
+      <text x="27" y="20" font="10px Arial" fill="#27ae60" text-anchor="middle">Rygging</text>
+    </g>
+    
+    <text x="20" y="90" class="label">• Hold rattet rett</text>
+    <text x="20" y="105" class="tip">• Korriger små avvik tidlig</text>
+  </g>
+  
+  <!-- Step 2: Left turn -->
+  <g transform="translate(300, 60)">
+    <rect x="0" y="0" width="15" height="15" fill="#e67e22"/>
+    <text x="7" y="11" class="step">2</text>
+    <text x="25" y="12" font="14px Arial" fill="#2c3e50">Sving til venstre</text>
+    
+    <!-- Illustration -->
+    <g transform="translate(0, 25)">
+      <!-- Initial position -->
+      <rect x="80" y="10" width="40" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <rect x="125" y="15" width="30" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+      
+      <!-- Final position after backing -->
+      <rect x="40" y="40" width="40" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2" fill-opacity="0.5"/>
+      <rect x="85" y="45" width="30" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" fill-opacity="0.5"/>
+      
+      <!-- Curved path -->
+      <path d="M100 30 Q60 40 60 50" stroke="#e67e22" stroke-width="3" fill="none" stroke-dasharray="3,3"/>
+      
+      <!-- Steering wheel indication -->
+      <circle cx="20" cy="35" r="10" fill="none" stroke="#e67e22" stroke-width="2"/>
+      <line x1="20" y1="25" x2="20" y2="35" stroke="#e67e22" stroke-width="2"/>
+      <text x="20" y="20" font="8px Arial" fill="#e67e22" text-anchor="middle">Høyre</text>
+    </g>
+    
+    <text x="20" y="90" class="label">• Ratt til høyre</text>
+    <text x="20" y="105" class="tip">• Tilhenger svinger til venstre</text>
+  </g>
+  
+  <!-- Step 3: Right turn -->
+  <g transform="translate(550, 60)">
+    <rect x="0" y="0" width="15" height="15" fill="#27ae60"/>
+    <text x="7" y="11" class="step">3</text>
+    <text x="25" y="12" font="14px Arial" fill="#2c3e50">Sving til høyre</text>
+    
+    <!-- Illustration -->
+    <g transform="translate(0, 25)">
+      <!-- Initial position -->
+      <rect x="80" y="10" width="40" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <rect x="125" y="15" width="30" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+      
+      <!-- Final position after backing -->
+      <rect x="120" y="40" width="40" height="20" fill="#3498db" stroke="#2980b9" stroke-width="2" fill-opacity="0.5"/>
+      <rect x="165" y="45" width="30" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" fill-opacity="0.5"/>
+      
+      <!-- Curved path -->
+      <path d="M100 30 Q140 40 140 50" stroke="#27ae60" stroke-width="3" fill="none" stroke-dasharray="3,3"/>
+      
+      <!-- Steering wheel indication -->
+      <circle cx="20" cy="35" r="10" fill="none" stroke="#27ae60" stroke-width="2"/>
+      <line x1="10" y1="35" x2="20" y2="35" stroke="#27ae60" stroke-width="2"/>
+      <text x="20" y="20" font="8px Arial" fill="#27ae60" text-anchor="middle">Venstre</text>
+    </g>
+    
+    <text x="20" y="90" class="label">• Ratt til venstre</text>
+    <text x="20" y="105" class="tip">• Tilhenger svinger til høyre</text>
+  </g>
+  
+  <!-- Hand position technique -->
+  <g transform="translate(50, 200)">
+    <rect x="0" y="0" width="300" height="120" fill="#e8f5e8" stroke="#27ae60" stroke-width="2" rx="10"/>
+    <text x="150" y="25" class="subtitle">Håndstilling for kontroll</text>
+    
+    <!-- Steering wheel -->
+    <circle cx="150" cy="70" r="30" fill="none" stroke="#2c3e50" stroke-width="3"/>
+    <circle cx="150" cy="70" r="25" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+    
+    <!-- Hand position -->
+    <circle cx="150" cy="100" r="5" fill="#e74c3c"/>
+    <text x="150" y="115" font="10px Arial" fill="#e74c3c" text-anchor="middle">Hånd nederst</text>
+    
+    <!-- Direction arrows -->
+    <line x1="120" y1="100" x2="105" y2="100" stroke="#27ae60" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="95" y="95" font="8px Arial" fill="#27ae60">Venstre</text>
+    <text x="85" y="108" font="8px Arial" fill="#555">Tilhenger høyre</text>
+    
+    <line x1="180" y1="100" x2="195" y2="100" stroke="#e67e22" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="205" y="95" font="8px Arial" fill="#e67e22">Høyre</text>
+    <text x="200" y="108" font="8px Arial" fill="#555">Tilhenger venstre</text>
+  </g>
+  
+  <!-- Common mistakes -->
+  <g transform="translate(400, 200)">
+    <rect x="0" y="0" width="350" height="120" fill="#fff5f5" stroke="#e74c3c" stroke-width="2" rx="10"/>
+    <text x="175" y="25" class="subtitle">⚠ Vanlige feil ved rygging</text>
+    
+    <g transform="translate(20, 40)">
+      <text x="0" y="0" class="tip">✗ For lange drag uten korreksjon</text>
+      <text x="0" y="20" class="tip">✗ Overstyre når det begynner å gå galt</text>
+      <text x="0" y="40" class="tip">✗ For høy hastighet</text>
+      <text x="0" y="60" class="tip">✗ Ikke bruke spotter/hjelper</text>
+    </g>
+    
+    <g transform="translate(200, 40)">
+      <text x="0" y="0" font="12px Arial" fill="#27ae60">✓ Bedre teknikk:</text>
+      <text x="0" y="20" font="10px Arial" fill="#555">• Korte drag med hyppige stopp</text>
+      <text x="0" y="35" font="10px Arial" fill="#555">• Kjør ut og start på nytt</text>
+      <text x="0" y="50" font="10px Arial" fill="#555">• Svært lav hastighet</text>
+      <text x="0" y="65" font="10px Arial" fill="#555">• Be om hjelp til å guide</text>
+    </g>
+  </g>
+  
+  <!-- Parking scenarios -->
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="700" height="200" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="subtitle">Vanlige ryggescenarier</text>
+    
+    <!-- Backing to ramp -->
+    <g transform="translate(50, 50)">
+      <text x="75" y="0" font="12px Arial" fill="#2c3e50" text-anchor="middle">Rygging til rampe</text>
+      
+      <!-- Ramp -->
+      <polygon points="20,60 100,60 120,80 0,80" fill="#7f8c8d" stroke="#34495e" stroke-width="2"/>
+      
+      <!-- Target position -->
+      <rect x="40" y="50" width="30" height="10" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="3,3"/>
+      
+      <!-- Approach path -->
+      <path d="M60 20 L60 50" stroke="#3498db" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+      
+      <text x="75" y="100" font="10px Arial" fill="#555" text-anchor="middle">Bruk markeringskegler</text>
+      <text x="75" y="115" font="10px Arial" fill="#555" text-anchor="middle">som hjelpemidler</text>
+    </g>
+    
+    <!-- Backing into tight space -->
+    <g transform="translate(250, 50)">
+      <text x="75" y="0" font="12px Arial" fill="#2c3e50" text-anchor="middle">Rygging mellom biler</text>
+      
+      <!-- Parked cars -->
+      <rect x="10" y="60" width="30" height="15" fill="#34495e"/>
+      <rect x="110" y="60" width="30" height="15" fill="#34495e"/>
+      
+      <!-- Target space -->
+      <rect x="50" y="50" width="50" height="25" fill="none" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,5"/>
+      
+      <!-- Approach angle -->
+      <path d="M75 20 Q85 35 75 50" stroke="#e67e22" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+      
+      <text x="75" y="100" font="10px Arial" fill="#555" text-anchor="middle">Start med vinkel</text>
+      <text x="75" y="115" font="10px Arial" fill="#555" text-anchor="middle">for å unngå hindringer</text>
+    </g>
+    
+    <!-- 90-degree backing -->
+    <g transform="translate(450, 50)">
+      <text x="75" y="0" font="12px Arial" fill="#2c3e50" text-anchor="middle">90° rygging</text>
+      
+      <!-- Corner -->
+      <line x1="20" y1="40" x2="20" y2="80" stroke="#34495e" stroke-width="3"/>
+      <line x1="20" y1="80" x2="60" y2="80" stroke="#34495e" stroke-width="3"/>
+      
+      <!-- Target position -->
+      <rect x="25" y="60" width="30" height="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="3,3"/>
+      
+      <!-- Two-step approach -->
+      <path d="M75 20 L75 50 Q60 60 40 60" stroke="#8e44ad" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+      
+      <text x="75" y="100" font="10px Arial" fill="#555" text-anchor="middle">To-trinns manøver:</text>
+      <text x="75" y="115" font="10px Arial" fill="#555" text-anchor="middle">1. Rett bakover, 2. Sving</text>
+    </g>
+    
+    <!-- Pro tip -->
+    <g transform="translate(50, 140)">
+      <text x="0" y="0" font="12px Arial" fill="#f39c12">💡 Profftips:</text>
+      <text x="100" y="0" font="11px Arial" fill="#2c3e50">Øv på rygging på tom parkeringsplass med kegler før du må bruke det i praksis!</text>
+      <text x="100" y="20" font="11px Arial" fill="#2c3e50">Start med små, lette tilhengere før du prøver deg på store og tunge.</text>
+    </g>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2c3e50"/>
+    </marker>
+  </defs>
+</svg>

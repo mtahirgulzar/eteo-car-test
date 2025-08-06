@@ -1,0 +1,204 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2d3748">
+    Speil-Signal-Skuldersjekk metoden for feltskifte
+  </text>
+  
+  <!-- Step 1: Mirror Check -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="200" height="100" rx="8" fill="#bee3f8" stroke="#2b6cb0" stroke-width="2"/>
+    
+    <text x="100" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2b6cb0">
+      1. SPEIL (Mirror)
+    </text>
+    
+    <!-- Car with mirrors highlighted -->
+    <rect x="85" y="35" width="30" height="18" rx="3" fill="#4299e1"/>
+    <rect x="87" y="38" width="26" height="12" rx="2" fill="#bee3f8"/>
+    <circle cx="90" cy="58" r="3" fill="#2d3748"/>
+    <circle cx="110" cy="58" r="3" fill="#2d3748"/>
+    
+    <!-- Rear mirror -->
+    <rect x="95" y="30" width="10" height="4" rx="2" fill="#2d3748" stroke="#2b6cb0" stroke-width="2"/>
+    <!-- Side mirrors -->
+    <rect x="80" y="40" width="4" height="3" rx="1" fill="#2d3748" stroke="#2b6cb0" stroke-width="2"/>
+    <rect x="116" y="40" width="4" height="3" rx="1" fill="#2d3748" stroke="#2b6cb0" stroke-width="2"/>
+    
+    <!-- Check lines -->
+    <g stroke="#2b6cb0" stroke-width="2" stroke-dasharray="3,3" opacity="0.7">
+      <path d="M 78 42 L 60 30"/>
+      <path d="M 78 42 L 50 50"/>
+      <path d="M 78 42 L 60 65"/>
+      <path d="M 122 42 L 140 30"/>
+      <path d="M 122 42 L 150 50"/>
+      <path d="M 122 42 L 140 65"/>
+      <path d="M 95 30 L 85 15"/>
+      <path d="M 105 30 L 115 15"/>
+    </g>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2d3748">
+      Sjekk backspeil og sidespeil
+    </text>
+    <text x="100" y="87" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2d3748">
+      for trafikk i ønsket felt
+    </text>
+  </g>
+  
+  <!-- Step 2: Signal -->
+  <g transform="translate(300, 50)">
+    <rect x="0" y="0" width="200" height="100" rx="8" fill="#c6f6d5" stroke="#38a169" stroke-width="2"/>
+    
+    <text x="100" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#38a169">
+      2. SIGNAL (Signal)
+    </text>
+    
+    <!-- Car with turn signal -->
+    <rect x="85" y="35" width="30" height="18" rx="3" fill="#4299e1"/>
+    <rect x="87" y="38" width="26" height="12" rx="2" fill="#bee3f8"/>
+    <circle cx="90" cy="58" r="3" fill="#2d3748"/>
+    <circle cx="110" cy="58" r="3" fill="#2d3748"/>
+    
+    <!-- Turn signal arrows -->
+    <g fill="#ffd700">
+      <polygon points="120,42 130,46 120,50"/>
+      <polygon points="125,42 135,46 125,50"/>
+    </g>
+    
+    <!-- Signal lines radiating -->
+    <g stroke="#ffd700" stroke-width="3" opacity="0.8">
+      <path d="M 130 46 L 150 40"/>
+      <path d="M 130 46 L 155 46"/>
+      <path d="M 130 46 L 150 52"/>
+    </g>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2d3748">
+      Blink minst 3-5 sekunder
+    </text>
+    <text x="100" y="87" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2d3748">
+      før du begynner manøveren
+    </text>
+  </g>
+  
+  <!-- Step 3: Shoulder Check -->
+  <g transform="translate(550, 50)">
+    <rect x="0" y="0" width="200" height="100" rx="8" fill="#fed7d7" stroke="#e53e3e" stroke-width="2"/>
+    
+    <text x="100" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#e53e3e">
+      3. SKULDERSJEKK
+    </text>
+    
+    <!-- Car with driver looking over shoulder -->
+    <rect x="85" y="35" width="30" height="18" rx="3" fill="#4299e1"/>
+    <rect x="87" y="38" width="26" height="12" rx="2" fill="#bee3f8"/>
+    <circle cx="90" cy="58" r="3" fill="#2d3748"/>
+    <circle cx="110" cy="58" r="3" fill="#2d3748"/>
+    
+    <!-- Driver head turned -->
+    <circle cx="95" cy="44" r="3" fill="#f7fafc"/>
+    <path d="M 95 44 Q 105 40 110 45" fill="none" stroke="#e53e3e" stroke-width="2"/>
+    
+    <!-- Blind spot area -->
+    <path d="M 115 35 Q 140 40 145 55 Q 140 70 115 65" fill="#fed7d7" opacity="0.7" stroke="#e53e3e" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="130" y="50" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#e53e3e" font-weight="bold">Blindsone</text>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2d3748">
+      Rask blikk over skulderen
+    </text>
+    <text x="100" y="87" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2d3748">
+      for å sjekke blindsonen
+    </text>
+  </g>
+  
+  <!-- Road demonstration -->
+  <g transform="translate(0, 180)">
+    <!-- Multi-lane road -->
+    <rect x="100" y="80" width="600" height="120" fill="#4a5568"/>
+    <!-- Lane markings -->
+    <rect x="100" y="75" width="600" height="3" fill="#ffd700"/>
+    <rect x="100" y="203" width="600" height="3" fill="#ffd700"/>
+    <!-- Center lane divider -->
+    <g fill="#ffd700">
+      <rect x="120" y="137" width="20" height="3"/>
+      <rect x="160" y="137" width="20" height="3"/>
+      <rect x="200" y="137" width="20" height="3"/>
+      <rect x="240" y="137" width="20" height="3"/>
+      <rect x="280" y="137" width="20" height="3"/>
+      <rect x="320" y="137" width="20" height="3"/>
+      <rect x="360" y="137" width="20" height="3"/>
+      <rect x="400" y="137" width="20" height="3"/>
+      <rect x="440" y="137" width="20" height="3"/>
+      <rect x="480" y="137" width="20" height="3"/>
+      <rect x="520" y="137" width="20" height="3"/>
+      <rect x="560" y="137" width="20" height="3"/>
+      <rect x="600" y="137" width="20" height="3"/>
+      <rect x="640" y="137" width="20" height="3"/>
+    </g>
+    
+    <!-- Main car changing lanes -->
+    <rect x="300" y="150" width="40" height="20" rx="4" fill="#4299e1"/>
+    <rect x="304" y="154" width="32" height="12" rx="2" fill="#bee3f8"/>
+    <circle cx="310" cy="175" r="4" fill="#2d3748"/>
+    <circle cx="330" cy="175" r="4" fill="#2d3748"/>
+    
+    <!-- Turn signal -->
+    <polygon points="342,158 352,162 342,166" fill="#ffd700"/>
+    
+    <!-- Cars in target lane -->
+    <rect x="450" y="150" width="35" height="18" rx="3" fill="#38a169"/>
+    <circle cx="457" cy="173" r="3" fill="#2d3748"/>
+    <circle cx="478" cy="173" r="3" fill="#2d3748"/>
+    
+    <rect x="200" y="150" width="35" height="18" rx="3" fill="#805ad5"/>
+    <circle cx="207" cy="173" r="3" fill="#2d3748"/>
+    <circle cx="228" cy="173" r="3" fill="#2d3748"/>
+    
+    <!-- Car behind in same lane -->
+    <rect x="150" y="185" width="35" height="18" rx="3" fill="#e53e3e"/>
+    <circle cx="157" cy="208" r="3" fill="#2d3748"/>
+    <circle cx="178" cy="208" r="3" fill="#2d3748"/>
+    
+    <!-- Mirror vision lines -->
+    <g stroke="#2b6cb0" stroke-width="2" opacity="0.6" stroke-dasharray="2,2">
+      <!-- Rear mirror -->
+      <path d="M 315 150 L 170 195"/>
+      <!-- Left mirror -->
+      <path d="M 300 160 L 220 160"/>
+      <path d="M 300 160 L 460 160"/>
+    </g>
+    
+    <!-- Blind spot indicator -->
+    <ellipse cx="380" cy="159" rx="25" ry="15" fill="none" stroke="#e53e3e" stroke-width="3" stroke-dasharray="5,5"/>
+    <text x="380" y="164" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#e53e3e" font-weight="bold">Blindsone</text>
+    
+    <!-- Gap measurement -->
+    <g stroke="#38a169" stroke-width="2" fill="#38a169">
+      <path d="M 345 140 L 445 140" stroke-dasharray="3,3"/>
+      <polygon points="445,137 455,140 445,143"/>
+      <polygon points="355,137 345,140 355,143"/>
+      <text x="400" y="135" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">Trygg åpning</text>
+    </g>
+    
+    <!-- Labels -->
+    <text x="320" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4299e1" font-weight="bold">Bil som skifter felt</text>
+    <text x="467" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#38a169" font-weight="bold">Bil foran i målfeltet</text>
+    <text x="217" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#805ad5" font-weight="bold">Bil bak i målfeltet</text>
+  </g>
+  
+  <!-- Bottom tips -->
+  <g transform="translate(50, 330)">
+    <rect x="0" y="0" width="700" height="50" rx="5" fill="#f7fafc" stroke="#4a5568" stroke-width="1"/>
+    
+    <text x="350" y="18" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2d3748">
+      Viktige tips for trygg feltskifte
+    </text>
+    
+    <g font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      <text x="20" y="35">✓ Planlegg i god tid - ikke lastminuttmanøvrer</text>
+      <text x="250" y="35">✓ Ikke press deg inn i for små åpninger</text>
+      <text x="500" y="35">✓ Skuldersjekk er obligatorisk - speilene ser ikke alt</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c3e50; text-anchor: middle; }
+      .subtitle { font: bold 16px Arial; fill: #34495e; text-anchor: middle; }
+      .label { font: 14px Arial; fill: #2c3e50; text-anchor: middle; }
+      .weight { font: bold 12px Arial; fill: #e74c3c; text-anchor: middle; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" class="title">Tilhengertyper - Oversikt</text>
+  
+  <!-- Bagasjehenger -->
+  <g transform="translate(120, 80)">
+    <rect x="0" y="0" width="80" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="85" y="10" width="60" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+    <circle cx="20" cy="50" r="8" fill="#34495e"/>
+    <circle cx="60" cy="50" r="8" fill="#34495e"/>
+    <circle cx="115" cy="40" r="6" fill="#34495e"/>
+    <circle cx="130" cy="40" r="6" fill="#34495e"/>
+    <text x="72" y="80" class="label">Bagasjehenger</text>
+    <text x="72" y="95" class="weight">200-500 kg</text>
+  </g>
+  
+  <!-- Båthenger -->
+  <g transform="translate(320, 80)">
+    <rect x="0" y="0" width="80" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <path d="M85 30 L145 10 L145 30 Z" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+    <circle cx="20" cy="50" r="8" fill="#34495e"/>
+    <circle cx="60" cy="50" r="8" fill="#34495e"/>
+    <circle cx="115" cy="40" r="6" fill="#34495e"/>
+    <circle cx="130" cy="40" r="6" fill="#34495e"/>
+    <text x="72" y="80" class="label">Båthenger</text>
+    <text x="72" y="95" class="weight">500-2000 kg</text>
+  </g>
+  
+  <!-- Campinghenger -->
+  <g transform="translate(520, 80)">
+    <rect x="0" y="0" width="80" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="85" y="5" width="60" height="30" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+    <rect x="90" y="10" width="15" height="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <rect x="110" y="10" width="15" height="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <circle cx="20" cy="50" r="8" fill="#34495e"/>
+    <circle cx="60" cy="50" r="8" fill="#34495e"/>
+    <circle cx="115" cy="40" r="6" fill="#34495e"/>
+    <circle cx="130" cy="40" r="6" fill="#34495e"/>
+    <text x="72" y="80" class="label">Campinghenger</text>
+    <text x="72" y="95" class="weight">800-2500 kg</text>
+  </g>
+  
+  <!-- Hestehenger -->
+  <g transform="translate(120, 200)">
+    <rect x="0" y="0" width="80" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="85" y="0" width="60" height="40" fill="#8e44ad" stroke="#732d91" stroke-width="2"/>
+    <rect x="90" y="5" width="10" height="15" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <rect x="135" y="5" width="8" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <circle cx="20" cy="50" r="8" fill="#34495e"/>
+    <circle cx="60" cy="50" r="8" fill="#34495e"/>
+    <circle cx="115" cy="50" r="8" fill="#34495e"/>
+    <circle cx="130" cy="50" r="8" fill="#34495e"/>
+    <text x="72" y="80" class="label">Hestehenger</text>
+    <text x="72" y="95" class="weight">1000-3500 kg</text>
+  </g>
+  
+  <!-- Maskinhenger -->
+  <g transform="translate(320, 200)">
+    <rect x="0" y="0" width="80" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="85" y="10" width="60" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+    <rect x="100" y="5" width="30" height="20" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <circle cx="20" cy="50" r="8" fill="#34495e"/>
+    <circle cx="60" cy="50" r="8" fill="#34495e"/>
+    <circle cx="105" cy="40" r="8" fill="#34495e"/>
+    <circle cx="125" cy="40" r="8" fill="#34495e"/>
+    <text x="72" y="80" class="label">Maskinhenger</text>
+    <text x="72" y="95" class="weight">1500-3500 kg</text>
+  </g>
+  
+  <!-- Førerkort oversikt -->
+  <g transform="translate(520, 200)">
+    <rect x="0" y="20" width="160" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="80" y="15" class="subtitle">Førerkortskrav</text>
+    <text x="80" y="40" class="label">B: Til 750 kg</text>
+    <text x="80" y="55" class="label">B96: Til 4250 kg</text>
+    <text x="80" y="70" class="label">BE: Til 7000 kg</text>
+    <text x="80" y="85" class="label">(avhengig av bil)</text>
+  </g>
+  
+  <!-- Stability info -->
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="700" height="200" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="10"/>
+    <text x="350" y="30" class="subtitle">Viktige hensyn ved valg av tilhenger</text>
+    
+    <text x="80" y="60" class="label">Tyngdepunkt:</text>
+    <text x="80" y="75" font="12px Arial" fill="#555">• Lavt tyngdepunkt = bedre stabilitet</text>
+    <text x="80" y="90" font="12px Arial" fill="#555">• Høyt tyngdepunkt = økt veltrisiko</text>
+    
+    <text x="350" y="60" class="label">Vindpåvirkning:</text>
+    <text x="350" y="75" font="12px Arial" fill="#555">• Stor vindflate = mer vindpåvirkning</text>
+    <text x="350" y="90" font="12px Arial" fill="#555">• Aerodynamisk form = bedre stabilitet</text>
+    
+    <text x="80" y="120" class="label">Vektfordeling:</text>
+    <text x="80" y="135" font="12px Arial" fill="#555">• 60-70% over akslene</text>
+    <text x="80" y="150" font="12px Arial" fill="#555">• Kuletrykk 4-7% av totalvekt</text>
+    
+    <text x="350" y="120" class="label">Lovkrav:</text>
+    <text x="350" y="135" font="12px Arial" fill="#555">• Over 750 kg: Registrering påkrevd</text>
+    <text x="350" y="150" font="12px Arial" fill="#555">• Egne bremser og EU-kontroll</text>
+    
+    <text x="80" y="180" font="12px Arial" fill="#e74c3c">⚠ Husk å sjekke bilens maksimale tilhengervekt i vognkortet</text>
+  </g>
+</svg>

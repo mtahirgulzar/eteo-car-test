@@ -1,0 +1,132 @@
+<svg width="500" height="360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="360" fill="#f9f9f9"/>
+  
+  <!-- Title -->
+  <text x="250" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c5530">
+    Transportalternativer og miljøpåvirkning
+  </text>
+  
+  <!-- CO2 emissions comparison chart -->
+  <g transform="translate(50, 60)">
+    <!-- Chart background -->
+    <rect x="0" y="0" width="400" height="200" fill="white" stroke="#ccc" stroke-width="1" rx="5"/>
+    
+    <!-- Chart title -->
+    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      CO₂-utslipp per person per km (gram)
+    </text>
+    
+    <!-- Y-axis -->
+    <line x1="40" y1="40" x2="40" y2="170" stroke="#666" stroke-width="1"/>
+    
+    <!-- Y-axis labels -->
+    <text x="35" y="45" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#666">200</text>
+    <text x="35" y="70" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#666">150</text>
+    <text x="35" y="95" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#666">100</text>
+    <text x="35" y="120" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#666">50</text>
+    <text x="35" y="145" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#666">0</text>
+    
+    <!-- Grid lines -->
+    <g stroke="#e0e0e0" stroke-width="0.5">
+      <line x1="40" y1="45" x2="380" y2="45"/>
+      <line x1="40" y1="70" x2="380" y2="70"/>
+      <line x1="40" y1="95" x2="380" y2="95"/>
+      <line x1="40" y1="120" x2="380" y2="120"/>
+      <line x1="40" y1="145" x2="380" y2="145"/>
+    </g>
+    
+    <!-- Bars -->
+    <!-- Walking (0) -->
+    <rect x="60" y="170" width="40" height="0" fill="#4CAF50"/>
+    <text x="80" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32" font-weight="bold">Gåing</text>
+    <text x="80" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#4CAF50" font-weight="bold">0</text>
+    
+    <!-- Cycling (0) -->
+    <rect x="110" y="170" width="40" height="0" fill="#4CAF50"/>
+    <text x="130" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32" font-weight="bold">Sykling</text>
+    <text x="130" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#4CAF50" font-weight="bold">0</text>
+    
+    <!-- Bus (60) -->
+    <rect x="160" y="122" width="40" height="48" fill="#8BC34A"/>
+    <text x="180" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#558B2F" font-weight="bold">Buss</text>
+    <text x="180" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#558B2F" font-weight="bold">60</text>
+    
+    <!-- Train (40) -->
+    <rect x="210" y="138" width="40" height="32" fill="#8BC34A"/>
+    <text x="230" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#558B2F" font-weight="bold">Tog</text>
+    <text x="230" y="131" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#558B2F" font-weight="bold">40</text>
+    
+    <!-- Electric car (50) -->
+    <rect x="260" y="130" width="40" height="40" fill="#FF9800"/>
+    <text x="280" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#F57C00" font-weight="bold">Elbil</text>
+    <text x="280" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#F57C00" font-weight="bold">50*</text>
+    
+    <!-- Hybrid car (90) -->
+    <rect x="310" y="98" width="40" height="72" fill="#FF5722"/>
+    <text x="330" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#D84315" font-weight="bold">Hybrid</text>
+    <text x="330" y="91" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#D84315" font-weight="bold">90</text>
+    
+    <!-- Petrol car (180) -->
+    <rect x="360" y="54" width="40" height="116" fill="#f44336"/>
+    <text x="380" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#C62828" font-weight="bold">Bensin</text>
+    <text x="380" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#C62828" font-weight="bold">180</text>
+  </g>
+  
+  <!-- Note about electric cars -->
+  <text x="250" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">
+    *Elbil: Inkluderer utslipp fra strømproduksjon (norsk strømmiks)
+  </text>
+  
+  <!-- Transport mode illustrations -->
+  <g transform="translate(50, 300)">
+    <!-- Walking figure -->
+    <g transform="translate(30, 0)">
+      <circle cx="0" cy="-5" r="3" fill="#4CAF50"/>
+      <line x1="0" y1="2" x2="0" y2="15" stroke="#4CAF50" stroke-width="2"/>
+      <line x1="0" y1="8" x2="-5" y2="12" stroke="#4CAF50" stroke-width="2"/>
+      <line x1="0" y1="8" x2="5" y2="4" stroke="#4CAF50" stroke-width="2"/>
+      <line x1="0" y1="15" x2="-3" y2="22" stroke="#4CAF50" stroke-width="2"/>
+      <line x1="0" y1="15" x2="3" y2="22" stroke="#4CAF50" stroke-width="2"/>
+    </g>
+    
+    <!-- Bicycle -->
+    <g transform="translate(80, 10)">
+      <circle cx="-8" cy="8" r="6" fill="none" stroke="#4CAF50" stroke-width="2"/>
+      <circle cx="8" cy="8" r="6" fill="none" stroke="#4CAF50" stroke-width="2"/>
+      <line x1="-8" y1="8" x2="8" y2="8" stroke="#4CAF50" stroke-width="2"/>
+      <line x1="0" y1="8" x2="0" y2="0" stroke="#4CAF50" stroke-width="2"/>
+      <line x1="0" y1="0" x2="-4" y2="-4" stroke="#4CAF50" stroke-width="2"/>
+    </g>
+    
+    <!-- Bus -->
+    <g transform="translate(130, 5)">
+      <rect x="0" y="0" width="30" height="15" rx="2" fill="#8BC34A"/>
+      <rect x="2" y="2" width="6" height="4" fill="#E3F2FD"/>
+      <rect x="10" y="2" width="6" height="4" fill="#E3F2FD"/>
+      <rect x="18" y="2" width="6" height="4" fill="#E3F2FD"/>
+      <circle cx="8" cy="18" r="3" fill="#424242"/>
+      <circle cx="22" cy="18" r="3" fill="#424242"/>
+    </g>
+    
+    <!-- Car -->
+    <g transform="translate(230, 5)">
+      <rect x="0" y="0" width="25" height="12" rx="2" fill="#FF5722"/>
+      <rect x="2" y="2" width="8" height="4" fill="#E3F2FD"/>
+      <rect x="12" y="2" width="8" height="4" fill="#E3F2FD"/>
+      <circle cx="6" cy="15" r="3" fill="#424242"/>
+      <circle cx="19" cy="15" r="3" fill="#424242"/>
+    </g>
+  </g>
+  
+  <!-- Recommendations box -->
+  <g transform="translate(50, 330)">
+    <rect x="0" y="0" width="400" height="25" fill="#E8F5E8" stroke="#4CAF50" stroke-width="1" rx="3"/>
+    <text x="10" y="12" font-family="Arial, sans-serif" font-size="10" fill="#2c5530">
+      <tspan font-weight="bold">Miljøvennlige valg:</tspan> Gå/sykl på korte turer • Bruk kollektivtransport • Velg elbil/hybrid ved bilkjøp
+    </text>
+    <text x="10" y="22" font-family="Arial, sans-serif" font-size="10" fill="#2c5530">
+      <tspan font-weight="bold">Samkjøring:</tspan> Deling av bil kan redusere utslipp per person med opptil 75%
+    </text>
+  </g>
+</svg>

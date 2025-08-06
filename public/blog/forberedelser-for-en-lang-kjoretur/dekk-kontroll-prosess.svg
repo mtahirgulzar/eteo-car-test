@@ -1,0 +1,95 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tireGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A202C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#F7FAFC"/>
+  
+  <!-- Header -->
+  <text x="400" y="30" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Dekk Kontroll Prosess</text>
+  
+  <!-- Step 1: Tire pressure -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="150" height="120" fill="#E6FFFA" stroke="#38B2AC" stroke-width="2" rx="8"/>
+    <text x="75" y="20" text-anchor="middle" fill="#2C7A7B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">1. Dekktrykk</text>
+    
+    <!-- Tire illustration -->
+    <circle cx="75" cy="65" r="25" fill="url(#tireGradient)"/>
+    <circle cx="75" cy="65" r="15" fill="#718096"/>
+    
+    <!-- Pressure gauge -->
+    <rect x="60" y="95" width="30" height="8" fill="#4A90E2" rx="2"/>
+    <text x="75" y="115" text-anchor="middle" fill="#2C7A7B" font-family="Arial, sans-serif" font-size="10">Sjekk kaldt dekk</text>
+  </g>
+  
+  <!-- Step 2: Tread depth -->
+  <g transform="translate(250, 80)">
+    <rect x="0" y="0" width="150" height="120" fill="#F0FFF4" stroke="#68D391" stroke-width="2" rx="8"/>
+    <text x="75" y="20" text-anchor="middle" fill="#276749" font-family="Arial, sans-serif" font-size="14" font-weight="bold">2. Mønsterdybde</text>
+    
+    <!-- Tire cross-section -->
+    <path d="M 40 50 Q 75 30 110 50 Q 75 90 40 50" fill="url(#tireGradient)"/>
+    <path d="M 45 50 L 50 45 M 55 50 L 60 45 M 65 50 L 70 45 M 75 50 L 80 45 M 85 50 L 90 45 M 95 50 L 100 45 M 105 50 L 110 45" stroke="#F7FAFC" stroke-width="2"/>
+    
+    <!-- Coin test -->
+    <circle cx="75" cy="45" r="8" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+    <text x="75" y="49" text-anchor="middle" fill="#B7791F" font-family="Arial, sans-serif" font-size="10" font-weight="bold">1kr</text>
+    <text x="75" y="115" text-anchor="middle" fill="#276749" font-family="Arial, sans-serif" font-size="10">Min. 1,6 mm</text>
+  </g>
+  
+  <!-- Step 3: Sidewall inspection -->
+  <g transform="translate(450, 80)">
+    <rect x="0" y="0" width="150" height="120" fill="#FFFAF0" stroke="#ED8936" stroke-width="2" rx="8"/>
+    <text x="75" y="20" text-anchor="middle" fill="#C05621" font-family="Arial, sans-serif" font-size="14" font-weight="bold">3. Sidevegg</text>
+    
+    <!-- Tire side view -->
+    <ellipse cx="75" cy="65" rx="30" ry="25" fill="url(#tireGradient)"/>
+    <ellipse cx="75" cy="65" rx="20" ry="15" fill="#718096"/>
+    
+    <!-- Damage indicators -->
+    <path d="M 50 70 Q 45 65 50 60" stroke="#E53E3E" stroke-width="2" fill="none"/>
+    <circle cx="100" cy="55" r="3" fill="#E53E3E"/>
+    
+    <text x="75" y="115" text-anchor="middle" fill="#C05621" font-family="Arial, sans-serif" font-size="10">Sjekk for skader</text>
+  </g>
+  
+  <!-- Step 4: Wear pattern -->
+  <g transform="translate(650, 80)">
+    <rect x="0" y="0" width="120" height="120" fill="#FFF5F5" stroke="#F56565" stroke-width="2" rx="8"/>
+    <text x="60" y="20" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="14" font-weight="bold">4. Slitasje</text>
+    
+    <!-- Tire with uneven wear -->
+    <rect x="30" y="40" width="60" height="30" fill="url(#tireGradient)" rx="15"/>
+    <rect x="35" y="45" width="15" height="20" fill="#4A5568" rx="2"/>
+    <rect x="45" y="50" width="20" height="15" fill="#4A5568" rx="2"/>
+    <rect x="70" y="47" width="12" height="18" fill="#4A5568" rx="2"/>
+    
+    <text x="60" y="90" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="9">Ujevn slitasje =</text>
+    <text x="60" y="105" text-anchor="middle" fill="#C53030" font-family="Arial, sans-serif" font-size="9">hjulstilling</text>
+  </g>
+  
+  <!-- Process arrows -->
+  <path d="M 200 140 L 240 140" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 400 140 L 440 140" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 600 140 L 640 140" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4A90E2"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom tips -->
+  <rect x="50" y="250" width="700" height="120" fill="#EDF2F7" stroke="#CBD5E0" stroke-width="1" rx="8"/>
+  <text x="400" y="275" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Viktige Tips for Dekkkontroll</text>
+  
+  <text x="70" y="300" fill="#4A5568" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Sjekk dekktrykk når dekk er kaldt (ikke kjørt de siste 3 timene)</text>
+  <text x="70" y="320" fill="#4A5568" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Bruk mynttest: 1-krone skal ikke være synlig i mønsteret</text>
+  <text x="70" y="340" fill="#4A5568" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Vinterdekk: minimum 3 mm mønsterdybde anbefalt</text>
+  <text x="70" y="360" fill="#4A5568" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Bytt dekk hvis du finner kutt, bulker eller ujevn slitasje</text>
+</svg>

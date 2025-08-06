@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f9f9f9"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" fill="#333">Hvordan skaffe førerkort</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+  <g font-family="Arial,sans-serif" font-size="36" fill="#333" text-anchor="middle">
+    <rect x="300" y="120" width="600" height="60" fill="#ffffff" stroke="#333"/>
+    <text x="600" y="160">Trafikalt grunnkurs</text>
+    <path d="M600 180 L600 220" stroke="#333" marker-end="url(#arrow)"/>
+    <rect x="300" y="220" width="600" height="60" fill="#ffffff" stroke="#333"/>
+    <text x="600" y="260">Obligatorisk opplæring</text>
+    <path d="M600 280 L600 320" stroke="#333" marker-end="url(#arrow)"/>
+    <rect x="300" y="320" width="600" height="60" fill="#ffffff" stroke="#333"/>
+    <text x="600" y="360">Teoriprøve</text>
+    <path d="M600 380 L600 420" stroke="#333" marker-end="url(#arrow)"/>
+    <rect x="300" y="420" width="600" height="60" fill="#ffffff" stroke="#333"/>
+    <text x="600" y="460">Oppkjøring</text>
+    <path d="M600 480 L600 520" stroke="#333" marker-end="url(#arrow)"/>
+    <rect x="300" y="520" width="600" height="60" fill="#ffffff" stroke="#333"/>
+    <text x="600" y="560">Utstedelse av førerkort</text>
+  </g>
+</svg>

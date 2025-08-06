@@ -1,0 +1,92 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="carGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1B5E20">
+    Moderne Bilteknologi for Miljøvennlig Kjøring
+  </text>
+  
+  <!-- Car outline -->
+  <path d="M150 350 Q120 320 140 290 L180 290 Q200 285 220 290 L550 290 Q570 285 590 290 L630 290 Q650 320 620 350 L600 350 Q595 370 575 370 L525 370 Q505 375 485 370 L315 370 Q295 375 275 370 L225 370 Q205 370 200 350 Z" 
+        fill="url(#carGradient)" stroke="#1B5E20" stroke-width="3"/>
+  
+  <!-- Wheels -->
+  <circle cx="220" cy="370" r="25" fill="#424242" stroke="#212121" stroke-width="2"/>
+  <circle cx="220" cy="370" r="15" fill="#616161"/>
+  
+  <circle cx="560" cy="370" r="25" fill="#424242" stroke="#212121" stroke-width="2"/>
+  <circle cx="560" cy="370" r="15" fill="#616161"/>
+  
+  <!-- Windows -->
+  <path d="M200 290 Q220 270 250 275 L530 275 Q560 270 580 290 L550 290 L230 290 Z" 
+        fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+  
+  <!-- Technology features with callouts -->
+  
+  <!-- Start-Stop System -->
+  <circle cx="300" cy="320" r="8" fill="#FF5722"/>
+  <line x1="300" y1="320" x2="150" y2="200" stroke="#FF5722" stroke-width="2"/>
+  <rect x="50" y="180" width="200" height="40" fill="white" stroke="#FF5722" stroke-width="2" rx="5"/>
+  <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF5722">
+    Start-Stopp Teknologi
+  </text>
+  
+  <!-- Eco Mode -->
+  <circle cx="400" cy="310" r="8" fill="#4CAF50"/>
+  <line x1="400" y1="310" x2="400" y2="150" stroke="#4CAF50" stroke-width="2"/>
+  <rect x="320" y="130" width="160" height="40" fill="white" stroke="#4CAF50" stroke-width="2" rx="5"/>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4CAF50">
+    Eco-Modus
+  </text>
+  
+  <!-- Adaptive Cruise Control -->
+  <circle cx="500" cy="320" r="8" fill="#2196F3"/>
+  <line x1="500" y1="320" x2="650" y2="200" stroke="#2196F3" stroke-width="2"/>
+  <rect x="550" y="180" width="200" height="40" fill="white" stroke="#2196F3" stroke-width="2" rx="5"/>
+  <text x="650" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2196F3">
+    Adaptiv Cruisekontroll
+  </text>
+  
+  <!-- Fuel Economy Display -->
+  <rect x="350" y="300" width="100" height="30" fill="#263238" stroke="#37474F" stroke-width="2" rx="3"/>
+  <text x="400" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4CAF50">
+    5.2 L/100km
+  </text>
+  
+  <!-- Regenerative Braking -->
+  <circle cx="220" cy="340" r="6" fill="#FF9800"/>
+  <circle cx="560" cy="340" r="6" fill="#FF9800"/>
+  <line x1="220" y1="340" x2="100" y2="450" stroke="#FF9800" stroke-width="2"/>
+  <rect x="20" y="430" width="160" height="40" fill="white" stroke="#FF9800" stroke-width="2" rx="5"/>
+  <text x="100" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF9800">
+    Regenerativ Bremsing
+  </text>
+  
+  <!-- Real-time consumption monitor -->
+  <line x1="400" y1="330" x2="600" y2="450" stroke="#9C27B0" stroke-width="2"/>
+  <rect x="520" y="430" width="160" height="40" fill="white" stroke="#9C27B0" stroke-width="2" rx="5"/>
+  <text x="600" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9C27B0">
+    Realtids Forbruksmåler
+  </text>
+  
+  <!-- Bottom info box -->
+  <rect x="50" y="520" width="700" height="60" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2" rx="8"/>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1B5E20">
+    Intelligente Kjøreassistentsystemer
+  </text>
+  <text x="400" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2E7D32">
+    Kan redusere drivstofforbruk med 5-15% når de brukes riktig
+  </text>
+</svg>

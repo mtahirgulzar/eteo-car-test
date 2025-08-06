@@ -1,0 +1,115 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="summerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFE066;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF9500;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="winterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2E5BBA;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="spikedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8E44AD;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5D2A7B;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2C3E50">Oversikt over dekkregler i Norge</text>
+  
+  <!-- Summer Tire Section -->
+  <rect x="50" y="70" width="150" height="120" rx="10" fill="url(#summerGrad)" opacity="0.3"/>
+  <circle cx="125" cy="110" r="30" fill="url(#summerGrad)"/>
+  <text x="125" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">SOMMER</text>
+  <text x="125" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Sommerdekk</text>
+  <text x="125" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Min: 1,6 mm</text>
+  <text x="125" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Hele året</text>
+  
+  <!-- Winter Tire Section -->
+  <rect x="230" y="70" width="150" height="120" rx="10" fill="url(#winterGrad)" opacity="0.3"/>
+  <circle cx="305" cy="110" r="30" fill="url(#winterGrad)"/>
+  <text x="305" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">VINTER</text>
+  <text x="305" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Piggfrie vinterdekk</text>
+  <text x="305" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Min: 3,0 mm</text>
+  <text x="305" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Okt - April</text>
+  
+  <!-- Spiked Tire Section -->
+  <rect x="410" y="70" width="150" height="120" rx="10" fill="url(#spikedGrad)" opacity="0.3"/>
+  <circle cx="485" cy="110" r="30" fill="url(#spikedGrad)"/>
+  <text x="485" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">PIGG</text>
+  <text x="485" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Piggdekk</text>
+  <text x="485" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Min: 3,0 mm</text>
+  <text x="485" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Nov - Påske+7</text>
+  
+  <!-- Chains Section -->
+  <rect x="590" y="70" width="150" height="120" rx="10" fill="#34495E" opacity="0.3"/>
+  <g transform="translate(665,110)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#34495E" stroke-width="3"/>
+    <circle cx="-8" cy="-8" r="3" fill="#34495E"/>
+    <circle cx="8" cy="-8" r="3" fill="#34495E"/>
+    <circle cx="8" cy="8" r="3" fill="#34495E"/>
+    <circle cx="-8" cy="8" r="3" fill="#34495E"/>
+  </g>
+  <text x="665" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Kjetting</text>
+  <text x="665" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Ved behov</text>
+  <text x="665" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Maks 50 km/t</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#BDC3C7" stroke-width="2"/>
+  
+  <!-- Month markers -->
+  <g font-family="Arial, sans-serif" font-size="10" fill="#7F8C8D">
+    <text x="100" y="270" text-anchor="middle">Jan</text>
+    <text x="150" y="270" text-anchor="middle">Feb</text>
+    <text x="200" y="270" text-anchor="middle">Mar</text>
+    <text x="250" y="270" text-anchor="middle">Apr</text>
+    <text x="300" y="270" text-anchor="middle">Mai</text>
+    <text x="350" y="270" text-anchor="middle">Jun</text>
+    <text x="400" y="270" text-anchor="middle">Jul</text>
+    <text x="450" y="270" text-anchor="middle">Aug</text>
+    <text x="500" y="270" text-anchor="middle">Sep</text>
+    <text x="550" y="270" text-anchor="middle">Okt</text>
+    <text x="600" y="270" text-anchor="middle">Nov</text>
+    <text x="650" y="270" text-anchor="middle">Des</text>
+  </g>
+  
+  <!-- Periods -->
+  <rect x="100" y="230" width="600" height="8" fill="url(#summerGrad)" opacity="0.5"/>
+  <text x="400" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E67E22">Sommerdekk tillatt hele året</text>
+  
+  <rect x="500" y="210" width="200" height="8" fill="url(#winterGrad)"/>
+  <rect x="100" y="210" width="125" height="8" fill="url(#winterGrad)"/>
+  <text x="400" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">Piggfrie vinterdekk anbefalt periode</text>
+  
+  <rect x="550" y="190" width="150" height="8" fill="url(#spikedGrad)"/>
+  <rect x="100" y="190" width="125" height="8" fill="url(#spikedGrad)"/>
+  <text x="400" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8E44AD">Piggdekk tillatt periode</text>
+  
+  <!-- Mønsterdybde visualization -->
+  <text x="50" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Mønsterdybde krav:</text>
+  
+  <!-- 1.6mm indicator -->
+  <rect x="50" y="390" width="200" height="20" fill="#E74C3C" opacity="0.3"/>
+  <rect x="50" y="390" width="32" height="20" fill="#E74C3C"/>
+  <text x="60" y="403" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">1,6mm</text>
+  <text x="260" y="403" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Sommerdekk minimum</text>
+  
+  <!-- 3.0mm indicator -->
+  <rect x="50" y="420" width="200" height="20" fill="#3498DB" opacity="0.3"/>
+  <rect x="50" y="420" width="60" height="20" fill="#3498DB"/>
+  <text x="80" y="433" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">3,0mm</text>
+  <text x="260" y="433" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Vinterdekk minimum</text>
+  
+  <!-- Temperature guide -->
+  <text x="500" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Temperaturguide:</text>
+  <rect x="500" y="390" width="20" height="50" fill="url(#winterGrad)"/>
+  <text x="530" y="400" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Under 7°C</text>
+  <text x="530" y="413" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Vinterdekk anbefalt</text>
+  
+  <rect x="500" y="450" width="20" height="30" fill="url(#summerGrad)"/>
+  <text x="530" y="460" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Over 7°C</text>
+  <text x="530" y="473" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Sommerdekk OK</text>
+</svg>

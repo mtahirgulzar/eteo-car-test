@@ -1,0 +1,125 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px Arial; fill: #2c3e50; text-anchor: middle; }
+      .category { font: bold 18px Arial; fill: #fff; text-anchor: middle; }
+      .weight { font: bold 16px Arial; fill: #2c3e50; text-anchor: middle; }
+      .requirement { font: 14px Arial; fill: #2c3e50; }
+      .label { font: 12px Arial; fill: #34495e; text-anchor: middle; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" class="title">Førerkortskrav for tilhenger</text>
+  
+  <!-- Class B -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="200" height="120" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="10"/>
+    <text x="100" y="30" class="category">Klasse B</text>
+    <text x="100" y="50" fill="#fff" font="14px Arial" text-anchor="middle">Vanlig førerkort</text>
+    
+    <text x="20" y="75" fill="#fff" font="12px Arial">• Tilhenger til 750 kg</text>
+    <text x="20" y="90" fill="#fff" font="12px Arial">• Vogntog maks 3500 kg</text>
+    <text x="20" y="105" fill="#fff" font="12px Arial">• Ingen ekstra prøve</text>
+  </g>
+  
+  <!-- Weight illustration for B -->
+  <g transform="translate(50, 220)">
+    <rect x="20" y="0" width="60" height="30" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="90" y="10" width="40" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+    <circle cx="35" cy="40" r="6" fill="#34495e"/>
+    <circle cx="65" cy="40" r="6" fill="#34495e"/>
+    <circle cx="110" cy="35" r="4" fill="#34495e"/>
+    <text x="75" y="65" class="weight">Maks 750 kg</text>
+  </g>
+  
+  <!-- Class B96 -->
+  <g transform="translate(300, 80)">
+    <rect x="0" y="0" width="200" height="120" fill="#e67e22" stroke="#d35400" stroke-width="2" rx="10"/>
+    <text x="100" y="30" class="category">B96</text>
+    <text x="100" y="50" fill="#fff" font="14px Arial" text-anchor="middle">Utvidelse</text>
+    
+    <text x="20" y="75" fill="#fff" font="12px Arial">• Vogntog 3500-4250 kg</text>
+    <text x="20" y="90" fill="#fff" font="12px Arial">• 7 timers kurs</text>
+    <text x="20" y="105" fill="#fff" font="12px Arial">• Ingen oppkjøring</text>
+  </g>
+  
+  <!-- Weight illustration for B96 -->
+  <g transform="translate(300, 220)">
+    <rect x="20" y="0" width="60" height="30" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="90" y="5" width="50" height="25" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+    <circle cx="35" cy="40" r="6" fill="#34495e"/>
+    <circle cx="65" cy="40" r="6" fill="#34495e"/>
+    <circle cx="105" cy="40" r="6" fill="#34495e"/>
+    <circle cx="125" cy="40" r="6" fill="#34495e"/>
+    <text x="85" y="65" class="weight">Maks 4250 kg</text>
+  </g>
+  
+  <!-- Class BE -->
+  <g transform="translate(550, 80)">
+    <rect x="0" y="0" width="200" height="120" fill="#27ae60" stroke="#229954" stroke-width="2" rx="10"/>
+    <text x="100" y="30" class="category">BE</text>
+    <text x="100" y="50" fill="#fff" font="14px Arial" text-anchor="middle">Full tilhengerkompetanse</text>
+    
+    <text x="20" y="75" fill="#fff" font="12px Arial">• Vogntog til 7000 kg</text>
+    <text x="20" y="90" fill="#fff" font="12px Arial">• Praktisk oppkjøring</text>
+    <text x="20" y="105" fill="#fff" font="12px Arial">• Teoretisk prøve</text>
+  </g>
+  
+  <!-- Weight illustration for BE -->
+  <g transform="translate(550, 220)">
+    <rect x="20" y="0" width="60" height="30" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="90" y="0" width="60" height="30" fill="#27ae60" stroke="#229954" stroke-width="2"/>
+    <circle cx="35" cy="40" r="6" fill="#34495e"/>
+    <circle cx="65" cy="40" r="6" fill="#34495e"/>
+    <circle cx="105" cy="40" r="6" fill="#34495e"/>
+    <circle cx="135" cy="40" r="6" fill="#34495e"/>
+    <text x="85" y="65" class="weight">Maks 7000 kg</text>
+  </g>
+  
+  <!-- Decision tree -->
+  <g transform="translate(50, 320)">
+    <rect x="0" y="0" width="700" height="150" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="10"/>
+    <text x="350" y="25" class="weight">Hvilket førerkort trenger du?</text>
+    
+    <!-- Decision flowchart -->
+    <g transform="translate(50, 40)">
+      <rect x="0" y="0" width="150" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+      <text x="75" y="25" font="12px Arial" fill="#fff" text-anchor="middle">Tilhenger &lt; 750 kg?</text>
+      
+      <line x1="150" y1="20" x2="200" y2="20" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="175" y="15" font="10px Arial" fill="#27ae60">JA</text>
+      
+      <rect x="200" y="0" width="100" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="5"/>
+      <text x="250" y="25" font="12px Arial" fill="#fff" text-anchor="middle">Klasse B</text>
+      
+      <line x1="75" y1="40" x2="75" y2="70" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="85" y="60" font="10px Arial" fill="#e74c3c">NEI</text>
+      
+      <rect x="0" y="70" width="150" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+      <text x="75" y="95" font="12px Arial" fill="#fff" text-anchor="middle">Vogntog &lt; 4250 kg?</text>
+      
+      <line x1="150" y1="90" x2="200" y2="90" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="175" y="85" font="10px Arial" fill="#27ae60">JA</text>
+      
+      <rect x="200" y="70" width="100" height="40" fill="#e67e22" stroke="#d35400" stroke-width="2" rx="5"/>
+      <text x="250" y="95" font="12px Arial" fill="#fff" text-anchor="middle">B96</text>
+      
+      <line x1="310" y1="90" x2="360" y2="90" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="335" y="85" font="10px Arial" fill="#e74c3c">NEI</text>
+      
+      <rect x="360" y="70" width="100" height="40" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+      <text x="410" y="95" font="12px Arial" fill="#fff" text-anchor="middle">BE</text>
+    </g>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+</svg>

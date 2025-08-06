@@ -1,0 +1,16 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="100" r="50" fill="none" stroke="#000"/>
+  <text x="150" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="14">
+    Hovedkrets
+  </text>
+  <circle cx="450" cy="100" r="50" fill="none" stroke="#000"/>
+  <text x="450" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="14">
+    Hjelpeskrets
+  </text>
+  <rect x="280" y="20" width="40" height="40" fill="none" stroke="#000"/>
+  <text x="300" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    Resevoar
+  </text>
+  <line x1="200" y1="100" x2="260" y2="40" stroke="#000"/>
+  <line x1="400" y1="100" x2="320" y2="60" stroke="#000"/>
+</svg>

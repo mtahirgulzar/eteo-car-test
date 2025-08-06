@@ -1,0 +1,267 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Fremtidens Parkeringsløsninger
+  </text>
+  
+  <!-- Autonomous parking -->
+  <g transform="translate(50, 80)">
+    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">
+      Selvparkerende Biler
+    </text>
+    
+    <!-- Parking garage structure -->
+    <rect x="0" y="40" width="300" height="150" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    <rect x="0" y="40" width="300" height="30" fill="#34495e"/>
+    
+    <!-- Parking levels -->
+    <line x1="0" y1="100" x2="300" y2="100" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="0" y1="130" x2="300" y2="130" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="0" y1="160" x2="300" y2="160" stroke="#bdc3c7" stroke-width="1"/>
+    
+    <!-- Autonomous cars -->
+    <rect x="20" y="105" width="30" height="15" rx="3" fill="#3498db"/>
+    <rect x="60" y="105" width="30" height="15" rx="3" fill="#e74c3c"/>
+    <rect x="100" y="105" width="30" height="15" rx="3" fill="#f39c12"/>
+    
+    <rect x="20" y="135" width="30" height="15" rx="3" fill="#9b59b6"/>
+    <rect x="60" y="135" width="30" height="15" rx="3" fill="#27ae60"/>
+    
+    <!-- Sensors/signals -->
+    <circle cx="35" cy="112" r="2" fill="#fff"/>
+    <circle cx="75" cy="112" r="2" fill="#fff"/>
+    <circle cx="115" cy="112" r="2" fill="#fff"/>
+    
+    <!-- Control system -->
+    <rect x="200" y="80" width="80" height="60" rx="8" fill="#2c3e50"/>
+    <text x="240" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">
+      AI Kontroll
+    </text>
+    <text x="240" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">
+      System
+    </text>
+    <rect x="210" y="125" width="60" height="10" rx="2" fill="#3498db"/>
+    
+    <text x="150" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+      Optimal plassbruk - 40% færre parkeringsplasser nødvendig
+    </text>
+  </g>
+  
+  <!-- Smart city parking -->
+  <g transform="translate(450, 80)">
+    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">
+      Smart By-parkering
+    </text>
+    
+    <!-- City blocks -->
+    <rect x="0" y="40" width="60" height="60" fill="#95a5a6"/>
+    <rect x="80" y="40" width="60" height="60" fill="#95a5a6"/>
+    <rect x="160" y="40" width="60" height="60" fill="#95a5a6"/>
+    <rect x="240" y="40" width="60" height="60" fill="#95a5a6"/>
+    
+    <rect x="0" y="120" width="60" height="60" fill="#95a5a6"/>
+    <rect x="80" y="120" width="60" height="60" fill="#95a5a6"/>
+    <rect x="160" y="120" width="60" height="60" fill="#95a5a6"/>
+    <rect x="240" y="120" width="60" height="60" fill="#95a5a6"/>
+    
+    <!-- Green spaces instead of parking -->
+    <circle cx="30" cy="70" r="20" fill="#27ae60"/>
+    <circle cx="110" cy="70" r="20" fill="#27ae60"/>
+    <circle cx="190" cy="150" r="20" fill="#27ae60"/>
+    <circle cx="270" cy="150" r="20" fill="#27ae60"/>
+    
+    <!-- Trees -->
+    <circle cx="30" cy="65" r="8" fill="#2ecc71"/>
+    <rect x="28" y="73" width="4" height="8" fill="#8b4513"/>
+    
+    <circle cx="110" cy="65" r="8" fill="#2ecc71"/>
+    <rect x="108" y="73" width="4" height="8" fill="#8b4513"/>
+    
+    <circle cx="190" cy="145" r="8" fill="#2ecc71"/>
+    <rect x="188" y="153" width="4" height="8" fill="#8b4513"/>
+    
+    <circle cx="270" cy="145" r="8" fill="#2ecc71"/>
+    <rect x="268" y="153" width="4" height="8" fill="#8b4513"/>
+    
+    <!-- Underground parking indicator -->
+    <rect x="80" y="190" width="140" height="20" fill="#34495e"/>
+    <text x="150" y="203" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">
+      Underjordisk parkering
+    </text>
+    
+    <text x="150" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+      Mer grøntområder - mindre overflate-parkering
+    </text>
+  </g>
+  
+  <!-- Mobile app integration -->
+  <g transform="translate(50, 320)">
+    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9b59b6">
+      Integrerte Mobilløsninger
+    </text>
+    
+    <!-- Phone mockup -->
+    <rect x="50" y="40" width="100" height="180" rx="15" fill="#2c3e50"/>
+    <rect x="60" y="55" width="80" height="140" fill="#fff"/>
+    <circle cx="100" cy="210" r="8" fill="#34495e"/>
+    
+    <!-- App interface -->
+    <rect x="65" y="60" width="70" height="25" fill="#3498db"/>
+    <text x="100" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">
+      ParkSmart
+    </text>
+    
+    <!-- Map view -->
+    <rect x="65" y="90" width="70" height="60" fill="#ecf0f1"/>
+    <!-- Map elements -->
+    <rect x="70" y="95" width="20" height="15" fill="#27ae60"/>
+    <rect x="95" y="95" width="20" height="15" fill="#e74c3c"/>
+    <rect x="120" y="95" width="10" height="15" fill="#f39c12"/>
+    
+    <rect x="70" y="115" width="20" height="15" fill="#27ae60"/>
+    <rect x="95" y="115" width="20" height="15" fill="#27ae60"/>
+    <rect x="120" y="115" width="10" height="15" fill="#e74c3c"/>
+    
+    <rect x="70" y="135" width="20" height="15" fill="#e74c3c"/>
+    <rect x="95" y="135" width="20" height="15" fill="#f39c12"/>
+    <rect x="120" y="135" width="10" height="15" fill="#27ae60"/>
+    
+    <!-- Status indicators -->
+    <circle cx="80" cy="102" r="2" fill="#fff"/>
+    <circle cx="105" cy="102" r="2" fill="#fff"/>
+    <circle cx="80" cy="122" r="2" fill="#fff"/>
+    <circle cx="105" cy="122" r="2" fill="#fff"/>
+    
+    <!-- Action buttons -->
+    <rect x="65" y="155" width="30" height="15" rx="3" fill="#27ae60"/>
+    <text x="80" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">BOOK</text>
+    
+    <rect x="105" y="155" width="30" height="15" rx="3" fill="#3498db"/>
+    <text x="120" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">PAY</text>
+    
+    <rect x="65" y="175" width="70" height="15" rx="3" fill="#f39c12"/>
+    <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">NAVIGATE</text>
+    
+    <!-- Features list -->
+    <g transform="translate(200, 50)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+        App-funksjoner:
+      </text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Sanntids oversikt over ledige plasser</text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Forhåndsbooking og betaling</text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Navigasjon til valgt parkeringsplass</text>
+      <text x="0" y="65" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Automatisk forlengelse ved behov</text>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Historikk og statistikk</text>
+      <text x="0" y="95" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Varsling før utløp</text>
+      <text x="0" y="110" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Integrert med kollektivtransport</text>
+      
+      <!-- Cost comparison -->
+      <rect x="0" y="130" width="180" height="60" rx="8" fill="#d5f4e6" stroke="#27ae60" stroke-width="1"/>
+      <text x="10" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">
+        Miljø- og kostnadsbesparelser:
+      </text>
+      <text x="10" y="165" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• 30% mindre tid brukt på å lete</text>
+      <text x="10" y="178" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• 25% reduksjon i CO2-utslipp</text>
+    </g>
+  </g>
+  
+  <!-- Sharing economy -->
+  <g transform="translate(450, 320)">
+    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">
+      Delingsøkonomi og Transport
+    </text>
+    
+    <!-- Car sharing -->
+    <g transform="translate(0, 40)">
+      <circle cx="50" cy="50" r="40" fill="#3498db" opacity="0.2"/>
+      <rect x="35" y="40" width="30" height="15" rx="3" fill="#3498db"/>
+      <circle cx="40" cy="55" r="3" fill="#2c3e50"/>
+      <circle cx="60" cy="55" r="3" fill="#2c3e50"/>
+      
+      <!-- Multiple users -->
+      <circle cx="110" cy="30" r="8" fill="#f39c12"/>
+      <circle cx="130" cy="50" r="8" fill="#27ae60"/>
+      <circle cx="110" cy="70" r="8" fill="#e74c3c"/>
+      
+      <!-- Sharing arrows -->
+      <path d="M 90 40 L 75 45 M 85 35 L 90 40 L 85 45" stroke="#7f8c8d" stroke-width="1" fill="none"/>
+      <path d="M 90 60 L 75 55 M 85 55 L 90 60 L 85 65" stroke="#7f8c8d" stroke-width="1" fill="none"/>
+      
+      <text x="50" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Bildeling</text>
+    </g>
+    
+    <!-- Multimodal transport -->
+    <g transform="translate(200, 40)">
+      <!-- Car -->
+      <rect x="10" y="40" width="25" height="12" rx="2" fill="#3498db"/>
+      <circle cx="15" cy="57" r="3" fill="#2c3e50"/>
+      <circle cx="30" cy="57" r="3" fill="#2c3e50"/>
+      
+      <!-- Plus sign -->
+      <text x="50" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">+</text>
+      
+      <!-- Bike -->
+      <circle cx="70" cy="50" r="6" fill="none" stroke="#27ae60" stroke-width="2"/>
+      <circle cx="85" cy="50" r="6" fill="none" stroke="#27ae60" stroke-width="2"/>
+      <line x1="70" y1="44" x2="85" y2="44" stroke="#27ae60" stroke-width="2"/>
+      <line x1="77" y1="38" x2="77" y2="44" stroke="#27ae60" stroke-width="2"/>
+      
+      <!-- Plus sign -->
+      <text x="105" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">+</text>
+      
+      <!-- Bus -->
+      <rect x="115" y="40" width="30" height="15" rx="3" fill="#f39c12"/>
+      <rect x="120" y="43" width="20" height="9" rx="1" fill="#fff"/>
+      <circle cx="122" cy="58" r="3" fill="#2c3e50"/>
+      <circle cx="138" cy="58" r="3" fill="#2c3e50"/>
+      
+      <text x="77" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Multimodal transport</text>
+    </g>
+    
+    <!-- Benefits -->
+    <g transform="translate(0, 140)">
+      <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+        Fremtidens transportmønster
+      </text>
+      
+      <rect x="0" y="30" width="300" height="80" rx="8" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Færre privatbiler - mer deling</text>
+      <text x="20" y="65" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Integrerte transportløsninger</text>
+      <text x="20" y="80" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• 60-80% reduksjon i parkeringsbehov</text>
+      <text x="20" y="95" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Grønnere bymiljøer</text>
+    </g>
+  </g>
+  
+  <!-- Timeline -->
+  <g transform="translate(50, 520)">
+    <text x="350" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Tidslinje for Implementering
+    </text>
+    
+    <!-- Timeline line -->
+    <line x1="0" y1="50" x2="700" y2="50" stroke="#bdc3c7" stroke-width="3"/>
+    
+    <!-- 2025 -->
+    <circle cx="100" cy="50" r="8" fill="#3498db"/>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">2025</text>
+    <text x="100" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Smart apper</text>
+    
+    <!-- 2030 -->
+    <circle cx="300" cy="50" r="8" fill="#f39c12"/>
+    <text x="300" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">2030</text>
+    <text x="300" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Semi-autonomt</text>
+    
+    <!-- 2035 -->
+    <circle cx="500" cy="50" r="8" fill="#27ae60"/>
+    <text x="500" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">2035</text>
+    <text x="500" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Helautonomt</text>
+    
+    <!-- 2040+ -->
+    <circle cx="650" cy="50" r="8" fill="#9b59b6"/>
+    <text x="650" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">2040+</text>
+    <text x="650" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Smart byer</text>
+  </g>
+</svg>

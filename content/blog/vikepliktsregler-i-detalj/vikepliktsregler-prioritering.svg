@@ -1,0 +1,8 @@
+<svg width="300" height="120" xmlns="http://www.w3.org/2000/svg">
+  <style>text{font-family:Arial; font-size:14px}</style>
+  <text x="10" y="20">Prioriteringsrekkefølge ved vikeplikt:</text>
+  <text x="20" y="45">1. Politi/vaktmester</text>
+  <text x="20" y="65">2. Trafikklys</text>
+  <text x="20" y="85">3. Trafikkskilt</text>
+  <text x="20" y="105">4. Høyreregelen</text>
+</svg>

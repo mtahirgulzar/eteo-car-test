@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedlikehold av bilen - Guide til regelmessig service og inspeksjon | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær alt om vedlikehold av bilen i Norge: serviceintervaller, sjekklister, vedlikeholdsoppgaver, kostnader og tips for sikker og driftsikker kjøring.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/vedlikehold-av-bilen/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/vedlikehold-av-bilen/article/">
+    <meta property="og:title" content="Vedlikehold av bilen - Guide til regelmessig service og inspeksjon | Eteo">
+    <meta property="og:description" content="Lær alt om vedlikehold av bilen i Norge: serviceintervaller, sjekklister, vedlikeholdsoppgaver, kostnader og tips for sikker og driftsikker kjøring.">
+    <meta property="og:image" content="//localhost:1313/images/blog/vedlikehold-av-bilen/vedlikehold-av-bilen-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vedlikehold av bilen - Guide til regelmessig service og inspeksjon | Eteo">
+    <meta name="twitter:description" content="Lær alt om vedlikehold av bilen i Norge: serviceintervaller, sjekklister, vedlikeholdsoppgaver, kostnader og tips for sikker og driftsikker kjøring.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/vedlikehold-av-bilen/vedlikehold-av-bilen-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Vedlikehold av bilen - Guide til regelmessig service og inspeksjon</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                14 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/vedlikehold-av-bilen/vedlikehold-av-bilen-image.svg" 
+                    alt="Vedlikehold av bilen - Guide til regelmessig service og inspeksjon" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/vedlikehold-av-bilen/vedlikehold-av-bilen-image.svg" alt="Vedlikehold av bilen - Guide til regelmessig service og inspeksjon" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lovkrav-og-ansvar-for-vedlikehold">Lovkrav og ansvar for vedlikehold</a></li>
+    <li><a href="#hvorfor-er-regelmessig-vedlikehold-kritisk">Hvorfor er regelmessig vedlikehold kritisk?</a>
+      <ul>
+        <li><a href="#sikkerhet">Sikkerhet</a></li>
+        <li><a href="#driftssikkerhet">Driftssikkerhet</a></li>
+        <li><a href="#ãkonomi">Ã˜konomi</a></li>
+        <li><a href="#miljã">MiljÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#detaljert-vedlikeholdsplan-og-serviceintervaller">Detaljert vedlikeholdsplan og serviceintervaller</a>
+      <ul>
+        <li><a href="#ãrlig-service-10-000---15-000-km">Ã…rlig service (10 000 - 15 000 km)</a></li>
+        <li><a href="#service-hver-30-000-km">Service hver 30 000 km</a></li>
+        <li><a href="#service-hver-60-000-km">Service hver 60 000 km</a></li>
+        <li><a href="#service-hver-120-000-km">Service hver 120 000 km</a></li>
+      </ul>
+    </li>
+    <li><a href="#daglig-og-ukentlig-sjekkliste-for-fãrere">Daglig og ukentlig sjekkliste for fÃ¸rere</a>
+      <ul>
+        <li><a href="#daglig-kontroll-fãr-kjãring">Daglig kontroll (fÃ¸r kjÃ¸ring)</a></li>
+        <li><a href="#ukentlig-kontroll">Ukentlig kontroll</a></li>
+        <li><a href="#mãnedlig-kontroll">MÃ¥nedlig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#kritiske-vedlikeholdsoppgaver-i-detalj">Kritiske vedlikeholdsoppgaver i detalj</a>
+      <ul>
+        <li><a href="#motorolje---bilens-livsnerve">Motorolje - bilens livsnerve</a></li>
+        <li><a href="#dekk-og-bremser---kritiske-sikkerhetssystemer">Dekk og bremser - kritiske sikkerhetssystemer</a></li>
+        <li><a href="#vãsker-og-filtre---bilens-sirkulasjonssystem">VÃ¦sker og filtre - bilens sirkulasjonssystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#sãrlige-vedlikeholdsbehov-i-norge">SÃ¦rlige vedlikeholdsbehov i Norge</a>
+      <ul>
+        <li><a href="#vintervedlikehold">Vintervedlikehold</a></li>
+        <li><a href="#miljãtilpasning-og-bãrekraft">MiljÃ¸tilpasning og bÃ¦rekraft</a></li>
+      </ul>
+    </li>
+    <li><a href="#verksted-vs-egenvedlikehold">Verksted vs. egenvedlikehold</a>
+      <ul>
+        <li><a href="#profesjonelt-verksted">Profesjonelt verksted</a></li>
+        <li><a href="#egenvedlikehold">Egenvedlikehold</a></li>
+      </ul>
+    </li>
+    <li><a href="#eu-kontroll-og-periodisk-kjãretãykontroll">EU-kontroll og periodisk kjÃ¸retÃ¸ykontroll</a>
+      <ul>
+        <li><a href="#kontrollintervaller">Kontrollintervaller:</a></li>
+        <li><a href="#hva-kontrolleres">Hva kontrolleres:</a></li>
+        <li><a href="#forberedelse-til-eu-kontroll">Forberedelse til EU-kontroll:</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikeholdsãkonomi-og-planlegging">VedlikeholdsÃ¸konomi og planlegging</a>
+      <ul>
+        <li><a href="#kostnadsplanlegging">Kostnadsplanlegging</a></li>
+        <li><a href="#sparestrategier">Sparestrategier:</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-biler-og-elektriske-kjãretãy">Moderne biler og elektriske kjÃ¸retÃ¸y</a>
+      <ul>
+        <li><a href="#elektriske-og-hybridbiler">Elektriske og hybridbiler</a></li>
+        <li><a href="#moderne-sikkerhetssystemer">Moderne sikkerhetssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#dokumentasjon-og-vedlikeholdshistorikk">Dokumentasjon og vedlikeholdshistorikk</a>
+      <ul>
+        <li><a href="#viktig-dokumentasjon">Viktig dokumentasjon:</a></li>
+        <li><a href="#digital-dokumentasjon">Digital dokumentasjon:</a></li>
+        <li><a href="#vanlige-feil-og-forebygging">Vanlige feil og forebygging</a></li>
+        <li><a href="#typiske-problemer-og-ãrsaker">Typiske problemer og Ã¥rsaker:</a></li>
+        <li><a href="#varselsignaler-ã-vãre-oppmerksom-pã">Varselsignaler Ã¥ vÃ¦re oppmerksom pÃ¥:</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-beste-praksis">Oppsummering og beste praksis</a>
+      <ul>
+        <li><a href="#planlegging-og-rutiner">Planlegging og rutiner:</a></li>
+        <li><a href="#sikkerhet-og-ãkonomi">Sikkerhet og Ã¸konomi:</a></li>
+        <li><a href="#miljã-og-samfunnsansvar">MiljÃ¸ og samfunnsansvar:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lovkrav-og-ansvar-for-vedlikehold">Lovkrav og ansvar for vedlikehold</a></li>
+    <li><a href="#hvorfor-er-regelmessig-vedlikehold-kritisk">Hvorfor er regelmessig vedlikehold kritisk?</a>
+      <ul>
+        <li><a href="#sikkerhet">Sikkerhet</a></li>
+        <li><a href="#driftssikkerhet">Driftssikkerhet</a></li>
+        <li><a href="#ãkonomi">Ã˜konomi</a></li>
+        <li><a href="#miljã">MiljÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#detaljert-vedlikeholdsplan-og-serviceintervaller">Detaljert vedlikeholdsplan og serviceintervaller</a>
+      <ul>
+        <li><a href="#ãrlig-service-10-000---15-000-km">Ã…rlig service (10 000 - 15 000 km)</a></li>
+        <li><a href="#service-hver-30-000-km">Service hver 30 000 km</a></li>
+        <li><a href="#service-hver-60-000-km">Service hver 60 000 km</a></li>
+        <li><a href="#service-hver-120-000-km">Service hver 120 000 km</a></li>
+      </ul>
+    </li>
+    <li><a href="#daglig-og-ukentlig-sjekkliste-for-fãrere">Daglig og ukentlig sjekkliste for fÃ¸rere</a>
+      <ul>
+        <li><a href="#daglig-kontroll-fãr-kjãring">Daglig kontroll (fÃ¸r kjÃ¸ring)</a></li>
+        <li><a href="#ukentlig-kontroll">Ukentlig kontroll</a></li>
+        <li><a href="#mãnedlig-kontroll">MÃ¥nedlig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#kritiske-vedlikeholdsoppgaver-i-detalj">Kritiske vedlikeholdsoppgaver i detalj</a>
+      <ul>
+        <li><a href="#motorolje---bilens-livsnerve">Motorolje - bilens livsnerve</a></li>
+        <li><a href="#dekk-og-bremser---kritiske-sikkerhetssystemer">Dekk og bremser - kritiske sikkerhetssystemer</a></li>
+        <li><a href="#vãsker-og-filtre---bilens-sirkulasjonssystem">VÃ¦sker og filtre - bilens sirkulasjonssystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#sãrlige-vedlikeholdsbehov-i-norge">SÃ¦rlige vedlikeholdsbehov i Norge</a>
+      <ul>
+        <li><a href="#vintervedlikehold">Vintervedlikehold</a></li>
+        <li><a href="#miljãtilpasning-og-bãrekraft">MiljÃ¸tilpasning og bÃ¦rekraft</a></li>
+      </ul>
+    </li>
+    <li><a href="#verksted-vs-egenvedlikehold">Verksted vs. egenvedlikehold</a>
+      <ul>
+        <li><a href="#profesjonelt-verksted">Profesjonelt verksted</a></li>
+        <li><a href="#egenvedlikehold">Egenvedlikehold</a></li>
+      </ul>
+    </li>
+    <li><a href="#eu-kontroll-og-periodisk-kjãretãykontroll">EU-kontroll og periodisk kjÃ¸retÃ¸ykontroll</a>
+      <ul>
+        <li><a href="#kontrollintervaller">Kontrollintervaller:</a></li>
+        <li><a href="#hva-kontrolleres">Hva kontrolleres:</a></li>
+        <li><a href="#forberedelse-til-eu-kontroll">Forberedelse til EU-kontroll:</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikeholdsãkonomi-og-planlegging">VedlikeholdsÃ¸konomi og planlegging</a>
+      <ul>
+        <li><a href="#kostnadsplanlegging">Kostnadsplanlegging</a></li>
+        <li><a href="#sparestrategier">Sparestrategier:</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-biler-og-elektriske-kjãretãy">Moderne biler og elektriske kjÃ¸retÃ¸y</a>
+      <ul>
+        <li><a href="#elektriske-og-hybridbiler">Elektriske og hybridbiler</a></li>
+        <li><a href="#moderne-sikkerhetssystemer">Moderne sikkerhetssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#dokumentasjon-og-vedlikeholdshistorikk">Dokumentasjon og vedlikeholdshistorikk</a>
+      <ul>
+        <li><a href="#viktig-dokumentasjon">Viktig dokumentasjon:</a></li>
+        <li><a href="#digital-dokumentasjon">Digital dokumentasjon:</a></li>
+        <li><a href="#vanlige-feil-og-forebygging">Vanlige feil og forebygging</a></li>
+        <li><a href="#typiske-problemer-og-ãrsaker">Typiske problemer og Ã¥rsaker:</a></li>
+        <li><a href="#varselsignaler-ã-vãre-oppmerksom-pã">Varselsignaler Ã¥ vÃ¦re oppmerksom pÃ¥:</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-beste-praksis">Oppsummering og beste praksis</a>
+      <ul>
+        <li><a href="#planlegging-og-rutiner">Planlegging og rutiner:</a></li>
+        <li><a href="#sikkerhet-og-ãkonomi">Sikkerhet og Ã¸konomi:</a></li>
+        <li><a href="#miljã-og-samfunnsansvar">MiljÃ¸ og samfunnsansvar:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lovkrav-og-ansvar-for-vedlikehold">Lovkrav og ansvar for vedlikehold</a></li>
+    <li><a href="#hvorfor-er-regelmessig-vedlikehold-kritisk">Hvorfor er regelmessig vedlikehold kritisk?</a>
+      <ul>
+        <li><a href="#sikkerhet">Sikkerhet</a></li>
+        <li><a href="#driftssikkerhet">Driftssikkerhet</a></li>
+        <li><a href="#ãkonomi">Ã˜konomi</a></li>
+        <li><a href="#miljã">MiljÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#detaljert-vedlikeholdsplan-og-serviceintervaller">Detaljert vedlikeholdsplan og serviceintervaller</a>
+      <ul>
+        <li><a href="#ãrlig-service-10-000---15-000-km">Ã…rlig service (10 000 - 15 000 km)</a></li>
+        <li><a href="#service-hver-30-000-km">Service hver 30 000 km</a></li>
+        <li><a href="#service-hver-60-000-km">Service hver 60 000 km</a></li>
+        <li><a href="#service-hver-120-000-km">Service hver 120 000 km</a></li>
+      </ul>
+    </li>
+    <li><a href="#daglig-og-ukentlig-sjekkliste-for-fãrere">Daglig og ukentlig sjekkliste for fÃ¸rere</a>
+      <ul>
+        <li><a href="#daglig-kontroll-fãr-kjãring">Daglig kontroll (fÃ¸r kjÃ¸ring)</a></li>
+        <li><a href="#ukentlig-kontroll">Ukentlig kontroll</a></li>
+        <li><a href="#mãnedlig-kontroll">MÃ¥nedlig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#kritiske-vedlikeholdsoppgaver-i-detalj">Kritiske vedlikeholdsoppgaver i detalj</a>
+      <ul>
+        <li><a href="#motorolje---bilens-livsnerve">Motorolje - bilens livsnerve</a></li>
+        <li><a href="#dekk-og-bremser---kritiske-sikkerhetssystemer">Dekk og bremser - kritiske sikkerhetssystemer</a></li>
+        <li><a href="#vãsker-og-filtre---bilens-sirkulasjonssystem">VÃ¦sker og filtre - bilens sirkulasjonssystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#sãrlige-vedlikeholdsbehov-i-norge">SÃ¦rlige vedlikeholdsbehov i Norge</a>
+      <ul>
+        <li><a href="#vintervedlikehold">Vintervedlikehold</a></li>
+        <li><a href="#miljãtilpasning-og-bãrekraft">MiljÃ¸tilpasning og bÃ¦rekraft</a></li>
+      </ul>
+    </li>
+    <li><a href="#verksted-vs-egenvedlikehold">Verksted vs. egenvedlikehold</a>
+      <ul>
+        <li><a href="#profesjonelt-verksted">Profesjonelt verksted</a></li>
+        <li><a href="#egenvedlikehold">Egenvedlikehold</a></li>
+      </ul>
+    </li>
+    <li><a href="#eu-kontroll-og-periodisk-kjãretãykontroll">EU-kontroll og periodisk kjÃ¸retÃ¸ykontroll</a>
+      <ul>
+        <li><a href="#kontrollintervaller">Kontrollintervaller:</a></li>
+        <li><a href="#hva-kontrolleres">Hva kontrolleres:</a></li>
+        <li><a href="#forberedelse-til-eu-kontroll">Forberedelse til EU-kontroll:</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikeholdsãkonomi-og-planlegging">VedlikeholdsÃ¸konomi og planlegging</a>
+      <ul>
+        <li><a href="#kostnadsplanlegging">Kostnadsplanlegging</a></li>
+        <li><a href="#sparestrategier">Sparestrategier:</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-biler-og-elektriske-kjãretãy">Moderne biler og elektriske kjÃ¸retÃ¸y</a>
+      <ul>
+        <li><a href="#elektriske-og-hybridbiler">Elektriske og hybridbiler</a></li>
+        <li><a href="#moderne-sikkerhetssystemer">Moderne sikkerhetssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#dokumentasjon-og-vedlikeholdshistorikk">Dokumentasjon og vedlikeholdshistorikk</a>
+      <ul>
+        <li><a href="#viktig-dokumentasjon">Viktig dokumentasjon:</a></li>
+        <li><a href="#digital-dokumentasjon">Digital dokumentasjon:</a></li>
+        <li><a href="#vanlige-feil-og-forebygging">Vanlige feil og forebygging</a></li>
+        <li><a href="#typiske-problemer-og-ãrsaker">Typiske problemer og Ã¥rsaker:</a></li>
+        <li><a href="#varselsignaler-ã-vãre-oppmerksom-pã">Varselsignaler Ã¥ vÃ¦re oppmerksom pÃ¥:</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-beste-praksis">Oppsummering og beste praksis</a>
+      <ul>
+        <li><a href="#planlegging-og-rutiner">Planlegging og rutiner:</a></li>
+        <li><a href="#sikkerhet-og-ãkonomi">Sikkerhet og Ã¸konomi:</a></li>
+        <li><a href="#miljã-og-samfunnsansvar">MiljÃ¸ og samfunnsansvar:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lovkrav-og-ansvar-for-vedlikehold">Lovkrav og ansvar for vedlikehold</a></li>
+    <li><a href="#hvorfor-er-regelmessig-vedlikehold-kritisk">Hvorfor er regelmessig vedlikehold kritisk?</a>
+      <ul>
+        <li><a href="#sikkerhet">Sikkerhet</a></li>
+        <li><a href="#driftssikkerhet">Driftssikkerhet</a></li>
+        <li><a href="#ãkonomi">Ã˜konomi</a></li>
+        <li><a href="#miljã">MiljÃ¸</a></li>
+      </ul>
+    </li>
+    <li><a href="#detaljert-vedlikeholdsplan-og-serviceintervaller">Detaljert vedlikeholdsplan og serviceintervaller</a>
+      <ul>
+        <li><a href="#ãrlig-service-10-000---15-000-km">Ã…rlig service (10 000 - 15 000 km)</a></li>
+        <li><a href="#service-hver-30-000-km">Service hver 30 000 km</a></li>
+        <li><a href="#service-hver-60-000-km">Service hver 60 000 km</a></li>
+        <li><a href="#service-hver-120-000-km">Service hver 120 000 km</a></li>
+      </ul>
+    </li>
+    <li><a href="#daglig-og-ukentlig-sjekkliste-for-fãrere">Daglig og ukentlig sjekkliste for fÃ¸rere</a>
+      <ul>
+        <li><a href="#daglig-kontroll-fãr-kjãring">Daglig kontroll (fÃ¸r kjÃ¸ring)</a></li>
+        <li><a href="#ukentlig-kontroll">Ukentlig kontroll</a></li>
+        <li><a href="#mãnedlig-kontroll">MÃ¥nedlig kontroll</a></li>
+      </ul>
+    </li>
+    <li><a href="#kritiske-vedlikeholdsoppgaver-i-detalj">Kritiske vedlikeholdsoppgaver i detalj</a>
+      <ul>
+        <li><a href="#motorolje---bilens-livsnerve">Motorolje - bilens livsnerve</a></li>
+        <li><a href="#dekk-og-bremser---kritiske-sikkerhetssystemer">Dekk og bremser - kritiske sikkerhetssystemer</a></li>
+        <li><a href="#vãsker-og-filtre---bilens-sirkulasjonssystem">VÃ¦sker og filtre - bilens sirkulasjonssystem</a></li>
+      </ul>
+    </li>
+    <li><a href="#sãrlige-vedlikeholdsbehov-i-norge">SÃ¦rlige vedlikeholdsbehov i Norge</a>
+      <ul>
+        <li><a href="#vintervedlikehold">Vintervedlikehold</a></li>
+        <li><a href="#miljãtilpasning-og-bãrekraft">MiljÃ¸tilpasning og bÃ¦rekraft</a></li>
+      </ul>
+    </li>
+    <li><a href="#verksted-vs-egenvedlikehold">Verksted vs. egenvedlikehold</a>
+      <ul>
+        <li><a href="#profesjonelt-verksted">Profesjonelt verksted</a></li>
+        <li><a href="#egenvedlikehold">Egenvedlikehold</a></li>
+      </ul>
+    </li>
+    <li><a href="#eu-kontroll-og-periodisk-kjãretãykontroll">EU-kontroll og periodisk kjÃ¸retÃ¸ykontroll</a>
+      <ul>
+        <li><a href="#kontrollintervaller">Kontrollintervaller:</a></li>
+        <li><a href="#hva-kontrolleres">Hva kontrolleres:</a></li>
+        <li><a href="#forberedelse-til-eu-kontroll">Forberedelse til EU-kontroll:</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikeholdsãkonomi-og-planlegging">VedlikeholdsÃ¸konomi og planlegging</a>
+      <ul>
+        <li><a href="#kostnadsplanlegging">Kostnadsplanlegging</a></li>
+        <li><a href="#sparestrategier">Sparestrategier:</a></li>
+      </ul>
+    </li>
+    <li><a href="#moderne-biler-og-elektriske-kjãretãy">Moderne biler og elektriske kjÃ¸retÃ¸y</a>
+      <ul>
+        <li><a href="#elektriske-og-hybridbiler">Elektriske og hybridbiler</a></li>
+        <li><a href="#moderne-sikkerhetssystemer">Moderne sikkerhetssystemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#dokumentasjon-og-vedlikeholdshistorikk">Dokumentasjon og vedlikeholdshistorikk</a>
+      <ul>
+        <li><a href="#viktig-dokumentasjon">Viktig dokumentasjon:</a></li>
+        <li><a href="#digital-dokumentasjon">Digital dokumentasjon:</a></li>
+        <li><a href="#vanlige-feil-og-forebygging">Vanlige feil og forebygging</a></li>
+        <li><a href="#typiske-problemer-og-ãrsaker">Typiske problemer og Ã¥rsaker:</a></li>
+        <li><a href="#varselsignaler-ã-vãre-oppmerksom-pã">Varselsignaler Ã¥ vÃ¦re oppmerksom pÃ¥:</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-beste-praksis">Oppsummering og beste praksis</a>
+      <ul>
+        <li><a href="#planlegging-og-rutiner">Planlegging og rutiner:</a></li>
+        <li><a href="#sikkerhet-og-ãkonomi">Sikkerhet og Ã¸konomi:</a></li>
+        <li><a href="#miljã-og-samfunnsansvar">MiljÃ¸ og samfunnsansvar:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+}}
+**Vedlikehold av bilen** er avgjÃ¸rende for **trafikksikkerhet**, **driftsikkerhet** og **Ã¸konomisk** bilhold. Som bilfÃ¸rere har vi et **lovpÃ¥lagt ansvar** for Ã¥ sÃ¸rge for at kjÃ¸retÃ¸yet er i forsvarlig stand. Denne omfattende guiden gir deg alt du trenger Ã¥ vite om **planlagt vedlikehold**, **serviceintervaller**, **inspeksjoner** og **vedlikeholdsrutiner** for norske kjÃ¸reforhold.
+<p>For Ã¥ forstÃ¥ bilens komponenter og systemer, se <a href="/blogs/teori/bilens-tekniske-deler" title="Bilens tekniske deler - Oversikt over bilens komponenter og systemer">Bilens tekniske deler</a>. For informasjon om kostnader ved bilhold, se <a href="/blogs/teori/okonomi-og-bilhold" title="Ã˜konomi og bilhold - Kostnader og tips for Ã¸konomisk bilhold">Ã˜konomi og bilhold</a>.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>For en samlet innfÃ¸ring i krav til <strong>forskriftsmessig og forsvarlig stand</strong>, se <a href="/blogs/teori/forskriftsmessig-og-forsvarlig-stand" title="Forskriftsmessig og forsvarlig stand - Overordnet guide til lovpÃ¥lagt stand">Forskriftsmessig og forsvarlig stand</a>.</p>
+<h2 id="lovkrav-og-ansvar-for-vedlikehold">Lovkrav og ansvar for vedlikehold</h2>
+<p>Som <strong>fÃ¸rer</strong> og <strong>eier</strong> av kjÃ¸retÃ¸y har du lovpÃ¥lagt ansvar for Ã¥ sÃ¸rge for at bilen er i <strong>forsvarlig stand</strong>. Dette innebÃ¦rer:</p>
+<ul>
+<li><strong>KjÃ¸retÃ¸yet skal vÃ¦re i teknisk forsvarlig stand</strong> jf. Vegtrafikkloven Â§ 13</li>
+<li><strong>EU-kontroll</strong> (tidligere periodisk kontroll) mÃ¥ vÃ¦re godkjent og gjeldende</li>
+<li>FÃ¸reren har ansvar for Ã¥ kontrollere at kjÃ¸retÃ¸yet er i lovlig stand fÃ¸r kjÃ¸ring</li>
+<li><strong>Daglig kontroll</strong> av kritiske systemer som bremser, lys og dekk</li>
+</ul>
+<p>For mer om detaljene i forskriftsmessig stand av tekniske deler, se <a href="/blogs/teori/bilens-tekniske-deler-forskriftsmessig-stand" title="Bilens tekniske deler (Forskriftsmessig stand)">Bilens tekniske deler (Forskriftsmessig stand)</a>.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>Les mer om juridiske aspekter i <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Vegtrafikkloven og forskrifter for bilkjÃ¸ring">Lover og forskrifter</a>.</p>
+<h2 id="hvorfor-er-regelmessig-vedlikehold-kritisk">Hvorfor er regelmessig vedlikehold kritisk?</h2>
+<p>Regelmessig og <strong>planlagt vedlikehold</strong> bidrar til:</p>
+<h3 id="sikkerhet">Sikkerhet</h3>
+<ul>
+<li><strong>Redusert ulykkesrisiko</strong> gjennom funksjonsdyktige bremser, dekk og styresystem</li>
+<li><strong>PÃ¥litelige lys og signaler</strong> for god kommunikasjon med andre trafikanter</li>
+<li><strong>Funksjonsdyktige sikkerhetssystemer</strong> som ABS, ESP og airbags</li>
+</ul>
+<h3 id="driftssikkerhet">Driftssikkerhet</h3>
+<ul>
+<li><strong>Forebygging av breakdowns</strong> som kan skape farlige situasjoner</li>
+<li><strong>Redusert risiko</strong> for uventede feil under kjÃ¸ring</li>
+<li><strong>HÃ¸yere pÃ¥litelighet</strong> ved lange kjÃ¸returer</li>
+</ul>
+<p><em>For omfattende forberedelser fÃ¸r lange turer, se <a href="/blogs/teori/forberedelser-for-en-lang-kjoretur" title="Forberedelser fÃ¸r en lang kjÃ¸retur - Komplett guide til trygg langkjÃ¸ring">Forberedelser fÃ¸r en lang kjÃ¸retur</a>.</em></p>
+<p><em>Hvis tekniske problemer likevel oppstÃ¥r under kjÃ¸ring, er det viktig Ã¥ vite hvordan du hÃ¥ndterer situasjonen trygt. Se <a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - Komplett guide til nÃ¸dhÃ¥ndtering i trafikken">HÃ¥ndtering av nÃ¸dsituasjoner</a> for detaljert informasjon om hÃ¥ndtering av motorhavari, punktering og andre tekniske problemer.</em></p>
+<h3 id="ãkonomi">Ã˜konomi</h3>
+<ul>
+<li><strong>Lavere reparasjonskostnader</strong> ved Ã¥ oppdage problemer tidlig</li>
+<li><strong>Bedre drivstoffoptimering</strong> gjennom riktig motor- og dekktilstand</li>
+<li><strong>HÃ¸yere videresalgsverdi</strong> ved godt vedlikeholdt kjÃ¸retÃ¸y</li>
+</ul>
+<h3 id="miljã">MiljÃ¸</h3>
+<ul>
+<li>
+<p><strong>Lavere utslipp</strong> gjennom optimal motorytelse</p>
+</li>
+<li>
+<p><strong>Redusert forbruk</strong> ved korrekt dekktrykk og motorinnstillinger</p>
+</li>
+<li>
+<p><strong>Lengre levetid</strong> reduserer miljÃ¸pÃ¥virkning fra produksjon</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="detaljert-vedlikeholdsplan-og-serviceintervaller">Detaljert vedlikeholdsplan og serviceintervaller</h2>
+<h3 id="ãrlig-service-10-000---15-000-km">Ã…rlig service (10 000 - 15 000 km)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Komponent</th>
+          <th>Kontroll/Service</th>
+          <th>Viktighet</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Motorolje</strong></td>
+          <td>Skift olje og oljefilter</td>
+          <td>Kritisk</td>
+      </tr>
+      <tr>
+          <td><strong>Bremser</strong></td>
+          <td>Kontroll av klosser, skiver og vÃ¦ske</td>
+          <td>Kritisk</td>
+      </tr>
+      <tr>
+          <td><strong>Dekk</strong></td>
+          <td>MÃ¸nsterdybde, lufttrykk, slitasje (se <a href="/blogs/teori/dekk-og-vedlikehold" title="Dekk og vedlikehold - Slitasje, dimensjoner, merking, lufttrykk, mÃ¸nsterdybde og piggdekk">Dekk og vedlikehold</a>)</td>
+          <td>Kritisk</td>
+      </tr>
+      <tr>
+          <td><strong>Lys</strong></td>
+          <td>Alle lys og blinklys</td>
+          <td>Kritisk</td>
+      </tr>
+      <tr>
+          <td><strong>VÃ¦sker</strong></td>
+          <td>KjÃ¸levÃ¦ske, spylervÃ¦ske, servolje</td>
+          <td>Viktig</td>
+      </tr>
+      <tr>
+          <td><strong>Batteri</strong></td>
+          <td>Tilstand og ladesystem</td>
+          <td>Viktig</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="service-hver-30-000-km">Service hver 30 000 km</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Komponent</th>
+          <th>Kontroll/Service</th>
+          <th>Detaljer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Luftfilter</strong></td>
+          <td>Skift eller rengjÃ¸r</td>
+          <td>Bedre motorytelse</td>
+      </tr>
+      <tr>
+          <td><strong>KupÃ©filter</strong></td>
+          <td>Skift pollen-/kullfiler</td>
+          <td>Bedre luftkvalitet</td>
+      </tr>
+      <tr>
+          <td><strong>Drivstoffilter</strong></td>
+          <td>Skift (dieselbiler)</td>
+          <td>Beskytter innsprÃ¸ytningssystem</td>
+      </tr>
+      <tr>
+          <td><strong>KjÃ¸lesystem</strong></td>
+          <td>Kontroll av slanger og termostat</td>
+          <td>Forhindrer overoppheting</td>
+      </tr>
+      <tr>
+          <td><strong>Tennplugger</strong></td>
+          <td>Kontroll (bensinbiler)</td>
+          <td>Optimal forbrenning</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="service-hver-60-000-km">Service hver 60 000 km</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Komponent</th>
+          <th>Kontroll/Service</th>
+          <th>Kritikalitet</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Girkasseolje</strong></td>
+          <td>Skift vÃ¦ske</td>
+          <td>Forlenger girkassens levetid</td>
+      </tr>
+      <tr>
+          <td><strong>Differensialolje</strong></td>
+          <td>Kontroll og eventuelt skift</td>
+          <td>Reduserer slitasje</td>
+      </tr>
+      <tr>
+          <td><strong>Drivstoffslanger</strong></td>
+          <td>Inspeksjon for sprekker</td>
+          <td>Sikkerhetsrisiko</td>
+      </tr>
+      <tr>
+          <td><strong>Eksosanlegg</strong></td>
+          <td>Kontroll for lekkasjer</td>
+          <td>MiljÃ¸ og helse</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="service-hver-120-000-km">Service hver 120 000 km</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Komponent</th>
+          <th>Kontroll/Service</th>
+          <th>Kommentarer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Registerreim</strong></td>
+          <td>Skift (hvis aktuelt)</td>
+          <td>Kritisk - motorskade ved brudd</td>
+      </tr>
+      <tr>
+          <td><strong>Vanpumpe</strong></td>
+          <td>Kontroll og eventuelt skift</td>
+          <td>Del av kjÃ¸lesystem</td>
+      </tr>
+      <tr>
+          <td><strong>Styresystem</strong></td>
+          <td>Omfattende inspeksjon</td>
+          <td>Sikkerhetskritisk</td>
+      </tr>
+      <tr>
+          <td><strong>Understellskomponenter</strong></td>
+          <td>Detaljert inspeksjon</td>
+          <td>Kontroll av slitasje</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="daglig-og-ukentlig-sjekkliste-for-fãrere">Daglig og ukentlig sjekkliste for fÃ¸rere</h2>
+<p>Som ansvarlig fÃ¸rer bÃ¸r du regelmessig kontrollere:</p>
+<h3 id="daglig-kontroll-fãr-kjãring">Daglig kontroll (fÃ¸r kjÃ¸ring)</h3>
+<ul>
+<li><strong>Lys</strong>: NÃ¦rlys, fjernlys, blinklys, bremselys, baklys</li>
+<li><strong>Speil</strong>: Rene og riktig innstilt</li>
+<li><strong>Vindsruter</strong>: Rene og uten sprekker</li>
+<li><strong>Dekktrykk</strong>: Visuell kontroll (fÃ¸les dekk myke?)</li>
+<li><strong>VÃ¦skelekkasjer</strong>: Se under bilen</li>
+</ul>
+<h3 id="ukentlig-kontroll">Ukentlig kontroll</h3>
+<ul>
+<li><strong>OljenivÃ¥</strong>: Kontroll med mÃ¥lestokk nÃ¥r motor er kald</li>
+<li><strong>KjÃ¸levÃ¦ske</strong>: NivÃ¥ i ekspansjonstank</li>
+<li><strong>SpylervÃ¦ske</strong>: Etterfyll ved behov</li>
+<li><strong>Batteritilstand</strong>: Kontroller poler og festing</li>
+<li><strong>Dekkslitasje</strong>: Jevn slitasje og mÃ¸nsterdybde</li>
+</ul>
+<h3 id="mãnedlig-kontroll">MÃ¥nedlig kontroll</h3>
+<ul>
+<li>
+<p><strong>BremsevÃ¦ske</strong>: NivÃ¥ og farge (skal vÃ¦re klar)</p>
+</li>
+<li>
+<p><strong>ServooljÃ¨</strong>: NivÃ¥kontroll</p>
+</li>
+<li>
+<p><strong>Luftfilter</strong>: Visuell inspeksjon</p>
+</li>
+<li>
+<p><strong>Vindusviskeblad</strong>: Funksjon og tilstand</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<p>Les mer om sikkerhetsutstyr i <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr - ABS, ESP, airbags og moderne sikkerhetssystemer">KjÃ¸retÃ¸yets sikkerhetsutstyr</a>.</p>
+<h2 id="kritiske-vedlikeholdsoppgaver-i-detalj">Kritiske vedlikeholdsoppgaver i detalj</h2>
+<h3 id="motorolje---bilens-livsnerve">Motorolje - bilens livsnerve</h3>
+<p><strong>Motorolje</strong> er essensielt for:</p>
+<ul>
+<li><strong>SmÃ¸ring</strong> av bevegelige deler</li>
+<li><strong>KjÃ¸ling</strong> av motorkomponenter</li>
+<li><strong>RengjÃ¸ring</strong> ved Ã¥ transportere bort partikler</li>
+<li><strong>Korrosjonsbeskyttelse</strong> av metalloverflater
+<em>For en grundig gjennomgang av motorindikatorer og feilsÃ¸king, se <a href="/blogs/teori/motor-og-motorindikatorer" title="Motor og motorindikatorer - Motorolje, batteri, dynamo, kjÃ¸levÃ¦ske, oljetrykk og motorfeil">Motor og motorindikatorer</a>.</em></li>
+</ul>
+<h4 id="oljeskift---fremgangsmãte">Oljeskift - fremgangsmÃ¥te:</h4>
+<ol>
+<li>
+<p><strong>Varm opp motoren</strong> til driftstemperatur</p>
+</li>
+<li>
+<p><strong>TÃ¸m gammel olje</strong> ved Ã¥ lÃ¸sne tappepluggen</p>
+</li>
+<li>
+<p><strong>Skift oljefilter</strong> - pÃ¥fÃ¸r tynt lag olje pÃ¥ tetningsring</p>
+</li>
+<li>
+<p><strong>Fyll ny olje</strong> - kontroller spesifikasjoner (viskositet og kvalitet)</p>
+</li>
+<li>
+<p><strong>Kontroller nivÃ¥</strong> etter fÃ¥ minutters drift</p>
+<pre><code> # Copy image to static folder
+ $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+ $destDir = &quot;static/images/blog/$blogFolder&quot;
+ if (-not (Test-Path $destDir)) {
+     New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+ }
+ if (Test-Path $sourceImage) {
+     Copy-Item -Path $sourceImage -Destination $destDir -Force
+ }
+
+ # Return new markdown image tag
+ &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ol>
+<h3 id="dekk-og-bremser---kritiske-sikkerhetssystemer">Dekk og bremser - kritiske sikkerhetssystemer</h3>
+<h4 id="dekkvedlikehold">Dekkvedlikehold:</h4>
+<ul>
+<li><strong>MÃ¸nsterdybde</strong>: Minimum 3 mm for sommerdekk, 4 mm for vinterdekk</li>
+<li><strong>Lufttrykk</strong>: Kontroller mÃ¥nedsvis - feil trykk Ã¸ker slitasje og forbruk</li>
+<li><strong>Rotasjon</strong>: Flytt dekk for jevn slitasje hver 10 000 km</li>
+<li><strong>Lagring</strong>: Dekk som ikke brukes lagres mÃ¸rkt og kjÃ¸lig</li>
+</ul>
+<p>For detaljerte regler, se <a href="/blogs/teori/regler-for-dekk-og-kjetting" title="Regler for dekk og kjetting - Krav til mÃ¸nsterdybde, piggdekk og kjetting">Regler for dekk og kjetting</a> og for teknisk vedlikehold se <a href="/blogs/teori/dekk-og-vedlikehold" title="Dekk og vedlikehold - Slitasje, dimensjoner, merking, lufttrykk, mÃ¸nsterdybde og piggdekk">Dekk og vedlikehold</a>.</p>
+<h4 id="bremsesystem">Bremsesystem:</h4>
+<ul>
+<li>
+<p><strong>Bremseklosser</strong>: Kontroller tykkelse - skift ved 2-3 mm</p>
+</li>
+<li>
+<p><strong>Bremseskiver</strong>: Kontroller for riper og deformasjon</p>
+</li>
+<li>
+<p><strong>BremsevÃ¦ske</strong>: Skift hver 2-3 Ã¥r - hyggroskopisk (trekker til seg fuktighet)</p>
+</li>
+<li>
+<p><strong>Bremseslanger</strong>: Kontroller for sprekker og slitasje</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h3 id="vãsker-og-filtre---bilens-sirkulasjonssystem">VÃ¦sker og filtre - bilens sirkulasjonssystem</h3>
+<h4 id="kjãlevãske">KjÃ¸levÃ¦ske:</h4>
+<ul>
+<li><strong>Frostbeskyttelse</strong>: -35Â°C i Norge</li>
+<li><strong>Korrosjonsbeskyttelse</strong>: Beskytter metallkomponenter</li>
+<li><strong>Skift</strong>: Hver 4-5 Ã¥r eller 100 000 km</li>
+<li><strong>Kontroll</strong>: NivÃ¥ nÃ¥r motor er kald</li>
+</ul>
+<h4 id="luftfilter">Luftfilter:</h4>
+<ul>
+<li><strong>Funksjon</strong>: Renser luft til motoren</li>
+<li><strong>Skift</strong>: Hver 30 000 km eller ved synlig tilsmusning</li>
+<li><strong>MiljÃ¸</strong>: Reduserer utslipp ved optimal lufttilfÃ¸rsel</li>
+</ul>
+<h4 id="drivstoffilter">Drivstoffilter:</h4>
+<ul>
+<li>
+<p><strong>Dieselbiler</strong>: SÃ¦rlig viktig - skift hver 30 000 km</p>
+</li>
+<li>
+<p><strong>Bensinbiler</strong>: Ofte integrert i tank - sjeldnere skift</p>
+</li>
+<li>
+<p><strong>Vannfelle</strong>: Dieselbiler har ofte separate vannfilter</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="sãrlige-vedlikeholdsbehov-i-norge">SÃ¦rlige vedlikeholdsbehov i Norge</h2>
+<h3 id="vintervedlikehold">Vintervedlikehold</h3>
+<p>Norske vintere stiller sÃ¦rlige krav til vedlikehold:</p>
+<h4 id="fãr-vinteren">FÃ¸r vinteren:</h4>
+<ul>
+<li><strong>Vinterdekk</strong>: MontÃ©r innen 1. november (tidligere i nord)</li>
+<li><strong>Batteri</strong>: Kontroller kapasitet - kaldt vÃ¦r reduserer ytelse</li>
+<li><strong>Motorvarmer</strong>: Installer og test - sparer drivstoff og reduserer slitasje</li>
+<li><strong>Frostbeskyttelse</strong>: Kontroller kjÃ¸levÃ¦ske og spylervÃ¦ske</li>
+<li><strong>Varmeapparat</strong>: Test at kupevarme fungerer</li>
+</ul>
+<h4 id="under-vinteren">Under vinteren:</h4>
+<ul>
+<li><strong>Daglig</strong>: Fjern is og snÃ¸ fra lys, speil og vindsruter</li>
+<li><strong>Ukentlig</strong>: Kontroller dekktrykk - kaldt vÃ¦r reduserer trykk</li>
+<li><strong>MÃ¥nedlig</strong>: Spyl undersiden for Ã¥ fjerne veiersalt</li>
+</ul>
+<h4 id="etter-vinteren">Etter vinteren:</h4>
+<ul>
+<li>
+<p><strong>Grundig vask</strong>: Fjern salt og grus fra karosseri og understell</p>
+</li>
+<li>
+<p><strong>Sommerdekk</strong>: MontÃ©r nÃ¥r temperaturen stabilt over +7Â°C</p>
+</li>
+<li>
+<p><strong>Service</strong>: Kontroller for saltskader og slitasje</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<p>Les mer om vinterkjÃ¸ring i <a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold - Teknikker for kjÃ¸ring i regn, snÃ¸ og is">KjÃ¸ring under vanskelige forhold</a>.</p>
+<h3 id="miljãtilpasning-og-bãrekraft">MiljÃ¸tilpasning og bÃ¦rekraft</h3>
+<p><strong>MiljÃ¸vennlig vedlikehold</strong> bidrar til reduserte utslipp:</p>
+<ul>
+<li><strong>Korrekt dekktrykk</strong>: 0,5 bar for lavt Ã¸ker forbruk med 3-5%</li>
+<li><strong>Ren luftfilter</strong>: Reduserer forbruk og utslipp</li>
+<li><strong>Riktig motorolje</strong>: LavviskÃ¸se oljer reduserer friksjon</li>
+<li><strong>EU-godkjent verksted</strong>: Sikrer miljÃ¸riktig hÃ¥ndtering av avfall</li>
+</ul>
+<p>Les mer i <a href="/blogs/teori/miljovennlig-kjoring" title="MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring og redusert forbruk">MiljÃ¸vennlig kjÃ¸ring</a>.</p>
+<h2 id="verksted-vs-egenvedlikehold">Verksted vs. egenvedlikehold</h2>
+<h3 id="profesjonelt-verksted">Profesjonelt verksted</h3>
+<h4 id="fordeler">Fordeler:</h4>
+<ul>
+<li><strong>Fagkompetanse</strong> og spesialisert utstyr</li>
+<li><strong>Garantier</strong> pÃ¥ arbeid og deler</li>
+<li><strong>Diagnostikkutstyr</strong> for moderne biler</li>
+<li><strong>MiljÃ¸riktig avfallshÃ¥ndtering</strong></li>
+<li><strong>Dokumentasjon</strong> for vedlikehold</li>
+</ul>
+<h4 id="nãr-du-bãr-bruke-verksted">NÃ¥r du bÃ¸r bruke verksted:</h4>
+<ul>
+<li><strong>Komplekse reparasjoner</strong> som krever spesialverktÃ¸y</li>
+<li><strong>Garantiarbeid</strong> pÃ¥ nye biler</li>
+<li><strong>Elektriske feil</strong> og diagnostikk</li>
+<li><strong>Sikkerhetskritiske systemer</strong> som bremser og styring</li>
+</ul>
+<h3 id="egenvedlikehold">Egenvedlikehold</h3>
+<h4 id="du-kan-selv">Du kan selv:</h4>
+<ul>
+<li><strong>Skifte olje</strong> med riktig utstyr og kunnskap</li>
+<li><strong>Kontrollere vÃ¦skenivÃ¥er</strong> og etterfylle</li>
+<li><strong>Skifte luftfilter</strong> og vindusviskerblad</li>
+<li><strong>Kontrollere lys</strong> og skifte pÃ¦rer</li>
+<li><strong>Grunnleggende rengjÃ¸ring</strong> og vask</li>
+</ul>
+<h4 id="sikkerhetstips">Sikkerhetstips:</h4>
+<ul>
+<li>
+<p><strong>Bruk bilbukk</strong> og bukkstopper - ikke kun donkraft</p>
+</li>
+<li>
+<p><strong>Vent til motor er kald</strong> fÃ¸r oljeskift</p>
+</li>
+<li>
+<p><strong>Korrekt avfallshÃ¥ndtering</strong> av olje og deler</p>
+</li>
+<li>
+<p><strong>FÃ¸lg produsentens anbefalinger</strong> for spesifikasjoner</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="eu-kontroll-og-periodisk-kjãretãykontroll">EU-kontroll og periodisk kjÃ¸retÃ¸ykontroll</h2>
+<p><strong>EU-kontroll</strong> (tidligere periodisk kontroll) er lovpÃ¥lagt:</p>
+<h3 id="kontrollintervaller">Kontrollintervaller:</h3>
+<ul>
+<li><strong>Nye biler</strong>: FÃ¸rste kontroll etter 4 Ã¥r</li>
+<li><strong>Personbiler</strong>: Deretter hver 2. Ã¥r</li>
+<li><strong>Eldre biler</strong> (over 10 Ã¥r): Kan vÃ¦re Ã¥rlig kontroll</li>
+</ul>
+<h3 id="hva-kontrolleres">Hva kontrolleres:</h3>
+<ul>
+<li><strong>Bremser</strong>: Effekt og jevnhet</li>
+<li><strong>Styresystem</strong>: Spill og geometri</li>
+<li><strong>Dekk</strong>: MÃ¸nsterdybde og tilstand</li>
+<li><strong>Lys og signaler</strong>: Alle lyskilder</li>
+<li><strong>StÃ¸y og utslipp</strong>: MiljÃ¸krav</li>
+<li><strong>Karosseri</strong>: Rust og strukturell integritet</li>
+</ul>
+<h3 id="forberedelse-til-eu-kontroll">Forberedelse til EU-kontroll:</h3>
+<ul>
+<li>
+<p><strong>Generell kontroll</strong>: Sjekk alle systemer pÃ¥ forhÃ¥nd</p>
+</li>
+<li>
+<p><strong>Dokumentasjon</strong>: Ha med <a href="/blogs/teori/forerkort-vognkort-og-forsikring" title="FÃ¸rerkort, vognkort og forsikring - Guide til nÃ¸dvendige dokumenter">vognkort</a> og <a href="/blogs/teori/forerkort-vognkort-og-forsikring" title="FÃ¸rerkort, vognkort og forsikring - Guide til nÃ¸dvendige dokumenter">forsikringsbevis</a></p>
+</li>
+<li>
+<p><strong>Reparasjoner</strong>: Utbedre kjente feil fÃ¸r kontroll</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="vedlikeholdsãkonomi-og-planlegging">VedlikeholdsÃ¸konomi og planlegging</h2>
+<h3 id="kostnadsplanlegging">Kostnadsplanlegging</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kostnadspost</th>
+          <th>Ã…rlig estimat</th>
+          <th>Kommentarer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Drivstoff</strong></td>
+          <td>15 000 - 25 000 kr</td>
+          <td>Avhengig av kjÃ¸relengde</td>
+      </tr>
+      <tr>
+          <td><strong>Service</strong></td>
+          <td>5 000 - 15 000 kr</td>
+          <td>Varierer med biltype</td>
+      </tr>
+      <tr>
+          <td><strong>Dekk</strong></td>
+          <td>3 000 - 8 000 kr</td>
+          <td>Inkluderer skift 2x/Ã¥r</td>
+      </tr>
+      <tr>
+          <td><strong>Forsikring</strong></td>
+          <td>8 000 - 20 000 kr</td>
+          <td>Avhengig av dekning</td>
+      </tr>
+      <tr>
+          <td><strong>Avgifter</strong></td>
+          <td>3 000 - 10 000 kr</td>
+          <td>Ã…rsavgift og bomringer</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="sparestrategier">Sparestrategier:</h3>
+<ul>
+<li>
+<p><strong>Preventivt vedlikehold</strong>: Forebygg dyre reparasjoner</p>
+</li>
+<li>
+<p><strong>Sammenlign priser</strong>: FÃ¥ tilbud fra flere verksted</p>
+</li>
+<li>
+<p><strong>Egenvedlikehold</strong>: Der det er trygt og praktisk</p>
+</li>
+<li>
+<p><strong>KjÃ¸p reservedeler</strong>: OEM vs. alternativ - vurder kvalitet vs. pris</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="moderne-biler-og-elektriske-kjãretãy">Moderne biler og elektriske kjÃ¸retÃ¸y</h2>
+<h3 id="elektriske-og-hybridbiler">Elektriske og hybridbiler</h3>
+<p><strong>Spesielle vedlikeholdsbehov</strong>:</p>
+<ul>
+<li><strong>Batteri</strong>: Kontroller ladesystem og batterikapasitet</li>
+<li><strong>KjÃ¸lesystem</strong>: Spesielle vÃ¦sker for batterikjÃ¸ling</li>
+<li><strong>Bremser</strong>: Mindre slitasje pga. regenerativ bremsing</li>
+<li><strong>HÃ¸yspenning</strong>: Kun kvalifiserte verksted kan service</li>
+</ul>
+<h3 id="moderne-sikkerhetssystemer">Moderne sikkerhetssystemer</h3>
+<p><strong>Avanserte fÃ¸rerassistentsystemer (ADAS)</strong>:</p>
+<ul>
+<li>
+<p><strong>Kalibrering</strong>: NÃ¸dvendig etter frontrute-/sensor-skift</p>
+</li>
+<li>
+<p><strong>Programvareoppdateringer</strong>: Regelmessige oppdateringer</p>
+</li>
+<li>
+<p><strong>Sensorrens</strong>: Hold kameraer og radarer rene</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="dokumentasjon-og-vedlikeholdshistorikk">Dokumentasjon og vedlikeholdshistorikk</h2>
+<h3 id="viktig-dokumentasjon">Viktig dokumentasjon:</h3>
+<ul>
+<li><strong>Servicebok</strong>: Dokumenter alle service og reparasjoner</li>
+<li><strong>Kvitteringer</strong>: Oppbevar for garantikrav og videresalg</li>
+<li><strong>Vedlikeholdsplan</strong>: FÃ¸lg produsentens anbefalinger</li>
+<li><strong>EU-kontroll</strong>: Ã…rlig eller annethvert Ã¥r</li>
+</ul>
+<h3 id="digital-dokumentasjon">Digital dokumentasjon:</h3>
+<ul>
+<li><strong>Apps</strong>: Mange produsenter har egne apper</li>
+<li><strong>Skytjenester</strong>: Backup av dokumenter</li>
+<li><strong>Verkstedssystemer</strong>: Automatisk logging av service</li>
+</ul>
+<h3 id="vanlige-feil-og-forebygging">Vanlige feil og forebygging</h3>
+<h3 id="typiske-problemer-og-ãrsaker">Typiske problemer og Ã¥rsaker:</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Problem</th>
+          <th>Ã…rsak</th>
+          <th>Forebygging</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Batteriproblemer</strong></td>
+          <td>Kulde, alder</td>
+          <td>Regelmessig lading, vinteroppbevaring</td>
+      </tr>
+      <tr>
+          <td><strong>Motoroveroppeting</strong></td>
+          <td>KjÃ¸levÃ¦skemangel</td>
+          <td>Kontroller nivÃ¥, skift vÃ¦ske</td>
+      </tr>
+      <tr>
+          <td><strong>Dekk utslitt</strong></td>
+          <td>Feil lufttrykk</td>
+          <td>MÃ¥nedlig trykkontroll</td>
+      </tr>
+      <tr>
+          <td><strong>Bremseproblemer</strong></td>
+          <td>Slitasje</td>
+          <td>Ã…rlig inspeksjon</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="varselsignaler-ã-vãre-oppmerksom-pã">Varselsignaler Ã¥ vÃ¦re oppmerksom pÃ¥:</h3>
+<ul>
+<li>
+<p><strong>Unormale lyder</strong>: Skraping, piping, banking</p>
+</li>
+<li>
+<p><strong>Vibrasjoner</strong>: I ratt eller pedaler</p>
+</li>
+<li>
+<p><strong>Varsellamper</strong>: PÃ¥ dashbord</p>
+</li>
+<li>
+<p><strong>Endret kjÃ¸reegenskaper</strong>: DÃ¥rligere bremsing eller styring</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<h2 id="oppsummering-og-beste-praksis">Oppsummering og beste praksis</h2>
+<p><strong>Vedlikehold av bilen</strong> er en kontinuerlig prosess som krever:</p>
+<h3 id="planlegging-og-rutiner">Planlegging og rutiner:</h3>
+<ul>
+<li><strong>FÃ¸lg serviceintervaller</strong> fra produsent</li>
+<li><strong>Daglig inspeksjon</strong> av kritiske systemer</li>
+<li><strong>Dokumenter alt vedlikehold</strong> for garantier og videresalg</li>
+<li><strong>Forbered deg pÃ¥ Ã¥rstider</strong> - sÃ¦rlig vinterovergang</li>
+</ul>
+<h3 id="sikkerhet-og-ãkonomi">Sikkerhet og Ã¸konomi:</h3>
+<ul>
+<li><strong>Prioriter sikkerhetskritiske systemer</strong> som bremser, dekk og lys</li>
+<li><strong>Forebyggende vedlikehold</strong> er billigere enn reparasjoner</li>
+<li><strong>Bruk kvalifiserte verksted</strong> for komplekse arbeider</li>
+<li><strong>Invester i kvalitet</strong> pÃ¥ kritiske komponenter</li>
+</ul>
+<h3 id="miljã-og-samfunnsansvar">MiljÃ¸ og samfunnsansvar:</h3>
+<ul>
+<li><strong>Korrekt avfallshÃ¥ndtering</strong> av olje og deler</li>
+<li><strong>Optimal innstilling</strong> reduserer utslipp og forbruk</li>
+<li><strong>Velg miljÃ¸vennlige produkter</strong> der det er mulig</li>
+</ul>
+<hr>
+<p><strong>Relaterte artikler for videre lesning:</strong></p>
+<p>For grunnleggende forstÃ¥else av bilens systemer: <a href="/blogs/teori/bilens-tekniske-deler" title="Bilens tekniske deler - Oversikt over bilens komponenter og systemer">Bilens tekniske deler</a></p>
+<p>For juridiske krav til kjÃ¸retÃ¸y: <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Vegtrafikkloven og forskrifter for bilkjÃ¸ring">Lover og forskrifter</a></p>
+<p>For Ã¸konomiske aspekter ved bilhold: <a href="/blogs/teori/okonomi-og-bilhold" title="Ã˜konomi og bilhold - Kostnader og tips for Ã¸konomisk bilhold">Ã˜konomi og bilhold</a></p>
+<p>For miljÃ¸aspekter ved kjÃ¸ring: <a href="/blogs/teori/miljovennlig-kjoring" title="MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring og redusert forbruk">MiljÃ¸vennlig kjÃ¸ring</a></p>
+<p>For sikkerhetsutstyr: <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr - ABS, ESP, airbags og moderne sikkerhetssystemer">KjÃ¸retÃ¸yets sikkerhetsutstyr</a>\n  </div>\n</div></p>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Vedlikehold av bilen - Guide til regelmessig service og inspeksjon" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Vedlikehold av bilen - Guide til regelmessig service og inspeksjon" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Vedlikehold av bilen - Guide til regelmessig service og inspeksjon" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

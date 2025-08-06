@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorveikjøring | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="En omfattende guide til sikker og effektiv kjøring på motorvei i Norge. Lær regler, påkjøring, kjøreteknikk, avkjøring og sikkerhetsregler.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/motorveikjoring/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/motorveikjoring/article/">
+    <meta property="og:title" content="Motorveikjøring | Eteo">
+    <meta property="og:description" content="En omfattende guide til sikker og effektiv kjøring på motorvei i Norge. Lær regler, påkjøring, kjøreteknikk, avkjøring og sikkerhetsregler.">
+    <meta property="og:image" content="//localhost:1313/images/blog/motorveikjoring/motorveikjoring-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Motorveikjøring | Eteo">
+    <meta name="twitter:description" content="En omfattende guide til sikker og effektiv kjøring på motorvei i Norge. Lær regler, påkjøring, kjøreteknikk, avkjøring og sikkerhetsregler.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/motorveikjoring/motorveikjoring-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Motorveikjøring</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                16 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/motorveikjoring/motorveikjoring-image.svg" 
+                    alt="Motorveikjøring" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/motorveikjoring/motorveikjoring-image.svg" alt="Motorveikjøring" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-motorvei">Hva er motorvei?</a>
+      <ul>
+        <li><a href="#forskjell-mellom-motorvei-og-motortrafikkvei">Forskjell mellom motorvei og motortrafikkvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#motorveiens-struktur-og-elementer">Motorveiens struktur og elementer</a>
+      <ul>
+        <li><a href="#hovedelementer-pã-motorveien">Hovedelementer pÃ¥ motorveien</a></li>
+        <li><a href="#sikkerhetselementer">Sikkerhetselementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#pãkjãring-til-motorvei---detaljert-teknikk">PÃ¥kjÃ¸ring til motorvei - Detaljert teknikk</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-pãkjãring">Forberedelse fÃ¸r pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#pãkjãringssekvensen---5-kritiske-steg">PÃ¥kjÃ¸ringssekvensen - 5 kritiske steg</a></li>
+        <li><a href="#vanlige-feil-ved-pãkjãring">Vanlige feil ved pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#kjãring-pã-motorvei---avanserte-teknikker">KjÃ¸ring pÃ¥ motorvei - Avanserte teknikker</a>
+      <ul>
+        <li><a href="#feltvalg-og-posisjonering">Feltvalg og posisjonering</a></li>
+        <li><a href="#hastighetsadministrasjon">Hastighetsadministrasjon</a></li>
+        <li><a href="#sikker-fãlgeavstand">Sikker fÃ¸lgeavstand</a></li>
+        <li><a href="#feltskifte-og-forbikjãring">Feltskifte og forbikjÃ¸ring</a></li>
+        <li><a href="#ãkonomisk-kjãring-pã-motorvei">Ã˜konomisk kjÃ¸ring pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#avkjãring-fra-motorvei---profesjonell-teknikk">AvkjÃ¸ring fra motorvei - Profesjonell teknikk</a>
+      <ul>
+        <li><a href="#planlegging-av-avkjãring">Planlegging av avkjÃ¸ring</a></li>
+        <li><a href="#avkjãringssekvensen---6-kritiske-steg">AvkjÃ¸ringssekvensen - 6 kritiske steg</a></li>
+        <li><a href="#kritiske-punkter-ved-avkjãring">Kritiske punkter ved avkjÃ¸ring</a></li>
+        <li><a href="#spesielle-avkjãringssituasjoner">Spesielle avkjÃ¸ringssituasjoner</a></li>
+        <li><a href="#vanlige-feil-og-konsekvenser">Vanlige feil og konsekvenser</a></li>
+      </ul>
+    </li>
+    <li><a href="#fartsgrenser-og-lovkrav">Fartsgrenser og lovkrav</a>
+      <ul>
+        <li><a href="#fartsgrenser-pã-ulike-veitype">Fartsgrenser pÃ¥ ulike veitype</a></li>
+        <li><a href="#variabel-fartsgrense">Variabel fartsgrense</a></li>
+        <li><a href="#kjãretãykrav-for-motorvei">KjÃ¸retÃ¸ykrav for motorvei</a></li>
+        <li><a href="#tekniske-krav-til-kjãretãy">Tekniske krav til kjÃ¸retÃ¸y</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-pã-motorvei">NÃ¸dsituasjoner pÃ¥ motorvei</a>
+      <ul>
+        <li><a href="#ved-motorstopp-eller-punktering">Ved motorstopp eller punktering</a></li>
+        <li><a href="#ved-ulykke-pã-motorvei">Ved ulykke pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#vãrforhold-og-motorveikjãring">VÃ¦rforhold og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a></li>
+        <li><a href="#vinter-og-glatte-forhold">Vinter og glatte forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-motorveikjãring">Psykologi og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#hypervigilans-og-monotoni">Hypervigilans og monotoni</a></li>
+        <li><a href="#aggressiv-adferd-og-road-rage">Aggressiv adferd og &ldquo;road rage&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãaspekter-ved-motorveikjãring">MiljÃ¸aspekter ved motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#co2-utslipp-og-drivstofforbruk">CO2-utslipp og drivstofforbruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-fremtidens-motorvei">Teknologi og fremtidens motorvei</a>
+      <ul>
+        <li><a href="#intelligente-transportsystemer-its">Intelligente transportsystemer (ITS)</a></li>
+        <li><a href="#forberedelse-pã-selvkjãrende-biler">Forberedelse pÃ¥ selvkjÃ¸rende biler</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-viktige-punkter">Oppsummering og viktige punkter</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-motorvei">Hva er motorvei?</a>
+      <ul>
+        <li><a href="#forskjell-mellom-motorvei-og-motortrafikkvei">Forskjell mellom motorvei og motortrafikkvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#motorveiens-struktur-og-elementer">Motorveiens struktur og elementer</a>
+      <ul>
+        <li><a href="#hovedelementer-pã-motorveien">Hovedelementer pÃ¥ motorveien</a></li>
+        <li><a href="#sikkerhetselementer">Sikkerhetselementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#pãkjãring-til-motorvei---detaljert-teknikk">PÃ¥kjÃ¸ring til motorvei - Detaljert teknikk</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-pãkjãring">Forberedelse fÃ¸r pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#pãkjãringssekvensen---5-kritiske-steg">PÃ¥kjÃ¸ringssekvensen - 5 kritiske steg</a></li>
+        <li><a href="#vanlige-feil-ved-pãkjãring">Vanlige feil ved pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#kjãring-pã-motorvei---avanserte-teknikker">KjÃ¸ring pÃ¥ motorvei - Avanserte teknikker</a>
+      <ul>
+        <li><a href="#feltvalg-og-posisjonering">Feltvalg og posisjonering</a></li>
+        <li><a href="#hastighetsadministrasjon">Hastighetsadministrasjon</a></li>
+        <li><a href="#sikker-fãlgeavstand">Sikker fÃ¸lgeavstand</a></li>
+        <li><a href="#feltskifte-og-forbikjãring">Feltskifte og forbikjÃ¸ring</a></li>
+        <li><a href="#ãkonomisk-kjãring-pã-motorvei">Ã˜konomisk kjÃ¸ring pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#avkjãring-fra-motorvei---profesjonell-teknikk">AvkjÃ¸ring fra motorvei - Profesjonell teknikk</a>
+      <ul>
+        <li><a href="#planlegging-av-avkjãring">Planlegging av avkjÃ¸ring</a></li>
+        <li><a href="#avkjãringssekvensen---6-kritiske-steg">AvkjÃ¸ringssekvensen - 6 kritiske steg</a></li>
+        <li><a href="#kritiske-punkter-ved-avkjãring">Kritiske punkter ved avkjÃ¸ring</a></li>
+        <li><a href="#spesielle-avkjãringssituasjoner">Spesielle avkjÃ¸ringssituasjoner</a></li>
+        <li><a href="#vanlige-feil-og-konsekvenser">Vanlige feil og konsekvenser</a></li>
+      </ul>
+    </li>
+    <li><a href="#fartsgrenser-og-lovkrav">Fartsgrenser og lovkrav</a>
+      <ul>
+        <li><a href="#fartsgrenser-pã-ulike-veitype">Fartsgrenser pÃ¥ ulike veitype</a></li>
+        <li><a href="#variabel-fartsgrense">Variabel fartsgrense</a></li>
+        <li><a href="#kjãretãykrav-for-motorvei">KjÃ¸retÃ¸ykrav for motorvei</a></li>
+        <li><a href="#tekniske-krav-til-kjãretãy">Tekniske krav til kjÃ¸retÃ¸y</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-pã-motorvei">NÃ¸dsituasjoner pÃ¥ motorvei</a>
+      <ul>
+        <li><a href="#ved-motorstopp-eller-punktering">Ved motorstopp eller punktering</a></li>
+        <li><a href="#ved-ulykke-pã-motorvei">Ved ulykke pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#vãrforhold-og-motorveikjãring">VÃ¦rforhold og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a></li>
+        <li><a href="#vinter-og-glatte-forhold">Vinter og glatte forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-motorveikjãring">Psykologi og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#hypervigilans-og-monotoni">Hypervigilans og monotoni</a></li>
+        <li><a href="#aggressiv-adferd-og-road-rage">Aggressiv adferd og &ldquo;road rage&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãaspekter-ved-motorveikjãring">MiljÃ¸aspekter ved motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#co2-utslipp-og-drivstofforbruk">CO2-utslipp og drivstofforbruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-fremtidens-motorvei">Teknologi og fremtidens motorvei</a>
+      <ul>
+        <li><a href="#intelligente-transportsystemer-its">Intelligente transportsystemer (ITS)</a></li>
+        <li><a href="#forberedelse-pã-selvkjãrende-biler">Forberedelse pÃ¥ selvkjÃ¸rende biler</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-viktige-punkter">Oppsummering og viktige punkter</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-motorvei">Hva er motorvei?</a>
+      <ul>
+        <li><a href="#forskjell-mellom-motorvei-og-motortrafikkvei">Forskjell mellom motorvei og motortrafikkvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#motorveiens-struktur-og-elementer">Motorveiens struktur og elementer</a>
+      <ul>
+        <li><a href="#hovedelementer-pã-motorveien">Hovedelementer pÃ¥ motorveien</a></li>
+        <li><a href="#sikkerhetselementer">Sikkerhetselementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#pãkjãring-til-motorvei---detaljert-teknikk">PÃ¥kjÃ¸ring til motorvei - Detaljert teknikk</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-pãkjãring">Forberedelse fÃ¸r pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#pãkjãringssekvensen---5-kritiske-steg">PÃ¥kjÃ¸ringssekvensen - 5 kritiske steg</a></li>
+        <li><a href="#vanlige-feil-ved-pãkjãring">Vanlige feil ved pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#kjãring-pã-motorvei---avanserte-teknikker">KjÃ¸ring pÃ¥ motorvei - Avanserte teknikker</a>
+      <ul>
+        <li><a href="#feltvalg-og-posisjonering">Feltvalg og posisjonering</a></li>
+        <li><a href="#hastighetsadministrasjon">Hastighetsadministrasjon</a></li>
+        <li><a href="#sikker-fãlgeavstand">Sikker fÃ¸lgeavstand</a></li>
+        <li><a href="#feltskifte-og-forbikjãring">Feltskifte og forbikjÃ¸ring</a></li>
+        <li><a href="#ãkonomisk-kjãring-pã-motorvei">Ã˜konomisk kjÃ¸ring pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#avkjãring-fra-motorvei---profesjonell-teknikk">AvkjÃ¸ring fra motorvei - Profesjonell teknikk</a>
+      <ul>
+        <li><a href="#planlegging-av-avkjãring">Planlegging av avkjÃ¸ring</a></li>
+        <li><a href="#avkjãringssekvensen---6-kritiske-steg">AvkjÃ¸ringssekvensen - 6 kritiske steg</a></li>
+        <li><a href="#kritiske-punkter-ved-avkjãring">Kritiske punkter ved avkjÃ¸ring</a></li>
+        <li><a href="#spesielle-avkjãringssituasjoner">Spesielle avkjÃ¸ringssituasjoner</a></li>
+        <li><a href="#vanlige-feil-og-konsekvenser">Vanlige feil og konsekvenser</a></li>
+      </ul>
+    </li>
+    <li><a href="#fartsgrenser-og-lovkrav">Fartsgrenser og lovkrav</a>
+      <ul>
+        <li><a href="#fartsgrenser-pã-ulike-veitype">Fartsgrenser pÃ¥ ulike veitype</a></li>
+        <li><a href="#variabel-fartsgrense">Variabel fartsgrense</a></li>
+        <li><a href="#kjãretãykrav-for-motorvei">KjÃ¸retÃ¸ykrav for motorvei</a></li>
+        <li><a href="#tekniske-krav-til-kjãretãy">Tekniske krav til kjÃ¸retÃ¸y</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-pã-motorvei">NÃ¸dsituasjoner pÃ¥ motorvei</a>
+      <ul>
+        <li><a href="#ved-motorstopp-eller-punktering">Ved motorstopp eller punktering</a></li>
+        <li><a href="#ved-ulykke-pã-motorvei">Ved ulykke pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#vãrforhold-og-motorveikjãring">VÃ¦rforhold og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a></li>
+        <li><a href="#vinter-og-glatte-forhold">Vinter og glatte forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-motorveikjãring">Psykologi og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#hypervigilans-og-monotoni">Hypervigilans og monotoni</a></li>
+        <li><a href="#aggressiv-adferd-og-road-rage">Aggressiv adferd og &ldquo;road rage&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãaspekter-ved-motorveikjãring">MiljÃ¸aspekter ved motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#co2-utslipp-og-drivstofforbruk">CO2-utslipp og drivstofforbruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-fremtidens-motorvei">Teknologi og fremtidens motorvei</a>
+      <ul>
+        <li><a href="#intelligente-transportsystemer-its">Intelligente transportsystemer (ITS)</a></li>
+        <li><a href="#forberedelse-pã-selvkjãrende-biler">Forberedelse pÃ¥ selvkjÃ¸rende biler</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-viktige-punkter">Oppsummering og viktige punkter</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-er-motorvei">Hva er motorvei?</a>
+      <ul>
+        <li><a href="#forskjell-mellom-motorvei-og-motortrafikkvei">Forskjell mellom motorvei og motortrafikkvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#motorveiens-struktur-og-elementer">Motorveiens struktur og elementer</a>
+      <ul>
+        <li><a href="#hovedelementer-pã-motorveien">Hovedelementer pÃ¥ motorveien</a></li>
+        <li><a href="#sikkerhetselementer">Sikkerhetselementer</a></li>
+      </ul>
+    </li>
+    <li><a href="#pãkjãring-til-motorvei---detaljert-teknikk">PÃ¥kjÃ¸ring til motorvei - Detaljert teknikk</a>
+      <ul>
+        <li><a href="#forberedelse-fãr-pãkjãring">Forberedelse fÃ¸r pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#pãkjãringssekvensen---5-kritiske-steg">PÃ¥kjÃ¸ringssekvensen - 5 kritiske steg</a></li>
+        <li><a href="#vanlige-feil-ved-pãkjãring">Vanlige feil ved pÃ¥kjÃ¸ring</a></li>
+        <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#kjãring-pã-motorvei---avanserte-teknikker">KjÃ¸ring pÃ¥ motorvei - Avanserte teknikker</a>
+      <ul>
+        <li><a href="#feltvalg-og-posisjonering">Feltvalg og posisjonering</a></li>
+        <li><a href="#hastighetsadministrasjon">Hastighetsadministrasjon</a></li>
+        <li><a href="#sikker-fãlgeavstand">Sikker fÃ¸lgeavstand</a></li>
+        <li><a href="#feltskifte-og-forbikjãring">Feltskifte og forbikjÃ¸ring</a></li>
+        <li><a href="#ãkonomisk-kjãring-pã-motorvei">Ã˜konomisk kjÃ¸ring pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#avkjãring-fra-motorvei---profesjonell-teknikk">AvkjÃ¸ring fra motorvei - Profesjonell teknikk</a>
+      <ul>
+        <li><a href="#planlegging-av-avkjãring">Planlegging av avkjÃ¸ring</a></li>
+        <li><a href="#avkjãringssekvensen---6-kritiske-steg">AvkjÃ¸ringssekvensen - 6 kritiske steg</a></li>
+        <li><a href="#kritiske-punkter-ved-avkjãring">Kritiske punkter ved avkjÃ¸ring</a></li>
+        <li><a href="#spesielle-avkjãringssituasjoner">Spesielle avkjÃ¸ringssituasjoner</a></li>
+        <li><a href="#vanlige-feil-og-konsekvenser">Vanlige feil og konsekvenser</a></li>
+      </ul>
+    </li>
+    <li><a href="#fartsgrenser-og-lovkrav">Fartsgrenser og lovkrav</a>
+      <ul>
+        <li><a href="#fartsgrenser-pã-ulike-veitype">Fartsgrenser pÃ¥ ulike veitype</a></li>
+        <li><a href="#variabel-fartsgrense">Variabel fartsgrense</a></li>
+        <li><a href="#kjãretãykrav-for-motorvei">KjÃ¸retÃ¸ykrav for motorvei</a></li>
+        <li><a href="#tekniske-krav-til-kjãretãy">Tekniske krav til kjÃ¸retÃ¸y</a></li>
+      </ul>
+    </li>
+    <li><a href="#nãdsituasjoner-pã-motorvei">NÃ¸dsituasjoner pÃ¥ motorvei</a>
+      <ul>
+        <li><a href="#ved-motorstopp-eller-punktering">Ved motorstopp eller punktering</a></li>
+        <li><a href="#ved-ulykke-pã-motorvei">Ved ulykke pÃ¥ motorvei</a></li>
+      </ul>
+    </li>
+    <li><a href="#vãrforhold-og-motorveikjãring">VÃ¦rforhold og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#regn-og-vãte-forhold">Regn og vÃ¥te forhold</a></li>
+        <li><a href="#vinter-og-glatte-forhold">Vinter og glatte forhold</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-motorveikjãring">Psykologi og motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#hypervigilans-og-monotoni">Hypervigilans og monotoni</a></li>
+        <li><a href="#aggressiv-adferd-og-road-rage">Aggressiv adferd og &ldquo;road rage&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#miljãaspekter-ved-motorveikjãring">MiljÃ¸aspekter ved motorveikjÃ¸ring</a>
+      <ul>
+        <li><a href="#co2-utslipp-og-drivstofforbruk">CO2-utslipp og drivstofforbruk</a></li>
+      </ul>
+    </li>
+    <li><a href="#teknologi-og-fremtidens-motorvei">Teknologi og fremtidens motorvei</a>
+      <ul>
+        <li><a href="#intelligente-transportsystemer-its">Intelligente transportsystemer (ITS)</a></li>
+        <li><a href="#forberedelse-pã-selvkjãrende-biler">Forberedelse pÃ¥ selvkjÃ¸rende biler</a></li>
+      </ul>
+    </li>
+    <li><a href="#oppsummering-og-viktige-punkter">Oppsummering og viktige punkter</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>MotorveikjÃ¸ring</strong> er en spesialisert ferdighet som krever forstÃ¥else av unike regler, teknikker og sikkerhetsprinsipper. Denne omfattende guiden dekker alt du trenger Ã¥ vite om <strong>trygg og effektiv kjÃ¸ring pÃ¥ motorvei</strong>, fra grunnleggende konsepter til avanserte teknikker.</p>
+<p><em>For kjÃ¸ring pÃ¥ landevei, se <a href="/blogs/teori/landeveiskjoring" title="LandeveiskjÃ¸ring - Guide til sikker kjÃ¸ring pÃ¥ norske landeveier">LandeveiskjÃ¸ring</a>.</em></p>
+<p><em>For grunnleggende prinsipper for plassering og kjÃ¸remÃ¥te i alle situasjoner, se <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a>.</em></p>
+<p><em>For tips om Ã¥ redusere drivstofforbruk og utslipp ved hÃ¸yhastighetskjÃ¸ring, se <a href="/blogs/teori/miljovennlig-kjoring" title="MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring">MiljÃ¸vennlig kjÃ¸ring</a>.</em>
+<em>For mer om kjÃ¸ring og miljÃ¸, se <a href="/blogs/teori/kjoring-og-miljo" title="KjÃ¸ring og miljÃ¸ - MiljÃ¸hensyn og kjÃ¸reteknikker">KjÃ¸ring og miljÃ¸</a>.</em></p>
+<p>For en oversikt over gjeldende lover og forskrifter, se <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Oversikt over norske trafikklover og forskrifter">Lover og forskrifter</a>.</p>
+<p><em>For tips om Ã¥ forberede deg til en lang kjÃ¸retur, se <a href="/blogs/teori/forberedelser-for-en-lang-kjoretur" title="Forberedelser fÃ¸r en lang kjÃ¸retur - Hva bÃ¸r du huske fÃ¸r en lang reise">Forberedelser fÃ¸r en lang kjÃ¸retur</a>.</em></p>
+<p><em>For forebygging av frontkollisjoner, se <a href="/blogs/teori/moteulykker-og-forebygging" title="MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken">MÃ¸teulykker og forebygging</a>.</em></p>
+<h2 id="hva-er-motorvei">Hva er motorvei?</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Motorvei</strong> er en hÃ¸ystandard vei designet for trygg kjÃ¸ring i hÃ¸y hastighet. Den er skiltet med det blÃ¥ motorveiskiltet og har fÃ¸lgende kjennetegn:</p>
+<ul>
+<li><strong>Atskilte kjÃ¸reretninger</strong> med fysisk midtdeler</li>
+<li><strong>Minst to kjÃ¸refelt</strong> i hver retning</li>
+<li><strong>Ingen kryss pÃ¥ samme plan</strong> - all av- og pÃ¥kjÃ¸ring skjer via ramper</li>
+<li><strong>Kontrollert adgang</strong> - kun <a href="/blogs/teori/motorvogn-definisjon" title="Motorvogn (definisjon)">motorvogner</a> tillatt</li>
+<li><strong>Ingen fotgjengere, syklister eller mopeder</strong></li>
+</ul>
+<h3 id="forskjell-mellom-motorvei-og-motortrafikkvei">Forskjell mellom motorvei og motortrafikkvei</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Type</th>
+          <th>Skilt</th>
+          <th>Fartsgrense</th>
+          <th>Kjennetegn</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Motorvei</strong></td>
+          <td>BlÃ¥tt skilt med hvit motorvei-symbol</td>
+          <td>110 km/t</td>
+          <td>HÃ¸yeste standard, full adgangskontroll</td>
+      </tr>
+      <tr>
+          <td><strong>Motortrafikkvei</strong></td>
+          <td>BlÃ¥tt skilt med gul stripe</td>
+          <td>90 km/t</td>
+          <td>Lavere standard, kan ha kryss pÃ¥ samme plan</td>
+      </tr>
+  </tbody>
+</table>
+<ul>
+<li>For en mer detaljert sammenligning av <strong>motorvei</strong> og <strong>motortrafikkvei</strong>, se <a href="/blogs/teori/motorvei-vs-motortrafikkvei" title="Motorvei vs motortrafikkvei - Forskjeller, fartsgrenser og skilt">Motorvei vs motortrafikkvei</a>.</li>
+</ul>
+<p>For mer om trafikkregler pÃ¥ motorvei, se <a href="/blogs/teori/trafikkskilt-og-veimerking" title="Trafikkskilt og veimerking - Skilt for motorvei">Trafikkskilt og veimerking</a>.</p>
+<h2 id="motorveiens-struktur-og-elementer">Motorveiens struktur og elementer</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="hovedelementer-pã-motorveien">Hovedelementer pÃ¥ motorveien</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Element</th>
+          <th>Beskrivelse</th>
+          <th>Funksjon</th>
+          <th>Bredde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Skulder</strong></td>
+          <td>Sikkerhetssone langs veiens kant</td>
+          <td>NÃ¸dstopp, vedlikehold</td>
+          <td>2,5-3,0 m</td>
+      </tr>
+      <tr>
+          <td><strong>KjÃ¸refelt</strong></td>
+          <td>Normale kjÃ¸refelt</td>
+          <td>Hovedtrafikk</td>
+          <td>3,5-3,75 m</td>
+      </tr>
+      <tr>
+          <td><strong>Venstre kjÃ¸refelt</strong></td>
+          <td>ForbikjÃ¸ringsfelt</td>
+          <td>ForbikjÃ¸ring, raskere trafikk</td>
+          <td>3,5-3,75 m</td>
+      </tr>
+      <tr>
+          <td><strong>Midtdeler</strong></td>
+          <td>Fysisk barriere mellom kjÃ¸reretninger</td>
+          <td>Hindrer mÃ¸teulykker</td>
+          <td>2-15 m</td>
+      </tr>
+      <tr>
+          <td><strong>PÃ¥kjÃ¸ringsfelt</strong></td>
+          <td>Akselerasjonsfelt</td>
+          <td>Inn pÃ¥ motorvei</td>
+          <td>3,5 m</td>
+      </tr>
+      <tr>
+          <td><strong>Retardasjonsfelt</strong></td>
+          <td>Nedbrmsningsfelt</td>
+          <td>Av fra motorvei</td>
+          <td>3,5 m</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="sikkerhetselementer">Sikkerhetselementer</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<ul>
+<li><strong>Autovern</strong> - Hindrer utforkjÃ¸ring og mÃ¸teulykker</li>
+<li><strong>NÃ¸dtelefoner</strong> - Plassert med jevne mellomrom</li>
+<li><strong>Belysning</strong> - Ved knutepunkter og i tunneler</li>
+<li><strong>Drenering</strong> - UnngÃ¥r vannplaning</li>
+<li><strong>Sklisikkert dekke</strong> - Bedre grep ved vÃ¥te forhold</li>
+</ul>
+<h2 id="pãkjãring-til-motorvei---detaljert-teknikk">PÃ¥kjÃ¸ring til motorvei - Detaljert teknikk</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="forberedelse-fãr-pãkjãring">Forberedelse fÃ¸r pÃ¥kjÃ¸ring</h3>
+<p><strong>FÃ¸r du nÃ¥r pÃ¥kjÃ¸ringsrampen:</strong></p>
+<ul>
+<li>Kontroller <strong>hastigheten</strong> pÃ¥ rampen - ofte lavere fartsgrense</li>
+<li>Vurder <strong>trafikkmengden</strong> pÃ¥ motorveien</li>
+<li>Planlegg <strong>akselerasjonen</strong> for Ã¥ matche motorveiens hastighet</li>
+<li>Sjekk <strong>speil</strong> og vurder <strong>dÃ¸de vinkler</strong></li>
+</ul>
+<h3 id="pãkjãringssekvensen---5-kritiske-steg">PÃ¥kjÃ¸ringssekvensen - 5 kritiske steg</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<ol>
+<li><strong>Observe</strong> - Vurder trafikken pÃ¥ motorveien gjennom speil og direkte observasjon</li>
+<li><strong>Akseler</strong> - Ã˜k hastigheten gradvis i pÃ¥kjÃ¸ringsfeltet</li>
+<li><strong>Match</strong> - Tilpass hastigheten til trafikken pÃ¥ motorveien</li>
+<li><strong>Signal</strong> - Bruk <strong>blinklys</strong> for Ã¥ signalisere intensjon</li>
+<li><strong>Merge</strong> - Flette inn nÃ¥r det er trygt gap</li>
+</ol>
+<h3 id="vanlige-feil-ved-pãkjãring">Vanlige feil ved pÃ¥kjÃ¸ring</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Feil</th>
+          <th>Konsekvens</th>
+          <th>Korrekt teknikk</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>For lav hastighet</strong></td>
+          <td>Hindrer trafikkflyt, farlig</td>
+          <td>Akseler til motorveiens hastighet</td>
+      </tr>
+      <tr>
+          <td><strong>For sent blinklys</strong></td>
+          <td>Overrasker andre bilister</td>
+          <td>Signal tidlig og tydelig</td>
+      </tr>
+      <tr>
+          <td><strong>Stopper i pÃ¥kjÃ¸ringsfeltet</strong></td>
+          <td>SvÃ¦rt farlig situasjon</td>
+          <td>Hold farten, finn nytt gap</td>
+      </tr>
+      <tr>
+          <td><strong>Tvinger seg inn</strong></td>
+          <td>Risiko for ulykke</td>
+          <td>Vent pÃ¥ trygt gap</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="spesielle-situasjoner">Spesielle situasjoner</h3>
+<p><strong>Tett trafikk:</strong></p>
+<ul>
+<li>Vent pÃ¥ naturlig gap i trafikken</li>
+<li>Bruk <strong>tett oppfÃ¸lging</strong> kun hvis nÃ¸dvendig</li>
+<li>Vurder Ã¥ vente til trafikken letter</li>
+</ul>
+<p><strong>DÃ¥rlig sikt:</strong></p>
+<ul>
+<li>Reduser hastigheten pÃ¥ rampen</li>
+<li>Ã˜k <strong>observasjonstiden</strong></li>
+<li>VÃ¦r ekstra forsiktig med dÃ¸de vinkler</li>
+</ul>
+<p>For detaljert teknikk om oppmerksomhet og kommunikasjon, se <a href="/blogs/teori/oppmerksomhet-og-samhandling" title="Oppmerksomhet og samhandling - Fokus og kommunikasjon i trafikken">Oppmerksomhet og samhandling</a>.</p>
+<h2 id="kjãring-pã-motorvei---avanserte-teknikker">KjÃ¸ring pÃ¥ motorvei - Avanserte teknikker</h2>
+<h3 id="feltvalg-og-posisjonering">Feltvalg og posisjonering</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>HÃ¸yre kjÃ¸refelt (normalt kjÃ¸refelt):</strong></p>
+<ul>
+<li><strong>Hovedregelen:</strong> Hold hÃ¸yre nÃ¥r mulig</li>
+<li>Ideelt for <strong>konstant hastighet</strong> rundt fartsgrensen</li>
+<li><strong>Lastebiler</strong> og <strong>tyngre trafikk</strong> bruker primÃ¦rt dette feltet</li>
+</ul>
+<p><strong>Venstre kjÃ¸refelt (forbikjÃ¸ringsfelt):</strong></p>
+<ul>
+<li><strong>Kun for forbikjÃ¸ring</strong> eller nÃ¥r hÃ¸yre felt er blokkert</li>
+<li>Flytt tilbake til hÃ¸yre <strong>sÃ¥ snart det er trygt</strong></li>
+<li><strong>Ikke Â«campereÂ»</strong> i venstre felt</li>
+</ul>
+<h3 id="hastighetsadministrasjon">Hastighetsadministrasjon</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Situasjon</th>
+          <th>Anbefalt hastighet</th>
+          <th>Ã…rsak</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Optimale forhold</strong></td>
+          <td>110 km/t</td>
+          <td>Fartsgrensen</td>
+      </tr>
+      <tr>
+          <td><strong>Tett trafikk</strong></td>
+          <td>FÃ¸lg trafikkflyten</td>
+          <td>Sikkerhet</td>
+      </tr>
+      <tr>
+          <td><strong>DÃ¥rlig vÃ¦r</strong></td>
+          <td>80-90 km/t</td>
+          <td>Redusert grep</td>
+      </tr>
+      <tr>
+          <td><strong>Tungt lastet</strong></td>
+          <td>90-100 km/t</td>
+          <td>Lengre bremselengde</td>
+      </tr>
+      <tr>
+          <td><strong>MÃ¸rkt</strong></td>
+          <td>90-100 km/t</td>
+          <td>Begrenset sikt</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="sikker-fãlgeavstand">Sikker fÃ¸lgeavstand</h3>
+<p><strong>3-sekunders regelen pÃ¥ motorvei:</strong></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<ul>
+<li>Ved <strong>110 km/t</strong>: ca. <strong>90 meter</strong> fÃ¸lgeavstand</li>
+<li>Ved <strong>90 km/t</strong>: ca. <strong>75 meter</strong> fÃ¸lgeavstand</li>
+<li><strong>Dobbel avstanden</strong> ved dÃ¥rlige forhold</li>
+</ul>
+<p>For detaljerte beregninger av fÃ¸lgeavstand og bremseavstand ved hÃ¸y hastighet, se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">Fart og avstand</a>.</p>
+<p><strong>Praktisk mÃ¥ling:</strong></p>
+<ol>
+<li>Velg et <strong>fast referansepunkt</strong> (skilt, bro)</li>
+<li>Tell &ldquo;<strong>en tusen og en, en tusen og to, en tusen og tre</strong>&rdquo;</li>
+<li>Du skal <strong>ikke</strong> passere referansepunktet fÃ¸r tellingen er ferdig</li>
+</ol>
+<h3 id="feltskifte-og-forbikjãring">Feltskifte og forbikjÃ¸ring</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>ForbikjÃ¸ringssekvens:</strong></p>
+<ol>
+<li><strong>Vurder</strong> - Er forbikjÃ¸ring nÃ¸dvendig og trygt?</li>
+<li><strong>Speilkontroll</strong> - Bakspeil og sidespeil</li>
+<li><strong>Blinklys</strong> - Signal intensjon tidlig</li>
+<li><strong>DÃ¸dvinkelsjekk</strong> - Rask skuldersjekk</li>
+<li><strong>Akseler</strong> - Beslutt deg og gjennomfÃ¸r</li>
+<li><strong>Retur</strong> - Tilbake til hÃ¸yre nÃ¥r trygt</li>
+</ol>
+<p><strong>NÃ¥r du IKKE skal forbikjÃ¸re:</strong></p>
+<ul>
+<li><strong>Hastighetsforskjellen</strong> er minimal (under 10 km/t)</li>
+<li><strong>Tett trafikk</strong> der du ikke kommer raskere frem</li>
+<li><strong>DÃ¥rlig sikt</strong> eller vÃ¦rforhold</li>
+<li><strong>AvkjÃ¸ring</strong> kommer snart</li>
+</ul>
+<p>For mer detaljert informasjon om forbikjÃ¸ring, se <a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte">ForbikjÃ¸ring og feltskifte</a>.</p>
+<h3 id="ãkonomisk-kjãring-pã-motorvei">Ã˜konomisk kjÃ¸ring pÃ¥ motorvei</h3>
+<p><strong>Drivstoffbesparende teknikker:</strong></p>
+<ul>
+<li><strong>Jevn hastighet</strong> - UnngÃ¥ unÃ¸dvendig akselerasjon</li>
+<li><strong>Forutseende kjÃ¸ring</strong> - Tilpass hastighet til trafikken</li>
+<li><strong>Optimal hastighet</strong> - 90-100 km/t er ofte mest Ã¸konomisk</li>
+<li><strong>Tempomat</strong> - Brukes ved jevn trafikk</li>
+</ul>
+<p>For mer om miljÃ¸vennlig kjÃ¸ring, se <a href="/blogs/teori/miljovennlig-kjoring" title="MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring">MiljÃ¸vennlig kjÃ¸ring</a>.</p>
+<h2 id="avkjãring-fra-motorvei---profesjonell-teknikk">AvkjÃ¸ring fra motorvei - Profesjonell teknikk</h2>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="planlegging-av-avkjãring">Planlegging av avkjÃ¸ring</h3>
+<p><strong>2 km fÃ¸r avkjÃ¸ring:</strong></p>
+<ul>
+<li>Identifiser <strong>avkjÃ¸ringsskiltet</strong></li>
+<li>Vurder <strong>trafikksituasjonen</strong></li>
+<li>Planlegg <strong>feltskifte</strong> til hÃ¸yre felt om nÃ¸dvendig</li>
+</ul>
+<p><strong>1 km fÃ¸r avkjÃ¸ring:</strong></p>
+<ul>
+<li>Plasser deg i <strong>hÃ¸yre kjÃ¸refelt</strong></li>
+<li>Reduser hastigheten gradvis om nÃ¸dvendig</li>
+<li>Observer <strong>avkjÃ¸ringsrampen</strong></li>
+</ul>
+<h3 id="avkjãringssekvensen---6-kritiske-steg">AvkjÃ¸ringssekvensen - 6 kritiske steg</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<ol>
+<li><strong>Identifiser</strong> - Gjenkjenn korrekt avkjÃ¸ring i god tid</li>
+<li><strong>Posisjon</strong> - Flytt til hÃ¸yre kjÃ¸refelt</li>
+<li><strong>Signal</strong> - Bruk blinklys fÃ¸r retardasjonsfeltet</li>
+<li><strong>Skill</strong> - Inn i retardasjonsfeltet uten bremsing</li>
+<li><strong>Brems</strong> - Reduser hastighet i retardasjonsfeltet</li>
+<li><strong>Tilpass</strong> - Match hastighet til avkjÃ¸ringsrampen</li>
+</ol>
+<h3 id="kritiske-punkter-ved-avkjãring">Kritiske punkter ved avkjÃ¸ring</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Fase</th>
+          <th>Hastighet</th>
+          <th>FokusomrÃ¥de</th>
+          <th>Vanlig feil</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>HovedkjÃ¸rebane</strong></td>
+          <td>110 km/t</td>
+          <td>Posisjonering</td>
+          <td>Sent feltskifte</td>
+      </tr>
+      <tr>
+          <td><strong>Inn i retardasjonsfelt</strong></td>
+          <td>110 km/t</td>
+          <td>Jevn overgang</td>
+          <td>BrÃ¥ bremsing</td>
+      </tr>
+      <tr>
+          <td><strong>I retardasjonsfelt</strong></td>
+          <td>110â†’60 km/t</td>
+          <td>Gradvis nedbremsing</td>
+          <td>For sen bremsing</td>
+      </tr>
+      <tr>
+          <td><strong>AvkjÃ¸ringsrampe</strong></td>
+          <td>60â†’30 km/t</td>
+          <td>Rampens kurvatur</td>
+          <td>For hÃ¸y hastighet</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="spesielle-avkjãringssituasjoner">Spesielle avkjÃ¸ringssituasjoner</h3>
+<p><strong>Kort retardasjonsfelt:</strong></p>
+<ul>
+<li>Start nedbremsingen <strong>tidligere</strong></li>
+<li>VÃ¦r mer <strong>bestemt</strong> i nedbremsingen</li>
+<li><strong>Ikke vent</strong> med Ã¥ redusere hastighet</li>
+</ul>
+<p><strong>Tett trafikk:</strong></p>
+<ul>
+<li><strong>Planlegg tidligere</strong> - fÃ¥ deg til hÃ¸yre i god tid</li>
+<li><strong>Kommuniser tydelig</strong> med blinklys</li>
+<li><strong>VÃ¦r tÃ¥lmodig</strong> - ikke tving deg ut</li>
+</ul>
+<p><strong>DÃ¥rlig vÃ¦r:</strong></p>
+<ul>
+<li><strong>Dobbel planleggingstiden</strong></li>
+<li><strong>Reduser hastighet tidligere</strong></li>
+<li><strong>Ã˜k fÃ¸lgeavstanden</strong> i retardasjonsfeltet</li>
+</ul>
+<h3 id="vanlige-feil-og-konsekvenser">Vanlige feil og konsekvenser</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Feil</th>
+          <th>Fare</th>
+          <th>Korreksjon</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>BrÃ¥ bremsing i hovedfelt</strong></td>
+          <td>PÃ¥kjÃ¸ring bakfra</td>
+          <td>Gradvis nedbremsing i retardasjonsfelt</td>
+      </tr>
+      <tr>
+          <td><strong>Sent blinklys</strong></td>
+          <td>Overrasker andre</td>
+          <td>Signal fÃ¸r retardasjonsfeltet</td>
+      </tr>
+      <tr>
+          <td><strong>For hÃ¸y hastighet pÃ¥ rampe</strong></td>
+          <td>UtforkjÃ¸ring</td>
+          <td>Tilpass hastighet til rampen</td>
+      </tr>
+      <tr>
+          <td><strong>Angrer og kjÃ¸rer tilbake</strong></td>
+          <td>SvÃ¦rt farlig</td>
+          <td>Fortsett og snu senere</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="fartsgrenser-og-lovkrav">Fartsgrenser og lovkrav</h2>
+<h3 id="fartsgrenser-pã-ulike-veitype">Fartsgrenser pÃ¥ ulike veitype</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Veitype</th>
+          <th>Standard fartsgrense</th>
+          <th>Minimum hastighet</th>
+          <th>Spesielle forhold</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Motorvei</strong></td>
+          <td>110 km/t</td>
+          <td>40 km/t</td>
+          <td>Kan reduseres ved dÃ¥rlig vÃ¦r</td>
+      </tr>
+      <tr>
+          <td><strong>Motortrafikkvei</strong></td>
+          <td>90 km/t</td>
+          <td>40 km/t</td>
+          <td>Variabel fartsgrense mulig</td>
+      </tr>
+      <tr>
+          <td><strong>4-felts vei</strong></td>
+          <td>80-90 km/t</td>
+          <td>-</td>
+          <td>Avhenger av standard</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="variabel-fartsgrense">Variabel fartsgrense</h3>
+<p><strong>Elektroniske skilt som endrer fartsgrense basert pÃ¥:</strong></p>
+<ul>
+<li><strong>Trafikkmengde</strong> - Redusert hastighet ved kÃ¸</li>
+<li><strong>VÃ¦rforhold</strong> - Lavere grense ved regn/snÃ¸</li>
+<li><strong>Ulykker</strong> - Midlertidig reduksjon</li>
+<li><strong>Veiarbeid</strong> - Sikkerhet for arbeidere</li>
+</ul>
+<h3 id="kjãretãykrav-for-motorvei">KjÃ¸retÃ¸ykrav for motorvei</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Tillatte kjÃ¸retÃ¸y:</strong></p>
+<ul>
+<li><strong>Personbiler</strong> (klasse B)</li>
+<li><strong>Lastebiler</strong> over 3,5 tonn</li>
+<li><strong>Busser</strong></li>
+<li><strong>Motorsykler</strong> over 125 ccm</li>
+<li><strong>Vogntog</strong> og trailer</li>
+</ul>
+<p><strong>IKKE tillatt:</strong></p>
+<ul>
+<li><strong>Mopeder</strong> og lette motorsykler</li>
+<li><strong>Traktorer</strong> (med unntak)</li>
+<li><strong>Fotgjengere</strong></li>
+<li><strong>Syklister</strong></li>
+<li><strong>HestekjÃ¸retÃ¸y</strong></li>
+</ul>
+<h3 id="tekniske-krav-til-kjãretãy">Tekniske krav til kjÃ¸retÃ¸y</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Krav</th>
+          <th>Begrunnelse</th>
+          <th>Kontroll</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Minimum toppfart 40 km/t</strong></td>
+          <td>Opprettholde trafikkflyt</td>
+          <td>Periodisk kontroll</td>
+      </tr>
+      <tr>
+          <td><strong>Fungerende bremser</strong></td>
+          <td>Sikkerhet ved hÃ¸y hastighet</td>
+          <td>Ã…rlig EU-kontroll</td>
+      </tr>
+      <tr>
+          <td><strong>Dekkdybde minimum 1,6 mm</strong></td>
+          <td>Grep pÃ¥ vÃ¥t vei</td>
+          <td>Visuell kontroll</td>
+      </tr>
+      <tr>
+          <td><strong>Lys og reflekser</strong></td>
+          <td>Synlighet</td>
+          <td>Daglig kontroll</td>
+      </tr>
+  </tbody>
+</table>
+<p>For mer om kjÃ¸retÃ¸yets sikkerhetsutstyr, se <a href="/blogs/teori/kjoretoyets-sikkerhetsutstyr" title="KjÃ¸retÃ¸yets sikkerhetsutstyr - Alt om sikkerhetsutstyr i bilen">KjÃ¸retÃ¸yets sikkerhetsutstyr</a>.</p>
+<p>Ved kjÃ¸ring med tilhenger pÃ¥ motorvei gjelder reduserte fartsgrenser og spesielle krav til sikkerhet og plassering. Se <a href="/blogs/teori/kjoring-med-tilhenger" title="KjÃ¸ring med tilhenger - Guide til sikker tilhengerkjÃ¸ring">KjÃ¸ring med tilhenger</a> for detaljerte regler.</p>
+<h2 id="nãdsituasjoner-pã-motorvei">NÃ¸dsituasjoner pÃ¥ motorvei</h2>
+<h3 id="ved-motorstopp-eller-punktering">Ved motorstopp eller punktering</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Umiddelbare tiltak:</strong></p>
+<ol>
+<li><strong>Aktiver</strong> varselblink og kjÃ¸r mot skulderen</li>
+<li><strong>Stopp</strong> sÃ¥ langt til hÃ¸yre som mulig</li>
+<li><strong>SlÃ¥ pÃ¥</strong> nÃ¸dblinklys</li>
+<li><strong>Sett opp</strong> varseltrekant 100-200 meter bak bilen</li>
+<li><strong>GÃ¥ ut</strong> pÃ¥ hÃ¸yre side, bort fra trafikken</li>
+<li><strong>Ring</strong> 113 eller bruk nÃ¸dtelefon</li>
+</ol>
+<p><strong>Varseltrekant plassering:</strong></p>
+<ul>
+<li><strong>Minimum 100 meter</strong> bak kjÃ¸retÃ¸yet</li>
+<li><strong>200 meter</strong> ved dÃ¥rlig sikt</li>
+<li><strong>PÃ¥ skuldren</strong>, ikke i kjÃ¸rebanen</li>
+</ul>
+<h3 id="ved-ulykke-pã-motorvei">Ved ulykke pÃ¥ motorvei</h3>
+<p><strong>Prioritert rekkefÃ¸lge:</strong></p>
+<ol>
+<li><strong>Sikre</strong> skadestedet</li>
+<li><strong>Varsle</strong> nÃ¸detatene (113)</li>
+<li><strong>Hjelpe</strong> skadde hvis mulig</li>
+</ol>
+<p>Motorveiulykker har spesielle utfordringer pÃ¥ grunn av hÃ¸y hastighet og begrenset tilgang. For komplett guide til hÃ¥ndtering av alle typer nÃ¸dsituasjoner pÃ¥ motorvei, inkludert kommunikasjon med nÃ¸detater og sikring under hÃ¸yhastighetstrafikk, se <a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - Komplett guide til nÃ¸dhÃ¥ndtering i trafikken">HÃ¥ndtering av nÃ¸dsituasjoner</a>.</p>
+<p>For mer om fÃ¸rstehjelp, se <a href="/blogs/teori/forstehjelp-og-opptreden-ved-ulykker" title="FÃ¸rstehjelp og opptreden ved ulykker - Livreddende fÃ¸rstehjelp">FÃ¸rstehjelp og opptreden ved ulykker</a>.</p>
+<h2 id="vãrforhold-og-motorveikjãring">VÃ¦rforhold og motorveikjÃ¸ring</h2>
+<h3 id="regn-og-vãte-forhold">Regn og vÃ¥te forhold</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Tilpasninger ved regn:</strong></p>
+<ul>
+<li><strong>Reduser hastighet</strong> til 80-90 km/t</li>
+<li><strong>Ã˜k fÃ¸lgeavstand</strong> til 4-5 sekunder</li>
+<li><strong>UnngÃ¥</strong> plutselige manÃ¸vre</li>
+<li><strong>Test bremsene</strong> jevnlig og forsiktig</li>
+</ul>
+<p><strong>Vannplaning - faresignaler:</strong></p>
+<ul>
+<li>Bilen <strong>&ldquo;flyter&rdquo;</strong> pÃ¥ veien</li>
+<li><strong>Lettere ratt</strong> - mindre motstand</li>
+<li><strong>Motor lÃ¥ter annerledes</strong> - mindre motstand</li>
+</ul>
+<h3 id="vinter-og-glatte-forhold">Vinter og glatte forhold</h3>
+<p><strong>Spesielle hensyn:</strong></p>
+<ul>
+<li><strong>Vinterdekk</strong> er obligatorisk (se <a href="/blogs/teori/regler-for-dekk-og-kjetting" title="Regler for dekk og kjetting - Krav til mÃ¸nsterdybde, piggdekk og kjetting">Regler for dekk og kjetting</a>)</li>
+<li><strong>Hastighet</strong> reduseres til 60-80 km/t</li>
+<li><strong>Kjetting</strong> ved sÃ¦rlig glatte forhold (se <a href="/blogs/teori/regler-for-dekk-og-kjetting" title="Regler for dekk og kjetting - Krav til mÃ¸nsterdybde, piggdekk og kjetting">Regler for dekk og kjetting</a>)</li>
+<li><strong>Lengre fÃ¸lgeavstand</strong> - opptil 6-8 sekunder</li>
+</ul>
+<p>For detaljert informasjon om kjÃ¸ring under vanskelige forhold, se <a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold - Comprehensive guide to challenging driving conditions">KjÃ¸ring under vanskelige forhold</a>.</p>
+<h2 id="psykologi-og-motorveikjãring">Psykologi og motorveikjÃ¸ring</h2>
+<h3 id="hypervigilans-og-monotoni">Hypervigilans og monotoni</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Vanlige psykologiske utfordringer:</strong></p>
+<ul>
+<li><strong>Monotoni</strong> - Lang, ensformig kjÃ¸ring</li>
+<li><strong>Hastighetsillusjon</strong> - Mister fÃ¸lelsen for hastighet</li>
+<li><strong>Tunnelsyn</strong> - Fokuserer for smalt</li>
+<li><strong>Overselvsikkerhet</strong> - Undervurderer risiko</li>
+</ul>
+<p><strong>Forebyggende tiltak:</strong></p>
+<ul>
+<li><strong>Pause hver 2. time</strong></li>
+<li><strong>Variere hastigheten</strong> innenfor lovlige rammer</li>
+<li><strong>Aktiv observasjon</strong> - se etter detaljer</li>
+<li><strong>Planlegg ruten</strong> pÃ¥ forhÃ¥nd</li>
+</ul>
+<h3 id="aggressiv-adferd-og-road-rage">Aggressiv adferd og &ldquo;road rage&rdquo;</h3>
+<p><strong>UnngÃ¥ Ã¥ provosere:</strong></p>
+<ul>
+<li><strong>Ikke blokkere</strong> venstre felt</li>
+<li><strong>Ikke&quot;straffe&quot;</strong> andre bilister</li>
+<li><strong>Hold avstand</strong> til aggressive sjÃ¥fÃ¸rer</li>
+<li><strong>Rapporter</strong> farlig kjÃ¸ring til politiet</li>
+</ul>
+<h2 id="miljãaspekter-ved-motorveikjãring">MiljÃ¸aspekter ved motorveikjÃ¸ring</h2>
+<h3 id="co2-utslipp-og-drivstofforbruk">CO2-utslipp og drivstofforbruk</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Hastighet vs. drivstofforbruk:</strong></p>
+<ul>
+<li><strong>90 km/t</strong>: Optimalt for de fleste biler</li>
+<li><strong>110 km/t</strong>: 15-25% hÃ¸yere forbruk</li>
+<li><strong>130 km/t</strong>: 35-50% hÃ¸yere forbruk</li>
+</ul>
+<p><strong>Andre miljÃ¸tiltak:</strong></p>
+<ul>
+<li><strong>SamkjÃ¸ring</strong> nÃ¥r mulig</li>
+<li><strong>Planlegg reiser</strong> for Ã¥ unngÃ¥ rushtid</li>
+<li><strong>Jevn kjÃ¸ring</strong> reduserer utslipp</li>
+<li><strong>Riktig dekktrykk</strong> sparer drivstoff</li>
+</ul>
+<h2 id="teknologi-og-fremtidens-motorvei">Teknologi og fremtidens motorvei</h2>
+<h3 id="intelligente-transportsystemer-its">Intelligente transportsystemer (ITS)</h3>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Kommende teknologier:</strong></p>
+<ul>
+<li><strong>Adaptiv fartsregulering</strong> (ACC)</li>
+<li><strong>Filskifte-assistanse</strong> (LCA)</li>
+<li><strong>Kommunikasjon bil-til-bil</strong> (V2V)</li>
+<li><strong>Autonome kjÃ¸refelter</strong></li>
+</ul>
+<h3 id="forberedelse-pã-selvkjãrende-biler">Forberedelse pÃ¥ selvkjÃ¸rende biler</h3>
+<p><strong>Overgangsperioden:</strong></p>
+<ul>
+<li><strong>Blandet trafikk</strong> - bÃ¥de manuelle og autonome</li>
+<li><strong>Nye kommunikasjonsformer</strong></li>
+<li><strong>Oppdaterte trafikkreglers</strong></li>
+</ul>
+<p>For informasjon om bilens tekniske deler, se <a href="/blogs/teori/bilens-tekniske-deler" title="Bilens tekniske deler - Oversikt over bilens komponenter">Bilens tekniske deler</a>.</p>
+<h2 id="oppsummering-og-viktige-punkter">Oppsummering og viktige punkter</h2>
+<p><strong>MotorveikjÃ¸ring krever:</strong></p>
+<ul>
+<li><strong>Grundig forstÃ¥else</strong> av motorveiens struktur og funksjon</li>
+<li><strong>Mestring</strong> av pÃ¥- og avkjÃ¸ringsteknikk</li>
+<li><strong>Kontinuerlig</strong> vurdering av hastighet og avstand</li>
+<li><strong>Proaktiv</strong> sikkerhetstankegang</li>
+<li><strong>Respekt</strong> for vÃ¦rforhold og egne begrensninger</li>
+</ul>
+<p><strong>Husk disse nÃ¸kkelprinsippene:</strong></p>
+<ol>
+<li><strong>Planlegg</strong> alle manÃ¸vre i god tid</li>
+<li><strong>Kommuniser</strong> tydelig med andre trafikanter</li>
+<li><strong>Tilpass</strong> hastighet til forholdene</li>
+<li><strong>Oppretthold</strong> sikker fÃ¸lgeavstand</li>
+<li><strong>VÃ¦r</strong> forberedt pÃ¥ nÃ¸dsituasjoner</li>
+</ol>
+<p><em>Med denne omfattende kunnskapen er du godt rustet til Ã¥ ferdes trygt og effektivt pÃ¥ norske motorveier. Ã˜v pÃ¥ teknikkene gradvis og husk at erfaring kombinert med kunnskap gir den beste sikkerheten.</em></p>
+<p><strong>Relaterte artikler for videre lÃ¦ring:</strong></p>
+<ul>
+<li><a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjÃ¸ring - Forebyggende kjÃ¸reteknikker">Defensiv kjÃ¸ring</a> - Forebyggende kjÃ¸reteknikker</li>
+<li><a href="/blogs/teori/handtering-av-nodsituasjoner" title="HÃ¥ndtering av nÃ¸dsituasjoner - HÃ¥ndtering av kritiske situasjoner">HÃ¥ndtering av nÃ¸dsituasjoner</a> - Kritiske situasjoner</li>
+<li><a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Fysikk og sikkerhet">Reaksjonstid og bremselengde</a> - Fysikk og sikkerhet\n  </div>\n</div></li>
+</ul>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Motorveikjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Motorveikjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Motorveikjøring" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

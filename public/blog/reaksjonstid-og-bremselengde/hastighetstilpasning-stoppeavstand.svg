@@ -1,0 +1,22 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="300" fill="#f8f9fa"/>
+  <text x="400" y="30" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">Hastighetstilpasning basert på stoppeavstand</text>
+  <!-- Road -->
+  <rect x="50" y="200" width="700" height="50" fill="#4a4a4a"/>
+  <rect x="50" y="225" width="700" height="10" fill="#ffeb3b" opacity="0.8"/>
+  <!-- Car -->
+  <rect x="100" y="180" width="40" height="20" fill="#1976d2" rx="3"/>
+  <circle cx="110" cy="205" r="5" fill="#333"/>
+  <circle cx="130" cy="205" r="5" fill="#333"/>
+  <!-- Visibility cone -->
+  <polygon points="120,180 800,60 800,340" fill="#f57c00" opacity="0.2"/>
+  <text x="780" y="70" fill="#f57c00" font-size="12" text-anchor="end">Sikt</text>
+  <!-- Stoppeavstand -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#d32f2f"/>
+    </marker>
+  </defs>
+  <line x1="140" y1="210" x2="320" y2="210" stroke="#d32f2f" stroke-width="4" marker-end="url(#arrowhead-red)"/>
+  <text x="230" y="200" fill="#d32f2f" font-size="12" text-anchor="middle">Stoppeavstand</text>
+</svg>

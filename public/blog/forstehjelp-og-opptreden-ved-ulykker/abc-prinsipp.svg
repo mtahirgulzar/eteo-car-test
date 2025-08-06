@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180">
+  <rect width="600" height="180" fill="#f9f9f9"/>
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">A - Airway (Luftveier)</text>
+  <text x="300" y="90" font-family="Arial, sans-serif" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">B - Breathing (Pusting)</text>
+  <text x="300" y="130" font-family="Arial, sans-serif" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">C - Circulation (Sirkulasjon)</text>
+</svg>

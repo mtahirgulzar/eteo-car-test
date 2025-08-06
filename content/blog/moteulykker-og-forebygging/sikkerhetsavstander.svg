@@ -1,0 +1,125 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Sikkerhetsavstander og 3-Sekunders Regel
+  </text>
+  
+  <!-- Road surface -->
+  <rect x="0" y="250" width="800" height="150" fill="#6c757d"/>
+  <line x1="0" y1="325" x2="800" y2="325" stroke="#fff" stroke-width="4" stroke-dasharray="30,20"/>
+  
+  <!-- Reference point (sign) -->
+  <rect x="200" y="200" width="8" height="50" fill="#dc3545"/>
+  <rect x="180" y="200" width="48" height="30" fill="#fff" stroke="#dc3545" stroke-width="2"/>
+  <text x="204" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc3545">
+    SKILT
+  </text>
+  <text x="204" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#495057">
+    Fast referansepunkt
+  </text>
+  
+  <!-- Leading car -->
+  <rect x="150" y="290" width="80" height="35" fill="#28a745" rx="5"/>
+  <rect x="160" y="300" width="60" height="15" fill="#fff" rx="3"/>
+  <circle cx="170" cy="330" r="10" fill="#343a40"/>
+  <circle cx="210" cy="330" r="10" fill="#343a40"/>
+  <text x="190" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28a745">
+    Forankjørende
+  </text>
+  
+  <!-- Following car at 3 seconds -->
+  <rect x="350" y="290" width="80" height="35" fill="#007bff" rx="5"/>
+  <rect x="360" y="300" width="60" height="15" fill="#fff" rx="3"/>
+  <circle cx="370" cy="330" r="10" fill="#343a40"/>
+  <circle cx="410" cy="330" r="10" fill="#343a40"/>
+  <text x="390" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#007bff">
+    Din bil (3 sek)
+  </text>
+  
+  <!-- Distance measurement -->
+  <path d="M230 315 L350 315" stroke="#dc3545" stroke-width="3" fill="none"/>
+  <path d="M230 305 L230 325 M350 305 L350 325" stroke="#dc3545" stroke-width="3" fill="none"/>
+  <text x="290" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc3545">
+    3 SEKUNDER
+  </text>
+  
+  <!-- Speed examples -->
+  <rect x="50" y="80" width="300" height="120" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="10"/>
+  <text x="200" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#155724">
+    Avstand ved forskjellige hastigheter
+  </text>
+  
+  <text x="70" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#155724">
+    50 km/t: ca. 42 meter (3 sek)
+  </text>
+  <text x="70" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#155724">
+    80 km/t: ca. 67 meter (3 sek)
+  </text>
+  <text x="70" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#155724">
+    110 km/t: ca. 92 meter (3 sek)
+  </text>
+  <text x="70" y="190" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">
+    * Øk til 4-6 sekunder ved dårlige forhold
+  </text>
+  
+  <!-- Bad conditions illustration -->
+  <rect x="450" y="80" width="300" height="120" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+  <text x="600" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#856404">
+    Økt avstand ved dårlige forhold
+  </text>
+  
+  <!-- Rain conditions -->
+  <text x="470" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#856404">
+    🌧️ Regn: 4-5 sekunder
+  </text>
+  <text x="470" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#856404">
+    ❄️ Snø/is: 6-8 sekunder
+  </text>
+  <text x="470" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#856404">
+    🌫️ Tåke: 8-10 sekunder
+  </text>
+  <text x="470" y="190" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">
+    Lengre bremselengde = større sikkerhet
+  </text>
+  
+  <!-- Demonstration of counting method -->
+  <rect x="50" y="360" width="700" height="100" fill="#e9ecef" stroke="#6c757d" stroke-width="2" rx="10"/>
+  <text x="400" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#495057">
+    Slik teller du 3-sekunders regelen
+  </text>
+  
+  <text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#495057">
+    1. Velg et fast punkt (skilt, tre, bygning) som forankjørende passerer
+  </text>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#495057">
+    2. Tell: "En tusen og en, en tusen og to, en tusen og tre"
+  </text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#495057">
+    3. Du skal ikke passere punktet før tellingen er ferdig
+  </text>
+  
+  <!-- Danger car too close -->
+  <rect x="550" y="290" width="80" height="35" fill="#dc3545" rx="5"/>
+  <rect x="560" y="300" width="60" height="15" fill="#fff" rx="3"/>
+  <circle cx="570" cy="330" r="10" fill="#343a40"/>
+  <circle cx="610" cy="330" r="10" fill="#343a40"/>
+  <text x="590" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff">
+    For nær! (1 sek)
+  </text>
+  
+  <!-- Distance too short -->
+  <path d="M430 315 L550 315" stroke="#dc3545" stroke-width="3" fill="none"/>
+  <path d="M430 305 L430 325 M550 305 L550 325" stroke="#dc3545" stroke-width="3" fill="none"/>
+  <text x="490" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">
+    FARLIG!
+  </text>
+  
+  <!-- Warning symbol -->
+  <polygon points="750,290 765,320 735,320" fill="#dc3545"/>
+  <text x="750" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff">
+    !
+  </text>
+</svg>

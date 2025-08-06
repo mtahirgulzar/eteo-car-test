@@ -1,0 +1,150 @@
+<svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="300" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="350" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+    Stress og kjøring
+  </text>
+  
+  <!-- Stress levels -->
+  <g transform="translate(50, 50)">
+    <text x="125" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Stressnivå og påvirkning
+    </text>
+    
+    <!-- Low stress - positive -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="80" height="25" fill="#2ecc71" rx="5"/>
+      <text x="40" y="17" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Lavt stress</text>
+      <text x="150" y="12" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ Økt oppmerksomhet</text>
+      <text x="150" y="24" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">✓ Raskere reaksjoner</text>
+    </g>
+    
+    <!-- Moderate stress - mixed -->
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="120" height="25" fill="#f39c12" rx="5"/>
+      <text x="60" y="17" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Moderat stress</text>
+      <text x="150" y="12" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">! Begynner å påvirke dømmekraft</text>
+      <text x="150" y="24" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">! Kan føre til utålmodighet</text>
+    </g>
+    
+    <!-- High stress - negative -->
+    <g transform="translate(0, 110)">
+      <rect x="0" y="0" width="160" height="25" fill="#e74c3c" rx="5"/>
+      <text x="80" y="17" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">Høyt stress</text>
+      <text x="180" y="8" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">✗ Tunnelsyn - redusert perifert syn</text>
+      <text x="180" y="20" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">✗ Aggresjon og risikotaking</text>
+      <text x="180" y="32" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">✗ Redusert dømmekraft</text>
+    </g>
+  </g>
+  
+  <!-- Stress sources -->
+  <g transform="translate(400, 50)">
+    <text x="125" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Vanlige stresskilder
+    </text>
+    
+    <!-- Time pressure -->
+    <g transform="translate(0, 30)">
+      <circle cx="15" cy="12" r="10" fill="#e67e22"/>
+      <text x="15" y="16" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">⏰</text>
+      <text x="35" y="16" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Tidspresse - kommer for sent</text>
+    </g>
+    
+    <!-- Traffic -->
+    <g transform="translate(0, 55)">
+      <circle cx="15" cy="12" r="10" fill="#c0392b"/>
+      <text x="15" y="16" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">🚗</text>
+      <text x="35" y="16" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Tett trafikk og køer</text>
+    </g>
+    
+    <!-- Other drivers -->
+    <g transform="translate(0, 80)">
+      <circle cx="15" cy="12" r="10" fill="#8e44ad"/>
+      <text x="15" y="16" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">😠</text>
+      <text x="35" y="16" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Andre sjåførers oppførsel</text>
+    </g>
+    
+    <!-- Weather -->
+    <g transform="translate(0, 105)">
+      <circle cx="15" cy="12" r="10" fill="#34495e"/>
+      <text x="15" y="16" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">🌧</text>
+      <text x="35" y="16" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Dårlige værforhold</text>
+    </g>
+  </g>
+  
+  <!-- Physical effects -->
+  <g transform="translate(50, 200)">
+    <text x="150" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Fysiske effekter av stress
+    </text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Heart -->
+      <g transform="translate(30, 10)">
+        <path d="M 10 5 C 10 2, 15 2, 15 5 C 15 2, 20 2, 20 5 C 20 8, 15 15, 15 15 C 15 15, 10 8, 10 5 Z" fill="#e74c3c"/>
+        <text x="15" y="30" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Økt puls</text>
+      </g>
+      
+      <!-- Muscles -->
+      <g transform="translate(100, 10)">
+        <rect x="5" y="0" width="20" height="15" fill="#f39c12" rx="3"/>
+        <text x="15" y="30" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Muskelspending</text>
+      </g>
+      
+      <!-- Breathing -->
+      <g transform="translate(170, 10)">
+        <ellipse cx="15" cy="7" rx="12" ry="7" fill="#3498db" opacity="0.7"/>
+        <text x="15" y="30" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Rask pust</text>
+      </g>
+      
+      <!-- Sweating -->
+      <g transform="translate(240, 10)">
+        <circle cx="15" cy="7" r="8" fill="#f1c40f"/>
+        <circle cx="12" cy="4" r="1" fill="#3498db"/>
+        <circle cx="18" cy="6" r="1" fill="#3498db"/>
+        <circle cx="15" cy="10" r="1" fill="#3498db"/>
+        <text x="15" y="30" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">Svetting</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Coping strategies -->
+  <g transform="translate(350, 200)">
+    <text x="150" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      Hvordan håndtere stress
+    </text>
+    
+    <g transform="translate(0, 25)">
+      <!-- Planning -->
+      <g transform="translate(20, 0)">
+        <rect x="0" y="0" width="60" height="15" fill="#27ae60" rx="3"/>
+        <text x="30" y="11" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Planlegg reisen</text>
+        <text x="30" y="25" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">God tid</text>
+      </g>
+      
+      <!-- Breathing -->
+      <g transform="translate(100, 0)">
+        <rect x="0" y="0" width="60" height="15" fill="#3498db" rx="3"/>
+        <text x="30" y="11" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Dype pust</text>
+        <text x="30" y="25" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Rolig ned</text>
+      </g>
+      
+      <!-- Music -->
+      <g transform="translate(180, 0)">
+        <rect x="0" y="0" width="60" height="15" fill="#9b59b6" rx="3"/>
+        <text x="30" y="11" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Rolig musikk</text>
+        <text x="30" y="25" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Avslappende</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Warning -->
+  <g transform="translate(50, 275)">
+    <rect x="0" y="0" width="600" height="20" fill="#e74c3c" rx="5"/>
+    <text x="300" y="14" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">
+      Ved høyt stress: Stopp trygt og ta en pause til du føler deg roligere
+    </text>
+  </g>
+</svg>

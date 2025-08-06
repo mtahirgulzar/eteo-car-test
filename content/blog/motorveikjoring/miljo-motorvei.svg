@@ -1,0 +1,97 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg {
+      fill: #f0f8ff;
+    }
+    .road {
+      fill: #666;
+    }
+    .grass {
+      fill: #8DB600;
+    }
+    .text {
+      font-family: Arial, sans-serif;
+      text-anchor: middle;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .axis-label {
+      font-size: 14px;
+    }
+    .data-point {
+      font-size: 12px;
+      fill: #333;
+    }
+    .co2-cloud {
+      fill: #d3d3d3;
+      stroke: #a9a9a9;
+      stroke-width: 1;
+    }
+    .leaf-icon {
+        fill: #228b22;
+    }
+  </style>
+
+  <rect class="bg" width="800" height="400" />
+
+  <!-- Title -->
+  <text x="400" y="40" class="text title">Miljøeffekter av Motorveikjøring</text>
+
+  <!-- Graph Area -->
+  <g transform="translate(100, 80)">
+    <!-- Axes -->
+    <line x1="0" y1="0" x2="0" y2="250" stroke="#333" stroke-width="2" />
+    <line x1="0" y1="250" x2="600" y2="250" stroke="#333" stroke-width="2" />
+
+    <!-- Axis Labels -->
+    <text class="text axis-label" x="-50" y="125" transform="rotate(-90 -50 125)">Drivstofforbruk / CO2-utslipp</text>
+    <text class="text axis-label" x="300" y="280">Hastighet (km/t)</text>
+
+    <!-- Graph Curve -->
+    <path d="M 100 180 Q 250 50, 400 80 T 550 220" stroke="#dc3545" stroke-width="4" fill="none" />
+
+    <!-- Data Points -->
+    <g class="data-point">
+      <circle cx="100" cy="180" r="5" fill="#007bff"/>
+      <text x="100" y="200">90 km/t</text>
+      <text x="100" y="215">(Optimal)</text>
+    </g>
+    <g class="data-point">
+      <circle cx="250" cy="100" r="5" fill="#007bff"/>
+      <text x="250" y="120">110 km/t</text>
+      <text x="250" y="135">(+20%)</text>
+    </g>
+    <g class="data-point">
+      <circle cx="400" cy="80" r="5" fill="#007bff"/>
+    </g>
+    <g class="data-point">
+      <circle cx="550" cy="220" r="5" fill="#007bff"/>
+      <text x="550" y="240">130 km/t</text>
+      <text x="550" y="255">(+40%)</text>
+    </g>
+  </g>
+
+  <!-- Icons -->
+  <!-- CO2 Cloud -->
+  <g transform="translate(650, 100)">
+      <path class="co2-cloud" d="M-30,0 A30,30 0 0,1 30,0 A30,30 0 0,1 90,0 A30,30 0 0,1 100,30 A30,30 0 0,1 70,60 L-40,60 A30,30 0 0,1 -30,0 Z"/>
+      <text class="text" x="30" y="35" font-size="18px">CO₂</text>
+  </g>
+
+  <!-- Leaf Icon -->
+    <g transform="translate(50, 50)">
+        <path class="leaf-icon" d="M50 0 C20 10, 10 40, 20 60 C30 80, 60 90, 80 70 C100 50, 80 20, 50 0 Z"/>
+        <line x1="50" y1="0" x2="20" y2="60" stroke="#3CB371" stroke-width="2"/>
+    </g>
+
+  <!-- Andre miljøtiltak -->
+  <g transform="translate(100, 320)" font-family="Arial, sans-serif" font-size="14">
+    <text x="0" y="0" font-weight="bold" fill="#228b22">Andre miljøtiltak:</text>
+    <text x="0" y="20">• Samkjøring når mulig</text>
+    <text x="0" y="40">• Planlegg reiser for å unngå rushtid</text>
+    <text x="0" y="60">• Jevn kjøring reduserer utslipp</text>
+    <text x="0" y="80">• Riktig dekktrykk sparer drivstoff</text>
+  </g>
+</svg>

@@ -1,0 +1,142 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">
+    Håndtering av aquaplaning (vannplaning)
+  </text>
+  
+  <!-- Road with water -->
+  <rect x="50" y="60" width="700" height="80" fill="#34495e"/>
+  <rect x="50" y="90" width="700" height="3" fill="#f1c40f" stroke-dasharray="15,10"/>
+  
+  <!-- Water on road -->
+  <ellipse cx="200" cy="120" rx="80" ry="10" fill="#3498db" opacity="0.6"/>
+  <ellipse cx="350" cy="115" rx="100" ry="12" fill="#3498db" opacity="0.6"/>
+  <ellipse cx="550" cy="125" rx="90" ry="8" fill="#3498db" opacity="0.6"/>
+  
+  <!-- Car experiencing aquaplaning -->
+  <rect x="320" y="75" width="60" height="30" fill="#e74c3c" rx="5"/>
+  <circle cx="335" cy="110" r="8" fill="#2c3e50"/>
+  <circle cx="365" cy="110" r="8" fill="#2c3e50"/>
+  
+  <!-- Water spray under car -->
+  <path d="M 335 110 Q 330 120 325 115 Q 320 125 315 120" stroke="#3498db" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 365 110 Q 370 120 375 115 Q 380 125 385 120" stroke="#3498db" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Warning signs section -->
+  <text x="400" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Varselsignaler for aquaplaning
+  </text>
+  
+  <!-- Warning sign boxes -->
+  <rect x="80" y="200" width="150" height="60" fill="#f39c12" rx="5" opacity="0.1"/>
+  <text x="155" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">
+    Tap av styrekontroll
+  </text>
+  <text x="155" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Rattet føles "lett" og
+  </text>
+  <text x="155" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    responderer ikke normalt
+  </text>
+  
+  <rect x="250" y="200" width="150" height="60" fill="#f39c12" rx="5" opacity="0.1"/>
+  <text x="325" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">
+    Følelse av å "flyte"
+  </text>
+  <text x="325" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Bilen føles ustabil og
+  </text>
+  <text x="325" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    "flyter" over vannet
+  </text>
+  
+  <rect x="420" y="200" width="150" height="60" fill="#f39c12" rx="5" opacity="0.1"/>
+  <text x="495" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">
+    Endret motorlyd
+  </text>
+  <text x="495" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Motor høres annerledes
+  </text>
+  <text x="495" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    ut (høyere turtall)
+  </text>
+  
+  <rect x="590" y="200" width="150" height="60" fill="#f39c12" rx="5" opacity="0.1"/>
+  <text x="665" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">
+    Redusert bremsekraft
+  </text>
+  <text x="665" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Bremsepedalen føles
+  </text>
+  <text x="665" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    mindre effektiv
+  </text>
+  
+  <!-- Correct response section -->
+  <text x="400" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Riktig respons ved aquaplaning
+  </text>
+  
+  <!-- DO steps -->
+  <rect x="80" y="320" width="300" height="140" fill="#27ae60" rx="8" opacity="0.1"/>
+  <text x="230" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">
+    GJØR DETTE ✓
+  </text>
+  
+  <text x="100" y="365" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+    1. Ta foten av gasspedalen
+  </text>
+  <text x="110" y="380" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Reduser hastigheten gradvis
+  </text>
+  
+  <text x="100" y="400" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+    2. Hold rattet rett
+  </text>
+  <text x="110" y="415" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Ikke gjør kraftige styrebevegelser
+  </text>
+  
+  <text x="100" y="435" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+    3. Vent til dekkene får tak igjen
+  </text>
+  <text x="110" y="450" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Når grepet kommer tilbake: juster forsiktig
+  </text>
+  
+  <!-- DON'T steps -->
+  <rect x="420" y="320" width="300" height="140" fill="#e74c3c" rx="8" opacity="0.1"/>
+  <text x="570" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">
+    IKKE GJØR DETTE ✗
+  </text>
+  
+  <text x="440" y="365" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+    ✗ Brekk kraftig
+  </text>
+  <text x="450" y="380" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Kan føre til skrens når grepet kommer tilbake
+  </text>
+  
+  <text x="440" y="400" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+    ✗ Styr kraftig
+  </text>
+  <text x="450" y="415" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Kan forårsake kontrollmistelse når grepet returnerer
+  </text>
+  
+  <text x="440" y="435" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+    ✗ Panikk
+  </text>
+  <text x="450" y="450" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+    Bevar roen og følg prosedyrene
+  </text>
+  
+  <!-- Prevention tip -->
+  <rect x="50" y="475" width="700" height="20" fill="#3498db" rx="3" opacity="0.1"/>
+  <text x="400" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3498db">
+    FOREBYGGING: Reduser hastigheten ved våte veier og sjekk dekkmønster regelmessig
+  </text>
+</svg>

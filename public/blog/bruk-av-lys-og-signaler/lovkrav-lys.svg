@@ -1,0 +1,119 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lawGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e44ad;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9b59b6;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="documentPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="20" height="20" fill="#ecf0f1"/>
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#bdc3c7" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#2c3e50"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Lovkrav for lys og signaler</text>
+  
+  <!-- Law book illustration -->
+  <rect x="50" y="80" width="120" height="150" fill="url(#lawGradient)" stroke="#fff" stroke-width="2"/>
+  <rect x="55" y="85" width="110" height="140" fill="url(#documentPattern)"/>
+  <text x="110" y="105" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Veitrafikkloven</text>
+  <text x="110" y="120" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">§ 13</text>
+  <text x="110" y="135" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="9">Lys og signaler</text>
+  
+  <!-- Second law book -->
+  <rect x="190" y="80" width="120" height="150" fill="url(#lawGradient)" stroke="#fff" stroke-width="2"/>
+  <rect x="195" y="85" width="110" height="140" fill="url(#documentPattern)"/>
+  <text x="250" y="105" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Kjøretøyforskriften</text>
+  <text x="250" y="120" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="10">Kap. 8</text>
+  <text x="250" y="135" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="9">Lyssystem</text>
+  
+  <!-- Main requirements box -->
+  <rect x="350" y="80" width="400" height="200" fill="#34495e" stroke="#3498db" stroke-width="3" rx="10"/>
+  <text x="550" y="110" text-anchor="middle" fill="#3498db" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Hovedkrav</text>
+  
+  <!-- Requirement items -->
+  <circle cx="370" cy="135" r="5" fill="#27ae60"/>
+  <text x="385" y="140" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Funksjonalitet: Alle lys må virke</text>
+  
+  <circle cx="370" cy="160" r="5" fill="#27ae60"/>
+  <text x="385" y="165" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Tidspunkt: Korrekt bruk til rett tid</text>
+  
+  <circle cx="370" cy="185" r="5" fill="#27ae60"/>
+  <text x="385" y="190" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Justering: Ikke blende andre</text>
+  
+  <circle cx="370" cy="210" r="5" fill="#27ae60"/>
+  <text x="385" y="215" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Vedlikehold: Førerens ansvar</text>
+  
+  <circle cx="370" cy="235" r="5" fill="#27ae60"/>
+  <text x="385" y="240" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Synlighet: Rene linser og reflekser</text>
+  
+  <circle cx="370" cy="260" r="5" fill="#27ae60"/>
+  <text x="385" y="265" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Godkjenning: EU-krav til utstyr</text>
+  
+  <!-- Penalties section -->
+  <rect x="50" y="300" width="700" height="120" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="8"/>
+  <text x="400" y="325" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SANKSJONER VED OVERTREDELSE</text>
+  
+  <!-- Warning icon -->
+  <polygon points="80,340 100,380 60,380" fill="#f39c12"/>
+  <text x="80" y="370" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="20" font-weight="bold">!</text>
+  
+  <!-- Penalty amounts -->
+  <text x="130" y="355" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">• Manglende frontlys: 1,350 kr</text>
+  <text x="130" y="375" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">• Defekte blinklys: 1,350 kr</text>
+  <text x="130" y="395" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">• Blending med fjernlys: 1,900 kr</text>
+  
+  <text x="450" y="355" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">• Ulovlig tåkelysbruk: 900 kr</text>
+  <text x="450" y="375" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">• Kjøreforbud ved alvorlige feil</text>
+  <text x="450" y="395" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">• Mulig tap av førerkort</text>
+  
+  <!-- Time requirements -->
+  <rect x="50" y="450" width="300" height="100" fill="#16a085" stroke="#1abc9c" stroke-width="2" rx="8"/>
+  <text x="200" y="475" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">TIDSBESTEMMELSER</text>
+  
+  <!-- Sun and moon icons -->
+  <circle cx="80" cy="500" r="15" fill="#f39c12"/>
+  <path d="M 80 485 L 85 490 L 80 495 L 75 490 Z" fill="#f39c12"/>
+  <path d="M 95 500 L 100 505 L 95 510 L 90 505 Z" fill="#f39c12"/>
+  <path d="M 65 500 L 70 505 L 65 510 L 60 505 Z" fill="#f39c12"/>
+  <path d="M 80 515 L 85 520 L 80 525 L 75 520 Z" fill="#f39c12"/>
+  
+  <path d="M 80 525 Q 90 520 85 510 Q 70 515 80 525" fill="#95a5a6"/>
+  <circle cx="82" cy="518" r="2" fill="#34495e"/>
+  <circle cx="78" cy="520" r="1" fill="#34495e"/>
+  
+  <text x="120" y="500" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Frontlys påbudt:</text>
+  <text x="120" y="515" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Solnedgang - Soloppgang</text>
+  <text x="120" y="530" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Ved dårlig sikt på dagtid</text>
+  
+  <!-- Vehicle type requirements -->
+  <rect x="380" y="450" width="370" height="100" fill="#8e44ad" stroke="#9b59b6" stroke-width="2" rx="8"/>
+  <text x="565" y="475" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">KJØRETØYSPESIFIKKE KRAV</text>
+  
+  <!-- Car icon -->
+  <rect x="400" y="485" width="40" height="20" rx="5" fill="#ecf0f1"/>
+  <circle cx="410" cy="510" r="5" fill="#34495e"/>
+  <circle cx="430" cy="510" r="5" fill="#34495e"/>
+  <text x="450" y="500" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Personbil: Komplett lyssett</text>
+  
+  <!-- Motorcycle icon -->
+  <circle cx="500" cy="495" r="8" fill="#ecf0f1"/>
+  <rect x="485" y="490" width="10" height="10" rx="2" fill="#ecf0f1"/>
+  <circle cx="485" cy="510" r="4" fill="#34495e"/>
+  <circle cx="515" cy="510" r="4" fill="#34495e"/>
+  <text x="530" y="500" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">MC: Dagkjørelys påkrevd</text>
+  
+  <!-- Truck icon -->
+  <rect x="600" y="485" width="45" height="25" rx="3" fill="#ecf0f1"/>
+  <rect x="590" y="490" width="15" height="15" rx="2" fill="#ecf0f1"/>
+  <circle cx="610" cy="515" r="5" fill="#34495e"/>
+  <circle cx="635" cy="515" r="5" fill="#34495e"/>
+  <text x="655" y="500" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Tunge: Ekstra krav</text>
+  
+  <!-- Bottom note -->
+  <rect x="100" y="570" width="600" height="25" fill="#f39c12" rx="5"/>
+  <text x="400" y="587" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Kontroller lys daglig - det er ditt ansvar som fører!</text>
+</svg>

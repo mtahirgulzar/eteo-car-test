@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  <text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="#333">Motorsykler og mopeder</text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#555">i trafikksystemet</text>
+  <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" font-size="16" fill="#555">hvordan og hvorfor unngå ulykker</text>
+</svg>

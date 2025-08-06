@@ -1,0 +1,194 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    Komplekse kryssingssituasjoner
+  </text>
+  
+  <!-- Scenario 1: Two cars -->
+  <g transform="translate(50, 60)">
+    <text x="100" y="20" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Scenario 1: To kjøretøy
+    </text>
+    
+    <!-- Intersection -->
+    <line x1="30" y1="80" x2="170" y2="80" stroke="#34495e" stroke-width="4"/>
+    <line x1="100" y1="30" x2="100" y2="130" stroke="#34495e" stroke-width="4"/>
+    
+    <!-- Cars -->
+    <rect x="140" y="75" width="20" height="10" rx="2" fill="#3498db"/>
+    <text x="150" y="82" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">A</text>
+    
+    <rect x="95" y="50" width="10" height="20" rx="2" fill="#e74c3c"/>
+    <text x="100" y="62" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">B</text>
+    
+    <!-- Arrow showing priority -->
+    <defs>
+      <marker id="simpleArrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#27ae60"/>
+      </marker>
+    </defs>
+    
+    <line x1="130" y1="70" x2="110" y2="70" stroke="#27ae60" stroke-width="2" marker-end="url(#simpleArrow)"/>
+    <text x="100" y="150" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">
+      A har forkjørsrett (høyreregelen)
+    </text>
+  </g>
+  
+  <!-- Scenario 2: Three cars -->
+  <g transform="translate(300, 60)">
+    <text x="100" y="20" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Scenario 2: Tre kjøretøy
+    </text>
+    
+    <!-- Intersection -->
+    <line x1="30" y1="80" x2="170" y2="80" stroke="#34495e" stroke-width="4"/>
+    <line x1="100" y1="30" x2="100" y2="130" stroke="#34495e" stroke-width="4"/>
+    
+    <!-- Cars -->
+    <rect x="140" y="75" width="20" height="10" rx="2" fill="#3498db"/>
+    <text x="150" y="82" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">A</text>
+    
+    <rect x="95" y="50" width="10" height="20" rx="2" fill="#e74c3c"/>
+    <text x="100" y="62" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">B</text>
+    
+    <rect x="40" y="75" width="20" height="10" rx="2" fill="#f39c12"/>
+    <text x="50" y="82" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">C</text>
+    
+    <!-- Priority arrows -->
+    <line x1="130" y1="70" x2="110" y2="70" stroke="#27ae60" stroke-width="2" marker-end="url(#simpleArrow)"/>
+    <text x="120" y="65" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="8">1</text>
+    
+    <line x1="90" y1="70" x2="70" y2="70" stroke="#e67e22" stroke-width="2" marker-end="url(#simpleArrow)"/>
+    <text x="80" y="65" text-anchor="middle" fill="#e67e22" font-family="Arial, sans-serif" font-size="8">2</text>
+    
+    <text x="100" y="150" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+      Løs konflikter én om gangen
+    </text>
+  </g>
+  
+  <!-- Scenario 3: Four cars -->
+  <g transform="translate(550, 60)">
+    <text x="100" y="20" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Scenario 3: Fire kjøretøy
+    </text>
+    
+    <!-- Intersection -->
+    <line x1="30" y1="80" x2="170" y2="80" stroke="#34495e" stroke-width="4"/>
+    <line x1="100" y1="30" x2="100" y2="130" stroke="#34495e" stroke-width="4"/>
+    
+    <!-- Cars -->
+    <rect x="140" y="75" width="20" height="10" rx="2" fill="#3498db"/>
+    <text x="150" y="82" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">A</text>
+    
+    <rect x="95" y="50" width="10" height="20" rx="2" fill="#e74c3c"/>
+    <text x="100" y="62" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">B</text>
+    
+    <rect x="40" y="75" width="20" height="10" rx="2" fill="#f39c12"/>
+    <text x="50" y="82" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">C</text>
+    
+    <rect x="95" y="100" width="10" height="20" rx="2" fill="#9b59b6"/>
+    <text x="100" y="112" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">D</text>
+    
+    <!-- Question mark for complexity -->
+    <text x="100" y="80" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="20" font-weight="bold">?</text>
+    
+    <text x="100" y="150" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+      Krever kommunikasjon
+    </text>
+  </g>
+  
+  <!-- Analysis method -->
+  <rect x="50" y="250" width="700" height="200" rx="10" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+  <text x="400" y="280" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    Analysemetode for komplekse situasjoner
+  </text>
+  
+  <!-- Step-by-step boxes -->
+  <rect x="80" y="300" width="120" height="120" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="140" y="320" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Steg 1
+  </text>
+  <text x="140" y="340" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">
+    Identifiser
+  </text>
+  <text x="90" y="360" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Hvor mange kjøretøy?
+  </text>
+  <text x="90" y="375" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Hvilke retninger?
+  </text>
+  <text x="90" y="390" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Skilt eller lys?
+  </text>
+  <text x="90" y="405" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Spesielle kjøretøy?
+  </text>
+  
+  <rect x="220" y="300" width="120" height="120" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="280" y="320" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Steg 2
+  </text>
+  <text x="280" y="340" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">
+    Prioriter
+  </text>
+  <text x="230" y="360" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Politi først
+  </text>
+  <text x="230" y="375" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Deretter trafikklys
+  </text>
+  <text x="230" y="390" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Så trafikkskilt
+  </text>
+  <text x="230" y="405" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Til slutt høyreregelen
+  </text>
+  
+  <rect x="360" y="300" width="120" height="120" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="420" y="320" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Steg 3
+  </text>
+  <text x="420" y="340" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">
+    Analyser
+  </text>
+  <text x="370" y="360" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Hvem har forkjørsrett?
+  </text>
+  <text x="370" y="375" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Løs konflikter parvis
+  </text>
+  <text x="370" y="390" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Start med høyreregelen
+  </text>
+  <text x="370" y="405" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Vurder svingeregler
+  </text>
+  
+  <rect x="500" y="300" width="120" height="120" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="560" y="320" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Steg 4
+  </text>
+  <text x="560" y="340" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12">
+    Handle
+  </text>
+  <text x="510" y="360" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Kjør eller vent
+  </text>
+  <text x="510" y="375" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Kommuniser med andre
+  </text>
+  <text x="510" y="390" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Vær forsiktig
+  </text>
+  <text x="510" y="405" fill="#2c3e50" font-family="Arial, sans-serif" font-size="11">
+    • Vis hensyn
+  </text>
+  
+  <!-- Arrow connections -->
+  <line x1="200" y1="360" x2="220" y2="360" stroke="#3498db" stroke-width="2" marker-end="url(#simpleArrow)"/>
+  <line x1="340" y1="360" x2="360" y2="360" stroke="#3498db" stroke-width="2" marker-end="url(#simpleArrow)"/>
+  <line x1="480" y1="360" x2="500" y2="360" stroke="#3498db" stroke-width="2" marker-end="url(#simpleArrow)"/>
+</svg>

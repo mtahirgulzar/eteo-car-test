@@ -1,0 +1,251 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20c997;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGradient)"/>
+  <text x="400" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Kontinuerlig Læring og Selvvurdering - Sjekkliste
+  </text>
+
+  <!-- Pre-trip checklist -->
+  <g transform="translate(50, 90)">
+    <rect x="0" y="0" width="340" height="220" rx="10" fill="#fff" stroke="#28a745" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="10" fill="#28a745"/>
+    <text x="170" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      PRE-TRIP SJEKKLISTE
+    </text>
+    
+    <!-- Checklist items -->
+    <g transform="translate(20, 55)">
+      <!-- Item 1 -->
+      <rect x="0" y="0" width="15" height="15" fill="#fff" stroke="#28a745" stroke-width="2"/>
+      <path d="M 3 7 L 7 11 L 12 3" stroke="#28a745" stroke-width="2" fill="none"/>
+      <text x="25" y="12" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Kontroller sikkerhetsutstyr (belte, lys, osv.)
+      </text>
+      
+      <!-- Item 2 -->
+      <rect x="0" y="25" width="15" height="15" fill="#fff" stroke="#28a745" stroke-width="2"/>
+      <path d="M 3 32 L 7 36 L 12 28" stroke="#28a745" stroke-width="2" fill="none"/>
+      <text x="25" y="37" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Juster speil og sete
+      </text>
+      
+      <!-- Item 3 -->
+      <rect x="0" y="50" width="15" height="15" fill="#fff" stroke="#28a745" stroke-width="2"/>
+      <path d="M 3 57 L 7 61 L 12 53" stroke="#28a745" stroke-width="2" fill="none"/>
+      <text x="25" y="62" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Vurder vær- og veiforhold
+      </text>
+      
+      <!-- Item 4 -->
+      <rect x="0" y="75" width="15" height="15" fill="#fff" stroke="#28a745" stroke-width="2"/>
+      <path d="M 3 82 L 7 86 L 12 78" stroke="#28a745" stroke-width="2" fill="none"/>
+      <text x="25" y="87" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Planlegg rute og pauser
+      </text>
+      
+      <!-- Item 5 -->
+      <rect x="0" y="100" width="15" height="15" fill="#fff" stroke="#28a745" stroke-width="2"/>
+      <path d="M 3 107 L 7 111 L 12 103" stroke="#28a745" stroke-width="2" fill="none"/>
+      <text x="25" y="112" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Vurder egen tilstand (tretthet, stress)
+      </text>
+      
+      <!-- Item 6 -->
+      <rect x="0" y="125" width="15" height="15" fill="#fff" stroke="#6c757d" stroke-width="2"/>
+      <text x="25" y="137" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Bevisstgjør mentale feller jeg er utsatt for
+      </text>
+      
+      <!-- Item 7 -->
+      <rect x="0" y="150" width="15" height="15" fill="#fff" stroke="#6c757d" stroke-width="2"/>
+      <text x="25" y="162" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Sett intensjon om defensiv kjøring
+      </text>
+    </g>
+  </g>
+
+  <!-- During driving checklist -->
+  <g transform="translate(410, 90)">
+    <rect x="0" y="0" width="340" height="220" rx="10" fill="#fff" stroke="#ffc107" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="10" fill="#ffc107"/>
+    <text x="170" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      UNDER KJØRING
+    </text>
+    
+    <!-- Checklist items -->
+    <g transform="translate(20, 55)">
+      <!-- Item 1 -->
+      <circle cx="7" cy="7" r="7" fill="#ffc107"/>
+      <text x="7" y="11" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">1</text>
+      <text x="25" y="12" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Regelmessig speilkontroll (hver 5-8 sek)
+      </text>
+      
+      <!-- Item 2 -->
+      <circle cx="7" cy="32" r="7" fill="#ffc107"/>
+      <text x="7" y="36" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">2</text>
+      <text x="25" y="37" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Bevissthet om egen hastighet
+      </text>
+      
+      <!-- Item 3 -->
+      <circle cx="7" cy="57" r="7" fill="#ffc107"/>
+      <text x="7" y="61" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">3</text>
+      <text x="25" y="62" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Kontinuerlig vurdering av følgeavstand
+      </text>
+      
+      <!-- Item 4 -->
+      <circle cx="7" cy="82" r="7" fill="#ffc107"/>
+      <text x="7" y="86" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">4</text>
+      <text x="25" y="87" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Aktiv skanning etter sårbare trafikanter
+      </text>
+      
+      <!-- Item 5 -->
+      <circle cx="7" cy="107" r="7" fill="#ffc107"/>
+      <text x="7" y="111" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">5</text>
+      <text x="25" y="112" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Utfordre egne antakelser ("Hva om...?")
+      </text>
+      
+      <!-- Item 6 -->
+      <circle cx="7" cy="132" r="7" fill="#ffc107"/>
+      <text x="7" y="136" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">6</text>
+      <text x="25" y="137" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Motvirk automatisk/rutinekjøring
+      </text>
+      
+      <!-- Item 7 -->
+      <circle cx="7" cy="157" r="7" fill="#ffc107"/>
+      <text x="7" y="161" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">7</text>
+      <text x="25" y="162" fill="#333" font-family="Arial, sans-serif" font-size="12">
+        Ignorer gruppepress - følg egne standarder
+      </text>
+    </g>
+  </g>
+
+  <!-- Self-evaluation schedule -->
+  <g transform="translate(50, 330)">
+    <rect x="0" y="0" width="700" height="180" rx="10" fill="#e9ecef" stroke="#6c757d" stroke-width="2" filter="url(#shadow)"/>
+    <text x="350" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      SELVVURDERING - TIDSPLAN
+    </text>
+    
+    <!-- Weekly -->
+    <g transform="translate(30, 40)">
+      <rect x="0" y="0" width="140" height="110" rx="5" fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+      <text x="70" y="20" text-anchor="middle" fill="#0c5460" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        UKENTLIG
+      </text>
+      <text x="10" y="40" fill="#0c5460" font-family="Arial, sans-serif" font-size="11">
+        • Reflekter over
+      </text>
+      <text x="12" y="53" fill="#0c5460" font-family="Arial, sans-serif" font-size="10">
+        kjøreerfaringer
+      </text>
+      <text x="10" y="68" fill="#0c5460" font-family="Arial, sans-serif" font-size="11">
+        • Identifiser nesten-
+      </text>
+      <text x="12" y="81" fill="#0c5460" font-family="Arial, sans-serif" font-size="10">
+        ulykker
+      </text>
+      <text x="10" y="96" fill="#0c5460" font-family="Arial, sans-serif" font-size="11">
+        • Juster kjørevaner
+      </text>
+    </g>
+    
+    <!-- Monthly -->
+    <g transform="translate(190, 40)">
+      <rect x="0" y="0" width="140" height="110" rx="5" fill="#d4edda" stroke="#155724" stroke-width="2"/>
+      <text x="70" y="20" text-anchor="middle" fill="#155724" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        MÅNEDLIG
+      </text>
+      <text x="10" y="40" fill="#155724" font-family="Arial, sans-serif" font-size="11">
+        • Gjennomgå
+      </text>
+      <text x="12" y="53" fill="#155724" font-family="Arial, sans-serif" font-size="10">
+        utfordrende situasjoner
+      </text>
+      <text x="10" y="68" fill="#155724" font-family="Arial, sans-serif" font-size="11">
+        • Vurder læringsbehov
+      </text>
+      <text x="10" y="83" fill="#155724" font-family="Arial, sans-serif" font-size="11">
+        • Planlegg forbedringer
+      </text>
+    </g>
+    
+    <!-- Quarterly -->
+    <g transform="translate(350, 40)">
+      <rect x="0" y="0" width="140" height="110" rx="5" fill="#fff3cd" stroke="#856404" stroke-width="2"/>
+      <text x="70" y="20" text-anchor="middle" fill="#856404" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        KVARTALSVIS
+      </text>
+      <text x="10" y="40" fill="#856404" font-family="Arial, sans-serif" font-size="11">
+        • Oppdater kunnskap
+      </text>
+      <text x="12" y="53" fill="#856404" font-family="Arial, sans-serif" font-size="10">
+        om nye regler
+      </text>
+      <text x="10" y="68" fill="#856404" font-family="Arial, sans-serif" font-size="11">
+        • Les om ny
+      </text>
+      <text x="12" y="81" fill="#856404" font-family="Arial, sans-serif" font-size="10">
+        sikkerhetsteknologi
+      </text>
+      <text x="10" y="96" fill="#856404" font-family="Arial, sans-serif" font-size="11">
+        • Øv på svake områder
+      </text>
+    </g>
+    
+    <!-- Yearly -->
+    <g transform="translate(510, 40)">
+      <rect x="0" y="0" width="140" height="110" rx="5" fill="#f8d7da" stroke="#721c24" stroke-width="2"/>
+      <text x="70" y="20" text-anchor="middle" fill="#721c24" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        ÅRLIG
+      </text>
+      <text x="10" y="40" fill="#721c24" font-family="Arial, sans-serif" font-size="11">
+        • Vurder behov for
+      </text>
+      <text x="12" y="53" fill="#721c24" font-family="Arial, sans-serif" font-size="10">
+        etterutdanning
+      </text>
+      <text x="10" y="68" fill="#721c24" font-family="Arial, sans-serif" font-size="11">
+        • Gjennomgå endringer
+      </text>
+      <text x="12" y="81" fill="#721c24" font-family="Arial, sans-serif" font-size="10">
+        i helse/syn
+      </text>
+      <text x="10" y="96" fill="#721c24" font-family="Arial, sans-serif" font-size="11">
+        • Helhetlig evaluering
+      </text>
+    </g>
+  </g>
+
+  <!-- Key tips box -->
+  <g transform="translate(50, 530)">
+    <rect x="0" y="0" width="700" height="60" rx="10" fill="#17a2b8" opacity="0.1" stroke="#17a2b8" stroke-width="2"/>
+    <text x="20" y="20" fill="#0c5460" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+      🎯 Nøkkeltips for effektiv selvvurdering:
+    </text>
+    <text x="20" y="38" fill="#0c5460" font-family="Arial, sans-serif" font-size="12">
+      • Vær ærlig om egne feil og begrensninger • Fokuser på læring, ikke på å "forsvare" handlinger
+    </text>
+    <text x="20" y="52" fill="#0c5460" font-family="Arial, sans-serif" font-size="12">
+      • Søk tilbakemelding fra erfarne førere • Dokumenter fremgang og utfordringer
+    </text>
+  </g>
+</svg>

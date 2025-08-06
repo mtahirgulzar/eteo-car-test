@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafikksystemet | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær om trafikkens helhetlige system, inkludert vegtrafikkloven, trafikkreglene, infrastruktur, trafikanter og samspill i det norske trafikksystemet.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/trafikksystemet/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/trafikksystemet/article/">
+    <meta property="og:title" content="Trafikksystemet | Eteo">
+    <meta property="og:description" content="Lær om trafikkens helhetlige system, inkludert vegtrafikkloven, trafikkreglene, infrastruktur, trafikanter og samspill i det norske trafikksystemet.">
+    <meta property="og:image" content="//localhost:1313/images/blog/trafikksystemet/trafikksystemet-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trafikksystemet | Eteo">
+    <meta name="twitter:description" content="Lær om trafikkens helhetlige system, inkludert vegtrafikkloven, trafikkreglene, infrastruktur, trafikanter og samspill i det norske trafikksystemet.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/trafikksystemet/trafikksystemet-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Trafikksystemet</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                4 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/trafikksystemet/trafikksystemet-image.svg" 
+                    alt="Trafikksystemet" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/trafikksystemet/trafikksystemet-image.svg" alt="Trafikksystemet" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-bestãr-trafikksystemet-av">Hva bestÃ¥r trafikksystemet av?</a></li>
+    <li><a href="#samspillet-i-trafikksystemet">Samspillet i trafikksystemet</a></li>
+    <li><a href="#regelverk-vegtrafikkloven-og-trafikkreglene">Regelverk: Vegtrafikkloven og trafikkreglene</a></li>
+    <li><a href="#veien-og-veioppmerking">Veien og veioppmerking</a>
+      <ul>
+        <li><a href="#viktige-prinsipper-for-veioppmerking">Viktige prinsipper for veioppmerking</a></li>
+        <li><a href="#typer-veioppmerking">Typer veioppmerking</a></li>
+      </ul>
+    </li>
+    <li><a href="#videre-lesning">Videre lesning</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-bestãr-trafikksystemet-av">Hva bestÃ¥r trafikksystemet av?</a></li>
+    <li><a href="#samspillet-i-trafikksystemet">Samspillet i trafikksystemet</a></li>
+    <li><a href="#regelverk-vegtrafikkloven-og-trafikkreglene">Regelverk: Vegtrafikkloven og trafikkreglene</a></li>
+    <li><a href="#veien-og-veioppmerking">Veien og veioppmerking</a>
+      <ul>
+        <li><a href="#viktige-prinsipper-for-veioppmerking">Viktige prinsipper for veioppmerking</a></li>
+        <li><a href="#typer-veioppmerking">Typer veioppmerking</a></li>
+      </ul>
+    </li>
+    <li><a href="#videre-lesning">Videre lesning</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-bestãr-trafikksystemet-av">Hva bestÃ¥r trafikksystemet av?</a></li>
+    <li><a href="#samspillet-i-trafikksystemet">Samspillet i trafikksystemet</a></li>
+    <li><a href="#regelverk-vegtrafikkloven-og-trafikkreglene">Regelverk: Vegtrafikkloven og trafikkreglene</a></li>
+    <li><a href="#veien-og-veioppmerking">Veien og veioppmerking</a>
+      <ul>
+        <li><a href="#viktige-prinsipper-for-veioppmerking">Viktige prinsipper for veioppmerking</a></li>
+        <li><a href="#typer-veioppmerking">Typer veioppmerking</a></li>
+      </ul>
+    </li>
+    <li><a href="#videre-lesning">Videre lesning</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hva-bestãr-trafikksystemet-av">Hva bestÃ¥r trafikksystemet av?</a></li>
+    <li><a href="#samspillet-i-trafikksystemet">Samspillet i trafikksystemet</a></li>
+    <li><a href="#regelverk-vegtrafikkloven-og-trafikkreglene">Regelverk: Vegtrafikkloven og trafikkreglene</a></li>
+    <li><a href="#veien-og-veioppmerking">Veien og veioppmerking</a>
+      <ul>
+        <li><a href="#viktige-prinsipper-for-veioppmerking">Viktige prinsipper for veioppmerking</a></li>
+        <li><a href="#typer-veioppmerking">Typer veioppmerking</a></li>
+      </ul>
+    </li>
+    <li><a href="#videre-lesning">Videre lesning</a></li>
+  </ul>
+</nav>
+</div>
+}}
+**Trafikksystemet** er det *helhetlige systemet* som omfatter infrastruktur, kjÃ¸retÃ¸y, trafikanter, regelverk og miljÃ¸forhold som til sammen sikrer trygg og effektiv trafikk. For Ã¥ forstÃ¥ trafikken bedre, er det viktig Ã¥ se hvordan disse komponentene samhandler.
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="hva-bestãr-trafikksystemet-av">Hva bestÃ¥r trafikksystemet av?</h2>
+<p>Nedenfor er en oversikt over de viktigste komponentene i trafikksystemet:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Komponent</th>
+          <th>Beskrivelse</th>
+          <th>Se ogsÃ¥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Regelverk</strong></td>
+          <td>Lover, forskrifter og trafikkregler som styrer trafikken.</td>
+          <td><a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Oversikt over norske trafikklover og forskrifter">Lover og forskrifter</a></td>
+      </tr>
+      <tr>
+          <td><strong>Infrastruktur</strong></td>
+          <td>Veier, skilt, veimerking, signalanlegg og fysisk utforming av veisystem.</td>
+          <td><a href="/blogs/teori/trafikkskilt-og-veimerking" title="Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking">Trafikkskilt og veimerking</a></td>
+      </tr>
+      <tr>
+          <td><strong>Trafikanter</strong></td>
+          <td>BilfÃ¸rere, syklister, gÃ¥ende og andre trafikantgrupper.</td>
+          <td><a href="/blogs/teori/trafikantgrupper-og-hensyn" title="Trafikantgrupper og hensyn - Oversikt over trafikantgrupper og viktige hensyn">Trafikantgrupper og hensyn</a></td>
+      </tr>
+      <tr>
+          <td><strong>KjÃ¸retÃ¸y</strong></td>
+          <td>Personbiler, lastebiler, motorsykler, sykler og andre kjÃ¸retÃ¸y.</td>
+          <td><a href="/blogs/teori/bilens-tekniske-deler" title="Bilens tekniske deler - En oversikt over bilens hovedkomponenter">Bilens tekniske deler</a>, <a href="/blogs/teori/trafikksystemet-motorsykler-mopeder" title="Motorsykler og mopeder i trafikksystemet - Hvordan og hvorfor unngÃ¥ ulykker">Motorsykler og mopeder i trafikksystemet</a></td>
+      </tr>
+      <tr>
+          <td><strong>MiljÃ¸ og vÃ¦r</strong></td>
+          <td>Lysforhold, fÃ¸reforhold og vÃ¦rpÃ¥virkning som pÃ¥virker trafikksikkerhet.</td>
+          <td><a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="KjÃ¸ring under vanskelige forhold - guide til trygge kjÃ¸reforhold">KjÃ¸ring under vanskelige forhold</a></td>
+      </tr>
+      <tr>
+          <td><strong>Samhandling og kommunikasjon</strong></td>
+          <td>Ã˜yekontakt, signaler og samhandling mellom trafikanter.</td>
+          <td><a href="/blogs/teori/oppmerksomhet-og-samhandling" title="Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken">Oppmerksomhet og samhandling</a></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="samspillet-i-trafikksystemet">Samspillet i trafikksystemet</h2>
+<p>Trafikksystemet fungerer kun nÃ¥r alle komponentene <strong>samhandler</strong>:</p>
+<ul>
+<li><strong>Regelverk</strong> gir rammer for hvordan trafikken skal foregÃ¥.</li>
+<li><strong>Infrastruktur</strong> legger til rette for trygg og effektiv ferdsel.</li>
+<li><strong>Trafikanter</strong> mÃ¥ fÃ¸lge reglene og tilpasse seg omgivelsene.</li>
+<li><strong>KjÃ¸retÃ¸y</strong> mÃ¥ tilfredsstille tekniske krav og vÃ¦re i forskriftsmessig stand.</li>
+<li><strong>MiljÃ¸forhold</strong> pÃ¥virker valg av kjÃ¸remÃ¥te, hastighet og sikkerhetsmarginer.</li>
+</ul>
+<p>Resultatet er et <em>komplekst Ã¸kosystem</em> der god kjennskap til hele systemet er avgjÃ¸rende for Ã¥ kjÃ¸re trygt og ansvarlig.</p>
+<h2 id="regelverk-vegtrafikkloven-og-trafikkreglene">Regelverk: Vegtrafikkloven og trafikkreglene</h2>
+<p>Det juridiske grunnlaget for trafikksystemet er <strong>vegtrafikkloven</strong> og tilhÃ¸rende <strong>trafikkregler</strong>. Loven fastsetter prinsipper og ansvar, mens reglene utdyper praktiske kjÃ¸reregler.</p>
+<p>For en fullstendig oversikt over de aktuelle lovene og forskriftene, se <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Oversikt over norske trafikklover og forskrifter">Lover og forskrifter</a>.</p>
+<h2 id="veien-og-veioppmerking">Veien og veioppmerking</h2>
+<p>En viktig del av <strong>infrastrukturen</strong> er selve <em>veibanen</em> og <strong>veioppmerking</strong> som gir fÃ¸reren visuelle fÃ¸ringer og regler direkte pÃ¥ kjÃ¸rebanen.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th>Element</th>
+          <th>Beskrivelse</th>
+          <th>Se ogsÃ¥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Veiens deler</strong></td>
+          <td>Oversikt over veiens fysiske komponenter som kjÃ¸refelt, veiskulder, midtdeler, sykkelfelt, kjÃ¸rebane, fortau og gang- og sykkelvei.</td>
+          <td><a href="/blogs/teori/veiens-deler" title="Veiens deler - en oversikt over veiens fysiske komponenter">Veiens deler</a></td>
+      </tr>
+      <tr>
+          <td><strong>KjÃ¸rebane</strong></td>
+          <td>Veibanens hoveddel hvor kjÃ¸retÃ¸y ferdes.</td>
+          <td><a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a></td>
+      </tr>
+      <tr>
+          <td><strong>Kantlinje</strong></td>
+          <td>Markerer veibanens ytterkant. Viktig for Ã¥ holde riktig spor, spesielt i mÃ¸rket og under vanskelige forhold.</td>
+          <td><a href="/blogs/teori/kjoring-i-morket" title="KjÃ¸ring i mÃ¸rket - Tips for trygg kjÃ¸ring i mÃ¸rke forhold">KjÃ¸ring i mÃ¸rket</a></td>
+      </tr>
+      <tr>
+          <td><strong>Senterlinje</strong></td>
+          <td>Delingslinje som skiller kjÃ¸refelt for motsatt kjÃ¸reretning.</td>
+          <td><a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">Fart og avstand</a></td>
+      </tr>
+      <tr>
+          <td><strong>Stiplet linje</strong></td>
+          <td>Angir at forbikjÃ¸ring er tillatt nÃ¥r det er forsvarlig.</td>
+          <td><a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring">ForbikjÃ¸ring og feltskifte</a></td>
+      </tr>
+      <tr>
+          <td><strong>Dobbel linje</strong></td>
+          <td>ForbikjÃ¸ring strengt forbudt, ogsÃ¥ ved god sikt og fri siktlinje.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><strong>Fotgjengerfelt</strong></td>
+          <td>Sikker gangfelt for fotgjengere, hvite striper tvers over veien.</td>
+          <td><a href="/blogs/teori/barn-i-bilen" title="Barn i bilen - Guide til sikkerhet og regler for barn i bil">Barn i bilen</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="viktige-prinsipper-for-veioppmerking">Viktige prinsipper for veioppmerking</h3>
+<ul>
+<li><strong>Heltrukne linjer</strong> har hÃ¸yere prioritet enn stiplete linjer.</li>
+<li><strong>Gule midlertidige linjer</strong> gÃ¥r foran hvite permanent merkede linjer.</li>
+<li><strong>Reflekser</strong> og <strong>kattar</strong> Ã¸ker synlighet i mÃ¸rke og vÃ¥te forhold.</li>
+<li><strong>Veioppmerking i rundkjÃ¸ringer</strong> styrer trafikkflyten og forankjÃ¸ringsmÃ¸nster.</li>
+</ul>
+<h3 id="typer-veioppmerking">Typer veioppmerking</h3>
+<ul>
+<li>
+<p><strong>KjÃ¸refeltsoppmerking</strong>: Marker feltene og retningen kjÃ¸retÃ¸y skal kjÃ¸re.</p>
+</li>
+<li>
+<p><strong>Piler</strong>: Veiledningspiler og pÃ¥budspiler for kjÃ¸reretning.</p>
+</li>
+<li>
+<p><strong>Tekstmarkering</strong>: Forbud, pÃ¥bud eller advarsel (f.eks. &ldquo;TAXI&rdquo;, &ldquo;BUSS&rdquo;).</p>
+</li>
+<li>
+<p><strong>Zebralinjer</strong>: OmrÃ¥der med forbud mot Ã¥ stoppe eller parkere.</p>
+</li>
+<li>
+<p><strong>Kryssmarkeringer</strong>: Markering i kryss for Ã¥ angi stopplinje og gjennomkjÃ¸ring.</p>
+<pre><code>  # Copy image to static folder
+  $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+  $destDir = &quot;static/images/blog/$blogFolder&quot;
+  if (-not (Test-Path $destDir)) {
+      New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+  }
+  if (Test-Path $sourceImage) {
+      Copy-Item -Path $sourceImage -Destination $destDir -Force
+  }
+
+  # Return new markdown image tag
+  &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+</li>
+</ul>
+<p>For mer detaljert informasjon om veimerking og trafikkskilt, se <a href="/blogs/teori/trafikkskilt-og-veimerking" title="Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking">Trafikkskilt og veimerking</a>.</p>
+<h2 id="videre-lesning">Videre lesning</h2>
+<p>For mer informasjon om de enkelte delene av trafikksystemet, se:</p>
+<ul>
+<li><a href="/blogs/teori/trafikksystemet-lys" title="Trafikksystemet (lys) - Trafikklys og signalanlegg">Trafikksystemet (lys)</a></li>
+<li><a href="/blogs/teori/trafikkskilt-og-veimerking" title="Komplett guide til trafikkskilt og veimerking">Trafikkskilt og veimerking</a></li>
+<li><a href="/blogs/teori/trafikksystemet-skilt" title="Trafikksystemet (skilt) - Skiltgrupper og kategorier">Trafikksystemet (skilt)</a></li>
+<li><a href="/blogs/teori/trafikantgrupper-og-hensyn" title="Oversikt over trafikantgrupper og viktige hensyn">Trafikantgrupper og hensyn</a></li>
+<li><a href="/blogs/teori/bilens-tekniske-deler" title="En oversikt over bilens hovedkomponenter">Bilens tekniske deler</a></li>
+<li><a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="Guide til trygge kjÃ¸reforhold">KjÃ¸ring under vanskelige forhold</a></li>
+<li><a href="/blogs/teori/lover-og-forskrifter" title="Oversikt over norske trafikklover og forskrifter">Lover og forskrifter</a>\n  </div>\n</div></li>
+</ul>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Trafikksystemet" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Trafikksystemet" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Trafikksystemet" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

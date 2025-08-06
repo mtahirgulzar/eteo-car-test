@@ -1,0 +1,192 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2d3748">
+    Blindsoner og speilsystem
+  </text>
+  
+  <!-- Central car -->
+  <g transform="translate(350, 200)">
+    <!-- Car body -->
+    <rect x="0" y="0" width="100" height="50" rx="8" fill="#4299e1"/>
+    <!-- Windows -->
+    <rect x="10" y="8" width="80" height="34" rx="4" fill="#bee3f8"/>
+    <!-- Wheels -->
+    <circle cx="20" cy="60" r="8" fill="#2d3748"/>
+    <circle cx="80" cy="60" r="8" fill="#2d3748"/>
+    
+    <!-- Mirrors -->
+    <!-- Rear mirror -->
+    <rect x="45" y="-5" width="10" height="6" rx="2" fill="#2d3748"/>
+    <!-- Left side mirror -->
+    <rect x="-8" y="15" width="6" height="8" rx="2" fill="#2d3748"/>
+    <!-- Right side mirror -->
+    <rect x="102" y="15" width="6" height="8" rx="2" fill="#2d3748"/>
+    
+    <!-- Mirror vision areas -->
+    <!-- Rear mirror vision -->
+    <path d="M 50 -5 L 10 -60 L 90 -60 Z" fill="#bee3f8" opacity="0.3" stroke="#2b6cb0" stroke-width="2"/>
+    
+    <!-- Left mirror vision -->
+    <path d="M -8 19 L -80 -20 L -80 80 Z" fill="#c6f6d5" opacity="0.3" stroke="#38a169" stroke-width="2"/>
+    
+    <!-- Right mirror vision -->
+    <path d="M 108 19 L 180 -20 L 180 80 Z" fill="#c6f6d5" opacity="0.3" stroke="#38a169" stroke-width="2"/>
+  </g>
+  
+  <!-- Blind spots -->
+  <!-- Left blind spot -->
+  <ellipse cx="280" cy="220" rx="40" ry="25" fill="#fed7d7" opacity="0.7" stroke="#e53e3e" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="280" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e53e3e" font-weight="bold">BLINDSONE</text>
+  
+  <!-- Right blind spot -->
+  <ellipse cx="520" cy="220" rx="40" ry="25" fill="#fed7d7" opacity="0.7" stroke="#e53e3e" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="520" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e53e3e" font-weight="bold">BLINDSONE</text>
+  
+  <!-- Cars in blind spots -->
+  <rect x="260" y="210" width="40" height="20" rx="4" fill="#e53e3e" opacity="0.8"/>
+  <circle cx="270" cy="235" r="4" fill="#2d3748"/>
+  <circle cx="290" cy="235" r="4" fill="#2d3748"/>
+  
+  <rect x="500" y="210" width="40" height="20" rx="4" fill="#e53e3e" opacity="0.8"/>
+  <circle cx="510" cy="235" r="4" fill="#2d3748"/>
+  <circle cx="530" cy="235" r="4" fill="#2d3748"/>
+  
+  <!-- Cars visible in mirrors -->
+  <!-- Behind (rear mirror) -->
+  <rect x="380" y="120" width="35" height="18" rx="3" fill="#38a169"/>
+  <circle cx="387" cy="143" r="3" fill="#2d3748"/>
+  <circle cx="408" cy="143" r="3" fill="#2d3748"/>
+  
+  <!-- Left lane (left mirror) -->
+  <rect x="180" y="150" width="35" height="18" rx="3" fill="#38a169"/>
+  <circle cx="187" cy="173" r="3" fill="#2d3748"/>
+  <circle cx="208" cy="173" r="3" fill="#2d3748"/>
+  
+  <!-- Right lane (right mirror) -->
+  <rect x="580" y="150" width="35" height="18" rx="3" fill="#38a169"/>
+  <circle cx="587" cy="173" r="3" fill="#2d3748"/>
+  <circle cx="608" cy="173" r="3" fill="#2d3748"/>
+  
+  <!-- Mirror representations -->
+  <g transform="translate(50, 350)">
+    <text x="150" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2d3748">
+      Hva ser du i speilene?
+    </text>
+    
+    <!-- Rear mirror view -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="80" height="50" rx="5" fill="#2d3748"/>
+      <rect x="5" y="5" width="70" height="40" rx="3" fill="#bee3f8"/>
+      <rect x="25" y="15" width="30" height="15" rx="2" fill="#38a169"/>
+      <text x="40" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2b6cb0" font-weight="bold">Backspeil</text>
+      <text x="40" y="77" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2d3748">Trafikk bak</text>
+    </g>
+    
+    <!-- Left mirror view -->
+    <g transform="translate(100, 30)">
+      <ellipse cx="25" cy="25" rx="20" ry="15" fill="#2d3748"/>
+      <ellipse cx="25" cy="25" rx="17" ry="12" fill="#c6f6d5"/>
+      <rect x="15" y="18" width="20" height="10" rx="2" fill="#38a169"/>
+      <text x="25" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#38a169" font-weight="bold">Venstre speil</text>
+      <text x="25" y="77" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2d3748">Venstre felt</text>
+    </g>
+    
+    <!-- Right mirror view -->
+    <g transform="translate(200, 30)">
+      <ellipse cx="25" cy="25" rx="20" ry="15" fill="#2d3748"/>
+      <ellipse cx="25" cy="25" rx="17" ry="12" fill="#c6f6d5"/>
+      <rect x="15" y="18" width="20" height="10" rx="2" fill="#38a169"/>
+      <text x="25" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#38a169" font-weight="bold">Høyre speil</text>
+      <text x="25" y="77" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2d3748">Høyre felt</text>
+    </g>
+  </g>
+  
+  <!-- Blind spot explanation -->
+  <g transform="translate(400, 350)">
+    <rect x="0" y="0" width="350" height="120" rx="8" fill="#fed7d7" stroke="#e53e3e" stroke-width="2"/>
+    
+    <text x="175" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#e53e3e">
+      Kritiske blindsoner
+    </text>
+    
+    <g font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      <text x="20" y="40" font-weight="bold">Hvor er blindsonene:</text>
+      <text x="30" y="55">• Ca. 45° bak høyre og venstre side</text>
+      <text x="30" y="68">• Direkte bak bilen på kort avstand</text>
+      <text x="30" y="81">• Foran store kjøretøy (lastebiler, busser)</text>
+      
+      <text x="20" y="100" font-weight="bold" fill="#e53e3e">Hvorfor skuldersjekk er nødvendig:</text>
+      <text x="30" y="115">Speilene dekker IKKE alle områder rundt bilen!</text>
+    </g>
+  </g>
+  
+  <!-- Shoulder check demonstration -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="200" height="120" rx="8" fill="#e2e8f0" stroke="#4a5568" stroke-width="2"/>
+    
+    <text x="100" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4a5568">
+      Skuldersjekk-teknikk
+    </text>
+    
+    <!-- Driver figure -->
+    <g transform="translate(80, 30)">
+      <!-- Head looking forward -->
+      <circle cx="0" cy="0" r="8" fill="#f7fafc" stroke="#2d3748" stroke-width="2"/>
+      <!-- Body -->
+      <rect x="-6" y="8" width="12" height="20" fill="#4299e1"/>
+      
+      <!-- Arrow showing head turn -->
+      <path d="M 8 0 Q 20 -5 25 5" fill="none" stroke="#e53e3e" stroke-width="3" marker-end="url(#arrowhead)"/>
+      
+      <!-- Head looking over shoulder -->
+      <circle cx="25" cy="5" r="6" fill="#f7fafc" stroke="#e53e3e" stroke-width="2" opacity="0.7"/>
+    </g>
+    
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e"/>
+      </marker>
+    </defs>
+    
+    <g font-family="Arial, sans-serif" font-size="10" fill="#2d3748">
+      <text x="100" y="75" text-anchor="middle">1. Rask blikk over skulderen</text>
+      <text x="100" y="88" text-anchor="middle">2. Ikke ta øynene av veien for lenge</text>
+      <text x="100" y="101" text-anchor="middle">3. Sjekk blindsonen før feltskifte</text>
+    </g>
+  </g>
+  
+  <!-- Safety zones -->
+  <g transform="translate(600, 50)">
+    <rect x="0" y="0" width="150" height="120" rx="8" fill="#c6f6d5" stroke="#38a169" stroke-width="2"/>
+    
+    <text x="75" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#38a169">
+      Sikkerhetssoner
+    </text>
+    
+    <!-- Safe zones diagram -->
+    <g transform="translate(75, 40)">
+      <!-- Car -->
+      <rect x="-15" y="-8" width="30" height="16" rx="3" fill="#4299e1"/>
+      
+      <!-- Safe zones -->
+      <ellipse cx="0" cy="-25" rx="20" ry="8" fill="#c6f6d5" opacity="0.5"/>
+      <ellipse cx="-35" cy="0" rx="12" ry="20" fill="#c6f6d5" opacity="0.5"/>
+      <ellipse cx="35" cy="0" rx="12" ry="20" fill="#c6f6d5" opacity="0.5"/>
+      <ellipse cx="0" cy="25" rx="20" ry="8" fill="#c6f6d5" opacity="0.5"/>
+      
+      <text x="0" y="-30" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#38a169">Foran</text>
+      <text x="-35" y="5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#38a169">V</text>
+      <text x="35" y="5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#38a169">H</text>
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#38a169">Bak</text>
+    </g>
+    
+    <g font-family="Arial, sans-serif" font-size="9" fill="#2d3748" text-anchor="center">
+      <text x="75" y="85">Grønne områder: Synlig i speil</text>
+      <text x="75" y="97">Røde områder: Blindsoner</text>
+      <text x="75" y="109">Krever skuldersjekk</text>
+    </g>
+  </g>
+</svg>

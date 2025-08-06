@@ -1,0 +1,64 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#1a1a1a" font-size="20" font-weight="bold">Stoppeavstand = Reaksjonsavstand + Bremselengde</text>
+  
+  <!-- Road -->
+  <rect x="50" y="180" width="700" height="60" fill="#4a4a4a"/>
+  <rect x="50" y="205" width="700" height="10" fill="#ffeb3b" opacity="0.8"/>
+  
+  <!-- Car at start -->
+  <rect x="60" y="190" width="30" height="15" fill="#1976d2" rx="3"/>
+  <circle cx="70" cy="210" r="5" fill="#333"/>
+  <circle cx="80" cy="210" r="5" fill="#333"/>
+  
+  <!-- Danger ahead -->
+  <polygon points="650,175 665,155 680,175" fill="#d32f2f"/>
+  <text x="665" y="150" text-anchor="middle" fill="#d32f2f" font-size="12" font-weight="bold">FARE!</text>
+  
+  <!-- Phase 1: Reaction distance -->
+  <rect x="90" y="120" width="200" height="50" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="190" y="140" text-anchor="middle" fill="#1976d2" font-size="14" font-weight="bold">REAKSJONSAVSTAND</text>
+  <text x="190" y="155" text-anchor="middle" fill="#1976d2" font-size="11">Tid til å reagere</text>
+  
+  <!-- Reaction distance line -->
+  <line x1="90" y1="200" x2="290" y2="200" stroke="#1976d2" stroke-width="6" stroke-dasharray="10,5"/>
+  <text x="190" y="235" text-anchor="middle" fill="#1976d2" font-size="12">(v ÷ 10) × 3 meter</text>
+  
+  <!-- Phase 2: Braking distance -->
+  <rect x="310" y="120" width="200" height="50" fill="#ffebee" stroke="#d32f2f" stroke-width="2" rx="5"/>
+  <text x="410" y="140" text-anchor="middle" fill="#d32f2f" font-size="14" font-weight="bold">BREMSELENGDE</text>
+  <text x="410" y="155" text-anchor="middle" fill="#d32f2f" font-size="11">Aktiv bremsing</text>
+  
+  <!-- Braking distance line -->
+  <line x1="290" y1="200" x2="650" y2="200" stroke="#d32f2f" stroke-width="6"/>
+  <text x="470" y="235" text-anchor="middle" fill="#d32f2f" font-size="12">(v ÷ 10)² meter</text>
+  
+  <!-- Total distance arrow -->
+  <path d="M 90 250 L 650 250" stroke="#333" stroke-width="3" marker-start="url(#arrowstart)" marker-end="url(#arrowend)"/>
+  <text x="370" y="270" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">TOTAL STOPPEAVSTAND</text>
+  
+  <!-- Example calculation -->
+  <rect x="520" y="60" width="220" height="100" fill="#fff" stroke="#333" stroke-width="2" rx="10"/>
+  <text x="630" y="85" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">Eksempel 80 km/t:</text>
+  <text x="540" y="105" fill="#1976d2" font-size="11">Reaksjonsavstand: (80÷10)×3 = 24m</text>
+  <text x="540" y="120" fill="#d32f2f" font-size="11">Bremselengde: (80÷10)² = 64m</text>
+  <line x1="540" y1="125" x2="720" y2="125" stroke="#333" stroke-width="1"/>
+  <text x="540" y="140" fill="#333" font-size="12" font-weight="bold">Total stoppeavstand: 88 meter</text>
+  <text x="630" y="155" text-anchor="middle" fill="#ff5722" font-size="10">Nesten hele fotballbane!</text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowstart" markerWidth="10" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#333"/>
+    </marker>
+    <marker id="arrowend" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Key insight -->
+  <text x="50" y="290" fill="#666" font-size="10" font-style="italic">v = hastighet i km/t</text>
+</svg>

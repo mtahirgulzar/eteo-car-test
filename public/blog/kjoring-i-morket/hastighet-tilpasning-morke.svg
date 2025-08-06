@@ -1,0 +1,116 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="darkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="visionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffff88;stop-opacity:0.7" />
+      <stop offset="60%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#darkGradient)"/>
+  
+  <!-- Road -->
+  <rect x="0" y="320" width="600" height="80" fill="#2a2a2a"/>
+  <rect x="290" y="320" width="20" height="80" fill="#ffff66" opacity="0.6"/>
+  
+  <!-- Speed/Vision relationship demonstration -->
+  
+  <!-- Scenario 1: Near light, appropriate speed -->
+  <g id="scenario1">
+    <rect x="50" y="300" width="60" height="30" rx="5" fill="#444444"/>
+    <circle cx="65" cy="335" r="6" fill="#333333"/>
+    <circle cx="95" cy="335" r="6" fill="#333333"/>
+    
+    <!-- Vision cone (near light) -->
+    <path d="M 110 315 L 180 310 L 180 320 Z" fill="url(#visionGradient)" opacity="0.6"/>
+    
+    <!-- Speed indicator -->
+    <text x="80" y="285" fill="#00ff00" font-size="12" font-weight="bold" text-anchor="middle">50 km/t</text>
+    <text x="80" y="270" fill="#ffffff" font-size="10" text-anchor="middle">TRYGT</text>
+    
+    <!-- Distance marker -->
+    <line x1="180" y1="340" x2="180" y2="350" stroke="#00ff00" stroke-width="2"/>
+    <text x="180" y="365" fill="#00ff00" font-size="9" text-anchor="middle">40m sikt</text>
+  </g>
+  
+  <!-- Scenario 2: High beam, higher speed allowed -->
+  <g id="scenario2">
+    <rect x="250" y="280" width="60" height="30" rx="5" fill="#444444"/>
+    <circle cx="265" cy="315" r="6" fill="#333333"/>
+    <circle cx="295" cy="315" r="6" fill="#333333"/>
+    
+    <!-- Vision cone (high beam) -->
+    <path d="M 310 295 L 450 285 L 450 305 Z" fill="url(#visionGradient)" opacity="0.4"/>
+    
+    <!-- Speed indicator -->
+    <text x="280" y="265" fill="#ffff00" font-size="12" font-weight="bold" text-anchor="middle">80 km/t</text>
+    <text x="280" y="250" fill="#ffffff" font-size="10" text-anchor="middle">AKSEPTABELT</text>
+    
+    <!-- Distance marker -->
+    <line x1="450" y1="340" x2="450" y2="350" stroke="#ffff00" stroke-width="2"/>
+    <text x="450" y="365" fill="#ffff00" font-size="9" text-anchor="middle">100m sikt</text>
+  </g>
+  
+  <!-- Scenario 3: Poor visibility, too fast -->
+  <g id="scenario3">
+    <rect x="480" y="290" width="60" height="30" rx="5" fill="#444444"/>
+    <circle cx="495" cy="325" r="6" fill="#333333"/>
+    <circle cx="525" cy="325" r="6" fill="#333333"/>
+    
+    <!-- Very limited vision cone -->
+    <path d="M 540 305 L 580 300 L 580 310 Z" fill="url(#visionGradient)" opacity="0.8"/>
+    
+    <!-- Speed indicator -->
+    <text x="510" y="275" fill="#ff3333" font-size="12" font-weight="bold" text-anchor="middle">70 km/t</text>
+    <text x="510" y="260" fill="#ffffff" font-size="10" text-anchor="middle">FARLIG!</text>
+    
+    <!-- Distance marker -->
+    <line x1="580" y1="340" x2="580" y2="350" stroke="#ff3333" stroke-width="2"/>
+    <text x="580" y="365" fill="#ff3333" font-size="9" text-anchor="middle">20m sikt</text>
+  </g>
+  
+  <!-- Information panel -->
+  <rect x="20" y="20" width="250" height="160" rx="10" fill="#2a2a4a" opacity="0.9"/>
+  <text x="30" y="40" fill="#ffffff" font-size="14" font-weight="bold">Hastighet vs. Siktavstand</text>
+  
+  <text x="30" y="65" fill="#00ff00" font-size="12" font-weight="bold">✓ RIKTIG TILPASNING</text>
+  <text x="35" y="80" fill="#ffffff" font-size="10">• Kan stoppe innen siktavstand</text>
+  <text x="35" y="95" fill="#ffffff" font-size="10">• 50% margin for uforutsett</text>
+  
+  <text x="30" y="120" fill="#ff3333" font-size="12" font-weight="bold">✗ FARLIG KJØRING</text>
+  <text x="35" y="135" fill="#ffffff" font-size="10">• For høy fart for siktforhold</text>
+  <text x="35" y="150" fill="#ffffff" font-size="10">• Kan ikke stoppe i tide</text>
+  <text x="35" y="165" fill="#ffffff" font-size="10">• Høy ulykkerisiko</text>
+  
+  <!-- Stopping distance illustration -->
+  <g id="stopping_distance">
+    <text x="320" y="40" fill="#ffffff" font-size="14" font-weight="bold">Stoppeavstand i mørket</text>
+    
+    <!-- Reaction distance -->
+    <rect x="320" y="50" width="40" height="15" fill="#ffaa00"/>
+    <text x="340" y="62" fill="#000000" font-size="8" text-anchor="middle">Reaksjon</text>
+    
+    <!-- Braking distance -->
+    <rect x="360" y="50" width="60" height="15" fill="#ff6666"/>
+    <text x="390" y="62" fill="#000000" font-size="8" text-anchor="middle">Bremsing</text>
+    
+    <!-- Safety margin -->
+    <rect x="420" y="50" width="30" height="15" fill="#66ff66"/>
+    <text x="435" y="62" fill="#000000" font-size="8" text-anchor="middle">Margin</text>
+    
+    <text x="375" y="85" fill="#ffffff" font-size="10" text-anchor="middle">Total stoppeavstand</text>
+    <line x1="320" y1="75" x2="450" y2="75" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- Formula -->
+    <text x="380" y="105" fill="#ffffff" font-size="11" text-anchor="middle">Økt reaksjonstid + Dårligere grep</text>
+    <text x="380" y="120" fill="#ffff66" font-size="12" font-weight="bold" text-anchor="middle">= Lavere hastighet nødvendig</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="300" y="385" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">Tilpasning av hastighet til siktforhold</text>
+</svg>

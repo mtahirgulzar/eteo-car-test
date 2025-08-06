@@ -1,0 +1,204 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="truckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E67E22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D35400;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980B9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bikeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C0392B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">
+    Kommunikasjon med ulike kjøretøystyper
+  </text>
+  
+  <!-- Large vehicles section -->
+  <text x="50" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E67E22">
+    Store kjøretøy - Lastebiler og busser
+  </text>
+  
+  <!-- Truck illustration -->
+  <rect x="100" y="90" width="120" height="50" rx="5" fill="url(#truckGrad)" stroke="#D35400" stroke-width="2"/>
+  <rect x="80" y="105" width="40" height="30" rx="3" fill="url(#truckGrad)" stroke="#D35400" stroke-width="2"/>
+  <rect x="90" y="115" width="20" height="10" rx="2" fill="#BDC3C7"/>
+  <circle cx="95" cy="150" r="8" fill="#2C3E50"/>
+  <circle cx="135" cy="150" r="8" fill="#2C3E50"/>
+  <circle cx="175" cy="150" r="8" fill="#2C3E50"/>
+  <circle cx="205" cy="150" r="8" fill="#2C3E50"/>
+  
+  <!-- Blind spots -->
+  <ellipse cx="60" cy="120" rx="20" ry="30" fill="#E74C3C" opacity="0.3"/>
+  <ellipse cx="240" cy="120" rx="20" ry="30" fill="#E74C3C" opacity="0.3"/>
+  <ellipse cx="150" cy="60" rx="40" ry="15" fill="#E74C3C" opacity="0.3"/>
+  <ellipse cx="150" cy="180" rx="60" ry="20" fill="#E74C3C" opacity="0.3"/>
+  
+  <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E74C3C">
+    Blindsoner (røde områder)
+  </text>
+  
+  <!-- Truck characteristics -->
+  <rect x="280" y="80" width="220" height="100" rx="5" fill="white" stroke="#E67E22" stroke-width="2"/>
+  <text x="290" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#D35400">
+    Utfordringer for store kjøretøy:
+  </text>
+  <text x="290" y="115" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Større blindsoner krever mer signalering
+  </text>
+  <text x="290" y="130" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Lengre reaksjons- og bremselengde
+  </text>
+  <text x="290" y="145" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Kan blokkere sikt for signaler
+  </text>
+  <text x="290" y="160" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Trenger mer plass til manøvrer
+  </text>
+  
+  <!-- Car response -->
+  <rect x="520" y="80" width="220" height="100" rx="5" fill="white" stroke="#3498DB" stroke-width="2"/>
+  <text x="530" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2980B9">
+    Som personbilfører:
+  </text>
+  <text x="530" y="115" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Vær ekstra oppmerksom på deres signaler
+  </text>
+  <text x="530" y="130" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Gi god klarering ved forbikjøring
+  </text>
+  <text x="530" y="145" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Ikke opphold deg i blindsonene
+  </text>
+  <text x="530" y="160" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Vis tålmodighet ved manøvrer
+  </text>
+  
+  <!-- Motorcycles section -->
+  <line x1="50" y1="220" x2="750" y2="220" stroke="#BDC3C7" stroke-width="1"/>
+  <text x="50" y="250" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E74C3C">
+    Motorsykler - Spesielt sårbare
+  </text>
+  
+  <!-- Motorcycle illustration -->
+  <ellipse cx="120" cy="290" rx="15" ry="8" fill="url(#bikeGrad)" stroke="#C0392B" stroke-width="2"/>
+  <circle cx="110" cy="300" r="6" fill="#2C3E50"/>
+  <circle cx="130" cy="300" r="6" fill="#2C3E50"/>
+  <rect x="115" y="280" width="8" height="10" rx="2" fill="#F4D03F"/>
+  <text x="120" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">
+    Motorsykkel
+  </text>
+  
+  <!-- Visibility issues -->
+  <ellipse cx="120" cy="290" rx="35" ry="25" fill="none" stroke="#F39C12" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="120" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#F39C12">
+    Vanskelig å oppdage
+  </text>
+  
+  <!-- Motorcycle characteristics -->
+  <rect x="200" y="260" width="200" height="90" rx="5" fill="white" stroke="#E74C3C" stroke-width="2"/>
+  <text x="210" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C0392B">
+    Motorsykler er sårbare fordi:
+  </text>
+  <text x="210" y="295" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Vanskeligere å se i blindsoner
+  </text>
+  <text x="210" y="310" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Kan endre hastighet/posisjon raskt
+  </text>
+  <text x="210" y="325" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Påvirkes mer av vind og vær
+  </text>
+  <text x="210" y="340" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Bruker posisjonering som kommunikasjon
+  </text>
+  
+  <!-- Communication strategies -->
+  <rect x="420" y="260" width="200" height="90" rx="5" fill="white" stroke="#27AE60" stroke-width="2"/>
+  <text x="430" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27AE60">
+    Kommunikasjonsstrategier:
+  </text>
+  <text x="430" y="295" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Søk aktivt øyekontakt
+  </text>
+  <text x="430" y="310" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Gi ekstra klarering (1,5+ meter)
+  </text>
+  <text x="430" y="325" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Vær ekstra forsiktig ved svinging
+  </text>
+  <text x="430" y="340" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">
+    • Observer deres kjøremønster
+  </text>
+  
+  <!-- Practical scenario -->
+  <line x1="50" y1="380" x2="750" y2="380" stroke="#BDC3C7" stroke-width="1"/>
+  <text x="50" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498DB">
+    Praktisk scenario: Forbikjøring
+  </text>
+  
+  <!-- Road with vehicles -->
+  <rect x="100" y="430" width="600" height="80" fill="#5D6D7E"/>
+  <line x1="100" y1="470" x2="700" y2="470" stroke="#F1C40F" stroke-width="3" stroke-dasharray="20,10"/>
+  
+  <!-- Truck being overtaken -->
+  <rect x="150" y="445" width="80" height="35" rx="5" fill="url(#truckGrad)"/>
+  <rect x="140" y="455" width="25" height="20" rx="3" fill="url(#truckGrad)"/>
+  <circle cx="155" cy="485" r="6" fill="#2C3E50"/>
+  <circle cx="185" cy="485" r="6" fill="#2C3E50"/>
+  <circle cx="215" cy="485" r="6" fill="#2C3E50"/>
+  
+  <!-- Car overtaking -->
+  <rect x="300" y="435" width="60" height="30" rx="5" fill="url(#carGrad)"/>
+  <circle cx="315" cy="475" r="6" fill="#2C3E50"/>
+  <circle cx="345" cy="475" r="6" fill="#2C3E50"/>
+  
+  <!-- Turn signal -->
+  <polygon points="365,445 380,450 365,455" fill="#F39C12"/>
+  
+  <!-- Safety distances -->
+  <line x1="230" y1="460" x2="300" y2="460" stroke="#27AE60" stroke-width="3"/>
+  <text x="265" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27AE60">
+    Sikker avstand
+  </text>
+  
+  <line x1="360" y1="460" x2="430" y2="460" stroke="#27AE60" stroke-width="3"/>
+  <text x="395" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27AE60">
+    Sikker avstand
+  </text>
+  
+  <!-- Motorcycle in scenario -->
+  <ellipse cx="500" cy="445" rx="15" ry="8" fill="url(#bikeGrad)"/>
+  <circle cx="495" cy="455" r="4" fill="#2C3E50"/>
+  <circle cx="505" cy="455" r="4" fill="#2C3E50"/>
+  
+  <!-- Extra clearance -->
+  <line x1="520" y1="450" x2="570" y2="450" stroke="#E74C3C" stroke-width="3"/>
+  <text x="545" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E74C3C">
+    Ekstra klarering
+  </text>
+  
+  <!-- Bottom tips -->
+  <rect x="100" y="530" width="600" height="50" rx="10" fill="#E8F5E8" stroke="#27AE60" stroke-width="2"/>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27AE60">
+    Nøkkel til god kommunikasjon med alle kjøretøystyper:
+  </text>
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    Forstå deres begrensninger • Tilpass din kommunikasjon • Vis respekt og tålmodighet
+  </text>
+  <text x="400" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">
+    Øyekontakt når mulig • Gi tydelige signaler • Vær forutsigbar i dine handlinger
+  </text>
+  
+  <!-- Motion arrows -->
+  <polygon points="360,450 375,445 375,450 385,450 385,455 375,455 375,460" fill="#3498DB"/>
+  <polygon points="515,450 530,445 530,450 540,450 540,455 530,455 530,460" fill="#E74C3C"/>
+</svg>

@@ -1,0 +1,198 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    De fire komponentene i reaksjonstid
+  </text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#34495e" stroke-width="3"/>
+  
+  <!-- Phase 1: Detection -->
+  <g transform="translate(100, 70)">
+    <rect x="0" y="0" width="120" height="60" fill="#e74c3c" rx="5"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      1. DETEKSJON
+    </text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      0,1-0,3 sek
+    </text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">
+      Oppdage faren
+    </text>
+  </g>
+  
+  <!-- Phase 2: Identification -->
+  <g transform="translate(240, 70)">
+    <rect x="0" y="0" width="120" height="60" fill="#f39c12" rx="5"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      2. IDENTIFIKASJON
+    </text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      0,1-0,5 sek
+    </text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">
+      Forstå situasjonen
+    </text>
+  </g>
+  
+  <!-- Phase 3: Decision -->
+  <g transform="translate(380, 70)">
+    <rect x="0" y="0" width="120" height="60" fill="#3498db" rx="5"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      3. BESLUTNING
+    </text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      0,1-0,5 sek
+    </text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">
+      Velge handling
+    </text>
+  </g>
+  
+  <!-- Phase 4: Response -->
+  <g transform="translate(520, 70)">
+    <rect x="0" y="0" width="120" height="60" fill="#27ae60" rx="5"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      4. RESPONS
+    </text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      0,1-0,3 sek
+    </text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">
+      Utføre handlingen
+    </text>
+  </g>
+  
+  <!-- Total time indicator -->
+  <text x="400" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+    Total reaksjonstid: 0,4 - 1,6 sekunder (typisk 1,0 - 1,5 sek)
+  </text>
+  
+  <!-- Detailed descriptions -->
+  <g transform="translate(0, 200)">
+    <!-- Detection details -->
+    <rect x="50" y="0" width="160" height="120" fill="#fadbd8" stroke="#e74c3c" stroke-width="2" rx="8"/>
+    <text x="130" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">
+      Deteksjon
+    </text>
+    <text x="60" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Øyet ser faren
+    </text>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Signal til hjernen
+    </text>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Påvirkes av:
+    </text>
+    <text x="70" y="85" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+      - Sikt og lysforhold
+    </text>
+    <text x="70" y="98" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+      - Oppmerksomhet
+    </text>
+    <text x="70" y="111" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+      - Forventning
+    </text>
+  </g>
+  
+  <!-- Identification details -->
+  <rect x="220" y="200" width="160" height="120" fill="#fdeaa7" stroke="#f39c12" stroke-width="2" rx="8"/>
+  <text x="300" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d68910">
+    Identifikasjon
+  </text>
+  <text x="230" y="240" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Analysere situasjonen
+  </text>
+  <text x="230" y="255" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Forstå farenivå
+  </text>
+  <text x="230" y="270" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Påvirkes av:
+  </text>
+  <text x="240" y="285" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Erfaring
+  </text>
+  <text x="240" y="298" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Situasjonskompleksitet
+  </text>
+  <text x="240" y="311" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Overraskelsesgrad
+  </text>
+  
+  <!-- Decision details -->
+  <rect x="390" y="200" width="160" height="120" fill="#d6eaf8" stroke="#3498db" stroke-width="2" rx="8"/>
+  <text x="470" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2980b9">
+    Beslutning
+  </text>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Velge respons
+  </text>
+  <text x="400" y="255" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Bremse/styre/akselerere
+  </text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Påvirkes av:
+  </text>
+  <text x="410" y="285" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Antall alternativer
+  </text>
+  <text x="410" y="298" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Stress og panikk
+  </text>
+  <text x="410" y="311" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Trening og erfaring
+  </text>
+  
+  <!-- Response details -->
+  <rect x="560" y="200" width="160" height="120" fill="#d5f4e6" stroke="#27ae60" stroke-width="2" rx="8"/>
+  <text x="640" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#239b56">
+    Respons
+  </text>
+  <text x="570" y="240" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Fysisk utføring
+  </text>
+  <text x="570" y="255" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Flytte fot til brems
+  </text>
+  <text x="570" y="270" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    • Påvirkes av:
+  </text>
+  <text x="580" y="285" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Alder og fysikk
+  </text>
+  <text x="580" y="298" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Pedallayeout
+  </text>
+  <text x="580" y="311" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    - Øvelse og automatikk
+  </text>
+  
+  <!-- Example scenario -->
+  <rect x="50" y="350" width="700" height="120" fill="#f8f9fa" stroke="#95a5a6" stroke-width="2" rx="8"/>
+  <text x="400" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+    Eksempel: Barn løper ut i veien
+  </text>
+  
+  <text x="70" y="400" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">
+    <tspan font-weight="bold">1. Deteksjon (0,2s):</tspan> Øyet registrerer bevegelse i periferien
+  </text>
+  <text x="70" y="420" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">
+    <tspan font-weight="bold">2. Identifikasjon (0,3s):</tspan> Forstår at det er et barn som løper mot veien
+  </text>
+  <text x="70" y="440" font-family="Arial, sans-serif" font-size="11" fill="#3498db">
+    <tspan font-weight="bold">3. Beslutning (0,4s):</tspan> Velger å bremse hardt (ikke styre unna pga motgående trafikk)
+  </text>
+  <text x="70" y="460" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">
+    <tspan font-weight="bold">4. Respons (0,2s):</tspan> Flytter høyre fot fra gass til brems og trykker ned
+  </text>
+  
+  <text x="600" y="425" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e74c3c">
+    Total tid: 1,1s
+  </text>
+  <text x="600" y="445" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">
+    (Reaksjonsstrekning ved 50 km/t: 15m)
+  </text>
+</svg>

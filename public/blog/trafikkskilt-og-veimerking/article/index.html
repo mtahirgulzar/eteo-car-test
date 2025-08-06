@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafikkskilt og veimerking | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Lær alt om trafikkskilt og veimerking for teoriprøven. Vi dekker alle skilttypene, farger, former og betydninger du trenger å kunne.">
+    
+    <link rel="canonical" href="//localhost:1313/blog/trafikkskilt-og-veimerking/article/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blog/trafikkskilt-og-veimerking/article/">
+    <meta property="og:title" content="Trafikkskilt og veimerking | Eteo">
+    <meta property="og:description" content="Lær alt om trafikkskilt og veimerking for teoriprøven. Vi dekker alle skilttypene, farger, former og betydninger du trenger å kunne.">
+    <meta property="og:image" content="//localhost:1313/images/blog/trafikkskilt-og-veimerking/trafikkskilt-og-veimerking-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trafikkskilt og veimerking | Eteo">
+    <meta name="twitter:description" content="Lær alt om trafikkskilt og veimerking for teoriprøven. Vi dekker alle skilttypene, farger, former og betydninger du trenger å kunne.">
+    <meta name="twitter:image" content="//localhost:1313/images/blog/trafikkskilt-og-veimerking/trafikkskilt-og-veimerking-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blog/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blog/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Trafikkskilt og veimerking</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                15 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/images/blog/trafikkskilt-og-veimerking/trafikkskilt-og-veimerking-image.svg" 
+                    alt="Trafikkskilt og veimerking" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <div class="blog-content">
+  <div class="featured-image">
+    <img src="/images/blog/trafikkskilt-og-veimerking/trafikkskilt-og-veimerking-image.svg" alt="Trafikkskilt og veimerking" class="img-fluid rounded">
+  </div>
+  <div class="toc-container mt-4 mb-4">
+    <h3>Table of Contents</h3>
+    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+        <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#innholdsfortegnelse">Innholdsfortegnelse</a></li>
+    <li><a href="#hva-er-trafikkskilt">Hva er trafikkskilt?</a></li>
+    <li><a href="#de-fire-hovedkategoriene-av-trafikkskilt">De fire hovedkategoriene av trafikkskilt</a>
+      <ul>
+        <li><a href="#1-forbudsskilt">1. Forbudsskilt</a></li>
+        <li><a href="#2-pãbudsskilt">2. PÃ¥budsskilt</a></li>
+        <li><a href="#3-advarselsskilt">3. Advarselsskilt</a></li>
+        <li><a href="#4-opplysningsskilt">4. Opplysningsskilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#skiltenes-former-og-betydning">Skiltenes former og betydning</a></li>
+    <li><a href="#fargenes-betydning">Fargenes betydning</a></li>
+    <li><a href="#tilleggstavler">Tilleggstavler</a></li>
+    <li><a href="#veimerking-og-oppmerking">Veimerking og oppmerking</a>
+      <ul>
+        <li><a href="#senterlinje">Senterlinje</a></li>
+        <li><a href="#kantlinje">Kantlinje</a></li>
+        <li><a href="#spesielle-markeringer">Spesielle markeringer</a></li>
+      </ul>
+    </li>
+    <li><a href="#viktige-regler-for-trafikkskilt">Viktige regler for trafikkskilt</a>
+      <ul>
+        <li><a href="#nãr-gjelder-skiltene">NÃ¥r gjelder skiltene?</a></li>
+        <li><a href="#rangering-av-skilt">Rangering av skilt</a></li>
+        <li><a href="#skiltstãrrelse-og-plassering-og-kjãremãte">SkiltstÃ¸rrelse og <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#arbeidsomrãder">ArbeidsomrÃ¥der</a></li>
+        <li><a href="#tunneler">Tunneler</a></li>
+        <li><a href="#bomstasjoner">Bomstasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#tips-for-teoriprãven">Tips for teoriprÃ¸ven</a>
+      <ul>
+        <li><a href="#lãr-systematisk">LÃ¦r systematisk</a></li>
+        <li><a href="#ãv-pã-kombinasjoner">Ã˜v pÃ¥ kombinasjoner</a></li>
+        <li><a href="#husk-spesialtilfeller">Husk spesialtilfeller</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelse-til-eksamen">Forberedelse til eksamen</a></li>
+    <li><a href="#digitale-trafikkskilt-og-variabel-skilting">Digitale trafikkskilt og variabel skilting</a>
+      <ul>
+        <li><a href="#variable-hastighetsgrenser">Variable hastighetsgrenser</a></li>
+        <li><a href="#tunnelsystemer">Tunnelsystemer</a></li>
+        <li><a href="#trafikkledelse">Trafikkledelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#internasjonale-forskjeller">Internasjonale forskjeller</a>
+      <ul>
+        <li><a href="#europeiske-variasjoner">Europeiske variasjoner</a></li>
+        <li><a href="#amerikanske-skilt">Amerikanske skilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikehold-og-ansvar">Vedlikehold og ansvar</a>
+      <ul>
+        <li><a href="#ansvarsfordeling">Ansvarsfordeling</a></li>
+        <li><a href="#vedlikeholdskrav">Vedlikeholdskrav</a></li>
+        <li><a href="#rapportering-av-feil">Rapportering av feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-oppmerksomhet">Psykologi og oppmerksomhet</a>
+      <ul>
+        <li><a href="#oppmerksomhetstrekking">Oppmerksomhetstrekking</a></li>
+        <li><a href="#automatisering-og-vaner">Automatisering og vaner</a></li>
+        <li><a href="#overbelastning-av-informasjon">Overbelastning av informasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#avanserte-temaer">Avanserte temaer</a>
+      <ul>
+        <li><a href="#trafikkskilt-i-spesielle-vãrforhold">Trafikkskilt i spesielle vÃ¦rforhold</a></li>
+        <li><a href="#trafikkskilt-og-automatiserte-kjãretãy">Trafikkskilt og automatiserte kjÃ¸retÃ¸y</a></li>
+        <li><a href="#miljãaspekter-ved-trafikkskilt">MiljÃ¸aspekter ved trafikkskilt</a></li>
+        <li><a href="#ãkonomiske-aspekter">Ã˜konomiske aspekter</a></li>
+      </ul>
+    </li>
+    <li><a href="#fremtidens-trafikkskilt">Fremtidens trafikkskilt</a>
+      <ul>
+        <li><a href="#augmented-reality-ar">Augmented Reality (AR)</a></li>
+        <li><a href="#kunstig-intelligens">Kunstig intelligens</a></li>
+        <li><a href="#integrerte-systemer">Integrerte systemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+  </ul>
+</nav>
+    </div>
+
+  </div>
+  <div class="blog-body">\n<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#innholdsfortegnelse">Innholdsfortegnelse</a></li>
+    <li><a href="#hva-er-trafikkskilt">Hva er trafikkskilt?</a></li>
+    <li><a href="#de-fire-hovedkategoriene-av-trafikkskilt">De fire hovedkategoriene av trafikkskilt</a>
+      <ul>
+        <li><a href="#1-forbudsskilt">1. Forbudsskilt</a></li>
+        <li><a href="#2-pãbudsskilt">2. PÃ¥budsskilt</a></li>
+        <li><a href="#3-advarselsskilt">3. Advarselsskilt</a></li>
+        <li><a href="#4-opplysningsskilt">4. Opplysningsskilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#skiltenes-former-og-betydning">Skiltenes former og betydning</a></li>
+    <li><a href="#fargenes-betydning">Fargenes betydning</a></li>
+    <li><a href="#tilleggstavler">Tilleggstavler</a></li>
+    <li><a href="#veimerking-og-oppmerking">Veimerking og oppmerking</a>
+      <ul>
+        <li><a href="#senterlinje">Senterlinje</a></li>
+        <li><a href="#kantlinje">Kantlinje</a></li>
+        <li><a href="#spesielle-markeringer">Spesielle markeringer</a></li>
+      </ul>
+    </li>
+    <li><a href="#viktige-regler-for-trafikkskilt">Viktige regler for trafikkskilt</a>
+      <ul>
+        <li><a href="#nãr-gjelder-skiltene">NÃ¥r gjelder skiltene?</a></li>
+        <li><a href="#rangering-av-skilt">Rangering av skilt</a></li>
+        <li><a href="#skiltstãrrelse-og-plassering-og-kjãremãte">SkiltstÃ¸rrelse og <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#arbeidsomrãder">ArbeidsomrÃ¥der</a></li>
+        <li><a href="#tunneler">Tunneler</a></li>
+        <li><a href="#bomstasjoner">Bomstasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#tips-for-teoriprãven">Tips for teoriprÃ¸ven</a>
+      <ul>
+        <li><a href="#lãr-systematisk">LÃ¦r systematisk</a></li>
+        <li><a href="#ãv-pã-kombinasjoner">Ã˜v pÃ¥ kombinasjoner</a></li>
+        <li><a href="#husk-spesialtilfeller">Husk spesialtilfeller</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelse-til-eksamen">Forberedelse til eksamen</a></li>
+    <li><a href="#digitale-trafikkskilt-og-variabel-skilting">Digitale trafikkskilt og variabel skilting</a>
+      <ul>
+        <li><a href="#variable-hastighetsgrenser">Variable hastighetsgrenser</a></li>
+        <li><a href="#tunnelsystemer">Tunnelsystemer</a></li>
+        <li><a href="#trafikkledelse">Trafikkledelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#internasjonale-forskjeller">Internasjonale forskjeller</a>
+      <ul>
+        <li><a href="#europeiske-variasjoner">Europeiske variasjoner</a></li>
+        <li><a href="#amerikanske-skilt">Amerikanske skilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikehold-og-ansvar">Vedlikehold og ansvar</a>
+      <ul>
+        <li><a href="#ansvarsfordeling">Ansvarsfordeling</a></li>
+        <li><a href="#vedlikeholdskrav">Vedlikeholdskrav</a></li>
+        <li><a href="#rapportering-av-feil">Rapportering av feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-oppmerksomhet">Psykologi og oppmerksomhet</a>
+      <ul>
+        <li><a href="#oppmerksomhetstrekking">Oppmerksomhetstrekking</a></li>
+        <li><a href="#automatisering-og-vaner">Automatisering og vaner</a></li>
+        <li><a href="#overbelastning-av-informasjon">Overbelastning av informasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#avanserte-temaer">Avanserte temaer</a>
+      <ul>
+        <li><a href="#trafikkskilt-i-spesielle-vãrforhold">Trafikkskilt i spesielle vÃ¦rforhold</a></li>
+        <li><a href="#trafikkskilt-og-automatiserte-kjãretãy">Trafikkskilt og automatiserte kjÃ¸retÃ¸y</a></li>
+        <li><a href="#miljãaspekter-ved-trafikkskilt">MiljÃ¸aspekter ved trafikkskilt</a></li>
+        <li><a href="#ãkonomiske-aspekter">Ã˜konomiske aspekter</a></li>
+      </ul>
+    </li>
+    <li><a href="#fremtidens-trafikkskilt">Fremtidens trafikkskilt</a>
+      <ul>
+        <li><a href="#augmented-reality-ar">Augmented Reality (AR)</a></li>
+        <li><a href="#kunstig-intelligens">Kunstig intelligens</a></li>
+        <li><a href="#integrerte-systemer">Integrerte systemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#innholdsfortegnelse">Innholdsfortegnelse</a></li>
+    <li><a href="#hva-er-trafikkskilt">Hva er trafikkskilt?</a></li>
+    <li><a href="#de-fire-hovedkategoriene-av-trafikkskilt">De fire hovedkategoriene av trafikkskilt</a>
+      <ul>
+        <li><a href="#1-forbudsskilt">1. Forbudsskilt</a></li>
+        <li><a href="#2-pãbudsskilt">2. PÃ¥budsskilt</a></li>
+        <li><a href="#3-advarselsskilt">3. Advarselsskilt</a></li>
+        <li><a href="#4-opplysningsskilt">4. Opplysningsskilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#skiltenes-former-og-betydning">Skiltenes former og betydning</a></li>
+    <li><a href="#fargenes-betydning">Fargenes betydning</a></li>
+    <li><a href="#tilleggstavler">Tilleggstavler</a></li>
+    <li><a href="#veimerking-og-oppmerking">Veimerking og oppmerking</a>
+      <ul>
+        <li><a href="#senterlinje">Senterlinje</a></li>
+        <li><a href="#kantlinje">Kantlinje</a></li>
+        <li><a href="#spesielle-markeringer">Spesielle markeringer</a></li>
+      </ul>
+    </li>
+    <li><a href="#viktige-regler-for-trafikkskilt">Viktige regler for trafikkskilt</a>
+      <ul>
+        <li><a href="#nãr-gjelder-skiltene">NÃ¥r gjelder skiltene?</a></li>
+        <li><a href="#rangering-av-skilt">Rangering av skilt</a></li>
+        <li><a href="#skiltstãrrelse-og-plassering-og-kjãremãte">SkiltstÃ¸rrelse og <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#arbeidsomrãder">ArbeidsomrÃ¥der</a></li>
+        <li><a href="#tunneler">Tunneler</a></li>
+        <li><a href="#bomstasjoner">Bomstasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#tips-for-teoriprãven">Tips for teoriprÃ¸ven</a>
+      <ul>
+        <li><a href="#lãr-systematisk">LÃ¦r systematisk</a></li>
+        <li><a href="#ãv-pã-kombinasjoner">Ã˜v pÃ¥ kombinasjoner</a></li>
+        <li><a href="#husk-spesialtilfeller">Husk spesialtilfeller</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelse-til-eksamen">Forberedelse til eksamen</a></li>
+    <li><a href="#digitale-trafikkskilt-og-variabel-skilting">Digitale trafikkskilt og variabel skilting</a>
+      <ul>
+        <li><a href="#variable-hastighetsgrenser">Variable hastighetsgrenser</a></li>
+        <li><a href="#tunnelsystemer">Tunnelsystemer</a></li>
+        <li><a href="#trafikkledelse">Trafikkledelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#internasjonale-forskjeller">Internasjonale forskjeller</a>
+      <ul>
+        <li><a href="#europeiske-variasjoner">Europeiske variasjoner</a></li>
+        <li><a href="#amerikanske-skilt">Amerikanske skilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikehold-og-ansvar">Vedlikehold og ansvar</a>
+      <ul>
+        <li><a href="#ansvarsfordeling">Ansvarsfordeling</a></li>
+        <li><a href="#vedlikeholdskrav">Vedlikeholdskrav</a></li>
+        <li><a href="#rapportering-av-feil">Rapportering av feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-oppmerksomhet">Psykologi og oppmerksomhet</a>
+      <ul>
+        <li><a href="#oppmerksomhetstrekking">Oppmerksomhetstrekking</a></li>
+        <li><a href="#automatisering-og-vaner">Automatisering og vaner</a></li>
+        <li><a href="#overbelastning-av-informasjon">Overbelastning av informasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#avanserte-temaer">Avanserte temaer</a>
+      <ul>
+        <li><a href="#trafikkskilt-i-spesielle-vãrforhold">Trafikkskilt i spesielle vÃ¦rforhold</a></li>
+        <li><a href="#trafikkskilt-og-automatiserte-kjãretãy">Trafikkskilt og automatiserte kjÃ¸retÃ¸y</a></li>
+        <li><a href="#miljãaspekter-ved-trafikkskilt">MiljÃ¸aspekter ved trafikkskilt</a></li>
+        <li><a href="#ãkonomiske-aspekter">Ã˜konomiske aspekter</a></li>
+      </ul>
+    </li>
+    <li><a href="#fremtidens-trafikkskilt">Fremtidens trafikkskilt</a>
+      <ul>
+        <li><a href="#augmented-reality-ar">Augmented Reality (AR)</a></li>
+        <li><a href="#kunstig-intelligens">Kunstig intelligens</a></li>
+        <li><a href="#integrerte-systemer">Integrerte systemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+  </ul>
+</nav>
+</div>
+}}
+<div class="bg-gray-50 p-6 rounded-lg mb-8">
+    <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#innholdsfortegnelse">Innholdsfortegnelse</a></li>
+    <li><a href="#hva-er-trafikkskilt">Hva er trafikkskilt?</a></li>
+    <li><a href="#de-fire-hovedkategoriene-av-trafikkskilt">De fire hovedkategoriene av trafikkskilt</a>
+      <ul>
+        <li><a href="#1-forbudsskilt">1. Forbudsskilt</a></li>
+        <li><a href="#2-pãbudsskilt">2. PÃ¥budsskilt</a></li>
+        <li><a href="#3-advarselsskilt">3. Advarselsskilt</a></li>
+        <li><a href="#4-opplysningsskilt">4. Opplysningsskilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#skiltenes-former-og-betydning">Skiltenes former og betydning</a></li>
+    <li><a href="#fargenes-betydning">Fargenes betydning</a></li>
+    <li><a href="#tilleggstavler">Tilleggstavler</a></li>
+    <li><a href="#veimerking-og-oppmerking">Veimerking og oppmerking</a>
+      <ul>
+        <li><a href="#senterlinje">Senterlinje</a></li>
+        <li><a href="#kantlinje">Kantlinje</a></li>
+        <li><a href="#spesielle-markeringer">Spesielle markeringer</a></li>
+      </ul>
+    </li>
+    <li><a href="#viktige-regler-for-trafikkskilt">Viktige regler for trafikkskilt</a>
+      <ul>
+        <li><a href="#nãr-gjelder-skiltene">NÃ¥r gjelder skiltene?</a></li>
+        <li><a href="#rangering-av-skilt">Rangering av skilt</a></li>
+        <li><a href="#skiltstãrrelse-og-plassering-og-kjãremãte">SkiltstÃ¸rrelse og <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#spesielle-situasjoner">Spesielle situasjoner</a>
+      <ul>
+        <li><a href="#arbeidsomrãder">ArbeidsomrÃ¥der</a></li>
+        <li><a href="#tunneler">Tunneler</a></li>
+        <li><a href="#bomstasjoner">Bomstasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#tips-for-teoriprãven">Tips for teoriprÃ¸ven</a>
+      <ul>
+        <li><a href="#lãr-systematisk">LÃ¦r systematisk</a></li>
+        <li><a href="#ãv-pã-kombinasjoner">Ã˜v pÃ¥ kombinasjoner</a></li>
+        <li><a href="#husk-spesialtilfeller">Husk spesialtilfeller</a></li>
+      </ul>
+    </li>
+    <li><a href="#forberedelse-til-eksamen">Forberedelse til eksamen</a></li>
+    <li><a href="#digitale-trafikkskilt-og-variabel-skilting">Digitale trafikkskilt og variabel skilting</a>
+      <ul>
+        <li><a href="#variable-hastighetsgrenser">Variable hastighetsgrenser</a></li>
+        <li><a href="#tunnelsystemer">Tunnelsystemer</a></li>
+        <li><a href="#trafikkledelse">Trafikkledelse</a></li>
+      </ul>
+    </li>
+    <li><a href="#internasjonale-forskjeller">Internasjonale forskjeller</a>
+      <ul>
+        <li><a href="#europeiske-variasjoner">Europeiske variasjoner</a></li>
+        <li><a href="#amerikanske-skilt">Amerikanske skilt</a></li>
+      </ul>
+    </li>
+    <li><a href="#vedlikehold-og-ansvar">Vedlikehold og ansvar</a>
+      <ul>
+        <li><a href="#ansvarsfordeling">Ansvarsfordeling</a></li>
+        <li><a href="#vedlikeholdskrav">Vedlikeholdskrav</a></li>
+        <li><a href="#rapportering-av-feil">Rapportering av feil</a></li>
+      </ul>
+    </li>
+    <li><a href="#psykologi-og-oppmerksomhet">Psykologi og oppmerksomhet</a>
+      <ul>
+        <li><a href="#oppmerksomhetstrekking">Oppmerksomhetstrekking</a></li>
+        <li><a href="#automatisering-og-vaner">Automatisering og vaner</a></li>
+        <li><a href="#overbelastning-av-informasjon">Overbelastning av informasjon</a></li>
+      </ul>
+    </li>
+    <li><a href="#avanserte-temaer">Avanserte temaer</a>
+      <ul>
+        <li><a href="#trafikkskilt-i-spesielle-vãrforhold">Trafikkskilt i spesielle vÃ¦rforhold</a></li>
+        <li><a href="#trafikkskilt-og-automatiserte-kjãretãy">Trafikkskilt og automatiserte kjÃ¸retÃ¸y</a></li>
+        <li><a href="#miljãaspekter-ved-trafikkskilt">MiljÃ¸aspekter ved trafikkskilt</a></li>
+        <li><a href="#ãkonomiske-aspekter">Ã˜konomiske aspekter</a></li>
+      </ul>
+    </li>
+    <li><a href="#fremtidens-trafikkskilt">Fremtidens trafikkskilt</a>
+      <ul>
+        <li><a href="#augmented-reality-ar">Augmented Reality (AR)</a></li>
+        <li><a href="#kunstig-intelligens">Kunstig intelligens</a></li>
+        <li><a href="#integrerte-systemer">Integrerte systemer</a></li>
+      </ul>
+    </li>
+    <li><a href="#konklusjon">Konklusjon</a></li>
+    <li><a href="#relaterte-artikler">Relaterte artikler</a></li>
+  </ul>
+</nav>
+</div>
+}}
+Skal du ta teoriprÃ¸ven for **fÃ¸rerkort klasse B**? Da er det viktig at du kan **trafikkskilt og veimerking** godt. Dette er et av de mest sentrale temaene i teoriprÃ¸ven, og du vil mÃ¸te mange spÃ¸rsmÃ¥l om skilting og merking pÃ¥ eksamen.
+<p><em>For en komplett oversikt over alle grunnleggende trafikksituasjoner, se <a href="/blogs/teori/introduksjon-til-teori-for-forerkort" title="Introduksjon til teori for fÃ¸rerkort - alt du trenger Ã¥ vite">Introduksjon til teori for fÃ¸rerkort</a>.</em>
+<em>For regler og teknikk for kjÃ¸ring pÃ¥ motorvei, se <a href="/blogs/teori/motorveikjoring" title="MotorveikjÃ¸ring - Guide til kjÃ¸ring pÃ¥ norsk motorvei">MotorveikjÃ¸ring</a>.</em></p>
+<p><em>For en innfÃ¸ring i trafikksystemets infrastruktur og veioppmerking, se <a href="/blogs/teori/trafikksystemet" title="Trafikksystemet - InnfÃ¸ring i det norske trafikksystemet">Trafikksystemet</a>.</em>
+<em>For en oversikt over alle trafikkskiltgrupper, se <a href="/blogs/teori/trafikksystemet-skilt" title="Trafikksystemet (skilt) - Skiltgrupper og kategorier">Trafikksystemet (skilt)</a>.</em>
+<em>For en full oversikt over alle skiltgrupper og skiltene i Norge, se <a href="/blogs/teori/skiltoversikt-alle-skiltgrupper-og-oversikt" title="Skiltoversikt: Alle skiltgrupper og oversikt over alle skiltene">Skiltoversikt: Alle skiltgrupper og oversikt over alle skiltene</a>.</em></p>
+<p><em>For informasjon om forskjellen mellom <strong>trafikksignaler</strong> og <strong>trafikkskilt</strong>, se <a href="/blogs/teori/signal-vs-tegn-i-trafikken" title="Signal vs tegn i trafikken - NÃ¥r brukes hva?">Signal vs tegn i trafikken</a>.</em>
+<em>For en detaljert guide til <strong>fartsgrenser</strong> og skilting av hastighet, se <a href="/blogs/teori/fartsgrenser" title="Fartsgrenser â€“ Generelle regler, skilter og soneskilt">Fartsgrenser</a>.</em></p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p>I denne artikkelen fÃ¥r du en omfattende og detaljert gjennomgang av alle de viktigste <strong>trafikkskiltene</strong> og <strong>veimarkeringene</strong> du trenger Ã¥ kunne for Ã¥ bestÃ¥ teoriprÃ¸ven. Vi dekker alt fra grunnleggende skilttyper til avanserte situasjoner og spesielle regelverk som du kan mÃ¸te bÃ¥de pÃ¥ eksamen og i praksis.</p>
+<h2 id="innholdsfortegnelse">Innholdsfortegnelse</h2>
+<ol>
+<li><a href="#hva-er-trafikkskilt">Hva er trafikkskilt?</a></li>
+<li><a href="#de-fire-hovedkategoriene-av-trafikkskilt">De fire hovedkategoriene av trafikkskilt</a></li>
+<li><a href="#skiltenes-former-og-betydning">Skiltenes former og betydning</a></li>
+<li><a href="#fargenes-betydning">Fargenes betydning</a></li>
+<li><a href="#tilleggstavler">Tilleggstavler</a></li>
+<li><a href="#veimerking-og-oppmerking">Veimerking og oppmerking</a></li>
+<li><a href="#viktige-regler-for-trafikkskilt">Viktige regler for trafikkskilt</a></li>
+<li><a href="#spesielle-situasjoner">Spesielle situasjoner</a></li>
+<li><a href="#digitale-trafikkskilt-og-variabel-skilting">Digitale trafikkskilt og variabel skilting</a></li>
+<li><a href="#internasjonale-forskjeller">Internasjonale forskjeller</a></li>
+<li><a href="#vedlikehold-og-ansvar">Vedlikehold og ansvar</a></li>
+<li><a href="#psykologi-og-oppmerksomhet">Psykologi og oppmerksomhet</a></li>
+<li><a href="#tips-for-teoripr%C3%83%C2%B8ven">Tips for teoriprÃ¸ven</a></li>
+<li><a href="#avanserte-temaer">Avanserte temaer</a></li>
+</ol>
+<h2 id="hva-er-trafikkskilt">Hva er trafikkskilt?</h2>
+<p><strong>Trafikkskilt</strong> er visuelle instruksjoner som gir informasjon til <a href="/blogs/teori/trafikantene" title="Trafikantene â€“ Oversikt over trafikanttyper og fri vei">trafikantene</a> om regler, forbud, pÃ¥bud og viktig informasjon pÃ¥ veien. Alle trafikkskilt i Norge fÃ¸lger internasjonale standarder og har spesifikke <strong>former, farger og symboler</strong> som gjÃ¸r dem lett gjenkjennelige.</p>
+<h2 id="de-fire-hovedkategoriene-av-trafikkskilt">De fire hovedkategoriene av trafikkskilt</h2>
+<p>Trafikkskilt er delt inn i fire hovedkategorier basert pÃ¥ deres funksjon:</p>
+<h3 id="1-forbudsskilt">1. Forbudsskilt</h3>
+<p><strong>Forbudsskilt</strong> viser hva som er forbudt pÃ¥ et bestemt sted eller strekning. De er vanligvis <strong>runde med hvit bakgrunn</strong> og har en <strong>rÃ¸d ring</strong> rundt kanten.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Viktige forbudsskilt Ã¥ kunne:</strong></p>
+<ul>
+<li><strong>InnkjÃ¸ring forbudt</strong> - rundt skilt med hvit bakgrunn og rÃ¸d ring</li>
+<li><strong>Parkering forbudt</strong> - P-symbol med rÃ¸d diagonal strek</li>
+<li><strong>Stopp forbudt</strong> - H-symbol med rÃ¸d diagonal strek</li>
+<li><strong>ForbikjÃ¸ring forbudt</strong> - to biler der den ene kjÃ¸rer forbi, med rÃ¸d diagonal strek (se <a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte">ForbikjÃ¸ring og feltskifte</a>).</li>
+<li><strong>HÃ¸yeste tillatte hastighet</strong> - tall i rÃ¸d ring (f.eks. 50, 80). Les mer om <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Komplett guide til hastighet og bremseavstand">fart og avstand</a> for Ã¥ forstÃ¥ hastighetsregler og sikkerhet.</li>
+</ul>
+<p>*For en grundig gjennomgang av regler for <strong>stans</strong>, se <a href="/blogs/teori/trafikkregler-om-stans" title="Trafikkregler om stans â€“ regler, unntak og skilter">Trafikkregler om stans</a>.</p>
+<h3 id="2-pãbudsskilt">2. PÃ¥budsskilt</h3>
+<p><strong>PÃ¥budsskilt</strong> viser hva du <strong>mÃ¥ gjÃ¸re</strong> eller hvilken retning du mÃ¥ kjÃ¸re. De er vanligvis <strong>runde med blÃ¥ bakgrunn</strong> og hvite symboler.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Viktige pÃ¥budsskilt:</strong></p>
+<ul>
+<li><strong>PÃ¥budt kjÃ¸reretning</strong> - hvit pil pÃ¥ blÃ¥ bakgrunn</li>
+<li><strong>PÃ¥budt rundkjÃ¸ring</strong> - hvite piler som viser rundkjÃ¸ring</li>
+<li><strong>PÃ¥budt gangvei</strong> - hvit fotgjenger pÃ¥ blÃ¥ bakgrunn</li>
+<li><strong>PÃ¥budt sykkelvei</strong> - hvit sykkel pÃ¥ blÃ¥ bakgrunn</li>
+<li><strong>PÃ¥budt gÃ¥ende og syklende</strong> - kombinert symbol</li>
+</ul>
+<h3 id="3-advarselsskilt">3. Advarselsskilt</h3>
+<p><strong>Advarselsskilt</strong> advarer mot farer eller spesielle forhold pÃ¥ veien. De er <strong>trekantede med gul bakgrunn</strong> og <strong>rÃ¸d kant</strong>.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Viktige advarselsskilt:</strong></p>
+<ul>
+<li><strong>Farlig sving</strong> - buet pil som viser svingretning</li>
+<li><strong>Barn</strong> - symbol av barn som lÃ¸per (se ogsÃ¥ <a href="/blogs/teori/barn-i-bilen" title="Barn i bilen - Guide til sikkerhet og regler for barn i bil">Barn i bilen</a>)</li>
+<li><strong>Fotgjengerkrysning</strong> - fotgjenger som krysser veien</li>
+<li><strong>Lyskryss</strong> - trafikklys-symbol</li>
+<li><strong>Jernbanekrysning</strong> - togsymbol</li>
+</ul>
+<h3 id="4-opplysningsskilt">4. Opplysningsskilt</h3>
+<p><strong>Opplysningsskilt</strong> gir nyttig informasjon til <a href="/blogs/teori/trafikantene" title="Trafikantene â€“ Oversikt over trafikanttyper og fri vei">trafikantene</a>. De har ulike former og farger avhengig av type informasjon.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<p><strong>Viktige opplysningsskilt:</strong></p>
+<ul>
+<li><strong>Riksvei/europavei</strong> - hvitt tall pÃ¥ grÃ¸nn bakgrunn</li>
+<li><strong>Fylkesvei</strong> - svart tall pÃ¥ hvit bakgrunn</li>
+<li><strong>Vikeplikt</strong> - hvit trekant med rÃ¸d kant (les mer om <a href="/blogs/teori/vikeplikt-og-rundkjoringer" title="Vikeplikt og rundkjÃ¸ringer - Komplett guide til hÃ¸yreregelen og rundkjÃ¸ringer">Vikeplikt og rundkjÃ¸ringer</a> og <a href="/blogs/teori/vikepliktsregler-i-detalj" title="Vikepliktsregler i detalj - Detaljert guide til vikeplikt i trafikken">Vikepliktsregler i detalj</a>)</li>
+<li><strong>Stopp</strong> - rÃ¸d Ã¥ttekant med hvit &ldquo;STOPP&rdquo;-tekst</li>
+<li><strong>EnvegskjÃ¸ring</strong> - blÃ¥ rektangel med hvit pil</li>
+</ul>
+<h2 id="skiltenes-former-og-betydning">Skiltenes former og betydning</h2>
+<p>Formen pÃ¥ et trafikkskilt forteller deg mye om hva slags type skilt det er:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Form</th>
+          <th>Betydning</th>
+          <th>Eksempel</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Rundt</strong></td>
+          <td>Forbud eller pÃ¥bud</td>
+          <td>Forbudsskilt (rÃ¸d kant), pÃ¥budsskilt (blÃ¥)</td>
+      </tr>
+      <tr>
+          <td><strong>Trekant</strong></td>
+          <td>Advarsel eller vikeplikt</td>
+          <td>Advarselsskilt (gul), vikepliktsskilt (hvit)</td>
+      </tr>
+      <tr>
+          <td><strong>Rektangel/kvadrat</strong></td>
+          <td>Informasjon</td>
+          <td>Opplysningsskilt, veinavnskilt</td>
+      </tr>
+      <tr>
+          <td><strong>Ã…ttekant</strong></td>
+          <td>Stopp</td>
+          <td>Alltid stoppskilt</td>
+      </tr>
+      <tr>
+          <td><strong>Rombe</strong></td>
+          <td>ForkjÃ¸rsvei</td>
+          <td>Gul rombe med hvit kant</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="fargenes-betydning">Fargenes betydning</h2>
+<p><strong>Fargene</strong> pÃ¥ trafikkskilt har ogsÃ¥ spesifikke betydninger:</p>
+<ul>
+<li><strong>RÃ¸d</strong>: Forbud, stopp, fare</li>
+<li><strong>BlÃ¥</strong>: PÃ¥bud, informasjon</li>
+<li><strong>Gul</strong>: Advarsel, midlertidig skilting</li>
+<li><strong>GrÃ¸nn</strong>: Retningsangivelse, riksvei/europavei</li>
+<li><strong>Hvit</strong>: Bakgrunnsfarge, tekst og symboler</li>
+<li><strong>Oransje</strong>: ArbeidsomrÃ¥der, midlertidig trafikk</li>
+</ul>
+<h2 id="tilleggstavler">Tilleggstavler</h2>
+<p><strong>Tilleggstavler</strong> er smÃ¥ tavler som henger under hovedskilt og gir <em>tilleggsinformasjon</em> om skiltets gyldighet. Vanlige tilleggstavler gir informasjon om:</p>
+<ul>
+<li>Gyldighetsperiode (ukedager, klokkeslett)</li>
+<li>Strekning (meter eller kilometer)</li>
+<li>KjÃ¸retÃ¸ygruppe (motorsykler, lastebiler)</li>
+<li>Unntak (gjelder ikke helg, gjelder kun arbeidsdager)</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Eksempel</th>
+          <th>Betydning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>08â€“16</em></td>
+          <td>Gjelder kl.Â 08â€“16</td>
+      </tr>
+      <tr>
+          <td>Gjelder 200Â m</td>
+          <td>Gjelder de neste 200 meter</td>
+      </tr>
+      <tr>
+          <td>Motorsykler</td>
+          <td>Gjelder kun for motorsykler</td>
+      </tr>
+      <tr>
+          <td>Gjelder ikke helg</td>
+          <td>Gjelder kun pÃ¥ hverdager</td>
+      </tr>
+  </tbody>
+</table>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h2 id="veimerking-og-oppmerking">Veimerking og oppmerking</h2>
+<p><em>For en mer detaljert gjennomgang av <strong>veioppmerking</strong>, se <a href="/blogs/teori/veioppmerking" title="Veioppmerking - kjÃ¸refeltlinje, varsellinje og mer">Veioppmerking</a>.</em></p>
+<p><strong>Veimerking</strong> er like viktig som trafikkskilt. Dette er merkingen du ser direkte pÃ¥ veibanen som hjelper deg med Ã¥ navigere trygt.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="senterlinje">Senterlinje</h3>
+<p><strong>Senterlinjen</strong> deler veien i to og viser hvor du skal kjÃ¸re:</p>
+<ul>
+<li><strong>Hel hvit linje</strong>: ForbikjÃ¸ring forbudt</li>
+<li><strong>Stiplet hvit linje</strong>: ForbikjÃ¸ring tillatt nÃ¥r det er trygt</li>
+<li><strong>Dobbel linje</strong>: ForbikjÃ¸ring strengt forbudt</li>
+</ul>
+<h3 id="kantlinje">Kantlinje</h3>
+<p><strong>Kantlinjen</strong> markerer kantene av kjÃ¸rebanen:</p>
+<ul>
+<li><strong>Hvit kantlinje</strong>: HÃ¸yre kant av veien</li>
+<li><strong>Gul kantlinje</strong>: Midlertidig eller spesiell situasjon</li>
+</ul>
+<h3 id="spesielle-markeringer">Spesielle markeringer</h3>
+<ul>
+<li><strong>Fotgjengerfelt</strong>: Hvite striper pÃ¥ tvers av veien</li>
+<li><strong>Sykkelfelt</strong>: Ofte markert med sykkelsymbol og blÃ¥ farge</li>
+<li><strong>Bussfelt</strong>: Markert med &ldquo;BUSS&rdquo; og ofte egen farge</li>
+<li><strong>Parkeringsmerking</strong>: Hvite linjer som viser parkeringsplasser</li>
+<li><strong>Rygging og parkering</strong>: Se vÃ¥r guide til <a href="/blogs/teori/rygging-og-parkering" title="Rygging og parkering - Teknikk og regelverk">Rygging og parkering</a></li>
+</ul>
+<h2 id="viktige-regler-for-trafikkskilt">Viktige regler for trafikkskilt</h2>
+<h3 id="nãr-gjelder-skiltene">NÃ¥r gjelder skiltene?</h3>
+<ul>
+<li><strong>Trafikkskilt gjelder fra skiltet</strong> og til neste kryss eller til det blir opphevet</li>
+<li><strong>Lokale skilt</strong> gjelder kun for det omrÃ¥det de er satt opp</li>
+<li><strong>Midlertidige skilt</strong> (ofte gule) gÃ¥r foran permanente skilt</li>
+</ul>
+<h3 id="rangering-av-skilt">Rangering av skilt</h3>
+<p>Hvis det er <strong>konflikt mellom skilt</strong>, gjelder rangeringen fastsatt i <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Juridisk hierarki for trafikkstyring">Lover og forskrifter</a>:</p>
+<ol>
+<li><strong>Politiets tegn</strong> (hÃ¸yest prioritet)</li>
+<li><strong>Midlertidige skilt</strong> (gult)</li>
+<li><strong>Trafikklys</strong></li>
+<li><strong>Permanente trafikkskilt</strong></li>
+<li><strong>Veimerking</strong> (lavest prioritet)</li>
+</ol>
+<h3 id="skiltstãrrelse-og-plassering-og-kjãremãte">SkiltstÃ¸rrelse og <a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te">Plassering og kjÃ¸remÃ¥te</a></h3>
+<ul>
+<li><strong>StÃ¸rre skilt</strong> har samme betydning som mindre skilt</li>
+<li><strong>Skilt pÃ¥ hÃ¸yre side</strong> gjelder for alle som skal den retningen</li>
+<li><strong>Portaler og skilt over veien</strong> gjelder for alle kjÃ¸refelt under</li>
+</ul>
+<h2 id="spesielle-situasjoner">Spesielle situasjoner</h2>
+<h3 id="arbeidsomrãder">ArbeidsomrÃ¥der</h3>
+<p>I <strong>arbeidsomrÃ¥der</strong> mÃ¸ter du ofte midlertidige skilt og annen merking:</p>
+<ul>
+<li><strong>Gule skilt</strong> gÃ¥r foran hvite/permanente skilt</li>
+<li><strong>Redusert hastighet</strong> er vanlig</li>
+<li><strong>Smalere kjÃ¸refelt</strong> eller <strong>omkjÃ¸ring</strong></li>
+<li><strong>FÃ¸lg omleiingseskilt</strong> nÃ¸ye</li>
+</ul>
+<h3 id="tunneler">Tunneler</h3>
+<p>I <strong>tunneler</strong> gjelder spesielle regler:</p>
+<ul>
+<li><strong>Forbud mot forbikjÃ¸ring</strong> er vanlig (se <a href="/blogs/teori/forbikjoring-og-feltskifte" title="ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte">ForbikjÃ¸ring og feltskifte</a>).</li>
+<li><strong>Minimum avstand</strong> til forankjÃ¸rende</li>
+<li><strong>Spesielle nÃ¸dutganger</strong> merket med grÃ¸nne skilt</li>
+</ul>
+<h3 id="bomstasjoner">Bomstasjoner</h3>
+<p>Ved <strong>bomstasjoner</strong> mÃ¥ du forholde deg til:</p>
+<ul>
+<li><strong>Hastighetsbegrensning</strong> (ofte 20 km/t)</li>
+<li><strong>KjÃ¸refeltinndeling</strong> med piler</li>
+<li><strong>HÃ¸ydebegrensning</strong> for hÃ¸ye kjÃ¸retÃ¸y</li>
+</ul>
+<h2 id="tips-for-teoriprãven">Tips for teoriprÃ¸ven</h2>
+<p>For Ã¥ mestre <strong>trafikkskilt og veimerking</strong> pÃ¥ teoriprÃ¸ven:</p>
+<h3 id="lãr-systematisk">LÃ¦r systematisk</h3>
+<ul>
+<li><strong>GÃ¥ gjennom hver kategori</strong> av skilt grundig</li>
+<li><strong>Ã˜v pÃ¥ Ã¥ gjenkjenne</strong> skilt raskt ut fra form og farge</li>
+<li><strong>ForstÃ¥ logikken</strong> bak skiltenes utforming</li>
+</ul>
+<h3 id="ãv-pã-kombinasjoner">Ã˜v pÃ¥ kombinasjoner</h3>
+<ul>
+<li><strong>Kombinerte skilt</strong> som viser flere forbud eller pÃ¥bud</li>
+<li><strong>Tilleggstavler</strong> under hovedskilt som presiserer nÃ¥r de gjelder</li>
+<li><strong>Trafikkbilder</strong> med flere skilt samtidig</li>
+</ul>
+<h3 id="husk-spesialtilfeller">Husk spesialtilfeller</h3>
+<ul>
+<li><strong>Midlertidige skilt</strong> og deres prioritet</li>
+<li><strong>Lokale variasjoner</strong> og spesialskilt</li>
+<li><strong>Sammenheng mellom skilt og veimerking</strong></li>
+</ul>
+<h2 id="forberedelse-til-eksamen">Forberedelse til eksamen</h2>
+<p>NÃ¥r du skal forberede deg til eksamen om trafikkskilt:</p>
+<ol>
+<li><strong>Lag deg et system</strong> for Ã¥ huske de forskjellige kategoriene</li>
+<li><strong>Ã˜v pÃ¥ Ã¥ tegne</strong> de viktigste skiltene fra hukommelsen</li>
+<li><strong>Test deg selv</strong> regelmessig med flashcards eller apper</li>
+<li><strong>KjÃ¸r mye</strong> og observer skilt i virkelige trafikksituasjoner</li>
+</ol>
+<p>For Ã¥ fÃ¥ best mulig forstÃ¥else av trafikkregler generelt, bÃ¸r du ogsÃ¥ lese om <a href="/blogs/teori/introduksjon-til-teori-for-forerkort" title="Introduksjon til teori for fÃ¸rerkort - alt du trenger Ã¥ vite">introduksjon til teori for fÃ¸rerkort</a> og <a href="/blogs/teori/vikeplikt-og-rundkjoringer" title="Komplett guide til vikeplikt og rundkjÃ¸ringer">vikeplikt og rundkjÃ¸ringer</a>.</p>
+<h2 id="digitale-trafikkskilt-og-variabel-skilting">Digitale trafikkskilt og variabel skilting</h2>
+<p>Moderne teknologi har introdusert <strong>digitale trafikkskilt</strong> og <strong>variabel skilting</strong> som kan endre innhold basert pÃ¥ trafikk, vÃ¦rforhold eller andre faktorer.</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="variable-hastighetsgrenser">Variable hastighetsgrenser</h3>
+<p><strong>Variable hastighetsgrenser</strong> brukes stadig mer pÃ¥ norske veier:</p>
+<ul>
+<li><strong>Elektroniske skilt</strong> som endrer hastighetsgrense basert pÃ¥ trafikk og vÃ¦rforhold</li>
+<li><strong>Lavere hastighet</strong> ved dÃ¥rlig vÃ¦r eller kÃ¸</li>
+<li><strong>HÃ¸yere hastighet</strong> ved optimale forhold</li>
+<li><strong>Samme juridiske kraft</strong> som tradisjonelle skilt</li>
+</ul>
+<h3 id="tunnelsystemer">Tunnelsystemer</h3>
+<p>I <strong>tunneler</strong> brukes ofte avanserte digitale systemer:</p>
+<ul>
+<li><strong>RÃ¸de/grÃ¸nne lys</strong> over kjÃ¸refeltene</li>
+<li><strong>Elektroniske meldinger</strong> om tunnelstatus</li>
+<li><strong>Variabel hastighetsregulering</strong> for sikkerhet</li>
+<li><strong>Automatisk stengning</strong> ved hendelser</li>
+</ul>
+<h3 id="trafikkledelse">Trafikkledelse</h3>
+<p><strong>Intelligente transportsystemer (ITS)</strong> bruker digital skilting for:</p>
+<ul>
+<li><strong>Realtids trafikkregulering</strong></li>
+<li><strong>OmkjÃ¸ringsanbefalinger</strong></li>
+<li><strong>VÃ¦rvarslinger</strong></li>
+<li><strong>KÃ¸varslinger</strong></li>
+</ul>
+<h2 id="internasjonale-forskjeller">Internasjonale forskjeller</h2>
+<p>Selv om Norge fÃ¸lger <strong>internasjonale standarder</strong>, finnes det viktige forskjeller nÃ¥r du kjÃ¸rer i utlandet:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="europeiske-variasjoner">Europeiske variasjoner</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Land</th>
+          <th>Viktige forskjeller</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Sverige</strong></td>
+          <td>BlÃ¥ motorvei-skilt i stedet for grÃ¸nne</td>
+      </tr>
+      <tr>
+          <td><strong>Danmark</strong></td>
+          <td>&ldquo;Vigepligt&rdquo; i stedet for &ldquo;Vikeplikt&rdquo;</td>
+      </tr>
+      <tr>
+          <td><strong>Tyskland</strong></td>
+          <td>Ubegrenset hastighet pÃ¥ deler av Autobahn</td>
+      </tr>
+      <tr>
+          <td><strong>Frankrike</strong></td>
+          <td>Tollavgifter og spesielle bompenger</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="amerikanske-skilt">Amerikanske skilt</h3>
+<p>I <strong>USA</strong> er skiltene fundamentalt annerledes:</p>
+<ul>
+<li><strong>Oktagonale stoppskilt</strong> med engelsk tekst</li>
+<li><strong>Gule advarselsskilt</strong> i stedet for hvite</li>
+<li><strong>Milebaserte avstander</strong> i stedet for kilometer</li>
+<li><strong>HÃ¸yrekjÃ¸ring</strong> som i Norge, men andre prioritetsregler</li>
+</ul>
+<h2 id="vedlikehold-og-ansvar">Vedlikehold og ansvar</h2>
+<p><strong>Hvem har ansvar</strong> for trafikkskilt og nÃ¥r de skal vedlikeholdes er viktig Ã¥ forstÃ¥:</p>
+<h3 id="ansvarsfordeling">Ansvarsfordeling</h3>
+<ul>
+<li><strong>Statens vegvesen</strong>: Riksveier og europaveier</li>
+<li><strong>Fylkeskommunen</strong>: Fylkesveier</li>
+<li><strong>Kommunen</strong>: Kommunale veier</li>
+<li><strong>Private</strong>: Private veier og parkeringsplasser</li>
+</ul>
+<h3 id="vedlikeholdskrav">Vedlikeholdskrav</h3>
+<p><strong>Krav til vedlikehold</strong> inkluderer:</p>
+<ul>
+<li><strong>Synlighet</strong>: Skilt mÃ¥ vÃ¦re godt synlige</li>
+<li><strong>Lesbarhet</strong>: Tekst og symboler mÃ¥ vÃ¦re tydelige</li>
+<li><strong>Korrekt plassering</strong>: Riktig hÃ¸yde og avstand fra veien</li>
+<li><strong>Oppdatert informasjon</strong>: Feil informasjon mÃ¥ rettes raskt</li>
+</ul>
+<h3 id="rapportering-av-feil">Rapportering av feil</h3>
+<p>Hvis du oppdager <strong>feil ved skilt</strong>:</p>
+<ol>
+<li><strong>Kontakt veimyndigheter</strong> (Statens vegvesen eller kommune)</li>
+<li><strong>Oppgi nÃ¸yaktig posisjon</strong></li>
+<li><strong>Beskriv problemet</strong> tydelig</li>
+<li><strong>Ta bilde</strong> hvis mulig for dokumentasjon</li>
+</ol>
+<h2 id="psykologi-og-oppmerksomhet">Psykologi og oppmerksomhet</h2>
+<p><strong>Hvordan vi oppfatter</strong> og reagerer pÃ¥ trafikkskilt er avgjÃ¸rende for trafikksikkerhet:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="oppmerksomhetstrekking">Oppmerksomhetstrekking</h3>
+<p><strong>Trafikkskilt er designet</strong> for Ã¥ trekke oppmerksomhet:</p>
+<ul>
+<li><strong>RÃ¸dt</strong> signaliserer umiddelbar fare eller forbud</li>
+<li><strong>Gul</strong> gir varsel om Ã¥ vÃ¦re ekstra oppmerksom</li>
+<li><strong>BlÃ¥</strong> kommuniserer pÃ¥bud og informasjon</li>
+<li><strong>Store skilt</strong> prioriteres av hjernen over smÃ¥ skilt</li>
+</ul>
+<h3 id="automatisering-og-vaner">Automatisering og vaner</h3>
+<p>Med <strong>kjÃ¸reerfaring</strong> utvikler vi:</p>
+<ul>
+<li><strong>Automatiske responser</strong> pÃ¥ velkjente skilt</li>
+<li><strong>Selektiv oppmerksomhet</strong> - vi &ldquo;filtrer&rdquo; ut det vi ikke trenger</li>
+<li><strong>Forventningsbasert kjÃ¸ring</strong> - vi forventer visse skilt pÃ¥ kjente strekninger</li>
+<li><strong>Risiko for oversiktet</strong> - vi kan overse endringer eller nye skilt</li>
+</ul>
+<h3 id="overbelastning-av-informasjon">Overbelastning av informasjon</h3>
+<p><strong>For mange skilt</strong> pÃ¥ samme sted kan:</p>
+<ul>
+<li><strong>Redusere effektiviteten</strong> til hvert enkelt skilt</li>
+<li><strong>Skape forvirring</strong> hos <a href="/blogs/teori/trafikantene" title="Trafikantene â€“ Oversikt over trafikanttyper og fri vei">trafikantene</a></li>
+<li><strong>FÃ¸re til at viktig informasjon</strong> overses</li>
+<li><strong>Kreve mer kognitiv kapasitet</strong> Ã¥ prosessere</li>
+</ul>
+<h2 id="avanserte-temaer">Avanserte temaer</h2>
+<h3 id="trafikkskilt-i-spesielle-vãrforhold">Trafikkskilt i spesielle vÃ¦rforhold</h3>
+<p><strong>VÃ¦rforholdene</strong> pÃ¥virker bÃ¥de skiltenes synlighet og deres relevans:</p>
+<h4 id="vinter-og-snã">Vinter og snÃ¸</h4>
+<ul>
+<li><strong>Dekket av snÃ¸</strong>: Skilt kan bli helt eller delvis skjult</li>
+<li><strong>Redusert sikt</strong>: Kortere reaksjonsavstand til skilt</li>
+<li><strong>Glatte veier</strong>: Strengere tolkning av hastighetsgrenser</li>
+<li><strong>TÃ¥ke og rim</strong>: Skilt blir vanskeligere Ã¥ se</li>
+</ul>
+<h4 id="regn-og-dãrlig-sikt">Regn og dÃ¥rlig sikt</h4>
+<ul>
+<li><strong>Blendende lys</strong>: Skilt kan vÃ¦re vanskelige Ã¥ se i motlys</li>
+<li><strong>Vannsprut</strong>: Midlertidig blokkert sikt til skilt</li>
+<li><strong>Aquaplaning-risiko</strong>: Hastighetsgrenser blir mer kritiske</li>
+</ul>
+<h4 id="mãrke-og-kunstig-belysning">MÃ¸rke og kunstig belysning</h4>
+<ul>
+<li><strong>Reflekterende materialer</strong>: Skilt lyser opp i billys</li>
+<li><strong>Belysning av skilt</strong>: Noen skilt har egen belysning</li>
+<li><strong>Kontrastproblemer</strong>: DÃ¥rligere skille mellom tekst og bakgrunn</li>
+</ul>
+<h3 id="trafikkskilt-og-automatiserte-kjãretãy">Trafikkskilt og automatiserte kjÃ¸retÃ¸y</h3>
+<p>Med <strong>selvkjÃ¸rende biler</strong> endres skiltenes rolle:</p>
+<h4 id="digital-kommunikasjon">Digital kommunikasjon</h4>
+<ul>
+<li><strong>Bil-til-infrastruktur kommunikasjon</strong>: Skilt &ldquo;snakker&rdquo; direkte til bilen</li>
+<li><strong>GPS-basert informasjon</strong>: Biler kan fÃ¥ skiltinformasjon digitalt</li>
+<li><strong>Sanntidsoppdateringer</strong>: Endringer i skiltregime kommuniseres Ã¸yeblikkelig</li>
+</ul>
+<h4 id="overgangsperiode">Overgangsperiode</h4>
+<ul>
+<li><strong>Menneskelige og automatiserte system mÃ¥ fungere samtidig</strong></li>
+<li><strong>Tradisjonelle skilt vil eksistere lenge til</strong></li>
+<li><strong>Hybride lÃ¸sninger</strong> med bÃ¥de fysiske og digitale skilt</li>
+</ul>
+<h3 id="miljãaspekter-ved-trafikkskilt">MiljÃ¸aspekter ved trafikkskilt</h3>
+<p><strong>BÃ¦rekraft</strong> og miljÃ¸hensyn blir stadig viktigere:</p>
+<h4 id="materialer-og-produksjon">Materialer og produksjon</h4>
+<ul>
+<li><strong>Resirkulerte materialer</strong> i skiltproduksjon</li>
+<li><strong>Lengre levetid</strong> reduserer behovet for utskifting</li>
+<li><strong>MiljÃ¸vennlige farger og coating</strong></li>
+<li><strong>Lokal produksjon</strong> reduserer transport</li>
+</ul>
+<h4 id="energiforbruk">Energiforbruk</h4>
+<ul>
+<li><strong>LED-belysning</strong> i belysede skilt bruker mindre strÃ¸m</li>
+<li><strong>Solcelledrevne skilt</strong> for avsidesliggende omrÃ¥der</li>
+<li><strong>Energieffektive digitale skilt</strong></li>
+</ul>
+<h3 id="ãkonomiske-aspekter">Ã˜konomiske aspekter</h3>
+<p><strong>Kostnadene</strong> ved trafikkskilt er betydelige:</p>
+<h4 id="investering-og-drift">Investering og drift</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Aktivitet</th>
+          <th>Typisk kostnad</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Nytt standardskilt</strong></td>
+          <td>2,000-5,000 kr</td>
+      </tr>
+      <tr>
+          <td><strong>Digitalt skilt</strong></td>
+          <td>50,000-200,000 kr</td>
+      </tr>
+      <tr>
+          <td><strong>Ã…rlig vedlikehold per skilt</strong></td>
+          <td>200-500 kr</td>
+      </tr>
+      <tr>
+          <td><strong>Utskifting etter skade</strong></td>
+          <td>3,000-8,000 kr</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="samfunnsãkonomiske-gevinster">SamfunnsÃ¸konomiske gevinster</h4>
+<ul>
+<li><strong>Reduserte ulykker</strong> gir store besparelser</li>
+<li><strong>Bedre trafikkflyt</strong> reduserer drivstofforbruk</li>
+<li><strong>FÃ¦rre reparasjoner</strong> av kjÃ¸retÃ¸y</li>
+<li><strong>Mindre behov for politipatruljering</strong></li>
+</ul>
+<h2 id="fremtidens-trafikkskilt">Fremtidens trafikkskilt</h2>
+<p><strong>Teknologiske fremskritt</strong> vil endre hvordan vi bruker trafikkskilt:</p>
+<pre><code>    # Copy image to static folder
+    $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath &quot;$imgName.$ext&quot;
+    $destDir = &quot;static/images/blog/$blogFolder&quot;
+    if (-not (Test-Path $destDir)) {
+        New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+    }
+    if (Test-Path $sourceImage) {
+        Copy-Item -Path $sourceImage -Destination $destDir -Force
+    }
+    
+    # Return new markdown image tag
+    &quot;![$altText](/images/blog/$blogFolder/$imgName.$ext)&quot;
+</code></pre>
+<h3 id="augmented-reality-ar">Augmented Reality (AR)</h3>
+<ul>
+<li><strong>AR-briller eller vindusvisning</strong> kan projisere skilt direkte i synsfeltet</li>
+<li><strong>Tilpasset informasjon</strong> basert pÃ¥ sjÃ¥fÃ¸rens erfaring og behov</li>
+<li><strong>FlersprÃ¥klig visning</strong> for turister</li>
+<li><strong>Sanntidsoppdatering</strong> av all informasjon</li>
+</ul>
+<h3 id="kunstig-intelligens">Kunstig intelligens</h3>
+<ul>
+<li><strong>Adaptiv skilting</strong> som lÃ¦rer av trafikkÃ¸nstre</li>
+<li><strong>Personaliserte hastighetsbegrensninger</strong> basert pÃ¥ kjÃ¸retÃ¸y og forhold</li>
+<li><strong>Prediktiv varsling</strong> fÃ¸r fare oppstÃ¥r</li>
+<li><strong>Automatisk rapportering</strong> av skiltskader</li>
+</ul>
+<h3 id="integrerte-systemer">Integrerte systemer</h3>
+<ul>
+<li><strong>Helheltlig kommunikasjon</strong> mellom alle trafikkskilt i et omrÃ¥de</li>
+<li><strong>Koordinert trafikkledelse</strong> over store geografiske omrÃ¥der</li>
+<li><strong>MiljÃ¸basert tilpasning</strong> til vÃ¦rforhold i sanntid</li>
+</ul>
+<h2 id="konklusjon">Konklusjon</h2>
+<p><strong>Trafikkskilt og veimerking</strong> er grunnleggende kunnskap for alle bilfÃ¸rere, men som vi har sett, er det et komplekst og utviklende fagomrÃ¥de. Ved Ã¥ forstÃ¥ <strong>systemet bak skiltene</strong> - deres former, farger og kategorier - blir det mye lettere Ã¥ huske dem alle.</p>
+<p>Moderne teknologi og fremtidige innovasjoner vil endre hvordan vi interagerer med trafikkskilt, men grunnleggende prinsipper om <strong>sikkerhet, tydelig kommunikasjon og enhetlige standarder</strong> vil forbli viktige.</p>
+<p>For deg som skal ta teoriprÃ¸ven, er det viktig Ã¥:</p>
+<ul>
+<li><strong>Mestre de grunnleggende kategoriene</strong> og skjÃ¸nne logikken bak dem</li>
+<li><strong>ForstÃ¥ sammenhengen</strong> mellom skilt og veimerking</li>
+<li><strong>Kunne tolke komplekse situasjoner</strong> med flere skilt samtidig</li>
+<li><strong>VÃ¦re oppmerksom pÃ¥ spesielle regler</strong> for tunneler, bomstasjoner og arbeidsomrÃ¥der</li>
+</ul>
+<p>Husk at <strong>sikkerhet</strong> alltid kommer fÃ¸rst. Selv om du kanskje bestÃ¥r teoriprÃ¸ven, er det viktig at du fortsetter Ã¥ vÃ¦re oppmerksom pÃ¥ skilt og merking hele tiden du kjÃ¸rer. Dette handler ikke bare om Ã¥ fÃ¸lge reglene, men om Ã¥ <strong>beskytte deg selv og andre</strong> i trafikken.</p>
+<p>Med den raske teknologiske utviklingen bÃ¸r alle sjÃ¥fÃ¸rer vÃ¦re Ã¥pne for Ã¥ lÃ¦re om <strong>nye former for kommunikasjon</strong> mellom infrastruktur og kjÃ¸retÃ¸y. Fremtidens trafikk vil kreve bÃ¥de teknisk kompetanse og tradisjonell trafikkforstÃ¥else.</p>
+<p>Lykke til med teoriprÃ¸ven!</p>
+<h2 id="relaterte-artikler">Relaterte artikler</h2>
+<ul>
+<li><a href="/blogs/teori/introduksjon-til-teori-for-forerkort" title="Introduksjon til teori for fÃ¸rerkort - alt du trenger Ã¥ vite">Introduksjon til teori for fÃ¸rerkort</a></li>
+<li><a href="/blogs/teori/vikeplikt-og-rundkjoringer" title="Vikeplikt og rundkjÃ¸ringer - komplett guide til vikeplikt">Vikeplikt og rundkjÃ¸ringer</a></li>
+<li><a href="/blogs/teori/plassering-og-kjoremmate" title="Plassering og kjÃ¸remÃ¥te - trygge og regelrette kjÃ¸reposisjoner">Plassering og kjÃ¸remÃ¥te</a></li>
+<li><a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - komplett guide til hastighet og bremseavstand">Fart og avstand</a></li>
+<li><a href="/blogs/teori/rygging-og-parkering" title="Rygging og parkering - teknikk og regelverk">Rygging og parkering</a></li>
+<li><a href="/blogs/teori/kjoring-i-morket" title="KjÃ¸ring i mÃ¸rket - viktig om lys og sikt">KjÃ¸ring i mÃ¸rket</a>\n  </div>\n</div></li>
+</ul>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Trafikkskilt og veimerking" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/abs-antiblokkeringssystem/article/">ABS (Antiblokkeringssystem)</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er ABS? Kort historikk Hvordan fungerer ABS? Fordeler med ABS Begrensninger og …</p>
+                            <a href="/blog/abs-antiblokkeringssystem/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Trafikkskilt og veimerking" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/akselavstand-og-svingeradius/article/">Akselavstand og svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsDefinisjoner Formel for svingeradius Faktorer som pÃ¥virker svingeradius Eksempler …</p>
+                            <a href="/blog/akselavstand-og-svingeradius/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/images/blog/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Trafikkskilt og veimerking" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blog/aktiv-og-passiv-sikkerhet/article/">Aktiv og passiv sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Table of Contents Table of ContentsHva er aktiv sikkerhet? Eksempel: ESP (Elektronisk stabilitetsprogram) Hva er …</p>
+                            <a href="/blog/aktiv-og-passiv-sikkerhet/article/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grass" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#27ae60"/>
+      <circle cx="2" cy="3" r="1" fill="#2ecc71"/>
+      <circle cx="7" cy="6" r="1" fill="#2ecc71"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#ecf0f1"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Motorvei - Definisjon og kjennetegn
+  </text>
+  
+  <!-- Motorway illustration -->
+  <g transform="translate(50, 80)">
+    <!-- Ground -->
+    <rect x="0" y="120" width="700" height="200" fill="url(#grass)"/>
+    
+    <!-- Motorway surface -->
+    <rect x="0" y="180" width="700" height="80" fill="#2c3e50"/>
+    
+    <!-- Center divider (physical barrier) -->
+    <rect x="340" y="170" width="20" height="100" fill="#95a5a6"/>
+    <rect x="345" y="175" width="10" height="90" fill="#bdc3c7"/>
+    
+    <!-- Left side lanes -->
+    <rect x="0" y="180" width="170" height="40" fill="#34495e"/>
+    <rect x="170" y="180" width="170" height="40" fill="#34495e"/>
+    
+    <!-- Right side lanes -->
+    <rect x="360" y="180" width="170" height="40" fill="#34495e"/>
+    <rect x="530" y="180" width="170" height="40" fill="#34495e"/>
+    
+    <!-- Lane markings -->
+    <line x1="170" y1="185" x2="170" y2="215" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="530" y1="185" x2="530" y2="215" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Cars -->
+    <rect x="50" y="190" width="30" height="15" rx="2" fill="#e74c3c"/>
+    <rect x="200" y="190" width="30" height="15" rx="2" fill="#3498db"/>
+    <rect x="400" y="190" width="30" height="15" rx="2" fill="#f39c12"/>
+    <rect x="580" y="190" width="30" height="15" rx="2" fill="#9b59b6"/>
+    
+    <!-- On/off ramps -->
+    <path d="M 0 220 Q 50 250 100 220" stroke="#2c3e50" stroke-width="15" fill="none"/>
+    <path d="M 600 220 Q 650 250 700 220" stroke="#2c3e50" stroke-width="15" fill="none"/>
+    
+    <!-- Labels -->
+    <text x="85" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Påkjøringsrampe</text>
+    <text x="615" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Avkjøringsrampe</text>
+    <text x="350" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Fysisk midtdeler</text>
+  </g>
+  
+  <!-- Characteristics list -->
+  <g transform="translate(50, 320)">
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Motorveiens kjennetegn:</text>
+    
+    <circle cx="10" cy="45" r="4" fill="#e74c3c"/>
+    <text x="25" y="50" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Atskilte kjøreretninger med fysisk midtdeler</text>
+    
+    <circle cx="10" cy="70" r="4" fill="#e74c3c"/>
+    <text x="25" y="75" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Minst to kjørefelt i hver retning</text>
+    
+    <circle cx="10" cy="95" r="4" fill="#e74c3c"/>
+    <text x="25" y="100" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Ingen kryss på samme plan - ramper for av/påkjøring</text>
+    
+    <circle cx="10" cy="120" r="4" fill="#e74c3c"/>
+    <text x="25" y="125" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Kontrollert adgang - kun motorvogner tillatt</text>
+    
+    <circle cx="400" cy="45" r="4" fill="#e74c3c"/>
+    <text x="415" y="50" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Ingen fotgjengere, syklister eller mopeder</text>
+    
+    <circle cx="400" cy="70" r="4" fill="#e74c3c"/>
+    <text x="415" y="75" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Fartsgrense 110 km/t under normale forhold</text>
+    
+    <circle cx="400" cy="95" r="4" fill="#e74c3c"/>
+    <text x="415" y="100" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Skiltet med blått motorveiskilt</text>
+    
+    <circle cx="400" cy="120" r="4" fill="#e74c3c"/>
+    <text x="415" y="125" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Høy veistandard for sikker høyhastighetskjøring</text>
+  </g>
+</svg>

@@ -1,0 +1,141 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Road surface -->
+  <rect x="0" y="180" width="800" height="120" fill="#4a5568"/>
+  
+  <!-- Road markings - left side -->
+  <rect x="0" y="190" width="800" height="4" fill="#ffd700"/>
+  <rect x="0" y="296" width="800" height="4" fill="#ffd700"/>
+  
+  <!-- Center line - dashed for overtaking allowed -->
+  <g stroke="#ffd700" stroke-width="3" fill="#ffd700">
+    <rect x="50" y="237" width="30" height="3"/>
+    <rect x="110" y="237" width="30" height="3"/>
+    <rect x="170" y="237" width="30" height="3"/>
+    <rect x="230" y="237" width="30" height="3"/>
+    <rect x="290" y="237" width="30" height="3"/>
+    <rect x="350" y="237" width="30" height="3"/>
+    <rect x="410" y="237" width="30" height="3"/>
+    <rect x="470" y="237" width="30" height="3"/>
+    <rect x="530" y="237" width="30" height="3"/>
+    <rect x="590" y="237" width="30" height="3"/>
+    <rect x="650" y="237" width="30" height="3"/>
+    <rect x="710" y="237" width="30" height="3"/>
+  </g>
+  
+  <!-- Main car performing overtaking -->
+  <g id="overtaking-car">
+    <!-- Car body -->
+    <rect x="380" y="200" width="60" height="25" rx="5" fill="#e53e3e"/>
+    <!-- Windows -->
+    <rect x="385" y="205" width="50" height="15" rx="2" fill="#bee3f8"/>
+    <!-- Wheels -->
+    <circle cx="390" cy="235" r="6" fill="#2d3748"/>
+    <circle cx="430" cy="235" r="6" fill="#2d3748"/>
+    <!-- Turn signal -->
+    <polygon points="440,210 450,215 440,220" fill="#ffd700"/>
+  </g>
+  
+  <!-- Car being overtaken -->
+  <g id="slower-car">
+    <!-- Car body -->
+    <rect x="250" y="250" width="60" height="25" rx="5" fill="#4299e1"/>
+    <!-- Windows -->
+    <rect x="255" y="255" width="50" height="15" rx="2" fill="#bee3f8"/>
+    <!-- Wheels -->
+    <circle cx="260" cy="285" r="6" fill="#2d3748"/>
+    <circle cx="300" cy="285" r="6" fill="#2d3748"/>
+  </g>
+  
+  <!-- Oncoming car in distance -->
+  <g id="oncoming-car">
+    <!-- Car body -->
+    <rect x="650" y="200" width="50" height="20" rx="4" fill="#38a169"/>
+    <!-- Windows -->
+    <rect x="654" y="204" width="42" height="12" rx="2" fill="#bee3f8"/>
+    <!-- Wheels -->
+    <circle cx="660" cy="228" r="5" fill="#2d3748"/>
+    <circle cx="690" cy="228" r="5" fill="#2d3748"/>
+  </g>
+  
+  <!-- Motion lines for overtaking car -->
+  <g stroke="#e53e3e" stroke-width="2" opacity="0.6">
+    <path d="M 330 215 Q 350 205 380 210" fill="none" stroke-dasharray="3,3"/>
+    <path d="M 440 215 Q 460 225 480 235" fill="none" stroke-dasharray="3,3"/>
+  </g>
+  
+  <!-- Distance arrows and measurements -->
+  <g stroke="#2b6cb0" stroke-width="2" fill="#2b6cb0">
+    <!-- Safe distance arrow -->
+    <path d="M 450 180 L 640 180" stroke-dasharray="5,5"/>
+    <polygon points="640,175 650,180 640,185" fill="#2b6cb0"/>
+    <polygon points="460,175 450,180 460,185" fill="#2b6cb0"/>
+    <text x="545" y="175" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Sikker avstand til møtende</text>
+  </g>
+  
+  <!-- Speed indicators -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#2d3748">
+    <text x="385" y="195" text-anchor="middle" font-weight="bold">80 km/t</text>
+    <text x="280" y="245" text-anchor="middle" font-weight="bold">60 km/t</text>
+    <text x="675" y="195" text-anchor="middle" font-weight="bold">80 km/t</text>
+  </g>
+  
+  <!-- Lane change illustration in lower section -->
+  <g transform="translate(0, 150)">
+    <!-- Lane markings -->
+    <g stroke="#ffd700" stroke-width="3" fill="#ffd700">
+      <rect x="100" y="87" width="30" height="3"/>
+      <rect x="160" y="87" width="30" height="3"/>
+      <rect x="220" y="87" width="30" height="3"/>
+      <rect x="280" y="87" width="30" height="3"/>
+      <rect x="340" y="87" width="30" height="3"/>
+      <rect x="400" y="87" width="30" height="3"/>
+      <rect x="460" y="87" width="30" height="3"/>
+    </g>
+    
+    <!-- Car changing lanes -->
+    <g id="lane-change-car">
+      <!-- Car body -->
+      <rect x="150" y="100" width="55" height="22" rx="4" fill="#805ad5"/>
+      <!-- Windows -->
+      <rect x="154" y="104" width="47" height="14" rx="2" fill="#bee3f8"/>
+      <!-- Wheels -->
+      <circle cx="160" cy="130" r="5" fill="#2d3748"/>
+      <circle cx="195" cy="130" r="5" fill="#2d3748"/>
+      <!-- Turn signal -->
+      <polygon points="205,108 215,113 205,118" fill="#ffd700"/>
+    </g>
+    
+    <!-- Mirror check illustration -->
+    <g stroke="#805ad5" stroke-width="2" fill="none" opacity="0.7">
+      <path d="M 140 100 Q 120 80 100 70"/>
+      <path d="M 140 105 Q 115 95 90 95"/>
+      <path d="M 140 110 Q 120 120 100 130"/>
+    </g>
+    
+    <!-- Labels -->
+    <text x="80" y="65" font-family="Arial, sans-serif" font-size="11" fill="#805ad5">Speilsjekk</text>
+    <text x="220" y="108" font-family="Arial, sans-serif" font-size="11" fill="#ffd700">Signal</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2d3748">
+    Forbikjøring og feltskifte
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4a5568">
+    Sikker teknikk for forbikjøring og feltskifte
+  </text>
+  
+  <!-- Key points -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#2d3748">
+    <text x="50" y="350" font-weight="bold">Viktige prinsipper:</text>
+    <text x="50" y="370">• Sikker avstand til møtende trafikk</text>
+    <text x="250" y="370">• Speil-Signal-Skuldersjekk</text>
+    <text x="450" y="370">• Tilstrekkelig hastighetsforskjell</text>
+    <text x="650" y="370">• Besluttsom gjennomføring</text>
+  </g>
+</svg>
