@@ -18,3 +18,7 @@
 <!-- Additional Meta Tags -->
 <meta name="description" content="Gratis teoriprøver for bil. Øv til teorien med samme prøver som statens vegvesen. Her lærer du alt du trenger å kunne for å bestå teoriprøven for klasse B og hvordan du skal forberede deg til å ta lappen.">
 <title>Teori for bil | Klasse B | Free theory and tests - eteo</title>
+
+<!-- Custom CSS for tables -->
+{{ $tablesCSS := resources.Get "css/tables.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $tablesCSS.RelPermalink }}" integrity="{{ $tablesCSS.Data.Integrity }}">

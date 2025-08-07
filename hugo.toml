@@ -4,6 +4,11 @@ languageCode = "en-us"
 title = "Eteo"
 theme = "hugo-saasify-theme"
 
+# Pagination Configuration
+[pagination]
+  pagerSize = 12  # Number of posts per page
+  path = "page"  # URL format like /blog/page/2/
+
 # Required Features
 pygmentsCodeFences = true  # Enable syntax highlighting
 pygmentsUseClasses = true

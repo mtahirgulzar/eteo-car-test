@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Eteo</title>
-    <link>//localhost:1313/categories/</link>
+    <link>//localhost:60804/categories/</link>
     <description>Recent content in Categories on Eteo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:60804/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Driving Theory</title>
-      <link>//localhost:1313/categories/driving-theory/</link>
+      <link>//localhost:60804/categories/driving-theory/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/driving-theory/</guid>
+      <guid>//localhost:60804/categories/driving-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Content</title>
-      <link>//localhost:1313/categories/content/</link>
+      <link>//localhost:60804/categories/content/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/content/</guid>
+      <guid>//localhost:60804/categories/content/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>//localhost:1313/categories/performance/</link>
+      <link>//localhost:60804/categories/performance/</link>
       <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/performance/</guid>
+      <guid>//localhost:60804/categories/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>//localhost:1313/categories/deployment/</link>
+      <link>//localhost:60804/categories/deployment/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/deployment/</guid>
+      <guid>//localhost:60804/categories/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>//localhost:1313/categories/development/</link>
+      <link>//localhost:60804/categories/development/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/development/</guid>
+      <guid>//localhost:60804/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>//localhost:1313/categories/tutorials/</link>
+      <link>//localhost:60804/categories/tutorials/</link>
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/tutorials/</guid>
+      <guid>//localhost:60804/categories/tutorials/</guid>
       <description></description>
     </item>
   </channel>
