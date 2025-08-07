@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
-  <rect width="100%" height="100%" fill="white"/>
-  <text x="10" y="20" font-family="Arial, sans-serif" font-size="14">
-    <tspan x="10" dy="0">Stoppeplikt</tspan>
-    <tspan x="10" dy="1.2em">Hjelpeplikt</tspan>
-    <tspan x="10" dy="1.2em">Meldeplikt</tspan>
-    <tspan x="10" dy="1.2em">Dokumentasjonsplikt</tspan>
-  </text>
-</svg>
