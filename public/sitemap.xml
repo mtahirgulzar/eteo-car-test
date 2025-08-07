@@ -2,382 +2,385 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/abs-antiblokkeringssystem/article/</loc>
+    <loc>//localhost:1313/blogs/teori/abs-antiblokkeringssystem/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/akselavstand-og-svingeradius/article/</loc>
+    <loc>//localhost:1313/blogs/teori/akselavstand-og-svingeradius/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/aktiv-og-passiv-sikkerhet/article/</loc>
+    <loc>//localhost:1313/blogs/teori/aktiv-og-passiv-sikkerhet/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/alkohol-promillegrense-og-narkotika/article/</loc>
+    <loc>//localhost:1313/blogs/teori/alkohol-promillegrense-og-narkotika/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/ansvar-ved-tauing-av-bil/article/</loc>
+    <loc>//localhost:1313/blogs/teori/ansvar-ved-tauing-av-bil/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/barn-i-bilen/article/</loc>
+    <loc>//localhost:1313/blogs/teori/barn-i-bilen/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/bil-og-tilhenger-vognkort-koblingslast/article/</loc>
+    <loc>//localhost:1313/blogs/teori/bil-og-tilhenger-vognkort-koblingslast/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/bilens-tekniske-deler/article/</loc>
+    <loc>//localhost:1313/blogs/teori/bilens-tekniske-deler/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/bilens-tekniske-deler-forskriftsmessig-stand/article/</loc>
+    <loc>//localhost:1313/blogs/teori/bilens-tekniske-deler-forskriftsmessig-stand/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/bremsefeil/article/</loc>
+    <loc>//localhost:1313/blogs/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/bremsesystemet/article/</loc>
+    <loc>//localhost:1313/blogs/teori/bremsefeil/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/bruk-av-lys-og-signaler/article/</loc>
+    <loc>//localhost:1313/blogs/teori/bremsesystemet/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/bykjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/bruk-av-lys-og-signaler/</loc>
+    <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blogs/teori/bykjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/de-5-se-reglene/article/</loc>
+    <loc>//localhost:1313/blogs/teori/de-5-se-reglene/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/defensiv-kjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/defensiv-kjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/dekk-og-vedlikehold/article/</loc>
+    <loc>//localhost:1313/blogs/teori/dekk-og-vedlikehold/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/distraksjoner-mobil/article/</loc>
+    <loc>//localhost:1313/blogs/teori/distraksjoner-mobil/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/driving/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/blogs/teori/</loc>
+    <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/categories/driving-theory/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>//localhost:1313/blogs/teori/eu-kontroll/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/eu-kontroll/article/</loc>
+    <loc>//localhost:1313/blogs/teori/fart-og-avstand/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/fart-og-avstand/article/</loc>
+    <loc>//localhost:1313/blogs/teori/fartsgrenser/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/fartsgrenser/article/</loc>
+    <loc>//localhost:1313/blogs/teori/forberedelser-for-en-lang-kjoretur/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/forberedelser-for-en-lang-kjoretur/article/</loc>
+    <loc>//localhost:1313/blogs/teori/forbikjoring-og-feltskifte/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/forbikjoring-og-feltskifte/article/</loc>
+    <loc>//localhost:1313/blogs/teori/fordeling-av-bremsekraft-og-skjevtrekk/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/fordeling-av-bremsekraft-og-skjevtrekk/article/</loc>
+    <loc>//localhost:1313/blogs/teori/forerkort-vognkort-og-forsikring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/forerkort-vognkort-og-forsikring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/forerkortklasser-oversikt/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/forerkortklasser-oversikt/article/</loc>
+    <loc>//localhost:1313/blogs/teori/forsikring-trafikkforsikring-vognskadeforsikring-og-regress/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/forsikring-trafikkforsikring-vognskadeforsikring-og-regress/article/</loc>
+    <loc>//localhost:1313/blogs/teori/forskriftsmessig-og-forsvarlig-stand/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/forskriftsmessig-og-forsvarlig-stand/article/</loc>
+    <loc>//localhost:1313/blogs/teori/forstehjelp-og-opptreden-ved-ulykker/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/forstehjelp-og-opptreden-ved-ulykker/article/</loc>
+    <loc>//localhost:1313/blogs/teori/fotbrems-og-parkeringsbrems/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/fotbrems-og-parkeringsbrems/article/</loc>
+    <loc>//localhost:1313/blogs/teori/grunnregelen-for-trafikk/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/grunnregelen-for-trafikk/article/</loc>
+    <loc>//localhost:1313/blogs/teori/handtering-av-nodsituasjoner/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/handtering-av-nodsituasjoner/article/</loc>
+    <loc>//localhost:1313/blogs/teori/hvem-har-ansvar-under-ovelseskjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/hvem-har-ansvar-under-ovelseskjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/hvor-er-det-forbudt-a-parkere/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/hvor-er-det-forbudt-a-parkere/article/</loc>
+    <loc>//localhost:1313/blogs/teori/introduksjon-til-teori-for-forerkort/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/introduksjon-til-teori-for-forerkort/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kjoretoyets-sikkerhetsutstyr/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kjoretoyets-sikkerhetsutstyr/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kjoring-hoyre-i-veikryss/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kjoring-hoyre-i-veikryss/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kjoring-i-byen-stans-og-parkering/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kjoring-i-byen-stans-og-parkering/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kjoring-i-morket/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kjoring-i-morket/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kjoring-med-tilhenger/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kjoring-med-tilhenger/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kjoring-og-miljo/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kjoring-og-miljo/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kjoring-under-vanskelige-forhold/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kjoring-under-vanskelige-forhold/article/</loc>
+    <loc>//localhost:1313/blogs/teori/kommunikasjon-med-andre-trafikanter/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/kommunikasjon-med-andre-trafikanter/article/</loc>
+    <loc>//localhost:1313/blogs/teori/krav-til-tilhenger-klasse-b/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/krav-til-tilhenger-klasse-b/article/</loc>
+    <loc>//localhost:1313/blogs/teori/landeveiskjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/landeveiskjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/lover-og-forskrifter/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/lover-og-forskrifter/article/</loc>
+    <loc>//localhost:1313/blogs/teori/lys-og-lystyper/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/lys-og-lystyper/article/</loc>
+    <loc>//localhost:1313/blogs/teori/malere-og-varsellamper/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/malere-og-varsellamper/article/</loc>
+    <loc>//localhost:1313/blogs/teori/manuell-vs-automatgir/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/manuell-vs-automatgir/article/</loc>
+    <loc>//localhost:1313/blogs/teori/mennesket-i-trafikken/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/mennesket-i-trafikken/article/</loc>
+    <loc>//localhost:1313/blogs/teori/miljovennlig-kjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/miljovennlig-kjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/moteulykker-og-forebygging/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/moteulykker-og-forebygging/article/</loc>
+    <loc>//localhost:1313/blogs/teori/motor-og-motorindikatorer/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/motor-og-motorindikatorer/article/</loc>
+    <loc>//localhost:1313/blogs/teori/motorvei-vs-motortrafikkvei/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/motorvei-vs-motortrafikkvei/article/</loc>
+    <loc>//localhost:1313/blogs/teori/motorveikjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/motorveikjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/motorvogn-definisjon/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/motorvogn-definisjon/article/</loc>
+    <loc>//localhost:1313/blogs/teori/myndighetspyramiden/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/myndighetspyramiden/article/</loc>
+    <loc>//localhost:1313/blogs/teori/okonomi-og-bilhold/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/okonomi-og-bilhold/article/</loc>
+    <loc>//localhost:1313/blogs/teori/oppkjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/oppkjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/oppmerksomhet-og-samhandling/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/oppmerksomhet-og-samhandling/article/</loc>
+    <loc>//localhost:1313/blogs/teori/ovelseskjoring/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/ovelseskjoring/article/</loc>
+    <loc>//localhost:1313/blogs/teori/paabudt-sikkerhetsutstyr/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/paabudt-sikkerhetsutstyr/article/</loc>
+    <loc>//localhost:1313/blogs/teori/parkering-for-viderekomne/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/parkering-for-viderekomne/article/</loc>
+    <loc>//localhost:1313/blogs/teori/parkering-pa-moteplass/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/parkering-pa-moteplass/article/</loc>
+    <loc>//localhost:1313/blogs/teori/parkering-pa-uoversiktlig-kurve/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/parkering-pa-uoversiktlig-kurve/article/</loc>
+    <loc>//localhost:1313/blogs/teori/parkeringsskilt-underskilt-tidsbestemmelser/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/parkeringsskilt-underskilt-tidsbestemmelser/article/</loc>
+    <loc>//localhost:1313/blogs/teori/plassering-i-veibanen/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/plassering-i-veibanen/article/</loc>
+    <loc>//localhost:1313/blogs/teori/plassering-og-kjoremmate/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/plassering-og-kjoremmate/article/</loc>
+    <loc>//localhost:1313/blogs/teori/plikter-ved-trafikkuhell/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/plikter-ved-trafikkuhell/article/</loc>
+    <loc>//localhost:1313/blogs/teori/pliktmessig-avhold/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/pliktmessig-avhold/article/</loc>
+    <loc>//localhost:1313/blogs/teori/prikkbelastningssystem/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/prikkbelastningssystem/article/</loc>
+    <loc>//localhost:1313/blogs/teori/psykologiske-feller-i-trafikken/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/psykologiske-feller-i-trafikken/article/</loc>
+    <loc>//localhost:1313/blogs/teori/reaksjonstid-og-bremselengde/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/reaksjonstid-og-bremselengde/article/</loc>
+    <loc>//localhost:1313/blogs/teori/reaksjonstid-oppmerksomhetstid-totaltid/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/reaksjonstid-oppmerksomhetstid-totaltid/article/</loc>
+    <loc>//localhost:1313/blogs/teori/regler-for-dekk-og-kjetting/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/regler-for-dekk-og-kjetting/article/</loc>
+    <loc>//localhost:1313/blogs/teori/risikovurdering-i-praksis/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/risikovurdering-i-praksis/article/</loc>
+    <loc>//localhost:1313/blogs/teori/rygging-barn/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/rygging-barn/article/</loc>
-    <lastmod>2025-08-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/blog/rygging-og-parkering/article/</loc>
+    <loc>//localhost:1313/blogs/teori/rygging-og-parkering/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/safety/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/samhandling-i-trafikken/article/</loc>
+    <loc>//localhost:1313/blogs/teori/samhandling-i-trafikken/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/sanksjoner-bot-inndraging-pant-prikker/article/</loc>
+    <loc>//localhost:1313/blogs/teori/sanksjoner-bot-inndraging-pant-prikker/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/signal-vs-tegn-i-trafikken/article/</loc>
+    <loc>//localhost:1313/blogs/teori/signal-vs-tegn-i-trafikken/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/sikkerhetssjekk-teknisk-bil/article/</loc>
+    <loc>//localhost:1313/blogs/teori/sikkerhetssjekk-teknisk-bil/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/sikring-av-gods-klasse-b/article/</loc>
+    <loc>//localhost:1313/blogs/teori/sikring-av-gods-klasse-b/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/sikring-av-last-og-passasjerer/article/</loc>
+    <loc>//localhost:1313/blogs/teori/sikring-av-last-og-passasjerer/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/skikkethet-til-a-kjore/article/</loc>
+    <loc>//localhost:1313/blogs/teori/skikkethet-til-a-kjore/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/skilting-og-valg-av-felt/article/</loc>
+    <loc>//localhost:1313/blogs/teori/skilting-og-valg-av-felt/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/skiltoversikt-alle-skiltgrupper-og-oversikt/article/</loc>
+    <loc>//localhost:1313/blogs/teori/skiltoversikt-alle-skiltgrupper-og-oversikt/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/sperrefrist-provetid-prikker/article/</loc>
+    <loc>//localhost:1313/blogs/teori/sperrefrist-provetid-prikker/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/sporvogn-i-trafikken/article/</loc>
+    <loc>//localhost:1313/blogs/teori/sporvogn-i-trafikken/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/statistikk-og-ulykker/article/</loc>
+    <loc>//localhost:1313/blogs/teori/statistikk-og-ulykker/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/store-kjoretoy-gi-plass/article/</loc>
+    <loc>//localhost:1313/blogs/teori/store-kjoretoy-gi-plass/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/styresystem/article/</loc>
+    <loc>//localhost:1313/blogs/teori/styresystem/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/teoriproven/article/</loc>
+    <loc>//localhost:1313/blogs/teori/teoriproven/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/theory/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikalt-grunnkurs/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikalt-grunnkurs/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikantene/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikantene/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikantgrupper-og-hensyn/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikantgrupper-og-hensyn/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikkontroll-og-trafikkflyt/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikkontroll-og-trafikkflyt/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikkregler-for-spesielle-kjoretoy/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikkregler-for-spesielle-kjoretoy/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikkregler-om-parkering/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikkregler-om-parkering/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikkregler-om-stans/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikkregler-om-stans/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikksituasjon-og-kjoreprosessen/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikksituasjon-og-kjoreprosessen/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikkskilt-og-veimerking/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikkskilt-og-veimerking/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikksystemet/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikksystemet/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikksystemet-lys/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikksystemet-lys/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikksystemet-motorsykler-mopeder/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikksystemet-motorsykler-mopeder/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/trafikksystemet-skilt/article/</loc>
+    <loc>//localhost:1313/blogs/teori/trafikksystemet-skilt/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/transport-av-sykkel/article/</loc>
+    <loc>//localhost:1313/blogs/teori/transport-av-sykkel/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/tung-last-konsekvenser/article/</loc>
+    <loc>//localhost:1313/blogs/teori/tung-last-konsekvenser/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/valg-av-bil/article/</loc>
+    <loc>//localhost:1313/blogs/teori/valg-av-bil/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/valg-av-forste-bil/article/</loc>
+    <loc>//localhost:1313/blogs/teori/valg-av-forste-bil/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/vedlikehold-av-bilen/article/</loc>
+    <loc>//localhost:1313/blogs/teori/vedlikehold-av-bilen/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/veiens-deler/article/</loc>
+    <loc>//localhost:1313/blogs/teori/veiens-deler/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/veigrep/article/</loc>
+    <loc>//localhost:1313/blogs/teori/veigrep/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/veioppmerking/article/</loc>
+    <loc>//localhost:1313/blogs/teori/veioppmerking/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/vending-og-vendingsforbud/article/</loc>
+    <loc>//localhost:1313/blogs/teori/vending-og-vendingsforbud/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/vikeplikt-og-rundkjoringer/article/</loc>
+    <loc>//localhost:1313/blogs/teori/vikeplikt-og-rundkjoringer/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/vikepliktsregler-i-detalj/article/</loc>
+    <loc>//localhost:1313/blogs/teori/vikepliktsregler-i-detalj/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/vindusviskere-vindusspylere/article/</loc>
+    <loc>//localhost:1313/blogs/teori/vindusviskere-vindusspylere/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/vognkort-oversikt-alle-felter/article/</loc>
+    <loc>//localhost:1313/blogs/teori/vognkort-oversikt-alle-felter/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/jobs/</loc>

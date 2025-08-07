@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kjoring Med Tilhenger | Eteo</title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    
+    <style>
+         
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(2deg); }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+         
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    
+    
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    
+    <meta name="description" content="Guide to Kjoring Med Tilhenger for Norwegian driving theory exam.">
+    
+    <link rel="canonical" href="//localhost:1313/blogs/teori/kjoring-med-tilhenger/">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/blogs/teori/kjoring-med-tilhenger/">
+    <meta property="og:title" content="Kjoring Med Tilhenger | Eteo">
+    <meta property="og:description" content="Guide to Kjoring Med Tilhenger for Norwegian driving theory exam.">
+    <meta property="og:image" content="//localhost:1313/blogs/teori/kjoring-med-tilhenger/kjoring-med-tilhenger-image.svg">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kjoring Med Tilhenger | Eteo">
+    <meta name="twitter:description" content="Guide to Kjoring Med Tilhenger for Norwegian driving theory exam.">
+    <meta name="twitter:image" content="//localhost:1313/blogs/teori/kjoring-med-tilhenger/kjoring-med-tilhenger-image.svg">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    
+
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <a href="//localhost:1313/" class="flex items-center space-x-2">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8">
+                    
+                    
+                </a>
+            </div>
+
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/blogs/teori/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Blog</a>
+                <a href="/pricing/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Priser</a>
+                <a href="/pages/android-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Android App</a>
+                <a href="/pages/iphone-app/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">iPhone App</a>
+                <a href="/contact/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Kontakt oss</a>
+                <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                    PRØV GRATIS
+                </button>
+            </div>
+
+            
+            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                <i class="bi bi-list text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-4 space-y-3">
+            <a href="/blogs/teori/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
+            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
+            <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
+                PRØV GRATIS
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function toggleMobileMenu() {
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+
+    
+    <main class="overflow-x-hidden">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-12 text-center">
+        <div class="mb-6">
+            
+                <a href="/categories/driving-theory" 
+                   class="inline-block px-4 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full hover:bg-primary-100">
+                    Driving Theory
+                </a>
+            
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Kjoring Med Tilhenger</h1>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
+            <div class="flex items-center">
+                
+            </div>
+            <span class="hidden sm:block">•</span>
+            <time datetime="2025-08-06" class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                August 6, 2025
+            </time>
+            <span class="hidden sm:block">•</span>
+            <div class="flex items-center">
+                <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                10 min read
+            </div>
+        </div>
+
+        
+            <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
+                <img 
+                    src="/blogs/teori/kjoring-med-tilhenger/kjoring-med-tilhenger-image.svg" 
+                    alt="Kjoring Med Tilhenger" 
+                    class="w-full h-auto max-h-[500px] object-cover"
+                    loading="eager"
+                >
+            </div>
+        
+    </header>
+
+    <div class="prose prose-lg max-w-none prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-700 prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-3 prose-blockquote:rounded-r-lg prose-img:rounded-xl prose-img:shadow-md">
+        <style>
+/* Base text styling */
+.article-content {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  font-size: 16px;
+}
+/* Headers */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0 1.5rem;
+  color: #111827;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  color: #1f2937;
+}
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  color: #374151;
+}
+/* Paragraphs */
+p {
+  margin: 1rem 0;
+  line-height: 1.7;
+}
+/* Lists */
+ul, ol {
+  margin: 1rem 0 1rem 1.5rem;
+  padding-left: 1rem;
+}
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
+}
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+/* Code blocks */
+pre, code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  background-color: #f3f4f6;
+  border-radius: 0.375rem;
+  font-size: 0.875em;
+}
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+code {
+  padding: 0.2em 0.4em;
+}
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #e5e7eb;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem 0.75rem 1.5rem;
+  background-color: #f9fafb;
+  color: #4b5563;
+  font-style: italic;
+}
+/* Tables */
+table {
+  margin: 1.5rem auto !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+  max-width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+  border: 1px solid #e5e7eb !important;
+  display: table !important;
+}
+th, td {
+  padding: 0.75rem 1.25rem !important;
+  text-align: left !important;
+  border: 1px solid #e5e7eb !important;
+  vertical-align: top;
+}
+th {
+  background-color: #f9fafb !important;
+  font-weight: 600 !important;
+  color: #111827 !important;
+  text-transform: uppercase !important;
+  font-size: 0.75rem !important;
+  letter-spacing: 0.05em !important;
+}
+tr:nth-child(even) {
+  background-color: #f9fafb !important;
+}
+tr:hover {
+  background-color: #f3f4f6 !important;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .article-content {
+    font-size: 15px;
+  }
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.375rem; }
+  h3 { font-size: 1.125rem; }
+  table {
+    display: block !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+</style>
+<p><strong>Kjøring med tilhenger</strong> krever grundig forståelse av <strong>vektbegrensninger</strong>, <strong>lastsikring</strong>, <strong>kjøreteknikk</strong> og relevante <strong>trafikkregler</strong>. I denne omfattende guiden får du en komplett oversikt over alt du trenger for trygg og lovlig hengerkjøring i Norge.
+For en oversikt over regler for spesielle kjøretøy, se <a href="/blogs/teori/trafikkregler-for-spesielle-kjoretoy" title="Trafikkregler for spesielle kjøretøy - Regler for tilhenger og andre spesielle kjøretøy">Trafikkregler for spesielle kjøretøy</a>.
+<em>Ved langkjøring med tilhenger er god forberedelse ekstra viktig - se <a href="/blogs/teori/forberedelser-for-en-lang-kjoretur" title="Forberedelser før en lang kjøretur - Komplett guide til trygg langkjøring">Forberedelser før en lang kjøretur</a> for omfattende forberedelser.</em>
+<em>For informasjon om <strong>sikring av last og passasjerer</strong>, se <a href="/blogs/teori/sikring-av-last-og-passasjerer" title="Sikring av last og passasjerer - Guide til sikker last- og passasjersikring">Sikring av last og passasjerer</a>.</em>
+<em>For informasjon om <strong>vognkort</strong> og <strong>koblingslast</strong>, se <a href="/blogs/teori/bil-og-tilhenger-vognkort-koblingslast" title="Bil og tilhenger (klasse B), vognkort, koblingslast">Bil og tilhenger, vognkort og koblingslast</a>.</em>
+<em>Merk: Tauing av bil (f.eks. når bilen går tom for drift) er ikke dekket i denne artikkelen. Se <a href="/blogs/teori/ansvar-ved-tauing-av-bil" title="Ansvar ved tauing av bil - Ansvar ved tauing av bil">Ansvar ved tauing av bil</a> for regler og ansvar ved tauing av bil.</em></p>
+<h2 id="innholdsfortegnelse">Innholdsfortegnelse</h2>
+<ul>
+<li><a href="#grunnleggende-om-tilhengere">Grunnleggende om tilhengere</a></li>
+<li><a href="#forerkortskrav-og-kategorier">Førerkortskrav og kategorier</a></li>
+<li><a href="#planlegging-og-vektbegrensninger">Planlegging og vektbegrensninger</a></li>
+<li><a href="#kobling-og-teknisk-kontroll">Kobling og teknisk kontroll</a></li>
+<li><a href="#lastsikring-og-vektfordeling">Lastsikring og vektfordeling</a></li>
+<li><a href="#kjoreteknikk-med-tilhenger">Kjøreteknikk med tilhenger</a></li>
+<li><a href="#fart-og-avstandsregler">Fart og avstandsregler</a></li>
+<li><a href="#spesielle-kjoresituasjoner">Spesielle kjøresituasjoner</a></li>
+<li><a href="#vedlikehold-og-sikkerhetskontroller">Vedlikehold og sikkerhetskontroller</a></li>
+<li><a href="#vanlige-feil-og-hvordan-unnga-dem">Vanlige feil og hvordan unngå dem</a></li>
+<li><a href="#juridiske-konsekvenser">Juridiske konsekvenser</a></li>
+</ul>
+<h2 id="grunnleggende-om-tilhengere">Grunnleggende om tilhengere</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/tilhengertyper-oversikt.svg" alt="Tilhengertyper oversikt">
+<strong>Tilhengere</strong> kommer i mange varianter, fra små bagasjehengere til store bobiler og båthengere. Hver type har spesifikke krav til <strong>kobling</strong>, <strong>lastsikring</strong> og <strong>kjøreteknikk</strong>.</p>
+<h3 id="typer-tilhengere">Typer tilhengere</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Tilhengertype</th>
+          <th style="text-align: right">Typisk vekt (kg)</th>
+          <th>Hovedbruk</th>
+          <th>Spesielle hensyn</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Bagasjehenger</td>
+          <td style="text-align: right">200-500</td>
+          <td>Transport av gods</td>
+          <td>Lavt tyngdepunkt, enkel håndtering</td>
+      </tr>
+      <tr>
+          <td>Båthenger</td>
+          <td style="text-align: right">500-2000</td>
+          <td>Båttransport</td>
+          <td>Høyt tyngdepunkt, vindpåvirkning</td>
+      </tr>
+      <tr>
+          <td>Campinghenger</td>
+          <td style="text-align: right">800-2500</td>
+          <td>Camping/ferie</td>
+          <td>Stor vindflate, levende last</td>
+      </tr>
+      <tr>
+          <td>Hestehenger</td>
+          <td style="text-align: right">1000-3500</td>
+          <td>Dyretransport</td>
+          <td>Levende last, spesialkrav</td>
+      </tr>
+      <tr>
+          <td>Maskinhenger</td>
+          <td style="text-align: right">1500-3500</td>
+          <td>Maskin/utstyr</td>
+          <td>Høy vekt, konsentrert last</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="lovkrav-for-tilhengere">Lovkrav for tilhengere</h3>
+<p>Alle tilhengere over <strong>750 kg</strong> totalvekt må være:</p>
+<ul>
+<li><strong>Registrert</strong> i Motorvognregisteret</li>
+<li>Utstyrt med egne <strong>bremser</strong></li>
+<li>Ha gyldig <strong>EU-kontroll</strong> (tilsvarende periodisk kjøretøykontroll)</li>
+<li><strong>Forsikret</strong> med ansvarsforsikring</li>
+</ul>
+<h2 id="førerkortskrav-og-kategorier">Førerkortskrav og kategorier</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/forerkortskrav-tilhenger.svg" alt="Førerkortskrav tilhenger">
+Hvilken type <strong>førerkort</strong> du trenger avhenger av bil og tilhengerens totalvekt.</p>
+<h3 id="klasse-b-vanlig-førerkort">Klasse B (vanlig førerkort)</h3>
+<p>Med ordinært <strong>klasse B-førerkort</strong> kan du kjøre:</p>
+<ul>
+<li>Bil med totalvekt inntil <strong>3500 kg</strong></li>
+<li>Tilhenger med totalvekt inntil <strong>750 kg</strong></li>
+<li>Tyngre tilhenger hvis <strong>vogntogvekten</strong> ikke overstiger 3500 kg</li>
+<li>For detaljert informasjon om <strong>krav til tilhenger</strong> under klasse B, se <a href="/blogs/teori/krav-til-tilhenger-klasse-b" title="Krav til tilhenger (klasse B) - Detaljert guide">Krav til tilhenger (klasse B)</a>.</li>
+</ul>
+<h3 id="b96-utvidelse">B96-utvidelse</h3>
+<p><strong>B96-utvidelsen</strong> gir rett til å kjøre vogntog med totalvekt mellom 3500-4250 kg. Kravene er:</p>
+<ul>
+<li>Minimum 21 år (18 år for yrkessjåfører)</li>
+<li>Gjennomført 7 timers <strong>opplæringskurs</strong></li>
+<li>Ingen teoretisk eller praktisk prøve kreves</li>
+</ul>
+<h3 id="be-førerkort">BE-førerkort</h3>
+<p><strong>BE-førerkortet</strong> gir full rett til å kjøre med tilhenger og krever:</p>
+<ul>
+<li>Praktisk <strong>oppkjøring</strong> med tilhenger</li>
+<li>Teoretisk kunnskap om <strong>vekt</strong> og <strong>sikkerhet</strong></li>
+<li>Totalvekt vogntog inntil <strong>7000 kg</strong> (avhengig av bilens kapasitet)
+Se også <a href="/blogs/teori/forerkort-vognkort-og-forsikring" title="Førerkort, vognkort og forsikring - Guide til BE-utvidelse">Førerkort, vognkort og forsikring</a> for detaljert informasjon om førerkortkategorier.</li>
+</ul>
+<h2 id="planlegging-og-vektbegrensninger">Planlegging og vektbegrensninger</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/vektberegning-tilhenger.svg" alt="Vektberegning tilhenger">
+<strong>Vektberegninger</strong> er kritiske for trygg og lovlig kjøring med tilhenger. Feil beregninger kan føre til farlige situasjoner og juridiske konsekvenser.</p>
+<h3 id="viktige-vektbegreper">Viktige vektbegreper</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Begrep</th>
+          <th>Definisjon</th>
+          <th>Hvorfor viktig</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Egenvekt</strong></td>
+          <td>Kjøretøyets vekt uten last</td>
+          <td>Grunnlag for lastberegning</td>
+      </tr>
+      <tr>
+          <td><strong>Totalvekt</strong></td>
+          <td>Maksimal tillatt vekt med last</td>
+          <td>Lovpålagt grense</td>
+      </tr>
+      <tr>
+          <td><strong>Nyttelast</strong></td>
+          <td>Forskjell mellom total- og egenvekt</td>
+          <td>Hvor mye du kan laste</td>
+      </tr>
+      <tr>
+          <td><strong>Akseltrykk</strong></td>
+          <td>Vekt per aksling</td>
+          <td>Påvirker veibelastning</td>
+      </tr>
+      <tr>
+          <td><strong>Kuletrykk</strong></td>
+          <td>Nedadrettet kraft på kulekrokningen</td>
+          <td>Påvirker stabilitet</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="beregning-av-vogntogvekt">Beregning av vogntogvekt</h3>
+<p><strong>Vogntogvekten</strong> beregnes som summen av:</p>
+<ol>
+<li>Bilens <strong>egenvekt</strong> + last i bilen</li>
+<li>Tilhengerens <strong>egenvekt</strong> + last i tilhengeren</li>
+<li>Minus <strong>kuletrykket</strong> (regnes kun én gang)</li>
+</ol>
+<h3 id="kuletrykk-og-stabilitet">Kuletrykk og stabilitet</h3>
+<p><strong>Kuletrykket</strong> bør utgjøre <strong>4-7%</strong> av tilhengerens totalvekt for optimal stabilitet:</p>
+<ul>
+<li><strong>For lite kuletrykk</strong> (under 4%): Tilhengeren kan begynne å <strong>slingle</strong></li>
+<li><strong>For mye kuletrykk</strong> (over 7%): Redusert <strong>stabilitet</strong> i bilens framende</li>
+<li><strong>Optimalt område</strong> (4-7%): Stabil kjøring under normale forhold</li>
+</ul>
+<h2 id="kobling-og-teknisk-kontroll">Kobling og teknisk kontroll</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/koblingsprosedyre.svg" alt="Koblingsprosedyre">
+Riktig <strong>kobling</strong> av tilhenger er avgjørende for sikkerheten. Følg alltid en systematisk prosedyre.</p>
+<h3 id="koblingsprosedyre-steg-for-steg">Koblingsprosedyre steg-for-steg</h3>
+<ol>
+<li><strong>Plasser tilhengeren</strong> på rett høyde mot kulekrokningen</li>
+<li><strong>Aktiver parkeringsbremsen</strong> på tilhengeren</li>
+<li><strong>Koble el-kontakten</strong> og sjekk lys og blinkers</li>
+<li><strong>Fest sikkerhetswiren</strong> til bilens feste (ikke kulekrokningen)</li>
+<li><strong>Test bremsene</strong> ved å kjøre sakte frem med tilhengerens bremser aktivert</li>
+<li><strong>Kontroller</strong> at alt utstyr fungerer før avkjøring</li>
+</ol>
+<h3 id="sjekkliste-før-avkjøring">Sjekkliste før avkjøring</h3>
+<ul>
+<li>✅ <strong>Kulekrokningen</strong> er riktig festet og låst</li>
+<li>✅ <strong>Sikkerhetswire</strong> er koblet til bilens eget feste</li>
+<li>✅ <strong>Elektrisk kontakt</strong> er tilkoblet og fungerer</li>
+<li>✅ <strong>Støttehjul</strong> er heist opp og sikret</li>
+<li>✅ <strong>Lys og signaler</strong> fungerer på tilhengeren</li>
+<li>✅ <strong>Bremser</strong> fungerer (test ved lav hastighet)</li>
+</ul>
+<h2 id="lastsikring-og-vektfordeling">Lastsikring og vektfordeling</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/lastsikring-tilhenger.svg" alt="Lastsikring tilhenger">
+<strong>Lastsikring</strong> på tilhenger krever spesiell oppmerksomhet på grunn av økt risiko for <strong>veltning</strong> og <strong>slingring</strong>.</p>
+<h3 id="prinsipper-for-lastsikring">Prinsipper for lastsikring</h3>
+<p><strong>Tyngste last</strong> plasseres:</p>
+<ul>
+<li><strong>Lavest mulig</strong> i tilhengeren for lavt tyngdepunkt</li>
+<li><strong>Fremst</strong> i tilhengeren for riktig kuletrykk</li>
+<li><strong>Sentralt</strong> mellom hjulene for optimal stabilitet</li>
+</ul>
+<h3 id="sikringsmetoder">Sikringsmetoder</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Metode</th>
+          <th>Bruksområde</th>
+          <th>Fordeler</th>
+          <th>Ulemper</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Spennstropper</strong></td>
+          <td>Lettere gjenstander</td>
+          <td>Enkle å bruke, fleksible</td>
+          <td>Kan strekke seg, krever ettertrekking</td>
+      </tr>
+      <tr>
+          <td><strong>Surrewire</strong></td>
+          <td>Tung/fast last</td>
+          <td>Sterk, stabil festning</td>
+          <td>Krever verktøy, vanskeligere å justere</td>
+      </tr>
+      <tr>
+          <td><strong>Lastnett</strong></td>
+          <td>Småting/løs last</td>
+          <td>Hindrer spredning</td>
+          <td>Begrenset styrkekraft</td>
+      </tr>
+      <tr>
+          <td><strong>Lastelås</strong></td>
+          <td>Rund last (rør, tømmer)</td>
+          <td>Forhindrer rulling</td>
+          <td>Kun for spesifikke lasttyper</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="vektfordeling-på-akslene">Vektfordeling på akslene</h3>
+<p>For <strong>optimal stabilitet</strong> bør vektfordelingen være:</p>
+<ul>
+<li><strong>60-70%</strong> av lasten over tilhengerens aksler</li>
+<li><strong>30-40%</strong> av lasten foran akslene (gir kuletrykk)</li>
+<li><strong>Maksimalt 85%</strong> av tilhengerens totalvekt bak akslene
+Les mer om generell lastsikring i <a href="/blogs/teori/sikring-av-last-og-passasjerer" title="Sikring av last og passasjerer - Guide til sikker lastsikring">Sikring av last og passasjerer</a>.</li>
+</ul>
+<h2 id="kjøreteknikk-med-tilhenger">Kjøreteknikk med tilhenger</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/kjoreteknikk-tilhenger.svg" alt="Kjøreteknikk tilhenger">
+<strong>Kjøreteknikken</strong> må tilpasses når du har tilhenger. Vogntogkjøring krever mer <strong>planlegging</strong> og <strong>forutseenhet</strong> enn vanlig bilkjøring.</p>
+<h3 id="grunnleggende-kjøreegenskaper">Grunnleggende kjøreegenskaper</h3>
+<p><strong>Med tilhenger endres</strong> bilens kjøreegenskaper betydelig:</p>
+<ul>
+<li><strong>Lengre bremselengde</strong> på grunn av økt totalvekt</li>
+<li><strong>Dårligere akselerasjon</strong>, spesielt i oppoverbakker</li>
+<li><strong>Større svingradius</strong> og behov for mer plass i svinger</li>
+<li><strong>Økt vindpåvirkning</strong> på grunn av større frontareal</li>
+<li><strong>Annerledes balanseforhold</strong> som kan føre til slingring</li>
+</ul>
+<h3 id="akselerasjon-og-giring">Akselerasjon og giring</h3>
+<p><strong>Smidig akselerasjon</strong> er nøkkelen til trygg kjøring:</p>
+<ul>
+<li><strong>Unngå hard akselerasjon</strong> som kan forårsake hjulspinn eller slingring</li>
+<li><strong>Bruk lavere gir</strong> i oppoverbakker for å opprettholde moment</li>
+<li><strong>Planlegg forbikjøringer</strong> nøye på grunn av redusert akselerasjon</li>
+<li><strong>Hold jevn gass</strong> i svinger for å unngå lastoverføring</li>
+</ul>
+<h3 id="bremsing-med-tilhenger">Bremsing med tilhenger</h3>
+<p><strong>Bremsing</strong> krever spesiell teknikk:</p>
+<ul>
+<li><strong>Start bremsingen tidligere</strong> på grunn av økt bremselengde</li>
+<li><strong>Brems gradvis</strong> for å unngå at tilhengeren &ldquo;skjøver på&rdquo;</li>
+<li>**Bruk <strong>motorbremsen</strong> aktivt i nedoverbakker</li>
+<li><strong>Unngå hard nødbremsing</strong> som kan føre til jack knifing
+For mer om bremseteknikker, se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Guide til riktig hastighet og følgeavstand">Fart og avstand</a>.</li>
+</ul>
+<h3 id="svinging-og-kurvekjøring">Svinging og kurvekjøring</h3>
+<p><strong>Svinging med tilhenger</strong> krever økt oppmerksomhet:</p>
+<ul>
+<li><strong>Øk svingradius</strong> for å unngå at tilhengeren kutte kurver</li>
+<li><strong>Kjør smidig gjennom svinger</strong> uten brå rattutslag</li>
+<li><strong>Reduser farten</strong> før svinger, ikke under svingen</li>
+<li><strong>Hold jevn gass</strong> gjennom svingen for stabilitet</li>
+</ul>
+<h3 id="rygging-med-tilhenger">Rygging med tilhenger</h3>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/rygging-tilhenger.svg" alt="Rygging med tilhenger">
+<strong>Rygging</strong> er en av de mest krevende manøvrene med tilhenger:</p>
+<h4 id="grunnprinsipper-for-rygging">Grunnprinsipper for rygging</h4>
+<ul>
+<li><strong>Plasser hånden nederst på rattet</strong> for enklere kontroll</li>
+<li><strong>Ratt til høyre = tilhengeren svinger til venstre</strong>, og omvendt</li>
+<li><strong>Kjør sakte</strong> for å ha full kontroll</li>
+<li><strong>Stopp og korriger</strong> ofte fremfor å forsøke lange drag</li>
+</ul>
+<h4 id="ryggingsteknikker">Ryggingsteknikker</h4>
+<ol>
+<li><strong>Rett rygging</strong>: Hold rattet rett og korriger små avvik tidlig</li>
+<li><strong>Rygging i sving</strong>: Start med bilens front rettet bort fra ønsket retning</li>
+<li><strong>Rygging til rampe</strong>: Bruk markeringskegler og få hjelp fra spotter
+Les mer om rygging i <a href="/blogs/teori/rygging-og-parkering" title="Rygging og parkering - Teknikker for trygg rygging">Rygging og parkering</a>.</li>
+</ol>
+<h2 id="fart-og-avstandsregler">Fart og avstandsregler</h2>
+<p><strong>Fartsgrenser</strong> for kjøretøy med tilhenger er generelt lavere enn for vanlige biler. Dette skyldes økt <strong>bremselengde</strong> og redusert <strong>manøvrerbarhet</strong>.</p>
+<h3 id="fartsgrenser-med-tilhenger">Fartsgrenser med tilhenger</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Vegtype</th>
+          <th style="text-align: right">Bil uten tilhenger</th>
+          <th>Med tilhenger</th>
+          <th>Kommentar</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Motorvei</strong></td>
+          <td style="text-align: right">110 km/t</td>
+          <td>80 km/t</td>
+          <td>Med mindre skilt angir annet</td>
+      </tr>
+      <tr>
+          <td><strong>Motortrafikkvei</strong></td>
+          <td style="text-align: right">90 km/t</td>
+          <td>80 km/t</td>
+          <td>Redusert på grunn av økt bremselengde</td>
+      </tr>
+      <tr>
+          <td><strong>Hovedvei</strong></td>
+          <td style="text-align: right">80 km/t</td>
+          <td>80 km/t</td>
+          <td>Samme grense, men tilpass forholdene</td>
+      </tr>
+      <tr>
+          <td><strong>Bygater</strong></td>
+          <td style="text-align: right">50 km/t</td>
+          <td>50 km/t</td>
+          <td>Redusert manøvrerbarhet krever ekstra varsomhet</td>
+      </tr>
+      <tr>
+          <td><strong>Boligområder</strong></td>
+          <td style="text-align: right">30 km/t</td>
+          <td>30 km/t</td>
+          <td>Særlig viktig å overholde på grunn av barn</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="følgeavstand-med-tilhenger">Følgeavstand med tilhenger</h3>
+<p><strong>3-sekunders regelen</strong> bør utvides til <strong>4-5 sekunder</strong> med tilhenger:</p>
+<ul>
+<li><strong>Økt <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde">bremselengde</a></strong> krever lengre <a href="/blogs/teori/reaksjonstid-og-bremselengde" title="Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde">reaksjonstid</a>.</li>
+<li><strong>Slingring</strong> kan oppstå ved brå manøvrer</li>
+<li><strong>Større kjøretøy</strong> trenger mer plass til å stoppe
+For mer om følgeavstand, se <a href="/blogs/teori/fart-og-avstand" title="Fart og avstand - Guide til riktig hastighet og følgeavstand">Fart og avstand</a>.</li>
+</ul>
+<h2 id="spesielle-kjøresituasjoner">Spesielle kjøresituasjoner</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/spesielle-situasjoner.svg" alt="Spesielle situasjoner">
+<strong>Spesielle kjøresituasjoner</strong> krever ekstra oppmerksomhet når du kjører med tilhenger.</p>
+<h3 id="kjøring-i-vind">Kjøring i vind</h3>
+<p><strong>Sidevind</strong> påvirker vogntog mer enn vanlige biler:</p>
+<ul>
+<li><strong>Reduser hastigheten</strong> ved kraftig sidevind</li>
+<li><strong>Hold fast i rattet</strong> uten å overstyre</li>
+<li><strong>Vær forberedt på vindkast</strong> ved passering av store kjøretøy</li>
+<li><strong>Unngå kjøring</strong> ved vindstyrke over 15 m/s (storm)</li>
+</ul>
+<h3 id="kjøring-i-regn-og-dårlig-vær">Kjøring i regn og dårlig vær</h3>
+<p><strong>Dårlige veiforhold</strong> øker risikoen betraktelig:</p>
+<ul>
+<li><strong>Reduser hastigheten</strong> mer enn vanlig på våt vei</li>
+<li><strong>Øk følgeavstanden</strong> til minst 5-6 sekunder</li>
+<li><strong>Unngå brå manøvrer</strong> som kan forårsake skrens</li>
+<li><strong>Bruk lavere gir</strong> i oppoverbakker for bedre veigrep
+Se <a href="/blogs/teori/kjoring-under-vanskelige-forhold" title="Kjøring under vanskelige forhold - Sikker kjøring i regn, snø og is">Kjøring under vanskelige forhold</a> for detaljerte råd.</li>
+</ul>
+<h3 id="forbikjøring-med-tilhenger">Forbikjøring med tilhenger</h3>
+<p><strong>Forbikjøring</strong> blir mer komplisert med tilhenger:</p>
+<ul>
+<li><strong>Planlegg forbikjøringer</strong> nøye på grunn av redusert akselerasjon</li>
+<li><strong>Bruk lengre strekning</strong> for å komme opp i hastighet</li>
+<li><strong>Sjekk blindsoner</strong> ekstra nøye på grunn av økt kjøretøylengde</li>
+<li><strong>Unngå forbikjøring</strong> i oppoverbakker hvor mulig
+Les mer i <a href="/blogs/teori/forbikjoring-og-feltskifte" title="Forbikjøring og feltskifte - Sikker forbikjøring og feltskifte">Forbikjøring og feltskifte</a>.</li>
+</ul>
+<h3 id="parkering-med-tilhenger">Parkering med tilhenger</h3>
+<p><strong>Parkering</strong> krever mer plass og planlegging:</p>
+<ul>
+<li><strong>Velg parkeringsplasser</strong> som er store nok for hele vogntogtet</li>
+<li><strong>Vurder tilgjengelighet</strong> for utkjøring senere</li>
+<li><strong>Bruk parkeringsbremsen</strong> på både bil og tilhenger</li>
+<li><strong>Legg kiler</strong> under hjulene ved parkering i skråning</li>
+</ul>
+<h2 id="vedlikehold-og-sikkerhetskontroller">Vedlikehold og sikkerhetskontroller</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/vedlikehold-tilhenger.svg" alt="Vedlikehold tilhenger">
+<strong>Regelmessig vedlikehold</strong> av tilhengeren er avgjørende for sikkerheten og lovligheten.</p>
+<h3 id="daglig-sjekkliste">Daglig sjekkliste</h3>
+<p>Før hver kjøretur bør du kontrollere:</p>
+<ul>
+<li>✅ <strong>Dekk</strong>: Lufttrykk, slitasje og eventuelle skader</li>
+<li>✅ <strong>Lys</strong>: Alle lys og blinkers fungerer</li>
+<li>✅ <strong>Bremser</strong>: Test ved lav hastighet</li>
+<li>✅ <strong>Kobling</strong>: Kulekrokning og sikkerhetswire</li>
+<li>✅ <strong>Last</strong>: Sikring og vektfordeling</li>
+<li>✅ <strong>Kjettinger</strong>: Hvis påkrevd av veiforhold</li>
+</ul>
+<h3 id="ukentlig-vedlikehold">Ukentlig vedlikehold</h3>
+<p><strong>Ved regelmessig bruk</strong> bør du sjekke:</p>
+<ul>
+<li><strong>Hjullagre</strong>: Kontroller for løshet eller varme</li>
+<li><strong>Bremsevæske</strong>: Nivå og eventuelle lekkasjer</li>
+<li><strong>Elektrisk anlegg</strong>: Kontakter og ledninger</li>
+<li><strong>Støtdemper</strong>: Funksjon og lekkasjer</li>
+<li><strong>Understell</strong>: Rust og strukturelle skader</li>
+</ul>
+<h3 id="årlig-eu-kontroll">Årlig EU-kontroll</h3>
+<p><strong>Tilhengere over 750 kg</strong> må gjennom årlig EU-kontroll som omfatter:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Kontrollområde</th>
+          <th>Hva sjekkes</th>
+          <th>Vanlige feil</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Bremser</strong></td>
+          <td>Bremsekraft og justeringer</td>
+          <td>Ujevn bremsevirkning</td>
+      </tr>
+      <tr>
+          <td><strong>Dekk og hjul</strong></td>
+          <td>Slitasje og lufttrykk</td>
+          <td>Feil lufttrykk, ujent slitasje</td>
+      </tr>
+      <tr>
+          <td><strong>Lys og signaler</strong></td>
+          <td>Alle lys og reflekser</td>
+          <td>Defekte lyspærer</td>
+      </tr>
+      <tr>
+          <td><strong>Understell</strong></td>
+          <td>Strukturell integritet</td>
+          <td>Rust og sprekkdannelser</td>
+      </tr>
+      <tr>
+          <td><strong>Kobling</strong></td>
+          <td>Kulekrokning og sikkerhetswire</td>
+          <td>Slitasje på kulekrokning</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="vanlige-feil-og-hvordan-unngå-dem">Vanlige feil og hvordan unngå dem</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/vanlige-feil-tilhenger.svg" alt="Vanlige feil">
+<strong>Vanlige feil</strong> ved kjøring med tilhenger kan få alvorlige konsekvenser. Her er de mest kritiske feilene og hvordan du unngår dem.</p>
+<h3 id="slingring-snakefishtailing">Slingring (snake/fishtailing)</h3>
+<p><strong>Slingring</strong> er når tilhengeren begynner å bevege seg fra side til side:</p>
+<h4 id="årsaker-til-slingring">Årsaker til slingring:</h4>
+<ul>
+<li><strong>For lite kuletrykk</strong> (under 4% av tilhengervekt)</li>
+<li><strong>Feil vektfordeling</strong> med for mye vekt bak akslene</li>
+<li><strong>For høy hastighet</strong> i forhold til forholdene</li>
+<li><strong>Brå styrebevegelser</strong> eller bremsing</li>
+</ul>
+<h4 id="hvordan-stoppe-slingring">Hvordan stoppe slingring:</h4>
+<ol>
+<li><strong>Ikke brems brått</strong> - dette forverrer situationen</li>
+<li><strong>Slipp gassen gradvis</strong> for å redusere hastigheten</li>
+<li><strong>Hold rattet rett</strong> og unngå å overstyre</li>
+<li><strong>Aktiver tilhengerens bremser manuelt</strong> hvis tilgjengelig</li>
+</ol>
+<h3 id="overlasting">Overlasting</h3>
+<p><strong>Overlasting</strong> er en av de vanligste og farligste feilene:</p>
+<h4 id="konsekvenser-av-overlasting">Konsekvenser av overlasting:</h4>
+<ul>
+<li><strong>Redusert bremsekraft</strong> og økt bremselengde</li>
+<li><strong>Dårligere stabilitet</strong> og økt risiko for veltning</li>
+<li><strong>Skader på bil og tilhenger</strong> over tid</li>
+<li><strong>Juridiske konsekvenser</strong> og forsikringsutestendelse</li>
+</ul>
+<h4 id="slik-unngår-du-overlasting">Slik unngår du overlasting:</h4>
+<ul>
+<li><strong>Vei tilhengeren</strong> med last før avreise</li>
+<li><strong>Beregn kuletrykket</strong> og juster lastplassering</li>
+<li><strong>Kontroller</strong> at totalvekten ikke overskrider grensene</li>
+<li><strong>Distribuer lasten</strong> jevnt mellom bil og tilhenger</li>
+</ul>
+<h3 id="feil-kobling">Feil kobling</h3>
+<p><strong>Feil kobling</strong> kan føre til at tilhengeren løsner under kjøring:</p>
+<h4 id="vanlige-koblingsfeil">Vanlige koblingsfeil:</h4>
+<ul>
+<li><strong>Kulekrokningen ikke ordentlig låst</strong></li>
+<li><strong>Sikkerhetswire ikke tilkoblet</strong> eller festet feil sted</li>
+<li><strong>Elektrisk kontakt løs</strong> eller korrodert</li>
+<li><strong>Støttehjul ikke heist opp</strong> helt</li>
+</ul>
+<h2 id="juridiske-konsekvenser">Juridiske konsekvenser</h2>
+<p><img src="/blogs/teori/kjoring-med-tilhenger/juridiske-konsekvenser.svg" alt="Juridiske konsekvenser">
+<strong>Brudd på reglene</strong> for kjøring med tilhenger kan få alvorlige juridiske og økonomiske konsekvenser.</p>
+<h3 id="bøtesatser-for-vanlige-overtredelser">Bøtesatser for vanlige overtredelser</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Overtredelse</th>
+          <th style="text-align: right">Bøtesats</th>
+          <th style="text-align: right">Prikker</th>
+          <th>Kommentar</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Overlasting 10-20%</strong></td>
+          <td style="text-align: right">8.000 kr</td>
+          <td style="text-align: right">1</td>
+          <td>Kan føre til kjøreforbud</td>
+      </tr>
+      <tr>
+          <td><strong>Overlasting 20%+</strong></td>
+          <td style="text-align: right">12.000 kr</td>
+          <td style="text-align: right">2</td>
+          <td>Alltid kjøreforbud</td>
+      </tr>
+      <tr>
+          <td><strong>Manglende sikring</strong></td>
+          <td style="text-align: right">8.000 kr</td>
+          <td style="text-align: right">1</td>
+          <td>Avhenger av risiko</td>
+      </tr>
+      <tr>
+          <td><strong>Feil førerkortkategori</strong></td>
+          <td style="text-align: right">7.000 kr</td>
+          <td style="text-align: right">1</td>
+          <td>Kan påvirke forsikring</td>
+      </tr>
+      <tr>
+          <td><strong>Overlasting aksler</strong></td>
+          <td style="text-align: right">12.000 kr</td>
+          <td style="text-align: right">2</td>
+          <td>Skader på veinettet</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="forsikringsmessige-konsekvenser">Forsikringsmessige konsekvenser</h3>
+<p><strong>Overtredelser</strong> kan påvirke forsikringsdekningen:</p>
+<ul>
+<li><strong>Overlasting</strong> kan føre til at forsikringen ikke dekker skader</li>
+<li><strong>Feil førerkortkategori</strong> gjør forsikringen ugyldig</li>
+<li><strong>Manglende EU-kontroll</strong> på tilhenger påvirker dekningen</li>
+<li><strong>Ulovlig last</strong> kan føre til regresskrav fra forsikring</li>
+</ul>
+<h3 id="straffereaksjoner">Straffereaksjoner</h3>
+<p><strong>Alvorlige overtredelser</strong> kan føre til:</p>
+<ul>
+<li><strong>Inndragning av førerkort</strong> ved gjentatte overlastinger</li>
+<li><strong>Fengselsstraff</strong> ved grove brudd som fører til ulykker</li>
+<li><strong>Yrkesrettede sanksjoner</strong> for profesjonelle sjåfører</li>
+<li><strong>Konfiskasjon</strong> av kjøretøy ved svært grove overtredelser
+Les mer om juridiske aspekter i <a href="/blogs/teori/lover-og-forskrifter" title="Lover og forskrifter - Juridiske rammer for trafikk">Lover og forskrifter</a>.</li>
+</ul>
+<h2 id="oppsummering">Oppsummering</h2>
+<p><strong>Kjøring med tilhenger</strong> krever grundig kunnskap og kontinuerlig oppmerksomhet. De viktigste punktene å huske er:</p>
+<ul>
+<li><strong>Riktig førerkortkategori</strong> er obligatorisk</li>
+<li><strong>Vektberegninger</strong> må alltid stemme</li>
+<li><strong>Lastsikring</strong> er kritisk for sikkerheten</li>
+<li><strong>Kjøreteknikken</strong> må tilpasses økt vekt og lengde</li>
+<li><strong>Vedlikehold</strong> er avgjørende for trygg drift</li>
+<li><strong>Lovbrudd</strong> får alvorlige konsekvenser
+Med <strong>grundig forberedelse</strong>, <strong>riktig teknikk</strong> og <strong>regelmessig vedlikehold</strong> blir kjøringen med tilhenger tryggere og mer forutsigbar. Husk at øvelse gjør mester - start med korte turer og enkle manøvrer før du tar på deg mer krevende kjøreoppdrag.
+<em>For ytterligere informasjon om sikker kjøring, se <a href="/blogs/teori/defensiv-kjoring" title="Defensiv kjøring - Teknikker for trygg kjøring">Defensiv kjøring</a> og <a href="/blogs/teori/oppmerksomhet-og-samhandling" title="Oppmerksomhet og samhandling - Kommunikasjon i trafikken">Oppmerksomhet og samhandling</a>.</em></li>
+</ul>
+
+    </div>
+
+    
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            
+                <div class="mb-8">
+                    <h3 class="text-sm font-medium text-gray-900 mb-4">Tags</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                            <a href="/tags/driving" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #driving
+                            </a>
+                        
+                            <a href="/tags/theory" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #theory
+                            </a>
+                        
+                            <a href="/tags/safety" 
+                               class="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors">
+                                #safety
+                            </a>
+                        
+                    </div>
+                </div>
+            
+
+            
+        </footer>
+    
+</article>
+
+
+
+
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/blogs/teori/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" 
+                                    alt="Kjoring Med Tilhenger" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blogs/teori/abs-antiblokkeringssystem/">Abs Antiblokkeringssystem</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Antiblokkeringssystemet, eller ABS, er et avgjørende sikkerhetssystem i moderne biler som forhindrer at hjulene låser …</p>
+                            <a href="/blogs/teori/abs-antiblokkeringssystem/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/blogs/teori/akselavstand-og-svingeradius/akselavstand-og-svingeradius-image.svg" 
+                                    alt="Kjoring Med Tilhenger" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blogs/teori/akselavstand-og-svingeradius/">Akselavstand Og Svingeradius</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Akselavstand og svingeradius er sentrale begreper i kjøretøyenes manøvrering og stabilitet. Denne guiden gir en grundig …</p>
+                            <a href="/blogs/teori/akselavstand-og-svingeradius/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
+                        
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                                <img 
+                                    src="/blogs/teori/aktiv-og-passiv-sikkerhet/aktiv-og-passiv-sikkerhet-image.svg" 
+                                    alt="Kjoring Med Tilhenger" 
+                                    class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                    loading="lazy"
+                                >
+                            </div>
+                        
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 hover:text-primary-600 transition-colors">
+                                <a href="/blogs/teori/aktiv-og-passiv-sikkerhet/">Aktiv Og Passiv Sikkerhet</a>
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4 line-clamp-2"> Aktiv sikkerhet og passiv sikkerhet er to komplementære tilnærminger for å beskytte fører og passasjerer i bil. Mens …</p>
+                            <a href="/blogs/teori/aktiv-og-passiv-sikkerhet/" class="text-primary-600 hover:text-primary-700 text-sm font-medium inline-flex items-center">
+                                Read more
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get the latest articles in your inbox</h2>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles, news, and updates.</p>
+        <form class="max-w-md mx-auto flex gap-2">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
+                Subscribe
+            </button>
+        </form>
+    </div>
+</div>
+
+    </main>
+    
+    
+<footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            <div>
+                <div class="flex items-center mb-3">
+                    
+                        <img src="/images/logo.svg" alt="Eteo" class="h-8 mr-2">
+                    
+                </div>
+                <p class="text-gray-400 text-sm">Norges mest effektive måte å bestå teoriprøven på. Over 10 000 fornøyde brukere.</p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Kontakt</h3>
+                <p class="text-gray-400 text-sm">
+                    <i class="bi bi-envelope mr-2"></i>post@eteo.no<br>
+                    <span class="text-xs">Send oss en e-post hvis du ikke består!</span>
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-base font-semibold mb-3">Last ned appen</h3>
+                <div class="flex space-x-3">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-google-play text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="bi bi-apple text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 text-center">
+            <p class="text-gray-400">&copy; 2025. Alle rettigheter reservert.</p>
+        </div>
+    </div>
+</footer>
+
+
+<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+    
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove('opacity-0', 'invisible');
+            backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+            backToTopButton.classList.remove('opacity-100', 'visible');
+            backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+    
+    <script>
+        
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/95');
+                    navbar.classList.remove('bg-transparent');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/95');
+                    navbar.classList.add('bg-transparent');
+                }
+            });
+
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
