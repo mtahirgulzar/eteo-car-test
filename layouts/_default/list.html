@@ -46,48 +46,6 @@
                             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                         </h2>
                         <p class="text-gray-600 mb-4 line-clamp-2">{{ .Summary | plainify | safeHTML | truncate 140 }}</p>
-                        <div class="flex items-center justify-between text-sm text-gray-500">
-                            <div class="flex items-center">
-                                {{ if .Params.author }}
-                                    {{ if (reflect.IsSlice .Params.author) }}
-                                        {{ range first 1 .Params.author }}
-                                            {{ with $.Site.GetPage . }}
-                                                <span class="flex items-center">
-                                                    <img src="{{ .Params.avatar | default "/images/avatar-placeholder.png" }}" 
-                                                         alt="{{ .Title }}" 
-                                                         class="w-6 h-6 rounded-full mr-2">
-                                                    <span>{{ .Title }}</span>
-                                                </span>
-                                            {{ else }}
-                                                <span class="flex items-center">
-                                                    <img src="/images/avatar-placeholder.png" 
-                                                         alt="{{ . }}" 
-                                                         class="w-6 h-6 rounded-full mr-2">
-                                                    <span>{{ . }}</span>
-                                                </span>
-                                            {{ end }}
-                                        {{ end }}
-                                    {{ else }}
-                                        {{ with .Site.GetPage .Params.author }}
-                                            <span class="flex items-center">
-                                                <img src="{{ .Params.avatar | default "/images/avatar-placeholder.png" }}" 
-                                                     alt="{{ .Title }}" 
-                                                     class="w-6 h-6 rounded-full mr-2">
-                                                <span>{{ .Title }}</span>
-                                            </span>
-                                        {{ else }}
-                                            <span class="flex items-center">
-                                                <img src="/images/avatar-placeholder.png" 
-                                                     alt="{{ .Params.author }}" 
-                                                     class="w-6 h-6 rounded-full mr-2">
-                                                <span>{{ .Params.author }}</span>
-                                            </span>
-                                        {{ end }}
-                                    {{ end }}
-                                {{ end }}
-                            </div>
-                            <span>{{ .ReadingTime }} min read</span>
-                        </div>
                     </div>
                 </article>
             {{ end }}
@@ -119,17 +77,21 @@
     </div>
 </div>
 
-<!-- Newsletter Section -->
-<div class="bg-gray-50 py-16">
+<!-- CTA Section -->
+<div class="bg-gradient-to-r from-blue-600 to-purple-600 py-16">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">Stay Updated</h2>
-        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest articles and updates.</p>
-        <form class="max-w-md mx-auto flex gap-2">
-            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
-            <button type="submit" class="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors">
-                Subscribe
-            </button>
-        </form>
+        <h2 class="text-3xl font-bold text-white mb-4">Ready to Pass Your Driving Theory Test?</h2>
+        <p class="text-blue-100 mb-8 max-w-2xl mx-auto">Practice with our comprehensive theory test app and pass with confidence. Start your free trial today!</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/pages/android-app/" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center justify-center">
+                <i class="bi bi-android mr-2"></i>
+                Download for Android
+            </a>
+            <a href="/pages/iphone-app/" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center justify-center">
+                <i class="bi bi-apple mr-2"></i>
+                Download for iPhone
+            </a>
+        </div>
     </div>
 </div>
 {{ end }}
