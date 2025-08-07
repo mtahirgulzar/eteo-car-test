@@ -1,14 +1,13 @@
 ﻿---
-title: "Kjøring: Høyre i veikryss"
+title: "Kjoring Hoyre I Veikryss"
 date: 2025-08-06
 draft: false
 author: "Eteo Team"
-description: "Detaljert guide til høyreregelen i veikryss: forstå når og hvordan du skal vike for trafikk fra høyre, unntak, praktiske eksempler og tips for teoriprøven."
+description: "Guide to Kjoring Hoyre I Veikryss for Norwegian driving theory exam."
 categories: ["Driving Theory"]
 tags: ["driving", "theory", "safety"]
-featured_image: "/images/blog/kjoring-hoyre-i-veikryss/kjoring-hoyre-i-veikryss-image.svg"
+featured_image: "/blog/kjoring-hoyre-i-veikryss/kjoring-hoyre-i-veikryss-image.svg"
 ---
-
 <style>
 /* Base text styling */
 .article-content {
@@ -17,7 +16,6 @@ featured_image: "/images/blog/kjoring-hoyre-i-veikryss/kjoring-hoyre-i-veikryss-
   color: #1f2937;
   font-size: 16px;
 }
-
 /* Headers */
 h1 {
   font-size: 2rem;
@@ -25,61 +23,56 @@ h1 {
   margin: 2rem 0 1.5rem;
   color: #111827;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
   color: #1f2937;
 }
-
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1.5rem 0 0.75rem;
   color: #374151;
 }
-
 /* Paragraphs */
 p {
   margin: 1rem 0;
   line-height: 1.7;
 }
-
 /* Lists */
 ul, ol {
   margin: 1rem 0 1rem 1.5rem;
   padding-left: 1rem;
 }
-
 li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
 }
-
-ul > li::before {
-  content: 'â€¢';
-  color: #3b82f6;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
 }
-
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 /* Code blocks */
 pre, code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -87,17 +80,14 @@ pre, code {
   border-radius: 0.375rem;
   font-size: 0.875em;
 }
-
 pre {
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
 }
-
 code {
   padding: 0.2em 0.4em;
 }
-
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #e5e7eb;
@@ -107,7 +97,6 @@ blockquote {
   color: #4b5563;
   font-style: italic;
 }
-
 /* Tables */
 table {
   margin: 1.5rem auto !important;
@@ -120,14 +109,12 @@ table {
   border: 1px solid #e5e7eb !important;
   display: table !important;
 }
-
 th, td {
   padding: 0.75rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #e5e7eb !important;
   vertical-align: top;
 }
-
 th {
   background-color: #f9fafb !important;
   font-weight: 600 !important;
@@ -136,25 +123,20 @@ th {
   font-size: 0.75rem !important;
   letter-spacing: 0.05em !important;
 }
-
 tr:nth-child(even) {
   background-color: #f9fafb !important;
 }
-
 tr:hover {
   background-color: #f3f4f6 !important;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .article-content {
     font-size: 15px;
   }
-  
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.375rem; }
   h3 { font-size: 1.125rem; }
-  
   table {
     display: block !important;
     overflow-x: auto !important;
@@ -162,98 +144,47 @@ tr:hover {
   }
 }
 </style>
-
-
-<div class="blog-content">
-  <div class="featured-image">
-    <img src="/images/blog/kjoring-hoyre-i-veikryss/kjoring-hoyre-i-veikryss-image.svg" alt="Kjøring: Høyre i veikryss" class="img-fluid rounded">
-  </div>
-
-  <div class="toc-container mt-4 mb-4">
-    <h3>Table of Contents</h3>
-    {{< toc >}}
-  </div>
-
-  <div class="blog-body">\n{{< toc >}}}}
-{{< toc >}}}}
-{{< toc >}}}}
-**KjÃ¸ring: HÃ¸yre i veikryss** gir deg en **dyptgÃ¥ende forstÃ¥else** av nÃ¥r og hvordan du skal vike for trafikk fra hÃ¸yre i veikryss. Artikkelen tar for seg:
-
-- Grunnprinsippet bak **hÃ¸yreregelen**
-- NÃ¥r hÃ¸yreregelen gjelder
-- Viktige unntak fra hÃ¸yreregelen
+**Kjøring: Høyre i veikryss** gir deg en **dyptgående forståelse** av når og hvordan du skal vike for trafikk fra høyre i veikryss. Artikkelen tar for seg:
+- Grunnprinsippet bak **høyreregelen**
+- Når høyreregelen gjelder
+- Viktige unntak fra høyreregelen
 - Praktiske eksempler med forklaringer
-- Tips til teoriprÃ¸ven
-
-*For juridisk ramme, se [Grunnregelen for trafikk](/blogs/teori/grunnregelen-for-trafikk "Grunnregelen for trafikken - Vegtrafikkloven Â§Â 3") og for en helhetlig oversikt over vikepliktreglene, se [Vikeplikt og rundkjÃ¸ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjÃ¸ringer - Komplett guide til hÃ¸yreregelen og rundkjÃ¸ringer").*
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+- Tips til teoriprøven
+*For juridisk ramme, se [Grunnregelen for trafikk](/blogs/teori/grunnregelen-for-trafikk "Grunnregelen for trafikken - Vegtrafikkloven § 3") og for en helhetlig oversikt over vikepliktreglene, se [Vikeplikt og rundkjøringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjøringer - Komplett guide til høyreregelen og rundkjøringer").*
+![Kjøring: Høyre i veikryss](/blog/kjoring-hoyre-i-veikryss/kjoring-hoyre-i-veikryss-image.svg)
 ## Innhold
-
-1. [Hva er hÃ¸yreregelen?](#hva-er-hÃ¸yreregelen)
-2. [NÃ¥r gjelder hÃ¸yreregelen?](#nÃ¥r-gjelder-hÃ¸yreregelen)
-3. [Unntak fra hÃ¸yreregelen](#unntak-fra-hÃ¸yreregelen)
+1. [Hva er høyreregelen?](#hva-er-høyreregelen)
+2. [Når gjelder høyreregelen?](#når-gjelder-høyreregelen)
+3. [Unntak fra høyreregelen](#unntak-fra-høyreregelen)
 4. [Praktiske eksempler](#praktiske-eksempler)
-5. [Tips til teoriprÃ¸ven](#tips-til-teoriprÃ¸ven)
-
-## Hva er hÃ¸yreregelen?
-
-**HÃ¸yreregelen** er en grunnleggende regel i norsk trafikk som sier at du **skal vike for trafikk som kommer fra hÃ¸yre** nÃ¥r ingen andre regler (skilt, signaler eller politiets anvisninger) gjelder. Dette prinsippet sÃ¸rger for en forutsigbar trafikkflyt og reduserer risikoen for kollisjoner.
-
-## NÃ¥r gjelder hÃ¸yreregelen?
-
-HÃ¸yreregelen trer i kraft i fÃ¸lgende situasjoner:
-
+5. [Tips til teoriprøven](#tips-til-teoriprøven)
+## Hva er høyreregelen?
+**Høyreregelen** er en grunnleggende regel i norsk trafikk som sier at du **skal vike for trafikk som kommer fra høyre** når ingen andre regler (skilt, signaler eller politiets anvisninger) gjelder. Dette prinsippet sørger for en forutsigbar trafikkflyt og reduserer risikoen for kollisjoner.
+## Når gjelder høyreregelen?
+Høyreregelen trer i kraft i følgende situasjoner:
 * **Uskiltede veikryss** uten trafikklys
 * **Parkeringsplasser** og private veier uten egen regulering
-* **BoligomrÃ¥der** som mangler skilt og signal
-* NÃ¥r **ingen andre vikepliktsregler** gjelder
-
+* **Boligområder** som mangler skilt og signal
+* Når **ingen andre vikepliktsregler** gjelder
 For en fullstendig gjennomgang av vikepliktsregler, se [Vikepliktsregler i detalj](/blogs/teori/vikepliktsregler-i-detalj "Vikepliktsregler i detalj - Detaljert guide til vikeplikt i trafikken").
-
-## Unntak fra hÃ¸yreregelen
-
-HÃ¸yreregelen gjelder **ikke** nÃ¥r noen av disse forholdene er til stede:
-
+## Unntak fra høyreregelen
+Høyreregelen gjelder **ikke** når noen av disse forholdene er til stede:
 | Situasjon          | Beskrivelse                                                                 |
 |--------------------|------------------------------------------------------------------------------|
-| **Trafikkskilt**      | NÃ¥r skilt eller signaler (f.eks. vikepliktsskilt, stoppskilt) regulerer kryssingsforholdene |
-| **ForkjÃ¸rsvei**       | Du kjÃ¸rer pÃ¥ en forkjÃ¸rsvei (gul rombe) og har dermed forkjÃ¸rsrett           |
+| **Trafikkskilt**      | Når skilt eller signaler (f.eks. vikepliktsskilt, stoppskilt) regulerer kryssingsforholdene |
+| **Forkjørsvei**       | Du kjører på en forkjørsvei (gul rombe) og har dermed forkjørsrett           |
 | **Trafikklys**        | Trafikklys er i funksjon og gir klare signaler om vikeplikt                   |
 | **Politianvisning**    | Politiet dirigerer trafikken manuelt                                         |
-
 ## Praktiske eksempler
-
-Nedenfor ser du typiske situasjoner der hÃ¸yreregelen kommer til anvendelse:
-
+Nedenfor ser du typiske situasjoner der høyreregelen kommer til anvendelse:
 | Scenario                         | Handling                                                            |
 |----------------------------------|---------------------------------------------------------------------|
-| To kjÃ¸rende i kryss ankommer samtidig | Vike for kjÃ¸retÃ¸yet fra hÃ¸yre                              |
-| Flere kjÃ¸retÃ¸y i rundkjÃ¸ring       | Vike nÃ¥r du forlater rundkjÃ¸ringen hvis du kommer fra hÃ¸yre        |
-| ParkeringsomrÃ¥de uten skilt        | FÃ¸lg hÃ¸yreregelen ved inn- og utkjÃ¸ring                            |
-
-## Tips til teoriprÃ¸ven
-
-NÃ¥r du mÃ¸ter spÃ¸rsmÃ¥l om hÃ¸yreregelen pÃ¥ teoriprÃ¸ven:
-
-1. **Identifiser om skilt eller signaler** regulerer situasjonen fÃ¸rst.
-2. Hvis ingenting annet gjelder, **anvend hÃ¸yreregelen** konsekvent.
-3. **Beskriv kort** hvordan du vurderte trafikken fra hÃ¸yre i svarteksten.
-
-Lykke til med teoriprÃ¸ven!\n  </div>\n</div>
+| To kjørende i kryss ankommer samtidig | Vike for kjøretøyet fra høyre                              |
+| Flere kjøretøy i rundkjøring       | Vike når du forlater rundkjøringen hvis du kommer fra høyre        |
+| Parkeringsområde uten skilt        | Følg høyreregelen ved inn- og utkjøring                            |
+## Tips til teoriprøven
+Når du møter spørsmål om høyreregelen på teoriprøven:
+1. **Identifiser om skilt eller signaler** regulerer situasjonen først.
+2. Hvis ingenting annet gjelder, **anvend høyreregelen** konsekvent.
+3. **Beskriv kort** hvordan du vurderte trafikken fra høyre i svarteksten.
+Lykke til med teoriprøven!

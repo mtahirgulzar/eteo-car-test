@@ -1,14 +1,13 @@
 ﻿---
-title: "Motorveikjøring"
+title: "Motorveikjoring"
 date: 2025-08-06
 draft: false
 author: "Eteo Team"
-description: "En omfattende guide til sikker og effektiv kjøring på motorvei i Norge. Lær regler, påkjøring, kjøreteknikk, avkjøring og sikkerhetsregler."
+description: "Guide to Motorveikjoring for Norwegian driving theory exam."
 categories: ["Driving Theory"]
 tags: ["driving", "theory", "safety"]
-featured_image: "/images/blog/motorveikjoring/motorveikjoring-image.svg"
+featured_image: "/blog/motorveikjoring/motorveikjoring-image.svg"
 ---
-
 <style>
 /* Base text styling */
 .article-content {
@@ -17,7 +16,6 @@ featured_image: "/images/blog/motorveikjoring/motorveikjoring-image.svg"
   color: #1f2937;
   font-size: 16px;
 }
-
 /* Headers */
 h1 {
   font-size: 2rem;
@@ -25,61 +23,56 @@ h1 {
   margin: 2rem 0 1.5rem;
   color: #111827;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
   color: #1f2937;
 }
-
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1.5rem 0 0.75rem;
   color: #374151;
 }
-
 /* Paragraphs */
 p {
   margin: 1rem 0;
   line-height: 1.7;
 }
-
 /* Lists */
 ul, ol {
   margin: 1rem 0 1rem 1.5rem;
   padding-left: 1rem;
 }
-
 li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
 }
-
-ul > li::before {
-  content: 'â€¢';
-  color: #3b82f6;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
 }
-
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 /* Code blocks */
 pre, code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -87,17 +80,14 @@ pre, code {
   border-radius: 0.375rem;
   font-size: 0.875em;
 }
-
 pre {
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
 }
-
 code {
   padding: 0.2em 0.4em;
 }
-
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #e5e7eb;
@@ -107,7 +97,6 @@ blockquote {
   color: #4b5563;
   font-style: italic;
 }
-
 /* Tables */
 table {
   margin: 1.5rem auto !important;
@@ -120,14 +109,12 @@ table {
   border: 1px solid #e5e7eb !important;
   display: table !important;
 }
-
 th, td {
   padding: 0.75rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #e5e7eb !important;
   vertical-align: top;
 }
-
 th {
   background-color: #f9fafb !important;
   font-weight: 600 !important;
@@ -136,25 +123,20 @@ th {
   font-size: 0.75rem !important;
   letter-spacing: 0.05em !important;
 }
-
 tr:nth-child(even) {
   background-color: #f9fafb !important;
 }
-
 tr:hover {
   background-color: #f3f4f6 !important;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .article-content {
     font-size: 15px;
   }
-  
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.375rem; }
   h3 { font-size: 1.125rem; }
-  
   table {
     display: block !important;
     overflow-x: auto !important;
@@ -162,765 +144,316 @@ tr:hover {
   }
 }
 </style>
-
-
-<div class="blog-content">
-  <div class="featured-image">
-    <img src="/images/blog/motorveikjoring/motorveikjoring-image.svg" alt="Motorveikjøring" class="img-fluid rounded">
-  </div>
-
-  <div class="toc-container mt-4 mb-4">
-    <h3>Table of Contents</h3>
-    {{< toc >}}
-  </div>
-
-  <div class="blog-body">\n{{< toc >}}}}
-{{< toc >}}}}
-{{< toc >}}}}
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**MotorveikjÃ¸ring** er en spesialisert ferdighet som krever forstÃ¥else av unike regler, teknikker og sikkerhetsprinsipper. Denne omfattende guiden dekker alt du trenger Ã¥ vite om **trygg og effektiv kjÃ¸ring pÃ¥ motorvei**, fra grunnleggende konsepter til avanserte teknikker.
-
-*For kjÃ¸ring pÃ¥ landevei, se [LandeveiskjÃ¸ring](/blogs/teori/landeveiskjoring "LandeveiskjÃ¸ring - Guide til sikker kjÃ¸ring pÃ¥ norske landeveier").*
-
-*For grunnleggende prinsipper for plassering og kjÃ¸remÃ¥te i alle situasjoner, se [Plassering og kjÃ¸remÃ¥te](/blogs/teori/plassering-og-kjoremmate "Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te").*
-
-*For tips om Ã¥ redusere drivstofforbruk og utslipp ved hÃ¸yhastighetskjÃ¸ring, se [MiljÃ¸vennlig kjÃ¸ring](/blogs/teori/miljovennlig-kjoring "MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring").*
-*For mer om kjÃ¸ring og miljÃ¸, se [KjÃ¸ring og miljÃ¸](/blogs/teori/kjoring-og-miljo "KjÃ¸ring og miljÃ¸ - MiljÃ¸hensyn og kjÃ¸reteknikker").*
-
+**Motorveikjøring** er en spesialisert ferdighet som krever forståelse av unike regler, teknikker og sikkerhetsprinsipper. Denne omfattende guiden dekker alt du trenger å vite om **trygg og effektiv kjøring på motorvei**, fra grunnleggende konsepter til avanserte teknikker.
+*For kjøring på landevei, se [Landeveiskjøring](/blogs/teori/landeveiskjoring "Landeveiskjøring - Guide til sikker kjøring på norske landeveier").*
+*For grunnleggende prinsipper for plassering og kjøremåte i alle situasjoner, se [Plassering og kjøremåte](/blogs/teori/plassering-og-kjoremmate "Plassering og kjøremåte - Komplett guide til plassering og kjøremåte").*
+*For tips om å redusere drivstofforbruk og utslipp ved høyhastighetskjøring, se [Miljøvennlig kjøring](/blogs/teori/miljovennlig-kjoring "Miljøvennlig kjøring - Teknikker for bærekraftig kjøring").*
+*For mer om kjøring og miljø, se [Kjøring og miljø](/blogs/teori/kjoring-og-miljo "Kjøring og miljø - Miljøhensyn og kjøreteknikker").*
 For en oversikt over gjeldende lover og forskrifter, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
-
-*For tips om Ã¥ forberede deg til en lang kjÃ¸retur, se [Forberedelser fÃ¸r en lang kjÃ¸retur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser fÃ¸r en lang kjÃ¸retur - Hva bÃ¸r du huske fÃ¸r en lang reise").*
-
-*For forebygging av frontkollisjoner, se [MÃ¸teulykker og forebygging](/blogs/teori/moteulykker-og-forebygging "MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken").*
-
+*For tips om å forberede deg til en lang kjøretur, se [Forberedelser før en lang kjøretur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser før en lang kjøretur - Hva bør du huske før en lang reise").*
+*For forebygging av frontkollisjoner, se [Møteulykker og forebygging](/blogs/teori/moteulykker-og-forebygging "Møteulykker og forebygging - Forebygging av frontkollisjoner i trafikken").*
 ## Hva er motorvei?
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Motorvei** er en hÃ¸ystandard vei designet for trygg kjÃ¸ring i hÃ¸y hastighet. Den er skiltet med det blÃ¥ motorveiskiltet og har fÃ¸lgende kjennetegn:
-
-* **Atskilte kjÃ¸reretninger** med fysisk midtdeler
-* **Minst to kjÃ¸refelt** i hver retning
-* **Ingen kryss pÃ¥ samme plan** - all av- og pÃ¥kjÃ¸ring skjer via ramper
+![Motorvei definisjon og kjennetegn](/blog/motorveikjoring/motorvei-definisjon.svg)
+**Motorvei** er en høystandard vei designet for trygg kjøring i høy hastighet. Den er skiltet med det blå motorveiskiltet og har følgende kjennetegn:
+* **Atskilte kjøreretninger** med fysisk midtdeler
+* **Minst to kjørefelt** i hver retning
+* **Ingen kryss på samme plan** - all av- og påkjøring skjer via ramper
 * **Kontrollert adgang** - kun [motorvogner](/blogs/teori/motorvogn-definisjon "Motorvogn (definisjon)") tillatt
 * **Ingen fotgjengere, syklister eller mopeder**
-
 ### Forskjell mellom motorvei og motortrafikkvei
-
 | Type | Skilt | Fartsgrense | Kjennetegn |
 |------|-------|-------------|------------|
-| **Motorvei** | BlÃ¥tt skilt med hvit motorvei-symbol | 110 km/t | HÃ¸yeste standard, full adgangskontroll |
-| **Motortrafikkvei** | BlÃ¥tt skilt med gul stripe | 90 km/t | Lavere standard, kan ha kryss pÃ¥ samme plan |
-
+| **Motorvei** | Blått skilt med hvit motorvei-symbol | 110 km/t | Høyeste standard, full adgangskontroll |
+| **Motortrafikkvei** | Blått skilt med gul stripe | 90 km/t | Lavere standard, kan ha kryss på samme plan |
 * For en mer detaljert sammenligning av **motorvei** og **motortrafikkvei**, se [Motorvei vs motortrafikkvei](/blogs/teori/motorvei-vs-motortrafikkvei "Motorvei vs motortrafikkvei - Forskjeller, fartsgrenser og skilt").
-
-For mer om trafikkregler pÃ¥ motorvei, se [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Skilt for motorvei").
-
+For mer om trafikkregler på motorvei, se [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Skilt for motorvei").
 ## Motorveiens struktur og elementer
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-### Hovedelementer pÃ¥ motorveien
-
+![Detaljert motorveistruktur](/blog/motorveikjoring/motorvei-struktur-detaljert.svg)
+### Hovedelementer på motorveien
 | Element | Beskrivelse | Funksjon | Bredde |
 |---------|-------------|----------|--------|
-| **Skulder** | Sikkerhetssone langs veiens kant | NÃ¸dstopp, vedlikehold | 2,5-3,0 m |
-| **KjÃ¸refelt** | Normale kjÃ¸refelt | Hovedtrafikk | 3,5-3,75 m |
-| **Venstre kjÃ¸refelt** | ForbikjÃ¸ringsfelt | ForbikjÃ¸ring, raskere trafikk | 3,5-3,75 m |
-| **Midtdeler** | Fysisk barriere mellom kjÃ¸reretninger | Hindrer mÃ¸teulykker | 2-15 m |
-| **PÃ¥kjÃ¸ringsfelt** | Akselerasjonsfelt | Inn pÃ¥ motorvei | 3,5 m |
+| **Skulder** | Sikkerhetssone langs veiens kant | Nødstopp, vedlikehold | 2,5-3,0 m |
+| **Kjørefelt** | Normale kjørefelt | Hovedtrafikk | 3,5-3,75 m |
+| **Venstre kjørefelt** | Forbikjøringsfelt | Forbikjøring, raskere trafikk | 3,5-3,75 m |
+| **Midtdeler** | Fysisk barriere mellom kjøreretninger | Hindrer møteulykker | 2-15 m |
+| **Påkjøringsfelt** | Akselerasjonsfelt | Inn på motorvei | 3,5 m |
 | **Retardasjonsfelt** | Nedbrmsningsfelt | Av fra motorvei | 3,5 m |
-
 ### Sikkerhetselementer
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-* **Autovern** - Hindrer utforkjÃ¸ring og mÃ¸teulykker
-* **NÃ¸dtelefoner** - Plassert med jevne mellomrom
+![Sikkerhetselementer på motorvei](/blog/motorveikjoring/motorvei-sikkerhet.svg)
+* **Autovern** - Hindrer utforkjøring og møteulykker
+* **Nødtelefoner** - Plassert med jevne mellomrom
 * **Belysning** - Ved knutepunkter og i tunneler
-* **Drenering** - UnngÃ¥r vannplaning
-* **Sklisikkert dekke** - Bedre grep ved vÃ¥te forhold
-
-## PÃ¥kjÃ¸ring til motorvei - Detaljert teknikk
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-### Forberedelse fÃ¸r pÃ¥kjÃ¸ring
-
-**FÃ¸r du nÃ¥r pÃ¥kjÃ¸ringsrampen:**
-
-* Kontroller **hastigheten** pÃ¥ rampen - ofte lavere fartsgrense
-* Vurder **trafikkmengden** pÃ¥ motorveien
-* Planlegg **akselerasjonen** for Ã¥ matche motorveiens hastighet
-* Sjekk **speil** og vurder **dÃ¸de vinkler**
-
-### PÃ¥kjÃ¸ringssekvensen - 5 kritiske steg
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-1. **Observe** - Vurder trafikken pÃ¥ motorveien gjennom speil og direkte observasjon
-2. **Akseler** - Ã˜k hastigheten gradvis i pÃ¥kjÃ¸ringsfeltet
-3. **Match** - Tilpass hastigheten til trafikken pÃ¥ motorveien
-4. **Signal** - Bruk **blinklys** for Ã¥ signalisere intensjon
-5. **Merge** - Flette inn nÃ¥r det er trygt gap
-
-### Vanlige feil ved pÃ¥kjÃ¸ring
-
+* **Drenering** - Unngår vannplaning
+* **Sklisikkert dekke** - Bedre grep ved våte forhold
+## Påkjøring til motorvei - Detaljert teknikk
+![Påkjøringsteknikk steg for steg](/blog/motorveikjoring/pakjoring-teknikk.svg)
+### Forberedelse før påkjøring
+**Før du når påkjøringsrampen:**
+* Kontroller **hastigheten** på rampen - ofte lavere fartsgrense
+* Vurder **trafikkmengden** på motorveien
+* Planlegg **akselerasjonen** for å matche motorveiens hastighet
+* Sjekk **speil** og vurder **døde vinkler**
+### Påkjøringssekvensen - 5 kritiske steg
+![5-stegs påkjøringssekvens](/blog/motorveikjoring/pakjoring-5-steg.svg)
+1. **Observe** - Vurder trafikken på motorveien gjennom speil og direkte observasjon
+2. **Akseler** - Øk hastigheten gradvis i påkjøringsfeltet
+3. **Match** - Tilpass hastigheten til trafikken på motorveien
+4. **Signal** - Bruk **blinklys** for å signalisere intensjon
+5. **Merge** - Flette inn når det er trygt gap
+### Vanlige feil ved påkjøring
 | Feil | Konsekvens | Korrekt teknikk |
 |------|------------|----------------|
 | **For lav hastighet** | Hindrer trafikkflyt, farlig | Akseler til motorveiens hastighet |
 | **For sent blinklys** | Overrasker andre bilister | Signal tidlig og tydelig |
-| **Stopper i pÃ¥kjÃ¸ringsfeltet** | SvÃ¦rt farlig situasjon | Hold farten, finn nytt gap |
-| **Tvinger seg inn** | Risiko for ulykke | Vent pÃ¥ trygt gap |
-
+| **Stopper i påkjøringsfeltet** | Svært farlig situasjon | Hold farten, finn nytt gap |
+| **Tvinger seg inn** | Risiko for ulykke | Vent på trygt gap |
 ### Spesielle situasjoner
-
 **Tett trafikk:**
-* Vent pÃ¥ naturlig gap i trafikken
-* Bruk **tett oppfÃ¸lging** kun hvis nÃ¸dvendig
-* Vurder Ã¥ vente til trafikken letter
-
-**DÃ¥rlig sikt:**
-* Reduser hastigheten pÃ¥ rampen
-* Ã˜k **observasjonstiden**
-* VÃ¦r ekstra forsiktig med dÃ¸de vinkler
-
+* Vent på naturlig gap i trafikken
+* Bruk **tett oppfølging** kun hvis nødvendig
+* Vurder å vente til trafikken letter
+**Dårlig sikt:**
+* Reduser hastigheten på rampen
+* Øk **observasjonstiden**
+* Vær ekstra forsiktig med døde vinkler
 For detaljert teknikk om oppmerksomhet og kommunikasjon, se [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus og kommunikasjon i trafikken").
-
-## KjÃ¸ring pÃ¥ motorvei - Avanserte teknikker
-
+## Kjøring på motorvei - Avanserte teknikker
 ### Feltvalg og posisjonering
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**HÃ¸yre kjÃ¸refelt (normalt kjÃ¸refelt):**
-* **Hovedregelen:** Hold hÃ¸yre nÃ¥r mulig
+![Optimal feltbruk på motorvei](/blog/motorveikjoring/feltbruk-motorvei.svg)
+**Høyre kjørefelt (normalt kjørefelt):**
+* **Hovedregelen:** Hold høyre når mulig
 * Ideelt for **konstant hastighet** rundt fartsgrensen
-* **Lastebiler** og **tyngre trafikk** bruker primÃ¦rt dette feltet
-
-**Venstre kjÃ¸refelt (forbikjÃ¸ringsfelt):**
-* **Kun for forbikjÃ¸ring** eller nÃ¥r hÃ¸yre felt er blokkert
-* Flytt tilbake til hÃ¸yre **sÃ¥ snart det er trygt**
-* **Ikke Â«campereÂ»** i venstre felt
-
+* **Lastebiler** og **tyngre trafikk** bruker primært dette feltet
+**Venstre kjørefelt (forbikjøringsfelt):**
+* **Kun for forbikjøring** eller når høyre felt er blokkert
+* Flytt tilbake til høyre **så snart det er trygt**
+* **Ikke «campere»** i venstre felt
 ### Hastighetsadministrasjon
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-| Situasjon | Anbefalt hastighet | Ã…rsak |
+![Hastighetsvariasjoner på motorvei](/blog/motorveikjoring/hastighet-motorvei.svg)
+| Situasjon | Anbefalt hastighet | Årsak |
 |-----------|-------------------|-------|
 | **Optimale forhold** | 110 km/t | Fartsgrensen |
-| **Tett trafikk** | FÃ¸lg trafikkflyten | Sikkerhet |
-| **DÃ¥rlig vÃ¦r** | 80-90 km/t | Redusert grep |
+| **Tett trafikk** | Følg trafikkflyten | Sikkerhet |
+| **Dårlig vær** | 80-90 km/t | Redusert grep |
 | **Tungt lastet** | 90-100 km/t | Lengre bremselengde |
-| **MÃ¸rkt** | 90-100 km/t | Begrenset sikt |
-
-### Sikker fÃ¸lgeavstand
-
-**3-sekunders regelen pÃ¥ motorvei:**
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-* Ved **110 km/t**: ca. **90 meter** fÃ¸lgeavstand
-* Ved **90 km/t**: ca. **75 meter** fÃ¸lgeavstand
-* **Dobbel avstanden** ved dÃ¥rlige forhold
-
-For detaljerte beregninger av fÃ¸lgeavstand og bremseavstand ved hÃ¸y hastighet, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
-
-**Praktisk mÃ¥ling:**
+| **Mørkt** | 90-100 km/t | Begrenset sikt |
+### Sikker følgeavstand
+**3-sekunders regelen på motorvei:**
+![3-sekunders regel høy hastighet](/blog/motorveikjoring/3-sekunder-regel-motorvei.svg)
+* Ved **110 km/t**: ca. **90 meter** følgeavstand
+* Ved **90 km/t**: ca. **75 meter** følgeavstand
+* **Dobbel avstanden** ved dårlige forhold
+For detaljerte beregninger av følgeavstand og bremseavstand ved høy hastighet, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
+**Praktisk måling:**
 1. Velg et **fast referansepunkt** (skilt, bro)
 2. Tell "**en tusen og en, en tusen og to, en tusen og tre**"
-3. Du skal **ikke** passere referansepunktet fÃ¸r tellingen er ferdig
-
-### Feltskifte og forbikjÃ¸ring
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**ForbikjÃ¸ringssekvens:**
-
-1. **Vurder** - Er forbikjÃ¸ring nÃ¸dvendig og trygt?
+3. Du skal **ikke** passere referansepunktet før tellingen er ferdig
+### Feltskifte og forbikjøring
+![Sikker forbikjøring på motorvei](/blog/motorveikjoring/forbikjoring-motorvei-avansert.svg)
+**Forbikjøringssekvens:**
+1. **Vurder** - Er forbikjøring nødvendig og trygt?
 2. **Speilkontroll** - Bakspeil og sidespeil
 3. **Blinklys** - Signal intensjon tidlig
-4. **DÃ¸dvinkelsjekk** - Rask skuldersjekk
-5. **Akseler** - Beslutt deg og gjennomfÃ¸r
-6. **Retur** - Tilbake til hÃ¸yre nÃ¥r trygt
-
-**NÃ¥r du IKKE skal forbikjÃ¸re:**
+4. **Dødvinkelsjekk** - Rask skuldersjekk
+5. **Akseler** - Beslutt deg og gjennomfør
+6. **Retur** - Tilbake til høyre når trygt
+**Når du IKKE skal forbikjøre:**
 * **Hastighetsforskjellen** er minimal (under 10 km/t)
 * **Tett trafikk** der du ikke kommer raskere frem
-* **DÃ¥rlig sikt** eller vÃ¦rforhold
-* **AvkjÃ¸ring** kommer snart
-
-For mer detaljert informasjon om forbikjÃ¸ring, se [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte").
-
-### Ã˜konomisk kjÃ¸ring pÃ¥ motorvei
-
+* **Dårlig sikt** eller værforhold
+* **Avkjøring** kommer snart
+For mer detaljert informasjon om forbikjøring, se [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte").
+### Økonomisk kjøring på motorvei
 **Drivstoffbesparende teknikker:**
-* **Jevn hastighet** - UnngÃ¥ unÃ¸dvendig akselerasjon
-* **Forutseende kjÃ¸ring** - Tilpass hastighet til trafikken
-* **Optimal hastighet** - 90-100 km/t er ofte mest Ã¸konomisk
+* **Jevn hastighet** - Unngå unødvendig akselerasjon
+* **Forutseende kjøring** - Tilpass hastighet til trafikken
+* **Optimal hastighet** - 90-100 km/t er ofte mest økonomisk
 * **Tempomat** - Brukes ved jevn trafikk
-
-For mer om miljÃ¸vennlig kjÃ¸ring, se [MiljÃ¸vennlig kjÃ¸ring](/blogs/teori/miljovennlig-kjoring "MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring").
-
-## AvkjÃ¸ring fra motorvei - Profesjonell teknikk
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-### Planlegging av avkjÃ¸ring
-
-**2 km fÃ¸r avkjÃ¸ring:**
-* Identifiser **avkjÃ¸ringsskiltet**
+For mer om miljøvennlig kjøring, se [Miljøvennlig kjøring](/blogs/teori/miljovennlig-kjoring "Miljøvennlig kjøring - Teknikker for bærekraftig kjøring").
+## Avkjøring fra motorvei - Profesjonell teknikk
+![Avkjøringsteknikk detaljert](/blog/motorveikjoring/avkjoring-detaljert.svg)
+### Planlegging av avkjøring
+**2 km før avkjøring:**
+* Identifiser **avkjøringsskiltet**
 * Vurder **trafikksituasjonen**
-* Planlegg **feltskifte** til hÃ¸yre felt om nÃ¸dvendig
-
-**1 km fÃ¸r avkjÃ¸ring:**
-* Plasser deg i **hÃ¸yre kjÃ¸refelt**
-* Reduser hastigheten gradvis om nÃ¸dvendig
-* Observer **avkjÃ¸ringsrampen**
-
-### AvkjÃ¸ringssekvensen - 6 kritiske steg
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-1. **Identifiser** - Gjenkjenn korrekt avkjÃ¸ring i god tid
-2. **Posisjon** - Flytt til hÃ¸yre kjÃ¸refelt
-3. **Signal** - Bruk blinklys fÃ¸r retardasjonsfeltet
+* Planlegg **feltskifte** til høyre felt om nødvendig
+**1 km før avkjøring:**
+* Plasser deg i **høyre kjørefelt**
+* Reduser hastigheten gradvis om nødvendig
+* Observer **avkjøringsrampen**
+### Avkjøringssekvensen - 6 kritiske steg
+![6-stegs avkjøringssekvens](/blog/motorveikjoring/avkjoring-6-steg.svg)
+1. **Identifiser** - Gjenkjenn korrekt avkjøring i god tid
+2. **Posisjon** - Flytt til høyre kjørefelt
+3. **Signal** - Bruk blinklys før retardasjonsfeltet
 4. **Skill** - Inn i retardasjonsfeltet uten bremsing
 5. **Brems** - Reduser hastighet i retardasjonsfeltet
-6. **Tilpass** - Match hastighet til avkjÃ¸ringsrampen
-
-### Kritiske punkter ved avkjÃ¸ring
-
-| Fase | Hastighet | FokusomrÃ¥de | Vanlig feil |
+6. **Tilpass** - Match hastighet til avkjøringsrampen
+### Kritiske punkter ved avkjøring
+| Fase | Hastighet | Fokusområde | Vanlig feil |
 |------|----------|-------------|------------|
-| **HovedkjÃ¸rebane** | 110 km/t | Posisjonering | Sent feltskifte |
-| **Inn i retardasjonsfelt** | 110 km/t | Jevn overgang | BrÃ¥ bremsing |
-| **I retardasjonsfelt** | 110â†’60 km/t | Gradvis nedbremsing | For sen bremsing |
-| **AvkjÃ¸ringsrampe** | 60â†’30 km/t | Rampens kurvatur | For hÃ¸y hastighet |
-
-### Spesielle avkjÃ¸ringssituasjoner
-
+| **Hovedkjørebane** | 110 km/t | Posisjonering | Sent feltskifte |
+| **Inn i retardasjonsfelt** | 110 km/t | Jevn overgang | Brå bremsing |
+| **I retardasjonsfelt** | 110→60 km/t | Gradvis nedbremsing | For sen bremsing |
+| **Avkjøringsrampe** | 60→30 km/t | Rampens kurvatur | For høy hastighet |
+### Spesielle avkjøringssituasjoner
 **Kort retardasjonsfelt:**
 * Start nedbremsingen **tidligere**
-* VÃ¦r mer **bestemt** i nedbremsingen
-* **Ikke vent** med Ã¥ redusere hastighet
-
+* Vær mer **bestemt** i nedbremsingen
+* **Ikke vent** med å redusere hastighet
 **Tett trafikk:**
-* **Planlegg tidligere** - fÃ¥ deg til hÃ¸yre i god tid
+* **Planlegg tidligere** - få deg til høyre i god tid
 * **Kommuniser tydelig** med blinklys
-* **VÃ¦r tÃ¥lmodig** - ikke tving deg ut
-
-**DÃ¥rlig vÃ¦r:**
+* **Vær tålmodig** - ikke tving deg ut
+**Dårlig vær:**
 * **Dobbel planleggingstiden**
 * **Reduser hastighet tidligere**
-* **Ã˜k fÃ¸lgeavstanden** i retardasjonsfeltet
-
+* **Øk følgeavstanden** i retardasjonsfeltet
 ### Vanlige feil og konsekvenser
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Vanlige avkjøringsfeil](/blog/motorveikjoring/avkjoring-feil.svg)
 | Feil | Fare | Korreksjon |
 |------|------|------------|
-| **BrÃ¥ bremsing i hovedfelt** | PÃ¥kjÃ¸ring bakfra | Gradvis nedbremsing i retardasjonsfelt |
-| **Sent blinklys** | Overrasker andre | Signal fÃ¸r retardasjonsfeltet |
-| **For hÃ¸y hastighet pÃ¥ rampe** | UtforkjÃ¸ring | Tilpass hastighet til rampen |
-| **Angrer og kjÃ¸rer tilbake** | SvÃ¦rt farlig | Fortsett og snu senere |
-
+| **Brå bremsing i hovedfelt** | Påkjøring bakfra | Gradvis nedbremsing i retardasjonsfelt |
+| **Sent blinklys** | Overrasker andre | Signal før retardasjonsfeltet |
+| **For høy hastighet på rampe** | Utforkjøring | Tilpass hastighet til rampen |
+| **Angrer og kjører tilbake** | Svært farlig | Fortsett og snu senere |
 ## Fartsgrenser og lovkrav
-
-### Fartsgrenser pÃ¥ ulike veitype
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+### Fartsgrenser på ulike veitype
+![Fartsgrenser oversikt](/blog/motorveikjoring/fartsgrenser-oversikt.svg)
 | Veitype | Standard fartsgrense | Minimum hastighet | Spesielle forhold |
 |---------|---------------------|-------------------|------------------|
-| **Motorvei** | 110 km/t | 40 km/t | Kan reduseres ved dÃ¥rlig vÃ¦r |
+| **Motorvei** | 110 km/t | 40 km/t | Kan reduseres ved dårlig vær |
 | **Motortrafikkvei** | 90 km/t | 40 km/t | Variabel fartsgrense mulig |
 | **4-felts vei** | 80-90 km/t | - | Avhenger av standard |
-
 ### Variabel fartsgrense
-
-**Elektroniske skilt som endrer fartsgrense basert pÃ¥:**
-* **Trafikkmengde** - Redusert hastighet ved kÃ¸
-* **VÃ¦rforhold** - Lavere grense ved regn/snÃ¸
+**Elektroniske skilt som endrer fartsgrense basert på:**
+* **Trafikkmengde** - Redusert hastighet ved kø
+* **Værforhold** - Lavere grense ved regn/snø
 * **Ulykker** - Midlertidig reduksjon
 * **Veiarbeid** - Sikkerhet for arbeidere
-
-### KjÃ¸retÃ¸ykrav for motorvei
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Tillatte kjÃ¸retÃ¸y:**
+### Kjøretøykrav for motorvei
+![Kjøretøykrav motorvei](/blog/motorveikjoring/kjoretoy-krav.svg)
+**Tillatte kjøretøy:**
 * **Personbiler** (klasse B)
 * **Lastebiler** over 3,5 tonn
 * **Busser**
 * **Motorsykler** over 125 ccm
 * **Vogntog** og trailer
-
 **IKKE tillatt:**
 * **Mopeder** og lette motorsykler
 * **Traktorer** (med unntak)
 * **Fotgjengere**
 * **Syklister**
-* **HestekjÃ¸retÃ¸y**
-
-### Tekniske krav til kjÃ¸retÃ¸y
-
+* **Hestekjøretøy**
+### Tekniske krav til kjøretøy
 | Krav | Begrunnelse | Kontroll |
 |------|-------------|----------|
 | **Minimum toppfart 40 km/t** | Opprettholde trafikkflyt | Periodisk kontroll |
-| **Fungerende bremser** | Sikkerhet ved hÃ¸y hastighet | Ã…rlig EU-kontroll |
-| **Dekkdybde minimum 1,6 mm** | Grep pÃ¥ vÃ¥t vei | Visuell kontroll |
+| **Fungerende bremser** | Sikkerhet ved høy hastighet | Årlig EU-kontroll |
+| **Dekkdybde minimum 1,6 mm** | Grep på våt vei | Visuell kontroll |
 | **Lys og reflekser** | Synlighet | Daglig kontroll |
-
-For mer om kjÃ¸retÃ¸yets sikkerhetsutstyr, se [KjÃ¸retÃ¸yets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "KjÃ¸retÃ¸yets sikkerhetsutstyr - Alt om sikkerhetsutstyr i bilen").
-
-Ved kjÃ¸ring med tilhenger pÃ¥ motorvei gjelder reduserte fartsgrenser og spesielle krav til sikkerhet og plassering. Se [KjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger - Guide til sikker tilhengerkjÃ¸ring") for detaljerte regler.
-
-## NÃ¸dsituasjoner pÃ¥ motorvei
-
+For mer om kjøretøyets sikkerhetsutstyr, se [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr - Alt om sikkerhetsutstyr i bilen").
+Ved kjøring med tilhenger på motorvei gjelder reduserte fartsgrenser og spesielle krav til sikkerhet og plassering. Se [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Guide til sikker tilhengerkjøring") for detaljerte regler.
+## Nødsituasjoner på motorvei
 ### Ved motorstopp eller punktering
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Nødstopp på motorvei](/blog/motorveikjoring/nodstopp-motorvei.svg)
 **Umiddelbare tiltak:**
-1. **Aktiver** varselblink og kjÃ¸r mot skulderen
-2. **Stopp** sÃ¥ langt til hÃ¸yre som mulig
-3. **SlÃ¥ pÃ¥** nÃ¸dblinklys
+1. **Aktiver** varselblink og kjør mot skulderen
+2. **Stopp** så langt til høyre som mulig
+3. **Slå på** nødblinklys
 4. **Sett opp** varseltrekant 100-200 meter bak bilen
-5. **GÃ¥ ut** pÃ¥ hÃ¸yre side, bort fra trafikken
-6. **Ring** 113 eller bruk nÃ¸dtelefon
-
+5. **Gå ut** på høyre side, bort fra trafikken
+6. **Ring** 113 eller bruk nødtelefon
 **Varseltrekant plassering:**
-* **Minimum 100 meter** bak kjÃ¸retÃ¸yet
-* **200 meter** ved dÃ¥rlig sikt
-* **PÃ¥ skuldren**, ikke i kjÃ¸rebanen
-
-### Ved ulykke pÃ¥ motorvei
-
-**Prioritert rekkefÃ¸lge:**
+* **Minimum 100 meter** bak kjøretøyet
+* **200 meter** ved dårlig sikt
+* **På skuldren**, ikke i kjørebanen
+### Ved ulykke på motorvei
+**Prioritert rekkefølge:**
 1. **Sikre** skadestedet
-2. **Varsle** nÃ¸detatene (113)
+2. **Varsle** nødetatene (113)
 3. **Hjelpe** skadde hvis mulig
-
-Motorveiulykker har spesielle utfordringer pÃ¥ grunn av hÃ¸y hastighet og begrenset tilgang. For komplett guide til hÃ¥ndtering av alle typer nÃ¸dsituasjoner pÃ¥ motorvei, inkludert kommunikasjon med nÃ¸detater og sikring under hÃ¸yhastighetstrafikk, se [HÃ¥ndtering av nÃ¸dsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "HÃ¥ndtering av nÃ¸dsituasjoner - Komplett guide til nÃ¸dhÃ¥ndtering i trafikken").
-
-For mer om fÃ¸rstehjelp, se [FÃ¸rstehjelp og opptreden ved ulykker](/blogs/teori/forstehjelp-og-opptreden-ved-ulykker "FÃ¸rstehjelp og opptreden ved ulykker - Livreddende fÃ¸rstehjelp").
-
-## VÃ¦rforhold og motorveikjÃ¸ring
-
-### Regn og vÃ¥te forhold
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+Motorveiulykker har spesielle utfordringer på grunn av høy hastighet og begrenset tilgang. For komplett guide til håndtering av alle typer nødsituasjoner på motorvei, inkludert kommunikasjon med nødetater og sikring under høyhastighetstrafikk, se [Håndtering av nødsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "Håndtering av nødsituasjoner - Komplett guide til nødhåndtering i trafikken").
+For mer om førstehjelp, se [Førstehjelp og opptreden ved ulykker](/blogs/teori/forstehjelp-og-opptreden-ved-ulykker "Førstehjelp og opptreden ved ulykker - Livreddende førstehjelp").
+## Værforhold og motorveikjøring
+### Regn og våte forhold
+![Kjøring i regn på motorvei](/blog/motorveikjoring/regn-motorvei.svg)
 **Tilpasninger ved regn:**
 * **Reduser hastighet** til 80-90 km/t
-* **Ã˜k fÃ¸lgeavstand** til 4-5 sekunder
-* **UnngÃ¥** plutselige manÃ¸vre
+* **Øk følgeavstand** til 4-5 sekunder
+* **Unngå** plutselige manøvre
 * **Test bremsene** jevnlig og forsiktig
-
 **Vannplaning - faresignaler:**
-* Bilen **"flyter"** pÃ¥ veien
+* Bilen **"flyter"** på veien
 * **Lettere ratt** - mindre motstand
-* **Motor lÃ¥ter annerledes** - mindre motstand
-
+* **Motor låter annerledes** - mindre motstand
 ### Vinter og glatte forhold
-
 **Spesielle hensyn:**
-* **Vinterdekk** er obligatorisk (se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mÃ¸nsterdybde, piggdekk og kjetting"))
+* **Vinterdekk** er obligatorisk (se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mønsterdybde, piggdekk og kjetting"))
 * **Hastighet** reduseres til 60-80 km/t
-* **Kjetting** ved sÃ¦rlig glatte forhold (se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mÃ¸nsterdybde, piggdekk og kjetting"))
-* **Lengre fÃ¸lgeavstand** - opptil 6-8 sekunder
-
-For detaljert informasjon om kjÃ¸ring under vanskelige forhold, se [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold - Comprehensive guide to challenging driving conditions").
-
-## Psykologi og motorveikjÃ¸ring
-
+* **Kjetting** ved særlig glatte forhold (se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mønsterdybde, piggdekk og kjetting"))
+* **Lengre følgeavstand** - opptil 6-8 sekunder
+For detaljert informasjon om kjøring under vanskelige forhold, se [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold - Comprehensive guide to challenging driving conditions").
+## Psykologi og motorveikjøring
 ### Hypervigilans og monotoni
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Motorvei psykologi](/blog/motorveikjoring/motorvei-psykologi.svg)
 **Vanlige psykologiske utfordringer:**
-* **Monotoni** - Lang, ensformig kjÃ¸ring
-* **Hastighetsillusjon** - Mister fÃ¸lelsen for hastighet
+* **Monotoni** - Lang, ensformig kjøring
+* **Hastighetsillusjon** - Mister følelsen for hastighet
 * **Tunnelsyn** - Fokuserer for smalt
 * **Overselvsikkerhet** - Undervurderer risiko
-
 **Forebyggende tiltak:**
 * **Pause hver 2. time**
 * **Variere hastigheten** innenfor lovlige rammer
 * **Aktiv observasjon** - se etter detaljer
-* **Planlegg ruten** pÃ¥ forhÃ¥nd
-
+* **Planlegg ruten** på forhånd
 ### Aggressiv adferd og "road rage"
-
-**UnngÃ¥ Ã¥ provosere:**
+**Unngå å provosere:**
 * **Ikke blokkere** venstre felt
 * **Ikke"straffe"** andre bilister
-* **Hold avstand** til aggressive sjÃ¥fÃ¸rer
-* **Rapporter** farlig kjÃ¸ring til politiet
-
-## MiljÃ¸aspekter ved motorveikjÃ¸ring
-
+* **Hold avstand** til aggressive sjåfører
+* **Rapporter** farlig kjøring til politiet
+## Miljøaspekter ved motorveikjøring
 ### CO2-utslipp og drivstofforbruk
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Miljøeffekter av motorveikjøring](/blog/motorveikjoring/miljo-motorvei.svg)
 **Hastighet vs. drivstofforbruk:**
 * **90 km/t**: Optimalt for de fleste biler
-* **110 km/t**: 15-25% hÃ¸yere forbruk
-* **130 km/t**: 35-50% hÃ¸yere forbruk
-
-**Andre miljÃ¸tiltak:**
-* **SamkjÃ¸ring** nÃ¥r mulig
-* **Planlegg reiser** for Ã¥ unngÃ¥ rushtid
-* **Jevn kjÃ¸ring** reduserer utslipp
+* **110 km/t**: 15-25% høyere forbruk
+* **130 km/t**: 35-50% høyere forbruk
+**Andre miljøtiltak:**
+* **Samkjøring** når mulig
+* **Planlegg reiser** for å unngå rushtid
+* **Jevn kjøring** reduserer utslipp
 * **Riktig dekktrykk** sparer drivstoff
-
 ## Teknologi og fremtidens motorvei
-
 ### Intelligente transportsystemer (ITS)
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Fremtidens motorvei](/blog/motorveikjoring/fremtidens-motorvei.svg)
 **Kommende teknologier:**
 * **Adaptiv fartsregulering** (ACC)
 * **Filskifte-assistanse** (LCA)
 * **Kommunikasjon bil-til-bil** (V2V)
-* **Autonome kjÃ¸refelter**
-
-### Forberedelse pÃ¥ selvkjÃ¸rende biler
-
+* **Autonome kjørefelter**
+### Forberedelse på selvkjørende biler
 **Overgangsperioden:**
-* **Blandet trafikk** - bÃ¥de manuelle og autonome
+* **Blandet trafikk** - både manuelle og autonome
 * **Nye kommunikasjonsformer**
 * **Oppdaterte trafikkreglers**
-
 For informasjon om bilens tekniske deler, se [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - Oversikt over bilens komponenter").
-
 ## Oppsummering og viktige punkter
-
-**MotorveikjÃ¸ring krever:**
-
-* **Grundig forstÃ¥else** av motorveiens struktur og funksjon
-* **Mestring** av pÃ¥- og avkjÃ¸ringsteknikk
+**Motorveikjøring krever:**
+* **Grundig forståelse** av motorveiens struktur og funksjon
+* **Mestring** av på- og avkjøringsteknikk
 * **Kontinuerlig** vurdering av hastighet og avstand
 * **Proaktiv** sikkerhetstankegang
-* **Respekt** for vÃ¦rforhold og egne begrensninger
-
-**Husk disse nÃ¸kkelprinsippene:**
-
-1. **Planlegg** alle manÃ¸vre i god tid
+* **Respekt** for værforhold og egne begrensninger
+**Husk disse nøkkelprinsippene:**
+1. **Planlegg** alle manøvre i god tid
 2. **Kommuniser** tydelig med andre trafikanter
 3. **Tilpass** hastighet til forholdene
-4. **Oppretthold** sikker fÃ¸lgeavstand
-5. **VÃ¦r** forberedt pÃ¥ nÃ¸dsituasjoner
-
-*Med denne omfattende kunnskapen er du godt rustet til Ã¥ ferdes trygt og effektivt pÃ¥ norske motorveier. Ã˜v pÃ¥ teknikkene gradvis og husk at erfaring kombinert med kunnskap gir den beste sikkerheten.*
-
-**Relaterte artikler for videre lÃ¦ring:**
-* [Defensiv kjÃ¸ring](/blogs/teori/defensiv-kjoring "Defensiv kjÃ¸ring - Forebyggende kjÃ¸reteknikker") - Forebyggende kjÃ¸reteknikker
-* [HÃ¥ndtering av nÃ¸dsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "HÃ¥ndtering av nÃ¸dsituasjoner - HÃ¥ndtering av kritiske situasjoner") - Kritiske situasjoner
-* [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Fysikk og sikkerhet") - Fysikk og sikkerhet\n  </div>\n</div>
+4. **Oppretthold** sikker følgeavstand
+5. **Vær** forberedt på nødsituasjoner
+*Med denne omfattende kunnskapen er du godt rustet til å ferdes trygt og effektivt på norske motorveier. Øv på teknikkene gradvis og husk at erfaring kombinert med kunnskap gir den beste sikkerheten.*
+**Relaterte artikler for videre læring:**
+* [Defensiv kjøring](/blogs/teori/defensiv-kjoring "Defensiv kjøring - Forebyggende kjøreteknikker") - Forebyggende kjøreteknikker
+* [Håndtering av nødsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "Håndtering av nødsituasjoner - Håndtering av kritiske situasjoner") - Kritiske situasjoner
+* [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Fysikk og sikkerhet") - Fysikk og sikkerhet

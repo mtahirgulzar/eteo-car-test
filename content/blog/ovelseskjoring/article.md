@@ -1,14 +1,13 @@
 ﻿---
-title: "Øvelseskjøring (krav til ledsager, bilen m.m)"
+title: "Ovelseskjoring"
 date: 2025-08-06
 draft: false
 author: "Eteo Team"
-description: "Alt du trenger å vite om privat øvelseskjøring i Norge: krav til ledsager, krav til bil, merking og praktiske råd."
+description: "Guide to Ovelseskjoring for Norwegian driving theory exam."
 categories: ["Driving Theory"]
 tags: ["driving", "theory", "safety"]
-featured_image: "/images/blog/ovelseskjoring/ovelseskjoring-image.svg"
+featured_image: "/blog/ovelseskjoring/ovelseskjoring-image.svg"
 ---
-
 <style>
 /* Base text styling */
 .article-content {
@@ -17,7 +16,6 @@ featured_image: "/images/blog/ovelseskjoring/ovelseskjoring-image.svg"
   color: #1f2937;
   font-size: 16px;
 }
-
 /* Headers */
 h1 {
   font-size: 2rem;
@@ -25,61 +23,56 @@ h1 {
   margin: 2rem 0 1.5rem;
   color: #111827;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
   color: #1f2937;
 }
-
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1.5rem 0 0.75rem;
   color: #374151;
 }
-
 /* Paragraphs */
 p {
   margin: 1rem 0;
   line-height: 1.7;
 }
-
 /* Lists */
 ul, ol {
   margin: 1rem 0 1rem 1.5rem;
   padding-left: 1rem;
 }
-
 li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
 }
-
-ul > li::before {
-  content: 'â€¢';
-  color: #3b82f6;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
 }
-
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 /* Code blocks */
 pre, code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -87,17 +80,14 @@ pre, code {
   border-radius: 0.375rem;
   font-size: 0.875em;
 }
-
 pre {
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
 }
-
 code {
   padding: 0.2em 0.4em;
 }
-
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #e5e7eb;
@@ -107,7 +97,6 @@ blockquote {
   color: #4b5563;
   font-style: italic;
 }
-
 /* Tables */
 table {
   margin: 1.5rem auto !important;
@@ -120,14 +109,12 @@ table {
   border: 1px solid #e5e7eb !important;
   display: table !important;
 }
-
 th, td {
   padding: 0.75rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #e5e7eb !important;
   vertical-align: top;
 }
-
 th {
   background-color: #f9fafb !important;
   font-weight: 600 !important;
@@ -136,25 +123,20 @@ th {
   font-size: 0.75rem !important;
   letter-spacing: 0.05em !important;
 }
-
 tr:nth-child(even) {
   background-color: #f9fafb !important;
 }
-
 tr:hover {
   background-color: #f3f4f6 !important;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .article-content {
     font-size: 15px;
   }
-  
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.375rem; }
   h3 { font-size: 1.125rem; }
-  
   table {
     display: block !important;
     overflow-x: auto !important;
@@ -162,104 +144,52 @@ tr:hover {
   }
 }
 </style>
-
-
-<div class="blog-content">
-  <div class="featured-image">
-    <img src="/images/blog/ovelseskjoring/ovelseskjoring-image.svg" alt="Øvelseskjøring (krav til ledsager, bilen m.m)" class="img-fluid rounded">
-  </div>
-
-  <div class="toc-container mt-4 mb-4">
-    <h3>Table of Contents</h3>
-    {{< toc >}}
-  </div>
-
-  <div class="blog-body">\n{{< toc >}}}}
-{{< toc >}}}}
-{{< toc >}}}}
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Ã˜velseskjÃ¸ring** er privat praktisk kjÃ¸retrening som du kan gjennomfÃ¸re med en kvalifisert ledsager fÃ¸r eller i tillegg til kjÃ¸reopplÃ¦ring hos kjÃ¸reskole. Private Ã¸velseskjÃ¸ringer gir ekstra erfaring, **bygger trygghet** og kan redusere kostnader ved obligatoriske kjÃ¸retimer.
-
-## Hva er Ã¸velseskjÃ¸ring?
-
-Ã˜velseskjÃ¸ring innebÃ¦rer at fÃ¸reren bak rattet er under veiledning av en ledsager som oppfyller kravene i regelverket. Det gir mulighet til Ã¥ Ã¸ve kontroll, trafikksituasjoner og kjÃ¸referdigheter i eget tempo.
-
+**Øvelseskjøring** er privat praktisk kjøretrening som du kan gjennomføre med en kvalifisert ledsager før eller i tillegg til kjøreopplæring hos kjøreskole. Private øvelseskjøringer gir ekstra erfaring, **bygger trygghet** og kan redusere kostnader ved obligatoriske kjøretimer.
+## Hva er øvelseskjøring?
+Øvelseskjøring innebærer at føreren bak rattet er under veiledning av en ledsager som oppfyller kravene i regelverket. Det gir mulighet til å øve kontroll, trafikksituasjoner og kjøreferdigheter i eget tempo.
 ## Krav til ledsager
-
 | Krav             | Beskrivelse                                                       |
 |------------------|-------------------------------------------------------------------|
-| **Alder**        | Minst 25 Ã¥r                                                       |
-| **FÃ¸rerkort**    | Klasse B, minst 5 Ã¥rs erfaring som innehaver                     |
-| **Medlemsskap**  | Ingen krav til kjÃ¸reskolemedlemskap for privat ledsager          |
-| **NÃ¸kkelklar**   | Ingen utestÃ¥ende fÃ¸rerkortanmerkninger eller inndragelser        |
-
+| **Alder**        | Minst 25 år                                                       |
+| **Førerkort**    | Klasse B, minst 5 års erfaring som innehaver                     |
+| **Medlemsskap**  | Ingen krav til kjøreskolemedlemskap for privat ledsager          |
+| **Nøkkelklar**   | Ingen utestående førerkortanmerkninger eller inndragelser        |
 ## Krav til bil
-
 | Krav                     | Beskrivelse                                                       |
 |--------------------------|-------------------------------------------------------------------|
-| **EU-godkjent kjÃ¸retÃ¸y** | Gyldig periodisk kjÃ¸retÃ¸ykontroll (EU-kontroll)                  |
-| **Forsikring**          | Gyldig ansvarsforsikring, eventuelt Ã¸velseskjÃ¸ringstillegg       |
-| **L-skilting**          | PÃ¥krevd merkeskilt for Ã¸velseskjÃ¸ring                             |
+| **EU-godkjent kjøretøy** | Gyldig periodisk kjøretøykontroll (EU-kontroll)                  |
+| **Forsikring**          | Gyldig ansvarsforsikring, eventuelt øvelseskjøringstillegg       |
+| **L-skilting**          | Påkrevd merkeskilt for øvelseskjøring                             |
 | **Tekniske krav**       | Dekk, lys og bremser i forskriftsmessig stand                     |
-
-## Hvor og nÃ¥r kan du Ã¸velseskjÃ¸re?
-
-* Ã˜velseskjÃ¸ring er tillatt pÃ¥ offentlig vei etter gjennomfÃ¸rt [trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for fÃ¸rerkort klasse B").
-* For de som er 17 Ã¥r, gjelder **17-Ã¥rsordningen** under de samme vilkÃ¥r.
-* Ingen Ã¸vre grense for antall Ã¸velsestimer hos privat ledsager.
-
+## Hvor og når kan du øvelseskjøre?
+* Øvelseskjøring er tillatt på offentlig vei etter gjennomført [trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for førerkort klasse B").
+* For de som er 17 år, gjelder **17-årsordningen** under de samme vilkår.
+* Ingen øvre grense for antall øvelsestimer hos privat ledsager.
 ## Merking av bilen
-
-FÃ¸lgende utstyr og merking pÃ¥ kjÃ¸retÃ¸yet er **pÃ¥krevd**:
-
+Følgende utstyr og merking på kjøretøyet er **påkrevd**:
 * **L-skilt** foran og bak
 * **Refleksvest** lett tilgjengelig i bilen
-* **Godt synlig** kjÃ¸reskolelogo hvis aktuelt
-
-## Dokumentasjon og loggfÃ¸ring
-
-Det anbefales Ã¥ fÃ¸re en **kjÃ¸relogg** over Ã¸velseskjÃ¸ringer:
-
+* **Godt synlig** kjøreskolelogo hvis aktuelt
+## Dokumentasjon og loggføring
+Det anbefales å føre en **kjørelogg** over øvelseskjøringer:
 | Post            | Eksempel                                                          |
 |-----------------|-------------------------------------------------------------------|
 | Dato            | 14. mai 2023                                                      |
 | Varighet (min)  | 90                                                                |
-| Sted            | Landvei / BykjÃ¸ring                                               |
+| Sted            | Landvei / Bykjøring                                               |
 | Tema            | Svingteknikk, rygging, avstand                                        |
-| Kommentar       | Fokus pÃ¥ vikeplikt og plassering                                   |
-
+| Kommentar       | Fokus på vikeplikt og plassering                                   |
 En slik loggbok gir god oversikt over progresjon og kan brukes til refleksjon.
-
-## Tips for effektiv Ã¸velseskjÃ¸ring
-
-1. **Planlegg ruten** â€“ varier mellom by, landeveg og parkering.
-2. **Sett klare mÃ¥l** for hver Ã¸velse (for eksempel rundkjÃ¸ringer eller rygging).
-3. **Samle feedback** etter kjÃ¸ring â€“ bruk notater eller video.
-4. **Ã˜v jevnlig** â€“ korte og hyppige Ã¸kter gir bedre lÃ¦ring.
-
+## Tips for effektiv øvelseskjøring
+1. **Planlegg ruten** – varier mellom by, landeveg og parkering.
+2. **Sett klare mål** for hver øvelse (for eksempel rundkjøringer eller rygging).
+3. **Samle feedback** etter kjøring – bruk notater eller video.
+4. **Øv jevnlig** – korte og hyppige økter gir bedre læring.
 ## Relaterte artikler
-- [Hvem har ansvar under Ã¸velseskjÃ¸ring](/blogs/teori/hvem-har-ansvar-under-ovelseskjoring "Hvem har ansvar under Ã¸velseskjÃ¸ring (lÃ¥n, forsvarlig stand, forskriftsmessig stand m.m)")
-- [Trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for fÃ¸rerkort klasse B")
-- [Forerkortklasser (oversikt)](/blogs/teori/forerkortklasser-oversikt "FÃ¸rerkortklasser (oversikt): Oversikt over alle fÃ¸rerkortklasser i Norge")
-- [OppkjÃ¸ring](/blogs/teori/oppkjoring "OppkjÃ¸ring - Guide til praktisk kjÃ¸reprÃ¸ve for fÃ¸rerkort i bil")
-- [Forerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "FÃ¸rerkort, vognkort og forsikring - NÃ¸dvendige dokumenter for lovlig kjÃ¸ring")
-
+- [Hvem har ansvar under øvelseskjøring](/blogs/teori/hvem-har-ansvar-under-ovelseskjoring "Hvem har ansvar under øvelseskjøring (lån, forsvarlig stand, forskriftsmessig stand m.m)")
+- [Trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for førerkort klasse B")
+- [Forerkortklasser (oversikt)](/blogs/teori/forerkortklasser-oversikt "Førerkortklasser (oversikt): Oversikt over alle førerkortklasser i Norge")
+- [Oppkjøring](/blogs/teori/oppkjoring "Oppkjøring - Guide til praktisk kjøreprøve for førerkort i bil")
+- [Forerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "Førerkort, vognkort og forsikring - Nødvendige dokumenter for lovlig kjøring")
 ## Oppsummering
-
-**Ã˜velseskjÃ¸ring** med privat ledsager er en **kostnadseffektiv** og **lÃ¦ringsrik** mÃ¥te Ã¥ forbedre kjÃ¸referdighetene pÃ¥. Ved Ã¥ fÃ¸lge regelverket for ledsager, bil, merking og dokumentasjon, legger du et solid grunnlag for trygg og sikker kjÃ¸ring.\n  </div>\n</div>
+**Øvelseskjøring** med privat ledsager er en **kostnadseffektiv** og **læringsrik** måte å forbedre kjøreferdighetene på. Ved å følge regelverket for ledsager, bil, merking og dokumentasjon, legger du et solid grunnlag for trygg og sikker kjøring.

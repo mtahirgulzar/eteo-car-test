@@ -1,14 +1,13 @@
 ﻿---
-title: "ABS (Antiblokkeringssystem)"
+title: "Abs Antiblokkeringssystem"
 date: 2025-08-06
 draft: false
 author: "Eteo Team"
-description: "Lær hvordan ABS (antiblokkeringssystem) fungerer, fordeler og vedlikehold. Viktig kunnskap for teoriprøven i klasse B."
+description: "Guide to Abs Antiblokkeringssystem for Norwegian driving theory exam."
 categories: ["Driving Theory"]
 tags: ["driving", "theory", "safety"]
-featured_image: "/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg"
+featured_image: "/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg"
 ---
-
 <style>
 /* Base text styling */
 .article-content {
@@ -17,7 +16,6 @@ featured_image: "/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssyste
   color: #1f2937;
   font-size: 16px;
 }
-
 /* Headers */
 h1 {
   font-size: 2rem;
@@ -25,61 +23,62 @@ h1 {
   margin: 2rem 0 1.5rem;
   color: #111827;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
   color: #1f2937;
 }
-
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1.5rem 0 0.75rem;
   color: #374151;
 }
-
 /* Paragraphs */
 p {
   margin: 1rem 0;
   line-height: 1.7;
 }
-
 /* Lists */
 ul, ol {
-  margin: 1rem 0 1rem 1.5rem;
-  padding-left: 1rem;
+  margin: 1rem 0;
+  padding-left: 2rem;
 }
-
 li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
 }
-
-ul > li::before {
-  content: 'â€¢';
-  color: #3b82f6;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+ul {
+  list-style-type: disc;
 }
-
+ol {
+  list-style-type: decimal;
+}
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
+}
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 /* Code blocks */
 pre, code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -87,17 +86,14 @@ pre, code {
   border-radius: 0.375rem;
   font-size: 0.875em;
 }
-
 pre {
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
 }
-
 code {
   padding: 0.2em 0.4em;
 }
-
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #e5e7eb;
@@ -107,7 +103,6 @@ blockquote {
   color: #4b5563;
   font-style: italic;
 }
-
 /* Tables */
 table {
   margin: 1.5rem auto !important;
@@ -120,14 +115,12 @@ table {
   border: 1px solid #e5e7eb !important;
   display: table !important;
 }
-
 th, td {
   padding: 0.75rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #e5e7eb !important;
   vertical-align: top;
 }
-
 th {
   background-color: #f9fafb !important;
   font-weight: 600 !important;
@@ -136,25 +129,20 @@ th {
   font-size: 0.75rem !important;
   letter-spacing: 0.05em !important;
 }
-
 tr:nth-child(even) {
   background-color: #f9fafb !important;
 }
-
 tr:hover {
   background-color: #f3f4f6 !important;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .article-content {
     font-size: 15px;
   }
-  
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.375rem; }
   h3 { font-size: 1.125rem; }
-  
   table {
     display: block !important;
     overflow-x: auto !important;
@@ -162,109 +150,44 @@ tr:hover {
   }
 }
 </style>
-
-
-<div class="blog-content">
-  <div class="featured-image">
-    <img src="/images/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg" alt="ABS (Antiblokkeringssystem)" class="img-fluid rounded">
-  </div>
-
-  <div class="toc-container mt-4 mb-4">
-    <h3>Table of Contents</h3>
-    {{< toc >}}
-  </div>
-
-  <div class="blog-body">\n{{< toc >}}}}
-{{< toc >}}}}
-{{< toc >}}}}
-Antiblokkeringssystemet, eller **ABS**, er et avgjÃ¸rende **sikkerhetssystem** i moderne biler som forhindrer at hjulene lÃ¥ser seg under bremsing.
-Ved Ã¥ opprettholde styrekontroll og optimalisere bremselengden bidrar ABS til Ã¸kt trafikksikkerhet.
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+Antiblokkeringssystemet, eller **ABS**, er et avgjørende **sikkerhetssystem** i moderne biler som forhindrer at hjulene låser seg under bremsing.
+Ved å opprettholde styrekontroll og optimalisere bremselengden bidrar ABS til økt trafikksikkerhet.
+![ABS (Antiblokkeringssystem)](/blog/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg)
 ## Hva er ABS?
-
-**ABS** stÃ¥r for *Antiblokkeringssystem* og er designet for Ã¥ hindre at hjulene gÃ¥r i lÃ¥s ved kraftig bremsing.
-Systemet sikrer at du beholder styringsevnen og kan manÃ¸vrere uten at hjulene sklir.
-
-Se ogsÃ¥ [Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)") for en teknisk gjennomgang av bremsesystemets komponenter.
-
+**ABS** står for *Antiblokkeringssystem* og er designet for å hindre at hjulene går i lås ved kraftig bremsing.
+Systemet sikrer at du beholder styringsevnen og kan manøvrere uten at hjulene sklir.
+Se også [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)") for en teknisk gjennomgang av bremsesystemets komponenter.
 ## Kort historikk
-
-ABS ble fÃ¸rst introdusert pÃ¥ produksjonsbiler tidlig pÃ¥ 1970-tallet. Siden har teknologien utviklet seg med raskere sensorer og mer avanserte styreenheter.
-
+ABS ble først introdusert på produksjonsbiler tidlig på 1970-tallet. Siden har teknologien utviklet seg med raskere sensorer og mer avanserte styreenheter.
 ## Hvordan fungerer ABS?
-
-ABS kombinerer mekaniske, elektroniske og hydrauliske komponenter for Ã¥ regulere bremsetrykket kontinuerlig:
-
-* **Hjulhastighetssensorer** mÃ¥ler hvert hjuls rotasjonshastighet.
-* **ABS-modulen** sammenligner dataene og oppdager fare for hjullÃ¥sing.
+ABS kombinerer mekaniske, elektroniske og hydrauliske komponenter for å regulere bremsetrykket kontinuerlig:
+* **Hjulhastighetssensorer** måler hvert hjuls rotasjonshastighet.
+* **ABS-modulen** sammenligner dataene og oppdager fare for hjullåsing.
 * **Hydrauliske ventiler** justerer bremsetrykket ved behov.
-* **Pumpesystem** gjenoppretter bremsetrykk raskt for Ã¥ opprettholde optimal friksjon.
-* FÃ¸reren opplever **vibrasjoner i bremsepedalen** nÃ¥r ABS er aktivt.
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+* **Pumpesystem** gjenoppretter bremsetrykk raskt for å opprettholde optimal friksjon.
+* Føreren opplever **vibrasjoner i bremsepedalen** når ABS er aktivt.
+![Hvordan ABS fungerer](/blog/abs-antiblokkeringssystem/abs-funksjon.svg)
 ## Fordeler med ABS
-
 * **Bevarer styrekontroll** selv ved hard bremsing.
-* **Reduserer bremselengde** pÃ¥ tÃ¸rre og vÃ¥te veier.
-* **Forhindrer slitasje** fra blokkering og flatkjÃ¸ring av dekk.
+* **Reduserer bremselengde** på tørre og våte veier.
+* **Forhindrer slitasje** fra blokkering og flatkjøring av dekk.
 * **Grunnlag for moderne sikkerhetssystemer** som ESC og Traction Control.
-
 ## Begrensninger og forhold
-
-* PÃ¥ meget glatt underlag (is, lÃ¸s snÃ¸) kan ABS i enkelte tilfeller Ã¸ke bremselengden.
+* På meget glatt underlag (is, løs snø) kan ABS i enkelte tilfeller øke bremselengden.
 * Systemet er avhengig av god sensor- og ventiltilstand.
 * ABS erstatter ikke god bremseteknikk og tilpasset hastighet.
-
 ## Vedlikehold og kontroll
-
 * **Kontroller varsellampe for ABS** ved tenning av tenningen.
 * **Les av feilkoder** ved diagnose hvis lampen forblir tent.
 * **Inspiser komponenter** (sensorer, ledninger, ventiler) ved service.
-* **FÃ¸lg bilprodusentens intervaller** for vedlikehold.
-
-## Relevans for teoriprÃ¸ven
-
-* Kjenn **prinsippene bak ABS** og hva som skjer nÃ¥r systemet aktiveres.
-* ForstÃ¥ **fordeler og begrensninger** i ulike kjÃ¸resituasjoner.
-* VÃ¦r forberedt pÃ¥ Ã¥ **forklare hvordan ABS bidrar** til trygg bremsing.
-
+* **Følg bilprodusentens intervaller** for vedlikehold.
+## Relevans for teoriprøven
+* Kjenn **prinsippene bak ABS** og hva som skjer når systemet aktiveres.
+* Forstå **fordeler og begrensninger** i ulike kjøresituasjoner.
+* Vær forberedt på å **forklare hvordan ABS bidrar** til trygg bremsing.
 ## Videre lesning
-
 * [Aktiv og passiv sikkerhet](/blogs/teori/aktiv-og-passiv-sikkerhet "Aktiv og passiv sikkerhet - ESP, airbag og mer") - Grunnleggende om aktiv og passiv sikkerhetssystemer i bil
-* [Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)")
-* [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold")
+* [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)")
+* [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold")
 * [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Stoppeavstand og reaksjonstid")
-* [KjÃ¸retÃ¸yets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "KjÃ¸retÃ¸yets sikkerhetsutstyr - ABS, ESC og mer")\n  </div>\n</div>
+* [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr - ABS, ESC og mer")

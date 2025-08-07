@@ -1,14 +1,13 @@
 ﻿---
-title: "Kjøring med tilhenger"
+title: "Kjoring Med Tilhenger"
 date: 2025-08-06
 draft: false
 author: "Eteo Team"
-description: "Komplett guide til kjøring med tilhenger i Norge: Førerkortskrav, vektberegninger, lastsikring, kjøreteknikker, vedlikehold og juridiske konsekvenser."
+description: "Guide to Kjoring Med Tilhenger for Norwegian driving theory exam."
 categories: ["Driving Theory"]
 tags: ["driving", "theory", "safety"]
-featured_image: "/images/blog/kjoring-med-tilhenger/kjoring-med-tilhenger-image.svg"
+featured_image: "/blog/kjoring-med-tilhenger/kjoring-med-tilhenger-image.svg"
 ---
-
 <style>
 /* Base text styling */
 .article-content {
@@ -17,7 +16,6 @@ featured_image: "/images/blog/kjoring-med-tilhenger/kjoring-med-tilhenger-image.
   color: #1f2937;
   font-size: 16px;
 }
-
 /* Headers */
 h1 {
   font-size: 2rem;
@@ -25,61 +23,56 @@ h1 {
   margin: 2rem 0 1.5rem;
   color: #111827;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
   color: #1f2937;
 }
-
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1.5rem 0 0.75rem;
   color: #374151;
 }
-
 /* Paragraphs */
 p {
   margin: 1rem 0;
   line-height: 1.7;
 }
-
 /* Lists */
 ul, ol {
   margin: 1rem 0 1rem 1.5rem;
   padding-left: 1rem;
 }
-
 li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
 }
-
-ul > li::before {
-  content: 'â€¢';
-  color: #3b82f6;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
 }
-
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 /* Code blocks */
 pre, code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -87,17 +80,14 @@ pre, code {
   border-radius: 0.375rem;
   font-size: 0.875em;
 }
-
 pre {
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
 }
-
 code {
   padding: 0.2em 0.4em;
 }
-
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #e5e7eb;
@@ -107,7 +97,6 @@ blockquote {
   color: #4b5563;
   font-style: italic;
 }
-
 /* Tables */
 table {
   margin: 1.5rem auto !important;
@@ -120,14 +109,12 @@ table {
   border: 1px solid #e5e7eb !important;
   display: table !important;
 }
-
 th, td {
   padding: 0.75rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #e5e7eb !important;
   vertical-align: top;
 }
-
 th {
   background-color: #f9fafb !important;
   font-weight: 600 !important;
@@ -136,25 +123,20 @@ th {
   font-size: 0.75rem !important;
   letter-spacing: 0.05em !important;
 }
-
 tr:nth-child(even) {
   background-color: #f9fafb !important;
 }
-
 tr:hover {
   background-color: #f3f4f6 !important;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .article-content {
     font-size: 15px;
   }
-  
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.375rem; }
   h3 { font-size: 1.125rem; }
-  
   table {
     display: block !important;
     overflow-x: auto !important;
@@ -162,647 +144,299 @@ tr:hover {
   }
 }
 </style>
-
-
-<div class="blog-content">
-  <div class="featured-image">
-    <img src="/images/blog/kjoring-med-tilhenger/kjoring-med-tilhenger-image.svg" alt="Kjøring med tilhenger" class="img-fluid rounded">
-  </div>
-
-  <div class="toc-container mt-4 mb-4">
-    <h3>Table of Contents</h3>
-    {{< toc >}}
-  </div>
-
-  <div class="blog-body">\n{{< toc >}}}}
-{{< toc >}}}}
-{{< toc >}}}}
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**KjÃ¸ring med tilhenger** krever grundig forstÃ¥else av **vektbegrensninger**, **lastsikring**, **kjÃ¸reteknikk** og relevante **trafikkregler**. I denne omfattende guiden fÃ¥r du en komplett oversikt over alt du trenger for trygg og lovlig hengerkjÃ¸ring i Norge.
-
-For en oversikt over regler for spesielle kjÃ¸retÃ¸y, se [Trafikkregler for spesielle kjÃ¸retÃ¸y](/blogs/teori/trafikkregler-for-spesielle-kjoretoy "Trafikkregler for spesielle kjÃ¸retÃ¸y - Regler for tilhenger og andre spesielle kjÃ¸retÃ¸y").
-
-*Ved langkjÃ¸ring med tilhenger er god forberedelse ekstra viktig - se [Forberedelser fÃ¸r en lang kjÃ¸retur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser fÃ¸r en lang kjÃ¸retur - Komplett guide til trygg langkjÃ¸ring") for omfattende forberedelser.*
-
+**Kjøring med tilhenger** krever grundig forståelse av **vektbegrensninger**, **lastsikring**, **kjøreteknikk** og relevante **trafikkregler**. I denne omfattende guiden får du en komplett oversikt over alt du trenger for trygg og lovlig hengerkjøring i Norge.
+For en oversikt over regler for spesielle kjøretøy, se [Trafikkregler for spesielle kjøretøy](/blogs/teori/trafikkregler-for-spesielle-kjoretoy "Trafikkregler for spesielle kjøretøy - Regler for tilhenger og andre spesielle kjøretøy").
+*Ved langkjøring med tilhenger er god forberedelse ekstra viktig - se [Forberedelser før en lang kjøretur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser før en lang kjøretur - Komplett guide til trygg langkjøring") for omfattende forberedelser.*
 *For informasjon om **sikring av last og passasjerer**, se [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring").*
-
 *For informasjon om **vognkort** og **koblingslast**, se [Bil og tilhenger, vognkort og koblingslast](/blogs/teori/bil-og-tilhenger-vognkort-koblingslast "Bil og tilhenger (klasse B), vognkort, koblingslast").*
-
-*Merk: Tauing av bil (f.eks. nÃ¥r bilen gÃ¥r tom for drift) er ikke dekket i denne artikkelen. Se [Ansvar ved tauing av bil](/blogs/teori/ansvar-ved-tauing-av-bil "Ansvar ved tauing av bil - Ansvar ved tauing av bil") for regler og ansvar ved tauing av bil.*
-
+*Merk: Tauing av bil (f.eks. når bilen går tom for drift) er ikke dekket i denne artikkelen. Se [Ansvar ved tauing av bil](/blogs/teori/ansvar-ved-tauing-av-bil "Ansvar ved tauing av bil - Ansvar ved tauing av bil") for regler og ansvar ved tauing av bil.*
 ## Innholdsfortegnelse
-
 * [Grunnleggende om tilhengere](#grunnleggende-om-tilhengere)
-* [FÃ¸rerkortskrav og kategorier](#forerkortskrav-og-kategorier)  
+* [Førerkortskrav og kategorier](#forerkortskrav-og-kategorier)  
 * [Planlegging og vektbegrensninger](#planlegging-og-vektbegrensninger)
 * [Kobling og teknisk kontroll](#kobling-og-teknisk-kontroll)
 * [Lastsikring og vektfordeling](#lastsikring-og-vektfordeling)
-* [KjÃ¸reteknikk med tilhenger](#kjoreteknikk-med-tilhenger)
+* [Kjøreteknikk med tilhenger](#kjoreteknikk-med-tilhenger)
 * [Fart og avstandsregler](#fart-og-avstandsregler)
-* [Spesielle kjÃ¸resituasjoner](#spesielle-kjoresituasjoner)
+* [Spesielle kjøresituasjoner](#spesielle-kjoresituasjoner)
 * [Vedlikehold og sikkerhetskontroller](#vedlikehold-og-sikkerhetskontroller)
-* [Vanlige feil og hvordan unngÃ¥ dem](#vanlige-feil-og-hvordan-unnga-dem)
+* [Vanlige feil og hvordan unngå dem](#vanlige-feil-og-hvordan-unnga-dem)
 * [Juridiske konsekvenser](#juridiske-konsekvenser)
-
 ## Grunnleggende om tilhengere
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Tilhengere** kommer i mange varianter, fra smÃ¥ bagasjehengere til store bobiler og bÃ¥thengere. Hver type har spesifikke krav til **kobling**, **lastsikring** og **kjÃ¸reteknikk**.
-
+![Tilhengertyper oversikt](/blog/kjoring-med-tilhenger/tilhengertyper-oversikt.svg)
+**Tilhengere** kommer i mange varianter, fra små bagasjehengere til store bobiler og båthengere. Hver type har spesifikke krav til **kobling**, **lastsikring** og **kjøreteknikk**.
 ### Typer tilhengere
-
 | Tilhengertype | Typisk vekt (kg) | Hovedbruk | Spesielle hensyn |
 |---------------|------------------:|-----------|------------------|
-| Bagasjehenger | 200-500 | Transport av gods | Lavt tyngdepunkt, enkel hÃ¥ndtering |
-| BÃ¥thenger | 500-2000 | BÃ¥ttransport | HÃ¸yt tyngdepunkt, vindpÃ¥virkning |
+| Bagasjehenger | 200-500 | Transport av gods | Lavt tyngdepunkt, enkel håndtering |
+| Båthenger | 500-2000 | Båttransport | Høyt tyngdepunkt, vindpåvirkning |
 | Campinghenger | 800-2500 | Camping/ferie | Stor vindflate, levende last |
 | Hestehenger | 1000-3500 | Dyretransport | Levende last, spesialkrav |
-| Maskinhenger | 1500-3500 | Maskin/utstyr | HÃ¸y vekt, konsentrert last |
-
+| Maskinhenger | 1500-3500 | Maskin/utstyr | Høy vekt, konsentrert last |
 ### Lovkrav for tilhengere
-
-Alle tilhengere over **750 kg** totalvekt mÃ¥ vÃ¦re:
-
+Alle tilhengere over **750 kg** totalvekt må være:
 * **Registrert** i Motorvognregisteret
 * Utstyrt med egne **bremser** 
-* Ha gyldig **EU-kontroll** (tilsvarende periodisk kjÃ¸retÃ¸ykontroll)
+* Ha gyldig **EU-kontroll** (tilsvarende periodisk kjøretøykontroll)
 * **Forsikret** med ansvarsforsikring
-
-## FÃ¸rerkortskrav og kategorier
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-Hvilken type **fÃ¸rerkort** du trenger avhenger av bil og tilhengerens totalvekt.
-
-### Klasse B (vanlig fÃ¸rerkort)
-
-Med ordinÃ¦rt **klasse B-fÃ¸rerkort** kan du kjÃ¸re:
-
+## Førerkortskrav og kategorier
+![Førerkortskrav tilhenger](/blog/kjoring-med-tilhenger/forerkortskrav-tilhenger.svg)
+Hvilken type **førerkort** du trenger avhenger av bil og tilhengerens totalvekt.
+### Klasse B (vanlig førerkort)
+Med ordinært **klasse B-førerkort** kan du kjøre:
 * Bil med totalvekt inntil **3500 kg**
 * Tilhenger med totalvekt inntil **750 kg**
 * Tyngre tilhenger hvis **vogntogvekten** ikke overstiger 3500 kg
-
 * For detaljert informasjon om **krav til tilhenger** under klasse B, se [Krav til tilhenger (klasse B)](/blogs/teori/krav-til-tilhenger-klasse-b "Krav til tilhenger (klasse B) - Detaljert guide").
-
 ### B96-utvidelse
-
-**B96-utvidelsen** gir rett til Ã¥ kjÃ¸re vogntog med totalvekt mellom 3500-4250 kg. Kravene er:
-
-* Minimum 21 Ã¥r (18 Ã¥r for yrkessjÃ¥fÃ¸rer)
-* GjennomfÃ¸rt 7 timers **opplÃ¦ringskurs**
-* Ingen teoretisk eller praktisk prÃ¸ve kreves
-
-### BE-fÃ¸rerkort
-
-**BE-fÃ¸rerkortet** gir full rett til Ã¥ kjÃ¸re med tilhenger og krever:
-
-* Praktisk **oppkjÃ¸ring** med tilhenger
+**B96-utvidelsen** gir rett til å kjøre vogntog med totalvekt mellom 3500-4250 kg. Kravene er:
+* Minimum 21 år (18 år for yrkessjåfører)
+* Gjennomført 7 timers **opplæringskurs**
+* Ingen teoretisk eller praktisk prøve kreves
+### BE-førerkort
+**BE-førerkortet** gir full rett til å kjøre med tilhenger og krever:
+* Praktisk **oppkjøring** med tilhenger
 * Teoretisk kunnskap om **vekt** og **sikkerhet**
 * Totalvekt vogntog inntil **7000 kg** (avhengig av bilens kapasitet)
-
-Se ogsÃ¥ [FÃ¸rerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "FÃ¸rerkort, vognkort og forsikring - Guide til BE-utvidelse") for detaljert informasjon om fÃ¸rerkortkategorier.
-
+Se også [Førerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "Førerkort, vognkort og forsikring - Guide til BE-utvidelse") for detaljert informasjon om førerkortkategorier.
 ## Planlegging og vektbegrensninger
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Vektberegninger** er kritiske for trygg og lovlig kjÃ¸ring med tilhenger. Feil beregninger kan fÃ¸re til farlige situasjoner og juridiske konsekvenser.
-
+![Vektberegning tilhenger](/blog/kjoring-med-tilhenger/vektberegning-tilhenger.svg)
+**Vektberegninger** er kritiske for trygg og lovlig kjøring med tilhenger. Feil beregninger kan føre til farlige situasjoner og juridiske konsekvenser.
 ### Viktige vektbegreper
-
 | Begrep | Definisjon | Hvorfor viktig |
 |--------|------------|----------------|
-| **Egenvekt** | KjÃ¸retÃ¸yets vekt uten last | Grunnlag for lastberegning |
-| **Totalvekt** | Maksimal tillatt vekt med last | LovpÃ¥lagt grense |
+| **Egenvekt** | Kjøretøyets vekt uten last | Grunnlag for lastberegning |
+| **Totalvekt** | Maksimal tillatt vekt med last | Lovpålagt grense |
 | **Nyttelast** | Forskjell mellom total- og egenvekt | Hvor mye du kan laste |
-| **Akseltrykk** | Vekt per aksling | PÃ¥virker veibelastning |
-| **Kuletrykk** | Nedadrettet kraft pÃ¥ kulekrokningen | PÃ¥virker stabilitet |
-
+| **Akseltrykk** | Vekt per aksling | Påvirker veibelastning |
+| **Kuletrykk** | Nedadrettet kraft på kulekrokningen | Påvirker stabilitet |
 ### Beregning av vogntogvekt
-
 **Vogntogvekten** beregnes som summen av:
-
 1. Bilens **egenvekt** + last i bilen
 2. Tilhengerens **egenvekt** + last i tilhengeren
-3. Minus **kuletrykket** (regnes kun Ã©n gang)
-
+3. Minus **kuletrykket** (regnes kun én gang)
 ### Kuletrykk og stabilitet
-
-**Kuletrykket** bÃ¸r utgjÃ¸re **4-7%** av tilhengerens totalvekt for optimal stabilitet:
-
-* **For lite kuletrykk** (under 4%): Tilhengeren kan begynne Ã¥ **slingle**
+**Kuletrykket** bør utgjøre **4-7%** av tilhengerens totalvekt for optimal stabilitet:
+* **For lite kuletrykk** (under 4%): Tilhengeren kan begynne å **slingle**
 * **For mye kuletrykk** (over 7%): Redusert **stabilitet** i bilens framende
-* **Optimalt omrÃ¥de** (4-7%): Stabil kjÃ¸ring under normale forhold
-
+* **Optimalt område** (4-7%): Stabil kjøring under normale forhold
 ## Kobling og teknisk kontroll
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-Riktig **kobling** av tilhenger er avgjÃ¸rende for sikkerheten. FÃ¸lg alltid en systematisk prosedyre.
-
+![Koblingsprosedyre](/blog/kjoring-med-tilhenger/koblingsprosedyre.svg)
+Riktig **kobling** av tilhenger er avgjørende for sikkerheten. Følg alltid en systematisk prosedyre.
 ### Koblingsprosedyre steg-for-steg
-
-1. **Plasser tilhengeren** pÃ¥ rett hÃ¸yde mot kulekrokningen
-2. **Aktiver parkeringsbremsen** pÃ¥ tilhengeren
+1. **Plasser tilhengeren** på rett høyde mot kulekrokningen
+2. **Aktiver parkeringsbremsen** på tilhengeren
 3. **Koble el-kontakten** og sjekk lys og blinkers
 4. **Fest sikkerhetswiren** til bilens feste (ikke kulekrokningen)
-5. **Test bremsene** ved Ã¥ kjÃ¸re sakte frem med tilhengerens bremser aktivert
-6. **Kontroller** at alt utstyr fungerer fÃ¸r avkjÃ¸ring
-
-### Sjekkliste fÃ¸r avkjÃ¸ring
-
-* âœ… **Kulekrokningen** er riktig festet og lÃ¥st
-* âœ… **Sikkerhetswire** er koblet til bilens eget feste
-* âœ… **Elektrisk kontakt** er tilkoblet og fungerer
-* âœ… **StÃ¸ttehjul** er heist opp og sikret
-* âœ… **Lys og signaler** fungerer pÃ¥ tilhengeren
-* âœ… **Bremser** fungerer (test ved lav hastighet)
-
+5. **Test bremsene** ved å kjøre sakte frem med tilhengerens bremser aktivert
+6. **Kontroller** at alt utstyr fungerer før avkjøring
+### Sjekkliste før avkjøring
+* ✅ **Kulekrokningen** er riktig festet og låst
+* ✅ **Sikkerhetswire** er koblet til bilens eget feste
+* ✅ **Elektrisk kontakt** er tilkoblet og fungerer
+* ✅ **Støttehjul** er heist opp og sikret
+* ✅ **Lys og signaler** fungerer på tilhengeren
+* ✅ **Bremser** fungerer (test ved lav hastighet)
 ## Lastsikring og vektfordeling
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Lastsikring** pÃ¥ tilhenger krever spesiell oppmerksomhet pÃ¥ grunn av Ã¸kt risiko for **veltning** og **slingring**.
-
+![Lastsikring tilhenger](/blog/kjoring-med-tilhenger/lastsikring-tilhenger.svg)
+**Lastsikring** på tilhenger krever spesiell oppmerksomhet på grunn av økt risiko for **veltning** og **slingring**.
 ### Prinsipper for lastsikring
-
 **Tyngste last** plasseres:
-
 * **Lavest mulig** i tilhengeren for lavt tyngdepunkt
 * **Fremst** i tilhengeren for riktig kuletrykk  
 * **Sentralt** mellom hjulene for optimal stabilitet
-
 ### Sikringsmetoder
-
-| Metode | BruksomrÃ¥de | Fordeler | Ulemper |
+| Metode | Bruksområde | Fordeler | Ulemper |
 |--------|-------------|----------|---------|
-| **Spennstropper** | Lettere gjenstander | Enkle Ã¥ bruke, fleksible | Kan strekke seg, krever ettertrekking |
-| **Surrewire** | Tung/fast last | Sterk, stabil festning | Krever verktÃ¸y, vanskeligere Ã¥ justere |
-| **Lastnett** | SmÃ¥ting/lÃ¸s last | Hindrer spredning | Begrenset styrkekraft |
-| **LastelÃ¥s** | Rund last (rÃ¸r, tÃ¸mmer) | Forhindrer rulling | Kun for spesifikke lasttyper |
-
-### Vektfordeling pÃ¥ akslene
-
-For **optimal stabilitet** bÃ¸r vektfordelingen vÃ¦re:
-
+| **Spennstropper** | Lettere gjenstander | Enkle å bruke, fleksible | Kan strekke seg, krever ettertrekking |
+| **Surrewire** | Tung/fast last | Sterk, stabil festning | Krever verktøy, vanskeligere å justere |
+| **Lastnett** | Småting/løs last | Hindrer spredning | Begrenset styrkekraft |
+| **Lastelås** | Rund last (rør, tømmer) | Forhindrer rulling | Kun for spesifikke lasttyper |
+### Vektfordeling på akslene
+For **optimal stabilitet** bør vektfordelingen være:
 * **60-70%** av lasten over tilhengerens aksler
 * **30-40%** av lasten foran akslene (gir kuletrykk)
 * **Maksimalt 85%** av tilhengerens totalvekt bak akslene
-
 Les mer om generell lastsikring i [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker lastsikring").
-
-## KjÃ¸reteknikk med tilhenger
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**KjÃ¸reteknikken** mÃ¥ tilpasses nÃ¥r du har tilhenger. VogntogkjÃ¸ring krever mer **planlegging** og **forutseenhet** enn vanlig bilkjÃ¸ring.
-
-### Grunnleggende kjÃ¸reegenskaper
-
-**Med tilhenger endres** bilens kjÃ¸reegenskaper betydelig:
-
-* **Lengre bremselengde** pÃ¥ grunn av Ã¸kt totalvekt
-* **DÃ¥rligere akselerasjon**, spesielt i oppoverbakker
-* **StÃ¸rre svingradius** og behov for mer plass i svinger
-* **Ã˜kt vindpÃ¥virkning** pÃ¥ grunn av stÃ¸rre frontareal
-* **Annerledes balanseforhold** som kan fÃ¸re til slingring
-
+## Kjøreteknikk med tilhenger
+![Kjøreteknikk tilhenger](/blog/kjoring-med-tilhenger/kjoreteknikk-tilhenger.svg)
+**Kjøreteknikken** må tilpasses når du har tilhenger. Vogntogkjøring krever mer **planlegging** og **forutseenhet** enn vanlig bilkjøring.
+### Grunnleggende kjøreegenskaper
+**Med tilhenger endres** bilens kjøreegenskaper betydelig:
+* **Lengre bremselengde** på grunn av økt totalvekt
+* **Dårligere akselerasjon**, spesielt i oppoverbakker
+* **Større svingradius** og behov for mer plass i svinger
+* **Økt vindpåvirkning** på grunn av større frontareal
+* **Annerledes balanseforhold** som kan føre til slingring
 ### Akselerasjon og giring
-
-**Smidig akselerasjon** er nÃ¸kkelen til trygg kjÃ¸ring:
-
-* **UnngÃ¥ hard akselerasjon** som kan forÃ¥rsake hjulspinn eller slingring
-* **Bruk lavere gir** i oppoverbakker for Ã¥ opprettholde moment
-* **Planlegg forbikjÃ¸ringer** nÃ¸ye pÃ¥ grunn av redusert akselerasjon
-* **Hold jevn gass** i svinger for Ã¥ unngÃ¥ lastoverfÃ¸ring
-
+**Smidig akselerasjon** er nøkkelen til trygg kjøring:
+* **Unngå hard akselerasjon** som kan forårsake hjulspinn eller slingring
+* **Bruk lavere gir** i oppoverbakker for å opprettholde moment
+* **Planlegg forbikjøringer** nøye på grunn av redusert akselerasjon
+* **Hold jevn gass** i svinger for å unngå lastoverføring
 ### Bremsing med tilhenger
-
 **Bremsing** krever spesiell teknikk:
-
-* **Start bremsingen tidligere** pÃ¥ grunn av Ã¸kt bremselengde
-* **Brems gradvis** for Ã¥ unngÃ¥ at tilhengeren "skjÃ¸ver pÃ¥"
+* **Start bremsingen tidligere** på grunn av økt bremselengde
+* **Brems gradvis** for å unngå at tilhengeren "skjøver på"
 * **Bruk **motorbremsen** aktivt i nedoverbakker
-* **UnngÃ¥ hard nÃ¸dbremsing** som kan fÃ¸re til jack knifing
-
-For mer om bremseteknikker, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Guide til riktig hastighet og fÃ¸lgeavstand").
-
-### Svinging og kurvekjÃ¸ring
-
-**Svinging med tilhenger** krever Ã¸kt oppmerksomhet:
-
-* **Ã˜k svingradius** for Ã¥ unngÃ¥ at tilhengeren kutte kurver
-* **KjÃ¸r smidig gjennom svinger** uten brÃ¥ rattutslag
-* **Reduser farten** fÃ¸r svinger, ikke under svingen
+* **Unngå hard nødbremsing** som kan føre til jack knifing
+For mer om bremseteknikker, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Guide til riktig hastighet og følgeavstand").
+### Svinging og kurvekjøring
+**Svinging med tilhenger** krever økt oppmerksomhet:
+* **Øk svingradius** for å unngå at tilhengeren kutte kurver
+* **Kjør smidig gjennom svinger** uten brå rattutslag
+* **Reduser farten** før svinger, ikke under svingen
 * **Hold jevn gass** gjennom svingen for stabilitet
-
 ### Rygging med tilhenger
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Rygging** er en av de mest krevende manÃ¸vrene med tilhenger:
-
+![Rygging med tilhenger](/blog/kjoring-med-tilhenger/rygging-tilhenger.svg)
+**Rygging** er en av de mest krevende manøvrene med tilhenger:
 #### Grunnprinsipper for rygging
-
-* **Plasser hÃ¥nden nederst pÃ¥ rattet** for enklere kontroll
-* **Ratt til hÃ¸yre = tilhengeren svinger til venstre**, og omvendt
-* **KjÃ¸r sakte** for Ã¥ ha full kontroll
-* **Stopp og korriger** ofte fremfor Ã¥ forsÃ¸ke lange drag
-
+* **Plasser hånden nederst på rattet** for enklere kontroll
+* **Ratt til høyre = tilhengeren svinger til venstre**, og omvendt
+* **Kjør sakte** for å ha full kontroll
+* **Stopp og korriger** ofte fremfor å forsøke lange drag
 #### Ryggingsteknikker
-
-1. **Rett rygging**: Hold rattet rett og korriger smÃ¥ avvik tidlig
-2. **Rygging i sving**: Start med bilens front rettet bort fra Ã¸nsket retning
-3. **Rygging til rampe**: Bruk markeringskegler og fÃ¥ hjelp fra spotter
-
+1. **Rett rygging**: Hold rattet rett og korriger små avvik tidlig
+2. **Rygging i sving**: Start med bilens front rettet bort fra ønsket retning
+3. **Rygging til rampe**: Bruk markeringskegler og få hjelp fra spotter
 Les mer om rygging i [Rygging og parkering](/blogs/teori/rygging-og-parkering "Rygging og parkering - Teknikker for trygg rygging").
-
 ## Fart og avstandsregler
-
-**Fartsgrenser** for kjÃ¸retÃ¸y med tilhenger er generelt lavere enn for vanlige biler. Dette skyldes Ã¸kt **bremselengde** og redusert **manÃ¸vrerbarhet**.
-
+**Fartsgrenser** for kjøretøy med tilhenger er generelt lavere enn for vanlige biler. Dette skyldes økt **bremselengde** og redusert **manøvrerbarhet**.
 ### Fartsgrenser med tilhenger
-
 | Vegtype | Bil uten tilhenger | Med tilhenger | Kommentar |
 |---------|-------------------:|----------------|-----------|
 | **Motorvei** | 110 km/t | 80 km/t | Med mindre skilt angir annet |
-| **Motortrafikkvei** | 90 km/t | 80 km/t | Redusert pÃ¥ grunn av Ã¸kt bremselengde |
+| **Motortrafikkvei** | 90 km/t | 80 km/t | Redusert på grunn av økt bremselengde |
 | **Hovedvei** | 80 km/t | 80 km/t | Samme grense, men tilpass forholdene |
-| **Bygater** | 50 km/t | 50 km/t | Redusert manÃ¸vrerbarhet krever ekstra varsomhet |
-| **BoligomrÃ¥der** | 30 km/t | 30 km/t | SÃ¦rlig viktig Ã¥ overholde pÃ¥ grunn av barn |
-
-### FÃ¸lgeavstand med tilhenger
-
-**3-sekunders regelen** bÃ¸r utvides til **4-5 sekunder** med tilhenger:
-
-* **Ã˜kt [bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde")** krever lengre [reaksjonstid](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde").
-* **Slingring** kan oppstÃ¥ ved brÃ¥ manÃ¸vrer
-* **StÃ¸rre kjÃ¸retÃ¸y** trenger mer plass til Ã¥ stoppe
-
-For mer om fÃ¸lgeavstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Guide til riktig hastighet og fÃ¸lgeavstand").
-
-## Spesielle kjÃ¸resituasjoner
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Spesielle kjÃ¸resituasjoner** krever ekstra oppmerksomhet nÃ¥r du kjÃ¸rer med tilhenger.
-
-### KjÃ¸ring i vind
-
-**Sidevind** pÃ¥virker vogntog mer enn vanlige biler:
-
+| **Bygater** | 50 km/t | 50 km/t | Redusert manøvrerbarhet krever ekstra varsomhet |
+| **Boligområder** | 30 km/t | 30 km/t | Særlig viktig å overholde på grunn av barn |
+### Følgeavstand med tilhenger
+**3-sekunders regelen** bør utvides til **4-5 sekunder** med tilhenger:
+* **Økt [bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde")** krever lengre [reaksjonstid](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde").
+* **Slingring** kan oppstå ved brå manøvrer
+* **Større kjøretøy** trenger mer plass til å stoppe
+For mer om følgeavstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Guide til riktig hastighet og følgeavstand").
+## Spesielle kjøresituasjoner
+![Spesielle situasjoner](/blog/kjoring-med-tilhenger/spesielle-situasjoner.svg)
+**Spesielle kjøresituasjoner** krever ekstra oppmerksomhet når du kjører med tilhenger.
+### Kjøring i vind
+**Sidevind** påvirker vogntog mer enn vanlige biler:
 * **Reduser hastigheten** ved kraftig sidevind
-* **Hold fast i rattet** uten Ã¥ overstyre
-* **VÃ¦r forberedt pÃ¥ vindkast** ved passering av store kjÃ¸retÃ¸y
-* **UnngÃ¥ kjÃ¸ring** ved vindstyrke over 15 m/s (storm)
-
-### KjÃ¸ring i regn og dÃ¥rlig vÃ¦r
-
-**DÃ¥rlige veiforhold** Ã¸ker risikoen betraktelig:
-
-* **Reduser hastigheten** mer enn vanlig pÃ¥ vÃ¥t vei
-* **Ã˜k fÃ¸lgeavstanden** til minst 5-6 sekunder
-* **UnngÃ¥ brÃ¥ manÃ¸vrer** som kan forÃ¥rsake skrens
+* **Hold fast i rattet** uten å overstyre
+* **Vær forberedt på vindkast** ved passering av store kjøretøy
+* **Unngå kjøring** ved vindstyrke over 15 m/s (storm)
+### Kjøring i regn og dårlig vær
+**Dårlige veiforhold** øker risikoen betraktelig:
+* **Reduser hastigheten** mer enn vanlig på våt vei
+* **Øk følgeavstanden** til minst 5-6 sekunder
+* **Unngå brå manøvrer** som kan forårsake skrens
 * **Bruk lavere gir** i oppoverbakker for bedre veigrep
-
-Se [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold - Sikker kjÃ¸ring i regn, snÃ¸ og is") for detaljerte rÃ¥d.
-
-### ForbikjÃ¸ring med tilhenger
-
-**ForbikjÃ¸ring** blir mer komplisert med tilhenger:
-
-* **Planlegg forbikjÃ¸ringer** nÃ¸ye pÃ¥ grunn av redusert akselerasjon
-* **Bruk lengre strekning** for Ã¥ komme opp i hastighet
-* **Sjekk blindsoner** ekstra nÃ¸ye pÃ¥ grunn av Ã¸kt kjÃ¸retÃ¸ylengde
-* **UnngÃ¥ forbikjÃ¸ring** i oppoverbakker hvor mulig
-
-Les mer i [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Sikker forbikjÃ¸ring og feltskifte").
-
+Se [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold - Sikker kjøring i regn, snø og is") for detaljerte råd.
+### Forbikjøring med tilhenger
+**Forbikjøring** blir mer komplisert med tilhenger:
+* **Planlegg forbikjøringer** nøye på grunn av redusert akselerasjon
+* **Bruk lengre strekning** for å komme opp i hastighet
+* **Sjekk blindsoner** ekstra nøye på grunn av økt kjøretøylengde
+* **Unngå forbikjøring** i oppoverbakker hvor mulig
+Les mer i [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Sikker forbikjøring og feltskifte").
 ### Parkering med tilhenger
-
 **Parkering** krever mer plass og planlegging:
-
 * **Velg parkeringsplasser** som er store nok for hele vogntogtet
-* **Vurder tilgjengelighet** for utkjÃ¸ring senere
-* **Bruk parkeringsbremsen** pÃ¥ bÃ¥de bil og tilhenger
-* **Legg kiler** under hjulene ved parkering i skrÃ¥ning
-
+* **Vurder tilgjengelighet** for utkjøring senere
+* **Bruk parkeringsbremsen** på både bil og tilhenger
+* **Legg kiler** under hjulene ved parkering i skråning
 ## Vedlikehold og sikkerhetskontroller
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Regelmessig vedlikehold** av tilhengeren er avgjÃ¸rende for sikkerheten og lovligheten.
-
+![Vedlikehold tilhenger](/blog/kjoring-med-tilhenger/vedlikehold-tilhenger.svg)
+**Regelmessig vedlikehold** av tilhengeren er avgjørende for sikkerheten og lovligheten.
 ### Daglig sjekkliste
-
-FÃ¸r hver kjÃ¸retur bÃ¸r du kontrollere:
-
-* âœ… **Dekk**: Lufttrykk, slitasje og eventuelle skader
-* âœ… **Lys**: Alle lys og blinkers fungerer
-* âœ… **Bremser**: Test ved lav hastighet
-* âœ… **Kobling**: Kulekrokning og sikkerhetswire
-* âœ… **Last**: Sikring og vektfordeling
-* âœ… **Kjettinger**: Hvis pÃ¥krevd av veiforhold
-
+Før hver kjøretur bør du kontrollere:
+* ✅ **Dekk**: Lufttrykk, slitasje og eventuelle skader
+* ✅ **Lys**: Alle lys og blinkers fungerer
+* ✅ **Bremser**: Test ved lav hastighet
+* ✅ **Kobling**: Kulekrokning og sikkerhetswire
+* ✅ **Last**: Sikring og vektfordeling
+* ✅ **Kjettinger**: Hvis påkrevd av veiforhold
 ### Ukentlig vedlikehold
-
-**Ved regelmessig bruk** bÃ¸r du sjekke:
-
-* **Hjullagre**: Kontroller for lÃ¸shet eller varme
-* **BremsevÃ¦ske**: NivÃ¥ og eventuelle lekkasjer  
+**Ved regelmessig bruk** bør du sjekke:
+* **Hjullagre**: Kontroller for løshet eller varme
+* **Bremsevæske**: Nivå og eventuelle lekkasjer  
 * **Elektrisk anlegg**: Kontakter og ledninger
-* **StÃ¸tdemper**: Funksjon og lekkasjer
+* **Støtdemper**: Funksjon og lekkasjer
 * **Understell**: Rust og strukturelle skader
-
-### Ã…rlig EU-kontroll
-
-**Tilhengere over 750 kg** mÃ¥ gjennom Ã¥rlig EU-kontroll som omfatter:
-
-| KontrollomrÃ¥de | Hva sjekkes | Vanlige feil |
+### Årlig EU-kontroll
+**Tilhengere over 750 kg** må gjennom årlig EU-kontroll som omfatter:
+| Kontrollområde | Hva sjekkes | Vanlige feil |
 |----------------|-------------|--------------|
 | **Bremser** | Bremsekraft og justeringer | Ujevn bremsevirkning |
 | **Dekk og hjul** | Slitasje og lufttrykk | Feil lufttrykk, ujent slitasje |
-| **Lys og signaler** | Alle lys og reflekser | Defekte lyspÃ¦rer |
+| **Lys og signaler** | Alle lys og reflekser | Defekte lyspærer |
 | **Understell** | Strukturell integritet | Rust og sprekkdannelser |
-| **Kobling** | Kulekrokning og sikkerhetswire | Slitasje pÃ¥ kulekrokning |
-
-## Vanlige feil og hvordan unngÃ¥ dem
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Vanlige feil** ved kjÃ¸ring med tilhenger kan fÃ¥ alvorlige konsekvenser. Her er de mest kritiske feilene og hvordan du unngÃ¥r dem.
-
+| **Kobling** | Kulekrokning og sikkerhetswire | Slitasje på kulekrokning |
+## Vanlige feil og hvordan unngå dem
+![Vanlige feil](/blog/kjoring-med-tilhenger/vanlige-feil-tilhenger.svg)
+**Vanlige feil** ved kjøring med tilhenger kan få alvorlige konsekvenser. Her er de mest kritiske feilene og hvordan du unngår dem.
 ### Slingring (snake/fishtailing)
-
-**Slingring** er nÃ¥r tilhengeren begynner Ã¥ bevege seg fra side til side:
-
-#### Ã…rsaker til slingring:
+**Slingring** er når tilhengeren begynner å bevege seg fra side til side:
+#### Årsaker til slingring:
 * **For lite kuletrykk** (under 4% av tilhengervekt)
 * **Feil vektfordeling** med for mye vekt bak akslene  
-* **For hÃ¸y hastighet** i forhold til forholdene
-* **BrÃ¥ styrebevegelser** eller bremsing
-
+* **For høy hastighet** i forhold til forholdene
+* **Brå styrebevegelser** eller bremsing
 #### Hvordan stoppe slingring:
-1. **Ikke brems brÃ¥tt** - dette forverrer situationen
-2. **Slipp gassen gradvis** for Ã¥ redusere hastigheten
-3. **Hold rattet rett** og unngÃ¥ Ã¥ overstyre
+1. **Ikke brems brått** - dette forverrer situationen
+2. **Slipp gassen gradvis** for å redusere hastigheten
+3. **Hold rattet rett** og unngå å overstyre
 4. **Aktiver tilhengerens bremser manuelt** hvis tilgjengelig
-
 ### Overlasting
-
 **Overlasting** er en av de vanligste og farligste feilene:
-
 #### Konsekvenser av overlasting:
-* **Redusert bremsekraft** og Ã¸kt bremselengde
-* **DÃ¥rligere stabilitet** og Ã¸kt risiko for veltning
-* **Skader pÃ¥ bil og tilhenger** over tid
+* **Redusert bremsekraft** og økt bremselengde
+* **Dårligere stabilitet** og økt risiko for veltning
+* **Skader på bil og tilhenger** over tid
 * **Juridiske konsekvenser** og forsikringsutestendelse
-
-#### Slik unngÃ¥r du overlasting:
-* **Vei tilhengeren** med last fÃ¸r avreise
+#### Slik unngår du overlasting:
+* **Vei tilhengeren** med last før avreise
 * **Beregn kuletrykket** og juster lastplassering
 * **Kontroller** at totalvekten ikke overskrider grensene
 * **Distribuer lasten** jevnt mellom bil og tilhenger
-
 ### Feil kobling
-
-**Feil kobling** kan fÃ¸re til at tilhengeren lÃ¸sner under kjÃ¸ring:
-
+**Feil kobling** kan føre til at tilhengeren løsner under kjøring:
 #### Vanlige koblingsfeil:
-* **Kulekrokningen ikke ordentlig lÃ¥st**
+* **Kulekrokningen ikke ordentlig låst**
 * **Sikkerhetswire ikke tilkoblet** eller festet feil sted
-* **Elektrisk kontakt lÃ¸s** eller korrodert
-* **StÃ¸ttehjul ikke heist opp** helt
-
+* **Elektrisk kontakt løs** eller korrodert
+* **Støttehjul ikke heist opp** helt
 ## Juridiske konsekvenser
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Brudd pÃ¥ reglene** for kjÃ¸ring med tilhenger kan fÃ¥ alvorlige juridiske og Ã¸konomiske konsekvenser.
-
-### BÃ¸tesatser for vanlige overtredelser
-
-| Overtredelse | BÃ¸tesats | Prikker | Kommentar |
+![Juridiske konsekvenser](/blog/kjoring-med-tilhenger/juridiske-konsekvenser.svg)
+**Brudd på reglene** for kjøring med tilhenger kan få alvorlige juridiske og økonomiske konsekvenser.
+### Bøtesatser for vanlige overtredelser
+| Overtredelse | Bøtesats | Prikker | Kommentar |
 |-------------|----------:|--------:|-----------|
-| **Overlasting 10-20%** | 8.000 kr | 1 | Kan fÃ¸re til kjÃ¸reforbud |
-| **Overlasting 20%+** | 12.000 kr | 2 | Alltid kjÃ¸reforbud |
+| **Overlasting 10-20%** | 8.000 kr | 1 | Kan føre til kjøreforbud |
+| **Overlasting 20%+** | 12.000 kr | 2 | Alltid kjøreforbud |
 | **Manglende sikring** | 8.000 kr | 1 | Avhenger av risiko |
-| **Feil fÃ¸rerkortkategori** | 7.000 kr | 1 | Kan pÃ¥virke forsikring |
-| **Overlasting aksler** | 12.000 kr | 2 | Skader pÃ¥ veinettet |
-
+| **Feil førerkortkategori** | 7.000 kr | 1 | Kan påvirke forsikring |
+| **Overlasting aksler** | 12.000 kr | 2 | Skader på veinettet |
 ### Forsikringsmessige konsekvenser
-
-**Overtredelser** kan pÃ¥virke forsikringsdekningen:
-
-* **Overlasting** kan fÃ¸re til at forsikringen ikke dekker skader
-* **Feil fÃ¸rerkortkategori** gjÃ¸r forsikringen ugyldig
-* **Manglende EU-kontroll** pÃ¥ tilhenger pÃ¥virker dekningen
-* **Ulovlig last** kan fÃ¸re til regresskrav fra forsikring
-
+**Overtredelser** kan påvirke forsikringsdekningen:
+* **Overlasting** kan føre til at forsikringen ikke dekker skader
+* **Feil førerkortkategori** gjør forsikringen ugyldig
+* **Manglende EU-kontroll** på tilhenger påvirker dekningen
+* **Ulovlig last** kan føre til regresskrav fra forsikring
 ### Straffereaksjoner
-
-**Alvorlige overtredelser** kan fÃ¸re til:
-
-* **Inndragning av fÃ¸rerkort** ved gjentatte overlastinger
-* **Fengselsstraff** ved grove brudd som fÃ¸rer til ulykker
-* **Yrkesrettede sanksjoner** for profesjonelle sjÃ¥fÃ¸rer
-* **Konfiskasjon** av kjÃ¸retÃ¸y ved svÃ¦rt grove overtredelser
-
+**Alvorlige overtredelser** kan føre til:
+* **Inndragning av førerkort** ved gjentatte overlastinger
+* **Fengselsstraff** ved grove brudd som fører til ulykker
+* **Yrkesrettede sanksjoner** for profesjonelle sjåfører
+* **Konfiskasjon** av kjøretøy ved svært grove overtredelser
 Les mer om juridiske aspekter i [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Juridiske rammer for trafikk").
-
 ## Oppsummering
-
-**KjÃ¸ring med tilhenger** krever grundig kunnskap og kontinuerlig oppmerksomhet. De viktigste punktene Ã¥ huske er:
-
-* **Riktig fÃ¸rerkortkategori** er obligatorisk
-* **Vektberegninger** mÃ¥ alltid stemme
+**Kjøring med tilhenger** krever grundig kunnskap og kontinuerlig oppmerksomhet. De viktigste punktene å huske er:
+* **Riktig førerkortkategori** er obligatorisk
+* **Vektberegninger** må alltid stemme
 * **Lastsikring** er kritisk for sikkerheten  
-* **KjÃ¸reteknikken** mÃ¥ tilpasses Ã¸kt vekt og lengde
-* **Vedlikehold** er avgjÃ¸rende for trygg drift
-* **Lovbrudd** fÃ¥r alvorlige konsekvenser
-
-Med **grundig forberedelse**, **riktig teknikk** og **regelmessig vedlikehold** blir kjÃ¸ringen med tilhenger tryggere og mer forutsigbar. Husk at Ã¸velse gjÃ¸r mester - start med korte turer og enkle manÃ¸vrer fÃ¸r du tar pÃ¥ deg mer krevende kjÃ¸reoppdrag.
-
-_For ytterligere informasjon om sikker kjÃ¸ring, se [Defensiv kjÃ¸ring](/blogs/teori/defensiv-kjoring "Defensiv kjÃ¸ring - Teknikker for trygg kjÃ¸ring") og [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Kommunikasjon i trafikken")._\n  </div>\n</div>
+* **Kjøreteknikken** må tilpasses økt vekt og lengde
+* **Vedlikehold** er avgjørende for trygg drift
+* **Lovbrudd** får alvorlige konsekvenser
+Med **grundig forberedelse**, **riktig teknikk** og **regelmessig vedlikehold** blir kjøringen med tilhenger tryggere og mer forutsigbar. Husk at øvelse gjør mester - start med korte turer og enkle manøvrer før du tar på deg mer krevende kjøreoppdrag.
+_For ytterligere informasjon om sikker kjøring, se [Defensiv kjøring](/blogs/teori/defensiv-kjoring "Defensiv kjøring - Teknikker for trygg kjøring") og [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Kommunikasjon i trafikken")._

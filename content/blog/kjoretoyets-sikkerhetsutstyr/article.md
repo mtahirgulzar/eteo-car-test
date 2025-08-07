@@ -1,14 +1,13 @@
 ﻿---
-title: "Kjøretøyets sikkerhetsutstyr"
+title: "Kjoretoyets Sikkerhetsutstyr"
 date: 2025-08-06
 draft: false
 author: "Eteo Team"
-description: "Utforsk hvordan ulike sikkerhetsutstyr i bilen bidrar til trafikksikkerhet. Lær om beltesystemer, kollisjonsputer, ABS, ESC og mer."
+description: "Guide to Kjoretoyets Sikkerhetsutstyr for Norwegian driving theory exam."
 categories: ["Driving Theory"]
 tags: ["driving", "theory", "safety"]
-featured_image: "/images/blog/kjoretoyets-sikkerhetsutstyr/kjoretoyets-sikkerhetsutstyr-image.svg"
+featured_image: "/blog/kjoretoyets-sikkerhetsutstyr/kjoretoyets-sikkerhetsutstyr-image.svg"
 ---
-
 <style>
 /* Base text styling */
 .article-content {
@@ -17,7 +16,6 @@ featured_image: "/images/blog/kjoretoyets-sikkerhetsutstyr/kjoretoyets-sikkerhet
   color: #1f2937;
   font-size: 16px;
 }
-
 /* Headers */
 h1 {
   font-size: 2rem;
@@ -25,61 +23,56 @@ h1 {
   margin: 2rem 0 1.5rem;
   color: #111827;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
   color: #1f2937;
 }
-
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1.5rem 0 0.75rem;
   color: #374151;
 }
-
 /* Paragraphs */
 p {
   margin: 1rem 0;
   line-height: 1.7;
 }
-
 /* Lists */
 ul, ol {
   margin: 1rem 0 1rem 1.5rem;
   padding-left: 1rem;
 }
-
 li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
 }
-
-ul > li::before {
-  content: 'â€¢';
-  color: #3b82f6;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
 }
-
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 /* Code blocks */
 pre, code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -87,17 +80,14 @@ pre, code {
   border-radius: 0.375rem;
   font-size: 0.875em;
 }
-
 pre {
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
 }
-
 code {
   padding: 0.2em 0.4em;
 }
-
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #e5e7eb;
@@ -107,7 +97,6 @@ blockquote {
   color: #4b5563;
   font-style: italic;
 }
-
 /* Tables */
 table {
   margin: 1.5rem auto !important;
@@ -120,14 +109,12 @@ table {
   border: 1px solid #e5e7eb !important;
   display: table !important;
 }
-
 th, td {
   padding: 0.75rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #e5e7eb !important;
   vertical-align: top;
 }
-
 th {
   background-color: #f9fafb !important;
   font-weight: 600 !important;
@@ -136,25 +123,20 @@ th {
   font-size: 0.75rem !important;
   letter-spacing: 0.05em !important;
 }
-
 tr:nth-child(even) {
   background-color: #f9fafb !important;
 }
-
 tr:hover {
   background-color: #f3f4f6 !important;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .article-content {
     font-size: 15px;
   }
-  
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.375rem; }
   h3 { font-size: 1.125rem; }
-  
   table {
     display: block !important;
     overflow-x: auto !important;
@@ -162,599 +144,262 @@ tr:hover {
   }
 }
 </style>
-
-
-<div class="blog-content">
-  <div class="featured-image">
-    <img src="/images/blog/kjoretoyets-sikkerhetsutstyr/kjoretoyets-sikkerhetsutstyr-image.svg" alt="Kjøretøyets sikkerhetsutstyr" class="img-fluid rounded">
-  </div>
-
-  <div class="toc-container mt-4 mb-4">
-    <h3>Table of Contents</h3>
-    {{< toc >}}
-  </div>
-
-  <div class="blog-body">\n{{< toc >}}}}
-{{< toc >}}}}
-{{< toc >}}}}
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**KjÃ¸retÃ¸yets sikkerhetsutstyr** omfatter alle systemer og komponenter som beskytter fÃ¸rer og passasjerer, samt reduserer risikoen for ulykker. Dette inkluderer bÃ¥de **passivt sikkerhetsutstyr**, som belter og kollisjonsputer, og **aktivt sikkerhetsutstyr**, som ABS og elektronisk stabilitetskontroll. Moderne biler har hundrevis av **sikkerhetsfunksjoner** som arbeider sammen for Ã¥ gi maksimal beskyttelse.
-
+**Kjøretøyets sikkerhetsutstyr** omfatter alle systemer og komponenter som beskytter fører og passasjerer, samt reduserer risikoen for ulykker. Dette inkluderer både **passivt sikkerhetsutstyr**, som belter og kollisjonsputer, og **aktivt sikkerhetsutstyr**, som ABS og elektronisk stabilitetskontroll. Moderne biler har hundrevis av **sikkerhetsfunksjoner** som arbeider sammen for å gi maksimal beskyttelse.
 For en grundig oversikt over bilens tekniske komponenter, se [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - En oversikt over bilens hovedkomponenter").
-
-*For informasjon om kontroll av sikkerhetsutstyr fÃ¸r lange turer, se [Forberedelser fÃ¸r en lang kjÃ¸retur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser fÃ¸r en lang kjÃ¸retur - Komplett guide til trygg langkjÃ¸ring").*
-
+*For informasjon om kontroll av sikkerhetsutstyr før lange turer, se [Forberedelser før en lang kjøretur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser før en lang kjøretur - Komplett guide til trygg langkjøring").*
 *For informasjon om **sikring av last og passasjerer**, se [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring").*
-
-*For en komplett oversikt over **pÃ¥budt sikkerhetsutstyr**, se [PÃ¥budt sikkerhetsutstyr](/blogs/teori/paabudt-sikkerhetsutstyr "PÃ¥budt sikkerhetsutstyr - Alt du mÃ¥ ha i bilen").*
-
+*For en komplett oversikt over **påbudt sikkerhetsutstyr**, se [Påbudt sikkerhetsutstyr](/blogs/teori/paabudt-sikkerhetsutstyr "Påbudt sikkerhetsutstyr - Alt du må ha i bilen").*
 ## Historisk utvikling av sikkerhetsutstyr
-
-Utviklingen av **sikkerhetsteknologi** i biler har gjennomgÃ¥tt en revolusjon siden 1950-tallet. Fra enkle sikkerhetsbelter til dagens avanserte **autonome sikkerhetssystemer**, har hver ny generasjon reddet tusenvis av liv.
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-### MilepÃ¦ler i sikkerhetsutviklingen
-
+Utviklingen av **sikkerhetsteknologi** i biler har gjennomgått en revolusjon siden 1950-tallet. Fra enkle sikkerhetsbelter til dagens avanserte **autonome sikkerhetssystemer**, har hver ny generasjon reddet tusenvis av liv.
+![Utvikling av sikkerhetsutstyr](/blog/kjoretoyets-sikkerhetsutstyr/sikkerhetsutstyr-utvikling.svg)
+### Milepæler i sikkerhetsutviklingen
 * **1959**: Volvo introduserer trepunkts sikkerhetsbelte
 * **1973**: ABS blir tilgjengelig i produksjonsbiler
-* **1981**: FÃ¸rste kollisjonsputer i produksjonsbiler
+* **1981**: Første kollisjonsputer i produksjonsbiler
 * **1995**: ESC/ESP blir introdusert
 * **2003**: ISOFIX-festesystem for barneseter
-* **2015**: Autonome nÃ¸dbremsesystemer blir standard
+* **2015**: Autonome nødbremsesystemer blir standard
 * **2020**: Nye EU-krav om obligatorisk sikkerhetsutstyr
-
 ## Passivt sikkerhetsutstyr
-
-**Passivt sikkerhetsutstyr** aktiveres automatisk under en kollisjon eller ulykke for Ã¥ minimere skader pÃ¥ personer i kjÃ¸retÃ¸yet.
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+**Passivt sikkerhetsutstyr** aktiveres automatisk under en kollisjon eller ulykke for å minimere skader på personer i kjøretøyet.
+![Passivt sikkerhetsutstyr](/blog/kjoretoyets-sikkerhetsutstyr/passivt-sikkerhetsutstyr.svg)
 ### Sikkerhetsbeltesystemer
-
-**Trepunkts sikkerhetsbelter** er det viktigste enkeltstÃ¥ende sikkerhetsutstyret i en bil. Moderne belter har flere avanserte funksjoner:
-
+**Trepunkts sikkerhetsbelter** er det viktigste enkeltstående sikkerhetsutstyret i en bil. Moderne belter har flere avanserte funksjoner:
 #### Komponenter i moderne beltesystemer
-
-* **Forspenning**: Strammer beltet Ã¸yeblikkelig ved kollisjon
-* **Lastbegrensning**: Slipper ut belte gradvis for Ã¥ redusere belastning pÃ¥ kroppen
-* **HÃ¸ydejustering**: Sikrer optimal plassering pÃ¥ skulderen
-* **BeltepÃ¥minnere**: Audiovisuelle varsler til alle sitteplasser
-
+* **Forspenning**: Strammer beltet øyeblikkelig ved kollisjon
+* **Lastbegrensning**: Slipper ut belte gradvis for å redusere belastning på kroppen
+* **Høydejustering**: Sikrer optimal plassering på skulderen
+* **Beltepåminnere**: Audiovisuelle varsler til alle sitteplasser
 | Beltetype | Beskrivelse | Anvendelse |
 |-----------|-------------|------------|
 | **Trepunktsbelte** | Standard sikkerhetsbelte med skulder- og hoftestropp | Alle forplasser og de fleste bakplasser |
 | **Fangebelte** | Kun hoftestropp, brukes sjelden | Midtplass bak i eldre biler |
 | **Firepunktsbelte** | To skulder- og to hoftestropper | Sportsbiler og racingbiler |
 | **Fempunktsbelte** | Ekstra stropp mellom beina | Barneseter og racingbiler |
-
 ### Kollisjonsputer (Airbags)
-
-**Kollisjonsputer** fyller en avggjÃ¸rende rolle som sekundÃ¦r beskyttelse sammen med sikkerhetsbelter. Moderne biler kan ha opptil 10 eller flere kollisjonsputer.
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+**Kollisjonsputer** fyller en avggjørende rolle som sekundær beskyttelse sammen med sikkerhetsbelter. Moderne biler kan ha opptil 10 eller flere kollisjonsputer.
+![Kollisjonsputer-system](/blog/kjoretoyets-sikkerhetsutstyr/airbag-system.svg)
 #### Typer kollisjonsputer
-
 * **Frontal airbag**: Beskytter mot frontalkollisjon
 * **Side-airbag**: Beskytter torso ved sidekollisjon  
 * **Hode-airbag (gardin)**: Beskytter hode ved sidekollisjon
-* **Kne-airbag**: Beskytter knÃ¦r og ben
-* **Fotgjenger-airbag**: Beskytter fotgjengere ved pÃ¥kjÃ¸rsel
-
+* **Kne-airbag**: Beskytter knær og ben
+* **Fotgjenger-airbag**: Beskytter fotgjengere ved påkjørsel
 #### Hvordan airbags fungerer
-
-1. **Kollisjonssensorer** registrerer stÃ¸t over 25-30 km/t
-2. **UtlÃ¸sningsenhet** aktiveres pÃ¥ 2-3 millisekunder
+1. **Kollisjonssensorer** registrerer støt over 25-30 km/t
+2. **Utløsningsenhet** aktiveres på 2-3 millisekunder
 3. **Gasgenerator** skaper nitrogen som fyller posen
-4. **Posen blÃ¥ses opp** pÃ¥ 20-30 millisekunder
-5. **Kontrollert deflasjon** gjennom smÃ¥ hull
-
-> **Viktig**: Airbags er utformet for Ã¥ fungere sammen med sikkerhetsbelter, ikke som erstatning. Bruk av airbag uten belte kan vÃ¦re farlig.
-
-### HodestÃ¸tter og nakkestrupper
-
-**HodestÃ¸tter** er obligatorisk sikkerhetsutstyr som beskytter mot **whiplash-skader** ved pÃ¥kjÃ¸rsel bakfra.
-
-#### Riktig justering av hodestÃ¸tte
-
-* **HÃ¸yde**: Toppen av hodestÃ¸tten skal vÃ¦re i samme hÃ¸yde som toppen av hodet
-* **Avstand**: Maksimalt 4 cm avstand mellom bakhodet og hodestÃ¸tten
-* **Vinkel**: HodestÃ¸tten skal vÃ¦re sÃ¥ vertikal som mulig
-
+4. **Posen blåses opp** på 20-30 millisekunder
+5. **Kontrollert deflasjon** gjennom små hull
+> **Viktig**: Airbags er utformet for å fungere sammen med sikkerhetsbelter, ikke som erstatning. Bruk av airbag uten belte kan være farlig.
+### Hodestøtter og nakkestrupper
+**Hodestøtter** er obligatorisk sikkerhetsutstyr som beskytter mot **whiplash-skader** ved påkjørsel bakfra.
+#### Riktig justering av hodestøtte
+* **Høyde**: Toppen av hodestøtten skal være i samme høyde som toppen av hodet
+* **Avstand**: Maksimalt 4 cm avstand mellom bakhodet og hodestøtten
+* **Vinkel**: Hodestøtten skal være så vertikal som mulig
 ### Karosseristruktur og kollisjonssoner
-
-Moderne biler har **kollisjonssoner** designet for Ã¥ absorbere energi ved ulykker:
-
+Moderne biler har **kollisjonssoner** designet for å absorbere energi ved ulykker:
 * **Frontstruktur**: Deformerbare soner som absorberer energi
-* **Passasjercelle**: Stiv struktur som beskytter kupÃ©en
-* **Sidekollisjonsbeskyttelse**: Forsterkninger i dÃ¸rer og B-stolper
-* **Bakre kollisjonssone**: Beskytter mot pÃ¥kjÃ¸rsel bakfra
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+* **Passasjercelle**: Stiv struktur som beskytter kupéen
+* **Sidekollisjonsbeskyttelse**: Forsterkninger i dører og B-stolper
+* **Bakre kollisjonssone**: Beskytter mot påkjørsel bakfra
+![Kollisjonssoner](/blog/kjoretoyets-sikkerhetsutstyr/kollisjonssoner.svg)
 ## Aktivt sikkerhetsutstyr
-
-**Aktivt sikkerhetsutstyr** jobber kontinuerlig for Ã¥ forhindre at ulykker oppstÃ¥r ved Ã¥ assistere fÃ¸reren eller overta kontrollen i kritiske situasjoner.
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+**Aktivt sikkerhetsutstyr** jobber kontinuerlig for å forhindre at ulykker oppstår ved å assistere føreren eller overta kontrollen i kritiske situasjoner.
+![Aktivt sikkerhetsutstyr](/blog/kjoretoyets-sikkerhetsutstyr/aktivt-sikkerhetsutstyr.svg)
 ### Bremsesystemer
-For en grundig teknisk innfÃ¸ring i kretser og vÃ¦ske i bilens bremsesystem, se [Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)").
-
+For en grundig teknisk innføring i kretser og væske i bilens bremsesystem, se [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)").
 #### ABS (Antiblokkeringsbrems)
-
-**ABS-systemet** forhindrer at hjulene lÃ¥ser seg under hard bremsing, noe som opprettholder styrbarhet og reduserer bremselengde pÃ¥ de fleste underlag.
-
+**ABS-systemet** forhindrer at hjulene låser seg under hard bremsing, noe som opprettholder styrbarhet og reduserer bremselengde på de fleste underlag.
 * Les mer i [ABS (Antiblokkeringssystem)](/blogs/teori/abs-antiblokkeringssystem "ABS (Antiblokkeringssystem) - Prinsipper og fordeler").
-
 ##### Hvordan ABS fungerer
-
-1. **Hjulhastighetssensorer** overvÃ¥ker hvert hjuls rotasjon
+1. **Hjulhastighetssensorer** overvåker hvert hjuls rotasjon
 2. **ABS-modulen** sammenligner hjulhastigheter
-3. Ved fare for hjullÃ¥sing **reduseres bremsetrykket**
+3. Ved fare for hjullåsing **reduseres bremsetrykket**
 4. **Pumpevirkning** gjenopptar og reduserer bremsetrykk raskt
-5. FÃ¸reren opplever **vibrasjoner i bremsepedalen**
-
+5. Føreren opplever **vibrasjoner i bremsepedalen**
 ##### Fordeler med ABS
-
 * Opprettholder styrbarhet under bremsing
-* Reduserer bremselengde pÃ¥ tÃ¸rr asfalt
-* Forhindrer flate dekk fra hjullÃ¥sing
+* Reduserer bremselengde på tørr asfalt
+* Forhindrer flate dekk fra hjullåsing
 * Grunnlag for andre sikkerhetssystemer
-
 #### Bremsekraftforsterkning
-
 * **Vakuumforsterker**: Bruker motorens undertrykk
 * **Hydraulisk forsterker**: Elektrisk pumpe gir ekstra kraft
-* **NÃ¸dbremsassistent**: Registrerer panikksituasjoner og gir full bremsekraft
-
+* **Nødbremsassistent**: Registrerer panikksituasjoner og gir full bremsekraft
 ### ESC/ESP (Elektronisk stabilitetskontroll)
-
-**ESC-systemet** er kanskje det viktigste enkeltstÃ¥ende aktive sikkerhetssystemet, som kan forhindre utforkjÃ¸ring og velting.
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+**ESC-systemet** er kanskje det viktigste enkeltstående aktive sikkerhetssystemet, som kan forhindre utforkjøring og velting.
+![ESC-system](/blog/kjoretoyets-sikkerhetsutstyr/esc-system.svg)
 #### Komponenter i ESC
-
-* **Giroskopsensor**: MÃ¥ler bilens rotasjon
+* **Giroskopsensor**: Måler bilens rotasjon
 * **Akselerasjonssensor**: Registrerer sidekrefter
-* **Rattvinkelsensor**: MÃ¥ler fÃ¸rers Ã¸nskede retning
+* **Rattvinkelsensor**: Måler førers ønskede retning
 * **Bremsemodul**: Kan bremse individuelle hjul
-
 #### ESC i aksjon
-
-1. **Understyring**: Bremser inne bakhjul for Ã¥ dreie bilen
-2. **Overstyring**: Bremser ytre forhjul for Ã¥ stabilisere
+1. **Understyring**: Bremser inne bakhjul for å dreie bilen
+2. **Overstyring**: Bremser ytre forhjul for å stabilisere
 3. **Kraftreduksjon**: Reduserer motoreffekt ved behov
-
-### Moderne fÃ¸rerassistansesystemer (ADAS)
-
+### Moderne førerassistansesystemer (ADAS)
 #### Adaptive Cruise Control (ACC)
-
 **Adaptiv cruisekontroll** holder automatisk sikker avstand til bilen foran.
-
-* **Radarsensorer** mÃ¥ler avstand og hastighet
-* **Automatisk hastighetsregulering** basert pÃ¥ trafikk
-* **Stop & Go-funksjon** i kÃ¸situasjoner
-
+* **Radarsensorer** måler avstand og hastighet
+* **Automatisk hastighetsregulering** basert på trafikk
+* **Stop & Go-funksjon** i køsituasjoner
 #### Kollisjonsvarsling og autobrems
-
-**Automatiske nÃ¸dbremser** kan forhindre eller redusere alvorligheten av kollisjon.
-
+**Automatiske nødbremser** kan forhindre eller redusere alvorligheten av kollisjon.
 ##### Typer kollisjonsdeteksjon
-
-* **Frontkollisjonsvarsling**: Varsler om fare for pÃ¥kjÃ¸rsel
+* **Frontkollisjonsvarsling**: Varsler om fare for påkjørsel
 * **Fotgjengervarsling**: Spesiell deteksjon av fotgjengere og syklister
 * **Kryss-trafikkvarsling**: Varsler ved rygging ut av parkeringsplass
-
 #### Filassistansesystemer
-
-* **Filskiftvarsling**: Varsler nÃ¥r bilen forlater kjÃ¸refeltet
-* **Filholder-assistent**: Holder bilen i kjÃ¸refeltet
-* **Blindsonevarsling**: Varsler om kjÃ¸retÃ¸y i blindsonen
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+* **Filskiftvarsling**: Varsler når bilen forlater kjørefeltet
+* **Filholder-assistent**: Holder bilen i kjørefeltet
+* **Blindsonevarsling**: Varsler om kjøretøy i blindsonen
+![Filassistanse](/blog/kjoretoyets-sikkerhetsutstyr/filassistanse-system.svg)
 #### Parkeringsassistanse
-
-* **Parkeringssensorer**: Ultralydsbaserte avstandsmÃ¥lere
-* **Ryggekamera**: Visuell stÃ¸tte ved parkering
+* **Parkeringssensorer**: Ultralydsbaserte avstandsmålere
+* **Ryggekamera**: Visuell støtte ved parkering
 * **360-graders kamera**: Fugleperspektiv rundt bilen
 * **Automatisk parkering**: Bilen parkerer selv
-
-#### FÃ¸rerstÃ¸ttesystemer og automatisk kjÃ¸ring
-
-Moderne biler er utstyrt med avanserte **fÃ¸rerstÃ¸ttesystemer** som ikke bare hjelper fÃ¸reren med spesifikke manÃ¸vrer, men ogsÃ¥ legger grunnlaget for full **autonom kjÃ¸ring**. Under ser du en oversikt over sentrale systemer:
-
+#### Førerstøttesystemer og automatisk kjøring
+Moderne biler er utstyrt med avanserte **førerstøttesystemer** som ikke bare hjelper føreren med spesifikke manøvrer, men også legger grunnlaget for full **autonom kjøring**. Under ser du en oversikt over sentrale systemer:
 | System                                | Funksjon                                                      | Eksempel                        |
 |---------------------------------------|---------------------------------------------------------------|---------------------------------|
-| **Waymo**                             | Fullt autonom kjÃ¸ring pÃ¥ forhÃ¥ndsdefinerte ruter              | Waymo One i utvalgte omrÃ¥der    |
-| **Ryggesystemer**                     | StÃ¸tte ved rygging med sensorer og automatisk bremsing        | Rear Automatic Braking          |
+| **Waymo**                             | Fullt autonom kjøring på forhåndsdefinerte ruter              | Waymo One i utvalgte områder    |
+| **Ryggesystemer**                     | Støtte ved rygging med sensorer og automatisk bremsing        | Rear Automatic Braking          |
 | **Parkeringsassistent**               | Hjelp til manuell og automatisk parkering                     | Park Assist, ParkPilot          |
-| **Filholder-assistent**               | Holder bilen i kjÃ¸refelt ved hjelp av kameraer og sensorer    | Lane Keeping Assist             |
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+| **Filholder-assistent**               | Holder bilen i kjørefelt ved hjelp av kameraer og sensorer    | Lane Keeping Assist             |
+![Førerstøttesystemer oversikt](/blog/kjoretoyets-sikkerhetsutstyr/forerstottesystemer-oversikt.svg)
 ### Lysassistansesystemer
-
 #### Adaptive frontlykter
-
 * **Automatisk lysregulering**: Dimmer og tenner lys automatisk
-* **KurvefÃ¸lgende lys**: Frontlykter fÃ¸lger rattutslag
-* **HÃ¸ystrÃ¥lassistent**: Automatisk bytte mellom nÃ¦rlys og fjernlys
-
+* **Kurvefølgende lys**: Frontlykter følger rattutslag
+* **Høystrålassistent**: Automatisk bytte mellom nærlys og fjernlys
 #### LED og laserlys-teknologi
-
 * **LED-frontlykter**: Energieffektive og langvarige
-* **Matrix LED**: Selektiv lysdemping uten Ã¥ blende motkommende
+* **Matrix LED**: Selektiv lysdemping uten å blende motkommende
 * **Laserfront lys**: Ekstra lang rekkevidde
-
 ## Sikkerhetsutstyr for spesielle situasjoner
-
-### VinterkjÃ¸ring
-
+### Vinterkjøring
 **Vinterutstyr** er spesielt viktig for sikkerhet under norske vinterforhold:
-
-* **Vinterdekk eller pigger**: Lovkrav fra 1. november til fÃ¸rste sÃ¸ndag etter pÃ¥ske (se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Komplett guide til dekkregler"))
-* **SnÃ¸kjettinger**: For ekstra grep pÃ¥ snÃ¸ og is
+* **Vinterdekk eller pigger**: Lovkrav fra 1. november til første søndag etter påske (se [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Komplett guide til dekkregler"))
+* **Snøkjettinger**: For ekstra grep på snø og is
 * **Motorvarmer**: Sikrer god start og mindre slitasje
-* **Isskrape og bÃ¸rste**: For god sikt
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-### TilhengerkjÃ¸ring
-
-Ved [kjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger - Komplett guide til sikker tilhengerkjÃ¸ring") kreves spesielt sikkerhetsutstyr:
-
+* **Isskrape og børste**: For god sikt
+![Vinterutstyr](/blog/kjoretoyets-sikkerhetsutstyr/vinter-sikkerhetsutstyr.svg)
+### Tilhengerkjøring
+Ved [kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Komplett guide til sikker tilhengerkjøring") kreves spesielt sikkerhetsutstyr:
 * **Tilhengerkontakt**: 7-pins eller 13-pins kontakt
 * **Speil**: Utvidede speil for bedre sikt
-* **Bremseystem**: PÃ¥krevd for tunge tilhengere
+* **Bremseystem**: Påkrevd for tunge tilhengere
 * **Sikkerhetswire**: Ekstra sikring ved frakobling
-
-### NÃ¸dutstyr
-
-**Obligatorisk nÃ¸dutstyr** som skal vÃ¦re i bilen:
-
+### Nødutstyr
+**Obligatorisk nødutstyr** som skal være i bilen:
 | Utstyr | Lovkrav | Anbefaling |
 |--------|---------|------------|
-| **Varselstrekant** | Obligatorisk | Minst 50m bak kjÃ¸retÃ¸yet |
-| **Refleksvest** | Obligatorisk for fÃ¸rer | Alle passasjerer bÃ¸r ha |
-| **FÃ¸rstehjelpskit** | Ikke lovkrav | Sterkt anbefalt |
-| **Brannslukker** | Ikke lovkrav | Anbefalt, spesielt for yrkessjÃ¥fÃ¸rer |
-| **Lommelykt** | Ikke lovkrav | Anbefalt for vinterkjÃ¸ring |
-
+| **Varselstrekant** | Obligatorisk | Minst 50m bak kjøretøyet |
+| **Refleksvest** | Obligatorisk for fører | Alle passasjerer bør ha |
+| **Førstehjelpskit** | Ikke lovkrav | Sterkt anbefalt |
+| **Brannslukker** | Ikke lovkrav | Anbefalt, spesielt for yrkessjåfører |
+| **Lommelykt** | Ikke lovkrav | Anbefalt for vinterkjøring |
 ## Vedlikehold og kontroll av sikkerhetsutstyr
-
-**Regelmessig vedlikehold** av sikkerhetsutstyr er avgjÃ¸rende for at det skal fungere nÃ¥r det trengs. For en komplett oversikt over vedlikeholdsrutiner, se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon").
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+**Regelmessig vedlikehold** av sikkerhetsutstyr er avgjørende for at det skal fungere når det trengs. For en komplett oversikt over vedlikeholdsrutiner, se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon").
+![Vedlikeholdsplan](/blog/kjoretoyets-sikkerhetsutstyr/vedlikehold-sikkerhetsutstyr.svg)
 ### Daglig kontroll
-
-FÃ¸r [hver kjÃ¸retur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser for en lang kjÃ¸retur - Sjekkliste og planlegging") bÃ¸r du kontrollere:
-
+Før [hver kjøretur](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser for en lang kjøretur - Sjekkliste og planlegging") bør du kontrollere:
 * **Sikkerhetsbeltenes** tilstand og funksjon
 * **Speil og ruter** for god sikt
 * **Lys og signaler** virker
 * **Dekktilstand** og lufttrykk
-
 ### Periodisk kontroll
-
-#### Ved service (hver 6. mÃ¥ned eller 10 000 km)
-
-* **Bremser**: BremsevÃ¦ske, klosser og skiver
+#### Ved service (hver 6. måned eller 10 000 km)
+* **Bremser**: Bremsevæske, klosser og skiver
 * **Sikkerhetsbelter**: Slitasje og festepunkter
 * **Airbag-advarselslamper**: Ingen feilmeldinger
 * **ABS og ESC**: Funksjonskontroll
-
 #### Ved EU-kontroll
-
-**Periodisk kjÃ¸retÃ¸ykontroll** inkluderer omfattende sikkerhetskontroll:
-
+**Periodisk kjøretøykontroll** inkluderer omfattende sikkerhetskontroll:
 * **Bremsesystem**: Bremseeffekt og balanse
 * **Styresystem**: Styrespill og hjulinnstilling
 * **Lys og reflekser**: Alle lyskilder og innstillinger
 * **Sikkerhetsutstyr**: Belter, airbags og varselsutstyr
 * **Karosseriets** tilstand og korrosjon
-
 ### Vanlige feil og advarsler
-
 #### Airbag-advarselslampe
-
-* **Ã…rsaker**: Defekte sensorer, ledningsbrudd, eller systemfeil
-* **Konsekvens**: Airbag kan ikke utlÃ¸ses ved ulykke
+* **Årsaker**: Defekte sensorer, ledningsbrudd, eller systemfeil
+* **Konsekvens**: Airbag kan ikke utløses ved ulykke
 * **Handling**: Umiddelbar reparasjon hos autorisert verksted
-
 #### ABS/ESC-advarsel
-
-* **Ã…rsaker**: Sensorfeil, lav bremsevÃ¦ske, eller systemfeil
+* **Årsaker**: Sensorfeil, lav bremsevæske, eller systemfeil
 * **Konsekvens**: Redusert bremseytelse og stabilitet
-* **Handling**: KjÃ¸r forsiktig til verksted for reparasjon
-
-#### BeltepÃ¥minner
-
+* **Handling**: Kjør forsiktig til verksted for reparasjon
+#### Beltepåminner
 * **Funksjon**: Lyd- og lyssignaler
-* **Virkemidler**: Ã˜kende intensitet til belte festes
+* **Virkemidler**: Økende intensitet til belte festes
 * **Viktighet**: Reduserer ulykkesrisiko dramatisk
-
 ## Lovkrav og forskrifter
-
 ### Norske regler for sikkerhetsutstyr
-
-**Vegtrafikkloven** og **KjÃ¸retÃ¸yforskriften** stiller strenge krav til sikkerhetsutstyr:
-
+**Vegtrafikkloven** og **Kjøretøyforskriften** stiller strenge krav til sikkerhetsutstyr:
 #### Obligatorisk utstyr
-
-* **Sikkerhetsbelter**: Alle sitteplasser mÃ¥ ha godkjente belter
-* **HodestÃ¸tter**: Alle forseter og ytre bakseter
-* **Varselstrekant**: MÃ¥ medfÃ¸res og brukes ved stopp
-* **Refleksvest**: FÃ¸rer mÃ¥ ha tilgjengelig i kupÃ©en
-
-#### SÃ¦rskilte krav
-
+* **Sikkerhetsbelter**: Alle sitteplasser må ha godkjente belter
+* **Hodestøtter**: Alle forseter og ytre bakseter
+* **Varselstrekant**: Må medføres og brukes ved stopp
+* **Refleksvest**: Fører må ha tilgjengelig i kupéen
+#### Særskilte krav
 * **Barnesikring**: Egne regler for [Barn i bilen](/blogs/teori/barn-i-bilen "Barn i bilen - Guide til sikkerhet og regler for barn i bil")
 * **Vinterdekk**: Krav om egnet utstyr i vinterperioden
-* **Tilhengere**: Spesifikke krav ved [kjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger - Komplett guide til sikker tilhengerkjÃ¸ring")
-
+* **Tilhengere**: Spesifikke krav ved [kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Komplett guide til sikker tilhengerkjøring")
 ### EU-direktiver og standarder
-
 #### NCAP-testing
-
 **European New Car Assessment Programme** tester bilsikkerhet:
-
-* **Voksen passasjerbeskyttelse**: Frontal-, side- og pÃ¥lekollisjon
+* **Voksen passasjerbeskyttelse**: Frontal-, side- og pålekollisjon
 * **Barnebeskyttelse**: Spesielle tester for barn
-* **Fotgjengerbeskyttelse**: PÃ¥kjÃ¸rsel av fotgjengere
+* **Fotgjengerbeskyttelse**: Påkjørsel av fotgjengere
 * **Sikkerhetstiltak**: Elektroniske assistansesystemer
-
 #### Kommende krav
-
-**Fra 2022** er fÃ¸lgende obligatorisk i nye biler:
-
+**Fra 2022** er følgende obligatorisk i nye biler:
 * **Intelligent Speed Assist**: Fartsgrensevarsling
-* **Automatisk nÃ¸dbremsing**: For alle nye biler
-* **Drowsy Driver Warning**: Deteksjon av trÃ¸tte sjÃ¥fÃ¸rer
-* **Advanced Distraction Warning**: Varsling om uoppmerksom kjÃ¸ring
-
+* **Automatisk nødbremsing**: For alle nye biler
+* **Drowsy Driver Warning**: Deteksjon av trøtte sjåfører
+* **Advanced Distraction Warning**: Varsling om uoppmerksom kjøring
 ## Fremtidens sikkerhetsteknologi
-
-### Autonome kjÃ¸resystemer
-
-**SelvkjÃ¸rende biler** representerer neste steg i trafikksikkerhetsutvikling:
-
+### Autonome kjøresystemer
+**Selvkjørende biler** representerer neste steg i trafikksikkerhetsutvikling:
 * **Level 3**: Betinget automatisering i spesielle situasjoner
-* **Level 4**: HÃ¸y automatisering uten fÃ¸reroppmerksomhet
+* **Level 4**: Høy automatisering uten føreroppmerksomhet
 * **Level 5**: Full automatisering under alle forhold
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Autonome nivåer](/blog/kjoretoyets-sikkerhetsutstyr/autonome-niva.svg)
 ### V2X-kommunikasjon
-
 **Vehicle-to-Everything** lar biler kommunisere med:
-
-* **Andre kjÃ¸retÃ¸y** (V2V): Deling av hastighet, posisjon og intensjoner
+* **Andre kjøretøy** (V2V): Deling av hastighet, posisjon og intensjoner
 * **Infrastruktur** (V2I): Trafikklys, skilt og veisensorer
 * **Fotgjengere** (V2P): Smarttelefoner og wearables
-* **Nettverk** (V2N): Trafikkinformasjon og vÃ¦rdata
-
-### Kunstig intelligens og maskinlÃ¦ring
-
+* **Nettverk** (V2N): Trafikkinformasjon og værdata
+### Kunstig intelligens og maskinlæring
 **AI-systemer** vil forbedre sikkerhet gjennom:
-
 * **Prediktiv analyse**: Forutse farlige situasjoner
-* **Personalisert kjÃ¸restil**: Tilpasning til individuell sjÃ¥fÃ¸r
-* **Kontinuerlig lÃ¦ring**: Forbedring basert pÃ¥ erfaring
+* **Personalisert kjørestil**: Tilpasning til individuell sjåfør
+* **Kontinuerlig læring**: Forbedring basert på erfaring
 * **Sensorsammensmelting**: Kombinere data fra flere kilder
-
 ## Sammendrag og viktighet
-
-**KjÃ¸retÃ¸yets sikkerhetsutstyr** har gjennomgÃ¥tt en revolusjon fra enkle mekaniske systemer til avanserte elektroniske assistenter. ForstÃ¥else av hvordan disse systemene fungerer er avgjÃ¸rende for:
-
-### For fÃ¸rerkort-kandidater
-
-* **Teoretisk kunnskap**: ForstÃ¥ funksjon og begrensninger
+**Kjøretøyets sikkerhetsutstyr** har gjennomgått en revolusjon fra enkle mekaniske systemer til avanserte elektroniske assistenter. Forståelse av hvordan disse systemene fungerer er avgjørende for:
+### For førerkort-kandidater
+* **Teoretisk kunnskap**: Forstå funksjon og begrensninger
 * **Praktisk bruk**: Riktig betjening av sikkerhetssystemer
 * **Vedlikehold**: Holde utstyr i optimal stand
-* **Ansvar**: ForstÃ¥ juridiske og etiske forpliktelser
-
-### Viktigste punkter Ã¥ huske
-
+* **Ansvar**: Forstå juridiske og etiske forpliktelser
+### Viktigste punkter å huske
 1. **Sikkerhetsbeltet** er det viktigste enkeltutstyret
 2. **Passivt og aktivt utstyr** arbeider sammen
-3. **Regelmessig vedlikehold** er avgjÃ¸rende
-4. **Nye teknologier** krever forstÃ¥else og tilpasning
-5. **Lovkrav** mÃ¥ fÃ¸lges for trafikksikkerhet
-
-> **Husk**: Sikkerhetsutstyr kan bare redde liv hvis det brukes riktig og holdes i god stand. Ingen teknologi kan erstatte en oppmerksom og ansvarlig sjÃ¥fÃ¸r.
-
+3. **Regelmessig vedlikehold** er avgjørende
+4. **Nye teknologier** krever forståelse og tilpasning
+5. **Lovkrav** må følges for trafikksikkerhet
+> **Husk**: Sikkerhetsutstyr kan bare redde liv hvis det brukes riktig og holdes i god stand. Ingen teknologi kan erstatte en oppmerksom og ansvarlig sjåfør.
 ## Relaterte emner
-
-For dypere forstÃ¥else av trafikksikkerhet, se ogsÃ¥:
-
-* [Defensiv kjÃ¸ring](/blogs/teori/defensiv-kjoring "Defensiv kjÃ¸ring - Teknikker for forebyggende kjÃ¸remÃ¥te") - Forebyggende kjÃ¸reteknikker
-* [HÃ¥ndtering av nÃ¸dsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "HÃ¥ndtering av nÃ¸dsituasjoner - Akutte situasjoner og nÃ¸dmanÃ¸ver") - Akutte situasjoner og nÃ¸dmanÃ¸ver  
-* [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Psykologi og reaksjoner bak rattet") - Psykologiske faktorer ved kjÃ¸ring
+For dypere forståelse av trafikksikkerhet, se også:
+* [Defensiv kjøring](/blogs/teori/defensiv-kjoring "Defensiv kjøring - Teknikker for forebyggende kjøremåte") - Forebyggende kjøreteknikker
+* [Håndtering av nødsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "Håndtering av nødsituasjoner - Akutte situasjoner og nødmanøver") - Akutte situasjoner og nødmanøver  
+* [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Psykologi og reaksjoner bak rattet") - Psykologiske faktorer ved kjøring
 * [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring") - Riktig sikring for maksimal trygghet
-* [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold - Vinter, regn og redusert sikt") - Tilpasning til vÃ¦rforhold og veiforhold\n  </div>\n</div>
+* [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold - Vinter, regn og redusert sikt") - Tilpasning til værforhold og veiforhold

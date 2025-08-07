@@ -1,14 +1,13 @@
 ﻿---
-title: "Reaksjonstid og bremselengde"
+title: "Reaksjonstid Og Bremselengde"
 date: 2025-08-06
 draft: false
 author: "Eteo Team"
-description: "Lær alt om reaksjonstid og bremselengde i trafikken. Formler, tabeller og faktorer som påvirker stoppelengde for førerkortteori."
+description: "Guide to Reaksjonstid Og Bremselengde for Norwegian driving theory exam."
 categories: ["Driving Theory"]
 tags: ["driving", "theory", "safety"]
-featured_image: "/images/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg"
+featured_image: "/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg"
 ---
-
 <style>
 /* Base text styling */
 .article-content {
@@ -17,7 +16,6 @@ featured_image: "/images/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-brems
   color: #1f2937;
   font-size: 16px;
 }
-
 /* Headers */
 h1 {
   font-size: 2rem;
@@ -25,61 +23,56 @@ h1 {
   margin: 2rem 0 1.5rem;
   color: #111827;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
   color: #1f2937;
 }
-
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin: 1.5rem 0 0.75rem;
   color: #374151;
 }
-
 /* Paragraphs */
 p {
   margin: 1rem 0;
   line-height: 1.7;
 }
-
 /* Lists */
 ul, ol {
   margin: 1rem 0 1rem 1.5rem;
   padding-left: 1rem;
 }
-
 li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
 }
-
-ul > li::before {
-  content: 'â€¢';
-  color: #3b82f6;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+/* Bold and emphasis text */
+strong, b {
+  font-weight: 700 !important;
+  color: #111827;
 }
-
+em, i {
+  font-style: italic;
+  color: #374151;
+}
+strong em, b i, em strong, i b {
+  font-weight: 700 !important;
+  font-style: italic;
+  color: #111827;
+}
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 /* Code blocks */
 pre, code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
@@ -87,17 +80,14 @@ pre, code {
   border-radius: 0.375rem;
   font-size: 0.875em;
 }
-
 pre {
   padding: 1rem;
   overflow-x: auto;
   margin: 1rem 0;
 }
-
 code {
   padding: 0.2em 0.4em;
 }
-
 /* Blockquotes */
 blockquote {
   border-left: 4px solid #e5e7eb;
@@ -107,7 +97,6 @@ blockquote {
   color: #4b5563;
   font-style: italic;
 }
-
 /* Tables */
 table {
   margin: 1.5rem auto !important;
@@ -120,14 +109,12 @@ table {
   border: 1px solid #e5e7eb !important;
   display: table !important;
 }
-
 th, td {
   padding: 0.75rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #e5e7eb !important;
   vertical-align: top;
 }
-
 th {
   background-color: #f9fafb !important;
   font-weight: 600 !important;
@@ -136,25 +123,20 @@ th {
   font-size: 0.75rem !important;
   letter-spacing: 0.05em !important;
 }
-
 tr:nth-child(even) {
   background-color: #f9fafb !important;
 }
-
 tr:hover {
   background-color: #f3f4f6 !important;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .article-content {
     font-size: 15px;
   }
-  
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.375rem; }
   h3 { font-size: 1.125rem; }
-  
   table {
     display: block !important;
     overflow-x: auto !important;
@@ -162,202 +144,64 @@ tr:hover {
   }
 }
 </style>
-
-
-<div class="blog-content">
-  <div class="featured-image">
-    <img src="/images/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg" alt="Reaksjonstid og bremselengde" class="img-fluid rounded">
-  </div>
-
-  <div class="toc-container mt-4 mb-4">
-    <h3>Table of Contents</h3>
-    {{< toc >}}
-  </div>
-
-  <div class="blog-body">\n{{< toc >}}}}
-{{< toc >}}}}
-{{< toc >}}}}
-**Reaksjonstid og bremselengde** er fundamentale konsepter innen trafikksikkerhet som avgjÃ¸r hvor lang tid og avstand det tar Ã¥ stoppe et kjÃ¸retÃ¸y i en nÃ¸dsituasjon. Disse faktorene er kritiske for alle bilfÃ¸rere og utgjÃ¸r grunnlaget for mange viktige trafikkprinsipper som **fÃ¸lgeavstand**, **hastighetstilpasning** og **risikovurdering**.
-
-*For en helhetlig forstÃ¥else av kjÃ¸reprosessen fra sanseinntrykk til handling, se [Trafikksituasjon og kjÃ¸reprosessen](/blogs/teori/trafikksituasjon-og-kjoreprosessen "Trafikksituasjon og kjÃ¸reprosessen - Sansing til handling, reaksjonstid m.m").*
-
-*For mer om hvordan dette pÃ¥virker forebygging av frontkollisjoner, se [MÃ¸teulykker og forebygging](/blogs/teori/moteulykker-og-forebygging "MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken").*
-
-*For mer om oppmerksomhetstid og total tid i kjÃ¸reprosessen, se [Reaksjonstid, oppmerksomhetstid og total tid](/blogs/teori/reaksjonstid-oppmerksomhetstid-totaltid "Reaksjonstid, oppmerksomhetstid og total tid - Tidskomponenter i kjÃ¸reprosessen").*
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+**Reaksjonstid og bremselengde** er fundamentale konsepter innen trafikksikkerhet som avgjør hvor lang tid og avstand det tar å stoppe et kjøretøy i en nødsituasjon. Disse faktorene er kritiske for alle bilførere og utgjør grunnlaget for mange viktige trafikkprinsipper som **følgeavstand**, **hastighetstilpasning** og **risikovurdering**.
+*For en helhetlig forståelse av kjøreprosessen fra sanseinntrykk til handling, se [Trafikksituasjon og kjøreprosessen](/blogs/teori/trafikksituasjon-og-kjoreprosessen "Trafikksituasjon og kjøreprosessen - Sansing til handling, reaksjonstid m.m").*
+*For mer om hvordan dette påvirker forebygging av frontkollisjoner, se [Møteulykker og forebygging](/blogs/teori/moteulykker-og-forebygging "Møteulykker og forebygging - Forebygging av frontkollisjoner i trafikken").*
+*For mer om oppmerksomhetstid og total tid i kjøreprosessen, se [Reaksjonstid, oppmerksomhetstid og total tid](/blogs/teori/reaksjonstid-oppmerksomhetstid-totaltid "Reaksjonstid, oppmerksomhetstid og total tid - Tidskomponenter i kjøreprosessen").*
+![Reaksjonstid og bremselengde](/blog/reaksjonstid-og-bremselengde/reaksjonstid-og-bremselengde-image.svg)
 ## Hva er reaksjonstid?
-
-> **Reaksjonstid** er tiden fra du oppdager en fare til du begynner Ã¥ bremse. For en vÃ¥ken, oppmerksom sjÃ¥fÃ¸r under normale forhold er reaksjonstiden typisk **1â€“1,5 sekunder**, men kan variere betydelig avhengig av flere faktorer.
-
+> **Reaksjonstid** er tiden fra du oppdager en fare til du begynner å bremse. For en våken, oppmerksom sjåfør under normale forhold er reaksjonstiden typisk **1–1,5 sekunder**, men kan variere betydelig avhengig av flere faktorer.
 ### Reaksjonstidskomponenter
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-Reaksjonstiden bestÃ¥r av fire hovedfaser:
-
-1. **Oppfattelsestid** (0,1-0,5 sek) - Tiden det tar Ã¥ registrere faren
-2. **Identifikasjonsstid** (0,1-0,3 sek) - Tiden det tar Ã¥ forstÃ¥ hva som skjer
-3. **Beslutningstid** (0,1-0,3 sek) - Tiden det tar Ã¥ bestemme seg for handling
-4. **Handlingstid** (0,1-0,3 sek) - Tiden det tar Ã¥ flytte foten til bremsepedalen
-
+![Reaksjonstidskomponenter](/blog/reaksjonstid-og-bremselengde/reaksjonstid-komponenter.svg)
+Reaksjonstiden består av fire hovedfaser:
+1. **Oppfattelsestid** (0,1-0,5 sek) - Tiden det tar å registrere faren
+2. **Identifikasjonsstid** (0,1-0,3 sek) - Tiden det tar å forstå hva som skjer
+3. **Beslutningstid** (0,1-0,3 sek) - Tiden det tar å bestemme seg for handling
+4. **Handlingstid** (0,1-0,3 sek) - Tiden det tar å flytte foten til bremsepedalen
 ### Beregning av reaksjonsavstand
-
-Reaksjonsavstanden er distansen bilen tilbakelegger i lÃ¸pet av reaksjonstiden:
-
-**Reaksjonsavstand = (Hastighet Ã· 10) Ã— 3**
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+Reaksjonsavstanden er distansen bilen tilbakelegger i løpet av reaksjonstiden:
+**Reaksjonsavstand = (Hastighet ÷ 10) × 3**
+![Reaksjonsavstand ved ulike hastigheter](/blog/reaksjonstid-og-bremselengde/reaksjonsavstand-hastighet.svg)
 | Hastighet  | Reaksjonsavstand | Praktisk sammenligning        |
 |------------|------------------|-------------------------------|
-| **30 km/t**   | 9 meter          | Omtrent 2 biler i kÃ¸          |
+| **30 km/t**   | 9 meter          | Omtrent 2 biler i kø          |
 | **50 km/t**   | 15 meter         | Halv fotballbane              |
-| **70 km/t**   | 21 meter         | Over 5 biler pÃ¥ rekke         |
-| **80 km/t**   | 24 meter         | Ca. 6 biler pÃ¥ rekke          |
-| **90 km/t**   | 27 meter         | Nesten 7 biler pÃ¥ rekke       |
-| **110 km/t**  | 33 meter         | Over 8 biler pÃ¥ rekke         |
-
-### Faktorer som pÃ¥virker reaksjonstid
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+| **70 km/t**   | 21 meter         | Over 5 biler på rekke         |
+| **80 km/t**   | 24 meter         | Ca. 6 biler på rekke          |
+| **90 km/t**   | 27 meter         | Nesten 7 biler på rekke       |
+| **110 km/t**  | 33 meter         | Over 8 biler på rekke         |
+### Faktorer som påvirker reaksjonstid
+![Faktorer som påvirker reaksjonstid](/blog/reaksjonstid-og-bremselengde/reaksjonstid-faktorer.svg)
 #### Fysiologiske faktorer:
-* **Alder** - Eldre fÃ¸rere har ofte lengre reaksjonstid (1,5-2,5 sek)
+* **Alder** - Eldre førere har ofte lengre reaksjonstid (1,5-2,5 sek)
 * **Helse** - Sykdom, medisiner og fysiske begrensninger
-* **Alkohol og rusmidler** - Kan Ã¸ke reaksjonstiden til 2-4 sekunder
-* **Tretthet** - SÃ¸vnmangel kan doble reaksjonstiden
-
+* **Alkohol og rusmidler** - Kan øke reaksjonstiden til 2-4 sekunder
+* **Tretthet** - Søvnmangel kan doble reaksjonstiden
 #### Psykologiske faktorer:
-* **Oppmerksomhet** - Distraksjoner Ã¸ker reaksjonstiden betydelig
-* **Erfaring** - Erfarne sjÃ¥fÃ¸rer reagerer ofte raskere
+* **Oppmerksomhet** - Distraksjoner øker reaksjonstiden betydelig
+* **Erfaring** - Erfarne sjåfører reagerer ofte raskere
 * **Forventning** - Uventede situasjoner gir lengre reaksjonstid
-* **Stress** - Kan bÃ¥de forkorte og forlenge reaksjonstiden
-
-#### MiljÃ¸faktorer:
-* **Sikt** - DÃ¥rlig sikt Ã¸ker oppfattelsestiden
+* **Stress** - Kan både forkorte og forlenge reaksjonstiden
+#### Miljøfaktorer:
+* **Sikt** - Dårlig sikt øker oppfattelsestiden
 * **Kompleksitet** - Komplekse situasjoner krever lengre beslutningstid
-* **KjÃ¸reforholdene** - Vanskelige forhold krever mer oppmerksomhet
-
-For mer om menneskelige faktorer, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring").
-
+* **Kjøreforholdene** - Vanskelige forhold krever mer oppmerksomhet
+For mer om menneskelige faktorer, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring").
 ## Hva er bremselengde?
-
-For mer om bremsesystemets oppbygning, hydrauliske kretser og vÃ¦ske, se [Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)").
-
-> **Bremselengde** er distansen bilen tilbakelegger fra bremsene aktiveres til kjÃ¸retÃ¸yet kommer til fullstendig stopp. Bremselengden Ã¸ker **kvadratisk** med hastigheten - dobler du hastigheten, blir bremselengden fire ganger sÃ¥ lang.
-
+For mer om bremsesystemets oppbygning, hydrauliske kretser og væske, se [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)").
+> **Bremselengde** er distansen bilen tilbakelegger fra bremsene aktiveres til kjøretøyet kommer til fullstendig stopp. Bremselengden øker **kvadratisk** med hastigheten - dobler du hastigheten, blir bremselengden fire ganger så lang.
 ### Fysiske prinsipper bak bremsing
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Fysiske prinsipper ved bremsing](/blog/reaksjonstid-og-bremselengde/bremsing-fysikk.svg)
 Bremselengden bestemmes av flere fysiske faktorer:
-
-* **Kinetisk energi** - Ã˜ker med kvadratet av hastigheten (E = Â½mvÂ²)
+* **Kinetisk energi** - Øker med kvadratet av hastigheten (E = ½mv²)
 * **Friksjon** - Mellom dekk og veioverflate
-* **Vekt** - Tyngre kjÃ¸retÃ¸y krever mer energi for Ã¥ stoppe
+* **Vekt** - Tyngre kjøretøy krever mer energi for å stoppe
 * **Bremsekraft** - Bilens bremsekapasitet
-
 ### Beregning av bremselengde
-
-PÃ¥ **tÃ¸rr asfalt** med gode dekk kan bremselengden estimeres ved:
-
-**Bremselengde â‰ˆ (Hastighet Ã· 10)Â²**
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-| Hastighet  | TÃ¸rr asfalt | VÃ¥t asfalt | Is/snÃ¸ | Grus |
+På **tørr asfalt** med gode dekk kan bremselengden estimeres ved:
+**Bremselengde ≈ (Hastighet ÷ 10)²**
+![Bremselengde ved ulike hastigheter](/blog/reaksjonstid-og-bremselengde/bremselengde-hastighet.svg)
+| Hastighet  | Tørr asfalt | Våt asfalt | Is/snø | Grus |
 |------------|-------------|-------------|---------|------|
 | **30 km/t**   | 9 m         | 18 m        | 27 m    | 13 m |
 | **50 km/t**   | 25 m        | 50 m        | 75 m    | 36 m |
@@ -365,73 +209,31 @@ PÃ¥ **tÃ¸rr asfalt** med gode dekk kan bremselengden estimeres ved:
 | **80 km/t**   | 64 m        | 128 m       | 192 m   | 92 m |
 | **90 km/t**   | 81 m        | 162 m       | 243 m   | 116 m|
 | **110 km/t**  | 121 m       | 242 m       | 363 m   | 173 m|
-
-### Faktorer som pÃ¥virker bremselengde
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-#### Vei- og vÃ¦rforhold:
-* **TÃ¸rt asfalt** - Beste bremsegrep (friksjon â‰ˆ 0,8)
-* **VÃ¥t asfalt** - Halvert bremsegrep (friksjon â‰ˆ 0,4)
-* **Is og snÃ¸** - Dramatisk redusert grep (friksjon â‰ˆ 0,1-0,3)
-* **Grus** - Varierende grep avhengig av kornstÃ¸rrelse
-* **Olje/diesel** - Ekstremt farlig, nÃ¦rmest ingen friksjon
-
-#### KjÃ¸retÃ¸yfaktorer:
+### Faktorer som påvirker bremselengde
+![Faktorer som påvirker bremselengde](/blog/reaksjonstid-og-bremselengde/bremselengde-faktorer.svg)
+#### Vei- og værforhold:
+* **Tørt asfalt** - Beste bremsegrep (friksjon ≈ 0,8)
+* **Våt asfalt** - Halvert bremsegrep (friksjon ≈ 0,4)
+* **Is og snø** - Dramatisk redusert grep (friksjon ≈ 0,1-0,3)
+* **Grus** - Varierende grep avhengig av kornstørrelse
+* **Olje/diesel** - Ekstremt farlig, nærmest ingen friksjon
+#### Kjøretøyfaktorer:
 * **Dekkstand** - Slitte dekk reduserer bremseevnen betydelig
-* **Dekktrykk** - Feil trykk pÃ¥virker kontaktflate med veien
+* **Dekktrykk** - Feil trykk påvirker kontaktflate med veien
 * **Bremsesystem** - Slitte bremseklosser/skiver
-* **ABS** - Forhindrer lÃ¥sing, men Ã¸ker ikke nÃ¸dvendigvis bremseevnen
-* **Vekt og last** - Tyngre kjÃ¸retÃ¸y krever lengre bremselengde
-
+* **ABS** - Forhindrer låsing, men øker ikke nødvendigvis bremseevnen
+* **Vekt og last** - Tyngre kjøretøy krever lengre bremselengde
 #### Bremseteknikk:
-* **Panikk-bremsing** - Kan fÃ¸re til hjullÃ¥sing uten ABS
-* **Progresiv bremsing** - Gradvis Ã¸kning av bremsekraft
-* **Pumpe-bremsing** - PÃ¥ glatt underlag uten ABS
-
-For mer om kjÃ¸ring under vanskelige forhold, se [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold").
-
+* **Panikk-bremsing** - Kan føre til hjullåsing uten ABS
+* **Progresiv bremsing** - Gradvis økning av bremsekraft
+* **Pumpe-bremsing** - På glatt underlag uten ABS
+For mer om kjøring under vanskelige forhold, se [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold").
 ## Stoppeavstand - Den totale distansen
-
-> **Stoppeavstand** er summen av reaksjonsavstand og bremselengde, og representerer den totale distansen fra du oppdager faren til bilen stÃ¥r stille.
-
+> **Stoppeavstand** er summen av reaksjonsavstand og bremselengde, og representerer den totale distansen fra du oppdager faren til bilen står stille.
 **Stoppeavstand = Reaksjonsavstand + Bremselengde**
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
+![Stoppeavstand komponenter](/blog/reaksjonstid-og-bremselengde/stoppeavstand-komponenter.svg)
 ### Stoppeavstand ved ulike hastigheter
-
-| Hastighet | Reaksjonsavstand | Bremselengde (tÃ¸rt) | **Total stoppeavstand** |
+| Hastighet | Reaksjonsavstand | Bremselengde (tørt) | **Total stoppeavstand** |
 |-----------|------------------|---------------------|-------------------------|
 | **30 km/t**  | 9 m              | 9 m                 | **18 meter**            |
 | **50 km/t**  | 15 m             | 25 m                | **40 meter**            |
@@ -439,367 +241,155 @@ For mer om kjÃ¸ring under vanskelige forhold, se [KjÃ¸ring under vanskelige 
 | **80 km/t**  | 24 m             | 64 m                | **88 meter**            |
 | **90 km/t**  | 27 m             | 81 m                | **108 meter**           |
 | **110 km/t** | 33 m             | 121 m               | **154 meter**           |
-
-### Stoppeavstand pÃ¥ vÃ¥t vei
-
-PÃ¥ vÃ¥t asfalt dobles bremselengden, noe som dramatisk Ã¸ker den totale stoppeavstanden:
-
-| Hastighet | Reaksjonsavstand | Bremselengde (vÃ¥t) | **Total stoppeavstand** |
+### Stoppeavstand på våt vei
+På våt asfalt dobles bremselengden, noe som dramatisk øker den totale stoppeavstanden:
+| Hastighet | Reaksjonsavstand | Bremselengde (våt) | **Total stoppeavstand** |
 |-----------|------------------|---------------------|-------------------------|
 | **50 km/t**  | 15 m             | 50 m                | **65 meter**            |
 | **80 km/t**  | 24 m             | 128 m               | **152 meter**           |
 | **110 km/t** | 33 m             | 242 m               | **275 meter**           |
-
-## Praktiske fÃ¸lger av reaksjonstid og bremselengde
-
-### FÃ¸lgeavstand
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**3-sekunders regelen** er basert pÃ¥ reaksjonstid og bremselengde:
-
-* Ved **50 km/t**: 3 sekunder = 42 meter (tilnÃ¦rmet lik stoppeavstanden pÃ¥ 40 m)
-* Ved **80 km/t**: 3 sekunder = 67 meter (noe mindre enn stoppeavstanden pÃ¥ 88 m)
-* Ved **110 km/t**: 3 sekunder = 92 meter (betydelig mindre enn stoppeavstanden pÃ¥ 154 m)
-
-**Konklusjon**: 3-sekunders regelen gir tilstrekkelig sikkerhet ved lavere hastigheter, men pÃ¥ motorvei bÃ¸r fÃ¸lgeavstanden Ã¸kes.
-
-For mer om fÃ¸lgeavstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Guide til hastighet og bremseavstand").
-
-### ForbikjÃ¸ring
-
-Ved forbikjÃ¸ring mÃ¥ du regne med at **bÃ¥de du og motgÃ¥ende trafikk** kan ha behov for nÃ¸dbremsing:
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-* **Innhentingsavstand** - Distanse for Ã¥ komme opp pÃ¥ siden av kjÃ¸retÃ¸yet foran
-* **ForbikjÃ¸ringsavstand** - Distanse for Ã¥ passere helt
+## Praktiske følger av reaksjonstid og bremselengde
+### Følgeavstand
+![Følgeavstand og stoppeavstand](/blog/reaksjonstid-og-bremselengde/folgeavstand-regel.svg)
+**3-sekunders regelen** er basert på reaksjonstid og bremselengde:
+* Ved **50 km/t**: 3 sekunder = 42 meter (tilnærmet lik stoppeavstanden på 40 m)
+* Ved **80 km/t**: 3 sekunder = 67 meter (noe mindre enn stoppeavstanden på 88 m)
+* Ved **110 km/t**: 3 sekunder = 92 meter (betydelig mindre enn stoppeavstanden på 154 m)
+**Konklusjon**: 3-sekunders regelen gir tilstrekkelig sikkerhet ved lavere hastigheter, men på motorvei bør følgeavstanden økes.
+For mer om følgeavstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Guide til hastighet og bremseavstand").
+### Forbikjøring
+Ved forbikjøring må du regne med at **både du og motgående trafikk** kan ha behov for nødbremsing:
+![Forbikjøringsavstander](/blog/reaksjonstid-og-bremselengde/forbikjoring-avstander.svg)
+* **Innhentingsavstand** - Distanse for å komme opp på siden av kjøretøyet foran
+* **Forbikjøringsavstand** - Distanse for å passere helt
 * **Sikkerhetsmargin** - Ekstra avstand for uforutsette hendelser
-
-For mer om forbikjÃ¸ring, se [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Teknikker og sikkerhet").
-
+For mer om forbikjøring, se [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Teknikker og sikkerhet").
 ### Hastighetstilpasning
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-Hastigheten mÃ¥ tilpasses sÃ¥ stoppeavstanden aldri overstiger:
-
-* **Sikten** - Du mÃ¥ kunne stoppe innenfor den avstanden du kan se
+![Hastighetstilpasning basert på stoppeavstand](/blog/reaksjonstid-og-bremselengde/hastighetstilpasning-stoppeavstand.svg)
+Hastigheten må tilpasses så stoppeavstanden aldri overstiger:
+* **Sikten** - Du må kunne stoppe innenfor den avstanden du kan se
 * **Veiens beskaffenhet** - Svinger, bakketopper, kryss
 * **Trafikksituasjonen** - Tett trafikk krever lavere hastighet
-* **VÃ¦rforholdene** - Regn, snÃ¸ og is krever betydelig hastighetstilpasning
-
+* **Værforholdene** - Regn, snø og is krever betydelig hastighetstilpasning
 ## Moderne teknologi og bremsesystemer
-
 ### ABS (Anti-lock Braking System)
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**ABS forhindrer hjullÃ¥sing** ved kraftig bremsing:
-
+![ABS system](/blog/reaksjonstid-og-bremselengde/abs-system.svg)
+**ABS forhindrer hjullåsing** ved kraftig bremsing:
 **Fordeler:**
 * Beholder styrekontroll under bremsing
 * Forhindrer sklidding og sladding
-* Optimaliserer bremsekraft pÃ¥ ulike underlag
-
+* Optimaliserer bremsekraft på ulike underlag
 **Begrensninger:**
-* Reduserer ikke nÃ¸dvendigvis bremselengden pÃ¥ tÃ¸rt underlag
-* Kan Ã¸ke bremselengden pÃ¥ lÃ¸s grus eller snÃ¸
+* Reduserer ikke nødvendigvis bremselengden på tørt underlag
+* Kan øke bremselengden på løs grus eller snø
 * Krever riktig bremseteknikk (fast, kontinuerlig trykk)
-
 ### Elektronisk bremsekraftfordeling (EBD)
-
-EBD optimaliserer bremsekraften mellom for- og bakhjul basert pÃ¥:
+EBD optimaliserer bremsekraften mellom for- og bakhjul basert på:
 * Lastenfordeling
 * Veigrep
 * Bremsesituasjon
-
 For en mer detaljert gjennomgang av **fordeling av bremsekraft** og **skjevtrekk**, se [Fordeling av bremsekraft og skjevtrekk](/blogs/teori/fordeling-av-bremsekraft-og-skjevtrekk "Fordeling av bremsekraft og skjevtrekk").
-
-### NÃ¸dbremseassistent (Emergency Brake Assist)
-
+### Nødbremseassistent (Emergency Brake Assist)
 Moderne systemer kan:
 * **Detektere** hindringer med radar/kamera
-* **Varsle** fÃ¸reren om fare
-* **Bremse automatisk** hvis fÃ¸reren ikke reagerer
-
-For mer om sikkerhetsutstyr, se [KjÃ¸retÃ¸yets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "KjÃ¸retÃ¸yets sikkerhetsutstyr").
-
+* **Varsle** føreren om fare
+* **Bremse automatisk** hvis føreren ikke reagerer
+For mer om sikkerhetsutstyr, se [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr").
 ## Spesielle situasjoner
-
-### Bremsing pÃ¥ motorvei
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-PÃ¥ motorvei er det spesielle hensyn:
-
-* **HÃ¸y hastighet** gir ekstremt lange stoppeavstander
+### Bremsing på motorvei
+![Motorvei bremsing](/blog/reaksjonstid-og-bremselengde/motorvei-bremsing.svg)
+På motorvei er det spesielle hensyn:
+* **Høy hastighet** gir ekstremt lange stoppeavstander
 * **Bakenforliggende trafikk** kan ikke stoppe i tide
-* **NÃ¸dstopp** skal kun gjÃ¸res ved akutt fare
+* **Nødstopp** skal kun gjøres ved akutt fare
 * **Gradvis retardasjon** er ofte tryggere enn kraftig bremsing
-
-For mer om motorveikjÃ¸ring, se [MotorveikjÃ¸ring](/blogs/teori/motorveikjoring "MotorveikjÃ¸ring - Teknikker og sikkerhet").
-
+For mer om motorveikjøring, se [Motorveikjøring](/blogs/teori/motorveikjoring "Motorveikjøring - Teknikker og sikkerhet").
 ### Bremsing med tilhenger
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-Tilhenger pÃ¥virker bremsegenskaper betydelig:
-
-* **Ã˜kt vekt** gir lengre bremselengde
-* **Vektfordeling** pÃ¥virker stabilitet
-* **Tilhengerbremser** mÃ¥ vÃ¦re kalibrert riktig
-* **Sladdefare** Ã¸ker ved kraftig bremsing
-
-For mer om tilhengerkjÃ¸ring, se [KjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger").
-
-For mer om konsekvenser av tung last i bil eller tilhenger, se [Tung last - konsekvenser](/blogs/teori/tung-last-konsekvenser "Tung last - konsekvenser for kjÃ¸reegenskaper, bremselengde og blendingsfare").
-
-### NÃ¸dbremsing
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Riktig nÃ¸dbremseteknikk:**
-
+![Bremsing med tilhenger](/blog/reaksjonstid-og-bremselengde/tilhenger-bremsing.svg)
+Tilhenger påvirker bremsegenskaper betydelig:
+* **Økt vekt** gir lengre bremselengde
+* **Vektfordeling** påvirker stabilitet
+* **Tilhengerbremser** må være kalibrert riktig
+* **Sladdefare** øker ved kraftig bremsing
+For mer om tilhengerkjøring, se [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger").
+For mer om konsekvenser av tung last i bil eller tilhenger, se [Tung last - konsekvenser](/blogs/teori/tung-last-konsekvenser "Tung last - konsekvenser for kjøreegenskaper, bremselengde og blendingsfare").
+### Nødbremsing
+![Nødbremsing teknikk](/blog/reaksjonstid-og-bremselengde/nodbremsing-teknikk.svg)
+**Riktig nødbremseteknikk:**
 1. **Press bremsepedalen kraftig og kontinuerlig** (ikke pump hvis du har ABS)
 2. **Hold rattet fast** med begge hender
-3. **Forbered deg pÃ¥ kraftig retardasjon**
+3. **Forbered deg på kraftig retardasjon**
 4. **Se etter fluktvei** hvis bremsing ikke er nok
-
 **Uten ABS:**
-* Brems sÃ¥ kraftig som mulig uten hjullÃ¥sing
-* Hvis hjulene lÃ¥ser seg, slipp opp litt pÃ¥ bremsepedalen
-* Pumpe-bremsing kan vÃ¦re nÃ¸dvendig pÃ¥ glatt underlag
-
-NÃ¸dbremsing er ofte fÃ¸rste steg i hÃ¥ndtering av kritiske situasjoner. For komplett oversikt over hvordan du hÃ¥ndterer situasjoner der nÃ¸dbremsing ikke er tilstrekkelig, se [HÃ¥ndtering av nÃ¸dsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "HÃ¥ndtering av nÃ¸dsituasjoner - Komplett guide til nÃ¸dhÃ¥ndtering i trafikken").
-
+* Brems så kraftig som mulig uten hjullåsing
+* Hvis hjulene låser seg, slipp opp litt på bremsepedalen
+* Pumpe-bremsing kan være nødvendig på glatt underlag
+Nødbremsing er ofte første steg i håndtering av kritiske situasjoner. For komplett oversikt over hvordan du håndterer situasjoner der nødbremsing ikke er tilstrekkelig, se [Håndtering av nødsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "Håndtering av nødsituasjoner - Komplett guide til nødhåndtering i trafikken").
 ## Juridiske aspekter
-
-### Ansvar ved pÃ¥kjÃ¸rsel bakfra
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**Hovedregel:** Den som kjÃ¸rer pÃ¥ bakfra har alltid ansvar, fordi:
-
-* Du skal **holde tilstrekkelig avstand** til kjÃ¸retÃ¸yet foran
+### Ansvar ved påkjørsel bakfra
+![Juridisk ansvar](/blog/reaksjonstid-og-bremselengde/juridisk-ansvar-bremsing.svg)
+**Hovedregel:** Den som kjører på bakfra har alltid ansvar, fordi:
+* Du skal **holde tilstrekkelig avstand** til kjøretøyet foran
 * Du skal **kunne stoppe** innenfor den avstanden du kan se er fri
 * **Bakenforliggende trafikk** er ikke en unnskyldning for utilstrekkelig avstand
-
 **Unntak finnes** ved:
-* Ulovlig/plutselig avbremsing fra forankjÃ¸rende
-* Teknisk svikt pÃ¥ forankjÃ¸rende kjÃ¸retÃ¸y
-* PÃ¥kjÃ¸rsel fra tredje part
-
+* Ulovlig/plutselig avbremsing fra forankjørende
+* Teknisk svikt på forankjørende kjøretøy
+* Påkjørsel fra tredje part
 ### Lovkrav til bremsesystem
-
-Vegtrafikkloven krever at kjÃ¸retÃ¸y skal ha:
-* **Hovedbremsesystem** som kan stoppe kjÃ¸retÃ¸yet effektivt
-* **Parkbremse** som kan holde kjÃ¸retÃ¸yet i stillstand
+Vegtrafikkloven krever at kjøretøy skal ha:
+* **Hovedbremsesystem** som kan stoppe kjøretøyet effektivt
+* **Parkbremse** som kan holde kjøretøyet i stillstand
 * **Periodisk kontroll** av bremsesystemet ved EU-kontroll
-
 For mer om lover og forskrifter, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter i trafikken").
-
-## RÃ¥d for trygg kjÃ¸ring
-
+## Råd for trygg kjøring
 ### Planlegging og forebygging
-
-
-        
-        
-        # Copy image to static folder
-        $sourceImage = Join-Path -Path $file.Directory.FullName -ChildPath "$imgName.$ext"
-        $destDir = "static/images/blog/$blogFolder"
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        if (Test-Path $sourceImage) {
-            Copy-Item -Path $sourceImage -Destination $destDir -Force
-        }
-        
-        # Return new markdown image tag
-        "![$altText](/images/blog/$blogFolder/$imgName.$ext)"
-    
-
-**FÃ¸r kjÃ¸ring:**
+![Forebyggende kjøring](/blog/reaksjonstid-og-bremselengde/forebyggende-kjoring.svg)
+**Før kjøring:**
 * Kontroller at bremsene fungerer normalt
 * Sjekk dekkstand og dekktrykk
-* Vurder vÃ¦r- og kjÃ¸reforhold
-
-**Under kjÃ¸ring:**
+* Vurder vær- og kjøreforhold
+**Under kjøring:**
 * Tilpass hastigheten til forholdene
-* Hold tilstrekkelig fÃ¸lgeavstand
-* VÃ¦r ekstra forsiktig ved dÃ¥rlig sikt
-* UnngÃ¥ plutselige manÃ¸vrer
-
-For en helhetlig tilnÃ¦rming til forebyggende kjÃ¸ring, se [defensiv kjÃ¸ring](/blogs/teori/defensiv-kjoring "Defensiv kjÃ¸ring - Prinsipper og teknikker for trygg kjÃ¸ring").
-
+* Hold tilstrekkelig følgeavstand
+* Vær ekstra forsiktig ved dårlig sikt
+* Unngå plutselige manøvrer
+For en helhetlig tilnærming til forebyggende kjøring, se [defensiv kjøring](/blogs/teori/defensiv-kjoring "Defensiv kjøring - Prinsipper og teknikker for trygg kjøring").
 ### Vedlikehold av bremsesystem
-
 **Regelmessig kontroll:**
-* BremsevÃ¦skenivÃ¥ og -kvalitet
+* Bremsevæskenivå og -kvalitet
 * Bremseklosser/bakker
 * Bremseskiver/trommer
-* BremserÃ¸r og -slanger
-
+* Bremserør og -slanger
 **Varselsignaler:**
 * Skrikende lyder ved bremsing
 * Vibrering i bremsepedal eller ratt
 * Lang pedalslagvei
 * Bil som trekker til siden ved bremsing
-
 For mer om vedlikehold, se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen").
-
 ## Oppsummering
-
-**Reaksjonstid og bremselengde** er grunnleggende konsepter som pÃ¥virker alle aspekter av trygg kjÃ¸ring:
-
-### Viktige punkter Ã¥ huske:
-
-* **Normal reaksjonstid** er 1-1,5 sekunder, men kan Ã¸kes av mange faktorer
-* **Bremselengden Ã¸ker kvadratisk** med hastigheten
+**Reaksjonstid og bremselengde** er grunnleggende konsepter som påvirker alle aspekter av trygg kjøring:
+### Viktige punkter å huske:
+* **Normal reaksjonstid** er 1-1,5 sekunder, men kan økes av mange faktorer
+* **Bremselengden øker kvadratisk** med hastigheten
 * **Stoppeavstanden** er summen av reaksjons- og bremselengde
-* **VÃ¦rforhold** pÃ¥virker bremselengden dramatisk
-* **FÃ¸lgeavstand** mÃ¥ tilpasses hastighet og forhold
-* **Moderne teknologi** hjelper, men kan ikke erstatte god dÃ¸mmekraft
-
-### For teoriprÃ¸ven:
-
-* LÃ¦r formlene for reaksjons- og bremselengde
-* ForstÃ¥ hvordan ulike faktorer pÃ¥virker begge komponentene
+* **Værforhold** påvirker bremselengden dramatisk
+* **Følgeavstand** må tilpasses hastighet og forhold
+* **Moderne teknologi** hjelper, men kan ikke erstatte god dømmekraft
+### For teoriprøven:
+* Lær formlene for reaksjons- og bremselengde
+* Forstå hvordan ulike faktorer påvirker begge komponentene
 * Kunne beregne stoppeavstand ved ulike hastigheter
-* ForstÃ¥ sammenhengen med fÃ¸lgeavstand og hastighetstilpasning
-
-**Ã… mestre disse konseptene er essensielt for Ã¥ bli en trygg og kompetent bilfÃ¸rer.**
-
+* Forstå sammenhengen med følgeavstand og hastighetstilpasning
+**Å mestre disse konseptene er essensielt for å bli en trygg og kompetent bilfører.**
 ## Relaterte emner
-
-* [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring")
+* [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring")
 * [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Guide til hastighet og bremseavstand")
-* [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold")
-* [KjÃ¸retÃ¸yets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "KjÃ¸retÃ¸yets sikkerhetsutstyr")
-* [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Teknikker og sikkerhet")
-* [MotorveikjÃ¸ring](/blogs/teori/motorveikjoring "MotorveikjÃ¸ring - Teknikker og sikkerhet")
-* [KjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger")
-* [Defensiv kjÃ¸ring](/blogs/teori/defensiv-kjoring "Defensiv kjÃ¸ring - Prinsipper og teknikker")
+* [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold")
+* [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr")
+* [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Teknikker og sikkerhet")
+* [Motorveikjøring](/blogs/teori/motorveikjoring "Motorveikjøring - Teknikker og sikkerhet")
+* [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger")
+* [Defensiv kjøring](/blogs/teori/defensiv-kjoring "Defensiv kjøring - Prinsipper og teknikker")
 * [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen")
-* [Psykologiske feller i trafikken](/blogs/teori/psykologiske-feller-i-trafikken "Psykologiske feller i trafikken")\n  </div>\n</div>
+* [Psykologiske feller i trafikken](/blogs/teori/psykologiske-feller-i-trafikken "Psykologiske feller i trafikken")
