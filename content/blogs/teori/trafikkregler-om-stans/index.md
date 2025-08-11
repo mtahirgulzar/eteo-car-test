@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Trafikkregler Om Stans"
 date: 2025-08-06
 draft: false
@@ -144,39 +144,39 @@ tr:hover {
   }
 }
 </style>
-**Trafikkregler om stans** gir en oversikt over **nÃ¥r det er tillatt Ã¥ stanse**, **nÃ¥r stans er forbudt** og hvilke **skilt** og **regelunntak** du mÃ¥ kjenne til for Ã¥ kjÃ¸re trygt og unngÃ¥ bÃ¸ter.
-![Trafikkregler om stans](/blogs/teori/trafikkregler-om-stans/trafikkregler-om-stans-image.svg)
+**Trafikkregler om stans** gir en oversikt over **når det er tillatt å stanse**, **når stans er forbudt** og hvilke **skilt** og **regelunntak** du må kjenne til for å kjøre trygt og unngå bøter.
+![Trafikkregler om stans](trafikkregler-om-stans-image.svg)
 ## Hva betyr stans?
-Ã… *stanse* betyr at kjÃ¸retÃ¸yet stÃ¥r stille, enten kortvarig eller over lengre tid. Skillet mellom *stans* og *parkering* er at parkering vanligvis innebÃ¦rer et ubetjent og lengre opphold, mens stans ofte er mer kortvarig.
+Å *stanse* betyr at kjøretøyet står stille, enten kortvarig eller over lengre tid. Skillet mellom *stans* og *parkering* er at parkering vanligvis innebærer et ubetjent og lengre opphold, mens stans ofte er mer kortvarig.
 ## Skilt for stansforbud
-![Stans forbudt](/blogs/teori/trafikkregler-om-stans/stans-forbudt-skilt.svg)
+![Stans forbudt](stans-forbudt-skilt.svg)
 | Skilt            | Betydning                          |
 |------------------|------------------------------------|
-| ![Stans forbudt](/blogs/teori/trafikkregler-om-stans/stans-forbudt-skilt.svg) | **Stans forbudt** â€“ det er ikke tillatt Ã¥ stoppe kjÃ¸retÃ¸yet her |
+| ![Stans forbudt](stans-forbudt-skilt.svg) | **Stans forbudt** – det er ikke tillatt å stoppe kjøretøyet her |
 ## Regler for stans
 | Situasjon                                     | Tillatt stans? | Unntak                         |
 |-----------------------------------------------|---------------|-------------------------------|
-| PÃ¥ gangfelt eller innen 5Â m foran/bak         | Nei           |                               |
-| I eller innenfor 5Â m fra kryss                | Nei           |                               |
-| Innenfor 5Â m fra kantstein ved bussholdeplass | Nei           |                               |
-| PÃ¥ fortau eller gangvei                       | Nei           |                               |
+| På gangfelt eller innen 5 m foran/bak         | Nei           |                               |
+| I eller innenfor 5 m fra kryss                | Nei           |                               |
+| Innenfor 5 m fra kantstein ved bussholdeplass | Nei           |                               |
+| På fortau eller gangvei                       | Nei           |                               |
 | I tunnel                                      | Nei           |                               |
-| PÃ¥ motorvei eller motortrafikkvei             | Nei           | NÃ¸dstans ved nÃ¸dstilfeller    |
-| Av- og pÃ¥stigning                             | Ja            | Kortvarig og uten hinder      |
-| Laste- og losseomrÃ¥de                         | Ja            | Kortvarig for lasting/lossing |
+| På motorvei eller motortrafikkvei             | Nei           | Nødstans ved nødstilfeller    |
+| Av- og påstigning                             | Ja            | Kortvarig og uten hinder      |
+| Laste- og losseområde                         | Ja            | Kortvarig for lasting/lossing |
 ## Intern lenking til andre artikler
 For mer om **skilt** og **veimerking**, se [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Informasjon om trafikkskilt og veimerking").
-For regler og teknikker for **parkering**, se [KjÃ¸ring i byen: Stans og parkering](/blogs/teori/kjoring-i-byen-stans-og-parkering "Stans og parkering i byen - Regler og anbefalinger").
+For regler og teknikker for **parkering**, se [Kjøring i byen: Stans og parkering](/blogs/teori/kjoring-i-byen-stans-og-parkering "Stans og parkering i byen - Regler og anbefalinger").
 For generelle parkeringsregler, se [Trafikkregler om parkering](/blogs/teori/trafikkregler-om-parkering "Trafikkregler om parkering - regler, unntak og skilt").
-For regler om stans ved planoverganger og annen sikkerhetsinformasjon pÃ¥ landevei, se [LandeveiskjÃ¸ring](/blogs/teori/landeveiskjoring "LandeveiskjÃ¸ring - Planovergang, tunnel, motorvei og mer").
-For en komplett oversikt over **hvor det er forbudt Ã¥ parkere**, se [Hvor er det forbudt Ã¥ parkere?](/blogs/teori/hvor-er-det-forbudt-a-parkere "Hvor er det forbudt Ã¥ parkere? - parkeringsforbud og trafikkregler").
+For regler om stans ved planoverganger og annen sikkerhetsinformasjon på landevei, se [Landeveiskjøring](/blogs/teori/landeveiskjoring "Landeveiskjøring - Planovergang, tunnel, motorvei og mer").
+For en komplett oversikt over **hvor det er forbudt å parkere**, se [Hvor er det forbudt å parkere?](/blogs/teori/hvor-er-det-forbudt-a-parkere "Hvor er det forbudt å parkere? - parkeringsforbud og trafikkregler").
 ## Praktiske tips
-1. **Planlegg** stopp og stans fÃ¸r kjÃ¸ring â€“ sjekk skilting og regler.
-2. **UnngÃ¥ hinder** â€“ stans ikke der du kan sperre for andre trafikanter.
-3. **Bruk nÃ¸dblink** ved nÃ¸dvendig nÃ¸dstans.
-4. **VÃ¦r synlig** og sikre kjÃ¸retÃ¸yet ved stans i mÃ¸rket.
+1. **Planlegg** stopp og stans før kjøring – sjekk skilting og regler.
+2. **Unngå hinder** – stans ikke der du kan sperre for andre trafikanter.
+3. **Bruk nødblink** ved nødvendig nødstans.
+4. **Vær synlig** og sikre kjøretøyet ved stans i mørket.
 ## Vanlige sanksjoner
-| Brudd pÃ¥ regel      | Bot (anslag)     |
+| Brudd på regel      | Bot (anslag)     |
 |---------------------|------------------|
-| Ulovlig stans       | 800â€“1200Â NOK     |
-| NÃ¸dstans uten grunn | 1000â€“1500Â NOK    |
+| Ulovlig stans       | 800–1200 NOK     |
+| Nødstans uten grunn | 1000–1500 NOK    |

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Prikkbelastningssystem"
 date: 2025-08-06
 draft: false
@@ -144,34 +144,34 @@ tr:hover {
   }
 }
 </style>
-**Prikkbelastningssystem i Norge** er systemet som tildeler **demeritÃ¸rer** (prikker) ved trafikkforseelser for Ã¥ overvÃ¥ke og forbedre trafikksikkerheten.
-*For mer om hva som skjer nÃ¥r du fÃ¥r for mange prikker, se [Sperrefrist (prÃ¸vetid, prikker)](/blogs/teori/sperrefrist-provetid-prikker "Sperrefrist (prÃ¸vetid, prikker) - konsekvenser ved akkumulering av prikker").*
-![Prikkbelastningssystem i Norge](/blogs/teori/prikkbelastningssystem/prikkbelastningssystem-image.svg)
-![Prikkbelastningssystem prosess](/blogs/teori/prikkbelastningssystem/prikkbelastningssystem-prosess.svg)
+**Prikkbelastningssystem i Norge** er systemet som tildeler **demeritører** (prikker) ved trafikkforseelser for å overvåke og forbedre trafikksikkerheten.
+*For mer om hva som skjer når du får for mange prikker, se [Sperrefrist (prøvetid, prikker)](/blogs/teori/sperrefrist-provetid-prikker "Sperrefrist (prøvetid, prikker) - konsekvenser ved akkumulering av prikker").*
+![Prikkbelastningssystem i Norge](prikkbelastningssystem-image.svg)
+![Prikkbelastningssystem prosess](prikkbelastningssystem-prosess.svg)
 ## Hvordan tildeles prikker?
-Prikker tildeles basert pÃ¥ alvorlighetsgraden av trafikklovbrudd. Tabellen under viser eksempler pÃ¥ vanlige overtredelser og tilhÃ¸rende prikksatser:
+Prikker tildeles basert på alvorlighetsgraden av trafikklovbrudd. Tabellen under viser eksempler på vanlige overtredelser og tilhørende prikksatser:
 | Overtredelse                                                | Antall prikker |
 |-------------------------------------------------------------|---------------|
-| KjÃ¸ringÂ 1â€“5Â km/t over fartsgrensen                           | 1             |
-| KjÃ¸ringÂ 6â€“10Â km/t over fartsgrensen                          | 2             |
-| RÃ¸de lys eller stoppskilt                                   | 3             |
-| Brudd pÃ¥ bruk av bilbelte eller barnesikring                 | 3             |
-| Mobilbruk uten handsfree under kjÃ¸ring                       | 2             |
-| Ulovlig omkjÃ¸ring og forbikjÃ¸ring                            | 2             |
-| Alvorlige lovbrudd (for eksempel ruspÃ¥virket kjÃ¸ring)        | 4â€“7           |
+| Kjøring 1–5 km/t over fartsgrensen                           | 1             |
+| Kjøring 6–10 km/t over fartsgrensen                          | 2             |
+| Røde lys eller stoppskilt                                   | 3             |
+| Brudd på bruk av bilbelte eller barnesikring                 | 3             |
+| Mobilbruk uten handsfree under kjøring                       | 2             |
+| Ulovlig omkjøring og forbikjøring                            | 2             |
+| Alvorlige lovbrudd (for eksempel ruspåvirket kjøring)        | 4–7           |
 ## Poengperiode og registrering
-Prikker registreres i et treÃ¥rsregister som rulles fortlÃ¸pende. Dette betyr at prikker som er eldre ennÂ 3Â Ã¥r automatisk faller bort.
-- **TreÃ¥rsperiode:** Alle prikker fra de sisteÂ 3Â Ã¥rene regnes med.
-- **Ingen maksimalgrense:** Det er ingen Ã¸vre grense for hvor mange prikker som kan registreres.
-- **Automatisk sletting:** EtterÂ 3Â Ã¥r slettes prikker fra registeret.
+Prikker registreres i et treårsregister som rulles fortløpende. Dette betyr at prikker som er eldre enn 3 år automatisk faller bort.
+- **Treårsperiode:** Alle prikker fra de siste 3 årene regnes med.
+- **Ingen maksimalgrense:** Det er ingen øvre grense for hvor mange prikker som kan registreres.
+- **Automatisk sletting:** Etter 3 år slettes prikker fra registeret.
 ## Konsekvenser ved prikker
 Ved akkumulering av prikker i gjeldende periode kan du bli ilagt:
-* **Obligatorisk trafikkurs** â€“ vanligvis etterÂ 2Â prikker.
-* **Forlengelse av prÃ¸vetid** â€“ for nye fÃ¸rere.
-* **Sperrefrist** â€“ midlertidig inndragning av fÃ¸rerkortet. Se [Sperrefrist (prÃ¸vetid, prikker)](/blogs/teori/sperrefrist-provetid-prikker "Sperrefrist (prÃ¸vetid, prikker) - konsekvenser ved akkumulering av prikker").
-* **Tap av rett til kjÃ¸ring** â€“ ved hÃ¸ye prikksatser.
-## Se ogsÃ¥
-* [Sanksjoner, bot, inndraging, pant og prikker m.m.](/blogs/teori/sanksjoner-bot-inndraging-pant-prikker "Sanksjoner, bot, inndraging, pant og prikker") â€“ oversikt over sanksjoner ved trafikkforseelser.
-* [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter") â€“ juridisk grunnlag for prikksystemet.
-* [Trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for fÃ¸rerkort klasse B") â€“ obligatoriske kurs ved prikker.
-* [TeoriprÃ¸ven](/blogs/teori/teoriproven "TeoriprÃ¸ven - alt du trenger Ã¥ vite for Ã¥ bestÃ¥ teoriprÃ¸ven") â€“ forbered deg pÃ¥ teoriprÃ¸ven.
+* **Obligatorisk trafikkurs** – vanligvis etter 2 prikker.
+* **Forlengelse av prøvetid** – for nye førere.
+* **Sperrefrist** – midlertidig inndragning av førerkortet. Se [Sperrefrist (prøvetid, prikker)](/blogs/teori/sperrefrist-provetid-prikker "Sperrefrist (prøvetid, prikker) - konsekvenser ved akkumulering av prikker").
+* **Tap av rett til kjøring** – ved høye prikksatser.
+## Se også
+* [Sanksjoner, bot, inndraging, pant og prikker m.m.](/blogs/teori/sanksjoner-bot-inndraging-pant-prikker "Sanksjoner, bot, inndraging, pant og prikker") – oversikt over sanksjoner ved trafikkforseelser.
+* [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter") – juridisk grunnlag for prikksystemet.
+* [Trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for førerkort klasse B") – obligatoriske kurs ved prikker.
+* [Teoriprøven](/blogs/teori/teoriproven "Teoriprøven - alt du trenger å vite for å bestå teoriprøven") – forbered deg på teoriprøven.

@@ -1,0 +1,9 @@
+<div class="value-card bg-white rounded-xl shadow-sm p-6 text-center">
+  {{- with .Get "icon" -}}
+    <div class="value-card__icon mb-3" aria-hidden="true">
+      <span class="inline-block rounded-full bg-gray-100 text-gray-700 px-3 py-1 text-sm">{{ . }}</span>
+    </div>
+  {{- end -}}
+  <h3 class="value-card__title font-bold text-lg mb-2">{{ .Get "title" }}</h3>
+  <p class="value-card__desc text-gray-600">{{ .Get "description" }}</p>
+</div>

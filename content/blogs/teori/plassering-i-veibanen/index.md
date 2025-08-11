@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Plassering I Veibanen"
 date: 2025-08-06
 draft: false
@@ -144,42 +144,42 @@ tr:hover {
   }
 }
 </style>
-**Plassering i veibanen** handler om Ã¥ finne riktig posisjon pÃ¥ veibanen for trygg og effektiv kjÃ¸ring. Denne artikkelen gir deg nÃ¸kkelprinsipper for:
-- KjÃ¸refelt, kjÃ¸rebane og veiskulder
+**Plassering i veibanen** handler om å finne riktig posisjon på veibanen for trygg og effektiv kjøring. Denne artikkelen gir deg nøkkelprinsipper for:
+- Kjørefelt, kjørebane og veiskulder
 - Avstand med **3-sekunders regel**
-- Tilpasning ved **glatt fÃ¸re**
+- Tilpasning ved **glatt føre**
 - Forskjellen mellom **gule og hvite striper**
 - Kollektivfelt
-- EnveiskjÃ¸rte gater
+- Enveiskjørte gater
 *For definisjoner av veiens fysiske deler, se [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter").*
-![Plassering i veibanen](/blogs/teori/plassering-i-veibanen/plassering-i-veibanen-image.svg)
+![Plassering i veibanen](plassering-i-veibanen-image.svg)
 ## Innhold
 1. [Definisjoner](#definisjoner)
 2. [Avstand og 3-sekunders regel](#avstand-og-3-sekunders-regel)
-3. [Glatt fÃ¸re og tilpasning](#glatt-fÃ¸re-og-tilpasning)
+3. [Glatt føre og tilpasning](#glatt-føre-og-tilpasning)
 4. [Gule vs hvite striper](#gule-vs-hvite-striper)
 5. [Kollektivfelt](#kollektivfelt)
-6. [EnveiskjÃ¸rte gater](#enveiskjÃ¸rte-gater)
+6. [Enveiskjørte gater](#enveiskjørte-gater)
 ## Definisjoner
 | Begrep         | Definisjon                                                    | Les mer                                                                 |
 |----------------|---------------------------------------------------------------|-------------------------------------------------------------------------|
-| **KjÃ¸refelt**  | Del av kjÃ¸rebanen for trafikk i Ã©n retning                     | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
-| **KjÃ¸rebane**  | Hele veibanen der kjÃ¸retÃ¸y kjÃ¸rer, inkludert alle kjÃ¸refelt    | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
-| **Veiskulder** | NÃ¸dskulder ved siden av kjÃ¸refelt, kun for nÃ¸dstans           | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
+| **Kjørefelt**  | Del av kjørebanen for trafikk i én retning                     | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
+| **Kjørebane**  | Hele veibanen der kjøretøy kjører, inkludert alle kjørefelt    | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
+| **Veiskulder** | Nødskulder ved siden av kjørefelt, kun for nødstans           | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
 ## Avstand og 3-sekunders regel
-For sikker avstand til kjÃ¸retÃ¸y foran anbefales **3-sekunders regelen**. Denne metoden gir god margin ved normalt fÃ¸re. Se detaljert beskrivelse i vÃ¥r artikkel om [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - komplett guide til hastighet og bremselengde").
-## Glatt fÃ¸re og tilpasning
-Ved **glatt fÃ¸re** mÃ¥ du Ã¸ke fÃ¸lgedistanse og redusere hastighet. For en grundig gjennomgang av kjÃ¸ring under vanskelige forhold, se [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold - guide til trygge kjÃ¸reforhold").
+For sikker avstand til kjøretøy foran anbefales **3-sekunders regelen**. Denne metoden gir god margin ved normalt føre. Se detaljert beskrivelse i vår artikkel om [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - komplett guide til hastighet og bremselengde").
+## Glatt føre og tilpasning
+Ved **glatt føre** må du øke følgedistanse og redusere hastighet. For en grundig gjennomgang av kjøring under vanskelige forhold, se [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold - guide til trygge kjøreforhold").
 ## Gule vs hvite striper
 | Stripefarge | Betydning                            |
 |-------------|--------------------------------------|
-| ![Gule vs hvite striper](/blogs/teori/plassering-i-veibanen/stripe-linjer.svg) | Gule vs hvite midtstriper illustrert  |
+| ![Gule vs hvite striper](stripe-linjer.svg) | Gule vs hvite midtstriper illustrert  |
 Tabell:
 | Stripefarge | Betydning                                        |
 |-------------|--------------------------------------------------|
-| **Hvit**    | Skiller kjÃ¸refelt i samme kjÃ¸reretning           |
-| **Gul**     | Skiller trafikk i motsatt kjÃ¸reretning           |
+| **Hvit**    | Skiller kjørefelt i samme kjøreretning           |
+| **Gul**     | Skiller trafikk i motsatt kjøreretning           |
 ## Kollektivfelt
-Kollektivfelt er forbeholdt busser, drosjer med passasjerer, motorsykler og eventuelt biler med flere personer (HOV). Se detaljer i [Plassering og kjÃ¸remÃ¥te](/blogs/teori/plassering-og-kjoremmate "Plassering og kjÃ¸remÃ¥te - kollektivfelt og mer").
-## EnveiskjÃ¸rte gater
-I enveiskjÃ¸rte gater kjÃ¸rer du pÃ¥ samme mÃ¥te som normalt, men kan parkere pÃ¥ begge sider og fotgjengere kan krysse hvor som helst. Mer i [Plassering og kjÃ¸remÃ¥te](/blogs/teori/plassering-og-kjoremmate "Plassering og kjÃ¸remÃ¥te - enveiskjÃ¸rte gater").
+Kollektivfelt er forbeholdt busser, drosjer med passasjerer, motorsykler og eventuelt biler med flere personer (HOV). Se detaljer i [Plassering og kjøremåte](/blogs/teori/plassering-og-kjoremmate "Plassering og kjøremåte - kollektivfelt og mer").
+## Enveiskjørte gater
+I enveiskjørte gater kjører du på samme måte som normalt, men kan parkere på begge sider og fotgjengere kan krysse hvor som helst. Mer i [Plassering og kjøremåte](/blogs/teori/plassering-og-kjoremmate "Plassering og kjøremåte - enveiskjørte gater").

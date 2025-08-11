@@ -1,0 +1,10 @@
+<section class="testimonials" style="padding:3rem 1rem; background: {{ or (.Get "background-color") "#ffffff" }};">
+  <div style="max-width:1100px; margin:0 auto;">
+    {{- with .Get "title" -}}
+      <h2 style="font-size:1.75rem; margin:0 0 .5rem;">{{ . }}</h2>
+    {{- end -}}
+    {{- with .Get "description" -}}
+      <p style="color:#4b5563; margin:0 0 2rem;">{{ . }}</p>
+    {{- end -}}
+  </div>
+</section>

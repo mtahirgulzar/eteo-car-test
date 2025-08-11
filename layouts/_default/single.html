@@ -13,11 +13,16 @@
         
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-600 mb-8">
             <div class="flex items-center">
-                {{ with .Site.GetPage .Params.author }}
-                    <img src="{{ .Params.avatar | default "/images/avatar-placeholder.png" }}" 
-                         alt="{{ .Title }}" 
-                         class="w-10 h-10 rounded-full mr-3">
-                    <span class="font-medium">{{ .Title }}</span>
+                {{ with .Params.author }}
+                    {{ $auth := . }}
+                    {{ with $.Site.GetPage $auth }}
+                        <img src="{{ .Params.avatar | default "/images/avatar-placeholder.png" }}" 
+                             alt="{{ .Title }}" 
+                             class="w-10 h-10 rounded-full mr-3">
+                        <span class="font-medium">{{ .Title }}</span>
+                    {{ else }}
+                        <span class="font-medium">{{ $auth }}</span>
+                    {{ end }}
                 {{ end }}
             </div>
             <span class="hidden sm:block">•</span>
@@ -35,11 +40,36 @@
                 {{ .ReadingTime }} min read
             </div>
         </div>
-
-        {{ with .Params.featured_image }}
+        {{/* Robust main image resolve:
+             1) Check params (several keys). If present, try to map to bundle resource by basename.
+             2) If no match, try featured* in bundle.
+             3) Else first image resource.
+             4) Fallback to original param string.
+        */}}
+        {{ $paramImg := or .Params.featured_image (or .Params.featuredImage (or .Params.image (or .Params.cover .Params.thumbnail))) }}
+        {{ $resolved := "" }}
+        {{ if $paramImg }}
+            {{ $base := path.Base $paramImg }}
+            {{ with .Resources.GetMatch $base }}
+                {{ $resolved = .RelPermalink }}
+            {{ end }}
+        {{ end }}
+        {{ if eq $resolved "" }}
+            {{ with .Resources.GetMatch "featured*" }}
+                {{ $resolved = .RelPermalink }}
+            {{ else }}
+                {{ $all := .Resources.ByType "image" }}
+                {{ if gt (len $all) 0 }}
+                    {{ $first := index $all 0 }}
+                    {{ $resolved = $first.RelPermalink }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ $finalMain := cond (ne $resolved "") $resolved $paramImg }}
+        {{ with $finalMain }}
             <div class="rounded-xl overflow-hidden mb-12 shadow-lg">
                 <img 
-                    src="{{ . | relURL }}" 
+                    src="{{ . | absURL }}" 
                     alt="{{ $.Title }}" 
                     class="w-full h-auto max-h-[500px] object-cover"
                     loading="eager"
@@ -111,15 +141,43 @@
             <h2 class="text-2xl font-bold text-gray-900 mb-8">You might also like</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {{ range . }}
+                    {{ $card := . }}
                     <article class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden border border-gray-100">
-                        {{ with .Params.featured_image }}
+                        {{/* Resolve image per-card: try params, prefer matching bundle resource by basename, else featured* or first image */}}
+                        {{ $img := or .Params.featured_image (or .Params.featuredImage (or .Params.image (or .Params.cover .Params.thumbnail))) }}
+                        {{ $matched := "" }}
+                        {{ if $img }}
+                            {{ $base := path.Base $img }}
+                            {{ with .Resources.GetMatch $base }}
+                                {{ $matched = .RelPermalink }}
+                            {{ end }}
+                        {{ end }}
+                        {{ if not $matched }}
+                            {{ with .Resources.GetMatch "featured*" }}
+                                {{ $matched = .RelPermalink }}
+                            {{ else }}
+                                {{ $imgs := .Resources.ByType "image" }}
+                                {{ if gt (len $imgs) 0 }}
+                                    {{ $first := index $imgs 0 }}
+                                    {{ $matched = $first.RelPermalink }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                        {{ $final := cond (ne $matched "") $matched $img }}
+                        {{ with $final }}
                             <div class="aspect-w-16 aspect-h-9 overflow-hidden">
                                 <img 
-                                    src="{{ . | relURL }}" 
-                                    alt="{{ $.Title }}" 
+                                    src="{{ . | absURL }}" 
+                                    alt="{{ $card.Title }}" 
                                     class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-500"
                                     loading="lazy"
                                 >
+                            </div>
+                        {{ else }}
+                            <div class="aspect-w-16 aspect-h-9 overflow-hidden bg-gray-100 flex items-center justify-center">
+                                <svg class="w-12 h-12 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4-4 4 4 4-4 4 4M4 8h16"></path>
+                                </svg>
                             </div>
                         {{ end }}
                         <div class="p-6">

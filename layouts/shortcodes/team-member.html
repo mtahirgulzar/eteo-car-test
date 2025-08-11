@@ -1,0 +1,10 @@
+<div class="team-member text-center bg-white rounded-xl shadow-sm p-6">
+  <div class="team-member__image mb-4">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" style="width:100%; max-width:180px; margin:0 auto; height:auto;"/>
+  </div>
+  <h3 class="team-member__name font-bold text-lg">{{ .Get "name" }}</h3>
+  <p class="team-member__title text-gray-600 mb-3">{{ .Get "title" }}</p>
+  {{- with .Get "linkedin" -}}
+    <a href="{{ . }}" class="text-blue-600 underline">LinkedIn</a>
+  {{- end -}}
+</div>

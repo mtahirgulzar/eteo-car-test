@@ -1,4 +1,4 @@
-Ôªø---
+---
 title: "Bruk Av Lys Og Signaler"
 date: 2025-08-06
 draft: false
@@ -144,21 +144,21 @@ tr:hover {
   }
 }
 </style>
-Effektiv **bruk av lys og signaler** sikrer at du kommuniserer tydelig med andre trafikanter og forbedrer sikt under variabelt lysforhold. Riktig lysbruk er ikke bare lovp√•lagt, men ogs√• avgj√∏rende for trafikksikkerheten og din egen synlighet p√• veien.
-![Bruk av lys og signaler](/blogs/teori/bruk-av-lys-og-signaler/bruk-av-lys-og-signaler-image.svg)
+Effektiv **bruk av lys og signaler** sikrer at du kommuniserer tydelig med andre trafikanter og forbedrer sikt under variabelt lysforhold. Riktig lysbruk er ikke bare lovpÂlagt, men ogsÂ avgj¯rende for trafikksikkerheten og din egen synlighet pÂ veien.
+![Bruk av lys og signaler](bruk-av-lys-og-signaler-image.svg)
 *For en detaljert oversikt over bilens lystyper, se [Lys og lystyper](/blogs/teori/lys-og-lystyper "Lys og lystyper - Oversikt over bilens lystemer").*
-*For en kort oversikt over forskjellen mellom **trafikksignaler** og **trafikkskilt**, se [Signal vs tegn i trafikken](/blogs/teori/signal-vs-tegn-i-trafikken "Signal vs tegn i trafikken - N√•r brukes hva?").*
+*For en kort oversikt over forskjellen mellom **trafikksignaler** og **trafikkskilt**, se [Signal vs tegn i trafikken](/blogs/teori/signal-vs-tegn-i-trafikken "Signal vs tegn i trafikken - NÂr brukes hva?").*
 For en grunnleggende oversikt over bilens tekniske komponenter, se [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - En oversikt over bilens hovedkomponenter").
-## Grunnleggende om kj√∏ret√∏yets lyssystem
-Moderne kj√∏ret√∏y har et omfattende lyssystem som m√• forst√•s og brukes riktig. **Lyssystemet** best√•r av belysning for √• se og for √• bli sett, samt signalsystemer for kommunikasjon med andre trafikanter.
-![Lystyper oversikt](/blogs/teori/bruk-av-lys-og-signaler/lystyper-oversikt.svg)
+## Grunnleggende om kj¯ret¯yets lyssystem
+Moderne kj¯ret¯y har et omfattende lyssystem som mÂ forstÂs og brukes riktig. **Lyssystemet** bestÂr av belysning for Â se og for Â bli sett, samt signalsystemer for kommunikasjon med andre trafikanter.
+![Lystyper oversikt](lystyper-oversikt.svg)
 ### Hovedkategorier av lys
-**Belysningslys** hjelper deg √• se veien og omgivelsene:
-* Frontlykter (n√¶rlys og fjernlys)
-* Dagkj√∏relys
-* T√•kelys foran og bak
+**Belysningslys** hjelper deg Â se veien og omgivelsene:
+* Frontlykter (nÊrlys og fjernlys)
+* Dagkj¯relys
+* TÂkelys foran og bak
 * Arbeidsbelysning og innvendig belysning
-**Posisjonslys** gj√∏r kj√∏ret√∏yet synlig for andre:
+**Posisjonslys** gj¯r kj¯ret¯yet synlig for andre:
 * Baklys
 * Sidelys
 * Registreringsskiltlys
@@ -167,326 +167,326 @@ Moderne kj√∏ret√∏y har et omfattende lyssystem som m√• forst√•s og brukes riktig
 * Blinklys (retningslys)
 * Bremseslys
 * Ryggeslys
-* N√∏dblink
+* N¯dblink
 ## Detaljert oversikt over lys og signaler
-| Lys/type                   | Beskrivelse                                          | N√•r du skal bruke det                                  | Lovkrav                                  |
+| Lys/type                   | Beskrivelse                                          | NÂr du skal bruke det                                  | Lovkrav                                  |
 |----------------------------|------------------------------------------------------|-------------------------------------------------------|------------------------------------------|
-| **Frontlykter (n√¶rlys)**   | Belyser veien foran kj√∏ret√∏yet uten √• blende        | Kj√∏ring i m√∏rke eller ved d√•rlig sikt                | P√•budt fra solnedgang til soloppgang     |
-| **Frontlykter (fjernlys)** | Kraftig belysning for lang rekkevidde               | P√• m√∏rke veier uten m√∏tende trafikk                  | Kun n√•r det ikke blender andre           |
-| **Baklys**                 | Gj√∏r kj√∏ret√∏yet synlig bakfra                       | Automatisk n√•r frontlys er p√•                        | P√•budt sammen med frontlys               |
-| **Brakelys**               | Varsler om nedbremsing ved √• lyse sterkere bak      | Ved nedbremsing                                       | Automatisk ved bruk av bremser           |
-| **Dagkj√∏relys**            | Svakt lys som forbedrer synlighet p√• dagtid         | Alltid p√• dagtid (automatisk p√• nye biler)           | P√•budt p√• nye kj√∏ret√∏y                   |
-| **T√•kelys foran**          | Bredt, lavt lysbilde som skj√¶rer gjennom t√•ke       | Ved t√•ke, kraftig regn eller sn√∏ (sikt < 50m)        | Kun ved d√•rlig sikt                      |
-| **T√•kelys bak**            | Sterkt r√∏dt lys som penetrerer t√•ke                 | Ved t√•ke med sikt under 50 meter                     | Kun ved sv√¶rt d√•rlig sikt                |
-| **Blinklys**               | Gule blinkende lys foran og bak                     | F√∏r sving, [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte - Komplett guide til sikker forbikj√∏ring og feltskifte") og ved inn-/utkj√∏ring | P√•budt ved retningsendring               |
-| **N√∏dblink (varselblink)** | Samtidig blink av alle retningslys                  | Ved n√∏dstopp, havarist kj√∏ret√∏y eller farevarsling   | Ved stopp p√• kj√∏rebane                   |
-| **Ryggeslys**              | Hvite lys som lyser n√•r du rygger                   | Automatisk ved innkobling av revers                  | Automatisk funksjon                      |
+| **Frontlykter (nÊrlys)**   | Belyser veien foran kj¯ret¯yet uten Â blende        | Kj¯ring i m¯rke eller ved dÂrlig sikt                | PÂbudt fra solnedgang til soloppgang     |
+| **Frontlykter (fjernlys)** | Kraftig belysning for lang rekkevidde               | PÂ m¯rke veier uten m¯tende trafikk                  | Kun nÂr det ikke blender andre           |
+| **Baklys**                 | Gj¯r kj¯ret¯yet synlig bakfra                       | Automatisk nÂr frontlys er pÂ                        | PÂbudt sammen med frontlys               |
+| **Brakelys**               | Varsler om nedbremsing ved Â lyse sterkere bak      | Ved nedbremsing                                       | Automatisk ved bruk av bremser           |
+| **Dagkj¯relys**            | Svakt lys som forbedrer synlighet pÂ dagtid         | Alltid pÂ dagtid (automatisk pÂ nye biler)           | PÂbudt pÂ nye kj¯ret¯y                   |
+| **TÂkelys foran**          | Bredt, lavt lysbilde som skjÊrer gjennom tÂke       | Ved tÂke, kraftig regn eller sn¯ (sikt < 50m)        | Kun ved dÂrlig sikt                      |
+| **TÂkelys bak**            | Sterkt r¯dt lys som penetrerer tÂke                 | Ved tÂke med sikt under 50 meter                     | Kun ved svÊrt dÂrlig sikt                |
+| **Blinklys**               | Gule blinkende lys foran og bak                     | F¯r sving, [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte - Komplett guide til sikker forbikj¯ring og feltskifte") og ved inn-/utkj¯ring | PÂbudt ved retningsendring               |
+| **N¯dblink (varselblink)** | Samtidig blink av alle retningslys                  | Ved n¯dstopp, havarist kj¯ret¯y eller farevarsling   | Ved stopp pÂ kj¯rebane                   |
+| **Ryggeslys**              | Hvite lys som lyser nÂr du rygger                   | Automatisk ved innkobling av revers                  | Automatisk funksjon                      |
 ## Krav i lov og forskrift
-![Lovkrav lys](/blogs/teori/bruk-av-lys-og-signaler/lovkrav-lys.svg)
+![Lovkrav lys](lovkrav-lys.svg)
 ### Trafikkreglenes krav til lysbruk
-I f√∏lge [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Trafikkregler og krav") skal alle lys og signaler v√¶re i orden og brukes korrekt. **Veitrafikkloven** og **Kj√∏ret√∏yforskriften** stiller klare krav til:
-* **Funksjonalitet**: Alle lys m√• virke og ha riktig lysstyrke
-* **Tidspunkt for bruk**: N√•r ulike lystyper skal v√¶re p√•
-* **Riktig justering**: Lys m√• v√¶re justert for ikke √• blende
-* **Vedlikehold**: F√∏reren er ansvarlig for at lys fungerer
+I f¯lge [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Trafikkregler og krav") skal alle lys og signaler vÊre i orden og brukes korrekt. **Veitrafikkloven** og **Kj¯ret¯yforskriften** stiller klare krav til:
+* **Funksjonalitet**: Alle lys mÂ virke og ha riktig lysstyrke
+* **Tidspunkt for bruk**: NÂr ulike lystyper skal vÊre pÂ
+* **Riktig justering**: Lys mÂ vÊre justert for ikke Â blende
+* **Vedlikehold**: F¯reren er ansvarlig for at lys fungerer
 ### Sanksjoner ved feil lysbruk
 | Overtredelse                    | Sanksjon                          | Pris (2024)     |
 |---------------------------------|-----------------------------------|----------------|
-| Manglende frontlys i m√∏rket     | Forenklet forelegg               | 1,350 kr       |
+| Manglende frontlys i m¯rket     | Forenklet forelegg               | 1,350 kr       |
 | Defekte blinklys                | Forenklet forelegg               | 1,350 kr       |
-| Ulovlig bruk av t√•kelys         | Forenklet forelegg               | 900 kr         |
+| Ulovlig bruk av tÂkelys         | Forenklet forelegg               | 900 kr         |
 | Blending med fjernlys           | Forenklet forelegg + evt. mildere| 1,900 kr       |
-| Alvorlige mangler ved EU-kontroll| Kj√∏reforbud til reparasjon       | Varierer       |
-### Spesielle krav for ulike kj√∏ret√∏ytyper
-**Personbiler** m√• ha komplett lyssett inkludert:
+| Alvorlige mangler ved EU-kontroll| Kj¯reforbud til reparasjon       | Varierer       |
+### Spesielle krav for ulike kj¯ret¯ytyper
+**Personbiler** mÂ ha komplett lyssett inkludert:
 * Minimum to frontlykter
 * To baklys og to bremseslys
 * Retningslys foran og bak
 * Registreringsskiltlys
-**Motorcykler** har s√¶rlige krav om:
-* P√•budt dagkj√∏relys eller frontlys
+**Motorcykler** har sÊrlige krav om:
+* PÂbudt dagkj¯relys eller frontlys
 * Minimum ett baklys og bremseslys
 * Refleks bak
-For spesifikke teknikker og utfordringer ved nattkj√∏ring, se [Kj√∏ring i m√∏rket](/blogs/teori/kjoring-i-morket "Kj√∏ring i m√∏rket - Komplett guide til trygg nattkj√∏ring").
-## Lysbruk i ulike kj√∏resituasjoner
-![Kj√∏resituasjoner lys](/blogs/teori/bruk-av-lys-og-signaler/kjoresituasjoner-lys.svg)
-### Kj√∏ring p√• motorvei
-Ved [motorveikj√∏ring](/blogs/teori/motorveikjoring "Motorveikj√∏ring - Sikker kj√∏ring p√• motorvei og motortrafikkvei") er **synlighet** ekstra viktig p√• grunn av h√∏ye hastigheter:
-* **Dagkj√∏relys** eller n√¶rlys alltid p√•
-* **T√•kelys** kun ved sikt under 50 meter
-* **Blinklys** i god tid f√∏r [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte")
-* **N√∏dblink** ved n√∏dstopp p√• motorvei
-### Kj√∏ring i tettbebygd str√∏k
-Ved [bykj√∏ring](/blogs/teori/bykjoring "Bykj√∏ring - Mestring av kompleks bytrafikk") m√• du v√¶re ekstra oppmerksom p√•:
-* **Dagkj√∏relys** forbedrer synlighet mellom bygninger
-* **Blinklys** tidlig for √• varsle [fotgjengere og syklister](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn")
-* **Fjernlys** kun p√• m√∏rke strekninger uten gatebelysning
+For spesifikke teknikker og utfordringer ved nattkj¯ring, se [Kj¯ring i m¯rket](/blogs/teori/kjoring-i-morket "Kj¯ring i m¯rket - Komplett guide til trygg nattkj¯ring").
+## Lysbruk i ulike kj¯resituasjoner
+![Kj¯resituasjoner lys](kjoresituasjoner-lys.svg)
+### Kj¯ring pÂ motorvei
+Ved [motorveikj¯ring](/blogs/teori/motorveikjoring "Motorveikj¯ring - Sikker kj¯ring pÂ motorvei og motortrafikkvei") er **synlighet** ekstra viktig pÂ grunn av h¯ye hastigheter:
+* **Dagkj¯relys** eller nÊrlys alltid pÂ
+* **TÂkelys** kun ved sikt under 50 meter
+* **Blinklys** i god tid f¯r [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte")
+* **N¯dblink** ved n¯dstopp pÂ motorvei
+### Kj¯ring i tettbebygd str¯k
+Ved [bykj¯ring](/blogs/teori/bykjoring "Bykj¯ring - Mestring av kompleks bytrafikk") mÂ du vÊre ekstra oppmerksom pÂ:
+* **Dagkj¯relys** forbedrer synlighet mellom bygninger
+* **Blinklys** tidlig for Â varsle [fotgjengere og syklister](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn")
+* **Fjernlys** kun pÂ m¯rke strekninger uten gatebelysning
 * **Parkeringslys** ved parkering langs veien
-### Landeveiskj√∏ring
-Ved [landeveiskj√∏ring](/blogs/teori/landeveiskjoring "Landeveiskj√∏ring - Guide til sikker kj√∏ring p√• norske landeveier") kan du utnytte lysene optimalt:
-* **Fjernlys** p√• m√∏rke strekninger uten m√∏tende trafikk
-* **N√¶rlys** ved m√∏ting minimum 150 meter f√∏r m√∏te
-* **Blinklys** ved [forbikj√∏ring](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte") og inn p√• veien
-* **T√•kelys** ved d√•rlige v√¶rforhold
+### Landeveiskj¯ring
+Ved [landeveiskj¯ring](/blogs/teori/landeveiskjoring "Landeveiskj¯ring - Guide til sikker kj¯ring pÂ norske landeveier") kan du utnytte lysene optimalt:
+* **Fjernlys** pÂ m¯rke strekninger uten m¯tende trafikk
+* **NÊrlys** ved m¯ting minimum 150 meter f¯r m¯te
+* **Blinklys** ved [forbikj¯ring](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte") og inn pÂ veien
+* **TÂkelys** ved dÂrlige vÊrforhold
 ## Signalisering og kommunikasjon
-![Signalisering trafikk](/blogs/teori/bruk-av-lys-og-signaler/signalisering-trafikk.svg)
+![Signalisering trafikk](signalisering-trafikk.svg)
 ### Blinklysbruk i praksis
 **Timing av blinklys** er kritisk for [kommunikasjon med andre trafikanter](/blogs/teori/kommunikasjon-med-andre-trafikanter "Kommunikasjon med andre trafikanter"):
 1. **Planlegging**: Tenk gjennom din rute og forbered signalisering
-2. **Tidlig varsling**: Sl√• p√• blinklys 3-5 sekunder f√∏r man√∏ver i byen, lenger p√• motorvei
-3. **Tydelig intensjon**: Bruk blinklys kun n√•r du faktisk skal svinge eller skifte felt
-4. **Sl√• av**: Husk √• sl√• av blinklys etter fullf√∏rt man√∏ver
+2. **Tidlig varsling**: SlÂ pÂ blinklys 3-5 sekunder f¯r man¯ver i byen, lenger pÂ motorvei
+3. **Tydelig intensjon**: Bruk blinklys kun nÂr du faktisk skal svinge eller skifte felt
+4. **SlÂ av**: Husk Â slÂ av blinklys etter fullf¯rt man¯ver
 ### Spesielle signaleringssituasjoner
-**Ved rundkj√∏ringer**:
-* H√∏yre blinklys ved utfart fra rundkj√∏ring
-* Ingen blinklys ved rett frem gjennom rundkj√∏ring
-* Venstre blinklys kun ved mer enn 180¬∞ sving
-For full guide til vikeplikt, tegn og signal i rundkj√∏ringer, se [Vikeplikt og rundkj√∏ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Rundkj√∏ringer: Vikeplikt, tegn og signal, rundkj√∏ring med ett vs. to felt, h√∏yre vs. venstre vs. rett frem").
+**Ved rundkj¯ringer**:
+* H¯yre blinklys ved utfart fra rundkj¯ring
+* Ingen blinklys ved rett frem gjennom rundkj¯ring
+* Venstre blinklys kun ved mer enn 180∞ sving
+For full guide til vikeplikt, tegn og signal i rundkj¯ringer, se [Vikeplikt og rundkj¯ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Rundkj¯ringer: Vikeplikt, tegn og signal, rundkj¯ring med ett vs. to felt, h¯yre vs. venstre vs. rett frem").
 **Ved rygging og [parkering](/blogs/teori/rygging-og-parkering "Rygging og parkering"):**
 * Ryggeslys lyser automatisk
-* Bruk blinklys for √• varsle intensjon
-* N√∏dblink hvis du blokkerer trafikk midlertidig
+* Bruk blinklys for Â varsle intensjon
+* N¯dblink hvis du blokkerer trafikk midlertidig
 ## Lysbruk under vanskelige forhold
-![Vanskelige forhold lys](/blogs/teori/bruk-av-lys-og-signaler/vanskelige-forhold-lys.svg)
-### T√•ke og kraftig regn
-Ved [kj√∏ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kj√∏ring under vanskelige forhold") er riktig lysbruk livsviktig:
-**T√•kekj√∏ring**:
-* **T√•kelys foran** kun ved sikt under 50 meter
-* **T√•kelys bak** kun ved sv√¶rt tett t√•ke
+![Vanskelige forhold lys](vanskelige-forhold-lys.svg)
+### TÂke og kraftig regn
+Ved [kj¯ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kj¯ring under vanskelige forhold") er riktig lysbruk livsviktig:
+**TÂkekj¯ring**:
+* **TÂkelys foran** kun ved sikt under 50 meter
+* **TÂkelys bak** kun ved svÊrt tett tÂke
 * **Aldri fjernlys** - reflekteres tilbake og forverrer sikt
 * **Reduser hastighet** tilpasset siktforhold
 **Regn og sludd**:
-* **N√¶rlys** p√• selv p√• dagtid ved kraftig regn
-* **T√•kelys** kan forbedre sikt gjennom regnt√•ke
-* **√òkt f√∏lgeavstand** for bedre [reaksjonstid](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde")
-### Sn√∏ og vinterkj√∏ring
-**Sn√∏fall**:
-* **N√¶rlys** - fjernlys reflekteres i sn√∏fnugg
-* **T√•kelys** kan hjelpe ved tett sn√∏fall
-* **Ekstra fokus** p√• √• holde lys rene for sn√∏
+* **NÊrlys** pÂ selv pÂ dagtid ved kraftig regn
+* **TÂkelys** kan forbedre sikt gjennom regntÂke
+* **ÿkt f¯lgeavstand** for bedre [reaksjonstid](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde")
+### Sn¯ og vinterkj¯ring
+**Sn¯fall**:
+* **NÊrlys** - fjernlys reflekteres i sn¯fnugg
+* **TÂkelys** kan hjelpe ved tett sn¯fall
+* **Ekstra fokus** pÂ Â holde lys rene for sn¯
 **Glatte veier**:
-* **Forsiktig bruk av blinklys** - plutselige endringer kan utl√∏se skrens
-* **Jevn fart** for √• unng√• hyppig bremsing
-* **√òkt varslingstid** ved [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte")
+* **Forsiktig bruk av blinklys** - plutselige endringer kan utl¯se skrens
+* **Jevn fart** for Â unngÂ hyppig bremsing
+* **ÿkt varslingstid** ved [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte")
 ## Tekniske aspekter og vedlikehold
-![Vedlikehold lys](/blogs/teori/bruk-av-lys-og-signaler/vedlikehold-lys.svg)
+![Vedlikehold lys](vedlikehold-lys.svg)
 ### Lysteknologi i moderne biler
 **LED-lys** er stadig mer vanlig:
-* Lavere str√∏mforbruk
+* Lavere str¯mforbruk
 * Lengre levetid
 * Bedre lysytelse
-* Raskere p√•/av-respons
+* Raskere pÂ/av-respons
 **Xenon/HID-lys**:
 * Meget kraftig belysning
-* Krever automatisk lysh√∏ydejustering
-* Lysvaskeranlegg p√•krevd
+* Krever automatisk lysh¯ydejustering
+* Lysvaskeranlegg pÂkrevd
 **Adaptive lyssystemer**:
-* F√∏lger rattutslagene i svinger
-* Automatisk dimming ved m√∏tende trafikk
+* F¯lger rattutslagene i svinger
+* Automatisk dimming ved m¯tende trafikk
 * Hastighetsavhengig lysfordeling
 ### Vedlikehold og kontroll
-Regelmessig kontroll av lyssystemet er p√•krevd ved [vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen"):
+Regelmessig kontroll av lyssystemet er pÂkrevd ved [vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen"):
 **Daglig kontroll**:
 * Sjekk at alle lys fungerer ved oppstart
-* Kontroller at lys ikke er dekket av sn√∏/skitt
-* Observer om andre bilister "blinker" deg - kan tyde p√• feil
+* Kontroller at lys ikke er dekket av sn¯/skitt
+* Observer om andre bilister "blinker" deg - kan tyde pÂ feil
 **Ukentlig kontroll**:
-* Test alle lystyper inkludert n√∏dblink
-* Kontroller lysh√∏yde - b√∏r ikke blende m√∏tende
-* For mer om blendingsfare ved tung last i bil eller tilhenger, se [Tung last - konsekvenser](/blogs/teori/tung-last-konsekvenser "Tung last - konsekvenser for kj√∏reegenskaper, bremselengde og blendingsfare").
+* Test alle lystyper inkludert n¯dblink
+* Kontroller lysh¯yde - b¯r ikke blende m¯tende
+* For mer om blendingsfare ved tung last i bil eller tilhenger, se [Tung last - konsekvenser](/blogs/teori/tung-last-konsekvenser "Tung last - konsekvenser for kj¯reegenskaper, bremselengde og blendingsfare").
 * Sjekk linser for sprekker eller fuktighet
 **Ved EU-kontroll**:
-* Lysstyrke m√•les og justeres
+* Lysstyrke mÂles og justeres
 * Alle funksjoner testes
-* Defekte p√¶rer m√• skiftes
+* Defekte pÊrer mÂ skiftes
 ### Vanlige tekniske problemer
-| Problem                        | Mulig √•rsak                    | L√∏sning                              |
+| Problem                        | Mulig Ârsak                    | L¯sning                              |
 |--------------------------------|--------------------------------|--------------------------------------|
-| Lysene virker ikke             | Sikring g√•tt                   | Skift sikring                        |
-| Blinklys blinker for raskt     | Defekt p√¶re                    | Skift p√¶re                           |
-| Lys blinker eller flimrer      | D√•rlig kontakt                 | Rengj√∏r kontakter/skift lyskaster     |
-| Fjernlys virker ikke           | Defekt spak eller rel√©         | F√• reparert hos verksted             |
-| T√•kelys sl√•r seg av            | Overoppheting                  | La kj√∏le ned, sjekk ventilasjon      |
-| Ujevn lysfordeling             | Feil justering                 | F√• justert hos verksted              |
+| Lysene virker ikke             | Sikring gÂtt                   | Skift sikring                        |
+| Blinklys blinker for raskt     | Defekt pÊre                    | Skift pÊre                           |
+| Lys blinker eller flimrer      | DÂrlig kontakt                 | Rengj¯r kontakter/skift lyskaster     |
+| Fjernlys virker ikke           | Defekt spak eller relÈ         | FÂ reparert hos verksted             |
+| TÂkelys slÂr seg av            | Overoppheting                  | La kj¯le ned, sjekk ventilasjon      |
+| Ujevn lysfordeling             | Feil justering                 | FÂ justert hos verksted              |
 ## Beste praksis for lysbruk og signalering
-![Beste praksis lys](/blogs/teori/bruk-av-lys-og-signaler/beste-praksis-lys.svg)
-### F√∏r kj√∏ring - sjekkliste
-**Daglig kontroll** b√∏r inkludere:
-* ‚úÖ Gj√∏r lys- og signalkontroll til en del av f√∏r-starte-sjekken
-* ‚úÖ Test alle lystyper - frontlys, baklys, blinklys, n√∏dblink
-* ‚úÖ Kontroller at linser er rene og hele
-* ‚úÖ Sjekk at automatiske systemer fungerer (dagkj√∏relys, ryggeslys)
-* ‚úÖ Juster speil for optimal oversikt over egen signalisering
-### Under kj√∏ring - kommunikasjon
+![Beste praksis lys](beste-praksis-lys.svg)
+### F¯r kj¯ring - sjekkliste
+**Daglig kontroll** b¯r inkludere:
+* ? Gj¯r lys- og signalkontroll til en del av f¯r-starte-sjekken
+* ? Test alle lystyper - frontlys, baklys, blinklys, n¯dblink
+* ? Kontroller at linser er rene og hele
+* ? Sjekk at automatiske systemer fungerer (dagkj¯relys, ryggeslys)
+* ? Juster speil for optimal oversikt over egen signalisering
+### Under kj¯ring - kommunikasjon
 **Effektiv signalisering**:
-* Planlegg alltid blinklysbruk i god tid f√∏r sving eller [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte - Komplett guide til sikker forbikj√∏ring og feltskifte") som del av effektiv [kommunikasjon med andre trafikanter](/blogs/teori/kommunikasjon-med-andre-trafikanter "Kommunikasjon med andre trafikanter")
-* Sl√• p√• frontlys automatisk hvor dagslys ikke gir tilstrekkelig sikt
-* Unng√• overfl√∏dig bruk av fjernlys n√•r det kan blende andre trafikanter
-* Bruk n√∏dblink ved uventede stopp eller ved hindringer i kj√∏rebanen
-* **V√¶r forutsigbar** - konsekvent signalisering skaper trygghet
-### Tilpasning til v√¶rforhold
-**Optimalisering basert p√• forhold**:
-1. **Klart v√¶r**: Dagkj√∏relys p√• dagtid, fjernlys ved behov
-2. **Lett regn/overskyet**: N√¶rlys p√• for bedre synlighet
-3. **Kraftig regn**: N√¶rlys + evt. t√•kelys foran
-4. **T√•ke**: N√¶rlys + t√•kelys (aldri fjernlys)
-5. **Sn√∏fall**: N√¶rlys, hold lys rene
-### Energi√∏konomisering
-**Smart lysbruk** for [milj√∏vennlig kj√∏ring](/blogs/teori/miljovennlig-kjoring "Milj√∏vennlig kj√∏ring"):
-* LED-oppgraderinger reduserer str√∏mforbruk
+* Planlegg alltid blinklysbruk i god tid f¯r sving eller [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte - Komplett guide til sikker forbikj¯ring og feltskifte") som del av effektiv [kommunikasjon med andre trafikanter](/blogs/teori/kommunikasjon-med-andre-trafikanter "Kommunikasjon med andre trafikanter")
+* SlÂ pÂ frontlys automatisk hvor dagslys ikke gir tilstrekkelig sikt
+* UnngÂ overfl¯dig bruk av fjernlys nÂr det kan blende andre trafikanter
+* Bruk n¯dblink ved uventede stopp eller ved hindringer i kj¯rebanen
+* **VÊr forutsigbar** - konsekvent signalisering skaper trygghet
+### Tilpasning til vÊrforhold
+**Optimalisering basert pÂ forhold**:
+1. **Klart vÊr**: Dagkj¯relys pÂ dagtid, fjernlys ved behov
+2. **Lett regn/overskyet**: NÊrlys pÂ for bedre synlighet
+3. **Kraftig regn**: NÊrlys + evt. tÂkelys foran
+4. **TÂke**: NÊrlys + tÂkelys (aldri fjernlys)
+5. **Sn¯fall**: NÊrlys, hold lys rene
+### Energi¯konomisering
+**Smart lysbruk** for [milj¯vennlig kj¯ring](/blogs/teori/miljovennlig-kjoring "Milj¯vennlig kj¯ring"):
+* LED-oppgraderinger reduserer str¯mforbruk
 * Automatiske systemer optimaliserer bruk
-* Unng√• un√∏dvendig bruk av kraftige lys
+* UnngÂ un¯dvendig bruk av kraftige lys
 * Service lyssystem regelmessig for optimal effektivitet
 ## Vanlige feil og konsekvenser
-![Vanlige feil lys](/blogs/teori/bruk-av-lys-og-signaler/vanlige-feil-lys.svg)
+![Vanlige feil lys](vanlige-feil-lys.svg)
 ### Kritiske feil ved lysbruk
 | Feiltype                      | Beskrivelse                                | Konsekvens                             | Forebygging                            |
 |-------------------------------|--------------------------------------------|----------------------------------------|----------------------------------------|
-| **Manglende frontlys**        | Glemmer √• sl√• p√• frontlys ved m√∏rketid     | Redusert sikt; risiko for ulykker      | Automatiske systemer; daglig sjekk     |
-| **Feilaktig blinklysbruk**    | Blinker for sent eller ikke i det hele tatt | Forvirring; kollisjonsfare             | Planlegg man√∏vre; √∏v p√• timing         |
-| **Overdreven fjernlys**       | Bruker fjernlys uten hensyn til m√∏tende    | Blending; trafikantsikkerhet svekket   | L√¶r avstand/timing for dimming         |
-| **Feil bruk av n√∏dblink**     | Bruker n√∏dblink ved [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte") eller i k√∏   | Gir feil signal til andre, misforst√•elser | L√¶r riktig bruksomr√•de                 |
-| **Skitten optikk**            | Lys blokkert av skitt, sn√∏ eller is        | Kraftig redusert lyseffekt             | Regelmessig rengj√∏ring                 |
-| **Feil t√•kelysbruk**          | Bruker t√•kelys ved normale forhold         | Blending; un√∏dvendig slitasje          | L√¶r n√•r t√•kelys skal brukes            |
-| **Defekte lys**               | Kj√∏rer med √∏delagte p√¶rer/lys              | Redusert synlighet; brudd p√• loven     | Regelmessig funksjonstest              |
-| **Feil lysjustering**         | Lys justert for h√∏yt eller for lavt        | Blending eller for kort rekkevidde     | Profesjonell justering ved behov       |
+| **Manglende frontlys**        | Glemmer Â slÂ pÂ frontlys ved m¯rketid     | Redusert sikt; risiko for ulykker      | Automatiske systemer; daglig sjekk     |
+| **Feilaktig blinklysbruk**    | Blinker for sent eller ikke i det hele tatt | Forvirring; kollisjonsfare             | Planlegg man¯vre; ¯v pÂ timing         |
+| **Overdreven fjernlys**       | Bruker fjernlys uten hensyn til m¯tende    | Blending; trafikantsikkerhet svekket   | LÊr avstand/timing for dimming         |
+| **Feil bruk av n¯dblink**     | Bruker n¯dblink ved [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte") eller i k¯   | Gir feil signal til andre, misforstÂelser | LÊr riktig bruksomrÂde                 |
+| **Skitten optikk**            | Lys blokkert av skitt, sn¯ eller is        | Kraftig redusert lyseffekt             | Regelmessig rengj¯ring                 |
+| **Feil tÂkelysbruk**          | Bruker tÂkelys ved normale forhold         | Blending; un¯dvendig slitasje          | LÊr nÂr tÂkelys skal brukes            |
+| **Defekte lys**               | Kj¯rer med ¯delagte pÊrer/lys              | Redusert synlighet; brudd pÂ loven     | Regelmessig funksjonstest              |
+| **Feil lysjustering**         | Lys justert for h¯yt eller for lavt        | Blending eller for kort rekkevidde     | Profesjonell justering ved behov       |
 ### Spesifikke situasjoner og fallgruver
-**Rundkj√∏ringer**:
-* ‚ùå **Feil**: Blinklys venstre inn i rundkj√∏ring
-* ‚úÖ **Riktig**: Kun h√∏yre blinklys ved utfart
+**Rundkj¯ringer**:
+* ? **Feil**: Blinklys venstre inn i rundkj¯ring
+* ? **Riktig**: Kun h¯yre blinklys ved utfart
 **Motorvei**:
-* ‚ùå **Feil**: For sent blinklys ved [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte")
-* ‚úÖ **Riktig**: Blinklys i 3-5 sekunder f√∏r man√∏ver
-**T√•ke**:
-* ‚ùå **Feil**: Fjernlys i t√•ke
-* ‚úÖ **Riktig**: N√¶rlys + t√•kelys ved behov
-**M√∏tende trafikk**:
-* ‚ùå **Feil**: Venter til siste sekund med √• dimme
-* ‚úÖ **Riktig**: Dimme 150-200 meter f√∏r m√∏te
+* ? **Feil**: For sent blinklys ved [filskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte")
+* ? **Riktig**: Blinklys i 3-5 sekunder f¯r man¯ver
+**TÂke**:
+* ? **Feil**: Fjernlys i tÂke
+* ? **Riktig**: NÊrlys + tÂkelys ved behov
+**M¯tende trafikk**:
+* ? **Feil**: Venter til siste sekund med Â dimme
+* ? **Riktig**: Dimme 150-200 meter f¯r m¯te
 ### Konsekvenser ved ulykker
-**Juridiske f√∏lger** av feil lysbruk ved [m√∏teulykker](/blogs/teori/moteulykker-og-forebygging "M√∏teulykker og forebygging"):
-* **Medvirkning til ulykke**: Feil lysbruk kan medf√∏re straffeansvar
+**Juridiske f¯lger** av feil lysbruk ved [m¯teulykker](/blogs/teori/moteulykker-og-forebygging "M¯teulykker og forebygging"):
+* **Medvirkning til ulykke**: Feil lysbruk kan medf¯re straffeansvar
 * **Forsikringsutbetaling**: Kan reduseres ved egen skyld
-* **Tap av f√∏rerrett**: Ved grove eller gjentatte overtredelser
-* **Erstatningsansvar**: Ansvar for skader p√• personer og materiell
+* **Tap av f¯rerrett**: Ved grove eller gjentatte overtredelser
+* **Erstatningsansvar**: Ansvar for skader pÂ personer og materiell
 ## Moderne teknologi og fremtiden
-![Fremtidens lys](/blogs/teori/bruk-av-lys-og-signaler/fremtidens-lys.svg)
+![Fremtidens lys](fremtidens-lys.svg)
 ### Intelligente lyssystemer
 **Adaptive frontlys** tilpasser seg automatisk:
-* **Kurvef√∏lgende lys**: Lyser inn i svinger
-* **H√∏ydejustering**: Kompenserer for last og veiujevnheter
-* **V√¶rdeteksjon**: Justerer intensitet basert p√• forhold
-* **Trafikktilpasning**: Dimmer automatisk ved m√∏tende kj√∏ret√∏y
+* **Kurvef¯lgende lys**: Lyser inn i svinger
+* **H¯ydejustering**: Kompenserer for last og veiujevnheter
+* **VÊrdeteksjon**: Justerer intensitet basert pÂ forhold
+* **Trafikktilpasning**: Dimmer automatisk ved m¯tende kj¯ret¯y
 **Matrix LED-teknologi**:
 * Selektiv dimming av lysfeltet
-* Optimal belysning uten √• blende
+* Optimal belysning uten Â blende
 * Dynamisk tilpasning til trafikksituasjon
 ### Kommunikasjonslys
 **Utvidet signalisering**:
-* **Animerte blinklys**: Tydeliggj√∏r retning
+* **Animerte blinklys**: Tydeliggj¯r retning
 * **Kommunikasjonslys**: Takk/unnskyld-signaler
 * **Notifikasjonslys**: Integrasjon med navigasjon
 ### Forbindelse til autonome systemer
 **Integrerte sikkerhetssystemer**:
-* Lys knyttet til [kollisjonsvarsling](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kj√∏ret√∏yets sikkerhetsutstyr")
-* Automatisk n√∏dbremsing aktiverer n√∏dblink
+* Lys knyttet til [kollisjonsvarsling](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kj¯ret¯yets sikkerhetsutstyr")
+* Automatisk n¯dbremsing aktiverer n¯dblink
 * Filassistanse kommuniserer via lys
 * Adaptiv cruisekontroll styrer lysbruk
 ## Internasjonale forskjeller
-![Internasjonale regler](/blogs/teori/bruk-av-lys-og-signaler/internasjonale-regler.svg)
+![Internasjonale regler](internasjonale-regler.svg)
 ### Europa vs Norge
-**Dagkj√∏relys**:
-* **EU**: P√•budt p√• alle nye biler fra 2011
-* **Norge**: Tradisjon for n√¶rlys p√• dagtid siden 1985
-* **Praktisk**: De fleste europeiske biler har dagkj√∏relys
-**T√•kelys**:
-* **Tyskland**: T√•kelys bak kun ved sikt under 50m
+**Dagkj¯relys**:
+* **EU**: PÂbudt pÂ alle nye biler fra 2011
+* **Norge**: Tradisjon for nÊrlys pÂ dagtid siden 1985
+* **Praktisk**: De fleste europeiske biler har dagkj¯relys
+**TÂkelys**:
+* **Tyskland**: TÂkelys bak kun ved sikt under 50m
 * **Frankrike**: Gule frontlys var tidligere vanlig
-* **UK**: Venstre trafikk p√•virker lysinnstilling
+* **UK**: Venstre trafikk pÂvirker lysinnstilling
 ### Ved utenlandsreiser
-**Forberedelser** for [lange kj√∏returer](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser for en lang kj√∏retur") til utlandet:
-1. **Lysjustering**: H√∏yretrafikk vs venstretrafikk
-2. **Reservep√¶rer**: P√•krevd i mange land
+**Forberedelser** for [lange kj¯returer](/blogs/teori/forberedelser-for-en-lang-kjoretur "Forberedelser for en lang kj¯retur") til utlandet:
+1. **Lysjustering**: H¯yretrafikk vs venstretrafikk
+2. **ReservepÊrer**: PÂkrevd i mange land
 3. **Refleksvest**: Obligatorisk i flere land
-4. **Spesialregler**: Unders√∏k lokale krav
-## √òkonomi og milj√∏aspekter
-![Okonomi lys](/blogs/teori/bruk-av-lys-og-signaler/okonomi-lys.svg)
+4. **Spesialregler**: Unders¯k lokale krav
+## ÿkonomi og milj¯aspekter
+![Okonomi lys](okonomi-lys.svg)
 ### Kostnader ved lysbruk
-**Str√∏mforbruk** p√•virker [√∏konomien](/blogs/teori/okonomi-og-bilhold "√òkonomi og bilhold - Kostnader og tips for √∏konomisk bilhold"):
-| Lystype           | Effekt (W) | √Örlig kostnad* | LED-alternativ |
+**Str¯mforbruk** pÂvirker [¯konomien](/blogs/teori/okonomi-og-bilhold "ÿkonomi og bilhold - Kostnader og tips for ¯konomisk bilhold"):
+| Lystype           | Effekt (W) | ≈rlig kostnad* | LED-alternativ |
 |-------------------|------------|----------------|---------------|
-| Halogen frontlys  | 55W √ó 2    | 400 kr         | 200 kr        |
-| Dagkj√∏relys LED   | 5W √ó 2     | 35 kr          | -             |
-| T√•kelys           | 55W √ó 2    | 200 kr**       | 100 kr        |
-| Baklys            | 5W √ó 4     | 70 kr          | 30 kr         |
-*Basert p√• 15 000 km/√•r og str√∏mpris 2,50 kr/kWh  
+| Halogen frontlys  | 55W ◊ 2    | 400 kr         | 200 kr        |
+| Dagkj¯relys LED   | 5W ◊ 2     | 35 kr          | -             |
+| TÂkelys           | 55W ◊ 2    | 200 kr**       | 100 kr        |
+| Baklys            | 5W ◊ 4     | 70 kr          | 30 kr         |
+*Basert pÂ 15 000 km/Âr og str¯mpris 2,50 kr/kWh  
 **Ved 25% brukstid
-### Milj√∏vennlig lysbruk
-For [milj√∏vennlig kj√∏ring](/blogs/teori/miljovennlig-kjoring "Milj√∏vennlig kj√∏ring - Reduser forbruk og utslipp"):
-* **LED-oppgradering** reduserer CO‚ÇÇ-utslipp
-* **Smart lysbruk** sparer batterikapasitet p√• elbiler
+### Milj¯vennlig lysbruk
+For [milj¯vennlig kj¯ring](/blogs/teori/miljovennlig-kjoring "Milj¯vennlig kj¯ring - Reduser forbruk og utslipp"):
+* **LED-oppgradering** reduserer CO2-utslipp
+* **Smart lysbruk** sparer batterikapasitet pÂ elbiler
 * **Mindre vedlikehold** med LED-teknologi
-* **Materialgjenvinning** av gamle lysp√¶rer
-## Praktiske √∏velser og tips
-![Praktiske tips lys](/blogs/teori/bruk-av-lys-og-signaler/praktiske-tips-lys.svg)
-### √òvelser for korrekt lysbruk
-**For teoretiske pr√∏ve**:
-1. **√òv timing**: N√•r skal ulike lys brukes?
-2. **L√¶r sanksjoner**: Hva koster feil lysbruk?
-3. **Forst√• teknikk**: Hvordan virker adaptiv belysning?
+* **Materialgjenvinning** av gamle lyspÊrer
+## Praktiske ¯velser og tips
+![Praktiske tips lys](praktiske-tips-lys.svg)
+### ÿvelser for korrekt lysbruk
+**For teoretiske pr¯ve**:
+1. **ÿv timing**: NÂr skal ulike lys brukes?
+2. **LÊr sanksjoner**: Hva koster feil lysbruk?
+3. **ForstÂ teknikk**: Hvordan virker adaptiv belysning?
 4. **Kjenn reglene**: Internasjonale forskjeller
-**For praktisk pr√∏ve og [oppkj√∏ring](/blogs/teori/oppkjoring "Oppkj√∏ring - Forberedelse til praktisk f√∏rerpr√∏ve"):**
-1. **√òv blinklysbruk**: Timing ved ulike man√∏vre
-2. **Tren p√• dimming**: N√•r og hvordan dimme fjernlys
-3. **Test n√∏dprosedyrer**: Bruk av n√∏dblink
-4. **L√¶r vedlikehold**: Hvordan skifte p√¶rer
+**For praktisk pr¯ve og [oppkj¯ring](/blogs/teori/oppkjoring "Oppkj¯ring - Forberedelse til praktisk f¯rerpr¯ve"):**
+1. **ÿv blinklysbruk**: Timing ved ulike man¯vre
+2. **Tren pÂ dimming**: NÂr og hvordan dimme fjernlys
+3. **Test n¯dprosedyrer**: Bruk av n¯dblink
+4. **LÊr vedlikehold**: Hvordan skifte pÊrer
 ### Sjekkliste for lysbruk
 **Daglig sjekk**:
 - [ ] Alle lys fungerer
 - [ ] Linser er rene
-- [ ] Dagkj√∏relys aktiveres automatisk
+- [ ] Dagkj¯relys aktiveres automatisk
 - [ ] Blinklys fungerer normalt
 **Ukentlig sjekk**:
-- [ ] Test fjernlys og n√¶rlys
-- [ ] Kontroller t√•kelys
-- [ ] Sjekk n√∏dblink
-- [ ] Observer lysfordeling p√• vegg
-**F√∏r lange turer**:
-- [ ] Reservep√¶rer med
+- [ ] Test fjernlys og nÊrlys
+- [ ] Kontroller tÂkelys
+- [ ] Sjekk n¯dblink
+- [ ] Observer lysfordeling pÂ vegg
+**F¯r lange turer**:
+- [ ] ReservepÊrer med
 - [ ] Sjekk alle funksjoner
-- [ ] Rengj√∏r grundig
+- [ ] Rengj¯r grundig
 - [ ] Kontroller spesialregler for destinasjon
 ### Minneregler for lysbruk
-**"STR√ÖLE"-regelen for lysbruk**:
-* **S**ynlighet - bruk lys for √• bli sett
+**"STR≈LE"-regelen for lysbruk**:
+* **S**ynlighet - bruk lys for Â bli sett
 * **T**iming - signal i god tid
-* **R**egler - f√∏lg lovkrav
-* **√Ö**rv√•kenhet - tilpass til forhold
+* **R**egler - f¯lg lovkrav
+* **≈**rvÂkenhet - tilpass til forhold
 * **L**ys rene - vedlikehold optikk
-* **E**tterpr√∏ving - test regelmessig
+* **E**tterpr¯ving - test regelmessig
 ## Sammenheng med andre temaer
-![Sammenheng temaer](/blogs/teori/bruk-av-lys-og-signaler/sammenheng-temaer.svg)
-Riktig **bruk av lys og signaler** henger n√∏ye sammen med:
+![Sammenheng temaer](sammenheng-temaer.svg)
+Riktig **bruk av lys og signaler** henger n¯ye sammen med:
 * **[Kommunikasjon med andre trafikanter](/blogs/teori/kommunikasjon-med-andre-trafikanter "Kommunikasjon og samhandling i trafikken")** - lys som kommunikasjonsmiddel
 * **[Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling")** - observere andres lyssignaler
-* **[Defensiv kj√∏ring](/blogs/teori/defensiv-kjoring "Defensiv kj√∏ring - Forebyggende kj√∏reteknikker")** - bruke lys for √• unng√• misforst√•elser
+* **[Defensiv kj¯ring](/blogs/teori/defensiv-kjoring "Defensiv kj¯ring - Forebyggende kj¯reteknikker")** - bruke lys for Â unngÂ misforstÂelser
 * **[Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde")** - tidlig varsling gir andre bedre reaksjonstid
-* **[Plassering og kj√∏rem√•te](/blogs/teori/plassering-og-kjoremmate "Plassering og kj√∏rem√•te")** - lys st√∏tter opp om posisjoneringen din
+* **[Plassering og kj¯remÂte](/blogs/teori/plassering-og-kjoremmate "Plassering og kj¯remÂte")** - lys st¯tter opp om posisjoneringen din
 ## Oppsummering
-**Bruk av lys og signaler** er en grunnleggende ferdighet som alle f√∏rere m√• mestre. Riktig lysbruk handler ikke bare om √• f√∏lge loven, men om √•:
+**Bruk av lys og signaler** er en grunnleggende ferdighet som alle f¯rere mÂ mestre. Riktig lysbruk handler ikke bare om Â f¯lge loven, men om Â:
 * **Kommunisere tydelig** med andre trafikanter
 * **Forbedre synlighet** under varierende forhold
 * **Forebygge ulykker** gjennom tidlig varsling
 * **Tilpasse seg** teknologisk utvikling
-* **Vedlikeholde** kj√∏ret√∏yets sikkerhetssystemer
-Husk at lys og signaler er ditt viktigste **kommunikasjonsverkt√∏y** i trafikken - bruk det ansvarlig og effektivt.
+* **Vedlikeholde** kj¯ret¯yets sikkerhetssystemer
+Husk at lys og signaler er ditt viktigste **kommunikasjonsverkt¯y** i trafikken - bruk det ansvarlig og effektivt.
 ## Relaterte emner
 * [Kommunikasjon med andre trafikanter](/blogs/teori/kommunikasjon-med-andre-trafikanter "Kommunikasjon med andre trafikanter - Tydelige signaler og trygg trafikk")
-* [Kj√∏ring i m√∏rket](/blogs/teori/kjoring-i-morket "Kj√∏ring i m√∏rket - Tips for sikker kj√∏ring i m√∏rke forhold")
-* [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Skilt og merking du m√• kjenne")
+* [Kj¯ring i m¯rket](/blogs/teori/kjoring-i-morket "Kj¯ring i m¯rket - Tips for sikker kj¯ring i m¯rke forhold")
+* [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Skilt og merking du mÂ kjenne")
 * [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand")
-* [Plassering og kj√∏rem√•te](/blogs/teori/plassering-og-kjoremmate "Plassering og kj√∏rem√•te - Hvordan velge riktig fil")
-* [Kj√∏ret√∏yets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kj√∏ret√∏yets sikkerhetsutstyr - Moderne sikkerhetsteknologi")
-* [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Hold kj√∏ret√∏yet i sikker stand")
-* [Forbikj√∏ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj√∏ring og feltskifte - Sikre man√∏vre i trafikken")
-* [Kj√∏ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kj√∏ring under vanskelige forhold - Tilpasning til v√¶r og f√∏re")
+* [Plassering og kj¯remÂte](/blogs/teori/plassering-og-kjoremmate "Plassering og kj¯remÂte - Hvordan velge riktig fil")
+* [Kj¯ret¯yets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kj¯ret¯yets sikkerhetsutstyr - Moderne sikkerhetsteknologi")
+* [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Hold kj¯ret¯yet i sikker stand")
+* [Forbikj¯ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikj¯ring og feltskifte - Sikre man¯vre i trafikken")
+* [Kj¯ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kj¯ring under vanskelige forhold - Tilpasning til vÊr og f¯re")

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Ansvar Ved Tauing Av Bil"
 date: 2025-08-06
 draft: false
@@ -144,10 +144,10 @@ tr:hover {
   }
 }
 </style>
-**Ansvar ved tauing av bil** omhandler viktige **trafikkregler**, **sikkerhetskrav** og **forsikringsansvar** nÃ¥r en bil taues pÃ¥ norske veier.
-*Tauing av bil* oppstÃ¥r ofte ved motorstopp, ulykker eller andre driftsstans-situasjoner, og det er viktig Ã¥ kjenne sine rettigheter og plikter for Ã¥ sikre trygg tauing.
+**Ansvar ved tauing av bil** omhandler viktige **trafikkregler**, **sikkerhetskrav** og **forsikringsansvar** når en bil taues på norske veier.
+*Tauing av bil* oppstår ofte ved motorstopp, ulykker eller andre driftsstans-situasjoner, og det er viktig å kjenne sine rettigheter og plikter for å sikre trygg tauing.
 ## Innholdsfortegnelse
-* [NÃ¥r kan bil taues?](#nÃ¥r-kan-bil-taues)
+* [Når kan bil taues?](#når-kan-bil-taues)
 * [Hvem har ansvar under tauing?](#hvem-har-ansvar-under-tauing)
 * [Krav til tauemateriell](#krav-til-tauemateriell)
 * [Sikkerhetsprosedyrer ved tauing](#sikkerhetsprosedyrer-ved-tauing)
@@ -155,49 +155,49 @@ tr:hover {
 * [Forsikringsansvar ved tauing](#forsikringsansvar-ved-tauing)
 * [Typiske feil og anbefalt praksis](#typiske-feil-og-anbefalt-praksis)
 * [Relaterte emner](#relaterte-emner)
-## NÃ¥r kan bil taues?
-Tauing er kun tillatt nÃ¥r kjÃ¸retÃ¸yet ikke kan kjÃ¸re under egen kraft pÃ¥ grunn av feil eller havari. **Det er forbudt Ã¥ tau kjÃ¸retÃ¸y som er i god teknisk stand**.
+## Når kan bil taues?
+Tauing er kun tillatt når kjøretøyet ikke kan kjøre under egen kraft på grunn av feil eller havari. **Det er forbudt å tau kjøretøy som er i god teknisk stand**.
 ## Hvem har ansvar under tauing?
-![Tauing av bil diagram](/blogs/teori/ansvar-ved-tauing-av-bil/tauing-diagram.svg)
+![Tauing av bil diagram](tauing-diagram.svg)
 | Rolle | Ansvar |
 |-------|--------|
-| **Tauende fÃ¸rer** | SÃ¸rge for at tauing skjer sikkert, fÃ¸lge trafikkregler og bruke godkjent materiell |
-| **Tauet fÃ¸rer** | Opprettholde kontroll over styresystemet, ha fot pÃ¥ bremsen og til en hver tid vÃ¦re i fÃ¸rersete |
-| **Tredjepart (hjelper)** | Kan bistÃ¥ med plassering og sikring av tau, men har ikke trafikkansvar |
+| **Tauende fører** | Sørge for at tauing skjer sikkert, følge trafikkregler og bruke godkjent materiell |
+| **Tauet fører** | Opprettholde kontroll over styresystemet, ha fot på bremsen og til en hver tid være i førersete |
+| **Tredjepart (hjelper)** | Kan bistå med plassering og sikring av tau, men har ikke trafikkansvar |
 ## Krav til tauemateriell
-Tau eller slepewire som brukes til tauing mÃ¥ vÃ¦re [**godkjent for motorvogn**](/blogs/teori/motorvogn-definisjon "Motorvogn (definisjon)"), og ha riktig **strekkstyrke**.
+Tau eller slepewire som brukes til tauing må være [**godkjent for motorvogn**](/blogs/teori/motorvogn-definisjon "Motorvogn (definisjon)"), og ha riktig **strekkstyrke**.
 | Materiell | Minimum bruddstyrke | Kommentar |
 |-----------|---------------------:|-----------|
 | **Tau** | 5 tonn | Produsert for tauing av biler |
-| **Slepewire** | 3 tonn | Skal vÃ¦re synlig og godt merket |
-| **Kroker og karabinkroker** | 2 tonn | Skal ha lÃ¥semekanisme for sikkerhet |
-Se ogsÃ¥ [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Bruk av dekk, kjetting og tauemateriell") for generelle krav til utstyr.
+| **Slepewire** | 3 tonn | Skal være synlig og godt merket |
+| **Kroker og karabinkroker** | 2 tonn | Skal ha låsemekanisme for sikkerhet |
+Se også [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Bruk av dekk, kjetting og tauemateriell") for generelle krav til utstyr.
 ## Sikkerhetsprosedyrer ved tauing
-FÃ¸lg alltid en fast prosedyre for Ã¥ redusere risiko for ulykker:
+Følg alltid en fast prosedyre for å redusere risiko for ulykker:
 * Plasser bilene rett bak hverandre, med tilstrekkelig avstand for tilkopling av tau.
-* SlÃ¥ pÃ¥ **nÃ¸dblink** pÃ¥ begge kjÃ¸retÃ¸y.
-* Fest tauet til godkjente festepunkter pÃ¥ bÃ¥de tauende og tauet bil.
-* SÃ¸rg for jevn og rolig oppstart for Ã¥ unngÃ¥ rykk.
+* Slå på **nødblink** på begge kjøretøy.
+* Fest tauet til godkjente festepunkter på både tauende og tauet bil.
+* Sørg for jevn og rolig oppstart for å unngå rykk.
 * Oppretthold lav hastighet (maks 30 km/t) og hold god avstand til andre trafikanter.
-* Kommuniser tydelig med hÃ¥ndsignaler eller toveis-kommunikasjon underveis.
+* Kommuniser tydelig med håndsignaler eller toveis-kommunikasjon underveis.
 ## Trafikkregler for tauing
 Ved tauing gjelder disse spesielle trafikkreglene:
 * Maksimalfart: **30 km/t**.
-* Tauende bil skal fÃ¸re tauet **rett bak** i minste mulig vinkel.
-* Tauet bil mÃ¥ ikke slepes lenger enn **3 km** (vanlig praksis ved motorstopp).
-* Det er **ikke tillatt** Ã¥ tau i tunneler, med mindre det er nÃ¸dssituasjon og trafikksikkerhet er ivaretatt.
+* Tauende bil skal føre tauet **rett bak** i minste mulig vinkel.
+* Tauet bil må ikke slepes lenger enn **3 km** (vanlig praksis ved motorstopp).
+* Det er **ikke tillatt** å tau i tunneler, med mindre det er nødssituasjon og trafikksikkerhet er ivaretatt.
 ## Forsikringsansvar ved tauing
-Under tauing oppstÃ¥r bÃ¥de **erstatningsansvar** og **forsikringsansvar**:
-* **Den tauende fÃ¸rers ansvarsforsikring** dekker skader som fÃ¸lge av tauingen.
-* **Egen kaskoforsikring** kan dekke skader pÃ¥ eget kjÃ¸retÃ¸y ved tauing.
+Under tauing oppstår både **erstatningsansvar** og **forsikringsansvar**:
+* **Den tauende førers ansvarsforsikring** dekker skader som følge av tauingen.
+* **Egen kaskoforsikring** kan dekke skader på eget kjøretøy ved tauing.
 * Ved uenighet om ansvarsforhold, dokumenter hendelsen med bilder og vitner.
-For mer om forsikringskrav ved bilhold, se [FÃ¸rerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "FÃ¸rerkort, vognkort og forsikring - Guide til forsikring ved bilhold").
+For mer om forsikringskrav ved bilhold, se [Førerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "Førerkort, vognkort og forsikring - Guide til forsikring ved bilhold").
 ## Typiske feil og anbefalt praksis
-*Feil bruk av ikke-godkjent tauemateriell kan fÃ¸re til **alvorlige skader**.*
-* **Ã… feste til karosseri** i stedet for godkjente festepunkter.
-* **BrÃ¥ rykk** i tauet ved oppstart eller stopp.
-* **Manglende nÃ¸dsignaler** og kommunikasjon med andre trafikanter.
+*Feil bruk av ikke-godkjent tauemateriell kan føre til **alvorlige skader**.*
+* **Å feste til karosseri** i stedet for godkjente festepunkter.
+* **Brå rykk** i tauet ved oppstart eller stopp.
+* **Manglende nødsignaler** og kommunikasjon med andre trafikanter.
 ## Relaterte emner
-* [KjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger - Guide til trygg hengerkjÃ¸ring")
+* [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Guide til trygg hengerkjøring")
 * [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker lastsikring")
 * [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Bruk av dekk og kjetting")

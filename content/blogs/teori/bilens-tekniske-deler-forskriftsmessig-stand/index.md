@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Bilens Tekniske Deler Forskriftsmessig Stand"
 date: 2025-08-06
 draft: false
@@ -144,45 +144,45 @@ tr:hover {
   }
 }
 </style>
-Bilens tekniske deler (forskriftsmessig stand) handler om de **lovpÃ¥lagte kravene** til teknisk tilstand som sikrer at kjÃ¸retÃ¸yet er trygt for vei.
-For en dedikert veiledning til daglig sikkerhetssjekk fÃ¸r kjÃ¸ring, se [Sikkerhetssjekk (teknisk bil)](/blogs/teori/sikkerhetssjekk-teknisk-bil "Sikkerhetssjekk (teknisk bil) - Daglig teknisk sjekk fÃ¸r kjÃ¸ring").
-![Bilens tekniske deler (Forskriftsmessig stand)](/blogs/teori/bilens-tekniske-deler-forskriftsmessig-stand/bilens-tekniske-deler-forskriftsmessig-stand-image.svg)
+Bilens tekniske deler (forskriftsmessig stand) handler om de **lovpålagte kravene** til teknisk tilstand som sikrer at kjøretøyet er trygt for vei.
+For en dedikert veiledning til daglig sikkerhetssjekk før kjøring, se [Sikkerhetssjekk (teknisk bil)](/blogs/teori/sikkerhetssjekk-teknisk-bil "Sikkerhetssjekk (teknisk bil) - Daglig teknisk sjekk før kjøring").
+![Bilens tekniske deler (Forskriftsmessig stand)](bilens-tekniske-deler-forskriftsmessig-stand-image.svg)
 ## Hva betyr forskriftsmessig stand?
-Forskriftsmessig stand innebÃ¦rer at alle tekniske komponenter pÃ¥ bilen oppfyller kravene i Vegtrafikkloven, kjÃ¸retÃ¸yforskriften og gjeldende veiledninger.
-### NÃ¸kkelpunkter
-* **Teknisk forsvarlig stand** jf. Vegtrafikkloven Â§â€¯13
-* **Periodisk kjÃ¸retÃ¸ykontroll** (EU-kontroll) jf. kjÃ¸retÃ¸yforskriften kapittel 10
-* **Daglig kontroll** fÃ¸r kjÃ¸ring av lys, bremser og dekk
-## LovpÃ¥lagte kontroller og intervaller
+Forskriftsmessig stand innebærer at alle tekniske komponenter på bilen oppfyller kravene i Vegtrafikkloven, kjøretøyforskriften og gjeldende veiledninger.
+### Nøkkelpunkter
+* **Teknisk forsvarlig stand** jf. Vegtrafikkloven §?13
+* **Periodisk kjøretøykontroll** (EU-kontroll) jf. kjøretøyforskriften kapittel 10
+* **Daglig kontroll** før kjøring av lys, bremser og dekk
+## Lovpålagte kontroller og intervaller
 | Kontrolltype              | Krav                | Interval / frist          |
 |---------------------------|---------------------|---------------------------|
-| EU-kontroll (PKK)         | Godkjent kontroll   | Hver 2. eller 4. Ã¥rÂ¹      |
-| Daglig fÃ¸rerkontroll      | Visuell sjekk       | FÃ¸r hver kjÃ¸ring          |
-| Ã…rlig serviceÂ¹            | Sertifisert verksted| Ca. hver 12. mÃ¥ned        |
-Â¹ Avhengig av kjÃ¸retÃ¸yets alder og type. Se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon") for detaljer.
-## Daglig sjekkliste for fÃ¸rer
-FÃ¸r du setter deg bak rattet, mÃ¥ du kontrollere:
-* **Lys og signaler**: NÃ¦rlys, fjernlys, blinklys, bremselys og parklys  
+| EU-kontroll (PKK)         | Godkjent kontroll   | Hver 2. eller 4. år¹      |
+| Daglig førerkontroll      | Visuell sjekk       | Før hver kjøring          |
+| Årlig service¹            | Sertifisert verksted| Ca. hver 12. måned        |
+¹ Avhengig av kjøretøyets alder og type. Se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon") for detaljer.
+## Daglig sjekkliste for fører
+Før du setter deg bak rattet, må du kontrollere:
+* **Lys og signaler**: Nærlys, fjernlys, blinklys, bremselys og parklys  
 * **Bremser**: At bremsepedal har normalt mottrykk  
-* **Dekk**: Synlig slitasje, dekktrykk og mÃ¸nsterdybde  
+* **Dekk**: Synlig slitasje, dekktrykk og mønsterdybde  
 * **Glass og speil**: Rene overflater uten sprekker  
-* **VÃ¦skenivÃ¥er**: Olje, bremsevÃ¦ske og kjÃ¸levÃ¦ske  
-## Kontroll ved periodisk kjÃ¸retÃ¸ykontroll (EU-kontroll)
-Under den **periodiske kjÃ¸retÃ¸ykontrollen** kontrolleres blant annet:
-| OmrÃ¥de                    | Hva sjekkes                                   |
+* **Væskenivåer**: Olje, bremsevæske og kjølevæske  
+## Kontroll ved periodisk kjøretøykontroll (EU-kontroll)
+Under den **periodiske kjøretøykontrollen** kontrolleres blant annet:
+| Område                    | Hva sjekkes                                   |
 |---------------------------|-----------------------------------------------|
-| Tekniske deler            | Motor, drivverk, bremser, styring, fjÃ¦ring    |
+| Tekniske deler            | Motor, drivverk, bremser, styring, fjæring    |
 | Lys og reflekser          | Riktig funksjon og plassering                 |
 | Utslipp og avgasser       | Overholdelse av grenser for eksosutslipp      |
-| Karosseri                 | Korrosjon, skader og sammenfÃ¸yninger          |
+| Karosseri                 | Korrosjon, skader og sammenføyninger          |
 | Sikkerhetsutstyr          | Airbags, sikkerhetsbelter og barnesikring     |
-Se ogsÃ¥ [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - Oversikt over bilens hovedkomponenter").
+Se også [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - Oversikt over bilens hovedkomponenter").
 ## Konsekvenser av manglende forskriftsmessig stand
-Manglende overholdelse kan fÃ¸re til:
-* **Bot** eller gebyr ved trafikkstasjon eller ved kontroll pÃ¥ veien  
-* **Manglende godkjenning** ved EU-kontroll (kjÃ¸reforbud inntil feil er utbedret)  
-* **Ã˜kt ulykkesrisiko** ved nedbrutte sikkerhetssystemer  
-* **Forsikringsavslag** ved ulykker som fÃ¸lge av manglende vedlikehold  
+Manglende overholdelse kan føre til:
+* **Bot** eller gebyr ved trafikkstasjon eller ved kontroll på veien  
+* **Manglende godkjenning** ved EU-kontroll (kjøreforbud inntil feil er utbedret)  
+* **Økt ulykkesrisiko** ved nedbrutte sikkerhetssystemer  
+* **Forsikringsavslag** ved ulykker som følge av manglende vedlikehold  
 ## Veien videre
-For mer om juridiske aspekter, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Vegtrafikkloven og forskrifter for bilkjÃ¸ring").  
-For praktiske vedlikeholdsrÃ¥d, se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon").
+For mer om juridiske aspekter, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Vegtrafikkloven og forskrifter for bilkjøring").  
+For praktiske vedlikeholdsråd, se [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon").

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Trafikksystemet"
 date: 2025-08-06
 draft: false
@@ -144,53 +144,53 @@ tr:hover {
   }
 }
 </style>
-**Trafikksystemet** er det *helhetlige systemet* som omfatter infrastruktur, kjÃ¸retÃ¸y, trafikanter, regelverk og miljÃ¸forhold som til sammen sikrer trygg og effektiv trafikk. For Ã¥ forstÃ¥ trafikken bedre, er det viktig Ã¥ se hvordan disse komponentene samhandler.
-![Trafikksystemet](/blogs/teori/trafikksystemet/trafikksystemet-image.svg)
-## Hva bestÃ¥r trafikksystemet av?
+**Trafikksystemet** er det *helhetlige systemet* som omfatter infrastruktur, kjøretøy, trafikanter, regelverk og miljøforhold som til sammen sikrer trygg og effektiv trafikk. For å forstå trafikken bedre, er det viktig å se hvordan disse komponentene samhandler.
+![Trafikksystemet](trafikksystemet-image.svg)
+## Hva består trafikksystemet av?
 Nedenfor er en oversikt over de viktigste komponentene i trafikksystemet:
-| Komponent                        | Beskrivelse                                                            | Se ogsÃ¥                                                                                                  |
+| Komponent                        | Beskrivelse                                                            | Se også                                                                                                  |
 |----------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | **Regelverk**                    | Lover, forskrifter og trafikkregler som styrer trafikken.             | [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter") |
 | **Infrastruktur**                | Veier, skilt, veimerking, signalanlegg og fysisk utforming av veisystem. | [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking") |
-| **Trafikanter**                  | BilfÃ¸rere, syklister, gÃ¥ende og andre trafikantgrupper.                | [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Oversikt over trafikantgrupper og viktige hensyn") |
-| **KjÃ¸retÃ¸y**                     | Personbiler, lastebiler, motorsykler, sykler og andre kjÃ¸retÃ¸y.        | [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - En oversikt over bilens hovedkomponenter"), [Motorsykler og mopeder i trafikksystemet](/blogs/teori/trafikksystemet-motorsykler-mopeder "Motorsykler og mopeder i trafikksystemet - Hvordan og hvorfor unngÃ¥ ulykker") |
-| **MiljÃ¸ og vÃ¦r**                 | Lysforhold, fÃ¸reforhold og vÃ¦rpÃ¥virkning som pÃ¥virker trafikksikkerhet. | [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold - guide til trygge kjÃ¸reforhold") |
-| **Samhandling og kommunikasjon** | Ã˜yekontakt, signaler og samhandling mellom trafikanter.                | [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken") |
+| **Trafikanter**                  | Bilførere, syklister, gående og andre trafikantgrupper.                | [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Oversikt over trafikantgrupper og viktige hensyn") |
+| **Kjøretøy**                     | Personbiler, lastebiler, motorsykler, sykler og andre kjøretøy.        | [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - En oversikt over bilens hovedkomponenter"), [Motorsykler og mopeder i trafikksystemet](/blogs/teori/trafikksystemet-motorsykler-mopeder "Motorsykler og mopeder i trafikksystemet - Hvordan og hvorfor unngå ulykker") |
+| **Miljø og vær**                 | Lysforhold, føreforhold og værpåvirkning som påvirker trafikksikkerhet. | [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold - guide til trygge kjøreforhold") |
+| **Samhandling og kommunikasjon** | Øyekontakt, signaler og samhandling mellom trafikanter.                | [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken") |
 ## Samspillet i trafikksystemet
-Trafikksystemet fungerer kun nÃ¥r alle komponentene **samhandler**:
-* **Regelverk** gir rammer for hvordan trafikken skal foregÃ¥.
+Trafikksystemet fungerer kun når alle komponentene **samhandler**:
+* **Regelverk** gir rammer for hvordan trafikken skal foregå.
 * **Infrastruktur** legger til rette for trygg og effektiv ferdsel.
-* **Trafikanter** mÃ¥ fÃ¸lge reglene og tilpasse seg omgivelsene.
-* **KjÃ¸retÃ¸y** mÃ¥ tilfredsstille tekniske krav og vÃ¦re i forskriftsmessig stand.
-* **MiljÃ¸forhold** pÃ¥virker valg av kjÃ¸remÃ¥te, hastighet og sikkerhetsmarginer.
-Resultatet er et *komplekst Ã¸kosystem* der god kjennskap til hele systemet er avgjÃ¸rende for Ã¥ kjÃ¸re trygt og ansvarlig.
+* **Trafikanter** må følge reglene og tilpasse seg omgivelsene.
+* **Kjøretøy** må tilfredsstille tekniske krav og være i forskriftsmessig stand.
+* **Miljøforhold** påvirker valg av kjøremåte, hastighet og sikkerhetsmarginer.
+Resultatet er et *komplekst økosystem* der god kjennskap til hele systemet er avgjørende for å kjøre trygt og ansvarlig.
 ## Regelverk: Vegtrafikkloven og trafikkreglene
-Det juridiske grunnlaget for trafikksystemet er **vegtrafikkloven** og tilhÃ¸rende **trafikkregler**. Loven fastsetter prinsipper og ansvar, mens reglene utdyper praktiske kjÃ¸reregler.
+Det juridiske grunnlaget for trafikksystemet er **vegtrafikkloven** og tilhørende **trafikkregler**. Loven fastsetter prinsipper og ansvar, mens reglene utdyper praktiske kjøreregler.
 For en fullstendig oversikt over de aktuelle lovene og forskriftene, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
 ## Veien og veioppmerking
-En viktig del av **infrastrukturen** er selve *veibanen* og **veioppmerking** som gir fÃ¸reren visuelle fÃ¸ringer og regler direkte pÃ¥ kjÃ¸rebanen.
-![Veien og veioppmerking](/blogs/teori/trafikksystemet/vei-veioppmerking.svg)
-| Element            | Beskrivelse                                                                                                            | Se ogsÃ¥                                                                                                                          |
+En viktig del av **infrastrukturen** er selve *veibanen* og **veioppmerking** som gir føreren visuelle føringer og regler direkte på kjørebanen.
+![Veien og veioppmerking](vei-veioppmerking.svg)
+| Element            | Beskrivelse                                                                                                            | Se også                                                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **Veiens deler**   | Oversikt over veiens fysiske komponenter som kjÃ¸refelt, veiskulder, midtdeler, sykkelfelt, kjÃ¸rebane, fortau og gang- og sykkelvei. | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
-| **KjÃ¸rebane**      | Veibanens hoveddel hvor kjÃ¸retÃ¸y ferdes.                                                                                | [Plassering og kjÃ¸remÃ¥te](/blogs/teori/plassering-og-kjoremmate "Plassering og kjÃ¸remÃ¥te - Komplett guide til plassering og kjÃ¸remÃ¥te") |
-| **Kantlinje**      | Markerer veibanens ytterkant. Viktig for Ã¥ holde riktig spor, spesielt i mÃ¸rket og under vanskelige forhold.             | [KjÃ¸ring i mÃ¸rket](/blogs/teori/kjoring-i-morket "KjÃ¸ring i mÃ¸rket - Tips for trygg kjÃ¸ring i mÃ¸rke forhold")                         |
-| **Senterlinje**    | Delingslinje som skiller kjÃ¸refelt for motsatt kjÃ¸reretning.                                                         | [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand")                                    |
-| **Stiplet linje**  | Angir at forbikjÃ¸ring er tillatt nÃ¥r det er forsvarlig.                                                               | [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring") |
-| **Dobbel linje**   | ForbikjÃ¸ring strengt forbudt, ogsÃ¥ ved god sikt og fri siktlinje.                                                     |                                                                                                                                    |
+| **Veiens deler**   | Oversikt over veiens fysiske komponenter som kjørefelt, veiskulder, midtdeler, sykkelfelt, kjørebane, fortau og gang- og sykkelvei. | [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter") |
+| **Kjørebane**      | Veibanens hoveddel hvor kjøretøy ferdes.                                                                                | [Plassering og kjøremåte](/blogs/teori/plassering-og-kjoremmate "Plassering og kjøremåte - Komplett guide til plassering og kjøremåte") |
+| **Kantlinje**      | Markerer veibanens ytterkant. Viktig for å holde riktig spor, spesielt i mørket og under vanskelige forhold.             | [Kjøring i mørket](/blogs/teori/kjoring-i-morket "Kjøring i mørket - Tips for trygg kjøring i mørke forhold")                         |
+| **Senterlinje**    | Delingslinje som skiller kjørefelt for motsatt kjøreretning.                                                         | [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand")                                    |
+| **Stiplet linje**  | Angir at forbikjøring er tillatt når det er forsvarlig.                                                               | [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring") |
+| **Dobbel linje**   | Forbikjøring strengt forbudt, også ved god sikt og fri siktlinje.                                                     |                                                                                                                                    |
 | **Fotgjengerfelt** | Sikker gangfelt for fotgjengere, hvite striper tvers over veien.                                                      | [Barn i bilen](/blogs/teori/barn-i-bilen "Barn i bilen - Guide til sikkerhet og regler for barn i bil")                                 |
 ### Viktige prinsipper for veioppmerking
-- **Heltrukne linjer** har hÃ¸yere prioritet enn stiplete linjer.
-- **Gule midlertidige linjer** gÃ¥r foran hvite permanent merkede linjer.
-- **Reflekser** og **kattar** Ã¸ker synlighet i mÃ¸rke og vÃ¥te forhold.
-- **Veioppmerking i rundkjÃ¸ringer** styrer trafikkflyten og forankjÃ¸ringsmÃ¸nster.
+- **Heltrukne linjer** har høyere prioritet enn stiplete linjer.
+- **Gule midlertidige linjer** går foran hvite permanent merkede linjer.
+- **Reflekser** og **kattar** øker synlighet i mørke og våte forhold.
+- **Veioppmerking i rundkjøringer** styrer trafikkflyten og forankjøringsmønster.
 ### Typer veioppmerking
-* **KjÃ¸refeltsoppmerking**: Marker feltene og retningen kjÃ¸retÃ¸y skal kjÃ¸re.
-* **Piler**: Veiledningspiler og pÃ¥budspiler for kjÃ¸reretning.
-* **Tekstmarkering**: Forbud, pÃ¥bud eller advarsel (f.eks. "TAXI", "BUSS").
-* **Zebralinjer**: OmrÃ¥der med forbud mot Ã¥ stoppe eller parkere.
-* **Kryssmarkeringer**: Markering i kryss for Ã¥ angi stopplinje og gjennomkjÃ¸ring.
-![Oversikt veioppmerking](/blogs/teori/trafikksystemet/veioppmerking-oversikt.svg)
+* **Kjørefeltsoppmerking**: Marker feltene og retningen kjøretøy skal kjøre.
+* **Piler**: Veiledningspiler og påbudspiler for kjøreretning.
+* **Tekstmarkering**: Forbud, påbud eller advarsel (f.eks. "TAXI", "BUSS").
+* **Zebralinjer**: Områder med forbud mot å stoppe eller parkere.
+* **Kryssmarkeringer**: Markering i kryss for å angi stopplinje og gjennomkjøring.
+![Oversikt veioppmerking](veioppmerking-oversikt.svg)
 For mer detaljert informasjon om veimerking og trafikkskilt, se [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking").
 ## Videre lesning
 For mer informasjon om de enkelte delene av trafikksystemet, se:
@@ -199,5 +199,5 @@ For mer informasjon om de enkelte delene av trafikksystemet, se:
 * [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier")
 * [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Oversikt over trafikantgrupper og viktige hensyn")
 * [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "En oversikt over bilens hovedkomponenter")
-* [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Guide til trygge kjÃ¸reforhold")
+* [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Guide til trygge kjøreforhold")
 * [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Oversikt over norske trafikklover og forskrifter")

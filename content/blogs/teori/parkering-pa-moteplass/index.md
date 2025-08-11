@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Parkering Pa Moteplass"
 date: 2025-08-06
 draft: false
@@ -144,40 +144,40 @@ tr:hover {
   }
 }
 </style>
-Denne artikkelen dekker **parkering pÃ¥ mÃ¸teplass**, en viktig ferdighet og regelverk for fÃ¸rerkort klasse B i Norge. MÃ¸teplasser brukes ofte pÃ¥ *smale veier* for Ã¥ gi mulighet til at kjÃ¸retÃ¸y kan passere hverandre. Her lÃ¦rer du om:
-* Hva en **mÃ¸teplass** er
+Denne artikkelen dekker **parkering på møteplass**, en viktig ferdighet og regelverk for førerkort klasse B i Norge. Møteplasser brukes ofte på *smale veier* for å gi mulighet til at kjøretøy kan passere hverandre. Her lærer du om:
+* Hva en **møteplass** er
 * Skilting og regulering
-* Regler for bruk av mÃ¸teplass
-* Praktiske tips for sikker manÃ¸vrering
+* Regler for bruk av møteplass
+* Praktiske tips for sikker manøvrering
 For generelle parkeringsregler, se [Trafikkregler om parkering](/blogs/teori/trafikkregler-om-parkering "Trafikkregler om parkering - regler, unntak og skilt"). For lover og forskrifter, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter: Komplett oversikt over norsk trafikkirett").
-## Hva er en mÃ¸teplass?
-En *mÃ¸teplass* er en planert utvidelse av veien, merket med skilt **MÃ¸teplass** (skilt nummer 505). FormÃ¥let er Ã¥:
-| FormÃ¥l                               | Fordel                                           |
+## Hva er en møteplass?
+En *møteplass* er en planert utvidelse av veien, merket med skilt **Møteplass** (skilt nummer 505). Formålet er å:
+| Formål                               | Fordel                                           |
 |--------------------------------------|--------------------------------------------------|
-| Gi plass til mÃ¸tende kjÃ¸retÃ¸y        | Ã˜kt trafikksikkerhet og trafikkflyt pÃ¥ smale veier |
-| Redusere behov for rygging           | Sparer tid og reduserer potensielt farlige manÃ¸vrer |
-| Ã˜ke oversikt ved mÃ¸tende kjÃ¸retÃ¸y     | Bedre sikt gir tryggere kjÃ¸ring                   |
-![Illustrasjon mÃ¸teplass](/blogs/teori/parkering-pa-moteplass/parkering-pa-moteplass-illustrasjon.svg)
+| Gi plass til møtende kjøretøy        | Økt trafikksikkerhet og trafikkflyt på smale veier |
+| Redusere behov for rygging           | Sparer tid og reduserer potensielt farlige manøvrer |
+| Øke oversikt ved møtende kjøretøy     | Bedre sikt gir tryggere kjøring                   |
+![Illustrasjon møteplass](parkering-pa-moteplass-illustrasjon.svg)
 ## Skilting og merking
-Skiltingen for mÃ¸teplass er beskrevet i [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Typer og betydning"). Her fÃ¸lger en oversikt over skiltet:
+Skiltingen for møteplass er beskrevet i [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Typer og betydning"). Her følger en oversikt over skiltet:
 | Skilt         | Betydning                                           |
 |---------------|-----------------------------------------------------|
-| 505 MÃ¸teplass | Angir sted der kjÃ¸retÃ¸y kan mÃ¸te hverandre pÃ¥ smal vei |
-## Regler for bruk av mÃ¸teplass
-NÃ¥r du benytter en mÃ¸teplass gjelder fÃ¸lgende regler:
-1. Sjekk at du faktisk trenger Ã¥ stoppe og slippe forbi.
-2. ParkÃ©r helt inne pÃ¥ mÃ¸teplassen.
-3. Gi plass til mÃ¸tende kjÃ¸retÃ¸y fÃ¸r du fortsetter.
-4. Hvis mÃ¸teplassen er opptatt, *ikke* stopp pÃ¥ veien; finn en annen mÃ¸teplass.
-5. Bruk indikator for Ã¥ vise intensjon.
+| 505 Møteplass | Angir sted der kjøretøy kan møte hverandre på smal vei |
+## Regler for bruk av møteplass
+Når du benytter en møteplass gjelder følgende regler:
+1. Sjekk at du faktisk trenger å stoppe og slippe forbi.
+2. Parkér helt inne på møteplassen.
+3. Gi plass til møtende kjøretøy før du fortsetter.
+4. Hvis møteplassen er opptatt, *ikke* stopp på veien; finn en annen møteplass.
+5. Bruk indikator for å vise intensjon.
 *For detaljert regelverk, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter: Komplett oversikt over norsk trafikkirett").*
 ## Praktiske tips
-- GÃ¥ gjerne ut av bilen for Ã¥ vurdere om mÃ¸teplassen er bred nok.
-- UnngÃ¥ rygging pÃ¥ smale strekninger; bruk mÃ¸teplassene aktivt.
+- Gå gjerne ut av bilen for å vurdere om møteplassen er bred nok.
+- Unngå rygging på smale strekninger; bruk møteplassene aktivt.
 - Hold maksimal oppmerksomhet for fotgjengere og syklister.
-## NÃ¥r mÃ¸teplass ikke er tilgjengelig
-Hvis det ikke finnes mÃ¸teplass innen rimelig avstand:
-- Ta kontakt med mÃ¸tende trafikk via lys, signal eller rygg.
-- UnngÃ¥ stans pÃ¥ veibanen; let etter en annen egnet plass.
+## Når møteplass ikke er tilgjengelig
+Hvis det ikke finnes møteplass innen rimelig avstand:
+- Ta kontakt med møtende trafikk via lys, signal eller rygg.
+- Unngå stans på veibanen; let etter en annen egnet plass.
 ## Oppsummering
-Parkering pÃ¥ mÃ¸teplass er en **kritisk teknikk** for Ã¥ opprettholde **trafikkflyt** og **sikkerhet** pÃ¥ smale veier. Ved Ã¥ fÃ¸lge skilting, regler og praktiske tips sikrer du en trygg mÃ¸teplassmaneuver hver gang.
+Parkering på møteplass er en **kritisk teknikk** for å opprettholde **trafikkflyt** og **sikkerhet** på smale veier. Ved å følge skilting, regler og praktiske tips sikrer du en trygg møteplassmaneuver hver gang.

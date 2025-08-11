@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Sperrefrist Provetid Prikker"
 date: 2025-08-06
 draft: false
@@ -144,31 +144,31 @@ tr:hover {
   }
 }
 </style>
-Velkommen til vÃ¥r guide om **sperrefrist**, **prÃ¸vetid** og **prikker** â€“ tre sentrale begreper du mÃ¥ kjenne for Ã¥ beholde fÃ¸rerkortet ditt.
-![Sperrefrist (prÃ¸vetid, prikker)](/blogs/teori/sperrefrist-provetid-prikker/sperrefrist-provetid-prikker-image.svg)
-## Hva er prÃ¸vetid?
-PrÃ¸vetiden er en **toÃ¥rsperiode** som gjelder for nye fÃ¸rerkortinnehavere. Hvis du fÃ¥r prikker i denne perioden, kan du bli ilagt ekstra sanksjoner sammenlignet med erfarne fÃ¸rere.
+Velkommen til vår guide om **sperrefrist**, **prøvetid** og **prikker** – tre sentrale begreper du må kjenne for å beholde førerkortet ditt.
+![Sperrefrist (prøvetid, prikker)](sperrefrist-provetid-prikker-image.svg)
+## Hva er prøvetid?
+Prøvetiden er en **toårsperiode** som gjelder for nye førerkortinnehavere. Hvis du får prikker i denne perioden, kan du bli ilagt ekstra sanksjoner sammenlignet med erfarne førere.
 ## Hvordan fungerer poengsystemet (prikker)?
-Prikker, ogsÃ¥ kalt **demeritÃ¸rer**, gis for trafikkforseelser basert pÃ¥ alvorlighetsgrad. Antall prikker registreres i fÃ¸rerkortregisteret og brukes for Ã¥ vurdere om fÃ¸rerkortet skal sperres eller om du mÃ¥ gjennomfÃ¸re kurs.
-For en fullstendig guide til **prikkbelastningssystemet**, se [Prikkbelastningssystem i Norge](/blogs/teori/prikkbelastningssystem "Prikkbelastningssystem i Norge â€“ alt om prikker, demeritÃ¸rer og poeng i Norge").
-For detaljert oversikt over sanksjonsnivÃ¥er og prikksatser, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
-![Poengtidslinje](/blogs/teori/sperrefrist-provetid-prikker/prikker-timeline.svg)
+Prikker, også kalt **demeritører**, gis for trafikkforseelser basert på alvorlighetsgrad. Antall prikker registreres i førerkortregisteret og brukes for å vurdere om førerkortet skal sperres eller om du må gjennomføre kurs.
+For en fullstendig guide til **prikkbelastningssystemet**, se [Prikkbelastningssystem i Norge](/blogs/teori/prikkbelastningssystem "Prikkbelastningssystem i Norge – alt om prikker, demeritører og poeng i Norge").
+For detaljert oversikt over sanksjonsnivåer og prikksatser, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
+![Poengtidslinje](prikker-timeline.svg)
 ## Sperrefrist ved akkumulering av prikker
-NÃ¥r du samler et visst antall prikker i lÃ¸pet av en angitt periode, kan fÃ¸rerkortet bli midlertidig **sperret**. Tabellen under oppsummerer de vanligste tersklene:
+Når du samler et visst antall prikker i løpet av en angitt periode, kan førerkortet bli midlertidig **sperret**. Tabellen under oppsummerer de vanligste tersklene:
 | Antall prikker | Periode | Konsekvens |
 |---------------|---------|------------|
-| **2 prikker** | I prÃ¸vetiden | Kurs og forlengelse av prÃ¸vetid |
-| **3 prikker** | I prÃ¸vetiden | Tap av fÃ¸rerkort og ny praksisperiode |
-| **8 prikker** | 3 Ã¥r | Sperrefrist pÃ¥ 6 mÃ¥neder |
-| **12 prikker** | 3 Ã¥r | Sperrefrist pÃ¥ 1 Ã¥r og ny teoriprÃ¸ve |
+| **2 prikker** | I prøvetiden | Kurs og forlengelse av prøvetid |
+| **3 prikker** | I prøvetiden | Tap av førerkort og ny praksisperiode |
+| **8 prikker** | 3 år | Sperrefrist på 6 måneder |
+| **12 prikker** | 3 år | Sperrefrist på 1 år og ny teoriprøve |
 ## Obligatoriske kurs og rehabilitering
-Etter to prikker i prÃ¸vetiden mÃ¥ du ta et **trafikkopplÃ¦ringskurs**, mens ved hÃ¸yere prikksatser kan det kreves bÃ¥de kurs og ny prÃ¸ve. Dette hjelper fÃ¸rere til Ã¥ forbedre kjÃ¸reatferden og redusere risiko.
-## Sjekk prikker og fÃ¸rerkortstatus
-Du kan enkelt kontrollere ditt antall prikker og fÃ¸rerkortstatus pÃ¥ [Statens vegvesen Min Side](https://www.vegvesen.no/).
-## Se ogsÃ¥
+Etter to prikker i prøvetiden må du ta et **trafikkopplæringskurs**, mens ved høyere prikksatser kan det kreves både kurs og ny prøve. Dette hjelper førere til å forbedre kjøreatferden og redusere risiko.
+## Sjekk prikker og førerkortstatus
+Du kan enkelt kontrollere ditt antall prikker og førerkortstatus på [Statens vegvesen Min Side](https://www.vegvesen.no/).
+## Se også
 * [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter")
 * [Pliktmessig avhold](/blogs/teori/pliktmessig-avhold "Pliktmessig avhold")
-* [Trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for fÃ¸rerkort klasse B")
-* [TeoriprÃ¸ven](/blogs/teori/teoriproven "TeoriprÃ¸ven - alt du trenger Ã¥ vite for Ã¥ bestÃ¥ teoriprÃ¸ven")
-* [OppkjÃ¸ring](/blogs/teori/oppkjoring "OppkjÃ¸ring - Guide til praktisk kjÃ¸reprÃ¸ve for fÃ¸rerkort i bil")
+* [Trafikalt grunnkurs](/blogs/teori/trafikalt-grunnkurs "Trafikalt grunnkurs - Obligatorisk kurs for førerkort klasse B")
+* [Teoriprøven](/blogs/teori/teoriproven "Teoriprøven - alt du trenger å vite for å bestå teoriprøven")
+* [Oppkjøring](/blogs/teori/oppkjoring "Oppkjøring - Guide til praktisk kjøreprøve for førerkort i bil")
 * [Sanksjoner, bot, inndraging, pant og prikker m.m.](/blogs/teori/sanksjoner-bot-inndraging-pant-prikker "Sanksjoner, bot, inndraging, pant og prikker m.m.")

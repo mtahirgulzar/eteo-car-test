@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Skikkethet Til A Kjore"
 date: 2025-08-06
 draft: false
@@ -144,42 +144,42 @@ tr:hover {
   }
 }
 </style>
-FÃ¸rerens **skikkethet** til Ã¥ kjÃ¸re er en grunnleggende forutsetning for trafikksikkerhet. Vegtrafikkloven Â§Â 21 fastsetter krav til at fÃ¸reren er i en fysisk og psykisk tilstand som gjÃ¸r det forsvarlig og trygt Ã¥ kjÃ¸re.
+Førerens **skikkethet** til å kjøre er en grunnleggende forutsetning for trafikksikkerhet. Vegtrafikkloven § 21 fastsetter krav til at føreren er i en fysisk og psykisk tilstand som gjør det forsvarlig og trygt å kjøre.
 *For en oversikt over Vegtrafikkloven, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").*
-*For mer om menneskelige faktorer i trafikken, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring").*
-![Skikkethet til Ã¥ kjÃ¸re (alkohol, stress, sykdom, sÃ¸vn m.m) - Vegtrafikkloven Â§Â 21](/blogs/teori/skikkethet-til-a-kjore/skikkethet-til-a-kjore-image.svg)
+*For mer om menneskelige faktorer i trafikken, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring").*
+![Skikkethet til å kjøre (alkohol, stress, sykdom, søvn m.m) - Vegtrafikkloven § 21](skikkethet-til-a-kjore-image.svg)
 ## Hva er skikkethet?
-Med **skikkethet** menes fÃ¸rerens evne til Ã¥ bedÃ¸mme trafikksituasjoner og handle pÃ¥ en sikker og ansvarlig mÃ¥te. Vegtrafikkloven Â§Â 21 krever at fÃ¸reren skal vÃ¦re i en tilstand som ikke svekker kjÃ¸reevnen.
+Med **skikkethet** menes førerens evne til å bedømme trafikksituasjoner og handle på en sikker og ansvarlig måte. Vegtrafikkloven § 21 krever at føreren skal være i en tilstand som ikke svekker kjøreevnen.
 ## Viktige faktorer
-| Faktor                   | Effekt pÃ¥ kjÃ¸ring                                       | Tiltak                                                   |
+| Faktor                   | Effekt på kjøring                                       | Tiltak                                                   |
 |--------------------------|---------------------------------------------------------|----------------------------------------------------------|
 | **Alkohol**              | Redusert vurderingsevne, svekket koordinasjon           | Nulltoleranse, planlegg alternativ transport            |
 | **Stress**               | Tunnelvisjon, forhastede beslutninger, nedsatt oppmerksomhet | God tidsplan, stressmestringsteknikker                  |
-| **Sykdom**               | Feber, smerter og redusert fysisk kapasitet             | UnngÃ¥ kjÃ¸ring ved sykdom, vurder egen tilstand           |
-| **Tretthet og sÃ¸vn**     | MikrosÃ¸vn, langsommere reaksjoner, redusert konsentrasjon | Nok hvile, pause under lange turer, bytt sjÃ¥fÃ¸r          |
-| **Medisinering**         | DÃ¸sighet, svimmelhet, nedsatt konsentrasjon             | Les pakningsvedlegg, unngÃ¥ kjÃ¸ring ved bivirkninger      |
-| **Kombinasjonseffekter** | Forsterkede farer nÃ¥r flere faktorer inntreffer samtidig | Vurder helhetlig, unngÃ¥ kjÃ¸ring ved usikkerhet           |
+| **Sykdom**               | Feber, smerter og redusert fysisk kapasitet             | Unngå kjøring ved sykdom, vurder egen tilstand           |
+| **Tretthet og søvn**     | Mikrosøvn, langsommere reaksjoner, redusert konsentrasjon | Nok hvile, pause under lange turer, bytt sjåfør          |
+| **Medisinering**         | Døsighet, svimmelhet, nedsatt konsentrasjon             | Les pakningsvedlegg, unngå kjøring ved bivirkninger      |
+| **Kombinasjonseffekter** | Forsterkede farer når flere faktorer inntreffer samtidig | Vurder helhetlig, unngå kjøring ved usikkerhet           |
 ## Alkohol
-Ã… kjÃ¸re etter inntak av **alkohol** er strengt regulert. Selv smÃ¥ mengder kan redusere dÃ¸mmekraften og Ã¸ke stoppeavstanden. **Promillegrensen** for bil i Norge er 0,2â€¯â€°.
-* Les mer i [Alkohol, promillegrense og narkotika](/blogs/teori/alkohol-promillegrense-og-narkotika "Alkohol, promillegrense og narkotika - regler og effekter") for en grundig gjennomgang av promillegrenser, grenseverdier for narkotika og konsekvenser ved ruspÃ¥virket kjÃ¸ring.
-* Les mer om rusmidlers pÃ¥virkning under [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring").
-* Les mer om pliktmessig avhold som vilkÃ¥r for kjÃ¸ring i [Pliktmessig avhold](/blogs/teori/pliktmessig-avhold "Pliktmessig avhold").
+Å kjøre etter inntak av **alkohol** er strengt regulert. Selv små mengder kan redusere dømmekraften og øke stoppeavstanden. **Promillegrensen** for bil i Norge er 0,2?‰.
+* Les mer i [Alkohol, promillegrense og narkotika](/blogs/teori/alkohol-promillegrense-og-narkotika "Alkohol, promillegrense og narkotika - regler og effekter") for en grundig gjennomgang av promillegrenser, grenseverdier for narkotika og konsekvenser ved ruspåvirket kjøring.
+* Les mer om rusmidlers påvirkning under [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring").
+* Les mer om pliktmessig avhold som vilkår for kjøring i [Pliktmessig avhold](/blogs/teori/pliktmessig-avhold "Pliktmessig avhold").
 ## Stress
-**Stress** kan fÃ¸re til at du overser viktige trafikkskilt og farer. Fysiske symptomer som hjertebank og svettetokter kan ogsÃ¥ pÃ¥virke kjÃ¸restilsikkerheten.
-* Planlegg godt og gi deg selv **ekstra tid** til Ã¥ rekke frem uten hastverk.
-* Ã˜v pÃ¥ pusteteknikker for Ã¥ redusere kroppslige stressreaksjoner.
+**Stress** kan føre til at du overser viktige trafikkskilt og farer. Fysiske symptomer som hjertebank og svettetokter kan også påvirke kjørestilsikkerheten.
+* Planlegg godt og gi deg selv **ekstra tid** til å rekke frem uten hastverk.
+* Øv på pusteteknikker for å redusere kroppslige stressreaksjoner.
 ## Sykdom
-Ved influensa, migrene eller andre **akutte sykdomstilstander** bÃ¸r du avstÃ¥ fra kjÃ¸ring. Redusert fokus og koordinasjon kan gjÃ¸re det farlig.
-* Vurder Ã¥ utsette kjÃ¸ringen eller fÃ¥ noen til Ã¥ kjÃ¸re for deg.
-## Tretthet og sÃ¸vn
-**Mangel pÃ¥ sÃ¸vn** Ã¸delegger oppmerksomheten og kan forÃ¥rsake mikrosÃ¸vn. Et varsel for trÃ¸tt kjÃ¸ring er ofte hyppig gjesping.
-* SÃ¸rg for minst **7â€“8 timer** sÃ¸vn fÃ¸r lange kjÃ¸returer.
-* Ta regelmessige pauser pÃ¥ minst 15 minutter hver andre time.
+Ved influensa, migrene eller andre **akutte sykdomstilstander** bør du avstå fra kjøring. Redusert fokus og koordinasjon kan gjøre det farlig.
+* Vurder å utsette kjøringen eller få noen til å kjøre for deg.
+## Tretthet og søvn
+**Mangel på søvn** ødelegger oppmerksomheten og kan forårsake mikrosøvn. Et varsel for trøtt kjøring er ofte hyppig gjesping.
+* Sørg for minst **7–8 timer** søvn før lange kjøreturer.
+* Ta regelmessige pauser på minst 15 minutter hver andre time.
 ## Medisinering
-Noen **reseptbelagte og reseptfrie legemidler** kan gi bivirkninger som dÃ¸sighet og svimmelhet.
-* Alltid les pakningsvedlegget og sjekk om stoffet pÃ¥virker kjÃ¸reevnen.
+Noen **reseptbelagte og reseptfrie legemidler** kan gi bivirkninger som døsighet og svimmelhet.
+* Alltid les pakningsvedlegget og sjekk om stoffet påvirker kjøreevnen.
 ## Kombinerte forhold
-NÃ¥r flere faktorer som alkohol, stress og tretthet kombineres, forsterkes effektene og risikoen Ã¸ker betydelig.
-Ved usikkerhet om egen skikkethet bÃ¸r du velge **alternativ transport** eller utsette kjÃ¸ringen.
-For praktisk tilnÃ¦rming til vurdering av risiko i trafikken, se [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken").
-Ved Ã¥ vÃ¦re bevisst disse faktorene kan du som fÃ¸rer sikre at du alltid er **skikket** til Ã¥ kjÃ¸re, noe som er avgjÃ¸rende for din og andres sikkerhet.
+Når flere faktorer som alkohol, stress og tretthet kombineres, forsterkes effektene og risikoen øker betydelig.
+Ved usikkerhet om egen skikkethet bør du velge **alternativ transport** eller utsette kjøringen.
+For praktisk tilnærming til vurdering av risiko i trafikken, se [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken").
+Ved å være bevisst disse faktorene kan du som fører sikre at du alltid er **skikket** til å kjøre, noe som er avgjørende for din og andres sikkerhet.

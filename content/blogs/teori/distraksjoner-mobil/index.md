@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Distraksjoner Mobil"
 date: 2025-08-06
 draft: false
@@ -144,28 +144,28 @@ tr:hover {
   }
 }
 </style>
-**Distraksjoner** ved **mobilbruk** er en av de mest alvorlige Ã¥rsakene til ulykker i trafikken. Ã… bruke mobiltelefonen innebÃ¦rer flere former for distraksjon â€“ *visuell*, *kognitiv*, *manuell* og *auditiv* â€“ som til sammen kan ha fatal effekt nÃ¥r du er bak rattet.
-For en grundig gjennomgang av [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken") og hvordan distraksjoner pÃ¥virker fokus, se artikkelen vÃ¥r om oppmerksomhet.
-![Distraksjoner ved mobilbruk](/blogs/teori/distraksjoner-mobil/distraksjoner-mobil-image.svg)
+**Distraksjoner** ved **mobilbruk** er en av de mest alvorlige årsakene til ulykker i trafikken. Å bruke mobiltelefonen innebærer flere former for distraksjon – *visuell*, *kognitiv*, *manuell* og *auditiv* – som til sammen kan ha fatal effekt når du er bak rattet.
+For en grundig gjennomgang av [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken") og hvordan distraksjoner påvirker fokus, se artikkelen vår om oppmerksomhet.
+![Distraksjoner ved mobilbruk](distraksjoner-mobil-image.svg)
 ## Typer distraksjoner ved mobilbruk
 | Distraksjonstype   | Beskrivelse                                        | Eksempel               |
 |--------------------|----------------------------------------------------|------------------------|
-| **Visuell**        | Fjerner blikket fra veien                          | Se pÃ¥ skjermen         |
-| **Kognitiv**       | Tankene er opptatt av samtalen eller meldingene     | Tenk pÃ¥ samtaleinnhold |
+| **Visuell**        | Fjerner blikket fra veien                          | Se på skjermen         |
+| **Kognitiv**       | Tankene er opptatt av samtalen eller meldingene     | Tenk på samtaleinnhold |
 | **Manuell**        | Hender fjernet fra rattet                          | Skrive eller swipe     |
-| **Auditorisk**     | Fokus pÃ¥ lydsignal fra telefonen                   | HÃ¸re ringetone eller varsling |
+| **Auditorisk**     | Fokus på lydsignal fra telefonen                   | Høre ringetone eller varsling |
 ## Lover og regler
-*I Norge er det forbudt Ã¥ bruke hÃ¥ndholdt mobiltelefon under kjÃ¸ring.* Dette er regulert i [Vegtrafikkloven](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter") Â§ 19 og forskrift om kjÃ¸rende motorvogn Â§ 2-7.
+*I Norge er det forbudt å bruke håndholdt mobiltelefon under kjøring.* Dette er regulert i [Vegtrafikkloven](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter") § 19 og forskrift om kjørende motorvogn § 2-7.
 | Regel                          | Straff                         |
 |--------------------------------|--------------------------------|
-| HÃ¥ndholdt bruk av mobiltelefon | Bot fra 1700 NOK               |
-| Brudd pÃ¥ pÃ¥budt sikkerhetsutstyr| Kan fÃ¸re til gebyr i tillegg   |
+| Håndholdt bruk av mobiltelefon | Bot fra 1700 NOK               |
+| Brudd på påbudt sikkerhetsutstyr| Kan føre til gebyr i tillegg   |
 ## Konsekvenser av mobil-distraksjon
->Distraksjon fra mobil kan Ã¸ke **reaksjonstiden** med opptil 35 % og mangedoble risikoen for ulykker.
-## Tips for Ã¥ unngÃ¥ mobil-distraksjon
-* **Aktiver flymodus** fÃ¸r kjÃ¸ring for Ã¥ unngÃ¥ varsler.
-* **Bruk handsfree** eller monter telefonen sikkert om nÃ¸dvendig.
-* **Planlegg** ruter og stopp fÃ¸r du bruker telefon.
-* **Sett telefonen utenfor rekkevidde** under kjÃ¸ring.
+>Distraksjon fra mobil kan øke **reaksjonstiden** med opptil 35 % og mangedoble risikoen for ulykker.
+## Tips for å unngå mobil-distraksjon
+* **Aktiver flymodus** før kjøring for å unngå varsler.
+* **Bruk handsfree** eller monter telefonen sikkert om nødvendig.
+* **Planlegg** ruter og stopp før du bruker telefon.
+* **Sett telefonen utenfor rekkevidde** under kjøring.
 ## Oppsummering
-**Distraksjoner ved mobilbruk** utgjÃ¸r en betydelig risiko i trafikken, men kan unngÃ¥s med enkle tiltak. Ved Ã¥ begrense mobilbruk til stoppested og benytte handsfree systemer, kan du opprettholde fokus og redusere farlige situasjoner.
+**Distraksjoner ved mobilbruk** utgjør en betydelig risiko i trafikken, men kan unngås med enkle tiltak. Ved å begrense mobilbruk til stoppested og benytte handsfree systemer, kan du opprettholde fokus og redusere farlige situasjoner.

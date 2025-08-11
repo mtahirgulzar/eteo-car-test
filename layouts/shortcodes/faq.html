@@ -1,0 +1,14 @@
+<section class="faq" style="padding:3rem 1rem; max-width:1100px; margin:0 auto;">
+  {{- /* Optional top-level props when used like {{< faq title=.. description=.. >}} */ -}}
+  {{- with .Get "title" -}}
+    <h2 style="font-size:1.75rem; margin:0 0 .5rem;">{{ . }}</h2>
+  {{- end -}}
+  {{- with .Get "description" -}}
+    <p style="color:#4b5563; margin:0 0 1.5rem;">{{ . }}</p>
+  {{- end -}}
+
+  {{/* Render inner content as markdown so the author can provide YAML/Markdown lists between the shortcode tags. */}}
+  <div class="faq__content">
+    {{ .Inner | markdownify }}
+  </div>
+</section>

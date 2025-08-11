@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Trafikksituasjon Og Kjoreprosessen"
 date: 2025-08-06
 draft: false
@@ -144,40 +144,40 @@ tr:hover {
   }
 }
 </style>
-Trafikksituasjon og kjÃ¸reprosessen inkluderer alle faser fra sanseinntrykk til handling, hvor **reaksjonstid**, **oppmerksomhet** og **beslutningsprosesser** spiller avgjÃ¸rende roller for trafikksikkerheten.
-*For mer om tidskomponentene **reaksjonstid**, **oppmerksomhetstid** og **total tid**, se [Reaksjonstid, oppmerksomhetstid og total tid](/blogs/teori/reaksjonstid-oppmerksomhetstid-totaltid "Reaksjonstid, oppmerksomhetstid og total tid - Tidskomponenter for kjÃ¸reprosessen").*
-![Trafikksituasjon og kjÃ¸reprosessen (sansing til handling), reaksjonstid m.m](/blogs/teori/trafikksituasjon-og-kjoreprosessen/trafikksituasjon-og-kjoreprosessen-image.svg)
-## KjÃ¸reprosessen: fra sansing til handling
-KjÃ¸reprosessen kan deles inn i fire hovedfaser som beskriver hvordan fÃ¸reren gÃ¥r fra Ã¥ oppfatte en situasjon til Ã¥ utfÃ¸re en handling:
-![Faser i kjÃ¸reprosessen](/blogs/teori/trafikksituasjon-og-kjoreprosessen/kjoreprosess-faser.svg)
+Trafikksituasjon og kjøreprosessen inkluderer alle faser fra sanseinntrykk til handling, hvor **reaksjonstid**, **oppmerksomhet** og **beslutningsprosesser** spiller avgjørende roller for trafikksikkerheten.
+*For mer om tidskomponentene **reaksjonstid**, **oppmerksomhetstid** og **total tid**, se [Reaksjonstid, oppmerksomhetstid og total tid](/blogs/teori/reaksjonstid-oppmerksomhetstid-totaltid "Reaksjonstid, oppmerksomhetstid og total tid - Tidskomponenter for kjøreprosessen").*
+![Trafikksituasjon og kjøreprosessen (sansing til handling), reaksjonstid m.m](trafikksituasjon-og-kjoreprosessen-image.svg)
+## Kjøreprosessen: fra sansing til handling
+Kjøreprosessen kan deles inn i fire hovedfaser som beskriver hvordan føreren går fra å oppfatte en situasjon til å utføre en handling:
+![Faser i kjøreprosessen](kjoreprosess-faser.svg)
 | Fase           | Beskrivelse                                                   |
 |----------------|---------------------------------------------------------------|
 | **Sansing**    | Oppfatte visuell, auditiv og kinestetisk informasjon          |
-| **Tolking**    | Tolke og forstÃ¥ hva sansene formidler                         |
-| **Beslutning** | Velge passende handling basert pÃ¥ situasjon og erfaring       |
-| **Handling**   | UtfÃ¸re den valgte handlingen, for eksempel bremsing eller styring |
+| **Tolking**    | Tolke og forstå hva sansene formidler                         |
+| **Beslutning** | Velge passende handling basert på situasjon og erfaring       |
+| **Handling**   | Utføre den valgte handlingen, for eksempel bremsing eller styring |
 *For mer om **oppmerksomhet** og **samhandling** i trafikken, se [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus og samarbeid i trafikken").*
-*For en grundig innfÃ¸ring i [risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken"), se guiden vÃ¥r om hvordan du aktivt kan redusere risiko.*
+*For en grundig innføring i [risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken"), se guiden vår om hvordan du aktivt kan redusere risiko.*
 ## Reaksjonstid
-**Reaksjonstid** er perioden fra du oppdager en fare til du begynner Ã¥ iverksette en handling. Normal reaksjonstid under ideelle forhold er **1â€“1,5 sekunder**, men kan variere avhengig av flere faktorer.
+**Reaksjonstid** er perioden fra du oppdager en fare til du begynner å iverksette en handling. Normal reaksjonstid under ideelle forhold er **1–1,5 sekunder**, men kan variere avhengig av flere faktorer.
 ### Komponenter i reaksjonstid
-Reaksjonstiden bestÃ¥r av flere delprosesser:
+Reaksjonstiden består av flere delprosesser:
 | Komponent          | Tid (sekunder) | Beskrivelse                              |
 |--------------------|---------------|------------------------------------------|
-| **Deteksjon**      | 0,1â€“0,3       | Oppdage at det finnes en potensiell fare |
-| **Identifikasjon** | 0,1â€“0,5       | ForstÃ¥ hva som skjer                     |
-| **Beslutning**     | 0,1â€“0,5       | Velge hvordan man skal reagere           |
-| **Respons**        | 0,1â€“0,3       | UtfÃ¸re den fysiske handlingen            |
+| **Deteksjon**      | 0,1–0,3       | Oppdage at det finnes en potensiell fare |
+| **Identifikasjon** | 0,1–0,5       | Forstå hva som skjer                     |
+| **Beslutning**     | 0,1–0,5       | Velge hvordan man skal reagere           |
+| **Respons**        | 0,1–0,3       | Utføre den fysiske handlingen            |
 *For en mer detaljert gjennomgang av [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Dypdykk i reaksjonstid og bremselengde"), se den spesifikke guiden.*
-### Faktorer som pÃ¥virker reaksjonstid
+### Faktorer som påvirker reaksjonstid
 Reaksjonstiden kan **forlenges** av flere forhold:
-* **Alkohol og medisiner** â€“ kan doble reaksjonstiden
-* **Tretthet** â€“ Ã¸ker reaksjonstiden dramatisk
-* **Mobilbruk og distraksjoner** â€“ svekker oppmerksomheten
-* **Alder** â€“ eldre fÃ¸rere kan reagere langsommere
-* **Stress** â€“ kan bÃ¥de Ã¸ke og redusere reaksjonsevnen
-For mer om menneskelige faktorer, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring").
+* **Alkohol og medisiner** – kan doble reaksjonstiden
+* **Tretthet** – øker reaksjonstiden dramatisk
+* **Mobilbruk og distraksjoner** – svekker oppmerksomheten
+* **Alder** – eldre førere kan reagere langsommere
+* **Stress** – kan både øke og redusere reaksjonsevnen
+For mer om menneskelige faktorer, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring").
 ## Total stoppeavstand
-Total stoppeavstand inkluderer bÃ¥de **reaksjonsavstand** og **bremseavstand**. For detaljerte beregninger og eksempler pÃ¥ bremseavstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
+Total stoppeavstand inkluderer både **reaksjonsavstand** og **bremseavstand**. For detaljerte beregninger og eksempler på bremseavstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
 ## Oppsummering
-Ã… forstÃ¥ **trafikksituasjon og kjÃ¸reprosessen** er avgjÃ¸rende for Ã¥ vurdere riktig avstand, hastighet og handlingsvalg. Ved Ã¥ vÃ¦re bevisst pÃ¥ sansing, tolkning og reaksjon kan du redusere risikoen og kjÃ¸re tryggere.
+Å forstå **trafikksituasjon og kjøreprosessen** er avgjørende for å vurdere riktig avstand, hastighet og handlingsvalg. Ved å være bevisst på sansing, tolkning og reaksjon kan du redusere risikoen og kjøre tryggere.

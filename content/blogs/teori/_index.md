@@ -5,7 +5,7 @@ layout: "list"
 paginate: 12
 cascade:
   type: teori
-  _build:
+  build:
     list: always
     render: always
     publishResources: true

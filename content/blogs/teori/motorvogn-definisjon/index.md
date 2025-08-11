@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Motorvogn Definisjon"
 date: 2025-08-06
 draft: false
@@ -144,30 +144,30 @@ tr:hover {
   }
 }
 </style>
-En **motorvogn** er i norsk trafikkregelverk definert som et kjÃ¸retÃ¸y som drives av egen motor. Denne definisjonen er sentral for fÃ¸reropplÃ¦ringen, da fremtidige sjÃ¥fÃ¸rer mÃ¥ forstÃ¥ hvilke kjÃ¸retÃ¸y som omfattes av regelverket for motorvogner.
+En **motorvogn** er i norsk trafikkregelverk definert som et kjøretøy som drives av egen motor. Denne definisjonen er sentral for føreropplæringen, da fremtidige sjåfører må forstå hvilke kjøretøy som omfattes av regelverket for motorvogner.
 ## Definisjon i lovverket
 | Kilde                       | Definisjon                                                                                  |
 |-----------------------------|---------------------------------------------------------------------------------------------|
-| Vegtrafikkloven Â§Â 2         | "Motorvogn er ethvert kjÃ¸retÃ¸y som er innrettet for fremkomst ved egen motor, med unntak av skinnegÃ¥ende kjÃ¸retÃ¸y." |
-Se ogsÃ¥ [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter") for full oversikt over regelverket.
+| Vegtrafikkloven § 2         | "Motorvogn er ethvert kjøretøy som er innrettet for fremkomst ved egen motor, med unntak av skinnegående kjøretøy." |
+Se også [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter") for full oversikt over regelverket.
 ## Klassifisering av motorvogn
-De viktigste kjÃ¸retÃ¸ygruppene som regnes som **motorvogn** i Norge er:
+De viktigste kjøretøygruppene som regnes som **motorvogn** i Norge er:
 * Personbil (klasse B)
 * Lastebil (klasse C)
 * Buss (klasse D)
 * Motorsykkel (klasse A)
 * Traktor (klasse T)
 * Motorredskap (klasse S)
-![Kategorier av motorvogn](/blogs/teori/motorvogn-definisjon/motorvogn-definisjon-classification.svg)
-For en oversikt over fÃ¸rerkortklasser, se [FÃ¸rerkortklasser (oversikt)](/blogs/teori/forerkortklasser-oversikt "FÃ¸rerkortklasser (oversikt): Oversikt over alle fÃ¸rerkortklasser i Norge").
+![Kategorier av motorvogn](motorvogn-definisjon-classification.svg)
+For en oversikt over førerkortklasser, se [Førerkortklasser (oversikt)](/blogs/teori/forerkortklasser-oversikt "Førerkortklasser (oversikt): Oversikt over alle førerkortklasser i Norge").
 ## Hva regnes ikke som motorvogn?
-FÃ¸lgende kjÃ¸retÃ¸y er **ikke** motorvogn:
+Følgende kjøretøy er **ikke** motorvogn:
 * Sykler og elsykler
-* TrillebÃ¥r og annet manuelt flyttbart redskap
-* SkinnegÃ¥ende tog og trikk
+* Trillebår og annet manuelt flyttbart redskap
+* Skinnegående tog og trikk
 ## Hvorfor er definisjonen viktig?
-ForstÃ¥else av hva som regnes som motorvogn er grunnleggende for:
-* Riktig klassifisering av fÃ¸rerkort (hvilke kategorier du kan kjÃ¸re)
-* Korrekt forsikring og registrering av kjÃ¸retÃ¸yet
-* Kjennskap til hvilke regler som gjelder for ulike kjÃ¸retÃ¸y
-Denne kunnskapen bidrar til Ã¥ gjÃ¸re deg til en **trygg og ansvarsfull sjÃ¥fÃ¸r**.
+Forståelse av hva som regnes som motorvogn er grunnleggende for:
+* Riktig klassifisering av førerkort (hvilke kategorier du kan kjøre)
+* Korrekt forsikring og registrering av kjøretøyet
+* Kjennskap til hvilke regler som gjelder for ulike kjøretøy
+Denne kunnskapen bidrar til å gjøre deg til en **trygg og ansvarsfull sjåfør**.

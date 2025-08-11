@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Statistikk Og Ulykker"
 date: 2025-08-06
 draft: false
@@ -144,40 +144,40 @@ tr:hover {
   }
 }
 </style>
-**Statistikk og ulykker** i norsk trafikk gir deg innsikt i hva som pÃ¥virker sikkerheten pÃ¥ veiene. Ved Ã¥ studere tall og trender kan vi identifisere **risikofaktorer** og iverksette effektive **forebyggende tiltak**.
-*For mer om **mÃ¸teulykker** og forebygging, se [MÃ¸teulykker og forebygging](/blogs/teori/moteulykker-og-forebygging "MÃ¸teulykker og forebygging - Forebygging av frontkollisjoner i trafikken").*
+**Statistikk og ulykker** i norsk trafikk gir deg innsikt i hva som påvirker sikkerheten på veiene. Ved å studere tall og trender kan vi identifisere **risikofaktorer** og iverksette effektive **forebyggende tiltak**.
+*For mer om **møteulykker** og forebygging, se [Møteulykker og forebygging](/blogs/teori/moteulykker-og-forebygging "Møteulykker og forebygging - Forebygging av frontkollisjoner i trafikken").*
 *For prinsipper innen **risikovurdering**, se [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken").*
-![Statistikk og ulykker](/blogs/teori/statistikk-og-ulykker/statistikk-og-ulykker-image.svg)
-## NÃ¸kkelstatistikk
-| Ã…r   | Antall alvorlige ulykker | Drepte | Hardt skadde |
+![Statistikk og ulykker](statistikk-og-ulykker-image.svg)
+## Nøkkelstatistikk
+| År   | Antall alvorlige ulykker | Drepte | Hardt skadde |
 |------|---------------------------|--------|--------------|
-| 2018 | 1Â 272                     | 109    | 352          |
-| 2019 | 1Â 305                     | 104    | 364          |
-| 2020 | 1Â 223                     | 92     | 317          |
-| 2021 | 1Â 198                     | 98     | 310          |
-| 2022 | 1Â 250                     | 101    | 329          |
+| 2018 | 1 272                     | 109    | 352          |
+| 2019 | 1 305                     | 104    | 364          |
+| 2020 | 1 223                     | 92     | 317          |
+| 2021 | 1 198                     | 98     | 310          |
+| 2022 | 1 250                     | 101    | 329          |
 ## Ulykkestyper
 Typiske ulykkestyper i norsk trafikk inkluderer:
 * **Frontkollisjoner**
-* **UtforkjÃ¸ringsulykker**
+* **Utforkjøringsulykker**
 * **Fotgjengerulykker**
-* **ViltpÃ¥kjÃ¸rsler**
+* **Viltpåkjørsler**
 * **Singelulykker**
-## Ã…rsaker til ulykker
+## Årsaker til ulykker
 Flere faktorer kan bidra til trafikkulykker:
 * **Hastighet** over tilpasset fart
 * **Distraksjoner**, for eksempel bruk av mobiltelefon
-* **DÃ¥rlig veigrep** ved feil dekk eller ved glatt underlag
-* **DÃ¥rlig sikt** i mÃ¸rke eller dÃ¥rlig vÃ¦r
+* **Dårlig veigrep** ved feil dekk eller ved glatt underlag
+* **Dårlig sikt** i mørke eller dårlig vær
 * **Menneskelig feil** og manglende risikovurdering
 ## Trender over tid
 Utviklingen i antall drepte viser en positiv nedgang, selv om svingninger forekommer.
-<img src="ulykker-statistikk-graf.svg" alt="Ã…rlige trafikkdrepte i Norge (2018â€“2022)" />
+<img src="ulykker-statistikk-graf.svg" alt="Årlige trafikkdrepte i Norge (2018–2022)" />
 ## Forebyggende tiltak
-For Ã¥ redusere ulykkesrisikoen anbefales det:
+For å redusere ulykkesrisikoen anbefales det:
 * Regelmessig vedlikehold av dekk og bremser. Se [Dekk og vedlikehold](/blogs/teori/dekk-og-vedlikehold "Dekk og vedlikehold - Tips for sikre dekk").
 * God sikt med riktig bruk av lys. Les mer i [Bruk av lys og signaler](/blogs/teori/bruk-av-lys-og-signaler "Bruk av lys og signaler - Loven og god praksis").
 * Aktiv risikoplanlegging. Se [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken").
-* VÃ¦r oppmerksom pÃ¥ mÃ¸tende trafikk i svinger og pÃ¥ smale veier.
-* Hold god avstand til andre kjÃ¸retÃ¸y. For teknikker om avstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
-Ved Ã¥ kombinere statistisk innsikt med bevisste kjÃ¸revaner kan vi sammen jobbe for tryggere veier i Norge.
+* Vær oppmerksom på møtende trafikk i svinger og på smale veier.
+* Hold god avstand til andre kjøretøy. For teknikker om avstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
+Ved å kombinere statistisk innsikt med bevisste kjørevaner kan vi sammen jobbe for tryggere veier i Norge.

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Trafikkregler For Spesielle Kjoretoy"
 date: 2025-08-06
 draft: false
@@ -144,57 +144,57 @@ tr:hover {
   }
 }
 </style>
-**Trafikkregler for spesielle kjÃ¸retÃ¸y** gir en grundig oversikt over regler og **prioriteringsregler** for kjÃ¸retÃ¸y som pÃ¥ grunn av stÃ¸rrelse, hastighet eller funksjon krever sÃ¦rskilt hensyn fra andre trafikanter.
-*For innfÃ¸ring i vikepliktregler, se [Vikeplikt og rundkjÃ¸ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjÃ¸ringer - Komplett guide til hÃ¸yreregelen og rundkjÃ¸ringer").*
-*For teknikker ved forbikjÃ¸ring av ulike kjÃ¸retÃ¸y, se [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Guide til trygg forbikjÃ¸ring").*
-*For kjÃ¸ring med tilhenger, se [KjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger - Guide til trygg hengerkjÃ¸ring i Norge").*
-*For mer om myke trafikanter, se [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Guide til hensynsfull kjÃ¸ring").*
-![Trafikkregler for spesielle kjÃ¸retÃ¸y](/blogs/teori/trafikkregler-for-spesielle-kjoretoy/trafikkregler-for-spesielle-kjoretoy-image.svg)
-![Oversikt over spesielle kjÃ¸retÃ¸y](/blogs/teori/trafikkregler-for-spesielle-kjoretoy/trafikkregler-for-spesielle-kjoretoy-overview.svg)
-## Oversikt over typer spesielle kjÃ¸retÃ¸y
-| KjÃ¸retÃ¸ytype               | Kjennetegn                                      | Viktige regler                                               |
+**Trafikkregler for spesielle kjøretøy** gir en grundig oversikt over regler og **prioriteringsregler** for kjøretøy som på grunn av størrelse, hastighet eller funksjon krever særskilt hensyn fra andre trafikanter.
+*For innføring i vikepliktregler, se [Vikeplikt og rundkjøringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjøringer - Komplett guide til høyreregelen og rundkjøringer").*
+*For teknikker ved forbikjøring av ulike kjøretøy, se [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Guide til trygg forbikjøring").*
+*For kjøring med tilhenger, se [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Guide til trygg hengerkjøring i Norge").*
+*For mer om myke trafikanter, se [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Guide til hensynsfull kjøring").*
+![Trafikkregler for spesielle kjøretøy](trafikkregler-for-spesielle-kjoretoy-image.svg)
+![Oversikt over spesielle kjøretøy](trafikkregler-for-spesielle-kjoretoy-overview.svg)
+## Oversikt over typer spesielle kjøretøy
+| Kjøretøytype               | Kjennetegn                                      | Viktige regler                                               |
 |----------------------------|-------------------------------------------------|-------------------------------------------------------------|
-| **UtrykningskjÃ¸retÃ¸y**     | BlÃ¥tt lys, sirene, forkjÃ¸rsrett                  | Gi plass umiddelbart og kjÃ¸r til siden                       |
-| **Landbruksmaskiner**      | Lav fart (< 40 km/t), bredde, saktegÃ¥ende        | Hold avstand, vis aktsomhet ved traktor-innkjÃ¸ringer         |
-| **Tunge kjÃ¸retÃ¸y**         | Lang bremselengde, store blindsoner              | UnngÃ¥ blindsoner, hold minimum 2 sekunders avstand          |
-| **Tilhenger**              | Krever kunnskap om lastsikring og vektfordeling  | SÃ¸rg for riktig lastsikring, juster kjÃ¸remÃ¸nster             |
-| **SaktegÃ¥ende kjÃ¸retÃ¸y**   | Sykler, el-sparkesykkel, moped (< 30 km/t)       | Tilpass fart, hold ekstra sideavstand                        |
-## 1. UtrykningskjÃ¸retÃ¸y
-UtrykningskjÃ¸retÃ¸y (politi, ambulanse, brannvesen) har alltid **forkjÃ¸rsrett** nÃ¥r de bruker blÃ¥tt lys eller sirene.
+| **Utrykningskjøretøy**     | Blått lys, sirene, forkjørsrett                  | Gi plass umiddelbart og kjør til siden                       |
+| **Landbruksmaskiner**      | Lav fart (< 40 km/t), bredde, saktegående        | Hold avstand, vis aktsomhet ved traktor-innkjøringer         |
+| **Tunge kjøretøy**         | Lang bremselengde, store blindsoner              | Unngå blindsoner, hold minimum 2 sekunders avstand          |
+| **Tilhenger**              | Krever kunnskap om lastsikring og vektfordeling  | Sørg for riktig lastsikring, juster kjøremønster             |
+| **Saktegående kjøretøy**   | Sykler, el-sparkesykkel, moped (< 30 km/t)       | Tilpass fart, hold ekstra sideavstand                        |
+## 1. Utrykningskjøretøy
+Utrykningskjøretøy (politi, ambulanse, brannvesen) har alltid **forkjørsrett** når de bruker blått lys eller sirene.
 *For mer om autoriteters trafikkkontroll, se [Trafikkkontroll og trafikkflyt](/blogs/teori/trafikkkontroll-og-trafikkflyt "Trafikkkontroll og trafikkflyt - Politi, tollvesen og Statens vegvesen").*
-* Umiddelbart gi plass ved Ã¥ kjÃ¸re til hÃ¸yre og stanse om nÃ¸dvendig.
-* Trafikklys og vikepliktskilt gjelder ikke for utrykningskjÃ¸retÃ¸y, men de mÃ¥ kjÃ¸re forsvarlig.
-* VÃ¦r ekstra oppmerksom pÃ¥ uforutsette reaksjoner fra andre trafikanter.
+* Umiddelbart gi plass ved å kjøre til høyre og stanse om nødvendig.
+* Trafikklys og vikepliktskilt gjelder ikke for utrykningskjøretøy, men de må kjøre forsvarlig.
+* Vær ekstra oppmerksom på uforutsette reaksjoner fra andre trafikanter.
 ## 2. Landbruksmaskiner
-Landbruksmaskiner (traktorer, treskere) kjÃ¸rer ofte saktere enn Ã¸vrig trafikk og er bredere enn vanlige biler.
-* Signaliser tidlig fÃ¸r forbikjÃ¸ring og vent til det er trygt.
-* VÃ¦r oppmerksom pÃ¥ inn- og utkjÃ¸ringer fra Ã¥ker.
-* Vanlige vikepliktsregler gjelder; vis aktsomhet og tÃ¥lmodighet.
-## 3. Tunge kjÃ¸retÃ¸y
-Tunge kjÃ¸retÃ¸y (lastebil, buss over 3,5 tonn) har lengre bremselengder og store blindsoner.
-* UnngÃ¥ Ã¥ ligge i blindsonene â€“ se i sidespeil.
-* Hold minimum to sekunders fÃ¸lgeavstand.
-* Ved forbikjÃ¸ring: gjennomfÃ¸r raskt og sikkert; se [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Guide til trygg forbikjÃ¸ring").
+Landbruksmaskiner (traktorer, treskere) kjører ofte saktere enn øvrig trafikk og er bredere enn vanlige biler.
+* Signaliser tidlig før forbikjøring og vent til det er trygt.
+* Vær oppmerksom på inn- og utkjøringer fra åker.
+* Vanlige vikepliktsregler gjelder; vis aktsomhet og tålmodighet.
+## 3. Tunge kjøretøy
+Tunge kjøretøy (lastebil, buss over 3,5 tonn) har lengre bremselengder og store blindsoner.
+* Unngå å ligge i blindsonene – se i sidespeil.
+* Hold minimum to sekunders følgeavstand.
+* Ved forbikjøring: gjennomfør raskt og sikkert; se [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Guide til trygg forbikjøring").
 ## 4. Tilhenger
-KjÃ¸ring med tilhenger krever ekstra kunnskap om vektfordeling, lastsikring og kjÃ¸remÃ¸nster.
+Kjøring med tilhenger krever ekstra kunnskap om vektfordeling, lastsikring og kjøremønster.
 * Sjekk at lasten er forsvarlig sikret og fordelt.
-* Sett hastighet etter forholdene og kjÃ¸retÃ¸yets egenskaper.
-* Se [KjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger - Guide til trygg hengerkjÃ¸ring i Norge") for detaljerte rÃ¥d.
-## 5. SaktegÃ¥ende kjÃ¸retÃ¸y
-Sykler, el-sparkesykler, mopeder og andre saktegÃ¥ende kjÃ¸retÃ¸y krever ekstra hensyn.
-* Hold minst 1,5 meters avstand ved forbikjÃ¸ring av syklister.
-* Tilpass farten og vÃ¦r tÃ¥lmodig.
-* Se [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Guide til hensynsfull kjÃ¸ring").
-* For mer om sikkerhet for motorsykler og mopeder, se [Motorsykler og mopeder i trafikksystemet](/blogs/teori/trafikksystemet-motorsykler-mopeder "Motorsykler og mopeder i trafikksystemet - Hvordan og hvorfor unngÃ¥ ulykker").
+* Sett hastighet etter forholdene og kjøretøyets egenskaper.
+* Se [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Guide til trygg hengerkjøring i Norge") for detaljerte råd.
+## 5. Saktegående kjøretøy
+Sykler, el-sparkesykler, mopeder og andre saktegående kjøretøy krever ekstra hensyn.
+* Hold minst 1,5 meters avstand ved forbikjøring av syklister.
+* Tilpass farten og vær tålmodig.
+* Se [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Guide til hensynsfull kjøring").
+* For mer om sikkerhet for motorsykler og mopeder, se [Motorsykler og mopeder i trafikksystemet](/blogs/teori/trafikksystemet-motorsykler-mopeder "Motorsykler og mopeder i trafikksystemet - Hvordan og hvorfor unngå ulykker").
 ## Prioriteringsregler og vikeplikt
-NÃ¥r spesielle kjÃ¸retÃ¸y mÃ¸tes i trafikken, gjelder de generelle vikepliktsreglene, men noen tilfeller krever ekstra fokus:
+Når spesielle kjøretøy møtes i trafikken, gjelder de generelle vikepliktsreglene, men noen tilfeller krever ekstra fokus:
 | Situasjon                           | Regel                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| UtrykningskjÃ¸retÃ¸y med sirene       | Alltid forkjÃ¸rsrett; andre skal vike plass umiddelbart                                   |
-| MÃ¸te mellom saktegÃ¥ende kjÃ¸retÃ¸y    | Den som kjÃ¸rer raskest vike dersom nÃ¸dvendig                                           |
-| ForbikjÃ¸ring av tungt eller bredt   | Ekstra sikt- og avstandskrav; fÃ¸lg generelle forbikjÃ¸ringsregler                       |
-| InnkjÃ¸ring fra sidevei for maskiner | Vanlig vikeplikt gjelder; vis ekstra aktsomhet for bredde og fart                       |
-*Dersom du vil ha en dypere innfÃ¸ring i vikeplikt, se [Vikeplikt og rundkjÃ¸ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjÃ¸ringer - Komplett guide til hÃ¸yreregelen og rundkjÃ¸ringer").*
+| Utrykningskjøretøy med sirene       | Alltid forkjørsrett; andre skal vike plass umiddelbart                                   |
+| Møte mellom saktegående kjøretøy    | Den som kjører raskest vike dersom nødvendig                                           |
+| Forbikjøring av tungt eller bredt   | Ekstra sikt- og avstandskrav; følg generelle forbikjøringsregler                       |
+| Innkjøring fra sidevei for maskiner | Vanlig vikeplikt gjelder; vis ekstra aktsomhet for bredde og fart                       |
+*Dersom du vil ha en dypere innføring i vikeplikt, se [Vikeplikt og rundkjøringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjøringer - Komplett guide til høyreregelen og rundkjøringer").*
 ## Oppsummering
-God kunnskap om **trafikkregler for spesielle kjÃ¸retÃ¸y** er avgjÃ¸rende for Ã¥ sikre flyt og sikkerhet i trafikken. Kjenn dine plikter og rettigheter, og bruk tipsene i denne guiden for Ã¥ hÃ¥ndtere utfordrende situasjoner pÃ¥ veien.
+God kunnskap om **trafikkregler for spesielle kjøretøy** er avgjørende for å sikre flyt og sikkerhet i trafikken. Kjenn dine plikter og rettigheter, og bruk tipsene i denne guiden for å håndtere utfordrende situasjoner på veien.
 **For en komplett oversikt over norske trafikklover, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").**

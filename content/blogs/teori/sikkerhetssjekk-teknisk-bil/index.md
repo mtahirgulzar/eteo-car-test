@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Sikkerhetssjekk Teknisk Bil"
 date: 2025-08-06
 draft: false
@@ -144,46 +144,46 @@ tr:hover {
   }
 }
 </style>
-Sikkerhetssjekk (teknisk bil) er en **rutinemessig sjekk** som fÃ¸rer til at du kan avdekke tekniske feil og mangler fÃ¸r du starter kjÃ¸ringen. En god sikkerhetssjekk bidrar til **forebygging av ulykker** og reduserer risikoen for uventede driftsstopp.
-For en overordnet guide til krav om **forskriftsmessig og forsvarlig stand**, se [Forskriftsmessig og forsvarlig stand](/blogs/teori/forskriftsmessig-og-forsvarlig-stand "Forskriftsmessig og forsvarlig stand - Overordnet guide til lovpÃ¥lagt stand").
-![Sikkerhetssjekk (teknisk bil)](/blogs/teori/sikkerhetssjekk-teknisk-bil/sikkerhetssjekk-teknisk-bil-image.svg)
+Sikkerhetssjekk (teknisk bil) er en **rutinemessig sjekk** som fører til at du kan avdekke tekniske feil og mangler før du starter kjøringen. En god sikkerhetssjekk bidrar til **forebygging av ulykker** og reduserer risikoen for uventede driftsstopp.
+For en overordnet guide til krav om **forskriftsmessig og forsvarlig stand**, se [Forskriftsmessig og forsvarlig stand](/blogs/teori/forskriftsmessig-og-forsvarlig-stand "Forskriftsmessig og forsvarlig stand - Overordnet guide til lovpålagt stand").
+![Sikkerhetssjekk (teknisk bil)](sikkerhetssjekk-teknisk-bil-image.svg)
 ## Hva er sikkerhetssjekk?
-En sikkerhetssjekk omfatter en rekke visuelle og funksjonelle kontroller av bilens **kritiske komponenter**. Dette er en del av fÃ¸rerens ansvar og er ogsÃ¥ lovpÃ¥lagt i Vegtrafikkloven Â§â€¯13.
+En sikkerhetssjekk omfatter en rekke visuelle og funksjonelle kontroller av bilens **kritiske komponenter**. Dette er en del av førerens ansvar og er også lovpålagt i Vegtrafikkloven §?13.
 ## Lovgrunnlag
 | Regulering                     | Beskrivelse                                                    |
 |--------------------------------|----------------------------------------------------------------|
-| Vegtrafikkloven Â§â€¯13           | Krav til teknisk forsvarlig stand fÃ¸r kjÃ¸ring                   |
-| KjÃ¸retÃ¸yforskriften kap. 2     | PÃ¥litelige krav til vedlikehold og funksjon                     |
-| [EU-kontroll (PKK) kap. 10](/blogs/teori/eu-kontroll "EU-kontroll (PKK) â€“ Periodisk kjÃ¸retÃ¸ykontroll i Norge") | Periodisk kontroll av kjÃ¸retÃ¸yets tekniske stand |
-Se ogsÃ¥ [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
+| Vegtrafikkloven §?13           | Krav til teknisk forsvarlig stand før kjøring                   |
+| Kjøretøyforskriften kap. 2     | Pålitelige krav til vedlikehold og funksjon                     |
+| [EU-kontroll (PKK) kap. 10](/blogs/teori/eu-kontroll "EU-kontroll (PKK) – Periodisk kjøretøykontroll i Norge") | Periodisk kontroll av kjøretøyets tekniske stand |
+Se også [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
 ## Daglig teknisk sjekk: sjekkliste
-| Sjekkpunkt               | Hva du skal gjÃ¸re                                          |
+| Sjekkpunkt               | Hva du skal gjøre                                          |
 |--------------------------|------------------------------------------------------------|
 | **Lys og signaler**      | Kontroller at alle lys fungerer og er rene                 |
-| **Bremser**              | Sjekk bremsepedalens motstand og sjekk bremsevÃ¦skenivÃ¥      |
-| **Dekk**                 | Inspiser mÃ¸nsterdybde, dekktrykk og eventuelle skader       |
-| **Glass og speil**       | SÃ¸rg for at vinduer og speil er uten sprekker og rene      |
-| **[Vindusviskere og vindusspylere](/blogs/teori/vindusviskere-vindusspylere "Vindusviskere og vindusspylere - Sikt, is og dugg")** | Sjekk viskerblader, spyleranlegg og spylervÃ¦ske           |
-| **VÃ¦ske- og oljenivÃ¥**   | Sjekk motorolje, kjÃ¸levÃ¦ske og bremsevÃ¦ske                  |
+| **Bremser**              | Sjekk bremsepedalens motstand og sjekk bremsevæskenivå      |
+| **Dekk**                 | Inspiser mønsterdybde, dekktrykk og eventuelle skader       |
+| **Glass og speil**       | Sørg for at vinduer og speil er uten sprekker og rene      |
+| **[Vindusviskere og vindusspylere](/blogs/teori/vindusviskere-vindusspylere "Vindusviskere og vindusspylere - Sikt, is og dugg")** | Sjekk viskerblader, spyleranlegg og spylervæske           |
+| **Væske- og oljenivå**   | Sjekk motorolje, kjølevæske og bremsevæske                  |
 | **Batteri**              | Kontroller spenning, festing og at terminaler er rene      |
-| **Sikkerhetsutstyr**     | Bekreft at varseltrekant, [fÃ¸rstehjelpsutstyr](/blogs/teori/forstehjelp-og-opptreden-ved-ulykker "FÃ¸rstehjelp og opptreden ved ulykker - Din guide til nÃ¸dhjelp ved trafikkulykker") og refleksvest er pÃ¥ plass |
+| **Sikkerhetsutstyr**     | Bekreft at varseltrekant, [førstehjelpsutstyr](/blogs/teori/forstehjelp-og-opptreden-ved-ulykker "Førstehjelp og opptreden ved ulykker - Din guide til nødhjelp ved trafikkulykker") og refleksvest er på plass |
 ## Utdypning av sjekkpunkter
 ### Lys og signaler
-Sjekk nÃ¦rlys, fjernlys, blinklys, bremselys og tÃ¥kelys. RengjÃ¸r linser og juster om nÃ¸dvendig. Se [Bruk av lys og signaler](/blogs/teori/bruk-av-lys-og-signaler "Bruk av lys og signaler - Komplett guide til lysbruk og signalering") for mer detaljer.
+Sjekk nærlys, fjernlys, blinklys, bremselys og tåkelys. Rengjør linser og juster om nødvendig. Se [Bruk av lys og signaler](/blogs/teori/bruk-av-lys-og-signaler "Bruk av lys og signaler - Komplett guide til lysbruk og signalering") for mer detaljer.
 ### Dekk og hjul
-UndersÃ¸k mÃ¸nsterdybde med dybdemÃ¥ler og kontroller dekktrykk. BesÃ¸k [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mÃ¸nsterdybde, piggdekk og kjetting") for lovkrav og anbefalinger. Se ogsÃ¥ vÃ¥r [Dekk og vedlikehold](/blogs/teori/dekk-og-vedlikehold "Dekk og vedlikehold - Slitasje, dimensjoner, merking, lufttrykk, mÃ¸nsterdybde og piggdekk") for en fullstendig guide til teknisk vedlikehold av dekk.
+Undersøk mønsterdybde med dybdemåler og kontroller dekktrykk. Besøk [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mønsterdybde, piggdekk og kjetting") for lovkrav og anbefalinger. Se også vår [Dekk og vedlikehold](/blogs/teori/dekk-og-vedlikehold "Dekk og vedlikehold - Slitasje, dimensjoner, merking, lufttrykk, mønsterdybde og piggdekk") for en fullstendig guide til teknisk vedlikehold av dekk.
 ### Sikkerhetsutstyr
-FÃ¸r kjÃ¸ring mÃ¥ du forsikre deg om at varseltrekant, refleksvest og [fÃ¸rstehjelpsutstyr](/blogs/teori/forstehjelp-og-opptreden-ved-ulykker "FÃ¸rstehjelp og opptreden ved ulykker - Din guide til nÃ¸dhjelp ved trafikkulykker") er lett tilgjengelig. For mer om sikring av last og passasjerer, se [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring").
+Før kjøring må du forsikre deg om at varseltrekant, refleksvest og [førstehjelpsutstyr](/blogs/teori/forstehjelp-og-opptreden-ved-ulykker "Førstehjelp og opptreden ved ulykker - Din guide til nødhjelp ved trafikkulykker") er lett tilgjengelig. For mer om sikring av last og passasjerer, se [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring").
 ## Konsekvenser av manglende sikkerhetssjekk
-- **Bot eller gebyr** ved kontroll pÃ¥ veien                             
-- **KjÃ¸reforbud** ved manglende godkjenning hos Statens vegvesen       
-- **Ã˜kt ulykkesrisiko** ved uoppdagede feil                           
-- **Forsikringsavslag** ved ulykker forÃ¥rsaket av feil ved kjÃ¸retÃ¸yet  
+- **Bot eller gebyr** ved kontroll på veien                             
+- **Kjøreforbud** ved manglende godkjenning hos Statens vegvesen       
+- **Økt ulykkesrisiko** ved uoppdagede feil                           
+- **Forsikringsavslag** ved ulykker forårsaket av feil ved kjøretøyet  
 ## Relaterte artikler
 - [Bilens tekniske deler (Forskriftsmessig stand)](/blogs/teori/bilens-tekniske-deler-forskriftsmessig-stand "Bilens tekniske deler - Forskriftsmessig stand")  
 - [Vedlikehold av bilen](/blogs/teori/vedlikehold-av-bilen "Vedlikehold av bilen - Guide til regelmessig service og inspeksjon")  
 - [Bruk av lys og signaler](/blogs/teori/bruk-av-lys-og-signaler "Bruk av lys og signaler - Komplett guide til lysbruk og signalering")  
-- [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mÃ¸nsterdybde, piggdekk og kjetting")  
-- [Dekk og vedlikehold](/blogs/teori/dekk-og-vedlikehold "Dekk og vedlikehold - Slitasje, dimensjoner, merking, lufttrykk, mÃ¸nsterdybde og piggdekk")  
+- [Regler for dekk og kjetting](/blogs/teori/regler-for-dekk-og-kjetting "Regler for dekk og kjetting - Krav til mønsterdybde, piggdekk og kjetting")  
+- [Dekk og vedlikehold](/blogs/teori/dekk-og-vedlikehold "Dekk og vedlikehold - Slitasje, dimensjoner, merking, lufttrykk, mønsterdybde og piggdekk")  
 - [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring")  
 - [Bremsefeil](/blogs/teori/bremsefeil "Bremsefeil - Vanlige feil i bremsesystemet")

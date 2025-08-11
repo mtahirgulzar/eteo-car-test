@@ -25,20 +25,23 @@
                 </button>
             </div>
 
-            <!-- Mobile menu button -->
-            <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+            <!-- Mobile menu button (CSS-only) -->
+            <label for="nav-toggle" class="md:hidden text-gray-700 cursor-pointer" aria-label="Toggle menu">
                 <i class="bi bi-list text-2xl"></i>
-            </button>
+            </label>
         </div>
     </div>
 
+    <!-- Checkbox toggle for CSS-only menu -->
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+
     <!-- Mobile menu -->
-    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+    <div id="mobileMenu" class="md:hidden bg-white border-t">
         <div class="px-4 py-4 space-y-3">
             <a href="/blogs/teori/" class="block text-gray-700 hover:text-blue-600 font-medium">Blog</a>
             <a href="/pricing/" class="block text-gray-700 hover:text-blue-600 font-medium">Priser</a>
-            <a href="/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
-            <a href="/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
+            <a href="/pages/android-app/" class="block text-gray-700 hover:text-blue-600 font-medium">Android App</a>
+            <a href="/pages/iphone-app/" class="block text-gray-700 hover:text-blue-600 font-medium">iPhone App</a>
             <a href="/contact/" class="block text-gray-700 hover:text-blue-600 font-medium">Kontakt oss</a>
             <button class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold">
                 PRØV GRATIS
@@ -47,9 +50,3 @@
     </div>
 </nav>
 
-<script>
-    function toggleMobileMenu() {
-        const mobileMenu = document.getElementById('mobileMenu');
-        mobileMenu.classList.toggle('hidden');
-    }
-</script>

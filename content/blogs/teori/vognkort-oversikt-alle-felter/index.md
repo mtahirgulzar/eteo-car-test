@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Vognkort Oversikt Alle Felter"
 date: 2025-08-06
 draft: false
@@ -144,25 +144,25 @@ tr:hover {
   }
 }
 </style>
-Vognkortet, ogsÃ¥ kalt *registreringsbevis*, inneholder **kritisk informasjon** om kjÃ¸retÃ¸yet og eierforhold. Denne guiden gir en **oversikt over alle feltene** i bÃ¥de delÂ 1 og delÂ 2 av vognkortet.
-![Vognkort, oversikt over alle felter](/blogs/teori/vognkort-oversikt-alle-felter/vognkort-oversikt-alle-felter-image.svg)
-![Vognkortets oppbygging i to deler](/blogs/teori/vognkort-oversikt-alle-felter/vognkort-oversikt-structure.svg)
-## DelÂ 1: Tekniske data
-Tabellen under beskriver de viktigste feltene i delÂ 1 av vognkortet:
+Vognkortet, også kalt *registreringsbevis*, inneholder **kritisk informasjon** om kjøretøyet og eierforhold. Denne guiden gir en **oversikt over alle feltene** i både del 1 og del 2 av vognkortet.
+![Vognkort, oversikt over alle felter](vognkort-oversikt-alle-felter-image.svg)
+![Vognkortets oppbygging i to deler](vognkort-oversikt-structure.svg)
+## Del 1: Tekniske data
+Tabellen under beskriver de viktigste feltene i del 1 av vognkortet:
 | Felt   | Beskrivelse                                                         |
 |--------|---------------------------------------------------------------------|
 | **A**  | Godkjenningsnummer fra typegodkjenning                              |
 | **B**  | Registreringsnummer (bilens kjennetegn)                             |
 | **C1** | Tillatt totalvekt (bil med tilhenger)                               |
 | **C2** | Tillatt totalvekt (bil alene)                                       |
-| **F1** | Egenvekt (inkludert fÃ¸rer og nÃ¸dvendige kjÃ¸retÃ¸ykomponenter)        |
+| **F1** | Egenvekt (inkludert fører og nødvendige kjøretøykomponenter)        |
 | **F2** | Maks tilhengervekt med brems                                        |
 | **F3** | Maks tilhengervekt uten brems                                       |
-| **H1** | FÃ¸rste aksels maksimale akseltrykk                                  |
+| **H1** | Første aksels maksimale akseltrykk                                  |
 | **H2** | Andre aksels maksimale akseltrykk                                   |
 | **P.1**| Netto motoreffekt (kW)                                              |
-## DelÂ 2: Eierinformasjon
-DelÂ 2 viser hvem som eier kjÃ¸retÃ¸yet, samt historikk over registreringer og endringer:
+## Del 2: Eierinformasjon
+Del 2 viser hvem som eier kjøretøyet, samt historikk over registreringer og endringer:
 | Felt | Beskrivelse                                       |
 |------|---------------------------------------------------|
 | **1**| Eierens navn                                      |
@@ -170,8 +170,8 @@ DelÂ 2 viser hvem som eier kjÃ¸retÃ¸yet, samt historikk over registreringer og e
 | **3**| Postnummer og sted                                 |
 | **4**| Land                                              |
 | **5**| Telefonnummer til eier                            |
-| **6**| Tidligere eiere og endringer (pÃ¥tegninger)        |
+| **6**| Tidligere eiere og endringer (påtegninger)        |
 ## Ekstra informasjon og lenker
-For krav til vognkort ved kjÃ¸ring med tilhenger, se [Bil og tilhenger, vognkort og koblingslast](/blogs/teori/bil-og-tilhenger-vognkort-koblingslast "Bil og tilhenger, vognkort og koblingslast").
-For en generell oversikt over dokumenter du mÃ¥ ha, inkludert fÃ¸rerkort og forsikring, se [FÃ¸rerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "FÃ¸rerkort, vognkort og forsikring").
-_Denne guiden hjelper deg Ã¥ tolke alle feltene i vognkortet og sikre at du har korrekt informasjon tilgjengelig nÃ¥r det gjelder tekniske data og eierforhold._
+For krav til vognkort ved kjøring med tilhenger, se [Bil og tilhenger, vognkort og koblingslast](/blogs/teori/bil-og-tilhenger-vognkort-koblingslast "Bil og tilhenger, vognkort og koblingslast").
+For en generell oversikt over dokumenter du må ha, inkludert førerkort og forsikring, se [Førerkort, vognkort og forsikring](/blogs/teori/forerkort-vognkort-og-forsikring "Førerkort, vognkort og forsikring").
+_Denne guiden hjelper deg å tolke alle feltene i vognkortet og sikre at du har korrekt informasjon tilgjengelig når det gjelder tekniske data og eierforhold._

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Veioppmerking"
 date: 2025-08-06
 draft: false
@@ -144,15 +144,15 @@ tr:hover {
   }
 }
 </style>
-Skal du ta teoriprÃ¸ven for **fÃ¸rerkort klasse B**? Da er det viktig Ã¥ forstÃ¥ **veioppmerking**. I denne artikkelen gÃ¥r vi i dybden pÃ¥ **kjÃ¸refeltlinje**, **varsellinje**, **kombinerte linjer**, **sperrelinje**, **sperreomrÃ¥de**, **piler**, **skillelinje**, **kantlinje**, **vikelinje**, **stopplinje** og **gangfelt**.
+Skal du ta teoriprøven for **førerkort klasse B**? Da er det viktig å forstå **veioppmerking**. I denne artikkelen går vi i dybden på **kjørefeltlinje**, **varsellinje**, **kombinerte linjer**, **sperrelinje**, **sperreområde**, **piler**, **skillelinje**, **kantlinje**, **vikelinje**, **stopplinje** og **gangfelt**.
 *For en oversikt over veiens fysiske komponenter, se [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter").*
-![Veioppmerking](/blogs/teori/veioppmerking/veioppmerking-image.svg)
+![Veioppmerking](veioppmerking-image.svg)
 ## Innholdsfortegnelse
-1. [KjÃ¸refeltlinje](#kjÃ¸refeltlinje)
+1. [Kjørefeltlinje](#kjørefeltlinje)
 2. [Varsellinje](#varsellinje)
 3. [Kombinerte linjer](#kombinerte-linjer)
 4. [Sperrelinje](#sperrelinje)
-5. [SperreomrÃ¥de](#sperreomrÃ¥de)
+5. [Sperreområde](#sperreområde)
 6. [Piler](#piler)
 7. [Skillelinje](#skillelinje)
 8. [Kantlinje](#kantlinje)
@@ -162,42 +162,42 @@ Skal du ta teoriprÃ¸ven for **fÃ¸rerkort klasse B**? Da er det viktig Ã¥ forstÃ¥
 ## Oversikt over veioppmerking
 | Type               | Beskrivelse                    | Illustrasjon                             |
 |--------------------|--------------------------------|------------------------------------------|
-| **KjÃ¸refeltlinje** | Markerer kjÃ¸refelts grenser    | ![KjÃ¸refeltlinje](/blogs/teori/veioppmerking/kjorefeltlinje.svg)    |
-| **Varsellinje**    | Stiplet linje som varsler      | ![Varsellinje](/blogs/teori/veioppmerking/varsellinje.svg)          |
-| **Kombinerte linjer** | Hel og stiplet linje side om side | ![Kombinerte linjer](/blogs/teori/veioppmerking/kombinerte-linjer.svg) |
-| **Sperrelinje**    | Hel linje for forbikjÃ¸ringsforbud | ![Sperrelinje](/blogs/teori/veioppmerking/sperrelinje.svg)          |
-| **SperreomrÃ¥de**   | Skraverte felt for sperring     | ![SperreomrÃ¥de](/blogs/teori/veioppmerking/sperreomrade.svg)        |
-| **Piler**          | Retningspiler i kjÃ¸rebanen     | ![Piler](/blogs/teori/veioppmerking/piler.svg)                      |
-| **Skillelinje**    | Skiller motsatt kjÃ¸reretning    | ![Skillelinje](/blogs/teori/veioppmerking/skillelinje.svg)          |
-| **Kantlinje**      | Markeringslinje ved veiskulder  | ![Kantlinje](/blogs/teori/veioppmerking/kantlinje.svg)              |
-| **Vikelinje**      | Linje ved forkjÃ¸rs-/vikeplikt   | ![Vikelinje](/blogs/teori/veioppmerking/vikelinje.svg)              |
-| **Stopplinje**     | Linje ved stopp-skilte         | ![Stopplinje](/blogs/teori/veioppmerking/stopplinje.svg)            |
-| **Gangfelt**       | Oppmerking for fotgjengerfelt  | ![Gangfelt](/blogs/teori/veioppmerking/gangfelt.svg)                |
-## KjÃ¸refeltlinje
-*KjÃ¸refeltlinje* markerer grensene mellom kjÃ¸refelt i samme kjÃ¸reretning. Linjen kan vÃ¦re hel eller stiplet avhengig av om forbikjÃ¸ring er tillatt.
-- **Hel linje**: ForbikjÃ¸ring forbudt.
-- **Stiplet linje**: ForbikjÃ¸ring tillatt nÃ¥r det er trygt.
+| **Kjørefeltlinje** | Markerer kjørefelts grenser    | ![Kjørefeltlinje](kjorefeltlinje.svg)    |
+| **Varsellinje**    | Stiplet linje som varsler      | ![Varsellinje](varsellinje.svg)          |
+| **Kombinerte linjer** | Hel og stiplet linje side om side | ![Kombinerte linjer](kombinerte-linjer.svg) |
+| **Sperrelinje**    | Hel linje for forbikjøringsforbud | ![Sperrelinje](sperrelinje.svg)          |
+| **Sperreområde**   | Skraverte felt for sperring     | ![Sperreområde](sperreomrade.svg)        |
+| **Piler**          | Retningspiler i kjørebanen     | ![Piler](piler.svg)                      |
+| **Skillelinje**    | Skiller motsatt kjøreretning    | ![Skillelinje](skillelinje.svg)          |
+| **Kantlinje**      | Markeringslinje ved veiskulder  | ![Kantlinje](kantlinje.svg)              |
+| **Vikelinje**      | Linje ved forkjørs-/vikeplikt   | ![Vikelinje](vikelinje.svg)              |
+| **Stopplinje**     | Linje ved stopp-skilte         | ![Stopplinje](stopplinje.svg)            |
+| **Gangfelt**       | Oppmerking for fotgjengerfelt  | ![Gangfelt](gangfelt.svg)                |
+## Kjørefeltlinje
+*Kjørefeltlinje* markerer grensene mellom kjørefelt i samme kjøreretning. Linjen kan være hel eller stiplet avhengig av om forbikjøring er tillatt.
+- **Hel linje**: Forbikjøring forbudt.
+- **Stiplet linje**: Forbikjøring tillatt når det er trygt.
 ## Varsellinje
-*Varsellinje* er en kort stiplet linje som varsler om kommende endringer i veioppmerkingen, for eksempel overgang til forbudt forbikjÃ¸ring.
+*Varsellinje* er en kort stiplet linje som varsler om kommende endringer i veioppmerkingen, for eksempel overgang til forbudt forbikjøring.
 ## Kombinerte linjer
-*Kombinerte linjer* bestÃ¥r av en hel linje og en stiplet linje side om side. Den stiplete siden har samme betydning som en ren stiplet linje.
+*Kombinerte linjer* består av en hel linje og en stiplet linje side om side. Den stiplete siden har samme betydning som en ren stiplet linje.
 ## Sperrelinje
-*Sperrelinje* er en kontinuerlig hel linje som angir forbikjÃ¸ringsforbud og skal ikke krysses.
-## SperreomrÃ¥de
-*SperreomrÃ¥de* er et omrÃ¥de merket med diagonale skraverte linjer som viser omrÃ¥der der trafikk ikke skal oppholde seg.
+*Sperrelinje* er en kontinuerlig hel linje som angir forbikjøringsforbud og skal ikke krysses.
+## Sperreområde
+*Sperreområde* er et område merket med diagonale skraverte linjer som viser områder der trafikk ikke skal oppholde seg.
 ## Piler
-*Piler* pÃ¥ kjÃ¸rebanen indikerer tillatte retninger ved kryss og avkjÃ¸rsler.
+*Piler* på kjørebanen indikerer tillatte retninger ved kryss og avkjørsler.
 ## Skillelinje
-*Skillelinje* markerer grensen mellom kjÃ¸reretninger, ofte med dobbel hel linje ved tofelts vei.
+*Skillelinje* markerer grensen mellom kjøreretninger, ofte med dobbel hel linje ved tofelts vei.
 ## Kantlinje
-*Kantlinje* markerer veiens ytterkant og bidrar til Ã¥ holde kjÃ¸retÃ¸yet pÃ¥ veibanen.
+*Kantlinje* markerer veiens ytterkant og bidrar til å holde kjøretøyet på veibanen.
 ## Vikelinje
-*Vikelinje* er en linje ved vikeplikt- eller forkjÃ¸rsskilt som viser hvor du skal stanse kjÃ¸retÃ¸yet.
+*Vikelinje* er en linje ved vikeplikt- eller forkjørsskilt som viser hvor du skal stanse kjøretøyet.
 ## Stopplinje
-*Stopplinje* er en hel linje ved stoppskilt som viser hvor du skal stoppe kjÃ¸retÃ¸yet helt.
+*Stopplinje* er en hel linje ved stoppskilt som viser hvor du skal stoppe kjøretøyet helt.
 ## Gangfelt
-*Gangfelt* er parallelle striper malt pÃ¥ tvers av kjÃ¸rebanen som markerer fotgjengerfelt.
+*Gangfelt* er parallelle striper malt på tvers av kjørebanen som markerer fotgjengerfelt.
 ## Oppsummering
-**Veioppmerking** er et sentralt verktÃ¸y for trafikkstyring og sikkerhet. Ved Ã¥ kjenne hver type oppmerking, deres betydning og utforming, Ã¸ker du trafikksikkerheten for alle.
+**Veioppmerking** er et sentralt verktøy for trafikkstyring og sikkerhet. Ved å kjenne hver type oppmerking, deres betydning og utforming, øker du trafikksikkerheten for alle.
 ## Relaterte artikler
 * [Veiens deler](/blogs/teori/veiens-deler "Veiens deler - en oversikt over veiens fysiske komponenter")

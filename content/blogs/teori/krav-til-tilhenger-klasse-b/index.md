@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Krav Til Tilhenger Klasse B"
 date: 2025-08-06
 draft: false
@@ -144,51 +144,51 @@ tr:hover {
   }
 }
 </style>
-I artikkelen **Krav til tilhenger (klasse B)** gÃ¥r vi i dybden pÃ¥ **vektgrenser**, **tekniske krav** og **registreringsregler** for tilhengere som kan kjÃ¸res med fÃ¸rerkort klasse B. For praktiske kjÃ¸reteknikker og lastsikring, se [KjÃ¸ring med tilhenger](/blogs/teori/kjoring-med-tilhenger "KjÃ¸ring med tilhenger - Guide til trygg hengerkjÃ¸ring i Norge").
+I artikkelen **Krav til tilhenger (klasse B)** går vi i dybden på **vektgrenser**, **tekniske krav** og **registreringsregler** for tilhengere som kan kjøres med førerkort klasse B. For praktiske kjøreteknikker og lastsikring, se [Kjøring med tilhenger](/blogs/teori/kjoring-med-tilhenger "Kjøring med tilhenger - Guide til trygg hengerkjøring i Norge").
 ## Innholdsfortegnelse
 * [Totalvektsgrenser](#totalvektsgrenser)
-* [FÃ¸rerkortkrav og unntak](#forerkortkrav-og-unntak)
+* [Førerkortkrav og unntak](#forerkortkrav-og-unntak)
 * [Registrering og EU-kontroll](#registrering-og-eu-kontroll)
 * [Bremser og teknisk utstyr](#bremser-og-teknisk-utstyr)
 * [Sikkerhetsutstyr og belysning](#sikkerhetsutstyr-og-belysning)
 * [Oppsummering](#oppsummering)
 ## Totalvektsgrenser
-![Tilhenger klasse B vektgrenser](/blogs/teori/krav-til-tilhenger-klasse-b/tilhenger-klasse-b-vektgrenser.svg)
-For **klasse B** gjelder fÃ¸lgende **totalvektsgrenser**:
+![Tilhenger klasse B vektgrenser](tilhenger-klasse-b-vektgrenser.svg)
+For **klasse B** gjelder følgende **totalvektsgrenser**:
 | Kombinert vogntog               | Maks tillatt totalvekt |
 |--------------------------------|-----------------------:|
-| Bil + tilhenger (â‰¤Â 750â€¯kg)      | 3500â€¯kg                |
-| Bil + tilhenger (B96-utvidelse) | 4250â€¯kg                |
-| Bil + tilhenger (BE-fÃ¸rerkort)  | 7000â€¯kg                |
-*Merk:* Uten utvidelse kan kun **klasse B** tillate tilhenger inntil **750â€¯kg** hvis totalvogntogvekt ikke overstiger **3500â€¯kg**.
-## FÃ¸rerkortkrav og unntak
-![FÃ¸rerkortkrav tilhenger](/blogs/teori/krav-til-tilhenger-klasse-b/forerkort-tilhenger-klasse-b.svg)
-I henhold til [FÃ¸rerkortklasser i Norge](/blogs/teori/forerkortklasser-oversikt "FÃ¸rerkortklasser i Norge â€“ oversikt og inndeling") mÃ¥ du ha ordinÃ¦rt **klasse B** for vektgrenser nevnt over. Det finnes to unntaksmuligheter:
-* **B96-utvidelse** (7 timers opplÃ¦ringskurs, ingen prÃ¸ve): Vogntog opp til **4250â€¯kg**.
-* **BE-fÃ¸rerkort** (praktisk oppkjÃ¸ring med tilhenger): Vogntog opp til **7000â€¯kg**.
+| Bil + tilhenger (= 750?kg)      | 3500?kg                |
+| Bil + tilhenger (B96-utvidelse) | 4250?kg                |
+| Bil + tilhenger (BE-førerkort)  | 7000?kg                |
+*Merk:* Uten utvidelse kan kun **klasse B** tillate tilhenger inntil **750?kg** hvis totalvogntogvekt ikke overstiger **3500?kg**.
+## Førerkortkrav og unntak
+![Førerkortkrav tilhenger](forerkort-tilhenger-klasse-b.svg)
+I henhold til [Førerkortklasser i Norge](/blogs/teori/forerkortklasser-oversikt "Førerkortklasser i Norge – oversikt og inndeling") må du ha ordinært **klasse B** for vektgrenser nevnt over. Det finnes to unntaksmuligheter:
+* **B96-utvidelse** (7 timers opplæringskurs, ingen prøve): Vogntog opp til **4250?kg**.
+* **BE-førerkort** (praktisk oppkjøring med tilhenger): Vogntog opp til **7000?kg**.
 ## Registrering og EU-kontroll
-![Registrering tilhenger](/blogs/teori/krav-til-tilhenger-klasse-b/registrering-tilhenger.svg)
-Alle tilhengere over **750â€¯kg** totalvekt mÃ¥:
+![Registrering tilhenger](registrering-tilhenger.svg)
+Alle tilhengere over **750?kg** totalvekt må:
 * **Registreres** i Motorvognregisteret  
 * Ha gyldig **EU-kontroll**  
 * **Forsikres** med ansvarsforsikring  
 ## Bremser og teknisk utstyr
-![Bremser tilhenger](/blogs/teori/krav-til-tilhenger-klasse-b/bremser-tilhenger.svg)
-For tilhengere over **750â€¯kg** kreves egne **bremser**. I tillegg mÃ¥ teknisk utstyr som **kobling**, **stÃ¸ttehjul** og **sikkerhetswire** vÃ¦re i forskriftsmessig stand:
-* Funksjonstest av bremser fÃ¸r kjÃ¸ring  
+![Bremser tilhenger](bremser-tilhenger.svg)
+For tilhengere over **750?kg** kreves egne **bremser**. I tillegg må teknisk utstyr som **kobling**, **støttehjul** og **sikkerhetswire** være i forskriftsmessig stand:
+* Funksjonstest av bremser før kjøring  
 * Visuell kontroll av koblingshode og feste  
-* Sjekk at stÃ¸ttehjul er heist opp og lÃ¥st  
+* Sjekk at støttehjul er heist opp og låst  
 * Kontroller sikkerhetswire og elektrisk tilkobling
-For en overordnet innfÃ¸ring i krav til **forskriftsmessig og forsvarlig stand**, se [Forskriftsmessig og forsvarlig stand](/blogs/teori/forskriftsmessig-og-forsvarlig-stand "Forskriftsmessig og forsvarlig stand - Overordnet guide til lovpÃ¥lagt stand").
+For en overordnet innføring i krav til **forskriftsmessig og forsvarlig stand**, se [Forskriftsmessig og forsvarlig stand](/blogs/teori/forskriftsmessig-og-forsvarlig-stand "Forskriftsmessig og forsvarlig stand - Overordnet guide til lovpålagt stand").
 ## Sikkerhetsutstyr og belysning
-![Sikkerhetsutstyr tilhenger](/blogs/teori/krav-til-tilhenger-klasse-b/sikkerhetsutstyr-tilhenger.svg)
-Riktig **belysning** og **sikkerhetsutstyr** er avgjÃ¸rende for synlighet og sikkerhet:
+![Sikkerhetsutstyr tilhenger](sikkerhetsutstyr-tilhenger.svg)
+Riktig **belysning** og **sikkerhetsutstyr** er avgjørende for synlighet og sikkerhet:
 | Utstyr              | Krav                            |
 |---------------------|---------------------------------|
-| NÃ¦r-/fjernlys       | Skal fÃ¸lge bilens lysinnstillinger |
+| Nær-/fjernlys       | Skal følge bilens lysinnstillinger |
 | Bremselys           | Skal fungere synkront med bilen |
-| Reflekser og lykter | Skjerme omrÃ¥der bak og pÃ¥ sider   |
-| Sikkerhetswire      | Skal vÃ¦re festet til bilens ramme |
+| Reflekser og lykter | Skjerme områder bak og på sider   |
+| Sikkerhetswire      | Skal være festet til bilens ramme |
 ## Oppsummering
-![Oppsummering tilhenger klasse B](/blogs/teori/krav-til-tilhenger-klasse-b/oppsummering-tilhenger-klasse-b.svg)
-I denne artikkelen har du fÃ¥tt en komplett oversikt over **krav til tilhenger** under fÃ¸rerkort **klasse B** i Norge. FÃ¸lg vektgrenser, registreringsregler, bremse- og sikkerhetskrav for Ã¥ sikre trygg og lovlig kjÃ¸ring.
+![Oppsummering tilhenger klasse B](oppsummering-tilhenger-klasse-b.svg)
+I denne artikkelen har du fått en komplett oversikt over **krav til tilhenger** under førerkort **klasse B** i Norge. Følg vektgrenser, registreringsregler, bremse- og sikkerhetskrav for å sikre trygg og lovlig kjøring.

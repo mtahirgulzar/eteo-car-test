@@ -1,6 +1,6 @@
 ---
 title: "License"
-layout: "simple"
+
 ---
 
 ## MIT License

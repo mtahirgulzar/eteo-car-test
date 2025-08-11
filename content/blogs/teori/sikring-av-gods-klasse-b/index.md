@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Sikring Av Gods Klasse B"
 date: 2025-08-06
 draft: false
@@ -144,50 +144,50 @@ tr:hover {
   }
 }
 </style>
-I denne artikkelen gÃ¥r vi i dybden pÃ¥ **sikring av gods for fÃ¸rerkort klasse B**, inkludert regler for gjenstander som stikker ut, lÃ¸se gjenstander og **overlast**. For en mer omfattende guide til sikring av last og passasjerer, se [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring").
-For rÃ¥d om **transport av sykkel**, se [Transport av sykkel](/blogs/teori/transport-av-sykkel "Transport av sykkel - Guide til trygg transport og sikring av sykkel pÃ¥ bil").
+I denne artikkelen går vi i dybden på **sikring av gods for førerkort klasse B**, inkludert regler for gjenstander som stikker ut, løse gjenstander og **overlast**. For en mer omfattende guide til sikring av last og passasjerer, se [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring").
+For råd om **transport av sykkel**, se [Transport av sykkel](/blogs/teori/transport-av-sykkel "Transport av sykkel - Guide til trygg transport og sikring av sykkel på bil").
 ## Innholdsfortegnelse
 * [Lovverk og ansvar](#lovverk-og-ansvar)
 * [Gjenstander som stikker ut](#gjenstander-som-stikker-ut)
-* [LÃ¸se gjenstander i bilen](#lose-gjenstander-i-bilen)
+* [Løse gjenstander i bilen](#lose-gjenstander-i-bilen)
 * [Overlast og vektgrenser](#overlast-og-vektgrenser)
 * [Praktiske sikringsmetoder](#praktiske-sikringsmetoder)
 * [Illustrasjon: Gjenstander som stikker ut](#illustrasjon-gjenstander-som-stikker-ut)
 ## Lovverk og ansvar
-I henhold til [Vegtrafikklovens Â§Â 23](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norsk trafikkregler") er fÃ¸reren ansvarlig for at gods i bilen er forsvarlig sikret, slik at det ikke kan falle ut, stikke ut eller forskyve seg ved kjÃ¸ring.
+I henhold til [Vegtrafikklovens § 23](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norsk trafikkregler") er føreren ansvarlig for at gods i bilen er forsvarlig sikret, slik at det ikke kan falle ut, stikke ut eller forskyve seg ved kjøring.
 | Overtredelse            | Gebyr      | Prikker | Kommentarer                   |
 |-------------------------|------------|---------|-------------------------------|
-| Uskikret gods           | 1Â 700Â kr   | 1       | Farlig for fÃ¸rer og andre     |
-| Gjenstand stikker ut    | 1Â 700Â kr   | 2       | Krav til merking og varsling  |
-| Overlast (vektoverskridelse) | 2Â 000Â kr | 2     | Fare for kjÃ¸retÃ¸yets stabilitet |
+| Uskikret gods           | 1 700 kr   | 1       | Farlig for fører og andre     |
+| Gjenstand stikker ut    | 1 700 kr   | 2       | Krav til merking og varsling  |
+| Overlast (vektoverskridelse) | 2 000 kr | 2     | Fare for kjøretøyets stabilitet |
 ## Gjenstander som stikker ut
-Gjenstander som stikker mer enn **1Â meter bakover** eller **0,5Â meter pÃ¥ sidene** mÃ¥ vÃ¦re merket med rÃ¸d hvitstripet duk eller flagg i dagslys, og med lys eller refleks om natten.
+Gjenstander som stikker mer enn **1 meter bakover** eller **0,5 meter på sidene** må være merket med rød hvitstripet duk eller flagg i dagslys, og med lys eller refleks om natten.
 | Retning      | Maks. stikk   | Merking                           |
 |--------------|---------------|-----------------------------------|
-| Bakover      | 1Â meter       | RÃ¸d-hvit duk/lys/refleks          |
-| Sider        | 0,5Â meter     | RÃ¸d-hvit duk/refleks              |
+| Bakover      | 1 meter       | Rød-hvit duk/lys/refleks          |
+| Sider        | 0,5 meter     | Rød-hvit duk/refleks              |
 | Foran        | ---           | Skal ikke stikke ut               |
-## LÃ¸se gjenstander i bilen
-LÃ¸se gjenstander blir til **dÃ¸delige prosjektiler** ved kollisjon. Her er noen eksempler pÃ¥ vektÃ¸kning under kraftig retardasjon:
-| Gjenstand         | Vekt              | Vekt ved kollisjon (50Â km/t) |
+## Løse gjenstander i bilen
+Løse gjenstander blir til **dødelige prosjektiler** ved kollisjon. Her er noen eksempler på vektøkning under kraftig retardasjon:
+| Gjenstand         | Vekt              | Vekt ved kollisjon (50 km/t) |
 |-------------------|-------------------|------------------------------|
-| Mobiltelefon      | 0,2Â kg            | 6â€“10Â kg                      |
-| Vannflaske        | 0,5Â kg            | 15â€“25Â kg                     |
-| VerktÃ¸ykasse      | 5Â kg              | 150â€“250Â kg                   |
+| Mobiltelefon      | 0,2 kg            | 6–10 kg                      |
+| Vannflaske        | 0,5 kg            | 15–25 kg                     |
+| Verktøykasse      | 5 kg              | 150–250 kg                   |
 ## Overlast og vektgrenser
-Overlast oppstÃ¥r nÃ¥r totalvekten med gods overstiger det som er angitt i vognkortets felt **F2Â (TE)**. For **klasse B** gjelder maks totalvekt pÃ¥ **3Â 500Â kg** for vogntog.
-| KjÃ¸retÃ¸ytype             | Maks totalvekt | Kommentar                |
+Overlast oppstår når totalvekten med gods overstiger det som er angitt i vognkortets felt **F2 (TE)**. For **klasse B** gjelder maks totalvekt på **3 500 kg** for vogntog.
+| Kjøretøytype             | Maks totalvekt | Kommentar                |
 |--------------------------|---------------:|--------------------------|
-| Personbil (klasse B)     | 3Â 500Â kg       | Inkludert passasjerer og last |
+| Personbil (klasse B)     | 3 500 kg       | Inkludert passasjerer og last |
 | Gods i bil uten tilhenger | Avhenger av bil | Sjekk vognkortets F2    |
-*For mer om fÃ¸rerkortklasser og vektgrenser, se [FÃ¸rerkortklasser i Norge](/blogs/teori/forerkortklasser-oversikt "FÃ¸rerkortklasser i Norge â€“ oversikt og inndeling").*
+*For mer om førerkortklasser og vektgrenser, se [Førerkortklasser i Norge](/blogs/teori/forerkortklasser-oversikt "Førerkortklasser i Norge – oversikt og inndeling").*
 ## Praktiske sikringsmetoder
-FÃ¸lg disse trinnene for Ã¥ sikre gods effektivt:
-1. **Planlegg lastingen:** Tunge gjenstander nederst og nÃ¦r bilens tyngdepunkt
-2. **Fordel vekten:** Jevn fordeling mellom hÃ¸yre og venstre side
+Følg disse trinnene for å sikre gods effektivt:
+1. **Planlegg lastingen:** Tunge gjenstander nederst og nær bilens tyngdepunkt
+2. **Fordel vekten:** Jevn fordeling mellom høyre og venstre side
 3. **Fest med stropp eller nett:** Bruk godkjent sikringsutstyr som er CE-merket
-4. **Kryssbinding:** Lag gjerne et X-mÃ¸nster med stroppene for ekstra stabilitet
-5. **Kontroller spenning:** Stropper skal vÃ¦re stramme, men ikke overstrukket
-6. **Ettersjekk underveis:** Etterspenn etter ca. 10Â km for Ã¥ sikre at lasten sitter
+4. **Kryssbinding:** Lag gjerne et X-mønster med stroppene for ekstra stabilitet
+5. **Kontroller spenning:** Stropper skal være stramme, men ikke overstrukket
+6. **Ettersjekk underveis:** Etterspenn etter ca. 10 km for å sikre at lasten sitter
 ## Illustrasjon: Gjenstander som stikker ut
-![Gjenstander som stikker ut](/blogs/teori/sikring-av-gods-klasse-b/gjenstander-som-stikker-ut.svg)
+![Gjenstander som stikker ut](gjenstander-som-stikker-ut.svg)

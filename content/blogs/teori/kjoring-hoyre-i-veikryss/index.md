@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Kjoring Hoyre I Veikryss"
 date: 2025-08-06
 draft: false
@@ -144,47 +144,47 @@ tr:hover {
   }
 }
 </style>
-**KjÃ¸ring: HÃ¸yre i veikryss** gir deg en **dyptgÃ¥ende forstÃ¥else** av nÃ¥r og hvordan du skal vike for trafikk fra hÃ¸yre i veikryss. Artikkelen tar for seg:
-- Grunnprinsippet bak **hÃ¸yreregelen**
-- NÃ¥r hÃ¸yreregelen gjelder
-- Viktige unntak fra hÃ¸yreregelen
+**Kjøring: Høyre i veikryss** gir deg en **dyptgående forståelse** av når og hvordan du skal vike for trafikk fra høyre i veikryss. Artikkelen tar for seg:
+- Grunnprinsippet bak **høyreregelen**
+- Når høyreregelen gjelder
+- Viktige unntak fra høyreregelen
 - Praktiske eksempler med forklaringer
-- Tips til teoriprÃ¸ven
-*For juridisk ramme, se [Grunnregelen for trafikk](/blogs/teori/grunnregelen-for-trafikk "Grunnregelen for trafikken - Vegtrafikkloven Â§Â 3") og for en helhetlig oversikt over vikepliktreglene, se [Vikeplikt og rundkjÃ¸ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjÃ¸ringer - Komplett guide til hÃ¸yreregelen og rundkjÃ¸ringer").*
-![KjÃ¸ring: HÃ¸yre i veikryss](/blogs/teori/kjoring-hoyre-i-veikryss/kjoring-hoyre-i-veikryss-image.svg)
+- Tips til teoriprøven
+*For juridisk ramme, se [Grunnregelen for trafikk](/blogs/teori/grunnregelen-for-trafikk "Grunnregelen for trafikken - Vegtrafikkloven § 3") og for en helhetlig oversikt over vikepliktreglene, se [Vikeplikt og rundkjøringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjøringer - Komplett guide til høyreregelen og rundkjøringer").*
+![Kjøring: Høyre i veikryss](kjoring-hoyre-i-veikryss-image.svg)
 ## Innhold
-1. [Hva er hÃ¸yreregelen?](#hva-er-hÃ¸yreregelen)
-2. [NÃ¥r gjelder hÃ¸yreregelen?](#nÃ¥r-gjelder-hÃ¸yreregelen)
-3. [Unntak fra hÃ¸yreregelen](#unntak-fra-hÃ¸yreregelen)
+1. [Hva er høyreregelen?](#hva-er-høyreregelen)
+2. [Når gjelder høyreregelen?](#når-gjelder-høyreregelen)
+3. [Unntak fra høyreregelen](#unntak-fra-høyreregelen)
 4. [Praktiske eksempler](#praktiske-eksempler)
-5. [Tips til teoriprÃ¸ven](#tips-til-teoriprÃ¸ven)
-## Hva er hÃ¸yreregelen?
-**HÃ¸yreregelen** er en grunnleggende regel i norsk trafikk som sier at du **skal vike for trafikk som kommer fra hÃ¸yre** nÃ¥r ingen andre regler (skilt, signaler eller politiets anvisninger) gjelder. Dette prinsippet sÃ¸rger for en forutsigbar trafikkflyt og reduserer risikoen for kollisjoner.
-## NÃ¥r gjelder hÃ¸yreregelen?
-HÃ¸yreregelen trer i kraft i fÃ¸lgende situasjoner:
+5. [Tips til teoriprøven](#tips-til-teoriprøven)
+## Hva er høyreregelen?
+**Høyreregelen** er en grunnleggende regel i norsk trafikk som sier at du **skal vike for trafikk som kommer fra høyre** når ingen andre regler (skilt, signaler eller politiets anvisninger) gjelder. Dette prinsippet sørger for en forutsigbar trafikkflyt og reduserer risikoen for kollisjoner.
+## Når gjelder høyreregelen?
+Høyreregelen trer i kraft i følgende situasjoner:
 * **Uskiltede veikryss** uten trafikklys
 * **Parkeringsplasser** og private veier uten egen regulering
-* **BoligomrÃ¥der** som mangler skilt og signal
-* NÃ¥r **ingen andre vikepliktsregler** gjelder
+* **Boligområder** som mangler skilt og signal
+* Når **ingen andre vikepliktsregler** gjelder
 For en fullstendig gjennomgang av vikepliktsregler, se [Vikepliktsregler i detalj](/blogs/teori/vikepliktsregler-i-detalj "Vikepliktsregler i detalj - Detaljert guide til vikeplikt i trafikken").
-## Unntak fra hÃ¸yreregelen
-HÃ¸yreregelen gjelder **ikke** nÃ¥r noen av disse forholdene er til stede:
+## Unntak fra høyreregelen
+Høyreregelen gjelder **ikke** når noen av disse forholdene er til stede:
 | Situasjon          | Beskrivelse                                                                 |
 |--------------------|------------------------------------------------------------------------------|
-| **Trafikkskilt**      | NÃ¥r skilt eller signaler (f.eks. vikepliktsskilt, stoppskilt) regulerer kryssingsforholdene |
-| **ForkjÃ¸rsvei**       | Du kjÃ¸rer pÃ¥ en forkjÃ¸rsvei (gul rombe) og har dermed forkjÃ¸rsrett           |
+| **Trafikkskilt**      | Når skilt eller signaler (f.eks. vikepliktsskilt, stoppskilt) regulerer kryssingsforholdene |
+| **Forkjørsvei**       | Du kjører på en forkjørsvei (gul rombe) og har dermed forkjørsrett           |
 | **Trafikklys**        | Trafikklys er i funksjon og gir klare signaler om vikeplikt                   |
 | **Politianvisning**    | Politiet dirigerer trafikken manuelt                                         |
 ## Praktiske eksempler
-Nedenfor ser du typiske situasjoner der hÃ¸yreregelen kommer til anvendelse:
+Nedenfor ser du typiske situasjoner der høyreregelen kommer til anvendelse:
 | Scenario                         | Handling                                                            |
 |----------------------------------|---------------------------------------------------------------------|
-| To kjÃ¸rende i kryss ankommer samtidig | Vike for kjÃ¸retÃ¸yet fra hÃ¸yre                              |
-| Flere kjÃ¸retÃ¸y i rundkjÃ¸ring       | Vike nÃ¥r du forlater rundkjÃ¸ringen hvis du kommer fra hÃ¸yre        |
-| ParkeringsomrÃ¥de uten skilt        | FÃ¸lg hÃ¸yreregelen ved inn- og utkjÃ¸ring                            |
-## Tips til teoriprÃ¸ven
-NÃ¥r du mÃ¸ter spÃ¸rsmÃ¥l om hÃ¸yreregelen pÃ¥ teoriprÃ¸ven:
-1. **Identifiser om skilt eller signaler** regulerer situasjonen fÃ¸rst.
-2. Hvis ingenting annet gjelder, **anvend hÃ¸yreregelen** konsekvent.
-3. **Beskriv kort** hvordan du vurderte trafikken fra hÃ¸yre i svarteksten.
-Lykke til med teoriprÃ¸ven!
+| To kjørende i kryss ankommer samtidig | Vike for kjøretøyet fra høyre                              |
+| Flere kjøretøy i rundkjøring       | Vike når du forlater rundkjøringen hvis du kommer fra høyre        |
+| Parkeringsområde uten skilt        | Følg høyreregelen ved inn- og utkjøring                            |
+## Tips til teoriprøven
+Når du møter spørsmål om høyreregelen på teoriprøven:
+1. **Identifiser om skilt eller signaler** regulerer situasjonen først.
+2. Hvis ingenting annet gjelder, **anvend høyreregelen** konsekvent.
+3. **Beskriv kort** hvordan du vurderte trafikken fra høyre i svarteksten.
+Lykke til med teoriprøven!

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Veiens Deler"
 date: 2025-08-06
 draft: false
@@ -144,38 +144,38 @@ tr:hover {
   }
 }
 </style>
-Skal du ta teoriprÃ¸ven for **fÃ¸rerkort klasse B**? Da er det viktig Ã¥ forstÃ¥ **veiens ulike fysiske deler**. I denne artikkelen fÃ¥r du en grundig oversikt over **kjÃ¸refelt**, **veiskulder**, **midtdeler**, **sykkelfelt**, **kjÃ¸rebane**, **fortau**, **gang- og sykkelvei** med mer.
-*For en komplett introduksjon til teoriprÃ¸ven, se [Introduksjon til teori for fÃ¸rerkort](/blogs/teori/introduksjon-til-teori-for-forerkort "Introduksjon til teori for fÃ¸rerkort - alt du trenger Ã¥ vite").*
-*For Ã¥ se hvordan veiens deler inngÃ¥r i det stÃ¸rre trafikksystemet, se [Trafikksystemet](/blogs/teori/trafikksystemet "Trafikksystemet - InnfÃ¸ring i det norske trafikksystemet").*
-*For en detaljert innfÃ¸ring i **veioppmerking**, se [Veioppmerking](/blogs/teori/veioppmerking "Veioppmerking - kjÃ¸refeltlinje, varsellinje og mer").*
-*For dybdegÃ¥ende veiledning i plassering i veibanen, se [Plassering i veibanen](/blogs/teori/plassering-i-veibanen "Plassering i veibanen - kjÃ¸refelt, kjÃ¸rebane, veiskulder og mer").*
-![Veiens deler](/blogs/teori/veiens-deler/veiens-deler-image.svg)
+Skal du ta teoriprøven for **førerkort klasse B**? Da er det viktig å forstå **veiens ulike fysiske deler**. I denne artikkelen får du en grundig oversikt over **kjørefelt**, **veiskulder**, **midtdeler**, **sykkelfelt**, **kjørebane**, **fortau**, **gang- og sykkelvei** med mer.
+*For en komplett introduksjon til teoriprøven, se [Introduksjon til teori for førerkort](/blogs/teori/introduksjon-til-teori-for-forerkort "Introduksjon til teori for førerkort - alt du trenger å vite").*
+*For å se hvordan veiens deler inngår i det større trafikksystemet, se [Trafikksystemet](/blogs/teori/trafikksystemet "Trafikksystemet - Innføring i det norske trafikksystemet").*
+*For en detaljert innføring i **veioppmerking**, se [Veioppmerking](/blogs/teori/veioppmerking "Veioppmerking - kjørefeltlinje, varsellinje og mer").*
+*For dybdegående veiledning i plassering i veibanen, se [Plassering i veibanen](/blogs/teori/plassering-i-veibanen "Plassering i veibanen - kjørefelt, kjørebane, veiskulder og mer").*
+![Veiens deler](veiens-deler-image.svg)
 ## Innholdsfortegnelse
 1. [Hva menes med veiens deler?](#hva-menes-med-veiens-deler)
-2. [KjÃ¸refelt](#kjÃ¸refelt)
+2. [Kjørefelt](#kjørefelt)
 3. [Veiskulder](#veiskulder)
 4. [Midtdeler](#midtdeler)
 5. [Sykkelfelt](#sykkelfelt)
-6. [KjÃ¸rebane](#kjÃ¸rebane)
+6. [Kjørebane](#kjørebane)
 7. [Fortau](#fortau)
 8. [Gang- og sykkelvei](#gang--og-sykkelvei)
 9. [Oppsummering](#oppsummering)
 ## Hva menes med veiens deler?
-Veiens deler refererer til de fysiske komponentene som utgjÃ¸r veiinfrastrukturen. Hver del har sin funksjon for Ã¥ sikre trafikksikkerhet, effektiv ferdsel og trygghet for alle trafikantgrupper.
-![Veiens deler diagram](/blogs/teori/veiens-deler/veiens-deler-diagram.svg)
-## KjÃ¸refelt
-**KjÃ¸refelt** er den delen av kjÃ¸rebanen hvor kjÃ¸retÃ¸y kjÃ¸rer i kjÃ¸retÃ¸yets kjÃ¸reretning. Antall felt avhenger av veiens klasse og trafikkmengde.
+Veiens deler refererer til de fysiske komponentene som utgjør veiinfrastrukturen. Hver del har sin funksjon for å sikre trafikksikkerhet, effektiv ferdsel og trygghet for alle trafikantgrupper.
+![Veiens deler diagram](veiens-deler-diagram.svg)
+## Kjørefelt
+**Kjørefelt** er den delen av kjørebanen hvor kjøretøy kjører i kjøretøyets kjøreretning. Antall felt avhenger av veiens klasse og trafikkmengde.
 ## Veiskulder
-**Veiskulder** ligger utenfor kjÃ¸refeltet og kan brukes ved driftstans eller som nÃ¸dskulder. Den gir ekstra sikkerhetsmargin.
+**Veiskulder** ligger utenfor kjørefeltet og kan brukes ved driftstans eller som nødskulder. Den gir ekstra sikkerhetsmargin.
 ## Midtdeler
-**Midtdeler** skiller kjÃ¸refelt med motsatt kjÃ¸reretning og kan vÃ¦re fysisk (for eksempel rekkverk) eller markert med skilt og oppmerking.
+**Midtdeler** skiller kjørefelt med motsatt kjøreretning og kan være fysisk (for eksempel rekkverk) eller markert med skilt og oppmerking.
 ## Sykkelfelt
-**Sykkelfelt** er et eget felt for syklister markert med skilt og/eller oppmerking. Feltet kan vÃ¦re i kjÃ¸rebanen eller avskjermet utenfor kjÃ¸rebanen.
-## KjÃ¸rebane
-**KjÃ¸rebane** omfatter alle kjÃ¸refelt pÃ¥ veien, inkludert feltene for kjÃ¸retÃ¸y og eventuelle midtdelere.
+**Sykkelfelt** er et eget felt for syklister markert med skilt og/eller oppmerking. Feltet kan være i kjørebanen eller avskjermet utenfor kjørebanen.
+## Kjørebane
+**Kjørebane** omfatter alle kjørefelt på veien, inkludert feltene for kjøretøy og eventuelle midtdelere.
 ## Fortau
-**Fortau** er en del av veien forbeholdt gÃ¥ende, separert fra kjÃ¸rebanen med kantstein eller annen fysisk lÃ¸sning.
+**Fortau** er en del av veien forbeholdt gående, separert fra kjørebanen med kantstein eller annen fysisk løsning.
 ## Gang- og sykkelvei
-**Gang- og sykkelvei** er en felles vei for gÃ¥ende og syklende, markert med eget skilt. Trafikanter mÃ¥ vise hensyn og tilpasse farten.
+**Gang- og sykkelvei** er en felles vei for gående og syklende, markert med eget skilt. Trafikanter må vise hensyn og tilpasse farten.
 ## Oppsummering
-Ã… kjenne veiens ulike deler er **essensielt** for Ã¥ forstÃ¥ trafikkflyt og sikre trygg kjÃ¸ring. Ved Ã¥ kunne funksjonen til **kjÃ¸refelt**, **veiskulder**, **midtdeler**, **sykkelfelt**, **kjÃ¸rebane**, **fortau** og **gang- og sykkelveier**, blir det enklere Ã¥ tolke veiinfrastrukturen og ta riktige valg i trafikken.
+Å kjenne veiens ulike deler er **essensielt** for å forstå trafikkflyt og sikre trygg kjøring. Ved å kunne funksjonen til **kjørefelt**, **veiskulder**, **midtdeler**, **sykkelfelt**, **kjørebane**, **fortau** og **gang- og sykkelveier**, blir det enklere å tolke veiinfrastrukturen og ta riktige valg i trafikken.

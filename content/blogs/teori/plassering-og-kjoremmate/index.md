@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Plassering Og Kjoremmate"
 date: 2025-08-06
 draft: false
@@ -144,184 +144,184 @@ tr:hover {
   }
 }
 </style>
-**Plassering og kjÃ¸remÃ¥te** er et av de mest praktiske og viktige temaene i norsk trafikk. Hvor du plasserer bilen din i veibanen, hvordan du tilpasser kjÃ¸remÃ¥ten til forskjellige situasjoner, og hvordan du samhandler med andre trafikanter kan vÃ¦re avgjÃ¸rende for trafikksikkerheten. I denne omfattende guiden lÃ¦rer du alt du trenger Ã¥ vite for Ã¥ mestre riktig plassering og kjÃ¸remÃ¥te.
+**Plassering og kjøremåte** er et av de mest praktiske og viktige temaene i norsk trafikk. Hvor du plasserer bilen din i veibanen, hvordan du tilpasser kjøremåten til forskjellige situasjoner, og hvordan du samhandler med andre trafikanter kan være avgjørende for trafikksikkerheten. I denne omfattende guiden lærer du alt du trenger å vite for å mestre riktig plassering og kjøremåte.
 *For en helhetlig guide til samhandling i trafikken, se [Samhandling i trafikken](/blogs/teori/samhandling-i-trafikken "Samhandling i trafikken - Tegn, signal, fart og plassering").*
-*For detaljert veiledning i plassering i veibanen, se [Plassering i veibanen](/blogs/teori/plassering-i-veibanen "Plassering i veibanen - kjÃ¸refelt, kjÃ¸rebane, veiskulder og mer").*
-Denne guiden dekker ogsÃ¥ prinsipper som er spesielt viktige ved [landeveiskjÃ¸ring](/blogs/teori/landeveiskjoring "LandeveiskjÃ¸ring - Guide til sikker kjÃ¸ring pÃ¥ norske landeveier") og i urbane omrÃ¥der se [BykjÃ¸ring](/blogs/teori/bykjoring "BykjÃ¸ring - Trygg og effektiv kjÃ¸ring i urbane omrÃ¥der").
-*For kjÃ¸ring pÃ¥ motorvei, se [MotorveikjÃ¸ring](/blogs/teori/motorveikjoring "MotorveikjÃ¸ring - Guide til kjÃ¸ring pÃ¥ norsk motorvei").*
-For mer om hvordan **menneskelige faktorer** pÃ¥virker kjÃ¸remÃ¥te og reaksjoner, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring").
+*For detaljert veiledning i plassering i veibanen, se [Plassering i veibanen](/blogs/teori/plassering-i-veibanen "Plassering i veibanen - kjørefelt, kjørebane, veiskulder og mer").*
+Denne guiden dekker også prinsipper som er spesielt viktige ved [landeveiskjøring](/blogs/teori/landeveiskjoring "Landeveiskjøring - Guide til sikker kjøring på norske landeveier") og i urbane områder se [Bykjøring](/blogs/teori/bykjoring "Bykjøring - Trygg og effektiv kjøring i urbane områder").
+*For kjøring på motorvei, se [Motorveikjøring](/blogs/teori/motorveikjoring "Motorveikjøring - Guide til kjøring på norsk motorvei").*
+For mer om hvordan **menneskelige faktorer** påvirker kjøremåte og reaksjoner, se [Mennesket i trafikken](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring").
 *For informasjon om **sikring av last og passasjerer**, se [Sikring av last og passasjerer](/blogs/teori/sikring-av-last-og-passasjerer "Sikring av last og passasjerer - Guide til sikker last- og passasjersikring").*
 For en oversikt over gjeldende lover og forskrifter, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
 ## Grunnleggende prinsipper for plassering
-**Riktig plassering** i veibanen handler om Ã¥ kjÃ¸re der det er **tryggst og mest hensiktsmessig** for deg selv og andre trafikanter. Som hovedregel skal du holde deg til **hÃ¸yre side** av veibanen og fÃ¸lge disse grunnprinsippene:
-![Plassering og kjÃ¸remÃ¥te oversikt](/blogs/teori/plassering-og-kjoremmate/plassering-og-kjoremmate-image.svg)
+**Riktig plassering** i veibanen handler om å kjøre der det er **tryggst og mest hensiktsmessig** for deg selv og andre trafikanter. Som hovedregel skal du holde deg til **høyre side** av veibanen og følge disse grunnprinsippene:
+![Plassering og kjøremåte oversikt](plassering-og-kjoremmate-image.svg)
 ### Hovedregler for plassering:
-* **Hold deg til hÃ¸yre** - sÃ¥ langt til hÃ¸yre som praktisk mulig
-* **FÃ¸lg kjÃ¸refeltene** - ikke kryss feltstripene uten grunn
-* **Tilpass til situasjonen** - vÃ¦r fleksibel nÃ¥r det kreves
-* **Tenk forutsigbart** - andre mÃ¥ kunne forstÃ¥ hva du gjÃ¸r
-## Plassering i forskjellige kjÃ¸refelt
-### KjÃ¸ring pÃ¥ vanlige veier
-PÃ¥ **vanlige veier uten feltseparering** skal du holde deg sÃ¥ langt til hÃ¸yre som mulig, men samtidig ha **trygg margin** til:
+* **Hold deg til høyre** - så langt til høyre som praktisk mulig
+* **Følg kjørefeltene** - ikke kryss feltstripene uten grunn
+* **Tilpass til situasjonen** - vær fleksibel når det kreves
+* **Tenk forutsigbart** - andre må kunne forstå hva du gjør
+## Plassering i forskjellige kjørefelt
+### Kjøring på vanlige veier
+På **vanlige veier uten feltseparering** skal du holde deg så langt til høyre som mulig, men samtidig ha **trygg margin** til:
 * **Parkerte biler** - hold minst 1 meters avstand
-* **Syklister** - gi god plass nÃ¥r du passerer
-* **Fotgjengere** - spesielt pÃ¥ veier uten fortau
-* **MÃ¸tende trafikk** - tilpass hastighet og plassering
-![Normal vei plassering](/blogs/teori/plassering-og-kjoremmate/normal-vei-plassering.svg)
+* **Syklister** - gi god plass når du passerer
+* **Fotgjengere** - spesielt på veier uten fortau
+* **Møtende trafikk** - tilpass hastighet og plassering
+![Normal vei plassering](normal-vei-plassering.svg)
 ### Flerfelts veier
-PÃ¥ **veier med flere kjÃ¸refelt** gjelder spesielle regler:
-| KjÃ¸refelt | Bruk | Viktige regler |
+På **veier med flere kjørefelt** gjelder spesielle regler:
+| Kjørefelt | Bruk | Viktige regler |
 |-----------|------|----------------|
-| **HÃ¸yre felt** | Normal kjÃ¸ring | Standard plassering for de fleste |
-| **Midtre felt** | [ForbikjÃ¸ring](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte")/hÃ¸yere hastighet | Ikke "bo" i venstre felt |
-| **Venstre felt** | [ForbikjÃ¸ring](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte")/venstresving | Flytt tilbake til hÃ¸yre etter [forbikjÃ¸ring](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte") |
-![Flerfelts vei plassering](/blogs/teori/plassering-og-kjoremmate/flerfelts-vei-plassering.svg)
+| **Høyre felt** | Normal kjøring | Standard plassering for de fleste |
+| **Midtre felt** | [Forbikjøring](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte")/høyere hastighet | Ikke "bo" i venstre felt |
+| **Venstre felt** | [Forbikjøring](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte")/venstresving | Flytt tilbake til høyre etter [forbikjøring](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte") |
+![Flerfelts vei plassering](flerfelts-vei-plassering.svg)
 ### Kollektivfelt
-**Kollektivfelt** er forbeholdt bestemte kjÃ¸retÃ¸y og er tydelig merket med spesielle skilt og veimerking. Du mÃ¥ vite nÃ¥r du kan og ikke kan bruke dem. For mer om kollektivfeltskilt og andre pÃ¥budsskilt, se [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking").
+**Kollektivfelt** er forbeholdt bestemte kjøretøy og er tydelig merket med spesielle skilt og veimerking. Du må vite når du kan og ikke kan bruke dem. For mer om kollektivfeltskilt og andre påbudsskilt, se [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking").
 **Tillatt i kollektivfelt:**
 * **Busser** i rute
 * **Drosjer** med passasjerer
-* **Motorsykler** (pÃ¥ enkelte strekninger)
-* **Biler med 3+ personer** (pÃ¥ enkelte strekninger med HOV-regler)
+* **Motorsykler** (på enkelte strekninger)
+* **Biler med 3+ personer** (på enkelte strekninger med HOV-regler)
 **Ikke tillatt:**
 * **Vanlige personbiler** med 1-2 personer
 * **Varebiler** og lastebiler
 * **Mc uten spesiell tillatelse**
-![Kollektivfelt regler](/blogs/teori/plassering-og-kjoremmate/kollektivfelt-regler.svg)
-## KjÃ¸remÃ¥te i forskjellige situasjoner
-### EnveiskjÃ¸rte gater
-I **enveiskjÃ¸rte gater** gjelder spesielle regler for plassering:
-* **KjÃ¸r til hÃ¸yre** som normalt
-* **Venstresving** - kan gjÃ¸res fra hÃ¸yre felt hvis skiltene tillater det
-* **Parkering** - kan vÃ¦re tillatt pÃ¥ begge sider
-* **Fotgjengere** - kan krysse hvor som helst, vÃ¦r ekstra oppmerksom
-![Enveiskjort gate](/blogs/teori/plassering-og-kjoremmate/enveiskjort-gate.svg)
-### RundkjÃ¸ringer
-**Riktig plassering i rundkjÃ¸ringer** er kritisk for trafikksikkerheten:
-**Ved innkjÃ¸ring:**
-* **Gi vikeplikt** til trafikk i rundkjÃ¸ringen
-* **Velg riktig felt** basert pÃ¥ hvor du skal
-* **Blinkede hÃ¸yre** nÃ¥r du forlater rundkjÃ¸ringen
-**Inne i rundkjÃ¸ringen:**
-* **Ytre bane:** For fÃ¸rstegangsavkjÃ¸rsel (hÃ¸yre)
-* **Indre bane:** For andre og tredje avkjÃ¸rsel
-* **FÃ¸lg kjÃ¸rebanemarkering** der den finnes
-For mer detaljert informasjon om rundkjÃ¸ringer, se vÃ¥r guide om [vikeplikt og rundkjÃ¸ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Komplett guide til vikeplikt og rundkjÃ¸ringer").
-![Rundkjoring plassering](/blogs/teori/plassering-og-kjoremmate/rundkjoring-plassering.svg)
+![Kollektivfelt regler](kollektivfelt-regler.svg)
+## Kjøremåte i forskjellige situasjoner
+### Enveiskjørte gater
+I **enveiskjørte gater** gjelder spesielle regler for plassering:
+* **Kjør til høyre** som normalt
+* **Venstresving** - kan gjøres fra høyre felt hvis skiltene tillater det
+* **Parkering** - kan være tillatt på begge sider
+* **Fotgjengere** - kan krysse hvor som helst, vær ekstra oppmerksom
+![Enveiskjort gate](enveiskjort-gate.svg)
+### Rundkjøringer
+**Riktig plassering i rundkjøringer** er kritisk for trafikksikkerheten:
+**Ved innkjøring:**
+* **Gi vikeplikt** til trafikk i rundkjøringen
+* **Velg riktig felt** basert på hvor du skal
+* **Blinkede høyre** når du forlater rundkjøringen
+**Inne i rundkjøringen:**
+* **Ytre bane:** For førstegangsavkjørsel (høyre)
+* **Indre bane:** For andre og tredje avkjørsel
+* **Følg kjørebanemarkering** der den finnes
+For mer detaljert informasjon om rundkjøringer, se vår guide om [vikeplikt og rundkjøringer](/blogs/teori/vikeplikt-og-rundkjoringer "Komplett guide til vikeplikt og rundkjøringer").
+![Rundkjoring plassering](rundkjoring-plassering.svg)
 ### Parkering og stoppsituasjoner
 For en grundigere gjennomgang av rygging og parkering, se [Rygging og parkering](/blogs/teori/rygging-og-parkering "Rygging og parkering - Teknikk og regelverk"). For avanserte teknikker ved vanskelige parkeringssituasjoner, se [Parkering for viderekomne](/blogs/teori/parkering-for-viderekomne "Parkering for viderekomne - Avanserte teknikker og stressmestring").
-**Riktig plassering ved parkering** er ikke bare praktisk, men ogsÃ¥ lovpÃ¥lagt:
+**Riktig plassering ved parkering** er ikke bare praktisk, men også lovpålagt:
 #### Hvor du kan parkere:
-* **HÃ¸yre side** av veien i kjÃ¸reretningen
-* **Begge sider** i enveiskjÃ¸rte gater
-* **Parkeringsplasser** og markerte omrÃ¥der
+* **Høyre side** av veien i kjøreretningen
+* **Begge sider** i enveiskjørte gater
+* **Parkeringsplasser** og markerte områder
 * **Langs fortauskanten** der det er tillatt
 #### Hvor du IKKE kan parkere:
-* **5 meter fÃ¸r/etter** fotgjengerfelt
-* **10 meter fÃ¸r/etter** veikryss
-* **Ved bussholdeplasser** (15 meter fÃ¸r/5 meter etter)
-* **PÃ¥ kjÃ¸rebanen** nÃ¥r det finnes parkeringslommer
-![Parkering regler](/blogs/teori/plassering-og-kjoremmate/parkering-regler.svg)
+* **5 meter før/etter** fotgjengerfelt
+* **10 meter før/etter** veikryss
+* **Ved bussholdeplasser** (15 meter før/5 meter etter)
+* **På kjørebanen** når det finnes parkeringslommer
+![Parkering regler](parkering-regler.svg)
 ## Samhandling med andre trafikanter
-For en fullstendig oversikt over de ulike trafikantgruppene og hvilke hensyn som mÃ¥ tas, se [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Oversikt over trafikantgrupper og viktige hensyn i trafikken").
+For en fullstendig oversikt over de ulike trafikantgruppene og hvilke hensyn som må tas, se [Trafikantgrupper og hensyn](/blogs/teori/trafikantgrupper-og-hensyn "Trafikantgrupper og hensyn - Oversikt over trafikantgrupper og viktige hensyn i trafikken").
 ### Syklister og mopeder
-**Riktig behandling av syklister** krever spesiell oppmerksomhet og bevissthet om [menneskelige faktorer](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring") som kan pÃ¥virke din oppmerksomhet:
-* **Saktere trafikk** - gi trygg avstand nÃ¥r du fÃ¸lger bak
-* **[ForbikjÃ¸ring](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte")** - helt over i annet kjÃ¸refelt nÃ¥r mulig
-* **HÃ¸yresving** - sjekk spesielt grundig for syklister
-* **DÃ¸rÃ¥pning** - alltid sjekk fÃ¸r du Ã¥pner bildÃ¸ren
+**Riktig behandling av syklister** krever spesiell oppmerksomhet og bevissthet om [menneskelige faktorer](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring") som kan påvirke din oppmerksomhet:
+* **Saktere trafikk** - gi trygg avstand når du følger bak
+* **[Forbikjøring](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte")** - helt over i annet kjørefelt når mulig
+* **Høyresving** - sjekk spesielt grundig for syklister
+* **Døråpning** - alltid sjekk før du åpner bildøren
 ### Fotgjengere
-**Fotgjengere har sÃ¦rlige rettigheter** som bilist mÃ¥ du respektere:
-* **Fotgjengerfelt** - fotgjengere har alltid forkjÃ¸rsrett
+**Fotgjengere har særlige rettigheter** som bilist må du respektere:
+* **Fotgjengerfelt** - fotgjengere har alltid forkjørsrett
 * **Ved bussholdeplasser** - ta hensyn til inn- og utstigning
-* **Bakover ut av parkering** - fotgjengere har forkjÃ¸rsrett
-* **Fortauskant** - gi ekstra rom nÃ¥r fotgjengere er i nÃ¦rheten
+* **Bakover ut av parkering** - fotgjengere har forkjørsrett
+* **Fortauskant** - gi ekstra rom når fotgjengere er i nærheten
 ### Tungtrafikk
-**KjÃ¸ring sammen med tunge kjÃ¸retÃ¸y** krever tilpasset kjÃ¸remÃ¥te:
-* **StÃ¸rre blindsoner** - hold deg unna lastebiler i kryss
-* **Lengre bremselengde** - ikke kjÃ¸r tett bak
-* **Svingradius** - gi plass nÃ¥r lastebiler svinger
+**Kjøring sammen med tunge kjøretøy** krever tilpasset kjøremåte:
+* **Større blindsoner** - hold deg unna lastebiler i kryss
+* **Lengre bremselengde** - ikke kjør tett bak
+* **Svingradius** - gi plass når lastebiler svinger
 * **Bakover** - hold avstand ved bakking
-![Tungtrafikk sikkerhet](/blogs/teori/plassering-og-kjoremmate/tungtrafikk-sikkerhet.svg)
+![Tungtrafikk sikkerhet](tungtrafikk-sikkerhet.svg)
 ## Hastighet og hastighetstilpasning
-**Hastighet og avstand** er grunnleggende elementer for sikker kjÃ¸ring. For en mer detaljert forstÃ¥else av sammenhengen mellom fart, reaksjonstid og bremseavstand, se vÃ¥r omfattende guide om [fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
+**Hastighet og avstand** er grunnleggende elementer for sikker kjøring. For en mer detaljert forståelse av sammenhengen mellom fart, reaksjonstid og bremseavstand, se vår omfattende guide om [fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
 ### Fartsgrenser i Norge
-**Hastighetsbegrensninger** varierer basert pÃ¥ veitype og omrÃ¥de:
-| OmrÃ¥de | Hastighet | Viktige forhold |
+**Hastighetsbegrensninger** varierer basert på veitype og område:
+| Område | Hastighet | Viktige forhold |
 |---------|-----------|-----------------|
-| **Tettbebyggt strÃ¸k** | 30-50 km/t | Barn, fotgjengere, syklister |
-| **Landeveier** | 60-80 km/t | MÃ¸tende trafikk, dyr |
-| **Motorveier** | 90-110 km/t | HÃ¸y hastighet, lange bremselengder |
-| **BomiljÃ¸er** | 30 km/t | Ekstra beskyttelse for barn |
+| **Tettbebyggt strøk** | 30-50 km/t | Barn, fotgjengere, syklister |
+| **Landeveier** | 60-80 km/t | Møtende trafikk, dyr |
+| **Motorveier** | 90-110 km/t | Høy hastighet, lange bremselengder |
+| **Bomiljøer** | 30 km/t | Ekstra beskyttelse for barn |
 ### Hastighetstilpasning
 **Riktig hastighet** er ikke alltid det samme som fartsgrensen:
-* **VÃ¦rforhold** - regn, snÃ¸, is krever lavere hastighet
+* **Værforhold** - regn, snø, is krever lavere hastighet
 * **Trafikktetthet** - tilpass til trafikkmengden
-* **Siktforhold** - tÃ¥ke, mÃ¸rke, bakketopperÂ â€“ for mer om sikker nattkjÃ¸ring, se [KjÃ¸ring i mÃ¸rket](/blogs/teori/kjoring-i-morket "KjÃ¸ring i mÃ¸rket - Tips og rÃ¥d for sikker nattkjÃ¸ring")
-* **Veistandard** - dÃ¥rlig vei krever lavere hastighet
-![Hastighetstilpasning](/blogs/teori/plassering-og-kjoremmate/hastighetstilpasning.svg)
-## Spesielle kjÃ¸resituasjoner
+* **Siktforhold** - tåke, mørke, bakketopper – for mer om sikker nattkjøring, se [Kjøring i mørket](/blogs/teori/kjoring-i-morket "Kjøring i mørket - Tips og råd for sikker nattkjøring")
+* **Veistandard** - dårlig vei krever lavere hastighet
+![Hastighetstilpasning](hastighetstilpasning.svg)
+## Spesielle kjøresituasjoner
 ### Motorvei- og motortrafikkvei
-**Motorveier** har sÃ¦rskilte regler for plassering og kjÃ¸remÃ¥te:
-#### PÃ¥kjÃ¸ring:
+**Motorveier** har særskilte regler for plassering og kjøremåte:
+#### Påkjøring:
 * **Akselerasjonsfelt** - tilpass hastighet til hovedveien
-* **Gi vikeplikt** til trafikk pÃ¥ hovedveien
-* **Blink venstre** nÃ¥r du kjÃ¸rer inn
-#### PÃ¥ motorveien:
-* **HÃ¸yre felt** - normal kjÃ¸rehastighet
-* **Venstre felt** - kun for [forbikjÃ¸ring](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte")
+* **Gi vikeplikt** til trafikk på hovedveien
+* **Blink venstre** når du kjører inn
+#### På motorveien:
+* **Høyre felt** - normal kjørehastighet
+* **Venstre felt** - kun for [forbikjøring](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte")
 * **Holde hastighet** - tilpass deg trafikken
-#### AvkjÃ¸ring:
-* **Retardasjonsfelt** - bremser ned etter at du har kjÃ¸rt av
-* **Blink hÃ¸yre** i god tid
-* **Sjekk blindsonen** fÃ¸r feltskifte
-For detaljert informasjon om sikker feltskifte-teknikk, se vÃ¥r guide om [forbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte").
-![Motorvei kjoring](/blogs/teori/plassering-og-kjoremmate/motorvei-kjoring.svg)
-For detaljert guide til alle aspekter av motorveikjÃ¸ring, se [MotorveikjÃ¸ring](/blogs/teori/motorveikjoring "MotorveikjÃ¸ring - Komplett guide til sikker motorveikjÃ¸ring").
-### KjÃ¸ring i mÃ¸rket
-For en grundig gjennomgang av **nattekjÃ¸ring** og sikker kjÃ¸ring i mÃ¸rket, se vÃ¥r spesialguide pÃ¥ [KjÃ¸ring i mÃ¸rket](/blogs/teori/kjoring-i-morket "KjÃ¸ring i mÃ¸rket - Tips og rÃ¥d for sikker nattkjÃ¸ring").
-### KjÃ¸ring i vanskelige vÃ¦rforhold
-**VinterkjÃ¸ring og glatte veier:**
-* **Ã˜kt fÃ¸lgeavstand** - dobbel sÃ¥ lang avstand
-* **Saktere fart** - tilpass til fÃ¸reforholdene
-* **Mykere bevegelser** - unngÃ¥ brÃ¥ manÃ¸vrer
+#### Avkjøring:
+* **Retardasjonsfelt** - bremser ned etter at du har kjørt av
+* **Blink høyre** i god tid
+* **Sjekk blindsonen** før feltskifte
+For detaljert informasjon om sikker feltskifte-teknikk, se vår guide om [forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte").
+![Motorvei kjoring](motorvei-kjoring.svg)
+For detaljert guide til alle aspekter av motorveikjøring, se [Motorveikjøring](/blogs/teori/motorveikjoring "Motorveikjøring - Komplett guide til sikker motorveikjøring").
+### Kjøring i mørket
+For en grundig gjennomgang av **nattekjøring** og sikker kjøring i mørket, se vår spesialguide på [Kjøring i mørket](/blogs/teori/kjoring-i-morket "Kjøring i mørket - Tips og råd for sikker nattkjøring").
+### Kjøring i vanskelige værforhold
+**Vinterkjøring og glatte veier:**
+* **Økt følgeavstand** - dobbel så lang avstand
+* **Saktere fart** - tilpass til føreforholdene
+* **Mykere bevegelser** - unngå brå manøvrer
 * **Vinterdekk** - obligatorisk i vintersesongen
 For generell teori om fart og avstand, se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Komplett guide til hastighet og bremseavstand").
 ## Tekniske hjelpemidler
 ### Speil og blindsoner
-**Riktig bruk av speil** er grunnleggende for god kjÃ¸remÃ¥te:
+**Riktig bruk av speil** er grunnleggende for god kjøremåte:
 * **Backspeil** - oversikt over trafikk bak
-* **Sidespeil** - venstre og hÃ¸yre side
-* **Skuldersjekk** - alltid fÃ¸r feltskifte
-* **Blindsoner** - omrÃ¥der speilene ikke dekker
-For mer om blindsoner og riktig feltskifte-teknikk, se vÃ¥r omfattende guide om [forbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte").
-![Speil og blindsoner](/blogs/teori/plassering-og-kjoremmate/speil-og-blindsoner.svg)
+* **Sidespeil** - venstre og høyre side
+* **Skuldersjekk** - alltid før feltskifte
+* **Blindsoner** - områder speilene ikke dekker
+For mer om blindsoner og riktig feltskifte-teknikk, se vår omfattende guide om [forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte").
+![Speil og blindsoner](speil-og-blindsoner.svg)
 ### Moderne sikkerhetssystemer
-**Moderne biler** har mange hjelpesystemer som pÃ¥virker kjÃ¸remÃ¥te:
+**Moderne biler** har mange hjelpesystemer som påvirker kjøremåte:
 * **Filskiftvarsler** - varsler ved utilsiktet filskifte
-* **Blindsonevarsler** - oppdager kjÃ¸retÃ¸y i blindsonen
+* **Blindsonevarsler** - oppdager kjøretøy i blindsonen
 * **Adaptiv cruise control** - tilpasser hastighet automatisk
-* **Automatisk nÃ¸dbremsing** - kan stoppe bilen ved fare
-## Vanlige feil og hvordan unngÃ¥ dem
+* **Automatisk nødbremsing** - kan stoppe bilen ved fare
+## Vanlige feil og hvordan unngå dem
 ### Typiske plasseringsfeil:
-1. **KjÃ¸re for nÃ¦rt midten** - Ã¸ker risiko ved mÃ¸tende trafikk
-2. **"Bo" i venstre felt** - hindrer annen trafikk, se [forbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte") for riktig teknikk
-3. **For tett pÃ¥ syklister** - skaper farlige situasjoner
-4. **Feil felt i rundkjÃ¸ringer** - skaper forvirring
+1. **Kjøre for nært midten** - øker risiko ved møtende trafikk
+2. **"Bo" i venstre felt** - hindrer annen trafikk, se [forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte") for riktig teknikk
+3. **For tett på syklister** - skaper farlige situasjoner
+4. **Feil felt i rundkjøringer** - skaper forvirring
 ### Hvordan bli bedre:
-* **Ã˜v pÃ¥ tomme parkeringsplasser** - bli trygg pÃ¥ bilens dimensjoner
-* **FÃ¥ tilbakemelding fra kjÃ¸relÃ¦rer** - profesjonell veiledning
-* **VÃ¦r oppmerksom pÃ¥ andre** - lÃ¦r av gode eksempler
-* **Les trafikkreglene** - forstÃ¥ teorien bak praksisen
-## Sammendrag - viktige punkter Ã¥ huske
-**Riktig plassering og kjÃ¸remÃ¥te** handler om Ã¥:
-* **VÃ¦re forutsigbar** - andre skal forstÃ¥ dine intensjoner
-* **Tilpasse seg situasjonen** - ikke kjÃ¸r pÃ¥ "autopilot", vÃ¦r bevisst pÃ¥ [din egen kjÃ¸redyktighet](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som pÃ¥virker kjÃ¸ring")
+* **Øv på tomme parkeringsplasser** - bli trygg på bilens dimensjoner
+* **Få tilbakemelding fra kjørelærer** - profesjonell veiledning
+* **Vær oppmerksom på andre** - lær av gode eksempler
+* **Les trafikkreglene** - forstå teorien bak praksisen
+## Sammendrag - viktige punkter å huske
+**Riktig plassering og kjøremåte** handler om å:
+* **Være forutsigbar** - andre skal forstå dine intensjoner
+* **Tilpasse seg situasjonen** - ikke kjør på "autopilot", vær bevisst på [din egen kjøredyktighet](/blogs/teori/mennesket-i-trafikken "Mennesket i trafikken - Faktorer som påvirker kjøring")
 * **Respektere andre trafikanter** - alle har rett til trygg ferdsel
-* **FÃ¸lge trafikkreglene** - de er laget for alles sikkerhet
-* **KjÃ¸re miljÃ¸vennlig** - riktig [kjÃ¸reteknikk og plassering](/blogs/teori/miljovennlig-kjoring "MiljÃ¸vennlig kjÃ¸ring - Teknikker for bÃ¦rekraftig kjÃ¸ring") reduserer miljÃ¸pÃ¥virkningen
+* **Følge trafikkreglene** - de er laget for alles sikkerhet
+* **Kjøre miljøvennlig** - riktig [kjøreteknikk og plassering](/blogs/teori/miljovennlig-kjoring "Miljøvennlig kjøring - Teknikker for bærekraftig kjøring") reduserer miljøpåvirkningen
 * **Holde seg oppdatert** - trafikkbildet endrer seg kontinuerlig
-Ved Ã¥ mestre disse prinsippene blir du en **tryggere og mer selvsikker sjÃ¥fÃ¸r** som bidrar til bedre trafikksikkerhet for alle.
-**Husk:** God plassering og kjÃ¸remÃ¥te handler ikke bare om Ã¥ fÃ¸lge reglene - det handler om Ã¥ **forstÃ¥ intensjonen bak reglene** og anvende dem fornuftig i praksis.
-Les mer om [ForbikjÃ¸ring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "ForbikjÃ¸ring og feltskifte - Komplett guide til sikker forbikjÃ¸ring og feltskifte").
-Lykke til med teoriprÃ¸ven og den praktiske kjÃ¸ringen!
+Ved å mestre disse prinsippene blir du en **tryggere og mer selvsikker sjåfør** som bidrar til bedre trafikksikkerhet for alle.
+**Husk:** God plassering og kjøremåte handler ikke bare om å følge reglene - det handler om å **forstå intensjonen bak reglene** og anvende dem fornuftig i praksis.
+Les mer om [Forbikjøring og feltskifte](/blogs/teori/forbikjoring-og-feltskifte "Forbikjøring og feltskifte - Komplett guide til sikker forbikjøring og feltskifte").
+Lykke til med teoriprøven og den praktiske kjøringen!

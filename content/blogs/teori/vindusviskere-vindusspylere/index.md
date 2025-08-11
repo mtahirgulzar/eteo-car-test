@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Vindusviskere Vindusspylere"
 date: 2025-08-06
 draft: false
@@ -144,52 +144,52 @@ tr:hover {
   }
 }
 </style>
-**Vindusviskere** og **vindusspylere** er avgjÃ¸rende for Ã¥ opprettholde *optimal sikt* under alle kjÃ¸reforhold. I denne guiden gÃ¥r vi gjennom typer, vedlikehold, bruk og teknikker for Ã¥ hÃ¥ndtere is og dugg.
-![Vindusviskere og vindusspylere - Sikt, is og dugg](/blogs/teori/vindusviskere-vindusspylere/vindusviskere-vindusspylere-image.svg)
+**Vindusviskere** og **vindusspylere** er avgjørende for å opprettholde *optimal sikt* under alle kjøreforhold. I denne guiden går vi gjennom typer, vedlikehold, bruk og teknikker for å håndtere is og dugg.
+![Vindusviskere og vindusspylere - Sikt, is og dugg](vindusviskere-vindusspylere-image.svg)
 ## Hvorfor er god sikt viktig?
-God **sikt** er en forutsetning for trygg kjÃ¸ring. DÃ¥rlig sikt Ã¸ker risikoen for ulykker, spesielt ved:
+God **sikt** er en forutsetning for trygg kjøring. Dårlig sikt øker risikoen for ulykker, spesielt ved:
 * Redusert oversikt over vei, skilt og trafikksituasjoner
-* Senere reaksjon pÃ¥ hindringer og fotgjengere
-* Ã˜kt stress og tretthet under kjÃ¸ring
-For mer om kjÃ¸ring under krevende forhold, se [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold").
+* Senere reaksjon på hindringer og fotgjengere
+* Økt stress og tretthet under kjøring
+For mer om kjøring under krevende forhold, se [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold").
 ## Vindusviskere - typer og vedlikehold
-Vindusviskere fjerner vann, sludd og dugg fra frontruten. Riktig valg og vedlikehold er avgjÃ¸rende for **lette og jevne bevegelse**.
+Vindusviskere fjerner vann, sludd og dugg fra frontruten. Riktig valg og vedlikehold er avgjørende for **lette og jevne bevegelse**.
 | Type viskerblad      | Materiale      | Fordeler                           | Ulemper                        |
 |-----------------------|---------------|------------------------------------|--------------------------------|
-| Gummi (standard)      | Naturgummi    | Kostnadseffektivt, allsidig        | Mer fÃ¸lsomt for kulde og sollys|
+| Gummi (standard)      | Naturgummi    | Kostnadseffektivt, allsidig        | Mer følsomt for kulde og sollys|
 | Silikon (premium)     | Silikonblanding| Bedre fleksibilitet, stille drift | Dyrere, kan samle smuss        |
-| Hybrid (flatblad)     | Gummi + plast | Aerodynamisk, jevn kontakt         | Kan vÃ¦re kostbart              |
-| Vinterviskere         | Gummi+kappe   | Beskytter mot is og snÃ¸            | Krever regelmessig rengjÃ¸ring  |
+| Hybrid (flatblad)     | Gummi + plast | Aerodynamisk, jevn kontakt         | Kan være kostbart              |
+| Vinterviskere         | Gummi+kappe   | Beskytter mot is og snø            | Krever regelmessig rengjøring  |
 **Vedlikeholdstips**:
-* Bytt viskerblader minst Ã©n gang i Ã¥ret eller ved striper pÃ¥ ruta
-* RengjÃ¸r gummi med mildt sÃ¥pevann for Ã¥ fjerne smuss og olje
-* Kontroller forsprekker og hardhet fÃ¸r vinteren
-## Vindusspylere - vÃ¦ske og dyser
-Et effektivt spyleranlegg sikrer klar sikt ved trafikk- og miljÃ¸pÃ¥virkning.
+* Bytt viskerblader minst én gang i året eller ved striper på ruta
+* Rengjør gummi med mildt såpevann for å fjerne smuss og olje
+* Kontroller forsprekker og hardhet før vinteren
+## Vindusspylere - væske og dyser
+Et effektivt spyleranlegg sikrer klar sikt ved trafikk- og miljøpåvirkning.
 | Element                | Funksjon                                    | Anbefaling                        |
 |------------------------|---------------------------------------------|-----------------------------------|
-| SpylervÃ¦ske            | Fjerner smuss, insekter og veisalter        | Bruk frostvÃ¦ske om vinteren       |
-| Dyser                  | Sprer vÃ¦ske jevnt over ruta                 | Rens tette dyser med nÃ¥l ved behov|
-| Belgekasse (tanken)    | Oppbevaring av spylervÃ¦ske                  | Sjekk nivÃ¥ regelmessig            |
+| Spylervæske            | Fjerner smuss, insekter og veisalter        | Bruk frostvæske om vinteren       |
+| Dyser                  | Sprer væske jevnt over ruta                 | Rens tette dyser med nål ved behov|
+| Belgekasse (tanken)    | Oppbevaring av spylervæske                  | Sjekk nivå regelmessig            |
 **Tips for spylerbruk**:
-* Skift til vinterspylervÃ¦ske med frostbeskyttelse ved temperatur under 0â€¯Â°C
-* Ikke fyll med vann alene â€“ reduserer frostbeskyttelse og rengjÃ¸ringsevne
-* Sjekk at alle dyser peker riktig for Ã¥ unngÃ¥ blindsoner
-## HÃ¥ndtering av frost og is
-Frontruten kan raskt fryse til eller dekke seg med is. FÃ¸lgende metoder gir *rask og skÃ¥nsom* fjerning:
-1. Bruk *is-skrape* med skarp kant og skÃ¥nsom plast
-2. Tildekk ruten med tepper eller spesialduk fÃ¸r parkering
-3. UnngÃ¥ varmevekst (kald/varm luft-i-rask veksling) som kan skade glasset
+* Skift til vinterspylervæske med frostbeskyttelse ved temperatur under 0?°C
+* Ikke fyll med vann alene – reduserer frostbeskyttelse og rengjøringsevne
+* Sjekk at alle dyser peker riktig for å unngå blindsoner
+## Håndtering av frost og is
+Frontruten kan raskt fryse til eller dekke seg med is. Følgende metoder gir *rask og skånsom* fjerning:
+1. Bruk *is-skrape* med skarp kant og skånsom plast
+2. Tildekk ruten med tepper eller spesialduk før parkering
+3. Unngå varmevekst (kald/varm luft-i-rask veksling) som kan skade glasset
 ## Forebygging og avdugging
-Dugg kan oppstÃ¥ nÃ¥r fuktighet mÃ¸ter kjÃ¸lig glass. UnngÃ¥ dugg med:
-* Bruk av *luftavfukter* eller klimaanlegg (varme pÃ¥ og A/C slÃ¥tt pÃ¥)
-* ForhÃ¥ndsoppvarming av kupÃ©ventilasjonen fÃ¸r start
-* Regelmessig rengjÃ¸ring av innsiden av ruten med egnet glassrens
-| Metode               | Effekt                                     | Viktig Ã¥ huske               |
+Dugg kan oppstå når fuktighet møter kjølig glass. Unngå dugg med:
+* Bruk av *luftavfukter* eller klimaanlegg (varme på og A/C slått på)
+* Forhåndsoppvarming av kupéventilasjonen før start
+* Regelmessig rengjøring av innsiden av ruten med egnet glassrens
+| Metode               | Effekt                                     | Viktig å huske               |
 |----------------------|--------------------------------------------|------------------------------|
-| Klimaanlegg (A/C)    | Fjerner fuktighet raskt fra kupÃ©luften      | Krever motor i gang          |
-| Luftavfukter (svamp) | HÃ¥ndholdt lÃ¸sning ved midlertidig dugg     | Begrenset kapasitet          |
+| Klimaanlegg (A/C)    | Fjerner fuktighet raskt fra kupéluften      | Krever motor i gang          |
+| Luftavfukter (svamp) | Håndholdt løsning ved midlertidig dugg     | Begrenset kapasitet          |
 | Glassrens            | Forhindrer gjentatt dugg ved oljeavvisning | Bruk ammoniakkfri type       |
 ## Oppsummering
-Riktig bruk og vedlikehold av **vindusviskere** og **vindusspylere** er nÃ¸kkelen til god sikt, spesielt under krevende vÃ¦rforhold. Integrer sjekk av systemet i din daglige [sikkerhetssjekk (teknisk bil)](/blogs/teori/sikkerhetssjekk-teknisk-bil "Sikkerhetssjekk (teknisk bil)") for trygg og sikker kjÃ¸ring.
+Riktig bruk og vedlikehold av **vindusviskere** og **vindusspylere** er nøkkelen til god sikt, spesielt under krevende værforhold. Integrer sjekk av systemet i din daglige [sikkerhetssjekk (teknisk bil)](/blogs/teori/sikkerhetssjekk-teknisk-bil "Sikkerhetssjekk (teknisk bil)") for trygg og sikker kjøring.
 For mer om bilens tekniske komponenter, se [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - Oversikt over bilens hovedkomponenter").

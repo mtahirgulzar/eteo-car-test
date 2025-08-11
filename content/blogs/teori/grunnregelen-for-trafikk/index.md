@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Grunnregelen For Trafikk"
 date: 2025-08-06
 draft: false
@@ -144,44 +144,44 @@ tr:hover {
   }
 }
 </style>
-**Vegtrafikkloven Â§Â 3** â€“ **Grunnregelen for trafikken** er det juridiske utgangspunktet for alle trafikkregler i Norge. Denne paragrafen fastslÃ¥r at:
-> *Â«Trafikk skal foregÃ¥ slik at det tas hensyn til andre trafikanter, dyr, miljÃ¸ og eiendom, og slik at det ikke oppstÃ¥r fare eller unÃ¸dig hinder.Â»*
-Dette betyr at **hensynsfullhet** og **aktsomhet** alltid mÃ¥ vÃ¦re fÃ¸rende nÃ¥r du ferdes pÃ¥ vei â€“ selv om ingen spesifikke trafikkskilt, signaler eller regler regulerer situasjonen.
-![Grunnregelen for trafikk](/blogs/teori/grunnregelen-for-trafikk/grunnregelen-for-trafikk-image.svg)
+**Vegtrafikkloven § 3** – **Grunnregelen for trafikken** er det juridiske utgangspunktet for alle trafikkregler i Norge. Denne paragrafen fastslår at:
+> *«Trafikk skal foregå slik at det tas hensyn til andre trafikanter, dyr, miljø og eiendom, og slik at det ikke oppstår fare eller unødig hinder.»*
+Dette betyr at **hensynsfullhet** og **aktsomhet** alltid må være førende når du ferdes på vei – selv om ingen spesifikke trafikkskilt, signaler eller regler regulerer situasjonen.
+![Grunnregelen for trafikk](grunnregelen-for-trafikk-image.svg)
 ## Hvorfor er grunnregelen viktig?
-Grunnregelen (Â§Â 3) er fundamentet som alle andre trafikkregler bygger pÃ¥. Uansett om det gjelder vikeplikt, fartsgrenser eller kjÃ¸remÃ¸nster, mÃ¥ du fÃ¸rst vurdere om dine handlinger:
+Grunnregelen (§ 3) er fundamentet som alle andre trafikkregler bygger på. Uansett om det gjelder vikeplikt, fartsgrenser eller kjøremønster, må du først vurdere om dine handlinger:
 * Tar hensyn til andre trafikanter og myke trafikanter (fotgjengere, syklister).
-* UnngÃ¥r Ã¥ skape fare eller ulempe.
-* Ivaretar miljÃ¸ og infrastruktur.
+* Unngår å skape fare eller ulempe.
+* Ivaretar miljø og infrastruktur.
 For en komplett oversikt over norske trafikklover og forskrifter, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
 ## Anvendelse i praksis
-NÃ¥r du mÃ¸ter en situasjon som ikke reguleres av skilt eller trafikklys, mÃ¥ du bruke grunnregelen:
+Når du møter en situasjon som ikke reguleres av skilt eller trafikklys, må du bruke grunnregelen:
 | Sjekk | Beskrivelse |
 |-------|-------------|
 | **1. Risikoanalyse** | Identifiser potensielle farer for deg og andre. |
 | **2. Hensynsvurdering** | Vurder hvordan du kan redusere risiko eller belastning. |
-| **3. Beslutning** | GjÃ¸r handlingen som er tryggest og mest hensynsfull. |
-Eksempel: Hvis du kjÃ¸rer pÃ¥ en vei uten skilt og ser et fotgjengerfelt med usikrede fotgjengere, mÃ¥ du redusere farten og vike â€“ selv om du har forkjÃ¸rsrett.
+| **3. Beslutning** | Gjør handlingen som er tryggest og mest hensynsfull. |
+Eksempel: Hvis du kjører på en vei uten skilt og ser et fotgjengerfelt med usikrede fotgjengere, må du redusere farten og vike – selv om du har forkjørsrett.
 ## Sammenheng med andre trafikkregler
-Grunnregelen fungerer som et **sikkerhetsnett** nÃ¥r ingen andre regler gir klar veiledning:
-* NÃ¥r ingen skilt eller signaler gjelder, mÃ¥ du vise aktsomhet og vike for myke trafikanter.
+Grunnregelen fungerer som et **sikkerhetsnett** når ingen andre regler gir klar veiledning:
+* Når ingen skilt eller signaler gjelder, må du vise aktsomhet og vike for myke trafikanter.
 * Ved uklarheter, prioriter grunnregelen fremfor egen fremkommelighet.
-Se ogsÃ¥:
-* [Defensiv kjÃ¸ring](/blogs/teori/defensiv-kjoring "Defensiv kjÃ¸ring - Teknikker for trygg kjÃ¸ring") for praktiske teknikker som bygger pÃ¥ aktsomhet.
-* [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - LÃ¦r Ã¥ vurdere risiko i trafikken") for metoder til systematisk vurdering av farer.
-## Vanlige misforstÃ¥elser
-1. **Â«Jeg har forkjÃ¸rsrett, sÃ¥ jeg trenger ikke Ã¥ vÃ¦re forsiktig.Â»**  
-   Grunnregelen krever alltid aktsomhet â€“ forkjÃ¸rsrett fritar ikke for dette.
-2. **Â«Det er ingen skilt, sÃ¥ jeg kan kjÃ¸re som jeg vil.Â»**  
-   Selv uten skilt mÃ¥ du vise hensyn og unngÃ¥ Ã¥ skape fare etter Â§Â 3.
-3. **Â«Grunnregelen gjelder bare [LandeveiskjÃ¸ring](/blogs/teori/landeveiskjoring "LandeveiskjÃ¸ring - Guide til sikker kjÃ¸ring pÃ¥ norske landeveier").Â»**  
-   Paragraf 3 gjelder pÃ¥ alle offentlige og private veier, samt omrÃ¥dene rundt.
-## Forberedelse til teoriprÃ¸ven
-PÃ¥ teoriprÃ¸ven kan du mÃ¸te scenarioer som utfordrer grunnregelen:
+Se også:
+* [Defensiv kjøring](/blogs/teori/defensiv-kjoring "Defensiv kjøring - Teknikker for trygg kjøring") for praktiske teknikker som bygger på aktsomhet.
+* [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Lær å vurdere risiko i trafikken") for metoder til systematisk vurdering av farer.
+## Vanlige misforståelser
+1. **«Jeg har forkjørsrett, så jeg trenger ikke å være forsiktig.»**  
+   Grunnregelen krever alltid aktsomhet – forkjørsrett fritar ikke for dette.
+2. **«Det er ingen skilt, så jeg kan kjøre som jeg vil.»**  
+   Selv uten skilt må du vise hensyn og unngå å skape fare etter § 3.
+3. **«Grunnregelen gjelder bare [Landeveiskjøring](/blogs/teori/landeveiskjoring "Landeveiskjøring - Guide til sikker kjøring på norske landeveier").»**  
+   Paragraf 3 gjelder på alle offentlige og private veier, samt områdene rundt.
+## Forberedelse til teoriprøven
+På teoriprøven kan du møte scenarioer som utfordrer grunnregelen:
 1. Identifiser om spesifikke regler (skilt/lys) gjelder.
-2. Hvis ikke, bruk grunnregelen (Â§Â 3) â€“ reduser fart, vurdÃ©r dine handlinger og vis hensyn.
-3. DokumentÃ©r din vurdering i spÃ¸rsmeldingen.
-FÃ¥ flere tips i vÃ¥r artikkel om [introduksjon til teori for fÃ¸rerkort](/blogs/teori/introduksjon-til-teori-for-forerkort "Introduksjon til teori for fÃ¸rerkort").
+2. Hvis ikke, bruk grunnregelen (§ 3) – reduser fart, vurdér dine handlinger og vis hensyn.
+3. Dokumentér din vurdering i spørsmeldingen.
+Få flere tips i vår artikkel om [introduksjon til teori for førerkort](/blogs/teori/introduksjon-til-teori-for-forerkort "Introduksjon til teori for førerkort").
 ## Oppsummering
-**Grunnregelen for trafikken** i Vegtrafikkloven Â§Â 3 er nÃ¸kkelen til sikker kjÃ¸ring. Ved Ã¥ alltid vÃ¦re aktsom, vise hensyn og unngÃ¥ unÃ¸dig fare eller ulempe, sikrer du en tryggere trafikksituasjon for alle.
-Lykke til med teoriprÃ¸ven!
+**Grunnregelen for trafikken** i Vegtrafikkloven § 3 er nøkkelen til sikker kjøring. Ved å alltid være aktsom, vise hensyn og unngå unødig fare eller ulempe, sikrer du en tryggere trafikksituasjon for alle.
+Lykke til med teoriprøven!

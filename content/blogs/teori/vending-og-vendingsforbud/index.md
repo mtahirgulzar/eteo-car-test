@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Vending Og Vendingsforbud"
 date: 2025-08-06
 draft: false
@@ -144,29 +144,29 @@ tr:hover {
   }
 }
 </style>
-**Vending** (U-sving) er en manÃ¸ver der du snur kjÃ¸retÃ¸yet 180Â° for Ã¥ kjÃ¸re i motsatt retning. **Vendingsforbud** angir hvor og nÃ¥r slik manÃ¸ver er forbudt. I denne veiledningen lÃ¦rer du alt om regler for vending og vendingsforbud â€“ essensiell kunnskap for teoriprÃ¸ven klasse B.
-For generell forstÃ¥else av skilt som angir pÃ¥budt og forbudt kjÃ¸reretning, se [Skilting og valg av felt](/blogs/teori/skilting-og-valg-av-felt "Skilting og valg av felt - Trafikkskilt for kjÃ¸reretning").
-![Vending og vendingsforbud](/blogs/teori/vending-og-vendingsforbud/vending-og-vendingsforbud-image.svg)
+**Vending** (U-sving) er en manøver der du snur kjøretøyet 180° for å kjøre i motsatt retning. **Vendingsforbud** angir hvor og når slik manøver er forbudt. I denne veiledningen lærer du alt om regler for vending og vendingsforbud – essensiell kunnskap for teoriprøven klasse B.
+For generell forståelse av skilt som angir påbudt og forbudt kjøreretning, se [Skilting og valg av felt](/blogs/teori/skilting-og-valg-av-felt "Skilting og valg av felt - Trafikkskilt for kjøreretning").
+![Vending og vendingsforbud](vending-og-vendingsforbud-image.svg)
 ## Hva er vending og vendingsforbud?
-Ved **vending** snur du bilen for Ã¥ kjÃ¸re i motsatt retning. **Vendingsforbud** er skilt eller regler som forhindrer vending der det kan vÃ¦re farlig eller utilbÃ¸rlig.
+Ved **vending** snur du bilen for å kjøre i motsatt retning. **Vendingsforbud** er skilt eller regler som forhindrer vending der det kan være farlig eller utilbørlig.
 **Viktige definisjoner:**
-* **Vending (U-sving):** 180Â°-manÃ¸ver for Ã¥ snu pÃ¥ kurs.
-* **Vendingsforbudsskilt:** SirkulÃ¦rt rÃ¸dt skilt med diagonal strek over en buet pil.
-## NÃ¥r er vending tillatt og forbudt?
+* **Vending (U-sving):** 180°-manøver for å snu på kurs.
+* **Vendingsforbudsskilt:** Sirkulært rødt skilt med diagonal strek over en buet pil.
+## Når er vending tillatt og forbudt?
 | Situasjon                                   | Tillatt | Forbudt |
 |----------------------------------------------|:-------:|:-------:|
-| Fri sikt, ingen skilt                        |    âœ”    |         |
-| Der det er vendingsforbudsskilt             |         |    âœ”    |
-| I veikryss uten trafikk eller hindring       |    âœ”    |         |
-| PÃ¥ motorvei eller motortrafikkvei            |         |    âœ”    |
+| Fri sikt, ingen skilt                        |    ?    |         |
+| Der det er vendingsforbudsskilt             |         |    ?    |
+| I veikryss uten trafikk eller hindring       |    ?    |         |
+| På motorvei eller motortrafikkvei            |         |    ?    |
 ## Trafikkskilt for vendingsforbud
-Skilt som angir vendingsforbud, hÃ¸rer til gruppen forbudsskilt. Symbolforklaring:
+Skilt som angir vendingsforbud, hører til gruppen forbudsskilt. Symbolforklaring:
 | Skiltnummer | Beskrivelse            |
 |-------------|------------------------|
 | 318         | Vendingsforbud (U-sving)
 ## Praktiske tips ved vending
-* Planlegg manÃ¸veren godt â€“ unngÃ¥ vending i veikryss med dÃ¥rlig oversikt.
-* Gi tegn i god tid med blinklys nÃ¥r du vender.
-* Kontroller at det er trygt â€“ se i speil og hodevending.
+* Planlegg manøveren godt – unngå vending i veikryss med dårlig oversikt.
+* Gi tegn i god tid med blinklys når du vender.
+* Kontroller at det er trygt – se i speil og hodevending.
 For detaljer om vikeplikt ved U-sving, se [Vikepliktsregler i detalj](/blogs/teori/vikepliktsregler-i-detalj "Vikepliktsregler i detalj - Detaljert guide til vikeplikt i trafikken").
 For full oversikt over regelverket, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").

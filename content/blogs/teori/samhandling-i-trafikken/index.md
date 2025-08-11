@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Samhandling I Trafikken"
 date: 2025-08-06
 draft: false
@@ -144,40 +144,40 @@ tr:hover {
   }
 }
 </style>
-**Samhandling i trafikken** handler om hvordan fÃ¸reren aktivt og bevisst kommuniserer intensjoner gjennom **tegn og signaler**, tilpasser **fart** og velger riktig **plassering** for Ã¥ skape trygg og smidig trafikk.
-![Samhandling i trafikken](/blogs/teori/samhandling-i-trafikken/samhandling-i-trafikken-image.svg)
+**Samhandling i trafikken** handler om hvordan føreren aktivt og bevisst kommuniserer intensjoner gjennom **tegn og signaler**, tilpasser **fart** og velger riktig **plassering** for å skape trygg og smidig trafikk.
+![Samhandling i trafikken](samhandling-i-trafikken-image.svg)
 ## Tegn og signaler
-Riktig bruk av **tegn og signaler** sikrer at andre trafikanter forstÃ¥r dine intensjoner. Under er en oversikt over vanlige signalformer:
-| Kanal            | Eksempel                            | FormÃ¥l                                    |
+Riktig bruk av **tegn og signaler** sikrer at andre trafikanter forstår dine intensjoner. Under er en oversikt over vanlige signalformer:
+| Kanal            | Eksempel                            | Formål                                    |
 |------------------|-------------------------------------|-------------------------------------------|
-| Blinklys         | Venstre-/hÃ¸yresving                 | Varsle planlagt kursendring               |
+| Blinklys         | Venstre-/høyresving                 | Varsle planlagt kursendring               |
 | Bremselys        | Redusert fart eller stopp           | Signalisere nedbremsing                    |
 | Horn             | Kort hyletone                       | Varsle akutt situasjon                     |
-| Ã˜yekontakt       | Blikk mot fotgjenger eller sjÃ¥fÃ¸r   | Bekrefte forstÃ¥else i komplekse situasjoner |
-| HÃ¥ndsignaler     | Syklister og fotgjengere           | UnderstÃ¸tte intensjon ved uklare situasjoner|
+| Øyekontakt       | Blikk mot fotgjenger eller sjåfør   | Bekrefte forståelse i komplekse situasjoner |
+| Håndsignaler     | Syklister og fotgjengere           | Understøtte intensjon ved uklare situasjoner|
 For detaljer om lys- og signalbruk, se [Bruk av lys og signaler](/blogs/teori/bruk-av-lys-og-signaler "Bruk av lys og signaler - Praktiske regler og tips").
 ## Hastighetstilpasning
-Ã… tilpasse **farten** riktig er essensielt for Ã¥ sikre tid til reaksjon og samhandling:
+Å tilpasse **farten** riktig er essensielt for å sikre tid til reaksjon og samhandling:
 | Situasjon               | Anbefalt fartstilpasning                                         |
 |-------------------------|------------------------------------------------------------------|
-| Tett trafikk            | Hold lav hastighet, fÃ¸lg flyt og unngÃ¥ unÃ¸dvendige manÃ¸vrer       |
+| Tett trafikk            | Hold lav hastighet, følg flyt og unngå unødvendige manøvrer       |
 | Uoversiktlige kryss     | Reduser farten, observer alle signaler og blinklys              |
-| Skarpe svinger          | Senk farten fÃ¸r kurven, unngÃ¥ bremsing i svingen                 |
-| Varierende vÃ¦rforhold   | Tilpass hastighet etter sikt og veigrep (se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Hastighet og bremseavstand")) |
-## Plassering i kjÃ¸rebanen
-Riktig **plassering** gjÃ¸r dine intensjoner forutsigbare og skaper plass for andre:
+| Skarpe svinger          | Senk farten før kurven, unngå bremsing i svingen                 |
+| Varierende værforhold   | Tilpass hastighet etter sikt og veigrep (se [Fart og avstand](/blogs/teori/fart-og-avstand "Fart og avstand - Hastighet og bremseavstand")) |
+## Plassering i kjørebanen
+Riktig **plassering** gjør dine intensjoner forutsigbare og skaper plass for andre:
 | Veitype                | Plassering                                     |
 |------------------------|--------------------------------------------------|
-| Enveisgate med ett felt| Midt i feltet, unngÃ¥ unÃ¸dvendige filskift        |
-| Toveisvei uten midtstripe| Hold til hÃ¸yre, unngÃ¥ Ã¥ krysse midtlinjen      |
-| RundkjÃ¸ring            | Velg ytre bane for avkjÃ¸ring senere, indre for tidlig utfart |
-| Motorvei               | HÃ¸yre kjÃ¸refelt, filskift med blinklys i god tid  |
-Se ogsÃ¥ [Plassering og kjÃ¸remÃ¥te](/blogs/teori/plassering-og-kjoremmate "Plassering og kjÃ¸remÃ¥te - Guide til riktig plassering") for en grundig gjennomgang.
+| Enveisgate med ett felt| Midt i feltet, unngå unødvendige filskift        |
+| Toveisvei uten midtstripe| Hold til høyre, unngå å krysse midtlinjen      |
+| Rundkjøring            | Velg ytre bane for avkjøring senere, indre for tidlig utfart |
+| Motorvei               | Høyre kjørefelt, filskift med blinklys i god tid  |
+Se også [Plassering og kjøremåte](/blogs/teori/plassering-og-kjoremmate "Plassering og kjøremåte - Guide til riktig plassering") for en grundig gjennomgang.
 ## Samspill i komplekse situasjoner
 I situasjoner med mange trafikanter er bevisst **samspill** viktig:
-* Gi rom ved flettefelt og rundkjÃ¸ringer.
+* Gi rom ved flettefelt og rundkjøringer.
 * Vis hensyn til myke trafikanter som syklister og fotgjengere.
-* UnngÃ¥ overraskende manÃ¸vrer ved Ã¥ signalisere tidlig.
+* Unngå overraskende manøvrer ved å signalisere tidlig.
 ## Oppsummering
-God **samhandling i trafikken** krever kombinasjon av tydelige tegn, korrekt fartstilpasning og strategisk plassering. Ved Ã¥ Ã¸ve pÃ¥ disse prinsippene bidrar du til **trygg**, **forutsigbar** og **smidig** trafikk.
-For en helhetlig guide til samhandling, se [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus pÃ¥ situasjonsforstÃ¥else").
+God **samhandling i trafikken** krever kombinasjon av tydelige tegn, korrekt fartstilpasning og strategisk plassering. Ved å øve på disse prinsippene bidrar du til **trygg**, **forutsigbar** og **smidig** trafikk.
+For en helhetlig guide til samhandling, se [Oppmerksomhet og samhandling](/blogs/teori/oppmerksomhet-og-samhandling "Oppmerksomhet og samhandling - Fokus på situasjonsforståelse").

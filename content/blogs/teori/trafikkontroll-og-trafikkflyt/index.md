@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Trafikkontroll Og Trafikkflyt"
 date: 2025-08-06
 draft: false
@@ -144,33 +144,33 @@ tr:hover {
   }
 }
 </style>
-**Trafikkkontroll og trafikkflyt** handler om hvordan ulike myndigheter og personell regulerer trafikken for Ã¥ sikre sikkerhet og effektiv fremkommelighet pÃ¥ norske veier.
-![Trafikkontroll og trafikkflyt](/blogs/teori/trafikkontroll-og-trafikkflyt/trafikkontroll-og-trafikkflyt-image.svg)
+**Trafikkkontroll og trafikkflyt** handler om hvordan ulike myndigheter og personell regulerer trafikken for å sikre sikkerhet og effektiv fremkommelighet på norske veier.
+![Trafikkontroll og trafikkflyt](trafikkontroll-og-trafikkflyt-image.svg)
 For en fullstendig oversikt over gjeldende bestemmelser, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Trafikkregler og krav").
 ## Myndigheter involvert i trafikkontroll
-I Norge kan flere aktÃ¸rer **dirigere trafikk** eller gjennomfÃ¸re kontroller for Ã¥ opprettholde orden, sikkerhet og trafikkflyt:
-![Myndigheter og trafikkontroll](/blogs/teori/trafikkontroll-og-trafikkflyt/myndigheter-trafikk.svg)
+I Norge kan flere aktører **dirigere trafikk** eller gjennomføre kontroller for å opprettholde orden, sikkerhet og trafikkflyt:
+![Myndigheter og trafikkontroll](myndigheter-trafikk.svg)
 | Myndighet              | Rolle                                                       | Juridisk basis                              |
 |------------------------|-------------------------------------------------------------|----------------------------------------------|
-| **Politi**             | Dirigerer trafikk manuelt, hÃ¥ndhever trafikkregler og gir pÃ¥legg | Vegtrafikkloven og politivedtekter           |
-| **Tollvesen**          | Kontroll av kjÃ¸retÃ¸y ved grenseoverganger                   | Tollloven                                    |
-| **Statens vegvesen**   | Inspeksjon, trafikkregulering, veiarbeidssoner og kontroll  | Vegtrafikkloven og kjÃ¸retÃ¸yforskriften       |
-| *Veiarbeidspersonell*  | Midlertidig skilting, stansing og dirigering ved veiarbeid  | Forskrift om utfÃ¸relse av vegarbeid          |
-## Signalering med arm i vÃ¦ret
-NÃ¥r trafikken skal styres forbi hindringer eller i fravÃ¦r av trafikklys, brukes hÃ¥ndsignaler. Den mest kjente er **lÃ¸ft av arm i vÃ¦ret (gult signal)** fra politiet eller anleggspersonell:
-![HÃ¥ndsignal lÃ¸ft av arm](/blogs/teori/trafikkontroll-og-trafikkflyt/politi-arm-signal.svg)
+| **Politi**             | Dirigerer trafikk manuelt, håndhever trafikkregler og gir pålegg | Vegtrafikkloven og politivedtekter           |
+| **Tollvesen**          | Kontroll av kjøretøy ved grenseoverganger                   | Tollloven                                    |
+| **Statens vegvesen**   | Inspeksjon, trafikkregulering, veiarbeidssoner og kontroll  | Vegtrafikkloven og kjøretøyforskriften       |
+| *Veiarbeidspersonell*  | Midlertidig skilting, stansing og dirigering ved veiarbeid  | Forskrift om utførelse av vegarbeid          |
+## Signalering med arm i været
+Når trafikken skal styres forbi hindringer eller i fravær av trafikklys, brukes håndsignaler. Den mest kjente er **løft av arm i været (gult signal)** fra politiet eller anleggspersonell:
+![Håndsignal løft av arm](politi-arm-signal.svg)
 | Signal                         | Betydning                                                         |
 |--------------------------------|-------------------------------------------------------------------|
-| **Arm lÃ¸ftet i vÃ¦ret (gult)**  | Stopp eller reduser fart; forbered deg pÃ¥ videre anvisninger      |
-| **Arm pekende vannrett (rÃ¸d)** | KjÃ¸re (eller kjÃ¸re i den retningen armen peker)                   |
+| **Arm løftet i været (gult)**  | Stopp eller reduser fart; forbered deg på videre anvisninger      |
+| **Arm pekende vannrett (rød)** | Kjøre (eller kjøre i den retningen armen peker)                   |
 | **Begge armer mot korsrygg**   | Stans trafikk i begge retninger                                    |
-Se ogsÃ¥ [Vikeplikt og rundkjÃ¸ringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjÃ¸ringer - komplett guide") for hvordan hÃ¥ndsignaler overstyrer andre regler.
+Se også [Vikeplikt og rundkjøringer](/blogs/teori/vikeplikt-og-rundkjoringer "Vikeplikt og rundkjøringer - komplett guide") for hvordan håndsignaler overstyrer andre regler.
 ## Tiltak for effektiv trafikkflyt
-Trafikkontroll handler ikke bare om stans, men ogsÃ¥ om Ã¥ optimalisere flyt i ulike soner:
+Trafikkontroll handler ikke bare om stans, men også om å optimalisere flyt i ulike soner:
 * Trafikklys og variable skilt for dynamisk fartsjustering
 * Manuell dirigering ved arrangementer og anlegg
-* Bruk av midlertidige veier og omkjÃ¸ringsruter under veiarbeid
-* KjÃ¸retÃ¸yklassifisering og kjÃ¸rebanekontroll ved grense- og bomstasjoner
-For detaljer om hÃ¥ndhevelse og sanksjoner, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Trafikkregler og krav").
+* Bruk av midlertidige veier og omkjøringsruter under veiarbeid
+* Kjøretøyklassifisering og kjørebanekontroll ved grense- og bomstasjoner
+For detaljer om håndhevelse og sanksjoner, se [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Trafikkregler og krav").
 ## Oppsummering
-God forstÃ¥else av **trafikkkontroll og trafikkflyt** er essensielt for trygg kjÃ¸ring. Kjennskap til myndighetenes signaler, rollefordeling og regelverk sikrer at du ferdes korrekt og bidrar til en smidig trafikkavvikling.
+God forståelse av **trafikkkontroll og trafikkflyt** er essensielt for trygg kjøring. Kjennskap til myndighetenes signaler, rollefordeling og regelverk sikrer at du ferdes korrekt og bidrar til en smidig trafikkavvikling.

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Alkohol Promillegrense Og Narkotika"
 date: 2025-08-06
 draft: false
@@ -150,37 +150,37 @@ tr:hover {
   }
 }
 </style>
-Alkohol- og narkotikapÃ¥virkning er en ledende Ã¥rsak til trafikkulykker og alvorlige hendelser pÃ¥ veiene. Denne artikkelen gir deg en **grundig oversikt** over **alkohol**, **promillegrense** og **narkotika** for bilfÃ¸rere i Norge.
-![Alkohol, promillegrense og narkotika](/blogs/teori/alkohol-promillegrense-og-narkotika/alkohol-promillegrense-og-narkotika-image.svg)
-## Alkoholens pÃ¥virkning pÃ¥ kjÃ¸reevnen
-Alkohol pÃ¥virker **dÃ¸mmekraft**, **reaksjonstid** og **koordinasjon** allerede ved lave promillenivÃ¥er. Selv **0,2â€¯â€°** kan betydelig redusere evnen til Ã¥ kontrollere kjÃ¸retÃ¸yet.
-### Vanlige effekter ved ulike promillenivÃ¥er
-| Promille (â€°) | Effekt pÃ¥ kjÃ¸ring                                     |
+Alkohol- og narkotikapåvirkning er en ledende årsak til trafikkulykker og alvorlige hendelser på veiene. Denne artikkelen gir deg en **grundig oversikt** over **alkohol**, **promillegrense** og **narkotika** for bilførere i Norge.
+![Alkohol, promillegrense og narkotika](alkohol-promillegrense-og-narkotika-image.svg)
+## Alkoholens påvirkning på kjøreevnen
+Alkohol påvirker **dømmekraft**, **reaksjonstid** og **koordinasjon** allerede ved lave promillenivåer. Selv **0,2?‰** kan betydelig redusere evnen til å kontrollere kjøretøyet.
+### Vanlige effekter ved ulike promillenivåer
+| Promille (‰) | Effekt på kjøring                                     |
 |--------------|-------------------------------------------------------|
-| **0,1â€“0,2**  | Lett svekket oppmerksomhet og Ã¸kt selvtillit           |
-| **0,3â€“0,5**  | Redusert reaksjonstid og svekket koordinasjon          |
-| **0,6â€“1,0**  | Kraftig nedsatt vurderingsevne og Ã¸kt feilhandling     |
-| **>â€¯1,0**    | Risiko for blackout og alvorlig svekket motoriske ferdigheter |
+| **0,1–0,2**  | Lett svekket oppmerksomhet og økt selvtillit           |
+| **0,3–0,5**  | Redusert reaksjonstid og svekket koordinasjon          |
+| **0,6–1,0**  | Kraftig nedsatt vurderingsevne og økt feilhandling     |
+| **>?1,0**    | Risiko for blackout og alvorlig svekket motoriske ferdigheter |
 ## Loven og promillegrense
-I Norge er **promillegrensen** for bilfÃ¸rere **0,2â€¯â€°**. For enkelte fÃ¸rergrupper gjelder strengere krav eller nulltoleranse:
-| FÃ¸rergruppe                           | Promillegrense       |
+I Norge er **promillegrensen** for bilførere **0,2?‰**. For enkelte førergrupper gjelder strengere krav eller nulltoleranse:
+| Førergruppe                           | Promillegrense       |
 |---------------------------------------|----------------------|
-| Personbil- og motorsykkelfÃ¸rere (B/A) | **0,2â€¯â€°**            |
-| FÃ¸rere i prÃ¸vetid (fÃ¸rste 2 Ã¥r)       | **0,2â€¯â€°**            |
-| YrkesfÃ¸rere (C/D)                     | **0,2â€¯â€°**            |
-| Novise- og tungt erfarne fÃ¸rere       | *0,0â€¯â€° anbefales*    |
+| Personbil- og motorsykkelførere (B/A) | **0,2?‰**            |
+| Førere i prøvetid (første 2 år)       | **0,2?‰**            |
+| Yrkesførere (C/D)                     | **0,2?‰**            |
+| Novise- og tungt erfarne førere       | *0,0?‰ anbefales*    |
 Se hele regelverket i [Lover og forskrifter](/blogs/teori/lover-og-forskrifter "Lover og forskrifter - Oversikt over norske trafikklover og forskrifter").
 ## Narkotiske stoffer og grenseverdier
-Narkotika har ofte langvarige og uforutsigbare effekter. Norge benytter **grenseverdier** i blodprÃ¸ver for ulike stoffgrupper for Ã¥ avgjÃ¸re lovovertredelser.
+Narkotika har ofte langvarige og uforutsigbare effekter. Norge benytter **grenseverdier** i blodprøver for ulike stoffgrupper for å avgjøre lovovertredelser.
 | Stoffgruppe                    | Grenseverdi i blod         |
 |--------------------------------|----------------------------|
-| **Amfetamin/metamfetamin**     | 0,3â€¯Âµg/mL                  |
-| **Kokain (benzoylecgonin)**    | 0,1â€¯Âµg/mL                  |
-| **THC (marihuana/hash)**       | 1,5â€¯Âµg/mL                  |
-| **LSD**                        | 0,3â€¯Âµg/mL                  |
-| **Benzodiazepiner/barbiturater** | 0,1â€¯Âµg/mL                |
-| **GHB/GBL**                    | 10â€¯mg/L                    |
-### Effekter av narkotika pÃ¥ kjÃ¸ring
+| **Amfetamin/metamfetamin**     | 0,3?µg/mL                  |
+| **Kokain (benzoylecgonin)**    | 0,1?µg/mL                  |
+| **THC (marihuana/hash)**       | 1,5?µg/mL                  |
+| **LSD**                        | 0,3?µg/mL                  |
+| **Benzodiazepiner/barbiturater** | 0,1?µg/mL                |
+| **GHB/GBL**                    | 10?mg/L                    |
+### Effekter av narkotika på kjøring
 Narkotiske stoffer kan gi:
 * **Sedasjon** og redusert bevissthet
 * **Svekket koordinasjon** og balanse
@@ -188,13 +188,13 @@ Narkotiske stoffer kan gi:
 * **Feilvurdering av avstand** og hastighet
 * **Blackouts eller hukommelsestap**
 ## Kontroll og konsekvenser
-Politiet kan utfÃ¸re **alkotest**, **blodprÃ¸ver** eller **urinprÃ¸ver** for Ã¥ pÃ¥vise alkohol og narkotika. Brudd pÃ¥ promille- og grenseverdier gir strenge reaksjoner:
-| Overtredelse                  | Straff                                  | FÃ¸lger                              |
+Politiet kan utføre **alkotest**, **blodprøver** eller **urinprøver** for å påvise alkohol og narkotika. Brudd på promille- og grenseverdier gir strenge reaksjoner:
+| Overtredelse                  | Straff                                  | Følger                              |
 |-------------------------------|-----------------------------------------|-------------------------------------|
-| Promille >â€¯0,2â€¯â€°              | Bot og inndragning av fÃ¸rerkort         | Minimum 1 mÃ¥ned                     |
-| THC eller andre narkotika     | Bot og inndragning av fÃ¸rerkort         | Minimum 1 mÃ¥ned                     |
-| Gjentatte overtredelser       | Forlenget fÃ¸rerrettsbeslag og kurs      | Medisinsk vurdering                 |
-| Alvorlig ruspÃ¥virket kjÃ¸ring  | Ubetinget fengsel                       | Sterkere straffereaksjoner          |
-Se ogsÃ¥ [Skikkethet til Ã¥ kjÃ¸re](/blogs/teori/skikkethet-til-a-kjore "Skikkethet til Ã¥ kjÃ¸re (alkohol, stress, sykdom, sÃ¸vn m.m) - Vegtrafikkloven Â§ 21") for andre faktorer som pÃ¥virker kjÃ¸reevnen.
-For praktisk tilnÃ¦rming til vurdering av risiko, se [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken").
-For mer om obligatorisk alkoholavhold som vilkÃ¥r for kjÃ¸ring, se [Pliktmessig avhold](/blogs/teori/pliktmessig-avhold "Pliktmessig avhold").
+| Promille >?0,2?‰              | Bot og inndragning av førerkort         | Minimum 1 måned                     |
+| THC eller andre narkotika     | Bot og inndragning av førerkort         | Minimum 1 måned                     |
+| Gjentatte overtredelser       | Forlenget førerrettsbeslag og kurs      | Medisinsk vurdering                 |
+| Alvorlig ruspåvirket kjøring  | Ubetinget fengsel                       | Sterkere straffereaksjoner          |
+Se også [Skikkethet til å kjøre](/blogs/teori/skikkethet-til-a-kjore "Skikkethet til å kjøre (alkohol, stress, sykdom, søvn m.m) - Vegtrafikkloven § 21") for andre faktorer som påvirker kjøreevnen.
+For praktisk tilnærming til vurdering av risiko, se [Risikovurdering i praksis](/blogs/teori/risikovurdering-i-praksis "Risikovurdering i praksis - Praktisk risikovurdering i trafikken").
+For mer om obligatorisk alkoholavhold som vilkår for kjøring, se [Pliktmessig avhold](/blogs/teori/pliktmessig-avhold "Pliktmessig avhold").

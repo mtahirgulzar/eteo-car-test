@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Bremsesystemet"
 date: 2025-08-06
 draft: false
@@ -144,47 +144,47 @@ tr:hover {
   }
 }
 </style>
-For et trygt kjÃ¸retÃ¸y mÃ¥ **bremsesystemet** fungere optimalt under alle forhold. I denne artikkelen gÃ¥r vi i dybden pÃ¥ **hydrauliske kretser**, **bremsevÃ¦ske**, **komponenter** og **vedlikehold** av bremsesystemet.
-![Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)](/blogs/teori/bremsesystemet/bremsesystemet-image.svg)
+For et trygt kjøretøy må **bremsesystemet** fungere optimalt under alle forhold. I denne artikkelen går vi i dybden på **hydrauliske kretser**, **bremsevæske**, **komponenter** og **vedlikehold** av bremsesystemet.
+![Bremsesystemet (bremsekretser, bremsevæske m.m)](bremsesystemet-image.svg)
 ## Oversikt over bremsesystemet
-Bremsesystemet i moderne biler kombinerer _hydraulikk_ og _elektronikk_ for Ã¥ sikre jevn og pÃ¥litelig stoppkraft. Systemet er delt inn i separate kretser, bruker spesialisert vÃ¦ske og flere mekaniske komponenter for Ã¥ overfÃ¸re kraft fra fÃ¸rerens fot til hjulene.
+Bremsesystemet i moderne biler kombinerer _hydraulikk_ og _elektronikk_ for å sikre jevn og pålitelig stoppkraft. Systemet er delt inn i separate kretser, bruker spesialisert væske og flere mekaniske komponenter for å overføre kraft fra førerens fot til hjulene.
 ## Bremsekretser
-Bildet under viser hovedkrets og hjelpeskrets koblet til bremsevÃ¦skeresevoaret:
-![Bremsekretser](/blogs/teori/bremsesystemet/bremsesystemet-bremsekretser.svg)
+Bildet under viser hovedkrets og hjelpeskrets koblet til bremsevæskeresevoaret:
+![Bremsekretser](bremsesystemet-bremsekretser.svg)
 | Krets         | Funksjon                                                     |
 |---------------|--------------------------------------------------------------|
-| **Hovedkrets**   | OverfÃ¸rer trykk til to hjul (vanligvis foran)                |
-| **Hjelpeskrets** | OverfÃ¸rer trykk til de to andre hjul (vanligvis bak)         |
-| **Resevoar**     | Lager bremsevÃ¦ske og kompenserer for slitasje               |
-## BremsevÃ¦ske
-BremsevÃ¦ske er avgjÃ¸rende for Ã¥ overfÃ¸re hydraulisk trykk uten komprimering. Riktig type vÃ¦ske og vedlikehold av kvaliteten er essensielt for sikkerheten.
-![BremsevÃ¦ske](/blogs/teori/bremsesystemet/bremsesystemet-bremsevaeske.svg)
-| Type       | Kokepunkt (tÃ¸rt/vÃ¥tt) | Egenskaper                  |
+| **Hovedkrets**   | Overfører trykk til to hjul (vanligvis foran)                |
+| **Hjelpeskrets** | Overfører trykk til de to andre hjul (vanligvis bak)         |
+| **Resevoar**     | Lager bremsevæske og kompenserer for slitasje               |
+## Bremsevæske
+Bremsevæske er avgjørende for å overføre hydraulisk trykk uten komprimering. Riktig type væske og vedlikehold av kvaliteten er essensielt for sikkerheten.
+![Bremsevæske](bremsesystemet-bremsevaeske.svg)
+| Type       | Kokepunkt (tørt/vått) | Egenskaper                  |
 |------------|-----------------------|-----------------------------|
-| **DOT 3**  | 205â€¯Â°C / 140â€¯Â°C        | Vanlig pÃ¥ eldre kjÃ¸retÃ¸y    |
-| **DOT 4**  | 230â€¯Â°C / 155â€¯Â°C        | HÃ¸yere kokepunkt, standard  |
-| **DOT 5.1**| 260â€¯Â°C / 180â€¯Â°C        | For krevende bruk og racing |
+| **DOT 3**  | 205?°C / 140?°C        | Vanlig på eldre kjøretøy    |
+| **DOT 4**  | 230?°C / 155?°C        | Høyere kokepunkt, standard  |
+| **DOT 5.1**| 260?°C / 180?°C        | For krevende bruk og racing |
 ## Hovedkomponenter
 De viktigste mekaniske delene i et bremsesystem er:
-* **Bremseklosser** â€“ skaper friksjon mot skiven eller trommelen
-* **Bremseskiver/tromler** â€“ mottar friksjonen og bremser hjulrotasjonen
-* **BremserÃ¸r/slanger** â€“ leder bremsevÃ¦ske til hjulene
-* [**ABS-sensorer**](/blogs/teori/abs-antiblokkeringssystem "ABS (Antiblokkeringssystem)") â€“ overvÃ¥ker hjulhastighet og forhindrer lÃ¥sing
+* **Bremseklosser** – skaper friksjon mot skiven eller trommelen
+* **Bremseskiver/tromler** – mottar friksjonen og bremser hjulrotasjonen
+* **Bremserør/slanger** – leder bremsevæske til hjulene
+* [**ABS-sensorer**](/blogs/teori/abs-antiblokkeringssystem "ABS (Antiblokkeringssystem)") – overvåker hjulhastighet og forhindrer låsing
 ## Vedlikehold og kontroll
 Regelmessig inspeksjon av bremsesystemet forebygger farlige situasjoner:
-* **Kontroll av bremsevÃ¦skenivÃ¥** hver 12. mÃ¥ned eller ved service
-* **Utskifting av bremsevÃ¦ske** minst hvert 2. Ã¥r (DOT 4) eller i henhold til produsent
-* **Sjekk av bremseklosser** for minstykkelse (min. 2â€“3â€¯mm)
+* **Kontroll av bremsevæskenivå** hver 12. måned eller ved service
+* **Utskifting av bremsevæske** minst hvert 2. år (DOT 4) eller i henhold til produsent
+* **Sjekk av bremseklosser** for minstykkelse (min. 2–3?mm)
 * **Inspeksjon av bremseskiver/tromler** for deformasjon og slitasje
-## FeilsÃ¸king vanlige problemer
-* **Myk bremsepedal** â€“ kan indikere luft i systemet eller lavt vÃ¦skenivÃ¥
-* **Skrikende lyder** â€“ slitte klosser eller fremmedlegemer
-* **Vibrasjon i ratt eller pedal** â€“ deformerte skiver
-* **Varsellampe for bremsesystem** â€“ fÃ¸lg alltid opp feilkode eller varsel
-## Viktige begreper for teoriprÃ¸ven
-* **Hydraulisk krets** â€“ system der trykk overfÃ¸res i vÃ¦ske
-* **Kokepunkt** â€“ avgjÃ¸r risiko for dampblokkering ved hÃ¸y belastning
-* [**ABS** (Antiblokkeringssystem)](/blogs/teori/abs-antiblokkeringssystem "ABS (Antiblokkeringssystem)") â€“ bevarer styrekontroll ved bremsing
+## Feilsøking vanlige problemer
+* **Myk bremsepedal** – kan indikere luft i systemet eller lavt væskenivå
+* **Skrikende lyder** – slitte klosser eller fremmedlegemer
+* **Vibrasjon i ratt eller pedal** – deformerte skiver
+* **Varsellampe for bremsesystem** – følg alltid opp feilkode eller varsel
+## Viktige begreper for teoriprøven
+* **Hydraulisk krets** – system der trykk overføres i væske
+* **Kokepunkt** – avgjør risiko for dampblokkering ved høy belastning
+* [**ABS** (Antiblokkeringssystem)](/blogs/teori/abs-antiblokkeringssystem "ABS (Antiblokkeringssystem)") – bevarer styrekontroll ved bremsing
 ## Videre lesning
 * [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - En oversikt over bilens hovedkomponenter")
 * [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Stoppeavstand og reaksjonstid")

@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Bremsefeil"
 date: 2025-08-06
 draft: false
@@ -144,33 +144,33 @@ tr:hover {
   }
 }
 </style>
-**Bremsefeil** er et kritisk emne innen fÃ¸rerkortteori for bil i Norge. Feil i **bremsesystemet** kan fÃ¸re til redusert bremseevne, ukontrollerte bremsehendelser eller totale bremseutfall. Det er derfor viktig Ã¥ kjenne til vanlige symptomer, Ã¥rsaker og forebyggende tiltak.
-*For en teknisk oversikt over bremsesystemet, se [Bremsesystemet](/blogs/teori/bremsesystemet "Bremsesystemet - Hydrauliske kretser, bremsevÃ¦ske og komponenter").*
-![Bremsefeil](/blogs/teori/bremsefeil/bremsefeil-image.svg)
+**Bremsefeil** er et kritisk emne innen førerkortteori for bil i Norge. Feil i **bremsesystemet** kan føre til redusert bremseevne, ukontrollerte bremsehendelser eller totale bremseutfall. Det er derfor viktig å kjenne til vanlige symptomer, årsaker og forebyggende tiltak.
+*For en teknisk oversikt over bremsesystemet, se [Bremsesystemet](/blogs/teori/bremsesystemet "Bremsesystemet - Hydrauliske kretser, bremsevæske og komponenter").*
+![Bremsefeil](bremsefeil-image.svg)
 ## Hva er en bremsefeil?
-> En **bremsefeil** oppstÃ¥r nÃ¥r Ã©n eller flere komponenter i bremsesystemet ikke fungerer som de skal. Dette kan variere fra mindre avvik, som luft i systemet, til alvorlige feil, som komplett trykktap.
+> En **bremsefeil** oppstår når én eller flere komponenter i bremsesystemet ikke fungerer som de skal. Dette kan variere fra mindre avvik, som luft i systemet, til alvorlige feil, som komplett trykktap.
 ## Vanlige typer bremsefeil
 | Type feil                  | Symptom                                            | Umiddelbar handling                                |
 |----------------------------|----------------------------------------------------|-----------------------------------------------------|
-| **Lekasje av bremsevÃ¦ske** | Lavt vÃ¦skenivÃ¥, myk bremsepedal                    | Stans sikkert, kontroller nivÃ¥ og lekkasjer         |
-| **Luft i bremsesystemet**  | Svampete pedal, redusert bremsefÃ¸lelse             | Luft ut systemet hos verksted                       |
+| **Lekasje av bremsevæske** | Lavt væskenivå, myk bremsepedal                    | Stans sikkert, kontroller nivå og lekkasjer         |
+| **Luft i bremsesystemet**  | Svampete pedal, redusert bremsefølelse             | Luft ut systemet hos verksted                       |
 | **Slitte bremseklosser**   | Hyling, lengre bremselengde                        | Bytt klosser og sjekk skiver                        |
-| **Kokepunktfeil**          | Tap av bremseeffekt ved hÃ¸y belastning (varmt)     | Skift bremsevÃ¦ske med riktig DOT-klasse             |
+| **Kokepunktfeil**          | Tap av bremseeffekt ved høy belastning (varmt)     | Skift bremsevæske med riktig DOT-klasse             |
 | **ABS-sensorfeil**         | Varsellampe **ABS**, redusert styrekontroll ved bremsing | Sjekk sensorer, ledninger og rens hjulmagnet |
-## Ã…rsaker og forebygging
-FÃ¸lgende tiltak bidrar til Ã¥ redusere risikoen for bremsefeil:
-* **Regelmessig kontroll av bremsevÃ¦skenivÃ¥** â€“ se [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - Oversikt over bilens hovedkomponenter").
-* **Utskifting av bremsevÃ¦ske** hver 1.â€“2. Ã¥r avhengig av kjÃ¸reforhold.
+## Årsaker og forebygging
+Følgende tiltak bidrar til å redusere risikoen for bremsefeil:
+* **Regelmessig kontroll av bremsevæskenivå** – se [Bilens tekniske deler](/blogs/teori/bilens-tekniske-deler "Bilens tekniske deler - Oversikt over bilens hovedkomponenter").
+* **Utskifting av bremsevæske** hver 1.–2. år avhengig av kjøreforhold.
 * **Visuell inspeksjon av slitedeler** som bremseklosser og skiver.
-* **FÃ¸lg produsentens vedlikeholdsprogram** og bruk anbefalt DOT-klasse.
-## Hva gjÃ¸r du ved bremsefeil under kjÃ¸ring?
+* **Følg produsentens vedlikeholdsprogram** og bruk anbefalt DOT-klasse.
+## Hva gjør du ved bremsefeil under kjøring?
 1. **Hold roen** og reduser hastighet gradvis.
-2. **Bruk motorbrems** (veksle ned gir) for Ã¥ redusere farten.
-3. **Aktiver nÃ¸dblink** for Ã¥ advare andre trafikanter.
-4. **Stopp pÃ¥ trygg plass** og kontroller bremsene.
+2. **Bruk motorbrems** (veksle ned gir) for å redusere farten.
+3. **Aktiver nødblink** for å advare andre trafikanter.
+4. **Stopp på trygg plass** og kontroller bremsene.
 ## Videre lesning
 * [Fotbrems og parkeringsbrems](/blogs/teori/fotbrems-og-parkeringsbrems "Fotbrems og parkeringsbrems - Servicebrems og parkeringsbrems")
 * [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Stoppeavstand og reaksjonstid").
 * [Malere og varsellamper](/blogs/teori/malere-og-varsellamper "Malere og varsellamper - Forklaring av varseltegn").
-* [Sikkerhetssjekk teknisk bil](/blogs/teori/sikkerhetssjekk-teknisk-bil "Sikkerhetssjekk teknisk bil - Rutinemessig sjekk fÃ¸r kjÃ¸ring").
-* [Fordeling av bremsekraft og skjevtrekk](/blogs/teori/fordeling-av-bremsekraft-og-skjevtrekk "Fordeling av bremsekraft og skjevtrekk - UnngÃ¥ skjevtrekk ved bremsing").
+* [Sikkerhetssjekk teknisk bil](/blogs/teori/sikkerhetssjekk-teknisk-bil "Sikkerhetssjekk teknisk bil - Rutinemessig sjekk før kjøring").
+* [Fordeling av bremsekraft og skjevtrekk](/blogs/teori/fordeling-av-bremsekraft-og-skjevtrekk "Fordeling av bremsekraft og skjevtrekk - Unngå skjevtrekk ved bremsing").

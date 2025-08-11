@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Trafikksystemet Lys"
 date: 2025-08-06
 draft: false
@@ -144,34 +144,34 @@ tr:hover {
   }
 }
 </style>
-**Trafikksystemet (lys)** omfatter alle faste **lys- og signalanlegg** langs og over veien som regulerer trafikkflyt, gir informasjon og sikrer trafikksikkerhet. I dette kapittelet fÃ¥r du en grundig oversikt over de viktigste signaltypene, deres betydning og regler.
+**Trafikksystemet (lys)** omfatter alle faste **lys- og signalanlegg** langs og over veien som regulerer trafikkflyt, gir informasjon og sikrer trafikksikkerhet. I dette kapittelet får du en grundig oversikt over de viktigste signaltypene, deres betydning og regler.
 ## Oversikt over signaltyper
 Nedenfor finner du en tabell over de viktigste signaltypene i trafikksystemet:
-| Signaltype                          | Beskrivelse                                           | Se ogsÃ¥                                                                                                   |
+| Signaltype                          | Beskrivelse                                           | Se også                                                                                                   |
 |-------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| **Trafikklys**                      | Tre-farget signal for kjÃ¸retÃ¸y med rÃ¸dt, gult og grÃ¸nt.| [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier") |
-| **Fotgjengersignal**                | Signal for gÃ¥ende med grÃ¸nt gÃ¥-symbol og rÃ¸dt hÃ¥nd-symbol.| [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier") |
+| **Trafikklys**                      | Tre-farget signal for kjøretøy med rødt, gult og grønt.| [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier") |
+| **Fotgjengersignal**                | Signal for gående med grønt gå-symbol og rødt hånd-symbol.| [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier") |
 | **Pilsignal**                       | Gult blinksignal, ofte brukt i midlertidig trafikkstyring.| [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier") |
-| **KjÃ¸refeltsignal**                 | Elektroniske signaler over kjÃ¸refelt som viser tillatt retning eller forbud.| |
-| **Blinkende signal ved jernbane**   | RÃ¸dt blinkende signal ved planovergang som varsler om tog.| [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier") |
-| **Veiarbeidslys**                   | Oransje blinkende lamper brukt for Ã¥ lede trafikk ved veiarbeid.| [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking") |
-| **Kollektivtrafikklys (hvit)**      | Hvitt signal som viser nÃ¥r buss og trikk kan kjÃ¸re i kollektivfelt. | [Trafikksystemet](/blogs/teori/trafikksystemet "Trafikksystemet - InnfÃ¸ring i det norske trafikksystemet"), [Sporvogn i trafikken](/blogs/teori/sporvogn-i-trafikken "Sporvogn i trafikken â€“ Lys og regler") |
+| **Kjørefeltsignal**                 | Elektroniske signaler over kjørefelt som viser tillatt retning eller forbud.| |
+| **Blinkende signal ved jernbane**   | Rødt blinkende signal ved planovergang som varsler om tog.| [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier") |
+| **Veiarbeidslys**                   | Oransje blinkende lamper brukt for å lede trafikk ved veiarbeid.| [Trafikkskilt og veimerking](/blogs/teori/trafikkskilt-og-veimerking "Trafikkskilt og veimerking - Komplett guide til trafikkskilt og veimerking") |
+| **Kollektivtrafikklys (hvit)**      | Hvitt signal som viser når buss og trikk kan kjøre i kollektivfelt. | [Trafikksystemet](/blogs/teori/trafikksystemet "Trafikksystemet - Innføring i det norske trafikksystemet"), [Sporvogn i trafikken](/blogs/teori/sporvogn-i-trafikken "Sporvogn i trafikken – Lys og regler") |
 ## Hvordan signalene regulerer trafikk
-* **Trafikklys** styrer kryss og gangfelter ved Ã¥ veksle mellom fargefasene.
-* **Fotgjengersignal** samarbeider med trafikklys for kjÃ¸retÃ¸y for trygg kryssing.
+* **Trafikklys** styrer kryss og gangfelter ved å veksle mellom fargefasene.
+* **Fotgjengersignal** samarbeider med trafikklys for kjøretøy for trygg kryssing.
 * **Pilsignal** brukes ofte i midlertidig trafikkstyring, som ved veiarbeid.
-* **KjÃ¸refeltsignal** gir fleksibilitet i kjÃ¸remÃ¸nster ved dynamisk kjÃ¸refeltsstyring.
+* **Kjørefeltsignal** gir fleksibilitet i kjøremønster ved dynamisk kjørefeltsstyring.
 * **Blinkende signal ved jernbane** aktiverer planovergangsalarmer og stenger veien ved togpassering.
-* **Veiarbeidslys** varsler og leder trafikk sikkert gjennom arbeidsomrÃ¥det.
+* **Veiarbeidslys** varsler og leder trafikk sikkert gjennom arbeidsområdet.
 * **Kollektivtrafikklys** prioriterer buss og trikk i egne felt, slik at kollektivtrafikken flyter bedre.
 ## Generelle regler og anbefalinger
-### Plikten til Ã¥ fÃ¸lge signaler
-Alle trafikanter er **pliktig** til Ã¥ fÃ¸lge de faste lys- og signalanleggene. Brudd pÃ¥ signalplikt kan fÃ¸re til bot og prikkbelastning.
+### Plikten til å følge signaler
+Alle trafikanter er **pliktig** til å følge de faste lys- og signalanleggene. Brudd på signalplikt kan føre til bot og prikkbelastning.
 ### Ved feil eller manglende signal
-Ved svikt i signalanlegg mÃ¥ fÃ¸rer vise spesiell aktsomhet, redusere fart og gi tjenlig vikeplikt. Se [HÃ¥ndtering av nÃ¸dsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "HÃ¥ndtering av nÃ¸dsituasjoner") for mer informasjon.
+Ved svikt i signalanlegg må fører vise spesiell aktsomhet, redusere fart og gi tjenlig vikeplikt. Se [Håndtering av nødsituasjoner](/blogs/teori/handtering-av-nodsituasjoner "Håndtering av nødsituasjoner") for mer informasjon.
 ## Illustrasjon over signaloversikt
-![Oversikt signalflukt](/blogs/teori/trafikksystemet-lys/trafikksystemet-lys-oversikt.svg)
+![Oversikt signalflukt](trafikksystemet-lys-oversikt.svg)
 ## Videre lesning
 * [Trafikksystemet (lys)](/blogs/teori/trafikksystemet-lys "Trafikksystemet (lys) - Trafikklys og signalanlegg")
 * [Trafikksystemet (skilt)](/blogs/teori/trafikksystemet-skilt "Trafikksystemet (skilt) - Skiltgrupper og kategorier")
-* [Trafikkregler for spesielle kjÃ¸retÃ¸y](/blogs/teori/trafikkregler-for-spesielle-kjoretoy "Trafikkregler for spesielle kjÃ¸retÃ¸y")
+* [Trafikkregler for spesielle kjøretøy](/blogs/teori/trafikkregler-for-spesielle-kjoretoy "Trafikkregler for spesielle kjøretøy")

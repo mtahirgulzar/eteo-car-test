@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "Abs Antiblokkeringssystem"
 date: 2025-08-06
 draft: false
@@ -150,44 +150,44 @@ tr:hover {
   }
 }
 </style>
-Antiblokkeringssystemet, eller **ABS**, er et avgjÃ¸rende **sikkerhetssystem** i moderne biler som forhindrer at hjulene lÃ¥ser seg under bremsing.
-Ved Ã¥ opprettholde styrekontroll og optimalisere bremselengden bidrar ABS til Ã¸kt trafikksikkerhet.
-![ABS (Antiblokkeringssystem)](/blogs/teori/abs-antiblokkeringssystem/abs-antiblokkeringssystem-image.svg)
+Antiblokkeringssystemet, eller **ABS**, er et avgjørende **sikkerhetssystem** i moderne biler som forhindrer at hjulene låser seg under bremsing.
+Ved å opprettholde styrekontroll og optimalisere bremselengden bidrar ABS til økt trafikksikkerhet.
+![ABS (Antiblokkeringssystem)](abs-antiblokkeringssystem-image.svg)
 ## Hva er ABS?
-**ABS** stÃ¥r for *Antiblokkeringssystem* og er designet for Ã¥ hindre at hjulene gÃ¥r i lÃ¥s ved kraftig bremsing.
-Systemet sikrer at du beholder styringsevnen og kan manÃ¸vrere uten at hjulene sklir.
-Se ogsÃ¥ [Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)") for en teknisk gjennomgang av bremsesystemets komponenter.
+**ABS** står for *Antiblokkeringssystem* og er designet for å hindre at hjulene går i lås ved kraftig bremsing.
+Systemet sikrer at du beholder styringsevnen og kan manøvrere uten at hjulene sklir.
+Se også [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)") for en teknisk gjennomgang av bremsesystemets komponenter.
 ## Kort historikk
-ABS ble fÃ¸rst introdusert pÃ¥ produksjonsbiler tidlig pÃ¥ 1970-tallet. Siden har teknologien utviklet seg med raskere sensorer og mer avanserte styreenheter.
+ABS ble først introdusert på produksjonsbiler tidlig på 1970-tallet. Siden har teknologien utviklet seg med raskere sensorer og mer avanserte styreenheter.
 ## Hvordan fungerer ABS?
-ABS kombinerer mekaniske, elektroniske og hydrauliske komponenter for Ã¥ regulere bremsetrykket kontinuerlig:
-* **Hjulhastighetssensorer** mÃ¥ler hvert hjuls rotasjonshastighet.
-* **ABS-modulen** sammenligner dataene og oppdager fare for hjullÃ¥sing.
+ABS kombinerer mekaniske, elektroniske og hydrauliske komponenter for å regulere bremsetrykket kontinuerlig:
+* **Hjulhastighetssensorer** måler hvert hjuls rotasjonshastighet.
+* **ABS-modulen** sammenligner dataene og oppdager fare for hjullåsing.
 * **Hydrauliske ventiler** justerer bremsetrykket ved behov.
-* **Pumpesystem** gjenoppretter bremsetrykk raskt for Ã¥ opprettholde optimal friksjon.
-* FÃ¸reren opplever **vibrasjoner i bremsepedalen** nÃ¥r ABS er aktivt.
-![Hvordan ABS fungerer](/blogs/teori/abs-antiblokkeringssystem/abs-funksjon.svg)
+* **Pumpesystem** gjenoppretter bremsetrykk raskt for å opprettholde optimal friksjon.
+* Føreren opplever **vibrasjoner i bremsepedalen** når ABS er aktivt.
+![Hvordan ABS fungerer](abs-funksjon.svg)
 ## Fordeler med ABS
 * **Bevarer styrekontroll** selv ved hard bremsing.
-* **Reduserer bremselengde** pÃ¥ tÃ¸rre og vÃ¥te veier.
-* **Forhindrer slitasje** fra blokkering og flatkjÃ¸ring av dekk.
+* **Reduserer bremselengde** på tørre og våte veier.
+* **Forhindrer slitasje** fra blokkering og flatkjøring av dekk.
 * **Grunnlag for moderne sikkerhetssystemer** som ESC og Traction Control.
 ## Begrensninger og forhold
-* PÃ¥ meget glatt underlag (is, lÃ¸s snÃ¸) kan ABS i enkelte tilfeller Ã¸ke bremselengden.
+* På meget glatt underlag (is, løs snø) kan ABS i enkelte tilfeller øke bremselengden.
 * Systemet er avhengig av god sensor- og ventiltilstand.
 * ABS erstatter ikke god bremseteknikk og tilpasset hastighet.
 ## Vedlikehold og kontroll
 * **Kontroller varsellampe for ABS** ved tenning av tenningen.
 * **Les av feilkoder** ved diagnose hvis lampen forblir tent.
 * **Inspiser komponenter** (sensorer, ledninger, ventiler) ved service.
-* **FÃ¸lg bilprodusentens intervaller** for vedlikehold.
-## Relevans for teoriprÃ¸ven
-* Kjenn **prinsippene bak ABS** og hva som skjer nÃ¥r systemet aktiveres.
-* ForstÃ¥ **fordeler og begrensninger** i ulike kjÃ¸resituasjoner.
-* VÃ¦r forberedt pÃ¥ Ã¥ **forklare hvordan ABS bidrar** til trygg bremsing.
+* **Følg bilprodusentens intervaller** for vedlikehold.
+## Relevans for teoriprøven
+* Kjenn **prinsippene bak ABS** og hva som skjer når systemet aktiveres.
+* Forstå **fordeler og begrensninger** i ulike kjøresituasjoner.
+* Vær forberedt på å **forklare hvordan ABS bidrar** til trygg bremsing.
 ## Videre lesning
 * [Aktiv og passiv sikkerhet](/blogs/teori/aktiv-og-passiv-sikkerhet "Aktiv og passiv sikkerhet - ESP, airbag og mer") - Grunnleggende om aktiv og passiv sikkerhetssystemer i bil
-* [Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevÃ¦ske m.m)")
-* [KjÃ¸ring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "KjÃ¸ring under vanskelige forhold")
+* [Bremsesystemet (bremsekretser, bremsevæske m.m)](/blogs/teori/bremsesystemet "Bremsesystemet (bremsekretser, bremsevæske m.m)")
+* [Kjøring under vanskelige forhold](/blogs/teori/kjoring-under-vanskelige-forhold "Kjøring under vanskelige forhold")
 * [Reaksjonstid og bremselengde](/blogs/teori/reaksjonstid-og-bremselengde "Reaksjonstid og bremselengde - Stoppeavstand og reaksjonstid")
-* [KjÃ¸retÃ¸yets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "KjÃ¸retÃ¸yets sikkerhetsutstyr - ABS, ESC og mer")
+* [Kjøretøyets sikkerhetsutstyr](/blogs/teori/kjoretoyets-sikkerhetsutstyr "Kjøretøyets sikkerhetsutstyr - ABS, ESC og mer")
